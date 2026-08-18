@@ -4,7 +4,7 @@
  "first_seen": "2026-08-18T23:20:13+00:00",
  "id": "nasa-neo",
  "pending_keys": [],
- "runs": 3,
+ "runs": 4,
  "schema": {
   "close_approach_count": [
    "integer"
@@ -25,7 +25,7 @@
    "string"
   ]
  },
- "ts": "2026-08-18T23:23:51+00:00",
+ "ts": "2026-08-18T23:33:41+00:00",
  "url": "https://api.nasa.gov/neo/rest/v1/stats?api_key=DEMO_KEY",
  "vendor": "NASA"
 }
