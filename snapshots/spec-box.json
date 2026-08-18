@@ -4,7 +4,7 @@
  "first_seen": "2026-08-18T23:20:13+00:00",
  "id": "spec-box",
  "pending_keys": [],
- "runs": 3,
+ "runs": 4,
  "schema": {
   "DELETE /ai_agents/{agent_id}": [
    "params:1",
@@ -2530,7 +2530,7 @@
    "req:0"
   ]
  },
- "ts": "2026-08-18T23:23:51+00:00",
+ "ts": "2026-08-18T23:33:41+00:00",
  "url": "https://raw.githubusercontent.com/box/box-openapi/main/openapi.json",
  "vendor": "Box"
 }
