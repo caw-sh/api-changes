@@ -4,7 +4,7 @@
  "first_seen": "2026-08-18T23:38:25+00:00",
  "id": "spec-sentry",
  "pending_keys": [],
- "runs": 1,
+ "runs": 2,
  "schema": {
   "DELETE /api/0/organizations/{organization_id_or_slug}/dashboards/{dashboard_id}/": [
    "params:2",
@@ -1719,7 +1719,7 @@
    "req:0"
   ]
  },
- "ts": "2026-08-18T23:38:25+00:00",
+ "ts": "2026-08-18T23:43:32+00:00",
  "url": "https://raw.githubusercontent.com/getsentry/sentry-api-schema/main/openapi-derefed.json",
  "vendor": "Sentry"
 }

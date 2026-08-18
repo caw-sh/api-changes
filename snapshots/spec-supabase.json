@@ -4,7 +4,7 @@
  "first_seen": "2026-08-18T23:38:25+00:00",
  "id": "spec-supabase",
  "pending_keys": [],
- "runs": 1,
+ "runs": 2,
  "schema": {
   "DELETE /v1/branches/{branch_id_or_ref}": [
    "params:2",
@@ -1344,7 +1344,7 @@
    "req:1"
   ]
  },
- "ts": "2026-08-18T23:38:25+00:00",
+ "ts": "2026-08-18T23:43:32+00:00",
  "url": "https://api.supabase.com/api/v1-json",
  "vendor": "Supabase"
 }

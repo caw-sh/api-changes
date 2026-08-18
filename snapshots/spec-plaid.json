@@ -4,7 +4,7 @@
  "first_seen": "2026-08-18T23:38:25+00:00",
  "id": "spec-plaid",
  "pending_keys": [],
- "runs": 1,
+ "runs": 2,
  "schema": {
   "GET /fdx/consents": [
    "params:2",
@@ -11427,7 +11427,7 @@
    "req:0"
   ]
  },
- "ts": "2026-08-18T23:38:25+00:00",
+ "ts": "2026-08-18T23:43:32+00:00",
  "url": "https://raw.githubusercontent.com/plaid/plaid-openapi/master/2020-09-14.yml",
  "vendor": "Plaid"
 }

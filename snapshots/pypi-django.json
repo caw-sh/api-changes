@@ -4,7 +4,7 @@
  "first_seen": "2026-08-18T23:20:13+00:00",
  "id": "pypi-django",
  "pending_keys": [],
- "runs": 4,
+ "runs": 5,
  "schema": {
   "info": [
    "object"
@@ -29103,7 +29103,7 @@
    "array"
   ]
  },
- "ts": "2026-08-18T23:38:25+00:00",
+ "ts": "2026-08-18T23:43:32+00:00",
  "url": "https://pypi.org/pypi/django/json",
  "vendor": "PyPI"
 }

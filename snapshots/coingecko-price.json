@@ -4,7 +4,7 @@
  "first_seen": "2026-08-18T23:20:13+00:00",
  "id": "coingecko-price",
  "pending_keys": [],
- "runs": 4,
+ "runs": 5,
  "schema": {
   "bitcoin": [
    "object"
@@ -13,7 +13,7 @@
    "integer"
   ]
  },
- "ts": "2026-08-18T23:38:25+00:00",
+ "ts": "2026-08-18T23:43:32+00:00",
  "url": "https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=usd",
  "vendor": "CoinGecko"
 }

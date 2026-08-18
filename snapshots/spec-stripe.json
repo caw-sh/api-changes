@@ -4,7 +4,7 @@
  "first_seen": "2026-08-18T23:20:13+00:00",
  "id": "spec-stripe",
  "pending_keys": [],
- "runs": 4,
+ "runs": 5,
  "schema": {
   "DELETE /v1/accounts/{account}": [
    "body",
@@ -8718,7 +8718,7 @@
    "req:8"
   ]
  },
- "ts": "2026-08-18T23:38:25+00:00",
+ "ts": "2026-08-18T23:43:32+00:00",
  "url": "https://raw.githubusercontent.com/stripe/openapi/master/openapi/spec3.json",
  "vendor": "Stripe"
 }

@@ -4,7 +4,7 @@
  "first_seen": "2026-08-18T23:20:13+00:00",
  "id": "spec-github",
  "pending_keys": [],
- "runs": 4,
+ "runs": 5,
  "schema": {
   "DELETE /app/installations/{installation_id}": [
    "params:1",
@@ -9145,7 +9145,7 @@
    "req:1"
   ]
  },
- "ts": "2026-08-18T23:38:25+00:00",
+ "ts": "2026-08-18T23:43:32+00:00",
  "url": "https://raw.githubusercontent.com/github/rest-api-description/main/descriptions/api.github.com/api.github.com.json",
  "vendor": "GitHub"
 }

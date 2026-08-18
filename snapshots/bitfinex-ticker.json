@@ -4,14 +4,14 @@
  "first_seen": "2026-08-18T23:21:28+00:00",
  "id": "bitfinex-ticker",
  "pending_keys": [],
- "runs": 3,
+ "runs": 4,
  "schema": {
   "[]": [
    "integer",
    "number"
   ]
  },
- "ts": "2026-08-18T23:38:25+00:00",
+ "ts": "2026-08-18T23:43:32+00:00",
  "url": "https://api-pub.bitfinex.com/v2/ticker/tBTCUSD",
  "vendor": "Bitfinex"
 }

@@ -3,8 +3,16 @@
  "field_count": 130,
  "first_seen": "2026-08-18T23:20:13+00:00",
  "id": "github-repo",
- "pending_keys": [],
- "runs": 4,
+ "pending_keys": [
+  "FIELD_ADDED:permissions",
+  "FIELD_ADDED:permissions.admin",
+  "FIELD_ADDED:permissions.maintain",
+  "FIELD_ADDED:permissions.pull",
+  "FIELD_ADDED:permissions.push",
+  "FIELD_ADDED:permissions.triage",
+  "TYPE_CHANGED:temp_clone_token"
+ ],
+ "runs": 5,
  "schema": {
   "allow_forking": [
    "boolean"
@@ -397,7 +405,7 @@
    "boolean"
   ]
  },
- "ts": "2026-08-18T23:38:25+00:00",
+ "ts": "2026-08-18T23:43:32+00:00",
  "url": "https://api.github.com/repos/facebook/react",
  "vendor": "GitHub"
 }

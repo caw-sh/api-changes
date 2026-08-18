@@ -4,7 +4,7 @@
  "first_seen": "2026-08-18T23:38:25+00:00",
  "id": "spec-adyen-checkout",
  "pending_keys": [],
- "runs": 1,
+ "runs": 2,
  "schema": {
   "DELETE /storedPaymentMethods/{storedPaymentMethodId}": [
    "params:3",
@@ -1188,7 +1188,7 @@
    "req:0"
   ]
  },
- "ts": "2026-08-18T23:38:25+00:00",
+ "ts": "2026-08-18T23:43:32+00:00",
  "url": "https://raw.githubusercontent.com/Adyen/adyen-openapi/main/json/CheckoutService-v71.json",
  "vendor": "Adyen"
 }
