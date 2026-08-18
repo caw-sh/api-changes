@@ -1,0 +1,58 @@
+{
+ "category": "weather",
+ "field_count": 15,
+ "first_seen": "2026-08-18T23:20:13+00:00",
+ "id": "openmeteo-air",
+ "pending_keys": [],
+ "runs": 3,
+ "schema": {
+  "current": [
+   "object"
+  ],
+  "current.interval": [
+   "integer"
+  ],
+  "current.pm10": [
+   "number"
+  ],
+  "current.time": [
+   "string"
+  ],
+  "current_units": [
+   "object"
+  ],
+  "current_units.interval": [
+   "string"
+  ],
+  "current_units.pm10": [
+   "string"
+  ],
+  "current_units.time": [
+   "string"
+  ],
+  "elevation": [
+   "number"
+  ],
+  "generationtime_ms": [
+   "number"
+  ],
+  "latitude": [
+   "number"
+  ],
+  "longitude": [
+   "number"
+  ],
+  "timezone": [
+   "string"
+  ],
+  "timezone_abbreviation": [
+   "string"
+  ],
+  "utc_offset_seconds": [
+   "integer"
+  ]
+ },
+ "ts": "2026-08-18T23:23:51+00:00",
+ "url": "https://air-quality-api.open-meteo.com/v1/air-quality?latitude=52.52&longitude=13.41&current=pm10",
+ "vendor": "Open-Meteo"
+}

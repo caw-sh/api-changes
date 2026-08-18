@@ -1,0 +1,67 @@
+{
+ "category": "comms",
+ "field_count": 18,
+ "first_seen": "2026-08-18T23:23:51+00:00",
+ "id": "status-slack-summary",
+ "pending_keys": [],
+ "runs": 1,
+ "schema": {
+  "active_incidents": [
+   "array"
+  ],
+  "active_incidents[]": [
+   "object"
+  ],
+  "active_incidents[].date_created": [
+   "string"
+  ],
+  "active_incidents[].date_updated": [
+   "string"
+  ],
+  "active_incidents[].id": [
+   "integer"
+  ],
+  "active_incidents[].notes": [
+   "array"
+  ],
+  "active_incidents[].notes[]": [
+   "object"
+  ],
+  "active_incidents[].notes[].body": [
+   "string"
+  ],
+  "active_incidents[].notes[].date_created": [
+   "string"
+  ],
+  "active_incidents[].services": [
+   "array"
+  ],
+  "active_incidents[].services[]": [
+   "string"
+  ],
+  "active_incidents[].status": [
+   "string"
+  ],
+  "active_incidents[].title": [
+   "string"
+  ],
+  "active_incidents[].type": [
+   "string"
+  ],
+  "active_incidents[].url": [
+   "string"
+  ],
+  "date_created": [
+   "string"
+  ],
+  "date_updated": [
+   "string"
+  ],
+  "status": [
+   "string"
+  ]
+ },
+ "ts": "2026-08-18T23:23:51+00:00",
+ "url": "https://status.slack.com/api/v2.0.0/current",
+ "vendor": "Slack"
+}

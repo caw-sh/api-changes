@@ -1,0 +1,157 @@
+{
+ "category": "registry",
+ "field_count": 48,
+ "first_seen": "2026-08-18T23:20:13+00:00",
+ "id": "pub-http",
+ "pending_keys": [],
+ "runs": 3,
+ "schema": {
+  "advisoriesUpdated": [
+   "string"
+  ],
+  "latest": [
+   "object"
+  ],
+  "latest.archive_sha256": [
+   "string"
+  ],
+  "latest.archive_url": [
+   "string"
+  ],
+  "latest.published": [
+   "string"
+  ],
+  "latest.pubspec": [
+   "object"
+  ],
+  "latest.pubspec.dependencies": [
+   "object"
+  ],
+  "latest.pubspec.dependencies.async": [
+   "string"
+  ],
+  "latest.pubspec.dependencies.http_parser": [
+   "string"
+  ],
+  "latest.pubspec.dependencies.meta": [
+   "string"
+  ],
+  "latest.pubspec.dependencies.web": [
+   "string"
+  ],
+  "latest.pubspec.description": [
+   "string"
+  ],
+  "latest.pubspec.dev_dependencies": [
+   "object"
+  ],
+  "latest.pubspec.dev_dependencies.dart_flutter_team_lints": [
+   "string"
+  ],
+  "latest.pubspec.dev_dependencies.fake_async": [
+   "string"
+  ],
+  "latest.pubspec.dev_dependencies.http_client_conformance_tests": [
+   "object"
+  ],
+  "latest.pubspec.dev_dependencies.http_client_conformance_tests.path": [
+   "string"
+  ],
+  "latest.pubspec.dev_dependencies.shelf": [
+   "string"
+  ],
+  "latest.pubspec.dev_dependencies.stream_channel": [
+   "string"
+  ],
+  "latest.pubspec.dev_dependencies.test": [
+   "string"
+  ],
+  "latest.pubspec.environment": [
+   "object"
+  ],
+  "latest.pubspec.environment.sdk": [
+   "string"
+  ],
+  "latest.pubspec.name": [
+   "string"
+  ],
+  "latest.pubspec.repository": [
+   "string"
+  ],
+  "latest.pubspec.topics": [
+   "array"
+  ],
+  "latest.pubspec.topics[]": [
+   "string"
+  ],
+  "latest.pubspec.version": [
+   "string"
+  ],
+  "latest.version": [
+   "string"
+  ],
+  "name": [
+   "string"
+  ],
+  "versions": [
+   "array"
+  ],
+  "versions[]": [
+   "object"
+  ],
+  "versions[].archive_sha256": [
+   "string"
+  ],
+  "versions[].archive_url": [
+   "string"
+  ],
+  "versions[].published": [
+   "string"
+  ],
+  "versions[].pubspec": [
+   "object"
+  ],
+  "versions[].pubspec.author": [
+   "string"
+  ],
+  "versions[].pubspec.dependencies": [
+   "object"
+  ],
+  "versions[].pubspec.dependencies.pathos": [
+   "string"
+  ],
+  "versions[].pubspec.dependencies.unittest": [
+   "null"
+  ],
+  "versions[].pubspec.description": [
+   "string"
+  ],
+  "versions[].pubspec.dev_dependencies": [
+   "object"
+  ],
+  "versions[].pubspec.dev_dependencies.unittest": [
+   "string"
+  ],
+  "versions[].pubspec.environment": [
+   "object"
+  ],
+  "versions[].pubspec.environment.sdk": [
+   "string"
+  ],
+  "versions[].pubspec.homepage": [
+   "string"
+  ],
+  "versions[].pubspec.name": [
+   "string"
+  ],
+  "versions[].pubspec.version": [
+   "string"
+  ],
+  "versions[].version": [
+   "string"
+  ]
+ },
+ "ts": "2026-08-18T23:23:51+00:00",
+ "url": "https://pub.dev/api/packages/http",
+ "vendor": "pub.dev"
+}

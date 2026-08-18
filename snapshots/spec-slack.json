@@ -1,0 +1,901 @@
+{
+ "category": "spec",
+ "field_count": 222,
+ "first_seen": "2026-08-18T23:20:13+00:00",
+ "id": "spec-slack",
+ "pending_keys": [],
+ "runs": 3,
+ "schema": {
+  "GET /admin.apps.approved.list": [
+   "params:5",
+   "responses:2"
+  ],
+  "GET /admin.apps.requests.list": [
+   "params:4",
+   "responses:2"
+  ],
+  "GET /admin.apps.restricted.list": [
+   "params:5",
+   "responses:2"
+  ],
+  "GET /admin.conversations.ekm.listOriginalConnectedChannelInfo": [
+   "params:5",
+   "responses:2"
+  ],
+  "GET /admin.conversations.getConversationPrefs": [
+   "params:2",
+   "responses:2"
+  ],
+  "GET /admin.conversations.getTeams": [
+   "params:4",
+   "responses:2"
+  ],
+  "GET /admin.conversations.restrictAccess.listGroups": [
+   "params:3",
+   "responses:2"
+  ],
+  "GET /admin.conversations.search": [
+   "params:8",
+   "responses:2"
+  ],
+  "GET /admin.emoji.list": [
+   "params:3",
+   "responses:2"
+  ],
+  "GET /admin.inviteRequests.approved.list": [
+   "params:4",
+   "responses:2"
+  ],
+  "GET /admin.inviteRequests.denied.list": [
+   "params:4",
+   "responses:2"
+  ],
+  "GET /admin.inviteRequests.list": [
+   "params:4",
+   "responses:2"
+  ],
+  "GET /admin.teams.admins.list": [
+   "params:4",
+   "responses:2"
+  ],
+  "GET /admin.teams.list": [
+   "params:3",
+   "responses:2"
+  ],
+  "GET /admin.teams.owners.list": [
+   "params:4",
+   "responses:2"
+  ],
+  "GET /admin.teams.settings.info": [
+   "params:2",
+   "responses:2"
+  ],
+  "GET /admin.usergroups.listChannels": [
+   "params:4",
+   "responses:2"
+  ],
+  "GET /admin.users.list": [
+   "params:4",
+   "responses:2"
+  ],
+  "GET /api.test": [
+   "params:2",
+   "responses:2"
+  ],
+  "GET /apps.event.authorizations.list": [
+   "params:4",
+   "responses:2"
+  ],
+  "GET /apps.permissions.info": [
+   "params:1",
+   "responses:2"
+  ],
+  "GET /apps.permissions.request": [
+   "params:3",
+   "responses:2"
+  ],
+  "GET /apps.permissions.resources.list": [
+   "params:3",
+   "responses:2"
+  ],
+  "GET /apps.permissions.scopes.list": [
+   "params:1",
+   "responses:2"
+  ],
+  "GET /apps.permissions.users.list": [
+   "params:3",
+   "responses:2"
+  ],
+  "GET /apps.permissions.users.request": [
+   "params:4",
+   "responses:2"
+  ],
+  "GET /apps.uninstall": [
+   "params:3",
+   "responses:2"
+  ],
+  "GET /auth.revoke": [
+   "params:2",
+   "responses:2"
+  ],
+  "GET /auth.test": [
+   "params:1",
+   "responses:2"
+  ],
+  "GET /bots.info": [
+   "params:2",
+   "responses:2"
+  ],
+  "GET /calls.info": [
+   "params:2",
+   "responses:2"
+  ],
+  "GET /chat.getPermalink": [
+   "params:3",
+   "responses:2"
+  ],
+  "GET /chat.scheduledMessages.list": [
+   "params:6",
+   "responses:2"
+  ],
+  "GET /conversations.history": [
+   "params:7",
+   "responses:2"
+  ],
+  "GET /conversations.info": [
+   "params:4",
+   "responses:2"
+  ],
+  "GET /conversations.list": [
+   "params:5",
+   "responses:2"
+  ],
+  "GET /conversations.members": [
+   "params:4",
+   "responses:2"
+  ],
+  "GET /conversations.replies": [
+   "params:8",
+   "responses:2"
+  ],
+  "GET /dialog.open": [
+   "params:3",
+   "responses:2"
+  ],
+  "GET /dnd.info": [
+   "params:2",
+   "responses:2"
+  ],
+  "GET /dnd.teamInfo": [
+   "params:2",
+   "responses:2"
+  ],
+  "GET /emoji.list": [
+   "params:1",
+   "responses:2"
+  ],
+  "GET /files.info": [
+   "params:6",
+   "responses:2"
+  ],
+  "GET /files.list": [
+   "params:9",
+   "responses:2"
+  ],
+  "GET /files.remote.info": [
+   "params:3",
+   "responses:2"
+  ],
+  "GET /files.remote.list": [
+   "params:6",
+   "responses:2"
+  ],
+  "GET /files.remote.share": [
+   "params:4",
+   "responses:2"
+  ],
+  "GET /migration.exchange": [
+   "params:4",
+   "responses:2"
+  ],
+  "GET /oauth.access": [
+   "params:5",
+   "responses:2"
+  ],
+  "GET /oauth.token": [
+   "params:5",
+   "responses:2"
+  ],
+  "GET /oauth.v2.access": [
+   "params:4",
+   "responses:2"
+  ],
+  "GET /pins.list": [
+   "params:2",
+   "responses:2"
+  ],
+  "GET /reactions.get": [
+   "params:6",
+   "responses:2"
+  ],
+  "GET /reactions.list": [
+   "params:7",
+   "responses:2"
+  ],
+  "GET /reminders.info": [
+   "params:2",
+   "responses:2"
+  ],
+  "GET /reminders.list": [
+   "params:1",
+   "responses:2"
+  ],
+  "GET /rtm.connect": [
+   "params:3",
+   "responses:2"
+  ],
+  "GET /search.messages": [
+   "params:7",
+   "responses:2"
+  ],
+  "GET /stars.list": [
+   "params:5",
+   "responses:2"
+  ],
+  "GET /team.accessLogs": [
+   "params:4",
+   "responses:2"
+  ],
+  "GET /team.billableInfo": [
+   "params:2",
+   "responses:2"
+  ],
+  "GET /team.info": [
+   "params:2",
+   "responses:2"
+  ],
+  "GET /team.integrationLogs": [
+   "params:7",
+   "responses:2"
+  ],
+  "GET /team.profile.get": [
+   "params:2",
+   "responses:2"
+  ],
+  "GET /usergroups.list": [
+   "params:4",
+   "responses:2"
+  ],
+  "GET /usergroups.users.list": [
+   "params:3",
+   "responses:2"
+  ],
+  "GET /users.conversations": [
+   "params:6",
+   "responses:2"
+  ],
+  "GET /users.getPresence": [
+   "params:2",
+   "responses:2"
+  ],
+  "GET /users.identity": [
+   "params:1",
+   "responses:2"
+  ],
+  "GET /users.info": [
+   "params:3",
+   "responses:2"
+  ],
+  "GET /users.list": [
+   "params:4",
+   "responses:2"
+  ],
+  "GET /users.lookupByEmail": [
+   "params:2",
+   "responses:2"
+  ],
+  "GET /users.profile.get": [
+   "params:3",
+   "responses:2"
+  ],
+  "GET /views.open": [
+   "params:3",
+   "responses:2"
+  ],
+  "GET /views.publish": [
+   "params:4",
+   "responses:2"
+  ],
+  "GET /views.push": [
+   "params:3",
+   "responses:2"
+  ],
+  "GET /views.update": [
+   "params:5",
+   "responses:2"
+  ],
+  "GET /workflows.stepCompleted": [
+   "params:3",
+   "responses:2"
+  ],
+  "GET /workflows.stepFailed": [
+   "params:3",
+   "responses:2"
+  ],
+  "GET /workflows.updateStep": [
+   "params:6",
+   "responses:2"
+  ],
+  "POST /admin.apps.approve": [
+   "params:4",
+   "responses:2"
+  ],
+  "POST /admin.apps.restrict": [
+   "params:4",
+   "responses:2"
+  ],
+  "POST /admin.conversations.archive": [
+   "params:2",
+   "responses:2"
+  ],
+  "POST /admin.conversations.convertToPrivate": [
+   "params:2",
+   "responses:2"
+  ],
+  "POST /admin.conversations.create": [
+   "params:6",
+   "responses:2"
+  ],
+  "POST /admin.conversations.delete": [
+   "params:2",
+   "responses:2"
+  ],
+  "POST /admin.conversations.disconnectShared": [
+   "params:3",
+   "responses:2"
+  ],
+  "POST /admin.conversations.invite": [
+   "params:3",
+   "responses:2"
+  ],
+  "POST /admin.conversations.rename": [
+   "params:3",
+   "responses:2"
+  ],
+  "POST /admin.conversations.restrictAccess.addGroup": [
+   "params:4",
+   "responses:2"
+  ],
+  "POST /admin.conversations.restrictAccess.removeGroup": [
+   "params:4",
+   "responses:2"
+  ],
+  "POST /admin.conversations.setConversationPrefs": [
+   "params:3",
+   "responses:2"
+  ],
+  "POST /admin.conversations.setTeams": [
+   "params:5",
+   "responses:2"
+  ],
+  "POST /admin.conversations.unarchive": [
+   "params:2",
+   "responses:2"
+  ],
+  "POST /admin.emoji.add": [
+   "params:3",
+   "responses:2"
+  ],
+  "POST /admin.emoji.addAlias": [
+   "params:3",
+   "responses:2"
+  ],
+  "POST /admin.emoji.remove": [
+   "params:2",
+   "responses:2"
+  ],
+  "POST /admin.emoji.rename": [
+   "params:3",
+   "responses:2"
+  ],
+  "POST /admin.inviteRequests.approve": [
+   "params:3",
+   "responses:2"
+  ],
+  "POST /admin.inviteRequests.deny": [
+   "params:3",
+   "responses:2"
+  ],
+  "POST /admin.teams.create": [
+   "params:5",
+   "responses:2"
+  ],
+  "POST /admin.teams.settings.setDefaultChannels": [
+   "params:3",
+   "responses:2"
+  ],
+  "POST /admin.teams.settings.setDescription": [
+   "params:3",
+   "responses:2"
+  ],
+  "POST /admin.teams.settings.setDiscoverability": [
+   "params:3",
+   "responses:2"
+  ],
+  "POST /admin.teams.settings.setIcon": [
+   "params:3",
+   "responses:2"
+  ],
+  "POST /admin.teams.settings.setName": [
+   "params:3",
+   "responses:2"
+  ],
+  "POST /admin.usergroups.addChannels": [
+   "params:4",
+   "responses:2"
+  ],
+  "POST /admin.usergroups.addTeams": [
+   "params:4",
+   "responses:2"
+  ],
+  "POST /admin.usergroups.removeChannels": [
+   "params:3",
+   "responses:2"
+  ],
+  "POST /admin.users.assign": [
+   "params:6",
+   "responses:2"
+  ],
+  "POST /admin.users.invite": [
+   "params:10",
+   "responses:2"
+  ],
+  "POST /admin.users.remove": [
+   "params:3",
+   "responses:2"
+  ],
+  "POST /admin.users.session.invalidate": [
+   "params:3",
+   "responses:2"
+  ],
+  "POST /admin.users.session.reset": [
+   "params:4",
+   "responses:2"
+  ],
+  "POST /admin.users.setAdmin": [
+   "params:3",
+   "responses:2"
+  ],
+  "POST /admin.users.setExpiration": [
+   "params:4",
+   "responses:2"
+  ],
+  "POST /admin.users.setOwner": [
+   "params:3",
+   "responses:2"
+  ],
+  "POST /admin.users.setRegular": [
+   "params:3",
+   "responses:2"
+  ],
+  "POST /calls.add": [
+   "params:9",
+   "responses:2"
+  ],
+  "POST /calls.end": [
+   "params:3",
+   "responses:2"
+  ],
+  "POST /calls.participants.add": [
+   "params:3",
+   "responses:2"
+  ],
+  "POST /calls.participants.remove": [
+   "params:3",
+   "responses:2"
+  ],
+  "POST /calls.update": [
+   "params:5",
+   "responses:2"
+  ],
+  "POST /chat.delete": [
+   "params:4",
+   "responses:2"
+  ],
+  "POST /chat.deleteScheduledMessage": [
+   "params:4",
+   "responses:2"
+  ],
+  "POST /chat.meMessage": [
+   "params:3",
+   "responses:2"
+  ],
+  "POST /chat.postEphemeral": [
+   "params:13",
+   "responses:2"
+  ],
+  "POST /chat.postMessage": [
+   "params:16",
+   "responses:2"
+  ],
+  "POST /chat.scheduleMessage": [
+   "params:13",
+   "responses:2"
+  ],
+  "POST /chat.unfurl": [
+   "params:7",
+   "responses:2"
+  ],
+  "POST /chat.update": [
+   "params:9",
+   "responses:2"
+  ],
+  "POST /conversations.archive": [
+   "params:2",
+   "responses:2"
+  ],
+  "POST /conversations.close": [
+   "params:2",
+   "responses:2"
+  ],
+  "POST /conversations.create": [
+   "params:3",
+   "responses:2"
+  ],
+  "POST /conversations.invite": [
+   "params:3",
+   "responses:2"
+  ],
+  "POST /conversations.join": [
+   "params:2",
+   "responses:2"
+  ],
+  "POST /conversations.kick": [
+   "params:3",
+   "responses:2"
+  ],
+  "POST /conversations.leave": [
+   "params:2",
+   "responses:2"
+  ],
+  "POST /conversations.mark": [
+   "params:3",
+   "responses:2"
+  ],
+  "POST /conversations.open": [
+   "params:4",
+   "responses:2"
+  ],
+  "POST /conversations.rename": [
+   "params:3",
+   "responses:2"
+  ],
+  "POST /conversations.setPurpose": [
+   "params:3",
+   "responses:2"
+  ],
+  "POST /conversations.setTopic": [
+   "params:3",
+   "responses:2"
+  ],
+  "POST /conversations.unarchive": [
+   "params:2",
+   "responses:2"
+  ],
+  "POST /dnd.endDnd": [
+   "params:1",
+   "responses:2"
+  ],
+  "POST /dnd.endSnooze": [
+   "params:1",
+   "responses:2"
+  ],
+  "POST /dnd.setSnooze": [
+   "params:2",
+   "responses:2"
+  ],
+  "POST /files.comments.delete": [
+   "params:3",
+   "responses:2"
+  ],
+  "POST /files.delete": [
+   "params:2",
+   "responses:2"
+  ],
+  "POST /files.remote.add": [
+   "params:7",
+   "responses:2"
+  ],
+  "POST /files.remote.remove": [
+   "params:3",
+   "responses:2"
+  ],
+  "POST /files.remote.update": [
+   "params:8",
+   "responses:2"
+  ],
+  "POST /files.revokePublicURL": [
+   "params:2",
+   "responses:2"
+  ],
+  "POST /files.sharedPublicURL": [
+   "params:2",
+   "responses:2"
+  ],
+  "POST /files.upload": [
+   "params:9",
+   "responses:2"
+  ],
+  "POST /pins.add": [
+   "params:3",
+   "responses:2"
+  ],
+  "POST /pins.remove": [
+   "params:3",
+   "responses:2"
+  ],
+  "POST /reactions.add": [
+   "params:4",
+   "responses:2"
+  ],
+  "POST /reactions.remove": [
+   "params:6",
+   "responses:2"
+  ],
+  "POST /reminders.add": [
+   "params:4",
+   "responses:2"
+  ],
+  "POST /reminders.complete": [
+   "params:2",
+   "responses:2"
+  ],
+  "POST /reminders.delete": [
+   "params:2",
+   "responses:2"
+  ],
+  "POST /stars.add": [
+   "params:5",
+   "responses:2"
+  ],
+  "POST /stars.remove": [
+   "params:5",
+   "responses:2"
+  ],
+  "POST /usergroups.create": [
+   "params:6",
+   "responses:2"
+  ],
+  "POST /usergroups.disable": [
+   "params:3",
+   "responses:2"
+  ],
+  "POST /usergroups.enable": [
+   "params:3",
+   "responses:2"
+  ],
+  "POST /usergroups.update": [
+   "params:7",
+   "responses:2"
+  ],
+  "POST /usergroups.users.update": [
+   "params:4",
+   "responses:2"
+  ],
+  "POST /users.deletePhoto": [
+   "params:1",
+   "responses:2"
+  ],
+  "POST /users.profile.set": [
+   "params:5",
+   "responses:2"
+  ],
+  "POST /users.setActive": [
+   "params:1",
+   "responses:2"
+  ],
+  "POST /users.setPhoto": [
+   "params:5",
+   "responses:2"
+  ],
+  "POST /users.setPresence": [
+   "params:2",
+   "responses:2"
+  ],
+  "schema:blocks": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:defs_app_id": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:defs_bot_id": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:defs_channel": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:defs_channel_id": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:defs_channel_name": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:defs_comment_id": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:defs_dm_id": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:defs_enterprise_id": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:defs_enterprise_name": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:defs_enterprise_user_id": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:defs_file_id": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:defs_group_id": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:defs_ok_false": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:defs_ok_true": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:defs_optional_app_id": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:defs_pinned_info": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:defs_reminder_id": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:defs_subteam_id": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:defs_team": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:defs_topic_purpose_creator": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:defs_ts": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:defs_user_id": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:defs_workspace_id": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:objs_bot_profile": [
+   "props:7",
+   "req:7"
+  ],
+  "schema:objs_channel": [
+   "props:32",
+   "req:13"
+  ],
+  "schema:objs_comment": [
+   "props:11",
+   "req:6"
+  ],
+  "schema:objs_comments": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:objs_conversation": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:objs_enterprise_user": [
+   "props:6",
+   "req:6"
+  ],
+  "schema:objs_external_org_migrations": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:objs_file": [
+   "props:70",
+   "req:0"
+  ],
+  "schema:objs_icon": [
+   "props:8",
+   "req:0"
+  ],
+  "schema:objs_message": [
+   "props:41",
+   "req:3"
+  ],
+  "schema:objs_paging": [
+   "props:6",
+   "req:2"
+  ],
+  "schema:objs_primary_owner": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:objs_reaction": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:objs_reminder": [
+   "props:7",
+   "req:5"
+  ],
+  "schema:objs_resources": [
+   "props:3",
+   "req:1"
+  ],
+  "schema:objs_response_metadata": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:objs_scopes": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:objs_subteam": [
+   "props:21",
+   "req:18"
+  ],
+  "schema:objs_team": [
+   "props:29",
+   "req:5"
+  ],
+  "schema:objs_team_profile_field": [
+   "props:9",
+   "req:5"
+  ],
+  "schema:objs_team_profile_field_option": [
+   "props:4",
+   "req:0"
+  ],
+  "schema:objs_user": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:objs_user_profile": [
+   "props:44",
+   "req:11"
+  ],
+  "schema:objs_user_profile_short": [
+   "props:11",
+   "req:9"
+  ]
+ },
+ "ts": "2026-08-18T23:23:51+00:00",
+ "url": "https://raw.githubusercontent.com/slackapi/slack-api-specs/master/web-api/slack_web_openapi_v2.json",
+ "vendor": "Slack"
+}

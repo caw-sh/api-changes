@@ -1,0 +1,382 @@
+{
+ "category": "comms",
+ "field_count": 121,
+ "first_seen": "2026-08-18T23:20:13+00:00",
+ "id": "status-twilio-summary",
+ "pending_keys": [],
+ "runs": 3,
+ "schema": {
+  "components": [
+   "array"
+  ],
+  "components[]": [
+   "object"
+  ],
+  "components[].components": [
+   "array"
+  ],
+  "components[].components[]": [
+   "string"
+  ],
+  "components[].created_at": [
+   "string"
+  ],
+  "components[].description": [
+   "null",
+   "string"
+  ],
+  "components[].group": [
+   "boolean"
+  ],
+  "components[].group_id": [
+   "null",
+   "string"
+  ],
+  "components[].id": [
+   "string"
+  ],
+  "components[].name": [
+   "string"
+  ],
+  "components[].only_show_if_degraded": [
+   "boolean"
+  ],
+  "components[].page_id": [
+   "string"
+  ],
+  "components[].position": [
+   "integer"
+  ],
+  "components[].showcase": [
+   "boolean"
+  ],
+  "components[].start_date": [
+   "null",
+   "string"
+  ],
+  "components[].status": [
+   "string"
+  ],
+  "components[].updated_at": [
+   "string"
+  ],
+  "incidents": [
+   "array"
+  ],
+  "incidents[]": [
+   "object"
+  ],
+  "incidents[].components": [
+   "array"
+  ],
+  "incidents[].components[]": [
+   "object"
+  ],
+  "incidents[].components[].created_at": [
+   "string"
+  ],
+  "incidents[].components[].description": [
+   "null"
+  ],
+  "incidents[].components[].group": [
+   "boolean"
+  ],
+  "incidents[].components[].group_id": [
+   "string"
+  ],
+  "incidents[].components[].id": [
+   "string"
+  ],
+  "incidents[].components[].name": [
+   "string"
+  ],
+  "incidents[].components[].only_show_if_degraded": [
+   "boolean"
+  ],
+  "incidents[].components[].page_id": [
+   "string"
+  ],
+  "incidents[].components[].position": [
+   "integer"
+  ],
+  "incidents[].components[].showcase": [
+   "boolean"
+  ],
+  "incidents[].components[].start_date": [
+   "null"
+  ],
+  "incidents[].components[].status": [
+   "string"
+  ],
+  "incidents[].components[].updated_at": [
+   "string"
+  ],
+  "incidents[].created_at": [
+   "string"
+  ],
+  "incidents[].id": [
+   "string"
+  ],
+  "incidents[].impact": [
+   "string"
+  ],
+  "incidents[].incident_updates": [
+   "array"
+  ],
+  "incidents[].incident_updates[]": [
+   "object"
+  ],
+  "incidents[].incident_updates[].affected_components": [
+   "array"
+  ],
+  "incidents[].incident_updates[].affected_components[]": [
+   "object"
+  ],
+  "incidents[].incident_updates[].affected_components[].code": [
+   "string"
+  ],
+  "incidents[].incident_updates[].affected_components[].name": [
+   "string"
+  ],
+  "incidents[].incident_updates[].affected_components[].new_status": [
+   "string"
+  ],
+  "incidents[].incident_updates[].affected_components[].old_status": [
+   "string"
+  ],
+  "incidents[].incident_updates[].body": [
+   "string"
+  ],
+  "incidents[].incident_updates[].created_at": [
+   "string"
+  ],
+  "incidents[].incident_updates[].custom_tweet": [
+   "null"
+  ],
+  "incidents[].incident_updates[].deliver_notifications": [
+   "boolean"
+  ],
+  "incidents[].incident_updates[].display_at": [
+   "string"
+  ],
+  "incidents[].incident_updates[].id": [
+   "string"
+  ],
+  "incidents[].incident_updates[].incident_id": [
+   "string"
+  ],
+  "incidents[].incident_updates[].status": [
+   "string"
+  ],
+  "incidents[].incident_updates[].tweet_id": [
+   "null"
+  ],
+  "incidents[].incident_updates[].updated_at": [
+   "string"
+  ],
+  "incidents[].monitoring_at": [
+   "string"
+  ],
+  "incidents[].name": [
+   "string"
+  ],
+  "incidents[].page_id": [
+   "string"
+  ],
+  "incidents[].reminder_intervals": [
+   "null"
+  ],
+  "incidents[].resolved_at": [
+   "null"
+  ],
+  "incidents[].shortlink": [
+   "string"
+  ],
+  "incidents[].started_at": [
+   "string"
+  ],
+  "incidents[].status": [
+   "string"
+  ],
+  "incidents[].updated_at": [
+   "string"
+  ],
+  "page": [
+   "object"
+  ],
+  "page.id": [
+   "string"
+  ],
+  "page.name": [
+   "string"
+  ],
+  "page.time_zone": [
+   "string"
+  ],
+  "page.updated_at": [
+   "string"
+  ],
+  "page.url": [
+   "string"
+  ],
+  "scheduled_maintenances": [
+   "array"
+  ],
+  "scheduled_maintenances[]": [
+   "object"
+  ],
+  "scheduled_maintenances[].components": [
+   "array"
+  ],
+  "scheduled_maintenances[].components[]": [
+   "object"
+  ],
+  "scheduled_maintenances[].components[].created_at": [
+   "string"
+  ],
+  "scheduled_maintenances[].components[].description": [
+   "null",
+   "string"
+  ],
+  "scheduled_maintenances[].components[].group": [
+   "boolean"
+  ],
+  "scheduled_maintenances[].components[].group_id": [
+   "null",
+   "string"
+  ],
+  "scheduled_maintenances[].components[].id": [
+   "string"
+  ],
+  "scheduled_maintenances[].components[].name": [
+   "string"
+  ],
+  "scheduled_maintenances[].components[].only_show_if_degraded": [
+   "boolean"
+  ],
+  "scheduled_maintenances[].components[].page_id": [
+   "string"
+  ],
+  "scheduled_maintenances[].components[].position": [
+   "integer"
+  ],
+  "scheduled_maintenances[].components[].showcase": [
+   "boolean"
+  ],
+  "scheduled_maintenances[].components[].start_date": [
+   "null",
+   "string"
+  ],
+  "scheduled_maintenances[].components[].status": [
+   "string"
+  ],
+  "scheduled_maintenances[].components[].updated_at": [
+   "string"
+  ],
+  "scheduled_maintenances[].created_at": [
+   "string"
+  ],
+  "scheduled_maintenances[].id": [
+   "string"
+  ],
+  "scheduled_maintenances[].impact": [
+   "string"
+  ],
+  "scheduled_maintenances[].incident_updates": [
+   "array"
+  ],
+  "scheduled_maintenances[].incident_updates[]": [
+   "object"
+  ],
+  "scheduled_maintenances[].incident_updates[].affected_components": [
+   "array"
+  ],
+  "scheduled_maintenances[].incident_updates[].affected_components[]": [
+   "object"
+  ],
+  "scheduled_maintenances[].incident_updates[].affected_components[].code": [
+   "string"
+  ],
+  "scheduled_maintenances[].incident_updates[].affected_components[].name": [
+   "string"
+  ],
+  "scheduled_maintenances[].incident_updates[].affected_components[].new_status": [
+   "string"
+  ],
+  "scheduled_maintenances[].incident_updates[].affected_components[].old_status": [
+   "string"
+  ],
+  "scheduled_maintenances[].incident_updates[].body": [
+   "string"
+  ],
+  "scheduled_maintenances[].incident_updates[].created_at": [
+   "string"
+  ],
+  "scheduled_maintenances[].incident_updates[].custom_tweet": [
+   "null"
+  ],
+  "scheduled_maintenances[].incident_updates[].deliver_notifications": [
+   "boolean"
+  ],
+  "scheduled_maintenances[].incident_updates[].display_at": [
+   "string"
+  ],
+  "scheduled_maintenances[].incident_updates[].id": [
+   "string"
+  ],
+  "scheduled_maintenances[].incident_updates[].incident_id": [
+   "string"
+  ],
+  "scheduled_maintenances[].incident_updates[].status": [
+   "string"
+  ],
+  "scheduled_maintenances[].incident_updates[].tweet_id": [
+   "null"
+  ],
+  "scheduled_maintenances[].incident_updates[].updated_at": [
+   "string"
+  ],
+  "scheduled_maintenances[].monitoring_at": [
+   "null"
+  ],
+  "scheduled_maintenances[].name": [
+   "string"
+  ],
+  "scheduled_maintenances[].page_id": [
+   "string"
+  ],
+  "scheduled_maintenances[].resolved_at": [
+   "null"
+  ],
+  "scheduled_maintenances[].scheduled_for": [
+   "string"
+  ],
+  "scheduled_maintenances[].scheduled_until": [
+   "string"
+  ],
+  "scheduled_maintenances[].shortlink": [
+   "string"
+  ],
+  "scheduled_maintenances[].started_at": [
+   "string"
+  ],
+  "scheduled_maintenances[].status": [
+   "string"
+  ],
+  "scheduled_maintenances[].updated_at": [
+   "string"
+  ],
+  "status": [
+   "object"
+  ],
+  "status.description": [
+   "string"
+  ],
+  "status.indicator": [
+   "string"
+  ]
+ },
+ "ts": "2026-08-18T23:23:51+00:00",
+ "url": "https://status.twilio.com/api/v2/summary.json",
+ "vendor": "Twilio"
+}

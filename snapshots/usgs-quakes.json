@@ -1,0 +1,151 @@
+{
+ "category": "science",
+ "field_count": 46,
+ "first_seen": "2026-08-18T23:20:13+00:00",
+ "id": "usgs-quakes",
+ "pending_keys": [],
+ "runs": 3,
+ "schema": {
+  "bbox": [
+   "array"
+  ],
+  "bbox[]": [
+   "number"
+  ],
+  "features": [
+   "array"
+  ],
+  "features[]": [
+   "object"
+  ],
+  "features[].geometry": [
+   "object"
+  ],
+  "features[].geometry.coordinates": [
+   "array"
+  ],
+  "features[].geometry.coordinates[]": [
+   "number"
+  ],
+  "features[].geometry.type": [
+   "string"
+  ],
+  "features[].id": [
+   "string"
+  ],
+  "features[].properties": [
+   "object"
+  ],
+  "features[].properties.alert": [
+   "null"
+  ],
+  "features[].properties.cdi": [
+   "null"
+  ],
+  "features[].properties.code": [
+   "string"
+  ],
+  "features[].properties.detail": [
+   "string"
+  ],
+  "features[].properties.dmin": [
+   "number"
+  ],
+  "features[].properties.felt": [
+   "null"
+  ],
+  "features[].properties.gap": [
+   "integer"
+  ],
+  "features[].properties.ids": [
+   "string"
+  ],
+  "features[].properties.mag": [
+   "number"
+  ],
+  "features[].properties.magType": [
+   "string"
+  ],
+  "features[].properties.mmi": [
+   "null"
+  ],
+  "features[].properties.net": [
+   "string"
+  ],
+  "features[].properties.nst": [
+   "integer"
+  ],
+  "features[].properties.place": [
+   "string"
+  ],
+  "features[].properties.rms": [
+   "number"
+  ],
+  "features[].properties.sig": [
+   "integer"
+  ],
+  "features[].properties.sources": [
+   "string"
+  ],
+  "features[].properties.status": [
+   "string"
+  ],
+  "features[].properties.time": [
+   "integer"
+  ],
+  "features[].properties.title": [
+   "string"
+  ],
+  "features[].properties.tsunami": [
+   "integer"
+  ],
+  "features[].properties.type": [
+   "string"
+  ],
+  "features[].properties.types": [
+   "string"
+  ],
+  "features[].properties.tz": [
+   "null"
+  ],
+  "features[].properties.updated": [
+   "integer"
+  ],
+  "features[].properties.url": [
+   "string"
+  ],
+  "features[].type": [
+   "string"
+  ],
+  "metadata": [
+   "object"
+  ],
+  "metadata.api": [
+   "string"
+  ],
+  "metadata.generated": [
+   "integer"
+  ],
+  "metadata.limit": [
+   "integer"
+  ],
+  "metadata.offset": [
+   "integer"
+  ],
+  "metadata.status": [
+   "integer"
+  ],
+  "metadata.title": [
+   "string"
+  ],
+  "metadata.url": [
+   "string"
+  ],
+  "type": [
+   "string"
+  ]
+ },
+ "ts": "2026-08-18T23:23:51+00:00",
+ "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&limit=2",
+ "vendor": "USGS"
+}

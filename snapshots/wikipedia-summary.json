@@ -1,0 +1,109 @@
+{
+ "category": "reference",
+ "field_count": 32,
+ "first_seen": "2026-08-18T23:20:13+00:00",
+ "id": "wikipedia-summary",
+ "pending_keys": [],
+ "runs": 3,
+ "schema": {
+  "content_urls": [
+   "object"
+  ],
+  "content_urls.desktop": [
+   "object"
+  ],
+  "content_urls.desktop.edit": [
+   "string"
+  ],
+  "content_urls.desktop.page": [
+   "string"
+  ],
+  "content_urls.desktop.revisions": [
+   "string"
+  ],
+  "content_urls.desktop.talk": [
+   "string"
+  ],
+  "content_urls.mobile": [
+   "object"
+  ],
+  "content_urls.mobile.edit": [
+   "string"
+  ],
+  "content_urls.mobile.page": [
+   "string"
+  ],
+  "content_urls.mobile.revisions": [
+   "string"
+  ],
+  "content_urls.mobile.talk": [
+   "string"
+  ],
+  "description": [
+   "string"
+  ],
+  "description_source": [
+   "string"
+  ],
+  "dir": [
+   "string"
+  ],
+  "displaytitle": [
+   "string"
+  ],
+  "extract": [
+   "string"
+  ],
+  "extract_html": [
+   "string"
+  ],
+  "lang": [
+   "string"
+  ],
+  "namespace": [
+   "object"
+  ],
+  "namespace.id": [
+   "integer"
+  ],
+  "namespace.text": [
+   "string"
+  ],
+  "pageid": [
+   "integer"
+  ],
+  "revision": [
+   "string"
+  ],
+  "tid": [
+   "string"
+  ],
+  "timestamp": [
+   "string"
+  ],
+  "title": [
+   "string"
+  ],
+  "titles": [
+   "object"
+  ],
+  "titles.canonical": [
+   "string"
+  ],
+  "titles.display": [
+   "string"
+  ],
+  "titles.normalized": [
+   "string"
+  ],
+  "type": [
+   "string"
+  ],
+  "wikibase_item": [
+   "string"
+  ]
+ },
+ "ts": "2026-08-18T23:23:51+00:00",
+ "url": "https://en.wikipedia.org/api/rest_v1/page/summary/Application_programming_interface",
+ "vendor": "Wikipedia"
+}

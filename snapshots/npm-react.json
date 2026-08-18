@@ -1,0 +1,202 @@
+{
+ "category": "registry",
+ "field_count": 63,
+ "first_seen": "2026-08-18T23:20:13+00:00",
+ "id": "npm-react",
+ "pending_keys": [],
+ "runs": 3,
+ "schema": {
+  "_hasShrinkwrap": [
+   "boolean"
+  ],
+  "_id": [
+   "string"
+  ],
+  "_nodeVersion": [
+   "string"
+  ],
+  "_npmOperationalInternal": [
+   "object"
+  ],
+  "_npmOperationalInternal.host": [
+   "string"
+  ],
+  "_npmOperationalInternal.tmp": [
+   "string"
+  ],
+  "_npmUser": [
+   "object"
+  ],
+  "_npmUser.email": [
+   "string"
+  ],
+  "_npmUser.name": [
+   "string"
+  ],
+  "_npmUser.trustedPublisher": [
+   "object"
+  ],
+  "_npmUser.trustedPublisher.id": [
+   "string"
+  ],
+  "_npmUser.trustedPublisher.oidcConfigId": [
+   "string"
+  ],
+  "_npmVersion": [
+   "string"
+  ],
+  "bugs": [
+   "object"
+  ],
+  "bugs.url": [
+   "string"
+  ],
+  "description": [
+   "string"
+  ],
+  "directories": [
+   "object"
+  ],
+  "dist": [
+   "object"
+  ],
+  "dist.attestations": [
+   "object"
+  ],
+  "dist.attestations.provenance": [
+   "object"
+  ],
+  "dist.attestations.provenance.predicateType": [
+   "string"
+  ],
+  "dist.attestations.url": [
+   "string"
+  ],
+  "dist.fileCount": [
+   "integer"
+  ],
+  "dist.integrity": [
+   "string"
+  ],
+  "dist.shasum": [
+   "string"
+  ],
+  "dist.signatures": [
+   "array"
+  ],
+  "dist.signatures[]": [
+   "object"
+  ],
+  "dist.signatures[].keyid": [
+   "string"
+  ],
+  "dist.signatures[].sig": [
+   "string"
+  ],
+  "dist.tarball": [
+   "string"
+  ],
+  "dist.unpackedSize": [
+   "integer"
+  ],
+  "engines": [
+   "object"
+  ],
+  "engines.node": [
+   "string"
+  ],
+  "exports": [
+   "object"
+  ],
+  "exports..": [
+   "object"
+  ],
+  "exports...default": [
+   "string"
+  ],
+  "exports...react-server": [
+   "string"
+  ],
+  "exports../compiler-runtime": [
+   "object"
+  ],
+  "exports../compiler-runtime.default": [
+   "string"
+  ],
+  "exports../compiler-runtime.react-server": [
+   "string"
+  ],
+  "exports../jsx-dev-runtime": [
+   "object"
+  ],
+  "exports../jsx-dev-runtime.default": [
+   "string"
+  ],
+  "exports../jsx-dev-runtime.react-server": [
+   "string"
+  ],
+  "exports../jsx-runtime": [
+   "object"
+  ],
+  "exports../jsx-runtime.default": [
+   "string"
+  ],
+  "exports../jsx-runtime.react-server": [
+   "string"
+  ],
+  "exports../package.json": [
+   "string"
+  ],
+  "gitHead": [
+   "string"
+  ],
+  "homepage": [
+   "string"
+  ],
+  "keywords": [
+   "array"
+  ],
+  "keywords[]": [
+   "string"
+  ],
+  "license": [
+   "string"
+  ],
+  "main": [
+   "string"
+  ],
+  "maintainers": [
+   "array"
+  ],
+  "maintainers[]": [
+   "object"
+  ],
+  "maintainers[].email": [
+   "string"
+  ],
+  "maintainers[].name": [
+   "string"
+  ],
+  "name": [
+   "string"
+  ],
+  "repository": [
+   "object"
+  ],
+  "repository.directory": [
+   "string"
+  ],
+  "repository.type": [
+   "string"
+  ],
+  "repository.url": [
+   "string"
+  ],
+  "version": [
+   "string"
+  ]
+ },
+ "ts": "2026-08-18T23:23:51+00:00",
+ "url": "https://registry.npmjs.org/react/latest",
+ "vendor": "npm"
+}

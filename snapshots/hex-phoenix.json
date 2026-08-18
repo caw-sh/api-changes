@@ -1,0 +1,187 @@
+{
+ "category": "registry",
+ "field_count": 58,
+ "first_seen": "2026-08-18T23:20:13+00:00",
+ "id": "hex-phoenix",
+ "pending_keys": [],
+ "runs": 3,
+ "schema": {
+  "configs": [
+   "object"
+  ],
+  "configs.erlang.mk": [
+   "string"
+  ],
+  "configs.mix.exs": [
+   "string"
+  ],
+  "configs.rebar.config": [
+   "string"
+  ],
+  "docs_html_url": [
+   "string"
+  ],
+  "downloads": [
+   "object"
+  ],
+  "downloads.all": [
+   "integer"
+  ],
+  "downloads.day": [
+   "integer"
+  ],
+  "downloads.recent": [
+   "integer"
+  ],
+  "downloads.week": [
+   "integer"
+  ],
+  "html_url": [
+   "string"
+  ],
+  "inserted_at": [
+   "string"
+  ],
+  "latest_stable_version": [
+   "string"
+  ],
+  "latest_version": [
+   "string"
+  ],
+  "meta": [
+   "object"
+  ],
+  "meta.description": [
+   "string"
+  ],
+  "meta.licenses": [
+   "array"
+  ],
+  "meta.licenses[]": [
+   "string"
+  ],
+  "meta.links": [
+   "object"
+  ],
+  "meta.links.Changelog": [
+   "string"
+  ],
+  "meta.links.GitHub": [
+   "string"
+  ],
+  "meta.maintainers": [
+   "array"
+  ],
+  "name": [
+   "string"
+  ],
+  "owners": [
+   "array"
+  ],
+  "owners[]": [
+   "object"
+  ],
+  "owners[].email": [
+   "string"
+  ],
+  "owners[].url": [
+   "string"
+  ],
+  "owners[].username": [
+   "string"
+  ],
+  "releases": [
+   "array"
+  ],
+  "releases[]": [
+   "object"
+  ],
+  "releases[].has_docs": [
+   "boolean"
+  ],
+  "releases[].inserted_at": [
+   "string"
+  ],
+  "releases[].url": [
+   "string"
+  ],
+  "releases[].version": [
+   "string"
+  ],
+  "repository": [
+   "string"
+  ],
+  "retirements": [
+   "object"
+  ],
+  "security_advisories": [
+   "array"
+  ],
+  "security_advisories[]": [
+   "object"
+  ],
+  "security_advisories[].affected": [
+   "array"
+  ],
+  "security_advisories[].affected[]": [
+   "string"
+  ],
+  "security_advisories[].aliases": [
+   "array"
+  ],
+  "security_advisories[].aliases[]": [
+   "string"
+  ],
+  "security_advisories[].api_url": [
+   "string"
+  ],
+  "security_advisories[].cvss_rating": [
+   "string"
+  ],
+  "security_advisories[].cvss_score": [
+   "number"
+  ],
+  "security_advisories[].cvss_vector": [
+   "string"
+  ],
+  "security_advisories[].html_url": [
+   "string"
+  ],
+  "security_advisories[].id": [
+   "string"
+  ],
+  "security_advisories[].modified_at": [
+   "string"
+  ],
+  "security_advisories[].published_at": [
+   "string"
+  ],
+  "security_advisories[].references": [
+   "array"
+  ],
+  "security_advisories[].references[]": [
+   "object"
+  ],
+  "security_advisories[].references[].type": [
+   "string"
+  ],
+  "security_advisories[].references[].url": [
+   "string"
+  ],
+  "security_advisories[].summary": [
+   "string"
+  ],
+  "security_advisories[].withdrawn_at": [
+   "null"
+  ],
+  "updated_at": [
+   "string"
+  ],
+  "url": [
+   "string"
+  ]
+ },
+ "ts": "2026-08-18T23:23:51+00:00",
+ "url": "https://hex.pm/api/packages/phoenix",
+ "vendor": "Hex.pm"
+}

@@ -1,0 +1,40 @@
+{
+ "category": "ai",
+ "field_count": 9,
+ "first_seen": "2026-08-18T23:20:13+00:00",
+ "id": "status-openai-components",
+ "pending_keys": [],
+ "runs": 3,
+ "schema": {
+  "components": [
+   "array"
+  ],
+  "components[]": [
+   "object"
+  ],
+  "components[].created_at": [
+   "string"
+  ],
+  "components[].id": [
+   "string"
+  ],
+  "components[].name": [
+   "string"
+  ],
+  "components[].page_id": [
+   "string"
+  ],
+  "components[].position": [
+   "integer"
+  ],
+  "components[].status": [
+   "string"
+  ],
+  "components[].updated_at": [
+   "string"
+  ]
+ },
+ "ts": "2026-08-18T23:23:51+00:00",
+ "url": "https://status.openai.com/api/v2/components.json",
+ "vendor": "OpenAI"
+}

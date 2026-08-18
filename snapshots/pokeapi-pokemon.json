@@ -1,0 +1,751 @@
+{
+ "category": "fun",
+ "field_count": 246,
+ "first_seen": "2026-08-18T23:20:13+00:00",
+ "id": "pokeapi-pokemon",
+ "pending_keys": [],
+ "runs": 3,
+ "schema": {
+  "abilities": [
+   "array"
+  ],
+  "abilities[]": [
+   "object"
+  ],
+  "abilities[].ability": [
+   "object"
+  ],
+  "abilities[].ability.name": [
+   "string"
+  ],
+  "abilities[].ability.url": [
+   "string"
+  ],
+  "abilities[].is_hidden": [
+   "boolean"
+  ],
+  "abilities[].slot": [
+   "integer"
+  ],
+  "base_experience": [
+   "integer"
+  ],
+  "cries": [
+   "object"
+  ],
+  "cries.latest": [
+   "string"
+  ],
+  "cries.legacy": [
+   "string"
+  ],
+  "forms": [
+   "array"
+  ],
+  "forms[]": [
+   "object"
+  ],
+  "forms[].name": [
+   "string"
+  ],
+  "forms[].url": [
+   "string"
+  ],
+  "game_indices": [
+   "array"
+  ],
+  "game_indices[]": [
+   "object"
+  ],
+  "game_indices[].game_index": [
+   "integer"
+  ],
+  "game_indices[].version": [
+   "object"
+  ],
+  "game_indices[].version.name": [
+   "string"
+  ],
+  "game_indices[].version.url": [
+   "string"
+  ],
+  "height": [
+   "integer"
+  ],
+  "held_items": [
+   "array"
+  ],
+  "held_items[]": [
+   "object"
+  ],
+  "held_items[].item": [
+   "object"
+  ],
+  "held_items[].item.name": [
+   "string"
+  ],
+  "held_items[].item.url": [
+   "string"
+  ],
+  "held_items[].version_details": [
+   "array"
+  ],
+  "held_items[].version_details[]": [
+   "object"
+  ],
+  "held_items[].version_details[].rarity": [
+   "integer"
+  ],
+  "held_items[].version_details[].version": [
+   "object"
+  ],
+  "held_items[].version_details[].version.name": [
+   "string"
+  ],
+  "held_items[].version_details[].version.url": [
+   "string"
+  ],
+  "id": [
+   "integer"
+  ],
+  "is_default": [
+   "boolean"
+  ],
+  "location_area_encounters": [
+   "string"
+  ],
+  "moves": [
+   "array"
+  ],
+  "moves[]": [
+   "object"
+  ],
+  "moves[].move": [
+   "object"
+  ],
+  "moves[].move.name": [
+   "string"
+  ],
+  "moves[].move.url": [
+   "string"
+  ],
+  "moves[].version_group_details": [
+   "array"
+  ],
+  "moves[].version_group_details[]": [
+   "object"
+  ],
+  "moves[].version_group_details[].level_learned_at": [
+   "integer"
+  ],
+  "moves[].version_group_details[].move_learn_method": [
+   "object"
+  ],
+  "moves[].version_group_details[].move_learn_method.name": [
+   "string"
+  ],
+  "moves[].version_group_details[].move_learn_method.url": [
+   "string"
+  ],
+  "moves[].version_group_details[].order": [
+   "null"
+  ],
+  "moves[].version_group_details[].version_group": [
+   "object"
+  ],
+  "moves[].version_group_details[].version_group.name": [
+   "string"
+  ],
+  "moves[].version_group_details[].version_group.url": [
+   "string"
+  ],
+  "name": [
+   "string"
+  ],
+  "order": [
+   "integer"
+  ],
+  "past_abilities": [
+   "array"
+  ],
+  "past_abilities[]": [
+   "object"
+  ],
+  "past_abilities[].abilities": [
+   "array"
+  ],
+  "past_abilities[].abilities[]": [
+   "object"
+  ],
+  "past_abilities[].abilities[].ability": [
+   "null"
+  ],
+  "past_abilities[].abilities[].is_hidden": [
+   "boolean"
+  ],
+  "past_abilities[].abilities[].slot": [
+   "integer"
+  ],
+  "past_abilities[].generation": [
+   "object"
+  ],
+  "past_abilities[].generation.name": [
+   "string"
+  ],
+  "past_abilities[].generation.url": [
+   "string"
+  ],
+  "past_stats": [
+   "array"
+  ],
+  "past_stats[]": [
+   "object"
+  ],
+  "past_stats[].generation": [
+   "object"
+  ],
+  "past_stats[].generation.name": [
+   "string"
+  ],
+  "past_stats[].generation.url": [
+   "string"
+  ],
+  "past_stats[].stats": [
+   "array"
+  ],
+  "past_stats[].stats[]": [
+   "object"
+  ],
+  "past_stats[].stats[].base_stat": [
+   "integer"
+  ],
+  "past_stats[].stats[].effort": [
+   "integer"
+  ],
+  "past_stats[].stats[].stat": [
+   "object"
+  ],
+  "past_stats[].stats[].stat.name": [
+   "string"
+  ],
+  "past_stats[].stats[].stat.url": [
+   "string"
+  ],
+  "past_types": [
+   "array"
+  ],
+  "species": [
+   "object"
+  ],
+  "species.name": [
+   "string"
+  ],
+  "species.url": [
+   "string"
+  ],
+  "sprites": [
+   "object"
+  ],
+  "sprites.back_default": [
+   "string"
+  ],
+  "sprites.back_female": [
+   "null"
+  ],
+  "sprites.back_shiny": [
+   "string"
+  ],
+  "sprites.back_shiny_female": [
+   "null"
+  ],
+  "sprites.front_default": [
+   "string"
+  ],
+  "sprites.front_female": [
+   "null"
+  ],
+  "sprites.front_shiny": [
+   "string"
+  ],
+  "sprites.front_shiny_female": [
+   "null"
+  ],
+  "sprites.other": [
+   "object"
+  ],
+  "sprites.other.dream_world": [
+   "object"
+  ],
+  "sprites.other.dream_world.front_default": [
+   "string"
+  ],
+  "sprites.other.dream_world.front_female": [
+   "null"
+  ],
+  "sprites.other.home": [
+   "object"
+  ],
+  "sprites.other.home.front_default": [
+   "string"
+  ],
+  "sprites.other.home.front_female": [
+   "null"
+  ],
+  "sprites.other.home.front_shiny": [
+   "string"
+  ],
+  "sprites.other.home.front_shiny_female": [
+   "null"
+  ],
+  "sprites.other.official-artwork": [
+   "object"
+  ],
+  "sprites.other.official-artwork.front_default": [
+   "string"
+  ],
+  "sprites.other.official-artwork.front_shiny": [
+   "string"
+  ],
+  "sprites.other.showdown": [
+   "object"
+  ],
+  "sprites.other.showdown.back_default": [
+   "string"
+  ],
+  "sprites.other.showdown.back_female": [
+   "null"
+  ],
+  "sprites.other.showdown.back_shiny": [
+   "string"
+  ],
+  "sprites.other.showdown.back_shiny_female": [
+   "null"
+  ],
+  "sprites.other.showdown.front_default": [
+   "string"
+  ],
+  "sprites.other.showdown.front_female": [
+   "null"
+  ],
+  "sprites.other.showdown.front_shiny": [
+   "string"
+  ],
+  "sprites.other.showdown.front_shiny_female": [
+   "null"
+  ],
+  "sprites.versions": [
+   "object"
+  ],
+  "sprites.versions.generation-i": [
+   "object"
+  ],
+  "sprites.versions.generation-i.red-blue": [
+   "object"
+  ],
+  "sprites.versions.generation-i.red-blue.back_default": [
+   "string"
+  ],
+  "sprites.versions.generation-i.red-blue.back_gray": [
+   "string"
+  ],
+  "sprites.versions.generation-i.red-blue.back_transparent": [
+   "string"
+  ],
+  "sprites.versions.generation-i.red-blue.front_default": [
+   "string"
+  ],
+  "sprites.versions.generation-i.red-blue.front_gray": [
+   "string"
+  ],
+  "sprites.versions.generation-i.red-blue.front_transparent": [
+   "string"
+  ],
+  "sprites.versions.generation-i.yellow": [
+   "object"
+  ],
+  "sprites.versions.generation-i.yellow.back_default": [
+   "string"
+  ],
+  "sprites.versions.generation-i.yellow.back_gray": [
+   "string"
+  ],
+  "sprites.versions.generation-i.yellow.back_transparent": [
+   "string"
+  ],
+  "sprites.versions.generation-i.yellow.front_default": [
+   "string"
+  ],
+  "sprites.versions.generation-i.yellow.front_gray": [
+   "string"
+  ],
+  "sprites.versions.generation-i.yellow.front_transparent": [
+   "string"
+  ],
+  "sprites.versions.generation-ii": [
+   "object"
+  ],
+  "sprites.versions.generation-ii.crystal": [
+   "object"
+  ],
+  "sprites.versions.generation-ii.crystal.{*}": [
+   "string"
+  ],
+  "sprites.versions.generation-ii.gold": [
+   "object"
+  ],
+  "sprites.versions.generation-ii.gold.back_default": [
+   "string"
+  ],
+  "sprites.versions.generation-ii.gold.back_shiny": [
+   "string"
+  ],
+  "sprites.versions.generation-ii.gold.front_default": [
+   "string"
+  ],
+  "sprites.versions.generation-ii.gold.front_shiny": [
+   "string"
+  ],
+  "sprites.versions.generation-ii.gold.front_transparent": [
+   "string"
+  ],
+  "sprites.versions.generation-ii.silver": [
+   "object"
+  ],
+  "sprites.versions.generation-ii.silver.back_default": [
+   "string"
+  ],
+  "sprites.versions.generation-ii.silver.back_shiny": [
+   "string"
+  ],
+  "sprites.versions.generation-ii.silver.front_default": [
+   "string"
+  ],
+  "sprites.versions.generation-ii.silver.front_shiny": [
+   "string"
+  ],
+  "sprites.versions.generation-ii.silver.front_transparent": [
+   "string"
+  ],
+  "sprites.versions.generation-iii": [
+   "object"
+  ],
+  "sprites.versions.generation-iii.emerald": [
+   "object"
+  ],
+  "sprites.versions.generation-iii.emerald.front_default": [
+   "string"
+  ],
+  "sprites.versions.generation-iii.emerald.front_shiny": [
+   "string"
+  ],
+  "sprites.versions.generation-iii.firered-leafgreen": [
+   "object"
+  ],
+  "sprites.versions.generation-iii.firered-leafgreen.back_default": [
+   "string"
+  ],
+  "sprites.versions.generation-iii.firered-leafgreen.back_shiny": [
+   "string"
+  ],
+  "sprites.versions.generation-iii.firered-leafgreen.front_default": [
+   "string"
+  ],
+  "sprites.versions.generation-iii.firered-leafgreen.front_shiny": [
+   "string"
+  ],
+  "sprites.versions.generation-iii.ruby-sapphire": [
+   "object"
+  ],
+  "sprites.versions.generation-iii.ruby-sapphire.back_default": [
+   "string"
+  ],
+  "sprites.versions.generation-iii.ruby-sapphire.back_shiny": [
+   "string"
+  ],
+  "sprites.versions.generation-iii.ruby-sapphire.front_default": [
+   "string"
+  ],
+  "sprites.versions.generation-iii.ruby-sapphire.front_shiny": [
+   "string"
+  ],
+  "sprites.versions.generation-iv": [
+   "object"
+  ],
+  "sprites.versions.generation-iv.diamond-pearl": [
+   "object"
+  ],
+  "sprites.versions.generation-iv.diamond-pearl.back_default": [
+   "string"
+  ],
+  "sprites.versions.generation-iv.diamond-pearl.back_female": [
+   "null"
+  ],
+  "sprites.versions.generation-iv.diamond-pearl.back_shiny": [
+   "string"
+  ],
+  "sprites.versions.generation-iv.diamond-pearl.back_shiny_female": [
+   "null"
+  ],
+  "sprites.versions.generation-iv.diamond-pearl.front_default": [
+   "string"
+  ],
+  "sprites.versions.generation-iv.diamond-pearl.front_female": [
+   "null"
+  ],
+  "sprites.versions.generation-iv.diamond-pearl.front_shiny": [
+   "string"
+  ],
+  "sprites.versions.generation-iv.diamond-pearl.front_shiny_female": [
+   "null"
+  ],
+  "sprites.versions.generation-iv.heartgold-soulsilver": [
+   "object"
+  ],
+  "sprites.versions.generation-iv.heartgold-soulsilver.back_default": [
+   "string"
+  ],
+  "sprites.versions.generation-iv.heartgold-soulsilver.back_female": [
+   "null"
+  ],
+  "sprites.versions.generation-iv.heartgold-soulsilver.back_shiny": [
+   "string"
+  ],
+  "sprites.versions.generation-iv.heartgold-soulsilver.back_shiny_female": [
+   "null"
+  ],
+  "sprites.versions.generation-iv.heartgold-soulsilver.front_default": [
+   "string"
+  ],
+  "sprites.versions.generation-iv.heartgold-soulsilver.front_female": [
+   "null"
+  ],
+  "sprites.versions.generation-iv.heartgold-soulsilver.front_shiny": [
+   "string"
+  ],
+  "sprites.versions.generation-iv.heartgold-soulsilver.front_shiny_female": [
+   "null"
+  ],
+  "sprites.versions.generation-iv.platinum": [
+   "object"
+  ],
+  "sprites.versions.generation-iv.platinum.back_default": [
+   "string"
+  ],
+  "sprites.versions.generation-iv.platinum.back_female": [
+   "null"
+  ],
+  "sprites.versions.generation-iv.platinum.back_shiny": [
+   "string"
+  ],
+  "sprites.versions.generation-iv.platinum.back_shiny_female": [
+   "null"
+  ],
+  "sprites.versions.generation-iv.platinum.front_default": [
+   "string"
+  ],
+  "sprites.versions.generation-iv.platinum.front_female": [
+   "null"
+  ],
+  "sprites.versions.generation-iv.platinum.front_shiny": [
+   "string"
+  ],
+  "sprites.versions.generation-iv.platinum.front_shiny_female": [
+   "null"
+  ],
+  "sprites.versions.generation-ix": [
+   "object"
+  ],
+  "sprites.versions.generation-ix.scarlet-violet": [
+   "object"
+  ],
+  "sprites.versions.generation-ix.scarlet-violet.front_default": [
+   "string"
+  ],
+  "sprites.versions.generation-ix.scarlet-violet.front_female": [
+   "null"
+  ],
+  "sprites.versions.generation-v": [
+   "object"
+  ],
+  "sprites.versions.generation-v.black-white": [
+   "object"
+  ],
+  "sprites.versions.generation-v.black-white.animated": [
+   "object"
+  ],
+  "sprites.versions.generation-v.black-white.animated.back_default": [
+   "string"
+  ],
+  "sprites.versions.generation-v.black-white.animated.back_female": [
+   "null"
+  ],
+  "sprites.versions.generation-v.black-white.animated.back_shiny": [
+   "string"
+  ],
+  "sprites.versions.generation-v.black-white.animated.back_shiny_female": [
+   "null"
+  ],
+  "sprites.versions.generation-v.black-white.animated.front_default": [
+   "string"
+  ],
+  "sprites.versions.generation-v.black-white.animated.front_female": [
+   "null"
+  ],
+  "sprites.versions.generation-v.black-white.animated.front_shiny": [
+   "string"
+  ],
+  "sprites.versions.generation-v.black-white.animated.front_shiny_female": [
+   "null"
+  ],
+  "sprites.versions.generation-v.black-white.back_default": [
+   "string"
+  ],
+  "sprites.versions.generation-v.black-white.back_female": [
+   "null"
+  ],
+  "sprites.versions.generation-v.black-white.back_shiny": [
+   "string"
+  ],
+  "sprites.versions.generation-v.black-white.back_shiny_female": [
+   "null"
+  ],
+  "sprites.versions.generation-v.black-white.front_default": [
+   "string"
+  ],
+  "sprites.versions.generation-v.black-white.front_female": [
+   "null"
+  ],
+  "sprites.versions.generation-v.black-white.front_shiny": [
+   "string"
+  ],
+  "sprites.versions.generation-v.black-white.front_shiny_female": [
+   "null"
+  ],
+  "sprites.versions.generation-vi": [
+   "object"
+  ],
+  "sprites.versions.generation-vi.omegaruby-alphasapphire": [
+   "object"
+  ],
+  "sprites.versions.generation-vi.omegaruby-alphasapphire.front_default": [
+   "string"
+  ],
+  "sprites.versions.generation-vi.omegaruby-alphasapphire.front_female": [
+   "null"
+  ],
+  "sprites.versions.generation-vi.omegaruby-alphasapphire.front_shiny": [
+   "string"
+  ],
+  "sprites.versions.generation-vi.omegaruby-alphasapphire.front_shiny_female": [
+   "null"
+  ],
+  "sprites.versions.generation-vi.x-y": [
+   "object"
+  ],
+  "sprites.versions.generation-vi.x-y.front_default": [
+   "string"
+  ],
+  "sprites.versions.generation-vi.x-y.front_female": [
+   "null"
+  ],
+  "sprites.versions.generation-vi.x-y.front_shiny": [
+   "string"
+  ],
+  "sprites.versions.generation-vi.x-y.front_shiny_female": [
+   "null"
+  ],
+  "sprites.versions.generation-vii": [
+   "object"
+  ],
+  "sprites.versions.generation-vii.icons": [
+   "object"
+  ],
+  "sprites.versions.generation-vii.icons.front_default": [
+   "string"
+  ],
+  "sprites.versions.generation-vii.icons.front_female": [
+   "null"
+  ],
+  "sprites.versions.generation-vii.ultra-sun-ultra-moon": [
+   "object"
+  ],
+  "sprites.versions.generation-vii.ultra-sun-ultra-moon.front_default": [
+   "string"
+  ],
+  "sprites.versions.generation-vii.ultra-sun-ultra-moon.front_female": [
+   "null"
+  ],
+  "sprites.versions.generation-vii.ultra-sun-ultra-moon.front_shiny": [
+   "string"
+  ],
+  "sprites.versions.generation-vii.ultra-sun-ultra-moon.front_shiny_female": [
+   "null"
+  ],
+  "sprites.versions.generation-viii": [
+   "object"
+  ],
+  "sprites.versions.generation-viii.brilliant-diamond-shining-pearl": [
+   "object"
+  ],
+  "sprites.versions.generation-viii.brilliant-diamond-shining-pearl.front_default": [
+   "string"
+  ],
+  "sprites.versions.generation-viii.brilliant-diamond-shining-pearl.front_female": [
+   "null"
+  ],
+  "sprites.versions.generation-viii.icons": [
+   "object"
+  ],
+  "sprites.versions.generation-viii.icons.front_default": [
+   "string"
+  ],
+  "sprites.versions.generation-viii.icons.front_female": [
+   "null"
+  ],
+  "stats": [
+   "array"
+  ],
+  "stats[]": [
+   "object"
+  ],
+  "stats[].base_stat": [
+   "integer"
+  ],
+  "stats[].effort": [
+   "integer"
+  ],
+  "stats[].stat": [
+   "object"
+  ],
+  "stats[].stat.name": [
+   "string"
+  ],
+  "stats[].stat.url": [
+   "string"
+  ],
+  "types": [
+   "array"
+  ],
+  "types[]": [
+   "object"
+  ],
+  "types[].slot": [
+   "integer"
+  ],
+  "types[].type": [
+   "object"
+  ],
+  "types[].type.name": [
+   "string"
+  ],
+  "types[].type.url": [
+   "string"
+  ],
+  "weight": [
+   "integer"
+  ]
+ },
+ "ts": "2026-08-18T23:23:51+00:00",
+ "url": "https://pokeapi.co/api/v2/pokemon/ditto",
+ "vendor": "PokeAPI"
+}

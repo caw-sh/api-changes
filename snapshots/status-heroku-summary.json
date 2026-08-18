@@ -1,0 +1,136 @@
+{
+ "category": "dev-infra",
+ "field_count": 41,
+ "first_seen": "2026-08-18T23:23:51+00:00",
+ "id": "status-heroku-summary",
+ "pending_keys": [],
+ "runs": 1,
+ "schema": {
+  "incidents": [
+   "array"
+  ],
+  "scheduled": [
+   "array"
+  ],
+  "scheduled[]": [
+   "object"
+  ],
+  "scheduled[].created_at": [
+   "string"
+  ],
+  "scheduled[].duration": [
+   "integer"
+  ],
+  "scheduled[].full_url": [
+   "string"
+  ],
+  "scheduled[].href": [
+   "string"
+  ],
+  "scheduled[].id": [
+   "integer"
+  ],
+  "scheduled[].resolved": [
+   "boolean"
+  ],
+  "scheduled[].resolved_at": [
+   "null"
+  ],
+  "scheduled[].review": [
+   "boolean"
+  ],
+  "scheduled[].state": [
+   "string"
+  ],
+  "scheduled[].systems": [
+   "array"
+  ],
+  "scheduled[].systems[]": [
+   "object"
+  ],
+  "scheduled[].systems[].name": [
+   "string"
+  ],
+  "scheduled[].systems[].services": [
+   "array"
+  ],
+  "scheduled[].systems[].services[]": [
+   "string"
+  ],
+  "scheduled[].systems[].status": [
+   "string"
+  ],
+  "scheduled[].tags": [
+   "array"
+  ],
+  "scheduled[].tags[]": [
+   "string"
+  ],
+  "scheduled[].title": [
+   "string"
+  ],
+  "scheduled[].updated_at": [
+   "string"
+  ],
+  "scheduled[].updates": [
+   "array"
+  ],
+  "scheduled[].updates[]": [
+   "object"
+  ],
+  "scheduled[].updates[].contents": [
+   "string"
+  ],
+  "scheduled[].updates[].created_at": [
+   "string"
+  ],
+  "scheduled[].updates[].id": [
+   "integer"
+  ],
+  "scheduled[].updates[].incident_id": [
+   "integer"
+  ],
+  "scheduled[].updates[].systems": [
+   "array"
+  ],
+  "scheduled[].updates[].systems[]": [
+   "object"
+  ],
+  "scheduled[].updates[].systems[].name": [
+   "string"
+  ],
+  "scheduled[].updates[].systems[].services": [
+   "array"
+  ],
+  "scheduled[].updates[].systems[].services[]": [
+   "string"
+  ],
+  "scheduled[].updates[].systems[].status": [
+   "string"
+  ],
+  "scheduled[].updates[].title": [
+   "string"
+  ],
+  "scheduled[].updates[].update_type": [
+   "string"
+  ],
+  "scheduled[].updates[].updated_at": [
+   "string"
+  ],
+  "status": [
+   "array"
+  ],
+  "status[]": [
+   "object"
+  ],
+  "status[].status": [
+   "string"
+  ],
+  "status[].system": [
+   "string"
+  ]
+ },
+ "ts": "2026-08-18T23:23:51+00:00",
+ "url": "https://status.heroku.com/api/v4/current-status",
+ "vendor": "Heroku"
+}

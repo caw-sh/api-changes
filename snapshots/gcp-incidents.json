@@ -1,0 +1,136 @@
+{
+ "category": "dev-infra",
+ "field_count": 41,
+ "first_seen": "2026-08-18T23:20:13+00:00",
+ "id": "gcp-incidents",
+ "pending_keys": [],
+ "runs": 3,
+ "schema": {
+  "[]": [
+   "object"
+  ],
+  "[].affected_products": [
+   "array"
+  ],
+  "[].affected_products[]": [
+   "object"
+  ],
+  "[].affected_products[].current_title": [
+   "string"
+  ],
+  "[].affected_products[].id": [
+   "string"
+  ],
+  "[].affected_products[].title": [
+   "string"
+  ],
+  "[].begin": [
+   "string"
+  ],
+  "[].created": [
+   "string"
+  ],
+  "[].currently_affected_locations": [
+   "array"
+  ],
+  "[].end": [
+   "string"
+  ],
+  "[].external_desc": [
+   "string"
+  ],
+  "[].id": [
+   "string"
+  ],
+  "[].modified": [
+   "string"
+  ],
+  "[].most_recent_update": [
+   "object"
+  ],
+  "[].most_recent_update.affected_locations": [
+   "array"
+  ],
+  "[].most_recent_update.created": [
+   "string"
+  ],
+  "[].most_recent_update.modified": [
+   "string"
+  ],
+  "[].most_recent_update.status": [
+   "string"
+  ],
+  "[].most_recent_update.text": [
+   "string"
+  ],
+  "[].most_recent_update.when": [
+   "string"
+  ],
+  "[].number": [
+   "string"
+  ],
+  "[].previously_affected_locations": [
+   "array"
+  ],
+  "[].previously_affected_locations[]": [
+   "object"
+  ],
+  "[].previously_affected_locations[].id": [
+   "string"
+  ],
+  "[].previously_affected_locations[].title": [
+   "string"
+  ],
+  "[].service_key": [
+   "string"
+  ],
+  "[].service_name": [
+   "string"
+  ],
+  "[].severity": [
+   "string"
+  ],
+  "[].status_impact": [
+   "string"
+  ],
+  "[].updates": [
+   "array"
+  ],
+  "[].updates[]": [
+   "object"
+  ],
+  "[].updates[].affected_locations": [
+   "array"
+  ],
+  "[].updates[].affected_locations[]": [
+   "object"
+  ],
+  "[].updates[].affected_locations[].id": [
+   "string"
+  ],
+  "[].updates[].affected_locations[].title": [
+   "string"
+  ],
+  "[].updates[].created": [
+   "string"
+  ],
+  "[].updates[].modified": [
+   "string"
+  ],
+  "[].updates[].status": [
+   "string"
+  ],
+  "[].updates[].text": [
+   "string"
+  ],
+  "[].updates[].when": [
+   "string"
+  ],
+  "[].uri": [
+   "string"
+  ]
+ },
+ "ts": "2026-08-18T23:23:51+00:00",
+ "url": "https://status.cloud.google.com/incidents.json",
+ "vendor": "Google Cloud"
+}

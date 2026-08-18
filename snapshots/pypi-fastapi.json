@@ -1,0 +1,303 @@
+{
+ "category": "registry",
+ "field_count": 96,
+ "first_seen": "2026-08-18T23:20:13+00:00",
+ "id": "pypi-fastapi",
+ "pending_keys": [],
+ "runs": 3,
+ "schema": {
+  "info": [
+   "object"
+  ],
+  "info.author": [
+   "null"
+  ],
+  "info.author_email": [
+   "string"
+  ],
+  "info.bugtrack_url": [
+   "null"
+  ],
+  "info.classifiers": [
+   "array"
+  ],
+  "info.classifiers[]": [
+   "string"
+  ],
+  "info.description": [
+   "string"
+  ],
+  "info.description_content_type": [
+   "string"
+  ],
+  "info.docs_url": [
+   "null"
+  ],
+  "info.download_url": [
+   "null"
+  ],
+  "info.downloads": [
+   "object"
+  ],
+  "info.downloads.last_day": [
+   "integer"
+  ],
+  "info.downloads.last_month": [
+   "integer"
+  ],
+  "info.downloads.last_week": [
+   "integer"
+  ],
+  "info.dynamic": [
+   "null"
+  ],
+  "info.home_page": [
+   "null"
+  ],
+  "info.keywords": [
+   "null"
+  ],
+  "info.license": [
+   "null"
+  ],
+  "info.license_expression": [
+   "string"
+  ],
+  "info.license_files": [
+   "array"
+  ],
+  "info.license_files[]": [
+   "string"
+  ],
+  "info.maintainer": [
+   "null"
+  ],
+  "info.maintainer_email": [
+   "null"
+  ],
+  "info.name": [
+   "string"
+  ],
+  "info.package_url": [
+   "string"
+  ],
+  "info.platform": [
+   "null"
+  ],
+  "info.project_url": [
+   "string"
+  ],
+  "info.project_urls": [
+   "object"
+  ],
+  "info.project_urls.Changelog": [
+   "string"
+  ],
+  "info.project_urls.Documentation": [
+   "string"
+  ],
+  "info.project_urls.Homepage": [
+   "string"
+  ],
+  "info.project_urls.Issues": [
+   "string"
+  ],
+  "info.project_urls.Repository": [
+   "string"
+  ],
+  "info.provides_extra": [
+   "array"
+  ],
+  "info.provides_extra[]": [
+   "string"
+  ],
+  "info.release_url": [
+   "string"
+  ],
+  "info.requires_dist": [
+   "array"
+  ],
+  "info.requires_dist[]": [
+   "string"
+  ],
+  "info.requires_python": [
+   "string"
+  ],
+  "info.summary": [
+   "string"
+  ],
+  "info.version": [
+   "string"
+  ],
+  "info.yanked": [
+   "boolean"
+  ],
+  "info.yanked_reason": [
+   "null"
+  ],
+  "last_serial": [
+   "integer"
+  ],
+  "ownership": [
+   "object"
+  ],
+  "ownership.organization": [
+   "null"
+  ],
+  "ownership.roles": [
+   "array"
+  ],
+  "ownership.roles[]": [
+   "object"
+  ],
+  "ownership.roles[].role": [
+   "string"
+  ],
+  "ownership.roles[].user": [
+   "string"
+  ],
+  "releases": [
+   "object"
+  ],
+  "releases.{*}": [
+   "array"
+  ],
+  "releases.{*}[]": [
+   "object"
+  ],
+  "releases.{*}[].comment_text": [
+   "string"
+  ],
+  "releases.{*}[].core-metadata": [
+   "boolean",
+   "object"
+  ],
+  "releases.{*}[].core-metadata.sha256": [
+   "string"
+  ],
+  "releases.{*}[].digests": [
+   "object"
+  ],
+  "releases.{*}[].digests.blake2b_256": [
+   "string"
+  ],
+  "releases.{*}[].digests.md5": [
+   "string"
+  ],
+  "releases.{*}[].digests.sha256": [
+   "string"
+  ],
+  "releases.{*}[].downloads": [
+   "integer"
+  ],
+  "releases.{*}[].filename": [
+   "string"
+  ],
+  "releases.{*}[].has_sig": [
+   "boolean"
+  ],
+  "releases.{*}[].md5_digest": [
+   "string"
+  ],
+  "releases.{*}[].packagetype": [
+   "string"
+  ],
+  "releases.{*}[].python_version": [
+   "string"
+  ],
+  "releases.{*}[].requires_python": [
+   "string"
+  ],
+  "releases.{*}[].size": [
+   "integer"
+  ],
+  "releases.{*}[].upload_time": [
+   "string"
+  ],
+  "releases.{*}[].upload_time_iso_8601": [
+   "string"
+  ],
+  "releases.{*}[].url": [
+   "string"
+  ],
+  "releases.{*}[].yanked": [
+   "boolean"
+  ],
+  "releases.{*}[].yanked_reason": [
+   "null"
+  ],
+  "urls": [
+   "array"
+  ],
+  "urls[]": [
+   "object"
+  ],
+  "urls[].comment_text": [
+   "null"
+  ],
+  "urls[].core-metadata": [
+   "boolean",
+   "object"
+  ],
+  "urls[].core-metadata.sha256": [
+   "string"
+  ],
+  "urls[].digests": [
+   "object"
+  ],
+  "urls[].digests.blake2b_256": [
+   "string"
+  ],
+  "urls[].digests.md5": [
+   "string"
+  ],
+  "urls[].digests.sha256": [
+   "string"
+  ],
+  "urls[].downloads": [
+   "integer"
+  ],
+  "urls[].filename": [
+   "string"
+  ],
+  "urls[].has_sig": [
+   "boolean"
+  ],
+  "urls[].md5_digest": [
+   "string"
+  ],
+  "urls[].packagetype": [
+   "string"
+  ],
+  "urls[].python_version": [
+   "string"
+  ],
+  "urls[].requires_python": [
+   "string"
+  ],
+  "urls[].size": [
+   "integer"
+  ],
+  "urls[].upload_time": [
+   "string"
+  ],
+  "urls[].upload_time_iso_8601": [
+   "string"
+  ],
+  "urls[].url": [
+   "string"
+  ],
+  "urls[].yanked": [
+   "boolean"
+  ],
+  "urls[].yanked_reason": [
+   "null"
+  ],
+  "vulnerabilities": [
+   "array"
+  ]
+ },
+ "ts": "2026-08-18T23:23:51+00:00",
+ "url": "https://pypi.org/pypi/fastapi/json",
+ "vendor": "PyPI"
+}

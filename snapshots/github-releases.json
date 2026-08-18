@@ -1,0 +1,163 @@
+{
+ "category": "dev-infra",
+ "field_count": 50,
+ "first_seen": "2026-08-18T23:20:13+00:00",
+ "id": "github-releases",
+ "pending_keys": [],
+ "runs": 3,
+ "schema": {
+  "assets": [
+   "array"
+  ],
+  "assets_url": [
+   "string"
+  ],
+  "author": [
+   "object"
+  ],
+  "author.avatar_url": [
+   "string"
+  ],
+  "author.events_url": [
+   "string"
+  ],
+  "author.followers_url": [
+   "string"
+  ],
+  "author.following_url": [
+   "string"
+  ],
+  "author.gists_url": [
+   "string"
+  ],
+  "author.gravatar_id": [
+   "string"
+  ],
+  "author.html_url": [
+   "string"
+  ],
+  "author.id": [
+   "integer"
+  ],
+  "author.login": [
+   "string"
+  ],
+  "author.node_id": [
+   "string"
+  ],
+  "author.organizations_url": [
+   "string"
+  ],
+  "author.received_events_url": [
+   "string"
+  ],
+  "author.repos_url": [
+   "string"
+  ],
+  "author.site_admin": [
+   "boolean"
+  ],
+  "author.starred_url": [
+   "string"
+  ],
+  "author.subscriptions_url": [
+   "string"
+  ],
+  "author.type": [
+   "string"
+  ],
+  "author.url": [
+   "string"
+  ],
+  "author.user_view_type": [
+   "string"
+  ],
+  "body": [
+   "string"
+  ],
+  "created_at": [
+   "string"
+  ],
+  "draft": [
+   "boolean"
+  ],
+  "html_url": [
+   "string"
+  ],
+  "id": [
+   "integer"
+  ],
+  "immutable": [
+   "boolean"
+  ],
+  "name": [
+   "string"
+  ],
+  "node_id": [
+   "string"
+  ],
+  "prerelease": [
+   "boolean"
+  ],
+  "published_at": [
+   "string"
+  ],
+  "reactions": [
+   "object"
+  ],
+  "reactions.+1": [
+   "integer"
+  ],
+  "reactions.-1": [
+   "integer"
+  ],
+  "reactions.confused": [
+   "integer"
+  ],
+  "reactions.eyes": [
+   "integer"
+  ],
+  "reactions.heart": [
+   "integer"
+  ],
+  "reactions.hooray": [
+   "integer"
+  ],
+  "reactions.laugh": [
+   "integer"
+  ],
+  "reactions.rocket": [
+   "integer"
+  ],
+  "reactions.total_count": [
+   "integer"
+  ],
+  "reactions.url": [
+   "string"
+  ],
+  "tag_name": [
+   "string"
+  ],
+  "tarball_url": [
+   "string"
+  ],
+  "target_commitish": [
+   "string"
+  ],
+  "updated_at": [
+   "string"
+  ],
+  "upload_url": [
+   "string"
+  ],
+  "url": [
+   "string"
+  ],
+  "zipball_url": [
+   "string"
+  ]
+ },
+ "ts": "2026-08-18T23:23:51+00:00",
+ "url": "https://api.github.com/repos/nodejs/node/releases/latest",
+ "vendor": "GitHub"
+}

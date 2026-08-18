@@ -1,0 +1,10651 @@
+{
+ "category": "registry",
+ "field_count": 3518,
+ "first_seen": "2026-08-18T23:20:13+00:00",
+ "id": "pypi-requests",
+ "pending_keys": [],
+ "runs": 3,
+ "schema": {
+  "info": [
+   "object"
+  ],
+  "info.author": [
+   "null"
+  ],
+  "info.author_email": [
+   "string"
+  ],
+  "info.bugtrack_url": [
+   "null"
+  ],
+  "info.classifiers": [
+   "array"
+  ],
+  "info.classifiers[]": [
+   "string"
+  ],
+  "info.description": [
+   "string"
+  ],
+  "info.description_content_type": [
+   "string"
+  ],
+  "info.docs_url": [
+   "null"
+  ],
+  "info.download_url": [
+   "null"
+  ],
+  "info.downloads": [
+   "object"
+  ],
+  "info.downloads.last_day": [
+   "integer"
+  ],
+  "info.downloads.last_month": [
+   "integer"
+  ],
+  "info.downloads.last_week": [
+   "integer"
+  ],
+  "info.dynamic": [
+   "array"
+  ],
+  "info.dynamic[]": [
+   "string"
+  ],
+  "info.home_page": [
+   "null"
+  ],
+  "info.keywords": [
+   "null"
+  ],
+  "info.license": [
+   "string"
+  ],
+  "info.license_expression": [
+   "null"
+  ],
+  "info.license_files": [
+   "array"
+  ],
+  "info.license_files[]": [
+   "string"
+  ],
+  "info.maintainer": [
+   "null"
+  ],
+  "info.maintainer_email": [
+   "string"
+  ],
+  "info.name": [
+   "string"
+  ],
+  "info.package_url": [
+   "string"
+  ],
+  "info.platform": [
+   "null"
+  ],
+  "info.project_url": [
+   "string"
+  ],
+  "info.project_urls": [
+   "object"
+  ],
+  "info.project_urls.Documentation": [
+   "string"
+  ],
+  "info.project_urls.Source": [
+   "string"
+  ],
+  "info.provides_extra": [
+   "array"
+  ],
+  "info.provides_extra[]": [
+   "string"
+  ],
+  "info.release_url": [
+   "string"
+  ],
+  "info.requires_dist": [
+   "array"
+  ],
+  "info.requires_dist[]": [
+   "string"
+  ],
+  "info.requires_python": [
+   "string"
+  ],
+  "info.summary": [
+   "string"
+  ],
+  "info.version": [
+   "string"
+  ],
+  "info.yanked": [
+   "boolean"
+  ],
+  "info.yanked_reason": [
+   "null"
+  ],
+  "last_serial": [
+   "integer"
+  ],
+  "ownership": [
+   "object"
+  ],
+  "ownership.organization": [
+   "null"
+  ],
+  "ownership.roles": [
+   "array"
+  ],
+  "ownership.roles[]": [
+   "object"
+  ],
+  "ownership.roles[].role": [
+   "string"
+  ],
+  "ownership.roles[].user": [
+   "string"
+  ],
+  "releases": [
+   "object"
+  ],
+  "releases.0.0.1": [
+   "array"
+  ],
+  "releases.0.10.0": [
+   "array"
+  ],
+  "releases.0.10.0[]": [
+   "object"
+  ],
+  "releases.0.10.0[].comment_text": [
+   "string"
+  ],
+  "releases.0.10.0[].core-metadata": [
+   "boolean"
+  ],
+  "releases.0.10.0[].digests": [
+   "object"
+  ],
+  "releases.0.10.0[].digests.blake2b_256": [
+   "string"
+  ],
+  "releases.0.10.0[].digests.md5": [
+   "string"
+  ],
+  "releases.0.10.0[].digests.sha256": [
+   "string"
+  ],
+  "releases.0.10.0[].downloads": [
+   "integer"
+  ],
+  "releases.0.10.0[].filename": [
+   "string"
+  ],
+  "releases.0.10.0[].has_sig": [
+   "boolean"
+  ],
+  "releases.0.10.0[].md5_digest": [
+   "string"
+  ],
+  "releases.0.10.0[].packagetype": [
+   "string"
+  ],
+  "releases.0.10.0[].python_version": [
+   "string"
+  ],
+  "releases.0.10.0[].requires_python": [
+   "null"
+  ],
+  "releases.0.10.0[].size": [
+   "integer"
+  ],
+  "releases.0.10.0[].upload_time": [
+   "string"
+  ],
+  "releases.0.10.0[].upload_time_iso_8601": [
+   "string"
+  ],
+  "releases.0.10.0[].url": [
+   "string"
+  ],
+  "releases.0.10.0[].yanked": [
+   "boolean"
+  ],
+  "releases.0.10.0[].yanked_reason": [
+   "null"
+  ],
+  "releases.0.10.1": [
+   "array"
+  ],
+  "releases.0.10.1[]": [
+   "object"
+  ],
+  "releases.0.10.1[].comment_text": [
+   "string"
+  ],
+  "releases.0.10.1[].core-metadata": [
+   "boolean"
+  ],
+  "releases.0.10.1[].digests": [
+   "object"
+  ],
+  "releases.0.10.1[].digests.blake2b_256": [
+   "string"
+  ],
+  "releases.0.10.1[].digests.md5": [
+   "string"
+  ],
+  "releases.0.10.1[].digests.sha256": [
+   "string"
+  ],
+  "releases.0.10.1[].downloads": [
+   "integer"
+  ],
+  "releases.0.10.1[].filename": [
+   "string"
+  ],
+  "releases.0.10.1[].has_sig": [
+   "boolean"
+  ],
+  "releases.0.10.1[].md5_digest": [
+   "string"
+  ],
+  "releases.0.10.1[].packagetype": [
+   "string"
+  ],
+  "releases.0.10.1[].python_version": [
+   "string"
+  ],
+  "releases.0.10.1[].requires_python": [
+   "null"
+  ],
+  "releases.0.10.1[].size": [
+   "integer"
+  ],
+  "releases.0.10.1[].upload_time": [
+   "string"
+  ],
+  "releases.0.10.1[].upload_time_iso_8601": [
+   "string"
+  ],
+  "releases.0.10.1[].url": [
+   "string"
+  ],
+  "releases.0.10.1[].yanked": [
+   "boolean"
+  ],
+  "releases.0.10.1[].yanked_reason": [
+   "null"
+  ],
+  "releases.0.10.2": [
+   "array"
+  ],
+  "releases.0.10.2[]": [
+   "object"
+  ],
+  "releases.0.10.2[].comment_text": [
+   "string"
+  ],
+  "releases.0.10.2[].core-metadata": [
+   "boolean"
+  ],
+  "releases.0.10.2[].digests": [
+   "object"
+  ],
+  "releases.0.10.2[].digests.blake2b_256": [
+   "string"
+  ],
+  "releases.0.10.2[].digests.md5": [
+   "string"
+  ],
+  "releases.0.10.2[].digests.sha256": [
+   "string"
+  ],
+  "releases.0.10.2[].downloads": [
+   "integer"
+  ],
+  "releases.0.10.2[].filename": [
+   "string"
+  ],
+  "releases.0.10.2[].has_sig": [
+   "boolean"
+  ],
+  "releases.0.10.2[].md5_digest": [
+   "string"
+  ],
+  "releases.0.10.2[].packagetype": [
+   "string"
+  ],
+  "releases.0.10.2[].python_version": [
+   "string"
+  ],
+  "releases.0.10.2[].requires_python": [
+   "null"
+  ],
+  "releases.0.10.2[].size": [
+   "integer"
+  ],
+  "releases.0.10.2[].upload_time": [
+   "string"
+  ],
+  "releases.0.10.2[].upload_time_iso_8601": [
+   "string"
+  ],
+  "releases.0.10.2[].url": [
+   "string"
+  ],
+  "releases.0.10.2[].yanked": [
+   "boolean"
+  ],
+  "releases.0.10.2[].yanked_reason": [
+   "null"
+  ],
+  "releases.0.10.3": [
+   "array"
+  ],
+  "releases.0.10.3[]": [
+   "object"
+  ],
+  "releases.0.10.3[].comment_text": [
+   "string"
+  ],
+  "releases.0.10.3[].core-metadata": [
+   "boolean"
+  ],
+  "releases.0.10.3[].digests": [
+   "object"
+  ],
+  "releases.0.10.3[].digests.blake2b_256": [
+   "string"
+  ],
+  "releases.0.10.3[].digests.md5": [
+   "string"
+  ],
+  "releases.0.10.3[].digests.sha256": [
+   "string"
+  ],
+  "releases.0.10.3[].downloads": [
+   "integer"
+  ],
+  "releases.0.10.3[].filename": [
+   "string"
+  ],
+  "releases.0.10.3[].has_sig": [
+   "boolean"
+  ],
+  "releases.0.10.3[].md5_digest": [
+   "string"
+  ],
+  "releases.0.10.3[].packagetype": [
+   "string"
+  ],
+  "releases.0.10.3[].python_version": [
+   "string"
+  ],
+  "releases.0.10.3[].requires_python": [
+   "null"
+  ],
+  "releases.0.10.3[].size": [
+   "integer"
+  ],
+  "releases.0.10.3[].upload_time": [
+   "string"
+  ],
+  "releases.0.10.3[].upload_time_iso_8601": [
+   "string"
+  ],
+  "releases.0.10.3[].url": [
+   "string"
+  ],
+  "releases.0.10.3[].yanked": [
+   "boolean"
+  ],
+  "releases.0.10.3[].yanked_reason": [
+   "null"
+  ],
+  "releases.0.10.4": [
+   "array"
+  ],
+  "releases.0.10.4[]": [
+   "object"
+  ],
+  "releases.0.10.4[].comment_text": [
+   "string"
+  ],
+  "releases.0.10.4[].core-metadata": [
+   "boolean"
+  ],
+  "releases.0.10.4[].digests": [
+   "object"
+  ],
+  "releases.0.10.4[].digests.blake2b_256": [
+   "string"
+  ],
+  "releases.0.10.4[].digests.md5": [
+   "string"
+  ],
+  "releases.0.10.4[].digests.sha256": [
+   "string"
+  ],
+  "releases.0.10.4[].downloads": [
+   "integer"
+  ],
+  "releases.0.10.4[].filename": [
+   "string"
+  ],
+  "releases.0.10.4[].has_sig": [
+   "boolean"
+  ],
+  "releases.0.10.4[].md5_digest": [
+   "string"
+  ],
+  "releases.0.10.4[].packagetype": [
+   "string"
+  ],
+  "releases.0.10.4[].python_version": [
+   "string"
+  ],
+  "releases.0.10.4[].requires_python": [
+   "null"
+  ],
+  "releases.0.10.4[].size": [
+   "integer"
+  ],
+  "releases.0.10.4[].upload_time": [
+   "string"
+  ],
+  "releases.0.10.4[].upload_time_iso_8601": [
+   "string"
+  ],
+  "releases.0.10.4[].url": [
+   "string"
+  ],
+  "releases.0.10.4[].yanked": [
+   "boolean"
+  ],
+  "releases.0.10.4[].yanked_reason": [
+   "null"
+  ],
+  "releases.0.10.6": [
+   "array"
+  ],
+  "releases.0.10.6[]": [
+   "object"
+  ],
+  "releases.0.10.6[].comment_text": [
+   "string"
+  ],
+  "releases.0.10.6[].core-metadata": [
+   "boolean"
+  ],
+  "releases.0.10.6[].digests": [
+   "object"
+  ],
+  "releases.0.10.6[].digests.blake2b_256": [
+   "string"
+  ],
+  "releases.0.10.6[].digests.md5": [
+   "string"
+  ],
+  "releases.0.10.6[].digests.sha256": [
+   "string"
+  ],
+  "releases.0.10.6[].downloads": [
+   "integer"
+  ],
+  "releases.0.10.6[].filename": [
+   "string"
+  ],
+  "releases.0.10.6[].has_sig": [
+   "boolean"
+  ],
+  "releases.0.10.6[].md5_digest": [
+   "string"
+  ],
+  "releases.0.10.6[].packagetype": [
+   "string"
+  ],
+  "releases.0.10.6[].python_version": [
+   "string"
+  ],
+  "releases.0.10.6[].requires_python": [
+   "null"
+  ],
+  "releases.0.10.6[].size": [
+   "integer"
+  ],
+  "releases.0.10.6[].upload_time": [
+   "string"
+  ],
+  "releases.0.10.6[].upload_time_iso_8601": [
+   "string"
+  ],
+  "releases.0.10.6[].url": [
+   "string"
+  ],
+  "releases.0.10.6[].yanked": [
+   "boolean"
+  ],
+  "releases.0.10.6[].yanked_reason": [
+   "null"
+  ],
+  "releases.0.10.7": [
+   "array"
+  ],
+  "releases.0.10.7[]": [
+   "object"
+  ],
+  "releases.0.10.7[].comment_text": [
+   "string"
+  ],
+  "releases.0.10.7[].core-metadata": [
+   "boolean"
+  ],
+  "releases.0.10.7[].digests": [
+   "object"
+  ],
+  "releases.0.10.7[].digests.blake2b_256": [
+   "string"
+  ],
+  "releases.0.10.7[].digests.md5": [
+   "string"
+  ],
+  "releases.0.10.7[].digests.sha256": [
+   "string"
+  ],
+  "releases.0.10.7[].downloads": [
+   "integer"
+  ],
+  "releases.0.10.7[].filename": [
+   "string"
+  ],
+  "releases.0.10.7[].has_sig": [
+   "boolean"
+  ],
+  "releases.0.10.7[].md5_digest": [
+   "string"
+  ],
+  "releases.0.10.7[].packagetype": [
+   "string"
+  ],
+  "releases.0.10.7[].python_version": [
+   "string"
+  ],
+  "releases.0.10.7[].requires_python": [
+   "null"
+  ],
+  "releases.0.10.7[].size": [
+   "integer"
+  ],
+  "releases.0.10.7[].upload_time": [
+   "string"
+  ],
+  "releases.0.10.7[].upload_time_iso_8601": [
+   "string"
+  ],
+  "releases.0.10.7[].url": [
+   "string"
+  ],
+  "releases.0.10.7[].yanked": [
+   "boolean"
+  ],
+  "releases.0.10.7[].yanked_reason": [
+   "null"
+  ],
+  "releases.0.10.8": [
+   "array"
+  ],
+  "releases.0.10.8[]": [
+   "object"
+  ],
+  "releases.0.10.8[].comment_text": [
+   "string"
+  ],
+  "releases.0.10.8[].core-metadata": [
+   "boolean"
+  ],
+  "releases.0.10.8[].digests": [
+   "object"
+  ],
+  "releases.0.10.8[].digests.blake2b_256": [
+   "string"
+  ],
+  "releases.0.10.8[].digests.md5": [
+   "string"
+  ],
+  "releases.0.10.8[].digests.sha256": [
+   "string"
+  ],
+  "releases.0.10.8[].downloads": [
+   "integer"
+  ],
+  "releases.0.10.8[].filename": [
+   "string"
+  ],
+  "releases.0.10.8[].has_sig": [
+   "boolean"
+  ],
+  "releases.0.10.8[].md5_digest": [
+   "string"
+  ],
+  "releases.0.10.8[].packagetype": [
+   "string"
+  ],
+  "releases.0.10.8[].python_version": [
+   "string"
+  ],
+  "releases.0.10.8[].requires_python": [
+   "null"
+  ],
+  "releases.0.10.8[].size": [
+   "integer"
+  ],
+  "releases.0.10.8[].upload_time": [
+   "string"
+  ],
+  "releases.0.10.8[].upload_time_iso_8601": [
+   "string"
+  ],
+  "releases.0.10.8[].url": [
+   "string"
+  ],
+  "releases.0.10.8[].yanked": [
+   "boolean"
+  ],
+  "releases.0.10.8[].yanked_reason": [
+   "null"
+  ],
+  "releases.0.11.1": [
+   "array"
+  ],
+  "releases.0.11.1[]": [
+   "object"
+  ],
+  "releases.0.11.1[].comment_text": [
+   "string"
+  ],
+  "releases.0.11.1[].core-metadata": [
+   "boolean"
+  ],
+  "releases.0.11.1[].digests": [
+   "object"
+  ],
+  "releases.0.11.1[].digests.blake2b_256": [
+   "string"
+  ],
+  "releases.0.11.1[].digests.md5": [
+   "string"
+  ],
+  "releases.0.11.1[].digests.sha256": [
+   "string"
+  ],
+  "releases.0.11.1[].downloads": [
+   "integer"
+  ],
+  "releases.0.11.1[].filename": [
+   "string"
+  ],
+  "releases.0.11.1[].has_sig": [
+   "boolean"
+  ],
+  "releases.0.11.1[].md5_digest": [
+   "string"
+  ],
+  "releases.0.11.1[].packagetype": [
+   "string"
+  ],
+  "releases.0.11.1[].python_version": [
+   "string"
+  ],
+  "releases.0.11.1[].requires_python": [
+   "null"
+  ],
+  "releases.0.11.1[].size": [
+   "integer"
+  ],
+  "releases.0.11.1[].upload_time": [
+   "string"
+  ],
+  "releases.0.11.1[].upload_time_iso_8601": [
+   "string"
+  ],
+  "releases.0.11.1[].url": [
+   "string"
+  ],
+  "releases.0.11.1[].yanked": [
+   "boolean"
+  ],
+  "releases.0.11.1[].yanked_reason": [
+   "null"
+  ],
+  "releases.0.11.2": [
+   "array"
+  ],
+  "releases.0.11.2[]": [
+   "object"
+  ],
+  "releases.0.11.2[].comment_text": [
+   "string"
+  ],
+  "releases.0.11.2[].core-metadata": [
+   "boolean"
+  ],
+  "releases.0.11.2[].digests": [
+   "object"
+  ],
+  "releases.0.11.2[].digests.blake2b_256": [
+   "string"
+  ],
+  "releases.0.11.2[].digests.md5": [
+   "string"
+  ],
+  "releases.0.11.2[].digests.sha256": [
+   "string"
+  ],
+  "releases.0.11.2[].downloads": [
+   "integer"
+  ],
+  "releases.0.11.2[].filename": [
+   "string"
+  ],
+  "releases.0.11.2[].has_sig": [
+   "boolean"
+  ],
+  "releases.0.11.2[].md5_digest": [
+   "string"
+  ],
+  "releases.0.11.2[].packagetype": [
+   "string"
+  ],
+  "releases.0.11.2[].python_version": [
+   "string"
+  ],
+  "releases.0.11.2[].requires_python": [
+   "null"
+  ],
+  "releases.0.11.2[].size": [
+   "integer"
+  ],
+  "releases.0.11.2[].upload_time": [
+   "string"
+  ],
+  "releases.0.11.2[].upload_time_iso_8601": [
+   "string"
+  ],
+  "releases.0.11.2[].url": [
+   "string"
+  ],
+  "releases.0.11.2[].yanked": [
+   "boolean"
+  ],
+  "releases.0.11.2[].yanked_reason": [
+   "null"
+  ],
+  "releases.0.12.0": [
+   "array"
+  ],
+  "releases.0.12.01": [
+   "array"
+  ],
+  "releases.0.12.0[]": [
+   "object"
+  ],
+  "releases.0.12.0[].comment_text": [
+   "string"
+  ],
+  "releases.0.12.0[].core-metadata": [
+   "boolean"
+  ],
+  "releases.0.12.0[].digests": [
+   "object"
+  ],
+  "releases.0.12.0[].digests.blake2b_256": [
+   "string"
+  ],
+  "releases.0.12.0[].digests.md5": [
+   "string"
+  ],
+  "releases.0.12.0[].digests.sha256": [
+   "string"
+  ],
+  "releases.0.12.0[].downloads": [
+   "integer"
+  ],
+  "releases.0.12.0[].filename": [
+   "string"
+  ],
+  "releases.0.12.0[].has_sig": [
+   "boolean"
+  ],
+  "releases.0.12.0[].md5_digest": [
+   "string"
+  ],
+  "releases.0.12.0[].packagetype": [
+   "string"
+  ],
+  "releases.0.12.0[].python_version": [
+   "string"
+  ],
+  "releases.0.12.0[].requires_python": [
+   "null"
+  ],
+  "releases.0.12.0[].size": [
+   "integer"
+  ],
+  "releases.0.12.0[].upload_time": [
+   "string"
+  ],
+  "releases.0.12.0[].upload_time_iso_8601": [
+   "string"
+  ],
+  "releases.0.12.0[].url": [
+   "string"
+  ],
+  "releases.0.12.0[].yanked": [
+   "boolean"
+  ],
+  "releases.0.12.0[].yanked_reason": [
+   "null"
+  ],
+  "releases.0.12.1": [
+   "array"
+  ],
+  "releases.0.12.1[]": [
+   "object"
+  ],
+  "releases.0.12.1[].comment_text": [
+   "string"
+  ],
+  "releases.0.12.1[].core-metadata": [
+   "boolean"
+  ],
+  "releases.0.12.1[].digests": [
+   "object"
+  ],
+  "releases.0.12.1[].digests.blake2b_256": [
+   "string"
+  ],
+  "releases.0.12.1[].digests.md5": [
+   "string"
+  ],
+  "releases.0.12.1[].digests.sha256": [
+   "string"
+  ],
+  "releases.0.12.1[].downloads": [
+   "integer"
+  ],
+  "releases.0.12.1[].filename": [
+   "string"
+  ],
+  "releases.0.12.1[].has_sig": [
+   "boolean"
+  ],
+  "releases.0.12.1[].md5_digest": [
+   "string"
+  ],
+  "releases.0.12.1[].packagetype": [
+   "string"
+  ],
+  "releases.0.12.1[].python_version": [
+   "string"
+  ],
+  "releases.0.12.1[].requires_python": [
+   "null"
+  ],
+  "releases.0.12.1[].size": [
+   "integer"
+  ],
+  "releases.0.12.1[].upload_time": [
+   "string"
+  ],
+  "releases.0.12.1[].upload_time_iso_8601": [
+   "string"
+  ],
+  "releases.0.12.1[].url": [
+   "string"
+  ],
+  "releases.0.12.1[].yanked": [
+   "boolean"
+  ],
+  "releases.0.12.1[].yanked_reason": [
+   "null"
+  ],
+  "releases.0.13.0": [
+   "array"
+  ],
+  "releases.0.13.0[]": [
+   "object"
+  ],
+  "releases.0.13.0[].comment_text": [
+   "string"
+  ],
+  "releases.0.13.0[].core-metadata": [
+   "boolean"
+  ],
+  "releases.0.13.0[].digests": [
+   "object"
+  ],
+  "releases.0.13.0[].digests.blake2b_256": [
+   "string"
+  ],
+  "releases.0.13.0[].digests.md5": [
+   "string"
+  ],
+  "releases.0.13.0[].digests.sha256": [
+   "string"
+  ],
+  "releases.0.13.0[].downloads": [
+   "integer"
+  ],
+  "releases.0.13.0[].filename": [
+   "string"
+  ],
+  "releases.0.13.0[].has_sig": [
+   "boolean"
+  ],
+  "releases.0.13.0[].md5_digest": [
+   "string"
+  ],
+  "releases.0.13.0[].packagetype": [
+   "string"
+  ],
+  "releases.0.13.0[].python_version": [
+   "string"
+  ],
+  "releases.0.13.0[].requires_python": [
+   "null"
+  ],
+  "releases.0.13.0[].size": [
+   "integer"
+  ],
+  "releases.0.13.0[].upload_time": [
+   "string"
+  ],
+  "releases.0.13.0[].upload_time_iso_8601": [
+   "string"
+  ],
+  "releases.0.13.0[].url": [
+   "string"
+  ],
+  "releases.0.13.0[].yanked": [
+   "boolean"
+  ],
+  "releases.0.13.0[].yanked_reason": [
+   "null"
+  ],
+  "releases.0.13.1": [
+   "array"
+  ],
+  "releases.0.13.1[]": [
+   "object"
+  ],
+  "releases.0.13.1[].comment_text": [
+   "string"
+  ],
+  "releases.0.13.1[].core-metadata": [
+   "boolean"
+  ],
+  "releases.0.13.1[].digests": [
+   "object"
+  ],
+  "releases.0.13.1[].digests.blake2b_256": [
+   "string"
+  ],
+  "releases.0.13.1[].digests.md5": [
+   "string"
+  ],
+  "releases.0.13.1[].digests.sha256": [
+   "string"
+  ],
+  "releases.0.13.1[].downloads": [
+   "integer"
+  ],
+  "releases.0.13.1[].filename": [
+   "string"
+  ],
+  "releases.0.13.1[].has_sig": [
+   "boolean"
+  ],
+  "releases.0.13.1[].md5_digest": [
+   "string"
+  ],
+  "releases.0.13.1[].packagetype": [
+   "string"
+  ],
+  "releases.0.13.1[].python_version": [
+   "string"
+  ],
+  "releases.0.13.1[].requires_python": [
+   "null"
+  ],
+  "releases.0.13.1[].size": [
+   "integer"
+  ],
+  "releases.0.13.1[].upload_time": [
+   "string"
+  ],
+  "releases.0.13.1[].upload_time_iso_8601": [
+   "string"
+  ],
+  "releases.0.13.1[].url": [
+   "string"
+  ],
+  "releases.0.13.1[].yanked": [
+   "boolean"
+  ],
+  "releases.0.13.1[].yanked_reason": [
+   "null"
+  ],
+  "releases.0.13.2": [
+   "array"
+  ],
+  "releases.0.13.2[]": [
+   "object"
+  ],
+  "releases.0.13.2[].comment_text": [
+   "string"
+  ],
+  "releases.0.13.2[].core-metadata": [
+   "boolean"
+  ],
+  "releases.0.13.2[].digests": [
+   "object"
+  ],
+  "releases.0.13.2[].digests.blake2b_256": [
+   "string"
+  ],
+  "releases.0.13.2[].digests.md5": [
+   "string"
+  ],
+  "releases.0.13.2[].digests.sha256": [
+   "string"
+  ],
+  "releases.0.13.2[].downloads": [
+   "integer"
+  ],
+  "releases.0.13.2[].filename": [
+   "string"
+  ],
+  "releases.0.13.2[].has_sig": [
+   "boolean"
+  ],
+  "releases.0.13.2[].md5_digest": [
+   "string"
+  ],
+  "releases.0.13.2[].packagetype": [
+   "string"
+  ],
+  "releases.0.13.2[].python_version": [
+   "string"
+  ],
+  "releases.0.13.2[].requires_python": [
+   "null"
+  ],
+  "releases.0.13.2[].size": [
+   "integer"
+  ],
+  "releases.0.13.2[].upload_time": [
+   "string"
+  ],
+  "releases.0.13.2[].upload_time_iso_8601": [
+   "string"
+  ],
+  "releases.0.13.2[].url": [
+   "string"
+  ],
+  "releases.0.13.2[].yanked": [
+   "boolean"
+  ],
+  "releases.0.13.2[].yanked_reason": [
+   "null"
+  ],
+  "releases.0.13.3": [
+   "array"
+  ],
+  "releases.0.13.3[]": [
+   "object"
+  ],
+  "releases.0.13.3[].comment_text": [
+   "string"
+  ],
+  "releases.0.13.3[].core-metadata": [
+   "boolean"
+  ],
+  "releases.0.13.3[].digests": [
+   "object"
+  ],
+  "releases.0.13.3[].digests.blake2b_256": [
+   "string"
+  ],
+  "releases.0.13.3[].digests.md5": [
+   "string"
+  ],
+  "releases.0.13.3[].digests.sha256": [
+   "string"
+  ],
+  "releases.0.13.3[].downloads": [
+   "integer"
+  ],
+  "releases.0.13.3[].filename": [
+   "string"
+  ],
+  "releases.0.13.3[].has_sig": [
+   "boolean"
+  ],
+  "releases.0.13.3[].md5_digest": [
+   "string"
+  ],
+  "releases.0.13.3[].packagetype": [
+   "string"
+  ],
+  "releases.0.13.3[].python_version": [
+   "string"
+  ],
+  "releases.0.13.3[].requires_python": [
+   "null"
+  ],
+  "releases.0.13.3[].size": [
+   "integer"
+  ],
+  "releases.0.13.3[].upload_time": [
+   "string"
+  ],
+  "releases.0.13.3[].upload_time_iso_8601": [
+   "string"
+  ],
+  "releases.0.13.3[].url": [
+   "string"
+  ],
+  "releases.0.13.3[].yanked": [
+   "boolean"
+  ],
+  "releases.0.13.3[].yanked_reason": [
+   "null"
+  ],
+  "releases.0.13.4": [
+   "array"
+  ],
+  "releases.0.13.4[]": [
+   "object"
+  ],
+  "releases.0.13.4[].comment_text": [
+   "string"
+  ],
+  "releases.0.13.4[].core-metadata": [
+   "boolean"
+  ],
+  "releases.0.13.4[].digests": [
+   "object"
+  ],
+  "releases.0.13.4[].digests.blake2b_256": [
+   "string"
+  ],
+  "releases.0.13.4[].digests.md5": [
+   "string"
+  ],
+  "releases.0.13.4[].digests.sha256": [
+   "string"
+  ],
+  "releases.0.13.4[].downloads": [
+   "integer"
+  ],
+  "releases.0.13.4[].filename": [
+   "string"
+  ],
+  "releases.0.13.4[].has_sig": [
+   "boolean"
+  ],
+  "releases.0.13.4[].md5_digest": [
+   "string"
+  ],
+  "releases.0.13.4[].packagetype": [
+   "string"
+  ],
+  "releases.0.13.4[].python_version": [
+   "string"
+  ],
+  "releases.0.13.4[].requires_python": [
+   "null"
+  ],
+  "releases.0.13.4[].size": [
+   "integer"
+  ],
+  "releases.0.13.4[].upload_time": [
+   "string"
+  ],
+  "releases.0.13.4[].upload_time_iso_8601": [
+   "string"
+  ],
+  "releases.0.13.4[].url": [
+   "string"
+  ],
+  "releases.0.13.4[].yanked": [
+   "boolean"
+  ],
+  "releases.0.13.4[].yanked_reason": [
+   "null"
+  ],
+  "releases.0.13.5": [
+   "array"
+  ],
+  "releases.0.13.5[]": [
+   "object"
+  ],
+  "releases.0.13.5[].comment_text": [
+   "string"
+  ],
+  "releases.0.13.5[].core-metadata": [
+   "boolean"
+  ],
+  "releases.0.13.5[].digests": [
+   "object"
+  ],
+  "releases.0.13.5[].digests.blake2b_256": [
+   "string"
+  ],
+  "releases.0.13.5[].digests.md5": [
+   "string"
+  ],
+  "releases.0.13.5[].digests.sha256": [
+   "string"
+  ],
+  "releases.0.13.5[].downloads": [
+   "integer"
+  ],
+  "releases.0.13.5[].filename": [
+   "string"
+  ],
+  "releases.0.13.5[].has_sig": [
+   "boolean"
+  ],
+  "releases.0.13.5[].md5_digest": [
+   "string"
+  ],
+  "releases.0.13.5[].packagetype": [
+   "string"
+  ],
+  "releases.0.13.5[].python_version": [
+   "string"
+  ],
+  "releases.0.13.5[].requires_python": [
+   "null"
+  ],
+  "releases.0.13.5[].size": [
+   "integer"
+  ],
+  "releases.0.13.5[].upload_time": [
+   "string"
+  ],
+  "releases.0.13.5[].upload_time_iso_8601": [
+   "string"
+  ],
+  "releases.0.13.5[].url": [
+   "string"
+  ],
+  "releases.0.13.5[].yanked": [
+   "boolean"
+  ],
+  "releases.0.13.5[].yanked_reason": [
+   "null"
+  ],
+  "releases.0.13.6": [
+   "array"
+  ],
+  "releases.0.13.6[]": [
+   "object"
+  ],
+  "releases.0.13.6[].comment_text": [
+   "string"
+  ],
+  "releases.0.13.6[].core-metadata": [
+   "boolean"
+  ],
+  "releases.0.13.6[].digests": [
+   "object"
+  ],
+  "releases.0.13.6[].digests.blake2b_256": [
+   "string"
+  ],
+  "releases.0.13.6[].digests.md5": [
+   "string"
+  ],
+  "releases.0.13.6[].digests.sha256": [
+   "string"
+  ],
+  "releases.0.13.6[].downloads": [
+   "integer"
+  ],
+  "releases.0.13.6[].filename": [
+   "string"
+  ],
+  "releases.0.13.6[].has_sig": [
+   "boolean"
+  ],
+  "releases.0.13.6[].md5_digest": [
+   "string"
+  ],
+  "releases.0.13.6[].packagetype": [
+   "string"
+  ],
+  "releases.0.13.6[].python_version": [
+   "string"
+  ],
+  "releases.0.13.6[].requires_python": [
+   "null"
+  ],
+  "releases.0.13.6[].size": [
+   "integer"
+  ],
+  "releases.0.13.6[].upload_time": [
+   "string"
+  ],
+  "releases.0.13.6[].upload_time_iso_8601": [
+   "string"
+  ],
+  "releases.0.13.6[].url": [
+   "string"
+  ],
+  "releases.0.13.6[].yanked": [
+   "boolean"
+  ],
+  "releases.0.13.6[].yanked_reason": [
+   "null"
+  ],
+  "releases.0.13.7": [
+   "array"
+  ],
+  "releases.0.13.7[]": [
+   "object"
+  ],
+  "releases.0.13.7[].comment_text": [
+   "string"
+  ],
+  "releases.0.13.7[].core-metadata": [
+   "boolean"
+  ],
+  "releases.0.13.7[].digests": [
+   "object"
+  ],
+  "releases.0.13.7[].digests.blake2b_256": [
+   "string"
+  ],
+  "releases.0.13.7[].digests.md5": [
+   "string"
+  ],
+  "releases.0.13.7[].digests.sha256": [
+   "string"
+  ],
+  "releases.0.13.7[].downloads": [
+   "integer"
+  ],
+  "releases.0.13.7[].filename": [
+   "string"
+  ],
+  "releases.0.13.7[].has_sig": [
+   "boolean"
+  ],
+  "releases.0.13.7[].md5_digest": [
+   "string"
+  ],
+  "releases.0.13.7[].packagetype": [
+   "string"
+  ],
+  "releases.0.13.7[].python_version": [
+   "string"
+  ],
+  "releases.0.13.7[].requires_python": [
+   "null"
+  ],
+  "releases.0.13.7[].size": [
+   "integer"
+  ],
+  "releases.0.13.7[].upload_time": [
+   "string"
+  ],
+  "releases.0.13.7[].upload_time_iso_8601": [
+   "string"
+  ],
+  "releases.0.13.7[].url": [
+   "string"
+  ],
+  "releases.0.13.7[].yanked": [
+   "boolean"
+  ],
+  "releases.0.13.7[].yanked_reason": [
+   "null"
+  ],
+  "releases.0.13.8": [
+   "array"
+  ],
+  "releases.0.13.8[]": [
+   "object"
+  ],
+  "releases.0.13.8[].comment_text": [
+   "string"
+  ],
+  "releases.0.13.8[].core-metadata": [
+   "boolean"
+  ],
+  "releases.0.13.8[].digests": [
+   "object"
+  ],
+  "releases.0.13.8[].digests.blake2b_256": [
+   "string"
+  ],
+  "releases.0.13.8[].digests.md5": [
+   "string"
+  ],
+  "releases.0.13.8[].digests.sha256": [
+   "string"
+  ],
+  "releases.0.13.8[].downloads": [
+   "integer"
+  ],
+  "releases.0.13.8[].filename": [
+   "string"
+  ],
+  "releases.0.13.8[].has_sig": [
+   "boolean"
+  ],
+  "releases.0.13.8[].md5_digest": [
+   "string"
+  ],
+  "releases.0.13.8[].packagetype": [
+   "string"
+  ],
+  "releases.0.13.8[].python_version": [
+   "string"
+  ],
+  "releases.0.13.8[].requires_python": [
+   "null"
+  ],
+  "releases.0.13.8[].size": [
+   "integer"
+  ],
+  "releases.0.13.8[].upload_time": [
+   "string"
+  ],
+  "releases.0.13.8[].upload_time_iso_8601": [
+   "string"
+  ],
+  "releases.0.13.8[].url": [
+   "string"
+  ],
+  "releases.0.13.8[].yanked": [
+   "boolean"
+  ],
+  "releases.0.13.8[].yanked_reason": [
+   "null"
+  ],
+  "releases.0.13.9": [
+   "array"
+  ],
+  "releases.0.13.9[]": [
+   "object"
+  ],
+  "releases.0.13.9[].comment_text": [
+   "string"
+  ],
+  "releases.0.13.9[].core-metadata": [
+   "boolean"
+  ],
+  "releases.0.13.9[].digests": [
+   "object"
+  ],
+  "releases.0.13.9[].digests.blake2b_256": [
+   "string"
+  ],
+  "releases.0.13.9[].digests.md5": [
+   "string"
+  ],
+  "releases.0.13.9[].digests.sha256": [
+   "string"
+  ],
+  "releases.0.13.9[].downloads": [
+   "integer"
+  ],
+  "releases.0.13.9[].filename": [
+   "string"
+  ],
+  "releases.0.13.9[].has_sig": [
+   "boolean"
+  ],
+  "releases.0.13.9[].md5_digest": [
+   "string"
+  ],
+  "releases.0.13.9[].packagetype": [
+   "string"
+  ],
+  "releases.0.13.9[].python_version": [
+   "string"
+  ],
+  "releases.0.13.9[].requires_python": [
+   "null"
+  ],
+  "releases.0.13.9[].size": [
+   "integer"
+  ],
+  "releases.0.13.9[].upload_time": [
+   "string"
+  ],
+  "releases.0.13.9[].upload_time_iso_8601": [
+   "string"
+  ],
+  "releases.0.13.9[].url": [
+   "string"
+  ],
+  "releases.0.13.9[].yanked": [
+   "boolean"
+  ],
+  "releases.0.13.9[].yanked_reason": [
+   "null"
+  ],
+  "releases.0.14.0": [
+   "array"
+  ],
+  "releases.0.14.0[]": [
+   "object"
+  ],
+  "releases.0.14.0[].comment_text": [
+   "string"
+  ],
+  "releases.0.14.0[].core-metadata": [
+   "boolean"
+  ],
+  "releases.0.14.0[].digests": [
+   "object"
+  ],
+  "releases.0.14.0[].digests.blake2b_256": [
+   "string"
+  ],
+  "releases.0.14.0[].digests.md5": [
+   "string"
+  ],
+  "releases.0.14.0[].digests.sha256": [
+   "string"
+  ],
+  "releases.0.14.0[].downloads": [
+   "integer"
+  ],
+  "releases.0.14.0[].filename": [
+   "string"
+  ],
+  "releases.0.14.0[].has_sig": [
+   "boolean"
+  ],
+  "releases.0.14.0[].md5_digest": [
+   "string"
+  ],
+  "releases.0.14.0[].packagetype": [
+   "string"
+  ],
+  "releases.0.14.0[].python_version": [
+   "string"
+  ],
+  "releases.0.14.0[].requires_python": [
+   "null"
+  ],
+  "releases.0.14.0[].size": [
+   "integer"
+  ],
+  "releases.0.14.0[].upload_time": [
+   "string"
+  ],
+  "releases.0.14.0[].upload_time_iso_8601": [
+   "string"
+  ],
+  "releases.0.14.0[].url": [
+   "string"
+  ],
+  "releases.0.14.0[].yanked": [
+   "boolean"
+  ],
+  "releases.0.14.0[].yanked_reason": [
+   "null"
+  ],
+  "releases.0.14.1": [
+   "array"
+  ],
+  "releases.0.14.1[]": [
+   "object"
+  ],
+  "releases.0.14.1[].comment_text": [
+   "string"
+  ],
+  "releases.0.14.1[].core-metadata": [
+   "boolean"
+  ],
+  "releases.0.14.1[].digests": [
+   "object"
+  ],
+  "releases.0.14.1[].digests.blake2b_256": [
+   "string"
+  ],
+  "releases.0.14.1[].digests.md5": [
+   "string"
+  ],
+  "releases.0.14.1[].digests.sha256": [
+   "string"
+  ],
+  "releases.0.14.1[].downloads": [
+   "integer"
+  ],
+  "releases.0.14.1[].filename": [
+   "string"
+  ],
+  "releases.0.14.1[].has_sig": [
+   "boolean"
+  ],
+  "releases.0.14.1[].md5_digest": [
+   "string"
+  ],
+  "releases.0.14.1[].packagetype": [
+   "string"
+  ],
+  "releases.0.14.1[].python_version": [
+   "string"
+  ],
+  "releases.0.14.1[].requires_python": [
+   "null"
+  ],
+  "releases.0.14.1[].size": [
+   "integer"
+  ],
+  "releases.0.14.1[].upload_time": [
+   "string"
+  ],
+  "releases.0.14.1[].upload_time_iso_8601": [
+   "string"
+  ],
+  "releases.0.14.1[].url": [
+   "string"
+  ],
+  "releases.0.14.1[].yanked": [
+   "boolean"
+  ],
+  "releases.0.14.1[].yanked_reason": [
+   "null"
+  ],
+  "releases.0.14.2": [
+   "array"
+  ],
+  "releases.0.14.2[]": [
+   "object"
+  ],
+  "releases.0.14.2[].comment_text": [
+   "string"
+  ],
+  "releases.0.14.2[].core-metadata": [
+   "boolean"
+  ],
+  "releases.0.14.2[].digests": [
+   "object"
+  ],
+  "releases.0.14.2[].digests.blake2b_256": [
+   "string"
+  ],
+  "releases.0.14.2[].digests.md5": [
+   "string"
+  ],
+  "releases.0.14.2[].digests.sha256": [
+   "string"
+  ],
+  "releases.0.14.2[].downloads": [
+   "integer"
+  ],
+  "releases.0.14.2[].filename": [
+   "string"
+  ],
+  "releases.0.14.2[].has_sig": [
+   "boolean"
+  ],
+  "releases.0.14.2[].md5_digest": [
+   "string"
+  ],
+  "releases.0.14.2[].packagetype": [
+   "string"
+  ],
+  "releases.0.14.2[].python_version": [
+   "string"
+  ],
+  "releases.0.14.2[].requires_python": [
+   "null"
+  ],
+  "releases.0.14.2[].size": [
+   "integer"
+  ],
+  "releases.0.14.2[].upload_time": [
+   "string"
+  ],
+  "releases.0.14.2[].upload_time_iso_8601": [
+   "string"
+  ],
+  "releases.0.14.2[].url": [
+   "string"
+  ],
+  "releases.0.14.2[].yanked": [
+   "boolean"
+  ],
+  "releases.0.14.2[].yanked_reason": [
+   "null"
+  ],
+  "releases.0.2.0": [
+   "array"
+  ],
+  "releases.0.2.0[]": [
+   "object"
+  ],
+  "releases.0.2.0[].comment_text": [
+   "string"
+  ],
+  "releases.0.2.0[].core-metadata": [
+   "boolean"
+  ],
+  "releases.0.2.0[].digests": [
+   "object"
+  ],
+  "releases.0.2.0[].digests.blake2b_256": [
+   "string"
+  ],
+  "releases.0.2.0[].digests.md5": [
+   "string"
+  ],
+  "releases.0.2.0[].digests.sha256": [
+   "string"
+  ],
+  "releases.0.2.0[].downloads": [
+   "integer"
+  ],
+  "releases.0.2.0[].filename": [
+   "string"
+  ],
+  "releases.0.2.0[].has_sig": [
+   "boolean"
+  ],
+  "releases.0.2.0[].md5_digest": [
+   "string"
+  ],
+  "releases.0.2.0[].packagetype": [
+   "string"
+  ],
+  "releases.0.2.0[].python_version": [
+   "string"
+  ],
+  "releases.0.2.0[].requires_python": [
+   "null"
+  ],
+  "releases.0.2.0[].size": [
+   "integer"
+  ],
+  "releases.0.2.0[].upload_time": [
+   "string"
+  ],
+  "releases.0.2.0[].upload_time_iso_8601": [
+   "string"
+  ],
+  "releases.0.2.0[].url": [
+   "string"
+  ],
+  "releases.0.2.0[].yanked": [
+   "boolean"
+  ],
+  "releases.0.2.0[].yanked_reason": [
+   "null"
+  ],
+  "releases.0.2.1": [
+   "array"
+  ],
+  "releases.0.2.1[]": [
+   "object"
+  ],
+  "releases.0.2.1[].comment_text": [
+   "string"
+  ],
+  "releases.0.2.1[].core-metadata": [
+   "boolean"
+  ],
+  "releases.0.2.1[].digests": [
+   "object"
+  ],
+  "releases.0.2.1[].digests.blake2b_256": [
+   "string"
+  ],
+  "releases.0.2.1[].digests.md5": [
+   "string"
+  ],
+  "releases.0.2.1[].digests.sha256": [
+   "string"
+  ],
+  "releases.0.2.1[].downloads": [
+   "integer"
+  ],
+  "releases.0.2.1[].filename": [
+   "string"
+  ],
+  "releases.0.2.1[].has_sig": [
+   "boolean"
+  ],
+  "releases.0.2.1[].md5_digest": [
+   "string"
+  ],
+  "releases.0.2.1[].packagetype": [
+   "string"
+  ],
+  "releases.0.2.1[].python_version": [
+   "string"
+  ],
+  "releases.0.2.1[].requires_python": [
+   "null"
+  ],
+  "releases.0.2.1[].size": [
+   "integer"
+  ],
+  "releases.0.2.1[].upload_time": [
+   "string"
+  ],
+  "releases.0.2.1[].upload_time_iso_8601": [
+   "string"
+  ],
+  "releases.0.2.1[].url": [
+   "string"
+  ],
+  "releases.0.2.1[].yanked": [
+   "boolean"
+  ],
+  "releases.0.2.1[].yanked_reason": [
+   "null"
+  ],
+  "releases.0.2.2": [
+   "array"
+  ],
+  "releases.0.2.2[]": [
+   "object"
+  ],
+  "releases.0.2.2[].comment_text": [
+   "string"
+  ],
+  "releases.0.2.2[].core-metadata": [
+   "boolean"
+  ],
+  "releases.0.2.2[].digests": [
+   "object"
+  ],
+  "releases.0.2.2[].digests.blake2b_256": [
+   "string"
+  ],
+  "releases.0.2.2[].digests.md5": [
+   "string"
+  ],
+  "releases.0.2.2[].digests.sha256": [
+   "string"
+  ],
+  "releases.0.2.2[].downloads": [
+   "integer"
+  ],
+  "releases.0.2.2[].filename": [
+   "string"
+  ],
+  "releases.0.2.2[].has_sig": [
+   "boolean"
+  ],
+  "releases.0.2.2[].md5_digest": [
+   "string"
+  ],
+  "releases.0.2.2[].packagetype": [
+   "string"
+  ],
+  "releases.0.2.2[].python_version": [
+   "string"
+  ],
+  "releases.0.2.2[].requires_python": [
+   "null"
+  ],
+  "releases.0.2.2[].size": [
+   "integer"
+  ],
+  "releases.0.2.2[].upload_time": [
+   "string"
+  ],
+  "releases.0.2.2[].upload_time_iso_8601": [
+   "string"
+  ],
+  "releases.0.2.2[].url": [
+   "string"
+  ],
+  "releases.0.2.2[].yanked": [
+   "boolean"
+  ],
+  "releases.0.2.2[].yanked_reason": [
+   "null"
+  ],
+  "releases.0.2.3": [
+   "array"
+  ],
+  "releases.0.2.3[]": [
+   "object"
+  ],
+  "releases.0.2.3[].comment_text": [
+   "string"
+  ],
+  "releases.0.2.3[].core-metadata": [
+   "boolean"
+  ],
+  "releases.0.2.3[].digests": [
+   "object"
+  ],
+  "releases.0.2.3[].digests.blake2b_256": [
+   "string"
+  ],
+  "releases.0.2.3[].digests.md5": [
+   "string"
+  ],
+  "releases.0.2.3[].digests.sha256": [
+   "string"
+  ],
+  "releases.0.2.3[].downloads": [
+   "integer"
+  ],
+  "releases.0.2.3[].filename": [
+   "string"
+  ],
+  "releases.0.2.3[].has_sig": [
+   "boolean"
+  ],
+  "releases.0.2.3[].md5_digest": [
+   "string"
+  ],
+  "releases.0.2.3[].packagetype": [
+   "string"
+  ],
+  "releases.0.2.3[].python_version": [
+   "string"
+  ],
+  "releases.0.2.3[].requires_python": [
+   "null"
+  ],
+  "releases.0.2.3[].size": [
+   "integer"
+  ],
+  "releases.0.2.3[].upload_time": [
+   "string"
+  ],
+  "releases.0.2.3[].upload_time_iso_8601": [
+   "string"
+  ],
+  "releases.0.2.3[].url": [
+   "string"
+  ],
+  "releases.0.2.3[].yanked": [
+   "boolean"
+  ],
+  "releases.0.2.3[].yanked_reason": [
+   "null"
+  ],
+  "releases.0.2.4": [
+   "array"
+  ],
+  "releases.0.2.4[]": [
+   "object"
+  ],
+  "releases.0.2.4[].comment_text": [
+   "string"
+  ],
+  "releases.0.2.4[].core-metadata": [
+   "boolean"
+  ],
+  "releases.0.2.4[].digests": [
+   "object"
+  ],
+  "releases.0.2.4[].digests.blake2b_256": [
+   "string"
+  ],
+  "releases.0.2.4[].digests.md5": [
+   "string"
+  ],
+  "releases.0.2.4[].digests.sha256": [
+   "string"
+  ],
+  "releases.0.2.4[].downloads": [
+   "integer"
+  ],
+  "releases.0.2.4[].filename": [
+   "string"
+  ],
+  "releases.0.2.4[].has_sig": [
+   "boolean"
+  ],
+  "releases.0.2.4[].md5_digest": [
+   "string"
+  ],
+  "releases.0.2.4[].packagetype": [
+   "string"
+  ],
+  "releases.0.2.4[].python_version": [
+   "string"
+  ],
+  "releases.0.2.4[].requires_python": [
+   "null"
+  ],
+  "releases.0.2.4[].size": [
+   "integer"
+  ],
+  "releases.0.2.4[].upload_time": [
+   "string"
+  ],
+  "releases.0.2.4[].upload_time_iso_8601": [
+   "string"
+  ],
+  "releases.0.2.4[].url": [
+   "string"
+  ],
+  "releases.0.2.4[].yanked": [
+   "boolean"
+  ],
+  "releases.0.2.4[].yanked_reason": [
+   "null"
+  ],
+  "releases.0.3.0": [
+   "array"
+  ],
+  "releases.0.3.0[]": [
+   "object"
+  ],
+  "releases.0.3.0[].comment_text": [
+   "string"
+  ],
+  "releases.0.3.0[].core-metadata": [
+   "boolean"
+  ],
+  "releases.0.3.0[].digests": [
+   "object"
+  ],
+  "releases.0.3.0[].digests.blake2b_256": [
+   "string"
+  ],
+  "releases.0.3.0[].digests.md5": [
+   "string"
+  ],
+  "releases.0.3.0[].digests.sha256": [
+   "string"
+  ],
+  "releases.0.3.0[].downloads": [
+   "integer"
+  ],
+  "releases.0.3.0[].filename": [
+   "string"
+  ],
+  "releases.0.3.0[].has_sig": [
+   "boolean"
+  ],
+  "releases.0.3.0[].md5_digest": [
+   "string"
+  ],
+  "releases.0.3.0[].packagetype": [
+   "string"
+  ],
+  "releases.0.3.0[].python_version": [
+   "string"
+  ],
+  "releases.0.3.0[].requires_python": [
+   "null"
+  ],
+  "releases.0.3.0[].size": [
+   "integer"
+  ],
+  "releases.0.3.0[].upload_time": [
+   "string"
+  ],
+  "releases.0.3.0[].upload_time_iso_8601": [
+   "string"
+  ],
+  "releases.0.3.0[].url": [
+   "string"
+  ],
+  "releases.0.3.0[].yanked": [
+   "boolean"
+  ],
+  "releases.0.3.0[].yanked_reason": [
+   "null"
+  ],
+  "releases.0.3.1": [
+   "array"
+  ],
+  "releases.0.3.1[]": [
+   "object"
+  ],
+  "releases.0.3.1[].comment_text": [
+   "string"
+  ],
+  "releases.0.3.1[].core-metadata": [
+   "boolean"
+  ],
+  "releases.0.3.1[].digests": [
+   "object"
+  ],
+  "releases.0.3.1[].digests.blake2b_256": [
+   "string"
+  ],
+  "releases.0.3.1[].digests.md5": [
+   "string"
+  ],
+  "releases.0.3.1[].digests.sha256": [
+   "string"
+  ],
+  "releases.0.3.1[].downloads": [
+   "integer"
+  ],
+  "releases.0.3.1[].filename": [
+   "string"
+  ],
+  "releases.0.3.1[].has_sig": [
+   "boolean"
+  ],
+  "releases.0.3.1[].md5_digest": [
+   "string"
+  ],
+  "releases.0.3.1[].packagetype": [
+   "string"
+  ],
+  "releases.0.3.1[].python_version": [
+   "string"
+  ],
+  "releases.0.3.1[].requires_python": [
+   "null"
+  ],
+  "releases.0.3.1[].size": [
+   "integer"
+  ],
+  "releases.0.3.1[].upload_time": [
+   "string"
+  ],
+  "releases.0.3.1[].upload_time_iso_8601": [
+   "string"
+  ],
+  "releases.0.3.1[].url": [
+   "string"
+  ],
+  "releases.0.3.1[].yanked": [
+   "boolean"
+  ],
+  "releases.0.3.1[].yanked_reason": [
+   "null"
+  ],
+  "releases.0.3.2": [
+   "array"
+  ],
+  "releases.0.3.2[]": [
+   "object"
+  ],
+  "releases.0.3.2[].comment_text": [
+   "string"
+  ],
+  "releases.0.3.2[].core-metadata": [
+   "boolean"
+  ],
+  "releases.0.3.2[].digests": [
+   "object"
+  ],
+  "releases.0.3.2[].digests.blake2b_256": [
+   "string"
+  ],
+  "releases.0.3.2[].digests.md5": [
+   "string"
+  ],
+  "releases.0.3.2[].digests.sha256": [
+   "string"
+  ],
+  "releases.0.3.2[].downloads": [
+   "integer"
+  ],
+  "releases.0.3.2[].filename": [
+   "string"
+  ],
+  "releases.0.3.2[].has_sig": [
+   "boolean"
+  ],
+  "releases.0.3.2[].md5_digest": [
+   "string"
+  ],
+  "releases.0.3.2[].packagetype": [
+   "string"
+  ],
+  "releases.0.3.2[].python_version": [
+   "string"
+  ],
+  "releases.0.3.2[].requires_python": [
+   "null"
+  ],
+  "releases.0.3.2[].size": [
+   "integer"
+  ],
+  "releases.0.3.2[].upload_time": [
+   "string"
+  ],
+  "releases.0.3.2[].upload_time_iso_8601": [
+   "string"
+  ],
+  "releases.0.3.2[].url": [
+   "string"
+  ],
+  "releases.0.3.2[].yanked": [
+   "boolean"
+  ],
+  "releases.0.3.2[].yanked_reason": [
+   "null"
+  ],
+  "releases.0.3.3": [
+   "array"
+  ],
+  "releases.0.3.3[]": [
+   "object"
+  ],
+  "releases.0.3.3[].comment_text": [
+   "string"
+  ],
+  "releases.0.3.3[].core-metadata": [
+   "boolean"
+  ],
+  "releases.0.3.3[].digests": [
+   "object"
+  ],
+  "releases.0.3.3[].digests.blake2b_256": [
+   "string"
+  ],
+  "releases.0.3.3[].digests.md5": [
+   "string"
+  ],
+  "releases.0.3.3[].digests.sha256": [
+   "string"
+  ],
+  "releases.0.3.3[].downloads": [
+   "integer"
+  ],
+  "releases.0.3.3[].filename": [
+   "string"
+  ],
+  "releases.0.3.3[].has_sig": [
+   "boolean"
+  ],
+  "releases.0.3.3[].md5_digest": [
+   "string"
+  ],
+  "releases.0.3.3[].packagetype": [
+   "string"
+  ],
+  "releases.0.3.3[].python_version": [
+   "string"
+  ],
+  "releases.0.3.3[].requires_python": [
+   "null"
+  ],
+  "releases.0.3.3[].size": [
+   "integer"
+  ],
+  "releases.0.3.3[].upload_time": [
+   "string"
+  ],
+  "releases.0.3.3[].upload_time_iso_8601": [
+   "string"
+  ],
+  "releases.0.3.3[].url": [
+   "string"
+  ],
+  "releases.0.3.3[].yanked": [
+   "boolean"
+  ],
+  "releases.0.3.3[].yanked_reason": [
+   "null"
+  ],
+  "releases.0.3.4": [
+   "array"
+  ],
+  "releases.0.3.4[]": [
+   "object"
+  ],
+  "releases.0.3.4[].comment_text": [
+   "string"
+  ],
+  "releases.0.3.4[].core-metadata": [
+   "boolean"
+  ],
+  "releases.0.3.4[].digests": [
+   "object"
+  ],
+  "releases.0.3.4[].digests.blake2b_256": [
+   "string"
+  ],
+  "releases.0.3.4[].digests.md5": [
+   "string"
+  ],
+  "releases.0.3.4[].digests.sha256": [
+   "string"
+  ],
+  "releases.0.3.4[].downloads": [
+   "integer"
+  ],
+  "releases.0.3.4[].filename": [
+   "string"
+  ],
+  "releases.0.3.4[].has_sig": [
+   "boolean"
+  ],
+  "releases.0.3.4[].md5_digest": [
+   "string"
+  ],
+  "releases.0.3.4[].packagetype": [
+   "string"
+  ],
+  "releases.0.3.4[].python_version": [
+   "string"
+  ],
+  "releases.0.3.4[].requires_python": [
+   "null"
+  ],
+  "releases.0.3.4[].size": [
+   "integer"
+  ],
+  "releases.0.3.4[].upload_time": [
+   "string"
+  ],
+  "releases.0.3.4[].upload_time_iso_8601": [
+   "string"
+  ],
+  "releases.0.3.4[].url": [
+   "string"
+  ],
+  "releases.0.3.4[].yanked": [
+   "boolean"
+  ],
+  "releases.0.3.4[].yanked_reason": [
+   "null"
+  ],
+  "releases.0.4.0": [
+   "array"
+  ],
+  "releases.0.4.0[]": [
+   "object"
+  ],
+  "releases.0.4.0[].comment_text": [
+   "string"
+  ],
+  "releases.0.4.0[].core-metadata": [
+   "boolean"
+  ],
+  "releases.0.4.0[].digests": [
+   "object"
+  ],
+  "releases.0.4.0[].digests.blake2b_256": [
+   "string"
+  ],
+  "releases.0.4.0[].digests.md5": [
+   "string"
+  ],
+  "releases.0.4.0[].digests.sha256": [
+   "string"
+  ],
+  "releases.0.4.0[].downloads": [
+   "integer"
+  ],
+  "releases.0.4.0[].filename": [
+   "string"
+  ],
+  "releases.0.4.0[].has_sig": [
+   "boolean"
+  ],
+  "releases.0.4.0[].md5_digest": [
+   "string"
+  ],
+  "releases.0.4.0[].packagetype": [
+   "string"
+  ],
+  "releases.0.4.0[].python_version": [
+   "string"
+  ],
+  "releases.0.4.0[].requires_python": [
+   "null"
+  ],
+  "releases.0.4.0[].size": [
+   "integer"
+  ],
+  "releases.0.4.0[].upload_time": [
+   "string"
+  ],
+  "releases.0.4.0[].upload_time_iso_8601": [
+   "string"
+  ],
+  "releases.0.4.0[].url": [
+   "string"
+  ],
+  "releases.0.4.0[].yanked": [
+   "boolean"
+  ],
+  "releases.0.4.0[].yanked_reason": [
+   "null"
+  ],
+  "releases.0.4.1": [
+   "array"
+  ],
+  "releases.0.4.1[]": [
+   "object"
+  ],
+  "releases.0.4.1[].comment_text": [
+   "string"
+  ],
+  "releases.0.4.1[].core-metadata": [
+   "boolean"
+  ],
+  "releases.0.4.1[].digests": [
+   "object"
+  ],
+  "releases.0.4.1[].digests.blake2b_256": [
+   "string"
+  ],
+  "releases.0.4.1[].digests.md5": [
+   "string"
+  ],
+  "releases.0.4.1[].digests.sha256": [
+   "string"
+  ],
+  "releases.0.4.1[].downloads": [
+   "integer"
+  ],
+  "releases.0.4.1[].filename": [
+   "string"
+  ],
+  "releases.0.4.1[].has_sig": [
+   "boolean"
+  ],
+  "releases.0.4.1[].md5_digest": [
+   "string"
+  ],
+  "releases.0.4.1[].packagetype": [
+   "string"
+  ],
+  "releases.0.4.1[].python_version": [
+   "string"
+  ],
+  "releases.0.4.1[].requires_python": [
+   "null"
+  ],
+  "releases.0.4.1[].size": [
+   "integer"
+  ],
+  "releases.0.4.1[].upload_time": [
+   "string"
+  ],
+  "releases.0.4.1[].upload_time_iso_8601": [
+   "string"
+  ],
+  "releases.0.4.1[].url": [
+   "string"
+  ],
+  "releases.0.4.1[].yanked": [
+   "boolean"
+  ],
+  "releases.0.4.1[].yanked_reason": [
+   "null"
+  ],
+  "releases.0.5.0": [
+   "array"
+  ],
+  "releases.0.5.0[]": [
+   "object"
+  ],
+  "releases.0.5.0[].comment_text": [
+   "string"
+  ],
+  "releases.0.5.0[].core-metadata": [
+   "boolean"
+  ],
+  "releases.0.5.0[].digests": [
+   "object"
+  ],
+  "releases.0.5.0[].digests.blake2b_256": [
+   "string"
+  ],
+  "releases.0.5.0[].digests.md5": [
+   "string"
+  ],
+  "releases.0.5.0[].digests.sha256": [
+   "string"
+  ],
+  "releases.0.5.0[].downloads": [
+   "integer"
+  ],
+  "releases.0.5.0[].filename": [
+   "string"
+  ],
+  "releases.0.5.0[].has_sig": [
+   "boolean"
+  ],
+  "releases.0.5.0[].md5_digest": [
+   "string"
+  ],
+  "releases.0.5.0[].packagetype": [
+   "string"
+  ],
+  "releases.0.5.0[].python_version": [
+   "string"
+  ],
+  "releases.0.5.0[].requires_python": [
+   "null"
+  ],
+  "releases.0.5.0[].size": [
+   "integer"
+  ],
+  "releases.0.5.0[].upload_time": [
+   "string"
+  ],
+  "releases.0.5.0[].upload_time_iso_8601": [
+   "string"
+  ],
+  "releases.0.5.0[].url": [
+   "string"
+  ],
+  "releases.0.5.0[].yanked": [
+   "boolean"
+  ],
+  "releases.0.5.0[].yanked_reason": [
+   "null"
+  ],
+  "releases.0.5.1": [
+   "array"
+  ],
+  "releases.0.5.1[]": [
+   "object"
+  ],
+  "releases.0.5.1[].comment_text": [
+   "string"
+  ],
+  "releases.0.5.1[].core-metadata": [
+   "boolean"
+  ],
+  "releases.0.5.1[].digests": [
+   "object"
+  ],
+  "releases.0.5.1[].digests.blake2b_256": [
+   "string"
+  ],
+  "releases.0.5.1[].digests.md5": [
+   "string"
+  ],
+  "releases.0.5.1[].digests.sha256": [
+   "string"
+  ],
+  "releases.0.5.1[].downloads": [
+   "integer"
+  ],
+  "releases.0.5.1[].filename": [
+   "string"
+  ],
+  "releases.0.5.1[].has_sig": [
+   "boolean"
+  ],
+  "releases.0.5.1[].md5_digest": [
+   "string"
+  ],
+  "releases.0.5.1[].packagetype": [
+   "string"
+  ],
+  "releases.0.5.1[].python_version": [
+   "string"
+  ],
+  "releases.0.5.1[].requires_python": [
+   "null"
+  ],
+  "releases.0.5.1[].size": [
+   "integer"
+  ],
+  "releases.0.5.1[].upload_time": [
+   "string"
+  ],
+  "releases.0.5.1[].upload_time_iso_8601": [
+   "string"
+  ],
+  "releases.0.5.1[].url": [
+   "string"
+  ],
+  "releases.0.5.1[].yanked": [
+   "boolean"
+  ],
+  "releases.0.5.1[].yanked_reason": [
+   "null"
+  ],
+  "releases.0.6.0": [
+   "array"
+  ],
+  "releases.0.6.0[]": [
+   "object"
+  ],
+  "releases.0.6.0[].comment_text": [
+   "string"
+  ],
+  "releases.0.6.0[].core-metadata": [
+   "boolean"
+  ],
+  "releases.0.6.0[].digests": [
+   "object"
+  ],
+  "releases.0.6.0[].digests.blake2b_256": [
+   "string"
+  ],
+  "releases.0.6.0[].digests.md5": [
+   "string"
+  ],
+  "releases.0.6.0[].digests.sha256": [
+   "string"
+  ],
+  "releases.0.6.0[].downloads": [
+   "integer"
+  ],
+  "releases.0.6.0[].filename": [
+   "string"
+  ],
+  "releases.0.6.0[].has_sig": [
+   "boolean"
+  ],
+  "releases.0.6.0[].md5_digest": [
+   "string"
+  ],
+  "releases.0.6.0[].packagetype": [
+   "string"
+  ],
+  "releases.0.6.0[].python_version": [
+   "string"
+  ],
+  "releases.0.6.0[].requires_python": [
+   "null"
+  ],
+  "releases.0.6.0[].size": [
+   "integer"
+  ],
+  "releases.0.6.0[].upload_time": [
+   "string"
+  ],
+  "releases.0.6.0[].upload_time_iso_8601": [
+   "string"
+  ],
+  "releases.0.6.0[].url": [
+   "string"
+  ],
+  "releases.0.6.0[].yanked": [
+   "boolean"
+  ],
+  "releases.0.6.0[].yanked_reason": [
+   "null"
+  ],
+  "releases.0.6.1": [
+   "array"
+  ],
+  "releases.0.6.1[]": [
+   "object"
+  ],
+  "releases.0.6.1[].comment_text": [
+   "string"
+  ],
+  "releases.0.6.1[].core-metadata": [
+   "boolean"
+  ],
+  "releases.0.6.1[].digests": [
+   "object"
+  ],
+  "releases.0.6.1[].digests.blake2b_256": [
+   "string"
+  ],
+  "releases.0.6.1[].digests.md5": [
+   "string"
+  ],
+  "releases.0.6.1[].digests.sha256": [
+   "string"
+  ],
+  "releases.0.6.1[].downloads": [
+   "integer"
+  ],
+  "releases.0.6.1[].filename": [
+   "string"
+  ],
+  "releases.0.6.1[].has_sig": [
+   "boolean"
+  ],
+  "releases.0.6.1[].md5_digest": [
+   "string"
+  ],
+  "releases.0.6.1[].packagetype": [
+   "string"
+  ],
+  "releases.0.6.1[].python_version": [
+   "string"
+  ],
+  "releases.0.6.1[].requires_python": [
+   "null"
+  ],
+  "releases.0.6.1[].size": [
+   "integer"
+  ],
+  "releases.0.6.1[].upload_time": [
+   "string"
+  ],
+  "releases.0.6.1[].upload_time_iso_8601": [
+   "string"
+  ],
+  "releases.0.6.1[].url": [
+   "string"
+  ],
+  "releases.0.6.1[].yanked": [
+   "boolean"
+  ],
+  "releases.0.6.1[].yanked_reason": [
+   "null"
+  ],
+  "releases.0.6.2": [
+   "array"
+  ],
+  "releases.0.6.2[]": [
+   "object"
+  ],
+  "releases.0.6.2[].comment_text": [
+   "string"
+  ],
+  "releases.0.6.2[].core-metadata": [
+   "boolean"
+  ],
+  "releases.0.6.2[].digests": [
+   "object"
+  ],
+  "releases.0.6.2[].digests.blake2b_256": [
+   "string"
+  ],
+  "releases.0.6.2[].digests.md5": [
+   "string"
+  ],
+  "releases.0.6.2[].digests.sha256": [
+   "string"
+  ],
+  "releases.0.6.2[].downloads": [
+   "integer"
+  ],
+  "releases.0.6.2[].filename": [
+   "string"
+  ],
+  "releases.0.6.2[].has_sig": [
+   "boolean"
+  ],
+  "releases.0.6.2[].md5_digest": [
+   "string"
+  ],
+  "releases.0.6.2[].packagetype": [
+   "string"
+  ],
+  "releases.0.6.2[].python_version": [
+   "string"
+  ],
+  "releases.0.6.2[].requires_python": [
+   "null"
+  ],
+  "releases.0.6.2[].size": [
+   "integer"
+  ],
+  "releases.0.6.2[].upload_time": [
+   "string"
+  ],
+  "releases.0.6.2[].upload_time_iso_8601": [
+   "string"
+  ],
+  "releases.0.6.2[].url": [
+   "string"
+  ],
+  "releases.0.6.2[].yanked": [
+   "boolean"
+  ],
+  "releases.0.6.2[].yanked_reason": [
+   "null"
+  ],
+  "releases.0.6.3": [
+   "array"
+  ],
+  "releases.0.6.3[]": [
+   "object"
+  ],
+  "releases.0.6.3[].comment_text": [
+   "string"
+  ],
+  "releases.0.6.3[].core-metadata": [
+   "boolean"
+  ],
+  "releases.0.6.3[].digests": [
+   "object"
+  ],
+  "releases.0.6.3[].digests.blake2b_256": [
+   "string"
+  ],
+  "releases.0.6.3[].digests.md5": [
+   "string"
+  ],
+  "releases.0.6.3[].digests.sha256": [
+   "string"
+  ],
+  "releases.0.6.3[].downloads": [
+   "integer"
+  ],
+  "releases.0.6.3[].filename": [
+   "string"
+  ],
+  "releases.0.6.3[].has_sig": [
+   "boolean"
+  ],
+  "releases.0.6.3[].md5_digest": [
+   "string"
+  ],
+  "releases.0.6.3[].packagetype": [
+   "string"
+  ],
+  "releases.0.6.3[].python_version": [
+   "string"
+  ],
+  "releases.0.6.3[].requires_python": [
+   "null"
+  ],
+  "releases.0.6.3[].size": [
+   "integer"
+  ],
+  "releases.0.6.3[].upload_time": [
+   "string"
+  ],
+  "releases.0.6.3[].upload_time_iso_8601": [
+   "string"
+  ],
+  "releases.0.6.3[].url": [
+   "string"
+  ],
+  "releases.0.6.3[].yanked": [
+   "boolean"
+  ],
+  "releases.0.6.3[].yanked_reason": [
+   "null"
+  ],
+  "releases.0.6.4": [
+   "array"
+  ],
+  "releases.0.6.4[]": [
+   "object"
+  ],
+  "releases.0.6.4[].comment_text": [
+   "string"
+  ],
+  "releases.0.6.4[].core-metadata": [
+   "boolean"
+  ],
+  "releases.0.6.4[].digests": [
+   "object"
+  ],
+  "releases.0.6.4[].digests.blake2b_256": [
+   "string"
+  ],
+  "releases.0.6.4[].digests.md5": [
+   "string"
+  ],
+  "releases.0.6.4[].digests.sha256": [
+   "string"
+  ],
+  "releases.0.6.4[].downloads": [
+   "integer"
+  ],
+  "releases.0.6.4[].filename": [
+   "string"
+  ],
+  "releases.0.6.4[].has_sig": [
+   "boolean"
+  ],
+  "releases.0.6.4[].md5_digest": [
+   "string"
+  ],
+  "releases.0.6.4[].packagetype": [
+   "string"
+  ],
+  "releases.0.6.4[].python_version": [
+   "string"
+  ],
+  "releases.0.6.4[].requires_python": [
+   "null"
+  ],
+  "releases.0.6.4[].size": [
+   "integer"
+  ],
+  "releases.0.6.4[].upload_time": [
+   "string"
+  ],
+  "releases.0.6.4[].upload_time_iso_8601": [
+   "string"
+  ],
+  "releases.0.6.4[].url": [
+   "string"
+  ],
+  "releases.0.6.4[].yanked": [
+   "boolean"
+  ],
+  "releases.0.6.4[].yanked_reason": [
+   "null"
+  ],
+  "releases.0.6.5": [
+   "array"
+  ],
+  "releases.0.6.5[]": [
+   "object"
+  ],
+  "releases.0.6.5[].comment_text": [
+   "string"
+  ],
+  "releases.0.6.5[].core-metadata": [
+   "boolean"
+  ],
+  "releases.0.6.5[].digests": [
+   "object"
+  ],
+  "releases.0.6.5[].digests.blake2b_256": [
+   "string"
+  ],
+  "releases.0.6.5[].digests.md5": [
+   "string"
+  ],
+  "releases.0.6.5[].digests.sha256": [
+   "string"
+  ],
+  "releases.0.6.5[].downloads": [
+   "integer"
+  ],
+  "releases.0.6.5[].filename": [
+   "string"
+  ],
+  "releases.0.6.5[].has_sig": [
+   "boolean"
+  ],
+  "releases.0.6.5[].md5_digest": [
+   "string"
+  ],
+  "releases.0.6.5[].packagetype": [
+   "string"
+  ],
+  "releases.0.6.5[].python_version": [
+   "string"
+  ],
+  "releases.0.6.5[].requires_python": [
+   "null"
+  ],
+  "releases.0.6.5[].size": [
+   "integer"
+  ],
+  "releases.0.6.5[].upload_time": [
+   "string"
+  ],
+  "releases.0.6.5[].upload_time_iso_8601": [
+   "string"
+  ],
+  "releases.0.6.5[].url": [
+   "string"
+  ],
+  "releases.0.6.5[].yanked": [
+   "boolean"
+  ],
+  "releases.0.6.5[].yanked_reason": [
+   "null"
+  ],
+  "releases.0.6.6": [
+   "array"
+  ],
+  "releases.0.6.6[]": [
+   "object"
+  ],
+  "releases.0.6.6[].comment_text": [
+   "string"
+  ],
+  "releases.0.6.6[].core-metadata": [
+   "boolean"
+  ],
+  "releases.0.6.6[].digests": [
+   "object"
+  ],
+  "releases.0.6.6[].digests.blake2b_256": [
+   "string"
+  ],
+  "releases.0.6.6[].digests.md5": [
+   "string"
+  ],
+  "releases.0.6.6[].digests.sha256": [
+   "string"
+  ],
+  "releases.0.6.6[].downloads": [
+   "integer"
+  ],
+  "releases.0.6.6[].filename": [
+   "string"
+  ],
+  "releases.0.6.6[].has_sig": [
+   "boolean"
+  ],
+  "releases.0.6.6[].md5_digest": [
+   "string"
+  ],
+  "releases.0.6.6[].packagetype": [
+   "string"
+  ],
+  "releases.0.6.6[].python_version": [
+   "string"
+  ],
+  "releases.0.6.6[].requires_python": [
+   "null"
+  ],
+  "releases.0.6.6[].size": [
+   "integer"
+  ],
+  "releases.0.6.6[].upload_time": [
+   "string"
+  ],
+  "releases.0.6.6[].upload_time_iso_8601": [
+   "string"
+  ],
+  "releases.0.6.6[].url": [
+   "string"
+  ],
+  "releases.0.6.6[].yanked": [
+   "boolean"
+  ],
+  "releases.0.6.6[].yanked_reason": [
+   "null"
+  ],
+  "releases.0.7.0": [
+   "array"
+  ],
+  "releases.0.7.0[]": [
+   "object"
+  ],
+  "releases.0.7.0[].comment_text": [
+   "string"
+  ],
+  "releases.0.7.0[].core-metadata": [
+   "boolean"
+  ],
+  "releases.0.7.0[].digests": [
+   "object"
+  ],
+  "releases.0.7.0[].digests.blake2b_256": [
+   "string"
+  ],
+  "releases.0.7.0[].digests.md5": [
+   "string"
+  ],
+  "releases.0.7.0[].digests.sha256": [
+   "string"
+  ],
+  "releases.0.7.0[].downloads": [
+   "integer"
+  ],
+  "releases.0.7.0[].filename": [
+   "string"
+  ],
+  "releases.0.7.0[].has_sig": [
+   "boolean"
+  ],
+  "releases.0.7.0[].md5_digest": [
+   "string"
+  ],
+  "releases.0.7.0[].packagetype": [
+   "string"
+  ],
+  "releases.0.7.0[].python_version": [
+   "string"
+  ],
+  "releases.0.7.0[].requires_python": [
+   "null"
+  ],
+  "releases.0.7.0[].size": [
+   "integer"
+  ],
+  "releases.0.7.0[].upload_time": [
+   "string"
+  ],
+  "releases.0.7.0[].upload_time_iso_8601": [
+   "string"
+  ],
+  "releases.0.7.0[].url": [
+   "string"
+  ],
+  "releases.0.7.0[].yanked": [
+   "boolean"
+  ],
+  "releases.0.7.0[].yanked_reason": [
+   "null"
+  ],
+  "releases.0.7.1": [
+   "array"
+  ],
+  "releases.0.7.1[]": [
+   "object"
+  ],
+  "releases.0.7.1[].comment_text": [
+   "string"
+  ],
+  "releases.0.7.1[].core-metadata": [
+   "boolean"
+  ],
+  "releases.0.7.1[].digests": [
+   "object"
+  ],
+  "releases.0.7.1[].digests.blake2b_256": [
+   "string"
+  ],
+  "releases.0.7.1[].digests.md5": [
+   "string"
+  ],
+  "releases.0.7.1[].digests.sha256": [
+   "string"
+  ],
+  "releases.0.7.1[].downloads": [
+   "integer"
+  ],
+  "releases.0.7.1[].filename": [
+   "string"
+  ],
+  "releases.0.7.1[].has_sig": [
+   "boolean"
+  ],
+  "releases.0.7.1[].md5_digest": [
+   "string"
+  ],
+  "releases.0.7.1[].packagetype": [
+   "string"
+  ],
+  "releases.0.7.1[].python_version": [
+   "string"
+  ],
+  "releases.0.7.1[].requires_python": [
+   "null"
+  ],
+  "releases.0.7.1[].size": [
+   "integer"
+  ],
+  "releases.0.7.1[].upload_time": [
+   "string"
+  ],
+  "releases.0.7.1[].upload_time_iso_8601": [
+   "string"
+  ],
+  "releases.0.7.1[].url": [
+   "string"
+  ],
+  "releases.0.7.1[].yanked": [
+   "boolean"
+  ],
+  "releases.0.7.1[].yanked_reason": [
+   "null"
+  ],
+  "releases.0.7.2": [
+   "array"
+  ],
+  "releases.0.7.2[]": [
+   "object"
+  ],
+  "releases.0.7.2[].comment_text": [
+   "string"
+  ],
+  "releases.0.7.2[].core-metadata": [
+   "boolean"
+  ],
+  "releases.0.7.2[].digests": [
+   "object"
+  ],
+  "releases.0.7.2[].digests.blake2b_256": [
+   "string"
+  ],
+  "releases.0.7.2[].digests.md5": [
+   "string"
+  ],
+  "releases.0.7.2[].digests.sha256": [
+   "string"
+  ],
+  "releases.0.7.2[].downloads": [
+   "integer"
+  ],
+  "releases.0.7.2[].filename": [
+   "string"
+  ],
+  "releases.0.7.2[].has_sig": [
+   "boolean"
+  ],
+  "releases.0.7.2[].md5_digest": [
+   "string"
+  ],
+  "releases.0.7.2[].packagetype": [
+   "string"
+  ],
+  "releases.0.7.2[].python_version": [
+   "string"
+  ],
+  "releases.0.7.2[].requires_python": [
+   "null"
+  ],
+  "releases.0.7.2[].size": [
+   "integer"
+  ],
+  "releases.0.7.2[].upload_time": [
+   "string"
+  ],
+  "releases.0.7.2[].upload_time_iso_8601": [
+   "string"
+  ],
+  "releases.0.7.2[].url": [
+   "string"
+  ],
+  "releases.0.7.2[].yanked": [
+   "boolean"
+  ],
+  "releases.0.7.2[].yanked_reason": [
+   "null"
+  ],
+  "releases.0.7.3": [
+   "array"
+  ],
+  "releases.0.7.3[]": [
+   "object"
+  ],
+  "releases.0.7.3[].comment_text": [
+   "string"
+  ],
+  "releases.0.7.3[].core-metadata": [
+   "boolean"
+  ],
+  "releases.0.7.3[].digests": [
+   "object"
+  ],
+  "releases.0.7.3[].digests.blake2b_256": [
+   "string"
+  ],
+  "releases.0.7.3[].digests.md5": [
+   "string"
+  ],
+  "releases.0.7.3[].digests.sha256": [
+   "string"
+  ],
+  "releases.0.7.3[].downloads": [
+   "integer"
+  ],
+  "releases.0.7.3[].filename": [
+   "string"
+  ],
+  "releases.0.7.3[].has_sig": [
+   "boolean"
+  ],
+  "releases.0.7.3[].md5_digest": [
+   "string"
+  ],
+  "releases.0.7.3[].packagetype": [
+   "string"
+  ],
+  "releases.0.7.3[].python_version": [
+   "string"
+  ],
+  "releases.0.7.3[].requires_python": [
+   "null"
+  ],
+  "releases.0.7.3[].size": [
+   "integer"
+  ],
+  "releases.0.7.3[].upload_time": [
+   "string"
+  ],
+  "releases.0.7.3[].upload_time_iso_8601": [
+   "string"
+  ],
+  "releases.0.7.3[].url": [
+   "string"
+  ],
+  "releases.0.7.3[].yanked": [
+   "boolean"
+  ],
+  "releases.0.7.3[].yanked_reason": [
+   "null"
+  ],
+  "releases.0.7.4": [
+   "array"
+  ],
+  "releases.0.7.4[]": [
+   "object"
+  ],
+  "releases.0.7.4[].comment_text": [
+   "string"
+  ],
+  "releases.0.7.4[].core-metadata": [
+   "boolean"
+  ],
+  "releases.0.7.4[].digests": [
+   "object"
+  ],
+  "releases.0.7.4[].digests.blake2b_256": [
+   "string"
+  ],
+  "releases.0.7.4[].digests.md5": [
+   "string"
+  ],
+  "releases.0.7.4[].digests.sha256": [
+   "string"
+  ],
+  "releases.0.7.4[].downloads": [
+   "integer"
+  ],
+  "releases.0.7.4[].filename": [
+   "string"
+  ],
+  "releases.0.7.4[].has_sig": [
+   "boolean"
+  ],
+  "releases.0.7.4[].md5_digest": [
+   "string"
+  ],
+  "releases.0.7.4[].packagetype": [
+   "string"
+  ],
+  "releases.0.7.4[].python_version": [
+   "string"
+  ],
+  "releases.0.7.4[].requires_python": [
+   "null"
+  ],
+  "releases.0.7.4[].size": [
+   "integer"
+  ],
+  "releases.0.7.4[].upload_time": [
+   "string"
+  ],
+  "releases.0.7.4[].upload_time_iso_8601": [
+   "string"
+  ],
+  "releases.0.7.4[].url": [
+   "string"
+  ],
+  "releases.0.7.4[].yanked": [
+   "boolean"
+  ],
+  "releases.0.7.4[].yanked_reason": [
+   "null"
+  ],
+  "releases.0.7.5": [
+   "array"
+  ],
+  "releases.0.7.5[]": [
+   "object"
+  ],
+  "releases.0.7.5[].comment_text": [
+   "string"
+  ],
+  "releases.0.7.5[].core-metadata": [
+   "boolean"
+  ],
+  "releases.0.7.5[].digests": [
+   "object"
+  ],
+  "releases.0.7.5[].digests.blake2b_256": [
+   "string"
+  ],
+  "releases.0.7.5[].digests.md5": [
+   "string"
+  ],
+  "releases.0.7.5[].digests.sha256": [
+   "string"
+  ],
+  "releases.0.7.5[].downloads": [
+   "integer"
+  ],
+  "releases.0.7.5[].filename": [
+   "string"
+  ],
+  "releases.0.7.5[].has_sig": [
+   "boolean"
+  ],
+  "releases.0.7.5[].md5_digest": [
+   "string"
+  ],
+  "releases.0.7.5[].packagetype": [
+   "string"
+  ],
+  "releases.0.7.5[].python_version": [
+   "string"
+  ],
+  "releases.0.7.5[].requires_python": [
+   "null"
+  ],
+  "releases.0.7.5[].size": [
+   "integer"
+  ],
+  "releases.0.7.5[].upload_time": [
+   "string"
+  ],
+  "releases.0.7.5[].upload_time_iso_8601": [
+   "string"
+  ],
+  "releases.0.7.5[].url": [
+   "string"
+  ],
+  "releases.0.7.5[].yanked": [
+   "boolean"
+  ],
+  "releases.0.7.5[].yanked_reason": [
+   "null"
+  ],
+  "releases.0.7.6": [
+   "array"
+  ],
+  "releases.0.7.6[]": [
+   "object"
+  ],
+  "releases.0.7.6[].comment_text": [
+   "string"
+  ],
+  "releases.0.7.6[].core-metadata": [
+   "boolean"
+  ],
+  "releases.0.7.6[].digests": [
+   "object"
+  ],
+  "releases.0.7.6[].digests.blake2b_256": [
+   "string"
+  ],
+  "releases.0.7.6[].digests.md5": [
+   "string"
+  ],
+  "releases.0.7.6[].digests.sha256": [
+   "string"
+  ],
+  "releases.0.7.6[].downloads": [
+   "integer"
+  ],
+  "releases.0.7.6[].filename": [
+   "string"
+  ],
+  "releases.0.7.6[].has_sig": [
+   "boolean"
+  ],
+  "releases.0.7.6[].md5_digest": [
+   "string"
+  ],
+  "releases.0.7.6[].packagetype": [
+   "string"
+  ],
+  "releases.0.7.6[].python_version": [
+   "string"
+  ],
+  "releases.0.7.6[].requires_python": [
+   "null"
+  ],
+  "releases.0.7.6[].size": [
+   "integer"
+  ],
+  "releases.0.7.6[].upload_time": [
+   "string"
+  ],
+  "releases.0.7.6[].upload_time_iso_8601": [
+   "string"
+  ],
+  "releases.0.7.6[].url": [
+   "string"
+  ],
+  "releases.0.7.6[].yanked": [
+   "boolean"
+  ],
+  "releases.0.7.6[].yanked_reason": [
+   "null"
+  ],
+  "releases.0.8.0": [
+   "array"
+  ],
+  "releases.0.8.0[]": [
+   "object"
+  ],
+  "releases.0.8.0[].comment_text": [
+   "string"
+  ],
+  "releases.0.8.0[].core-metadata": [
+   "boolean"
+  ],
+  "releases.0.8.0[].digests": [
+   "object"
+  ],
+  "releases.0.8.0[].digests.blake2b_256": [
+   "string"
+  ],
+  "releases.0.8.0[].digests.md5": [
+   "string"
+  ],
+  "releases.0.8.0[].digests.sha256": [
+   "string"
+  ],
+  "releases.0.8.0[].downloads": [
+   "integer"
+  ],
+  "releases.0.8.0[].filename": [
+   "string"
+  ],
+  "releases.0.8.0[].has_sig": [
+   "boolean"
+  ],
+  "releases.0.8.0[].md5_digest": [
+   "string"
+  ],
+  "releases.0.8.0[].packagetype": [
+   "string"
+  ],
+  "releases.0.8.0[].python_version": [
+   "string"
+  ],
+  "releases.0.8.0[].requires_python": [
+   "null"
+  ],
+  "releases.0.8.0[].size": [
+   "integer"
+  ],
+  "releases.0.8.0[].upload_time": [
+   "string"
+  ],
+  "releases.0.8.0[].upload_time_iso_8601": [
+   "string"
+  ],
+  "releases.0.8.0[].url": [
+   "string"
+  ],
+  "releases.0.8.0[].yanked": [
+   "boolean"
+  ],
+  "releases.0.8.0[].yanked_reason": [
+   "null"
+  ],
+  "releases.0.8.1": [
+   "array"
+  ],
+  "releases.0.8.1[]": [
+   "object"
+  ],
+  "releases.0.8.1[].comment_text": [
+   "string"
+  ],
+  "releases.0.8.1[].core-metadata": [
+   "boolean"
+  ],
+  "releases.0.8.1[].digests": [
+   "object"
+  ],
+  "releases.0.8.1[].digests.blake2b_256": [
+   "string"
+  ],
+  "releases.0.8.1[].digests.md5": [
+   "string"
+  ],
+  "releases.0.8.1[].digests.sha256": [
+   "string"
+  ],
+  "releases.0.8.1[].downloads": [
+   "integer"
+  ],
+  "releases.0.8.1[].filename": [
+   "string"
+  ],
+  "releases.0.8.1[].has_sig": [
+   "boolean"
+  ],
+  "releases.0.8.1[].md5_digest": [
+   "string"
+  ],
+  "releases.0.8.1[].packagetype": [
+   "string"
+  ],
+  "releases.0.8.1[].python_version": [
+   "string"
+  ],
+  "releases.0.8.1[].requires_python": [
+   "null"
+  ],
+  "releases.0.8.1[].size": [
+   "integer"
+  ],
+  "releases.0.8.1[].upload_time": [
+   "string"
+  ],
+  "releases.0.8.1[].upload_time_iso_8601": [
+   "string"
+  ],
+  "releases.0.8.1[].url": [
+   "string"
+  ],
+  "releases.0.8.1[].yanked": [
+   "boolean"
+  ],
+  "releases.0.8.1[].yanked_reason": [
+   "null"
+  ],
+  "releases.0.8.2": [
+   "array"
+  ],
+  "releases.0.8.2[]": [
+   "object"
+  ],
+  "releases.0.8.2[].comment_text": [
+   "string"
+  ],
+  "releases.0.8.2[].core-metadata": [
+   "boolean"
+  ],
+  "releases.0.8.2[].digests": [
+   "object"
+  ],
+  "releases.0.8.2[].digests.blake2b_256": [
+   "string"
+  ],
+  "releases.0.8.2[].digests.md5": [
+   "string"
+  ],
+  "releases.0.8.2[].digests.sha256": [
+   "string"
+  ],
+  "releases.0.8.2[].downloads": [
+   "integer"
+  ],
+  "releases.0.8.2[].filename": [
+   "string"
+  ],
+  "releases.0.8.2[].has_sig": [
+   "boolean"
+  ],
+  "releases.0.8.2[].md5_digest": [
+   "string"
+  ],
+  "releases.0.8.2[].packagetype": [
+   "string"
+  ],
+  "releases.0.8.2[].python_version": [
+   "string"
+  ],
+  "releases.0.8.2[].requires_python": [
+   "null"
+  ],
+  "releases.0.8.2[].size": [
+   "integer"
+  ],
+  "releases.0.8.2[].upload_time": [
+   "string"
+  ],
+  "releases.0.8.2[].upload_time_iso_8601": [
+   "string"
+  ],
+  "releases.0.8.2[].url": [
+   "string"
+  ],
+  "releases.0.8.2[].yanked": [
+   "boolean"
+  ],
+  "releases.0.8.2[].yanked_reason": [
+   "null"
+  ],
+  "releases.0.8.3": [
+   "array"
+  ],
+  "releases.0.8.3[]": [
+   "object"
+  ],
+  "releases.0.8.3[].comment_text": [
+   "string"
+  ],
+  "releases.0.8.3[].core-metadata": [
+   "boolean"
+  ],
+  "releases.0.8.3[].digests": [
+   "object"
+  ],
+  "releases.0.8.3[].digests.blake2b_256": [
+   "string"
+  ],
+  "releases.0.8.3[].digests.md5": [
+   "string"
+  ],
+  "releases.0.8.3[].digests.sha256": [
+   "string"
+  ],
+  "releases.0.8.3[].downloads": [
+   "integer"
+  ],
+  "releases.0.8.3[].filename": [
+   "string"
+  ],
+  "releases.0.8.3[].has_sig": [
+   "boolean"
+  ],
+  "releases.0.8.3[].md5_digest": [
+   "string"
+  ],
+  "releases.0.8.3[].packagetype": [
+   "string"
+  ],
+  "releases.0.8.3[].python_version": [
+   "string"
+  ],
+  "releases.0.8.3[].requires_python": [
+   "null"
+  ],
+  "releases.0.8.3[].size": [
+   "integer"
+  ],
+  "releases.0.8.3[].upload_time": [
+   "string"
+  ],
+  "releases.0.8.3[].upload_time_iso_8601": [
+   "string"
+  ],
+  "releases.0.8.3[].url": [
+   "string"
+  ],
+  "releases.0.8.3[].yanked": [
+   "boolean"
+  ],
+  "releases.0.8.3[].yanked_reason": [
+   "null"
+  ],
+  "releases.0.8.4": [
+   "array"
+  ],
+  "releases.0.8.4[]": [
+   "object"
+  ],
+  "releases.0.8.4[].comment_text": [
+   "string"
+  ],
+  "releases.0.8.4[].core-metadata": [
+   "boolean"
+  ],
+  "releases.0.8.4[].digests": [
+   "object"
+  ],
+  "releases.0.8.4[].digests.blake2b_256": [
+   "string"
+  ],
+  "releases.0.8.4[].digests.md5": [
+   "string"
+  ],
+  "releases.0.8.4[].digests.sha256": [
+   "string"
+  ],
+  "releases.0.8.4[].downloads": [
+   "integer"
+  ],
+  "releases.0.8.4[].filename": [
+   "string"
+  ],
+  "releases.0.8.4[].has_sig": [
+   "boolean"
+  ],
+  "releases.0.8.4[].md5_digest": [
+   "string"
+  ],
+  "releases.0.8.4[].packagetype": [
+   "string"
+  ],
+  "releases.0.8.4[].python_version": [
+   "string"
+  ],
+  "releases.0.8.4[].requires_python": [
+   "null"
+  ],
+  "releases.0.8.4[].size": [
+   "integer"
+  ],
+  "releases.0.8.4[].upload_time": [
+   "string"
+  ],
+  "releases.0.8.4[].upload_time_iso_8601": [
+   "string"
+  ],
+  "releases.0.8.4[].url": [
+   "string"
+  ],
+  "releases.0.8.4[].yanked": [
+   "boolean"
+  ],
+  "releases.0.8.4[].yanked_reason": [
+   "null"
+  ],
+  "releases.0.8.5": [
+   "array"
+  ],
+  "releases.0.8.5[]": [
+   "object"
+  ],
+  "releases.0.8.5[].comment_text": [
+   "string"
+  ],
+  "releases.0.8.5[].core-metadata": [
+   "boolean"
+  ],
+  "releases.0.8.5[].digests": [
+   "object"
+  ],
+  "releases.0.8.5[].digests.blake2b_256": [
+   "string"
+  ],
+  "releases.0.8.5[].digests.md5": [
+   "string"
+  ],
+  "releases.0.8.5[].digests.sha256": [
+   "string"
+  ],
+  "releases.0.8.5[].downloads": [
+   "integer"
+  ],
+  "releases.0.8.5[].filename": [
+   "string"
+  ],
+  "releases.0.8.5[].has_sig": [
+   "boolean"
+  ],
+  "releases.0.8.5[].md5_digest": [
+   "string"
+  ],
+  "releases.0.8.5[].packagetype": [
+   "string"
+  ],
+  "releases.0.8.5[].python_version": [
+   "string"
+  ],
+  "releases.0.8.5[].requires_python": [
+   "null"
+  ],
+  "releases.0.8.5[].size": [
+   "integer"
+  ],
+  "releases.0.8.5[].upload_time": [
+   "string"
+  ],
+  "releases.0.8.5[].upload_time_iso_8601": [
+   "string"
+  ],
+  "releases.0.8.5[].url": [
+   "string"
+  ],
+  "releases.0.8.5[].yanked": [
+   "boolean"
+  ],
+  "releases.0.8.5[].yanked_reason": [
+   "null"
+  ],
+  "releases.0.8.6": [
+   "array"
+  ],
+  "releases.0.8.6[]": [
+   "object"
+  ],
+  "releases.0.8.6[].comment_text": [
+   "string"
+  ],
+  "releases.0.8.6[].core-metadata": [
+   "boolean"
+  ],
+  "releases.0.8.6[].digests": [
+   "object"
+  ],
+  "releases.0.8.6[].digests.blake2b_256": [
+   "string"
+  ],
+  "releases.0.8.6[].digests.md5": [
+   "string"
+  ],
+  "releases.0.8.6[].digests.sha256": [
+   "string"
+  ],
+  "releases.0.8.6[].downloads": [
+   "integer"
+  ],
+  "releases.0.8.6[].filename": [
+   "string"
+  ],
+  "releases.0.8.6[].has_sig": [
+   "boolean"
+  ],
+  "releases.0.8.6[].md5_digest": [
+   "string"
+  ],
+  "releases.0.8.6[].packagetype": [
+   "string"
+  ],
+  "releases.0.8.6[].python_version": [
+   "string"
+  ],
+  "releases.0.8.6[].requires_python": [
+   "null"
+  ],
+  "releases.0.8.6[].size": [
+   "integer"
+  ],
+  "releases.0.8.6[].upload_time": [
+   "string"
+  ],
+  "releases.0.8.6[].upload_time_iso_8601": [
+   "string"
+  ],
+  "releases.0.8.6[].url": [
+   "string"
+  ],
+  "releases.0.8.6[].yanked": [
+   "boolean"
+  ],
+  "releases.0.8.6[].yanked_reason": [
+   "null"
+  ],
+  "releases.0.8.7": [
+   "array"
+  ],
+  "releases.0.8.7[]": [
+   "object"
+  ],
+  "releases.0.8.7[].comment_text": [
+   "string"
+  ],
+  "releases.0.8.7[].core-metadata": [
+   "boolean"
+  ],
+  "releases.0.8.7[].digests": [
+   "object"
+  ],
+  "releases.0.8.7[].digests.blake2b_256": [
+   "string"
+  ],
+  "releases.0.8.7[].digests.md5": [
+   "string"
+  ],
+  "releases.0.8.7[].digests.sha256": [
+   "string"
+  ],
+  "releases.0.8.7[].downloads": [
+   "integer"
+  ],
+  "releases.0.8.7[].filename": [
+   "string"
+  ],
+  "releases.0.8.7[].has_sig": [
+   "boolean"
+  ],
+  "releases.0.8.7[].md5_digest": [
+   "string"
+  ],
+  "releases.0.8.7[].packagetype": [
+   "string"
+  ],
+  "releases.0.8.7[].python_version": [
+   "string"
+  ],
+  "releases.0.8.7[].requires_python": [
+   "null"
+  ],
+  "releases.0.8.7[].size": [
+   "integer"
+  ],
+  "releases.0.8.7[].upload_time": [
+   "string"
+  ],
+  "releases.0.8.7[].upload_time_iso_8601": [
+   "string"
+  ],
+  "releases.0.8.7[].url": [
+   "string"
+  ],
+  "releases.0.8.7[].yanked": [
+   "boolean"
+  ],
+  "releases.0.8.7[].yanked_reason": [
+   "null"
+  ],
+  "releases.0.8.8": [
+   "array"
+  ],
+  "releases.0.8.8[]": [
+   "object"
+  ],
+  "releases.0.8.8[].comment_text": [
+   "string"
+  ],
+  "releases.0.8.8[].core-metadata": [
+   "boolean"
+  ],
+  "releases.0.8.8[].digests": [
+   "object"
+  ],
+  "releases.0.8.8[].digests.blake2b_256": [
+   "string"
+  ],
+  "releases.0.8.8[].digests.md5": [
+   "string"
+  ],
+  "releases.0.8.8[].digests.sha256": [
+   "string"
+  ],
+  "releases.0.8.8[].downloads": [
+   "integer"
+  ],
+  "releases.0.8.8[].filename": [
+   "string"
+  ],
+  "releases.0.8.8[].has_sig": [
+   "boolean"
+  ],
+  "releases.0.8.8[].md5_digest": [
+   "string"
+  ],
+  "releases.0.8.8[].packagetype": [
+   "string"
+  ],
+  "releases.0.8.8[].python_version": [
+   "string"
+  ],
+  "releases.0.8.8[].requires_python": [
+   "null"
+  ],
+  "releases.0.8.8[].size": [
+   "integer"
+  ],
+  "releases.0.8.8[].upload_time": [
+   "string"
+  ],
+  "releases.0.8.8[].upload_time_iso_8601": [
+   "string"
+  ],
+  "releases.0.8.8[].url": [
+   "string"
+  ],
+  "releases.0.8.8[].yanked": [
+   "boolean"
+  ],
+  "releases.0.8.8[].yanked_reason": [
+   "null"
+  ],
+  "releases.0.8.9": [
+   "array"
+  ],
+  "releases.0.8.9[]": [
+   "object"
+  ],
+  "releases.0.8.9[].comment_text": [
+   "string"
+  ],
+  "releases.0.8.9[].core-metadata": [
+   "boolean"
+  ],
+  "releases.0.8.9[].digests": [
+   "object"
+  ],
+  "releases.0.8.9[].digests.blake2b_256": [
+   "string"
+  ],
+  "releases.0.8.9[].digests.md5": [
+   "string"
+  ],
+  "releases.0.8.9[].digests.sha256": [
+   "string"
+  ],
+  "releases.0.8.9[].downloads": [
+   "integer"
+  ],
+  "releases.0.8.9[].filename": [
+   "string"
+  ],
+  "releases.0.8.9[].has_sig": [
+   "boolean"
+  ],
+  "releases.0.8.9[].md5_digest": [
+   "string"
+  ],
+  "releases.0.8.9[].packagetype": [
+   "string"
+  ],
+  "releases.0.8.9[].python_version": [
+   "string"
+  ],
+  "releases.0.8.9[].requires_python": [
+   "null"
+  ],
+  "releases.0.8.9[].size": [
+   "integer"
+  ],
+  "releases.0.8.9[].upload_time": [
+   "string"
+  ],
+  "releases.0.8.9[].upload_time_iso_8601": [
+   "string"
+  ],
+  "releases.0.8.9[].url": [
+   "string"
+  ],
+  "releases.0.8.9[].yanked": [
+   "boolean"
+  ],
+  "releases.0.8.9[].yanked_reason": [
+   "null"
+  ],
+  "releases.0.9.0": [
+   "array"
+  ],
+  "releases.0.9.0[]": [
+   "object"
+  ],
+  "releases.0.9.0[].comment_text": [
+   "string"
+  ],
+  "releases.0.9.0[].core-metadata": [
+   "boolean"
+  ],
+  "releases.0.9.0[].digests": [
+   "object"
+  ],
+  "releases.0.9.0[].digests.blake2b_256": [
+   "string"
+  ],
+  "releases.0.9.0[].digests.md5": [
+   "string"
+  ],
+  "releases.0.9.0[].digests.sha256": [
+   "string"
+  ],
+  "releases.0.9.0[].downloads": [
+   "integer"
+  ],
+  "releases.0.9.0[].filename": [
+   "string"
+  ],
+  "releases.0.9.0[].has_sig": [
+   "boolean"
+  ],
+  "releases.0.9.0[].md5_digest": [
+   "string"
+  ],
+  "releases.0.9.0[].packagetype": [
+   "string"
+  ],
+  "releases.0.9.0[].python_version": [
+   "string"
+  ],
+  "releases.0.9.0[].requires_python": [
+   "null"
+  ],
+  "releases.0.9.0[].size": [
+   "integer"
+  ],
+  "releases.0.9.0[].upload_time": [
+   "string"
+  ],
+  "releases.0.9.0[].upload_time_iso_8601": [
+   "string"
+  ],
+  "releases.0.9.0[].url": [
+   "string"
+  ],
+  "releases.0.9.0[].yanked": [
+   "boolean"
+  ],
+  "releases.0.9.0[].yanked_reason": [
+   "null"
+  ],
+  "releases.0.9.1": [
+   "array"
+  ],
+  "releases.0.9.1[]": [
+   "object"
+  ],
+  "releases.0.9.1[].comment_text": [
+   "string"
+  ],
+  "releases.0.9.1[].core-metadata": [
+   "boolean"
+  ],
+  "releases.0.9.1[].digests": [
+   "object"
+  ],
+  "releases.0.9.1[].digests.blake2b_256": [
+   "string"
+  ],
+  "releases.0.9.1[].digests.md5": [
+   "string"
+  ],
+  "releases.0.9.1[].digests.sha256": [
+   "string"
+  ],
+  "releases.0.9.1[].downloads": [
+   "integer"
+  ],
+  "releases.0.9.1[].filename": [
+   "string"
+  ],
+  "releases.0.9.1[].has_sig": [
+   "boolean"
+  ],
+  "releases.0.9.1[].md5_digest": [
+   "string"
+  ],
+  "releases.0.9.1[].packagetype": [
+   "string"
+  ],
+  "releases.0.9.1[].python_version": [
+   "string"
+  ],
+  "releases.0.9.1[].requires_python": [
+   "null"
+  ],
+  "releases.0.9.1[].size": [
+   "integer"
+  ],
+  "releases.0.9.1[].upload_time": [
+   "string"
+  ],
+  "releases.0.9.1[].upload_time_iso_8601": [
+   "string"
+  ],
+  "releases.0.9.1[].url": [
+   "string"
+  ],
+  "releases.0.9.1[].yanked": [
+   "boolean"
+  ],
+  "releases.0.9.1[].yanked_reason": [
+   "null"
+  ],
+  "releases.0.9.2": [
+   "array"
+  ],
+  "releases.0.9.2[]": [
+   "object"
+  ],
+  "releases.0.9.2[].comment_text": [
+   "string"
+  ],
+  "releases.0.9.2[].core-metadata": [
+   "boolean"
+  ],
+  "releases.0.9.2[].digests": [
+   "object"
+  ],
+  "releases.0.9.2[].digests.blake2b_256": [
+   "string"
+  ],
+  "releases.0.9.2[].digests.md5": [
+   "string"
+  ],
+  "releases.0.9.2[].digests.sha256": [
+   "string"
+  ],
+  "releases.0.9.2[].downloads": [
+   "integer"
+  ],
+  "releases.0.9.2[].filename": [
+   "string"
+  ],
+  "releases.0.9.2[].has_sig": [
+   "boolean"
+  ],
+  "releases.0.9.2[].md5_digest": [
+   "string"
+  ],
+  "releases.0.9.2[].packagetype": [
+   "string"
+  ],
+  "releases.0.9.2[].python_version": [
+   "string"
+  ],
+  "releases.0.9.2[].requires_python": [
+   "null"
+  ],
+  "releases.0.9.2[].size": [
+   "integer"
+  ],
+  "releases.0.9.2[].upload_time": [
+   "string"
+  ],
+  "releases.0.9.2[].upload_time_iso_8601": [
+   "string"
+  ],
+  "releases.0.9.2[].url": [
+   "string"
+  ],
+  "releases.0.9.2[].yanked": [
+   "boolean"
+  ],
+  "releases.0.9.2[].yanked_reason": [
+   "null"
+  ],
+  "releases.0.9.3": [
+   "array"
+  ],
+  "releases.0.9.3[]": [
+   "object"
+  ],
+  "releases.0.9.3[].comment_text": [
+   "string"
+  ],
+  "releases.0.9.3[].core-metadata": [
+   "boolean"
+  ],
+  "releases.0.9.3[].digests": [
+   "object"
+  ],
+  "releases.0.9.3[].digests.blake2b_256": [
+   "string"
+  ],
+  "releases.0.9.3[].digests.md5": [
+   "string"
+  ],
+  "releases.0.9.3[].digests.sha256": [
+   "string"
+  ],
+  "releases.0.9.3[].downloads": [
+   "integer"
+  ],
+  "releases.0.9.3[].filename": [
+   "string"
+  ],
+  "releases.0.9.3[].has_sig": [
+   "boolean"
+  ],
+  "releases.0.9.3[].md5_digest": [
+   "string"
+  ],
+  "releases.0.9.3[].packagetype": [
+   "string"
+  ],
+  "releases.0.9.3[].python_version": [
+   "string"
+  ],
+  "releases.0.9.3[].requires_python": [
+   "null"
+  ],
+  "releases.0.9.3[].size": [
+   "integer"
+  ],
+  "releases.0.9.3[].upload_time": [
+   "string"
+  ],
+  "releases.0.9.3[].upload_time_iso_8601": [
+   "string"
+  ],
+  "releases.0.9.3[].url": [
+   "string"
+  ],
+  "releases.0.9.3[].yanked": [
+   "boolean"
+  ],
+  "releases.0.9.3[].yanked_reason": [
+   "null"
+  ],
+  "releases.1.0.0": [
+   "array"
+  ],
+  "releases.1.0.0[]": [
+   "object"
+  ],
+  "releases.1.0.0[].comment_text": [
+   "string"
+  ],
+  "releases.1.0.0[].core-metadata": [
+   "boolean"
+  ],
+  "releases.1.0.0[].digests": [
+   "object"
+  ],
+  "releases.1.0.0[].digests.blake2b_256": [
+   "string"
+  ],
+  "releases.1.0.0[].digests.md5": [
+   "string"
+  ],
+  "releases.1.0.0[].digests.sha256": [
+   "string"
+  ],
+  "releases.1.0.0[].downloads": [
+   "integer"
+  ],
+  "releases.1.0.0[].filename": [
+   "string"
+  ],
+  "releases.1.0.0[].has_sig": [
+   "boolean"
+  ],
+  "releases.1.0.0[].md5_digest": [
+   "string"
+  ],
+  "releases.1.0.0[].packagetype": [
+   "string"
+  ],
+  "releases.1.0.0[].python_version": [
+   "string"
+  ],
+  "releases.1.0.0[].requires_python": [
+   "null"
+  ],
+  "releases.1.0.0[].size": [
+   "integer"
+  ],
+  "releases.1.0.0[].upload_time": [
+   "string"
+  ],
+  "releases.1.0.0[].upload_time_iso_8601": [
+   "string"
+  ],
+  "releases.1.0.0[].url": [
+   "string"
+  ],
+  "releases.1.0.0[].yanked": [
+   "boolean"
+  ],
+  "releases.1.0.0[].yanked_reason": [
+   "null"
+  ],
+  "releases.1.0.1": [
+   "array"
+  ],
+  "releases.1.0.1[]": [
+   "object"
+  ],
+  "releases.1.0.1[].comment_text": [
+   "string"
+  ],
+  "releases.1.0.1[].core-metadata": [
+   "boolean"
+  ],
+  "releases.1.0.1[].digests": [
+   "object"
+  ],
+  "releases.1.0.1[].digests.blake2b_256": [
+   "string"
+  ],
+  "releases.1.0.1[].digests.md5": [
+   "string"
+  ],
+  "releases.1.0.1[].digests.sha256": [
+   "string"
+  ],
+  "releases.1.0.1[].downloads": [
+   "integer"
+  ],
+  "releases.1.0.1[].filename": [
+   "string"
+  ],
+  "releases.1.0.1[].has_sig": [
+   "boolean"
+  ],
+  "releases.1.0.1[].md5_digest": [
+   "string"
+  ],
+  "releases.1.0.1[].packagetype": [
+   "string"
+  ],
+  "releases.1.0.1[].python_version": [
+   "string"
+  ],
+  "releases.1.0.1[].requires_python": [
+   "null"
+  ],
+  "releases.1.0.1[].size": [
+   "integer"
+  ],
+  "releases.1.0.1[].upload_time": [
+   "string"
+  ],
+  "releases.1.0.1[].upload_time_iso_8601": [
+   "string"
+  ],
+  "releases.1.0.1[].url": [
+   "string"
+  ],
+  "releases.1.0.1[].yanked": [
+   "boolean"
+  ],
+  "releases.1.0.1[].yanked_reason": [
+   "null"
+  ],
+  "releases.1.0.2": [
+   "array"
+  ],
+  "releases.1.0.2[]": [
+   "object"
+  ],
+  "releases.1.0.2[].comment_text": [
+   "string"
+  ],
+  "releases.1.0.2[].core-metadata": [
+   "boolean"
+  ],
+  "releases.1.0.2[].digests": [
+   "object"
+  ],
+  "releases.1.0.2[].digests.blake2b_256": [
+   "string"
+  ],
+  "releases.1.0.2[].digests.md5": [
+   "string"
+  ],
+  "releases.1.0.2[].digests.sha256": [
+   "string"
+  ],
+  "releases.1.0.2[].downloads": [
+   "integer"
+  ],
+  "releases.1.0.2[].filename": [
+   "string"
+  ],
+  "releases.1.0.2[].has_sig": [
+   "boolean"
+  ],
+  "releases.1.0.2[].md5_digest": [
+   "string"
+  ],
+  "releases.1.0.2[].packagetype": [
+   "string"
+  ],
+  "releases.1.0.2[].python_version": [
+   "string"
+  ],
+  "releases.1.0.2[].requires_python": [
+   "null"
+  ],
+  "releases.1.0.2[].size": [
+   "integer"
+  ],
+  "releases.1.0.2[].upload_time": [
+   "string"
+  ],
+  "releases.1.0.2[].upload_time_iso_8601": [
+   "string"
+  ],
+  "releases.1.0.2[].url": [
+   "string"
+  ],
+  "releases.1.0.2[].yanked": [
+   "boolean"
+  ],
+  "releases.1.0.2[].yanked_reason": [
+   "null"
+  ],
+  "releases.1.0.3": [
+   "array"
+  ],
+  "releases.1.0.3[]": [
+   "object"
+  ],
+  "releases.1.0.3[].comment_text": [
+   "string"
+  ],
+  "releases.1.0.3[].core-metadata": [
+   "boolean"
+  ],
+  "releases.1.0.3[].digests": [
+   "object"
+  ],
+  "releases.1.0.3[].digests.blake2b_256": [
+   "string"
+  ],
+  "releases.1.0.3[].digests.md5": [
+   "string"
+  ],
+  "releases.1.0.3[].digests.sha256": [
+   "string"
+  ],
+  "releases.1.0.3[].downloads": [
+   "integer"
+  ],
+  "releases.1.0.3[].filename": [
+   "string"
+  ],
+  "releases.1.0.3[].has_sig": [
+   "boolean"
+  ],
+  "releases.1.0.3[].md5_digest": [
+   "string"
+  ],
+  "releases.1.0.3[].packagetype": [
+   "string"
+  ],
+  "releases.1.0.3[].python_version": [
+   "string"
+  ],
+  "releases.1.0.3[].requires_python": [
+   "null"
+  ],
+  "releases.1.0.3[].size": [
+   "integer"
+  ],
+  "releases.1.0.3[].upload_time": [
+   "string"
+  ],
+  "releases.1.0.3[].upload_time_iso_8601": [
+   "string"
+  ],
+  "releases.1.0.3[].url": [
+   "string"
+  ],
+  "releases.1.0.3[].yanked": [
+   "boolean"
+  ],
+  "releases.1.0.3[].yanked_reason": [
+   "null"
+  ],
+  "releases.1.0.4": [
+   "array"
+  ],
+  "releases.1.0.4[]": [
+   "object"
+  ],
+  "releases.1.0.4[].comment_text": [
+   "string"
+  ],
+  "releases.1.0.4[].core-metadata": [
+   "boolean"
+  ],
+  "releases.1.0.4[].digests": [
+   "object"
+  ],
+  "releases.1.0.4[].digests.blake2b_256": [
+   "string"
+  ],
+  "releases.1.0.4[].digests.md5": [
+   "string"
+  ],
+  "releases.1.0.4[].digests.sha256": [
+   "string"
+  ],
+  "releases.1.0.4[].downloads": [
+   "integer"
+  ],
+  "releases.1.0.4[].filename": [
+   "string"
+  ],
+  "releases.1.0.4[].has_sig": [
+   "boolean"
+  ],
+  "releases.1.0.4[].md5_digest": [
+   "string"
+  ],
+  "releases.1.0.4[].packagetype": [
+   "string"
+  ],
+  "releases.1.0.4[].python_version": [
+   "string"
+  ],
+  "releases.1.0.4[].requires_python": [
+   "null"
+  ],
+  "releases.1.0.4[].size": [
+   "integer"
+  ],
+  "releases.1.0.4[].upload_time": [
+   "string"
+  ],
+  "releases.1.0.4[].upload_time_iso_8601": [
+   "string"
+  ],
+  "releases.1.0.4[].url": [
+   "string"
+  ],
+  "releases.1.0.4[].yanked": [
+   "boolean"
+  ],
+  "releases.1.0.4[].yanked_reason": [
+   "null"
+  ],
+  "releases.1.1.0": [
+   "array"
+  ],
+  "releases.1.1.0[]": [
+   "object"
+  ],
+  "releases.1.1.0[].comment_text": [
+   "string"
+  ],
+  "releases.1.1.0[].core-metadata": [
+   "boolean"
+  ],
+  "releases.1.1.0[].digests": [
+   "object"
+  ],
+  "releases.1.1.0[].digests.blake2b_256": [
+   "string"
+  ],
+  "releases.1.1.0[].digests.md5": [
+   "string"
+  ],
+  "releases.1.1.0[].digests.sha256": [
+   "string"
+  ],
+  "releases.1.1.0[].downloads": [
+   "integer"
+  ],
+  "releases.1.1.0[].filename": [
+   "string"
+  ],
+  "releases.1.1.0[].has_sig": [
+   "boolean"
+  ],
+  "releases.1.1.0[].md5_digest": [
+   "string"
+  ],
+  "releases.1.1.0[].packagetype": [
+   "string"
+  ],
+  "releases.1.1.0[].python_version": [
+   "string"
+  ],
+  "releases.1.1.0[].requires_python": [
+   "null"
+  ],
+  "releases.1.1.0[].size": [
+   "integer"
+  ],
+  "releases.1.1.0[].upload_time": [
+   "string"
+  ],
+  "releases.1.1.0[].upload_time_iso_8601": [
+   "string"
+  ],
+  "releases.1.1.0[].url": [
+   "string"
+  ],
+  "releases.1.1.0[].yanked": [
+   "boolean"
+  ],
+  "releases.1.1.0[].yanked_reason": [
+   "null"
+  ],
+  "releases.1.2.0": [
+   "array"
+  ],
+  "releases.1.2.0[]": [
+   "object"
+  ],
+  "releases.1.2.0[].comment_text": [
+   "string"
+  ],
+  "releases.1.2.0[].core-metadata": [
+   "boolean"
+  ],
+  "releases.1.2.0[].digests": [
+   "object"
+  ],
+  "releases.1.2.0[].digests.blake2b_256": [
+   "string"
+  ],
+  "releases.1.2.0[].digests.md5": [
+   "string"
+  ],
+  "releases.1.2.0[].digests.sha256": [
+   "string"
+  ],
+  "releases.1.2.0[].downloads": [
+   "integer"
+  ],
+  "releases.1.2.0[].filename": [
+   "string"
+  ],
+  "releases.1.2.0[].has_sig": [
+   "boolean"
+  ],
+  "releases.1.2.0[].md5_digest": [
+   "string"
+  ],
+  "releases.1.2.0[].packagetype": [
+   "string"
+  ],
+  "releases.1.2.0[].python_version": [
+   "string"
+  ],
+  "releases.1.2.0[].requires_python": [
+   "null"
+  ],
+  "releases.1.2.0[].size": [
+   "integer"
+  ],
+  "releases.1.2.0[].upload_time": [
+   "string"
+  ],
+  "releases.1.2.0[].upload_time_iso_8601": [
+   "string"
+  ],
+  "releases.1.2.0[].url": [
+   "string"
+  ],
+  "releases.1.2.0[].yanked": [
+   "boolean"
+  ],
+  "releases.1.2.0[].yanked_reason": [
+   "null"
+  ],
+  "releases.1.2.1": [
+   "array"
+  ],
+  "releases.1.2.1[]": [
+   "object"
+  ],
+  "releases.1.2.1[].comment_text": [
+   "string"
+  ],
+  "releases.1.2.1[].core-metadata": [
+   "boolean"
+  ],
+  "releases.1.2.1[].digests": [
+   "object"
+  ],
+  "releases.1.2.1[].digests.blake2b_256": [
+   "string"
+  ],
+  "releases.1.2.1[].digests.md5": [
+   "string"
+  ],
+  "releases.1.2.1[].digests.sha256": [
+   "string"
+  ],
+  "releases.1.2.1[].downloads": [
+   "integer"
+  ],
+  "releases.1.2.1[].filename": [
+   "string"
+  ],
+  "releases.1.2.1[].has_sig": [
+   "boolean"
+  ],
+  "releases.1.2.1[].md5_digest": [
+   "string"
+  ],
+  "releases.1.2.1[].packagetype": [
+   "string"
+  ],
+  "releases.1.2.1[].python_version": [
+   "string"
+  ],
+  "releases.1.2.1[].requires_python": [
+   "null"
+  ],
+  "releases.1.2.1[].size": [
+   "integer"
+  ],
+  "releases.1.2.1[].upload_time": [
+   "string"
+  ],
+  "releases.1.2.1[].upload_time_iso_8601": [
+   "string"
+  ],
+  "releases.1.2.1[].url": [
+   "string"
+  ],
+  "releases.1.2.1[].yanked": [
+   "boolean"
+  ],
+  "releases.1.2.1[].yanked_reason": [
+   "null"
+  ],
+  "releases.1.2.2": [
+   "array"
+  ],
+  "releases.1.2.2[]": [
+   "object"
+  ],
+  "releases.1.2.2[].comment_text": [
+   "string"
+  ],
+  "releases.1.2.2[].core-metadata": [
+   "boolean"
+  ],
+  "releases.1.2.2[].digests": [
+   "object"
+  ],
+  "releases.1.2.2[].digests.blake2b_256": [
+   "string"
+  ],
+  "releases.1.2.2[].digests.md5": [
+   "string"
+  ],
+  "releases.1.2.2[].digests.sha256": [
+   "string"
+  ],
+  "releases.1.2.2[].downloads": [
+   "integer"
+  ],
+  "releases.1.2.2[].filename": [
+   "string"
+  ],
+  "releases.1.2.2[].has_sig": [
+   "boolean"
+  ],
+  "releases.1.2.2[].md5_digest": [
+   "string"
+  ],
+  "releases.1.2.2[].packagetype": [
+   "string"
+  ],
+  "releases.1.2.2[].python_version": [
+   "string"
+  ],
+  "releases.1.2.2[].requires_python": [
+   "null"
+  ],
+  "releases.1.2.2[].size": [
+   "integer"
+  ],
+  "releases.1.2.2[].upload_time": [
+   "string"
+  ],
+  "releases.1.2.2[].upload_time_iso_8601": [
+   "string"
+  ],
+  "releases.1.2.2[].url": [
+   "string"
+  ],
+  "releases.1.2.2[].yanked": [
+   "boolean"
+  ],
+  "releases.1.2.2[].yanked_reason": [
+   "null"
+  ],
+  "releases.1.2.3": [
+   "array"
+  ],
+  "releases.1.2.3[]": [
+   "object"
+  ],
+  "releases.1.2.3[].comment_text": [
+   "string"
+  ],
+  "releases.1.2.3[].core-metadata": [
+   "boolean"
+  ],
+  "releases.1.2.3[].digests": [
+   "object"
+  ],
+  "releases.1.2.3[].digests.blake2b_256": [
+   "string"
+  ],
+  "releases.1.2.3[].digests.md5": [
+   "string"
+  ],
+  "releases.1.2.3[].digests.sha256": [
+   "string"
+  ],
+  "releases.1.2.3[].downloads": [
+   "integer"
+  ],
+  "releases.1.2.3[].filename": [
+   "string"
+  ],
+  "releases.1.2.3[].has_sig": [
+   "boolean"
+  ],
+  "releases.1.2.3[].md5_digest": [
+   "string"
+  ],
+  "releases.1.2.3[].packagetype": [
+   "string"
+  ],
+  "releases.1.2.3[].python_version": [
+   "string"
+  ],
+  "releases.1.2.3[].requires_python": [
+   "null"
+  ],
+  "releases.1.2.3[].size": [
+   "integer"
+  ],
+  "releases.1.2.3[].upload_time": [
+   "string"
+  ],
+  "releases.1.2.3[].upload_time_iso_8601": [
+   "string"
+  ],
+  "releases.1.2.3[].url": [
+   "string"
+  ],
+  "releases.1.2.3[].yanked": [
+   "boolean"
+  ],
+  "releases.1.2.3[].yanked_reason": [
+   "null"
+  ],
+  "releases.2.0.0": [
+   "array"
+  ],
+  "releases.2.0.0[]": [
+   "object"
+  ],
+  "releases.2.0.0[].comment_text": [
+   "string"
+  ],
+  "releases.2.0.0[].core-metadata": [
+   "boolean",
+   "object"
+  ],
+  "releases.2.0.0[].core-metadata.sha256": [
+   "string"
+  ],
+  "releases.2.0.0[].digests": [
+   "object"
+  ],
+  "releases.2.0.0[].digests.blake2b_256": [
+   "string"
+  ],
+  "releases.2.0.0[].digests.md5": [
+   "string"
+  ],
+  "releases.2.0.0[].digests.sha256": [
+   "string"
+  ],
+  "releases.2.0.0[].downloads": [
+   "integer"
+  ],
+  "releases.2.0.0[].filename": [
+   "string"
+  ],
+  "releases.2.0.0[].has_sig": [
+   "boolean"
+  ],
+  "releases.2.0.0[].md5_digest": [
+   "string"
+  ],
+  "releases.2.0.0[].packagetype": [
+   "string"
+  ],
+  "releases.2.0.0[].python_version": [
+   "string"
+  ],
+  "releases.2.0.0[].requires_python": [
+   "null"
+  ],
+  "releases.2.0.0[].size": [
+   "integer"
+  ],
+  "releases.2.0.0[].upload_time": [
+   "string"
+  ],
+  "releases.2.0.0[].upload_time_iso_8601": [
+   "string"
+  ],
+  "releases.2.0.0[].url": [
+   "string"
+  ],
+  "releases.2.0.0[].yanked": [
+   "boolean"
+  ],
+  "releases.2.0.0[].yanked_reason": [
+   "null"
+  ],
+  "releases.2.0.1": [
+   "array"
+  ],
+  "releases.2.0.1[]": [
+   "object"
+  ],
+  "releases.2.0.1[].comment_text": [
+   "string"
+  ],
+  "releases.2.0.1[].core-metadata": [
+   "boolean",
+   "object"
+  ],
+  "releases.2.0.1[].core-metadata.sha256": [
+   "string"
+  ],
+  "releases.2.0.1[].digests": [
+   "object"
+  ],
+  "releases.2.0.1[].digests.blake2b_256": [
+   "string"
+  ],
+  "releases.2.0.1[].digests.md5": [
+   "string"
+  ],
+  "releases.2.0.1[].digests.sha256": [
+   "string"
+  ],
+  "releases.2.0.1[].downloads": [
+   "integer"
+  ],
+  "releases.2.0.1[].filename": [
+   "string"
+  ],
+  "releases.2.0.1[].has_sig": [
+   "boolean"
+  ],
+  "releases.2.0.1[].md5_digest": [
+   "string"
+  ],
+  "releases.2.0.1[].packagetype": [
+   "string"
+  ],
+  "releases.2.0.1[].python_version": [
+   "string"
+  ],
+  "releases.2.0.1[].requires_python": [
+   "null"
+  ],
+  "releases.2.0.1[].size": [
+   "integer"
+  ],
+  "releases.2.0.1[].upload_time": [
+   "string"
+  ],
+  "releases.2.0.1[].upload_time_iso_8601": [
+   "string"
+  ],
+  "releases.2.0.1[].url": [
+   "string"
+  ],
+  "releases.2.0.1[].yanked": [
+   "boolean"
+  ],
+  "releases.2.0.1[].yanked_reason": [
+   "null"
+  ],
+  "releases.2.1.0": [
+   "array"
+  ],
+  "releases.2.1.0[]": [
+   "object"
+  ],
+  "releases.2.1.0[].comment_text": [
+   "string"
+  ],
+  "releases.2.1.0[].core-metadata": [
+   "boolean",
+   "object"
+  ],
+  "releases.2.1.0[].core-metadata.sha256": [
+   "string"
+  ],
+  "releases.2.1.0[].digests": [
+   "object"
+  ],
+  "releases.2.1.0[].digests.blake2b_256": [
+   "string"
+  ],
+  "releases.2.1.0[].digests.md5": [
+   "string"
+  ],
+  "releases.2.1.0[].digests.sha256": [
+   "string"
+  ],
+  "releases.2.1.0[].downloads": [
+   "integer"
+  ],
+  "releases.2.1.0[].filename": [
+   "string"
+  ],
+  "releases.2.1.0[].has_sig": [
+   "boolean"
+  ],
+  "releases.2.1.0[].md5_digest": [
+   "string"
+  ],
+  "releases.2.1.0[].packagetype": [
+   "string"
+  ],
+  "releases.2.1.0[].python_version": [
+   "string"
+  ],
+  "releases.2.1.0[].requires_python": [
+   "null"
+  ],
+  "releases.2.1.0[].size": [
+   "integer"
+  ],
+  "releases.2.1.0[].upload_time": [
+   "string"
+  ],
+  "releases.2.1.0[].upload_time_iso_8601": [
+   "string"
+  ],
+  "releases.2.1.0[].url": [
+   "string"
+  ],
+  "releases.2.1.0[].yanked": [
+   "boolean"
+  ],
+  "releases.2.1.0[].yanked_reason": [
+   "null"
+  ],
+  "releases.2.10.0": [
+   "array"
+  ],
+  "releases.2.10.0[]": [
+   "object"
+  ],
+  "releases.2.10.0[].comment_text": [
+   "string"
+  ],
+  "releases.2.10.0[].core-metadata": [
+   "boolean",
+   "object"
+  ],
+  "releases.2.10.0[].core-metadata.sha256": [
+   "string"
+  ],
+  "releases.2.10.0[].digests": [
+   "object"
+  ],
+  "releases.2.10.0[].digests.blake2b_256": [
+   "string"
+  ],
+  "releases.2.10.0[].digests.md5": [
+   "string"
+  ],
+  "releases.2.10.0[].digests.sha256": [
+   "string"
+  ],
+  "releases.2.10.0[].downloads": [
+   "integer"
+  ],
+  "releases.2.10.0[].filename": [
+   "string"
+  ],
+  "releases.2.10.0[].has_sig": [
+   "boolean"
+  ],
+  "releases.2.10.0[].md5_digest": [
+   "string"
+  ],
+  "releases.2.10.0[].packagetype": [
+   "string"
+  ],
+  "releases.2.10.0[].python_version": [
+   "string"
+  ],
+  "releases.2.10.0[].requires_python": [
+   "null"
+  ],
+  "releases.2.10.0[].size": [
+   "integer"
+  ],
+  "releases.2.10.0[].upload_time": [
+   "string"
+  ],
+  "releases.2.10.0[].upload_time_iso_8601": [
+   "string"
+  ],
+  "releases.2.10.0[].url": [
+   "string"
+  ],
+  "releases.2.10.0[].yanked": [
+   "boolean"
+  ],
+  "releases.2.10.0[].yanked_reason": [
+   "null"
+  ],
+  "releases.2.11.0": [
+   "array"
+  ],
+  "releases.2.11.0[]": [
+   "object"
+  ],
+  "releases.2.11.0[].comment_text": [
+   "string"
+  ],
+  "releases.2.11.0[].core-metadata": [
+   "boolean",
+   "object"
+  ],
+  "releases.2.11.0[].core-metadata.sha256": [
+   "string"
+  ],
+  "releases.2.11.0[].digests": [
+   "object"
+  ],
+  "releases.2.11.0[].digests.blake2b_256": [
+   "string"
+  ],
+  "releases.2.11.0[].digests.md5": [
+   "string"
+  ],
+  "releases.2.11.0[].digests.sha256": [
+   "string"
+  ],
+  "releases.2.11.0[].downloads": [
+   "integer"
+  ],
+  "releases.2.11.0[].filename": [
+   "string"
+  ],
+  "releases.2.11.0[].has_sig": [
+   "boolean"
+  ],
+  "releases.2.11.0[].md5_digest": [
+   "string"
+  ],
+  "releases.2.11.0[].packagetype": [
+   "string"
+  ],
+  "releases.2.11.0[].python_version": [
+   "string"
+  ],
+  "releases.2.11.0[].requires_python": [
+   "null"
+  ],
+  "releases.2.11.0[].size": [
+   "integer"
+  ],
+  "releases.2.11.0[].upload_time": [
+   "string"
+  ],
+  "releases.2.11.0[].upload_time_iso_8601": [
+   "string"
+  ],
+  "releases.2.11.0[].url": [
+   "string"
+  ],
+  "releases.2.11.0[].yanked": [
+   "boolean"
+  ],
+  "releases.2.11.0[].yanked_reason": [
+   "null"
+  ],
+  "releases.2.11.1": [
+   "array"
+  ],
+  "releases.2.11.1[]": [
+   "object"
+  ],
+  "releases.2.11.1[].comment_text": [
+   "string"
+  ],
+  "releases.2.11.1[].core-metadata": [
+   "boolean",
+   "object"
+  ],
+  "releases.2.11.1[].core-metadata.sha256": [
+   "string"
+  ],
+  "releases.2.11.1[].digests": [
+   "object"
+  ],
+  "releases.2.11.1[].digests.blake2b_256": [
+   "string"
+  ],
+  "releases.2.11.1[].digests.md5": [
+   "string"
+  ],
+  "releases.2.11.1[].digests.sha256": [
+   "string"
+  ],
+  "releases.2.11.1[].downloads": [
+   "integer"
+  ],
+  "releases.2.11.1[].filename": [
+   "string"
+  ],
+  "releases.2.11.1[].has_sig": [
+   "boolean"
+  ],
+  "releases.2.11.1[].md5_digest": [
+   "string"
+  ],
+  "releases.2.11.1[].packagetype": [
+   "string"
+  ],
+  "releases.2.11.1[].python_version": [
+   "string"
+  ],
+  "releases.2.11.1[].requires_python": [
+   "null"
+  ],
+  "releases.2.11.1[].size": [
+   "integer"
+  ],
+  "releases.2.11.1[].upload_time": [
+   "string"
+  ],
+  "releases.2.11.1[].upload_time_iso_8601": [
+   "string"
+  ],
+  "releases.2.11.1[].url": [
+   "string"
+  ],
+  "releases.2.11.1[].yanked": [
+   "boolean"
+  ],
+  "releases.2.11.1[].yanked_reason": [
+   "null"
+  ],
+  "releases.2.12.0": [
+   "array"
+  ],
+  "releases.2.12.0[]": [
+   "object"
+  ],
+  "releases.2.12.0[].comment_text": [
+   "string"
+  ],
+  "releases.2.12.0[].core-metadata": [
+   "boolean",
+   "object"
+  ],
+  "releases.2.12.0[].core-metadata.sha256": [
+   "string"
+  ],
+  "releases.2.12.0[].digests": [
+   "object"
+  ],
+  "releases.2.12.0[].digests.blake2b_256": [
+   "string"
+  ],
+  "releases.2.12.0[].digests.md5": [
+   "string"
+  ],
+  "releases.2.12.0[].digests.sha256": [
+   "string"
+  ],
+  "releases.2.12.0[].downloads": [
+   "integer"
+  ],
+  "releases.2.12.0[].filename": [
+   "string"
+  ],
+  "releases.2.12.0[].has_sig": [
+   "boolean"
+  ],
+  "releases.2.12.0[].md5_digest": [
+   "string"
+  ],
+  "releases.2.12.0[].packagetype": [
+   "string"
+  ],
+  "releases.2.12.0[].python_version": [
+   "string"
+  ],
+  "releases.2.12.0[].requires_python": [
+   "null"
+  ],
+  "releases.2.12.0[].size": [
+   "integer"
+  ],
+  "releases.2.12.0[].upload_time": [
+   "string"
+  ],
+  "releases.2.12.0[].upload_time_iso_8601": [
+   "string"
+  ],
+  "releases.2.12.0[].url": [
+   "string"
+  ],
+  "releases.2.12.0[].yanked": [
+   "boolean"
+  ],
+  "releases.2.12.0[].yanked_reason": [
+   "null"
+  ],
+  "releases.2.12.1": [
+   "array"
+  ],
+  "releases.2.12.1[]": [
+   "object"
+  ],
+  "releases.2.12.1[].comment_text": [
+   "string"
+  ],
+  "releases.2.12.1[].core-metadata": [
+   "boolean",
+   "object"
+  ],
+  "releases.2.12.1[].core-metadata.sha256": [
+   "string"
+  ],
+  "releases.2.12.1[].digests": [
+   "object"
+  ],
+  "releases.2.12.1[].digests.blake2b_256": [
+   "string"
+  ],
+  "releases.2.12.1[].digests.md5": [
+   "string"
+  ],
+  "releases.2.12.1[].digests.sha256": [
+   "string"
+  ],
+  "releases.2.12.1[].downloads": [
+   "integer"
+  ],
+  "releases.2.12.1[].filename": [
+   "string"
+  ],
+  "releases.2.12.1[].has_sig": [
+   "boolean"
+  ],
+  "releases.2.12.1[].md5_digest": [
+   "string"
+  ],
+  "releases.2.12.1[].packagetype": [
+   "string"
+  ],
+  "releases.2.12.1[].python_version": [
+   "string"
+  ],
+  "releases.2.12.1[].requires_python": [
+   "null"
+  ],
+  "releases.2.12.1[].size": [
+   "integer"
+  ],
+  "releases.2.12.1[].upload_time": [
+   "string"
+  ],
+  "releases.2.12.1[].upload_time_iso_8601": [
+   "string"
+  ],
+  "releases.2.12.1[].url": [
+   "string"
+  ],
+  "releases.2.12.1[].yanked": [
+   "boolean"
+  ],
+  "releases.2.12.1[].yanked_reason": [
+   "null"
+  ],
+  "releases.2.12.2": [
+   "array"
+  ],
+  "releases.2.12.2[]": [
+   "object"
+  ],
+  "releases.2.12.2[].comment_text": [
+   "string"
+  ],
+  "releases.2.12.2[].core-metadata": [
+   "boolean",
+   "object"
+  ],
+  "releases.2.12.2[].core-metadata.sha256": [
+   "string"
+  ],
+  "releases.2.12.2[].digests": [
+   "object"
+  ],
+  "releases.2.12.2[].digests.blake2b_256": [
+   "string"
+  ],
+  "releases.2.12.2[].digests.md5": [
+   "string"
+  ],
+  "releases.2.12.2[].digests.sha256": [
+   "string"
+  ],
+  "releases.2.12.2[].downloads": [
+   "integer"
+  ],
+  "releases.2.12.2[].filename": [
+   "string"
+  ],
+  "releases.2.12.2[].has_sig": [
+   "boolean"
+  ],
+  "releases.2.12.2[].md5_digest": [
+   "string"
+  ],
+  "releases.2.12.2[].packagetype": [
+   "string"
+  ],
+  "releases.2.12.2[].python_version": [
+   "string"
+  ],
+  "releases.2.12.2[].requires_python": [
+   "null"
+  ],
+  "releases.2.12.2[].size": [
+   "integer"
+  ],
+  "releases.2.12.2[].upload_time": [
+   "string"
+  ],
+  "releases.2.12.2[].upload_time_iso_8601": [
+   "string"
+  ],
+  "releases.2.12.2[].url": [
+   "string"
+  ],
+  "releases.2.12.2[].yanked": [
+   "boolean"
+  ],
+  "releases.2.12.2[].yanked_reason": [
+   "null"
+  ],
+  "releases.2.12.3": [
+   "array"
+  ],
+  "releases.2.12.3[]": [
+   "object"
+  ],
+  "releases.2.12.3[].comment_text": [
+   "string"
+  ],
+  "releases.2.12.3[].core-metadata": [
+   "boolean",
+   "object"
+  ],
+  "releases.2.12.3[].core-metadata.sha256": [
+   "string"
+  ],
+  "releases.2.12.3[].digests": [
+   "object"
+  ],
+  "releases.2.12.3[].digests.blake2b_256": [
+   "string"
+  ],
+  "releases.2.12.3[].digests.md5": [
+   "string"
+  ],
+  "releases.2.12.3[].digests.sha256": [
+   "string"
+  ],
+  "releases.2.12.3[].downloads": [
+   "integer"
+  ],
+  "releases.2.12.3[].filename": [
+   "string"
+  ],
+  "releases.2.12.3[].has_sig": [
+   "boolean"
+  ],
+  "releases.2.12.3[].md5_digest": [
+   "string"
+  ],
+  "releases.2.12.3[].packagetype": [
+   "string"
+  ],
+  "releases.2.12.3[].python_version": [
+   "string"
+  ],
+  "releases.2.12.3[].requires_python": [
+   "null"
+  ],
+  "releases.2.12.3[].size": [
+   "integer"
+  ],
+  "releases.2.12.3[].upload_time": [
+   "string"
+  ],
+  "releases.2.12.3[].upload_time_iso_8601": [
+   "string"
+  ],
+  "releases.2.12.3[].url": [
+   "string"
+  ],
+  "releases.2.12.3[].yanked": [
+   "boolean"
+  ],
+  "releases.2.12.3[].yanked_reason": [
+   "null"
+  ],
+  "releases.2.12.4": [
+   "array"
+  ],
+  "releases.2.12.4[]": [
+   "object"
+  ],
+  "releases.2.12.4[].comment_text": [
+   "string"
+  ],
+  "releases.2.12.4[].core-metadata": [
+   "boolean",
+   "object"
+  ],
+  "releases.2.12.4[].core-metadata.sha256": [
+   "string"
+  ],
+  "releases.2.12.4[].digests": [
+   "object"
+  ],
+  "releases.2.12.4[].digests.blake2b_256": [
+   "string"
+  ],
+  "releases.2.12.4[].digests.md5": [
+   "string"
+  ],
+  "releases.2.12.4[].digests.sha256": [
+   "string"
+  ],
+  "releases.2.12.4[].downloads": [
+   "integer"
+  ],
+  "releases.2.12.4[].filename": [
+   "string"
+  ],
+  "releases.2.12.4[].has_sig": [
+   "boolean"
+  ],
+  "releases.2.12.4[].md5_digest": [
+   "string"
+  ],
+  "releases.2.12.4[].packagetype": [
+   "string"
+  ],
+  "releases.2.12.4[].python_version": [
+   "string"
+  ],
+  "releases.2.12.4[].requires_python": [
+   "null"
+  ],
+  "releases.2.12.4[].size": [
+   "integer"
+  ],
+  "releases.2.12.4[].upload_time": [
+   "string"
+  ],
+  "releases.2.12.4[].upload_time_iso_8601": [
+   "string"
+  ],
+  "releases.2.12.4[].url": [
+   "string"
+  ],
+  "releases.2.12.4[].yanked": [
+   "boolean"
+  ],
+  "releases.2.12.4[].yanked_reason": [
+   "null"
+  ],
+  "releases.2.12.5": [
+   "array"
+  ],
+  "releases.2.12.5[]": [
+   "object"
+  ],
+  "releases.2.12.5[].comment_text": [
+   "string"
+  ],
+  "releases.2.12.5[].core-metadata": [
+   "boolean",
+   "object"
+  ],
+  "releases.2.12.5[].core-metadata.sha256": [
+   "string"
+  ],
+  "releases.2.12.5[].digests": [
+   "object"
+  ],
+  "releases.2.12.5[].digests.blake2b_256": [
+   "string"
+  ],
+  "releases.2.12.5[].digests.md5": [
+   "string"
+  ],
+  "releases.2.12.5[].digests.sha256": [
+   "string"
+  ],
+  "releases.2.12.5[].downloads": [
+   "integer"
+  ],
+  "releases.2.12.5[].filename": [
+   "string"
+  ],
+  "releases.2.12.5[].has_sig": [
+   "boolean"
+  ],
+  "releases.2.12.5[].md5_digest": [
+   "string"
+  ],
+  "releases.2.12.5[].packagetype": [
+   "string"
+  ],
+  "releases.2.12.5[].python_version": [
+   "string"
+  ],
+  "releases.2.12.5[].requires_python": [
+   "null"
+  ],
+  "releases.2.12.5[].size": [
+   "integer"
+  ],
+  "releases.2.12.5[].upload_time": [
+   "string"
+  ],
+  "releases.2.12.5[].upload_time_iso_8601": [
+   "string"
+  ],
+  "releases.2.12.5[].url": [
+   "string"
+  ],
+  "releases.2.12.5[].yanked": [
+   "boolean"
+  ],
+  "releases.2.12.5[].yanked_reason": [
+   "null"
+  ],
+  "releases.2.13.0": [
+   "array"
+  ],
+  "releases.2.13.0[]": [
+   "object"
+  ],
+  "releases.2.13.0[].comment_text": [
+   "string"
+  ],
+  "releases.2.13.0[].core-metadata": [
+   "boolean",
+   "object"
+  ],
+  "releases.2.13.0[].core-metadata.sha256": [
+   "string"
+  ],
+  "releases.2.13.0[].digests": [
+   "object"
+  ],
+  "releases.2.13.0[].digests.blake2b_256": [
+   "string"
+  ],
+  "releases.2.13.0[].digests.md5": [
+   "string"
+  ],
+  "releases.2.13.0[].digests.sha256": [
+   "string"
+  ],
+  "releases.2.13.0[].downloads": [
+   "integer"
+  ],
+  "releases.2.13.0[].filename": [
+   "string"
+  ],
+  "releases.2.13.0[].has_sig": [
+   "boolean"
+  ],
+  "releases.2.13.0[].md5_digest": [
+   "string"
+  ],
+  "releases.2.13.0[].packagetype": [
+   "string"
+  ],
+  "releases.2.13.0[].python_version": [
+   "string"
+  ],
+  "releases.2.13.0[].requires_python": [
+   "null"
+  ],
+  "releases.2.13.0[].size": [
+   "integer"
+  ],
+  "releases.2.13.0[].upload_time": [
+   "string"
+  ],
+  "releases.2.13.0[].upload_time_iso_8601": [
+   "string"
+  ],
+  "releases.2.13.0[].url": [
+   "string"
+  ],
+  "releases.2.13.0[].yanked": [
+   "boolean"
+  ],
+  "releases.2.13.0[].yanked_reason": [
+   "null"
+  ],
+  "releases.2.14.0": [
+   "array"
+  ],
+  "releases.2.14.0[]": [
+   "object"
+  ],
+  "releases.2.14.0[].comment_text": [
+   "string"
+  ],
+  "releases.2.14.0[].core-metadata": [
+   "boolean",
+   "object"
+  ],
+  "releases.2.14.0[].core-metadata.sha256": [
+   "string"
+  ],
+  "releases.2.14.0[].digests": [
+   "object"
+  ],
+  "releases.2.14.0[].digests.blake2b_256": [
+   "string"
+  ],
+  "releases.2.14.0[].digests.md5": [
+   "string"
+  ],
+  "releases.2.14.0[].digests.sha256": [
+   "string"
+  ],
+  "releases.2.14.0[].downloads": [
+   "integer"
+  ],
+  "releases.2.14.0[].filename": [
+   "string"
+  ],
+  "releases.2.14.0[].has_sig": [
+   "boolean"
+  ],
+  "releases.2.14.0[].md5_digest": [
+   "string"
+  ],
+  "releases.2.14.0[].packagetype": [
+   "string"
+  ],
+  "releases.2.14.0[].python_version": [
+   "string"
+  ],
+  "releases.2.14.0[].requires_python": [
+   "null"
+  ],
+  "releases.2.14.0[].size": [
+   "integer"
+  ],
+  "releases.2.14.0[].upload_time": [
+   "string"
+  ],
+  "releases.2.14.0[].upload_time_iso_8601": [
+   "string"
+  ],
+  "releases.2.14.0[].url": [
+   "string"
+  ],
+  "releases.2.14.0[].yanked": [
+   "boolean"
+  ],
+  "releases.2.14.0[].yanked_reason": [
+   "null"
+  ],
+  "releases.2.14.1": [
+   "array"
+  ],
+  "releases.2.14.1[]": [
+   "object"
+  ],
+  "releases.2.14.1[].comment_text": [
+   "string"
+  ],
+  "releases.2.14.1[].core-metadata": [
+   "boolean",
+   "object"
+  ],
+  "releases.2.14.1[].core-metadata.sha256": [
+   "string"
+  ],
+  "releases.2.14.1[].digests": [
+   "object"
+  ],
+  "releases.2.14.1[].digests.blake2b_256": [
+   "string"
+  ],
+  "releases.2.14.1[].digests.md5": [
+   "string"
+  ],
+  "releases.2.14.1[].digests.sha256": [
+   "string"
+  ],
+  "releases.2.14.1[].downloads": [
+   "integer"
+  ],
+  "releases.2.14.1[].filename": [
+   "string"
+  ],
+  "releases.2.14.1[].has_sig": [
+   "boolean"
+  ],
+  "releases.2.14.1[].md5_digest": [
+   "string"
+  ],
+  "releases.2.14.1[].packagetype": [
+   "string"
+  ],
+  "releases.2.14.1[].python_version": [
+   "string"
+  ],
+  "releases.2.14.1[].requires_python": [
+   "null"
+  ],
+  "releases.2.14.1[].size": [
+   "integer"
+  ],
+  "releases.2.14.1[].upload_time": [
+   "string"
+  ],
+  "releases.2.14.1[].upload_time_iso_8601": [
+   "string"
+  ],
+  "releases.2.14.1[].url": [
+   "string"
+  ],
+  "releases.2.14.1[].yanked": [
+   "boolean"
+  ],
+  "releases.2.14.1[].yanked_reason": [
+   "null"
+  ],
+  "releases.2.14.2": [
+   "array"
+  ],
+  "releases.2.14.2[]": [
+   "object"
+  ],
+  "releases.2.14.2[].comment_text": [
+   "string"
+  ],
+  "releases.2.14.2[].core-metadata": [
+   "boolean",
+   "object"
+  ],
+  "releases.2.14.2[].core-metadata.sha256": [
+   "string"
+  ],
+  "releases.2.14.2[].digests": [
+   "object"
+  ],
+  "releases.2.14.2[].digests.blake2b_256": [
+   "string"
+  ],
+  "releases.2.14.2[].digests.md5": [
+   "string"
+  ],
+  "releases.2.14.2[].digests.sha256": [
+   "string"
+  ],
+  "releases.2.14.2[].downloads": [
+   "integer"
+  ],
+  "releases.2.14.2[].filename": [
+   "string"
+  ],
+  "releases.2.14.2[].has_sig": [
+   "boolean"
+  ],
+  "releases.2.14.2[].md5_digest": [
+   "string"
+  ],
+  "releases.2.14.2[].packagetype": [
+   "string"
+  ],
+  "releases.2.14.2[].python_version": [
+   "string"
+  ],
+  "releases.2.14.2[].requires_python": [
+   "null"
+  ],
+  "releases.2.14.2[].size": [
+   "integer"
+  ],
+  "releases.2.14.2[].upload_time": [
+   "string"
+  ],
+  "releases.2.14.2[].upload_time_iso_8601": [
+   "string"
+  ],
+  "releases.2.14.2[].url": [
+   "string"
+  ],
+  "releases.2.14.2[].yanked": [
+   "boolean"
+  ],
+  "releases.2.14.2[].yanked_reason": [
+   "null"
+  ],
+  "releases.2.15.0": [
+   "array"
+  ],
+  "releases.2.15.1": [
+   "array"
+  ],
+  "releases.2.15.1[]": [
+   "object"
+  ],
+  "releases.2.15.1[].comment_text": [
+   "string"
+  ],
+  "releases.2.15.1[].core-metadata": [
+   "boolean",
+   "object"
+  ],
+  "releases.2.15.1[].core-metadata.sha256": [
+   "string"
+  ],
+  "releases.2.15.1[].digests": [
+   "object"
+  ],
+  "releases.2.15.1[].digests.blake2b_256": [
+   "string"
+  ],
+  "releases.2.15.1[].digests.md5": [
+   "string"
+  ],
+  "releases.2.15.1[].digests.sha256": [
+   "string"
+  ],
+  "releases.2.15.1[].downloads": [
+   "integer"
+  ],
+  "releases.2.15.1[].filename": [
+   "string"
+  ],
+  "releases.2.15.1[].has_sig": [
+   "boolean"
+  ],
+  "releases.2.15.1[].md5_digest": [
+   "string"
+  ],
+  "releases.2.15.1[].packagetype": [
+   "string"
+  ],
+  "releases.2.15.1[].python_version": [
+   "string"
+  ],
+  "releases.2.15.1[].requires_python": [
+   "null"
+  ],
+  "releases.2.15.1[].size": [
+   "integer"
+  ],
+  "releases.2.15.1[].upload_time": [
+   "string"
+  ],
+  "releases.2.15.1[].upload_time_iso_8601": [
+   "string"
+  ],
+  "releases.2.15.1[].url": [
+   "string"
+  ],
+  "releases.2.15.1[].yanked": [
+   "boolean"
+  ],
+  "releases.2.15.1[].yanked_reason": [
+   "null"
+  ],
+  "releases.2.16.0": [
+   "array"
+  ],
+  "releases.2.16.0[]": [
+   "object"
+  ],
+  "releases.2.16.0[].comment_text": [
+   "string"
+  ],
+  "releases.2.16.0[].core-metadata": [
+   "boolean",
+   "object"
+  ],
+  "releases.2.16.0[].core-metadata.sha256": [
+   "string"
+  ],
+  "releases.2.16.0[].digests": [
+   "object"
+  ],
+  "releases.2.16.0[].digests.blake2b_256": [
+   "string"
+  ],
+  "releases.2.16.0[].digests.md5": [
+   "string"
+  ],
+  "releases.2.16.0[].digests.sha256": [
+   "string"
+  ],
+  "releases.2.16.0[].downloads": [
+   "integer"
+  ],
+  "releases.2.16.0[].filename": [
+   "string"
+  ],
+  "releases.2.16.0[].has_sig": [
+   "boolean"
+  ],
+  "releases.2.16.0[].md5_digest": [
+   "string"
+  ],
+  "releases.2.16.0[].packagetype": [
+   "string"
+  ],
+  "releases.2.16.0[].python_version": [
+   "string"
+  ],
+  "releases.2.16.0[].requires_python": [
+   "null"
+  ],
+  "releases.2.16.0[].size": [
+   "integer"
+  ],
+  "releases.2.16.0[].upload_time": [
+   "string"
+  ],
+  "releases.2.16.0[].upload_time_iso_8601": [
+   "string"
+  ],
+  "releases.2.16.0[].url": [
+   "string"
+  ],
+  "releases.2.16.0[].yanked": [
+   "boolean"
+  ],
+  "releases.2.16.0[].yanked_reason": [
+   "null"
+  ],
+  "releases.2.16.1": [
+   "array"
+  ],
+  "releases.2.16.1[]": [
+   "object"
+  ],
+  "releases.2.16.1[].comment_text": [
+   "string"
+  ],
+  "releases.2.16.1[].core-metadata": [
+   "boolean",
+   "object"
+  ],
+  "releases.2.16.1[].core-metadata.sha256": [
+   "string"
+  ],
+  "releases.2.16.1[].digests": [
+   "object"
+  ],
+  "releases.2.16.1[].digests.blake2b_256": [
+   "string"
+  ],
+  "releases.2.16.1[].digests.md5": [
+   "string"
+  ],
+  "releases.2.16.1[].digests.sha256": [
+   "string"
+  ],
+  "releases.2.16.1[].downloads": [
+   "integer"
+  ],
+  "releases.2.16.1[].filename": [
+   "string"
+  ],
+  "releases.2.16.1[].has_sig": [
+   "boolean"
+  ],
+  "releases.2.16.1[].md5_digest": [
+   "string"
+  ],
+  "releases.2.16.1[].packagetype": [
+   "string"
+  ],
+  "releases.2.16.1[].python_version": [
+   "string"
+  ],
+  "releases.2.16.1[].requires_python": [
+   "null"
+  ],
+  "releases.2.16.1[].size": [
+   "integer"
+  ],
+  "releases.2.16.1[].upload_time": [
+   "string"
+  ],
+  "releases.2.16.1[].upload_time_iso_8601": [
+   "string"
+  ],
+  "releases.2.16.1[].url": [
+   "string"
+  ],
+  "releases.2.16.1[].yanked": [
+   "boolean"
+  ],
+  "releases.2.16.1[].yanked_reason": [
+   "null"
+  ],
+  "releases.2.16.2": [
+   "array"
+  ],
+  "releases.2.16.2[]": [
+   "object"
+  ],
+  "releases.2.16.2[].comment_text": [
+   "string"
+  ],
+  "releases.2.16.2[].core-metadata": [
+   "boolean",
+   "object"
+  ],
+  "releases.2.16.2[].core-metadata.sha256": [
+   "string"
+  ],
+  "releases.2.16.2[].digests": [
+   "object"
+  ],
+  "releases.2.16.2[].digests.blake2b_256": [
+   "string"
+  ],
+  "releases.2.16.2[].digests.md5": [
+   "string"
+  ],
+  "releases.2.16.2[].digests.sha256": [
+   "string"
+  ],
+  "releases.2.16.2[].downloads": [
+   "integer"
+  ],
+  "releases.2.16.2[].filename": [
+   "string"
+  ],
+  "releases.2.16.2[].has_sig": [
+   "boolean"
+  ],
+  "releases.2.16.2[].md5_digest": [
+   "string"
+  ],
+  "releases.2.16.2[].packagetype": [
+   "string"
+  ],
+  "releases.2.16.2[].python_version": [
+   "string"
+  ],
+  "releases.2.16.2[].requires_python": [
+   "null"
+  ],
+  "releases.2.16.2[].size": [
+   "integer"
+  ],
+  "releases.2.16.2[].upload_time": [
+   "string"
+  ],
+  "releases.2.16.2[].upload_time_iso_8601": [
+   "string"
+  ],
+  "releases.2.16.2[].url": [
+   "string"
+  ],
+  "releases.2.16.2[].yanked": [
+   "boolean"
+  ],
+  "releases.2.16.2[].yanked_reason": [
+   "null"
+  ],
+  "releases.2.16.3": [
+   "array"
+  ],
+  "releases.2.16.3[]": [
+   "object"
+  ],
+  "releases.2.16.3[].comment_text": [
+   "string"
+  ],
+  "releases.2.16.3[].core-metadata": [
+   "boolean",
+   "object"
+  ],
+  "releases.2.16.3[].core-metadata.sha256": [
+   "string"
+  ],
+  "releases.2.16.3[].digests": [
+   "object"
+  ],
+  "releases.2.16.3[].digests.blake2b_256": [
+   "string"
+  ],
+  "releases.2.16.3[].digests.md5": [
+   "string"
+  ],
+  "releases.2.16.3[].digests.sha256": [
+   "string"
+  ],
+  "releases.2.16.3[].downloads": [
+   "integer"
+  ],
+  "releases.2.16.3[].filename": [
+   "string"
+  ],
+  "releases.2.16.3[].has_sig": [
+   "boolean"
+  ],
+  "releases.2.16.3[].md5_digest": [
+   "string"
+  ],
+  "releases.2.16.3[].packagetype": [
+   "string"
+  ],
+  "releases.2.16.3[].python_version": [
+   "string"
+  ],
+  "releases.2.16.3[].requires_python": [
+   "null"
+  ],
+  "releases.2.16.3[].size": [
+   "integer"
+  ],
+  "releases.2.16.3[].upload_time": [
+   "string"
+  ],
+  "releases.2.16.3[].upload_time_iso_8601": [
+   "string"
+  ],
+  "releases.2.16.3[].url": [
+   "string"
+  ],
+  "releases.2.16.3[].yanked": [
+   "boolean"
+  ],
+  "releases.2.16.3[].yanked_reason": [
+   "null"
+  ],
+  "releases.2.16.4": [
+   "array"
+  ],
+  "releases.2.16.4[]": [
+   "object"
+  ],
+  "releases.2.16.4[].comment_text": [
+   "string"
+  ],
+  "releases.2.16.4[].core-metadata": [
+   "boolean",
+   "object"
+  ],
+  "releases.2.16.4[].core-metadata.sha256": [
+   "string"
+  ],
+  "releases.2.16.4[].digests": [
+   "object"
+  ],
+  "releases.2.16.4[].digests.blake2b_256": [
+   "string"
+  ],
+  "releases.2.16.4[].digests.md5": [
+   "string"
+  ],
+  "releases.2.16.4[].digests.sha256": [
+   "string"
+  ],
+  "releases.2.16.4[].downloads": [
+   "integer"
+  ],
+  "releases.2.16.4[].filename": [
+   "string"
+  ],
+  "releases.2.16.4[].has_sig": [
+   "boolean"
+  ],
+  "releases.2.16.4[].md5_digest": [
+   "string"
+  ],
+  "releases.2.16.4[].packagetype": [
+   "string"
+  ],
+  "releases.2.16.4[].python_version": [
+   "string"
+  ],
+  "releases.2.16.4[].requires_python": [
+   "null"
+  ],
+  "releases.2.16.4[].size": [
+   "integer"
+  ],
+  "releases.2.16.4[].upload_time": [
+   "string"
+  ],
+  "releases.2.16.4[].upload_time_iso_8601": [
+   "string"
+  ],
+  "releases.2.16.4[].url": [
+   "string"
+  ],
+  "releases.2.16.4[].yanked": [
+   "boolean"
+  ],
+  "releases.2.16.4[].yanked_reason": [
+   "null"
+  ],
+  "releases.2.16.5": [
+   "array"
+  ],
+  "releases.2.16.5[]": [
+   "object"
+  ],
+  "releases.2.16.5[].comment_text": [
+   "string"
+  ],
+  "releases.2.16.5[].core-metadata": [
+   "boolean",
+   "object"
+  ],
+  "releases.2.16.5[].core-metadata.sha256": [
+   "string"
+  ],
+  "releases.2.16.5[].digests": [
+   "object"
+  ],
+  "releases.2.16.5[].digests.blake2b_256": [
+   "string"
+  ],
+  "releases.2.16.5[].digests.md5": [
+   "string"
+  ],
+  "releases.2.16.5[].digests.sha256": [
+   "string"
+  ],
+  "releases.2.16.5[].downloads": [
+   "integer"
+  ],
+  "releases.2.16.5[].filename": [
+   "string"
+  ],
+  "releases.2.16.5[].has_sig": [
+   "boolean"
+  ],
+  "releases.2.16.5[].md5_digest": [
+   "string"
+  ],
+  "releases.2.16.5[].packagetype": [
+   "string"
+  ],
+  "releases.2.16.5[].python_version": [
+   "string"
+  ],
+  "releases.2.16.5[].requires_python": [
+   "null"
+  ],
+  "releases.2.16.5[].size": [
+   "integer"
+  ],
+  "releases.2.16.5[].upload_time": [
+   "string"
+  ],
+  "releases.2.16.5[].upload_time_iso_8601": [
+   "string"
+  ],
+  "releases.2.16.5[].url": [
+   "string"
+  ],
+  "releases.2.16.5[].yanked": [
+   "boolean"
+  ],
+  "releases.2.16.5[].yanked_reason": [
+   "null"
+  ],
+  "releases.2.17.0": [
+   "array"
+  ],
+  "releases.2.17.0[]": [
+   "object"
+  ],
+  "releases.2.17.0[].comment_text": [
+   "string"
+  ],
+  "releases.2.17.0[].core-metadata": [
+   "boolean",
+   "object"
+  ],
+  "releases.2.17.0[].core-metadata.sha256": [
+   "string"
+  ],
+  "releases.2.17.0[].digests": [
+   "object"
+  ],
+  "releases.2.17.0[].digests.blake2b_256": [
+   "string"
+  ],
+  "releases.2.17.0[].digests.md5": [
+   "string"
+  ],
+  "releases.2.17.0[].digests.sha256": [
+   "string"
+  ],
+  "releases.2.17.0[].downloads": [
+   "integer"
+  ],
+  "releases.2.17.0[].filename": [
+   "string"
+  ],
+  "releases.2.17.0[].has_sig": [
+   "boolean"
+  ],
+  "releases.2.17.0[].md5_digest": [
+   "string"
+  ],
+  "releases.2.17.0[].packagetype": [
+   "string"
+  ],
+  "releases.2.17.0[].python_version": [
+   "string"
+  ],
+  "releases.2.17.0[].requires_python": [
+   "null"
+  ],
+  "releases.2.17.0[].size": [
+   "integer"
+  ],
+  "releases.2.17.0[].upload_time": [
+   "string"
+  ],
+  "releases.2.17.0[].upload_time_iso_8601": [
+   "string"
+  ],
+  "releases.2.17.0[].url": [
+   "string"
+  ],
+  "releases.2.17.0[].yanked": [
+   "boolean"
+  ],
+  "releases.2.17.0[].yanked_reason": [
+   "null"
+  ],
+  "releases.2.17.1": [
+   "array"
+  ],
+  "releases.2.17.1[]": [
+   "object"
+  ],
+  "releases.2.17.1[].comment_text": [
+   "string"
+  ],
+  "releases.2.17.1[].core-metadata": [
+   "boolean",
+   "object"
+  ],
+  "releases.2.17.1[].core-metadata.sha256": [
+   "string"
+  ],
+  "releases.2.17.1[].digests": [
+   "object"
+  ],
+  "releases.2.17.1[].digests.blake2b_256": [
+   "string"
+  ],
+  "releases.2.17.1[].digests.md5": [
+   "string"
+  ],
+  "releases.2.17.1[].digests.sha256": [
+   "string"
+  ],
+  "releases.2.17.1[].downloads": [
+   "integer"
+  ],
+  "releases.2.17.1[].filename": [
+   "string"
+  ],
+  "releases.2.17.1[].has_sig": [
+   "boolean"
+  ],
+  "releases.2.17.1[].md5_digest": [
+   "string"
+  ],
+  "releases.2.17.1[].packagetype": [
+   "string"
+  ],
+  "releases.2.17.1[].python_version": [
+   "string"
+  ],
+  "releases.2.17.1[].requires_python": [
+   "null"
+  ],
+  "releases.2.17.1[].size": [
+   "integer"
+  ],
+  "releases.2.17.1[].upload_time": [
+   "string"
+  ],
+  "releases.2.17.1[].upload_time_iso_8601": [
+   "string"
+  ],
+  "releases.2.17.1[].url": [
+   "string"
+  ],
+  "releases.2.17.1[].yanked": [
+   "boolean"
+  ],
+  "releases.2.17.1[].yanked_reason": [
+   "null"
+  ],
+  "releases.2.17.2": [
+   "array"
+  ],
+  "releases.2.17.2[]": [
+   "object"
+  ],
+  "releases.2.17.2[].comment_text": [
+   "string"
+  ],
+  "releases.2.17.2[].core-metadata": [
+   "boolean",
+   "object"
+  ],
+  "releases.2.17.2[].core-metadata.sha256": [
+   "string"
+  ],
+  "releases.2.17.2[].digests": [
+   "object"
+  ],
+  "releases.2.17.2[].digests.blake2b_256": [
+   "string"
+  ],
+  "releases.2.17.2[].digests.md5": [
+   "string"
+  ],
+  "releases.2.17.2[].digests.sha256": [
+   "string"
+  ],
+  "releases.2.17.2[].downloads": [
+   "integer"
+  ],
+  "releases.2.17.2[].filename": [
+   "string"
+  ],
+  "releases.2.17.2[].has_sig": [
+   "boolean"
+  ],
+  "releases.2.17.2[].md5_digest": [
+   "string"
+  ],
+  "releases.2.17.2[].packagetype": [
+   "string"
+  ],
+  "releases.2.17.2[].python_version": [
+   "string"
+  ],
+  "releases.2.17.2[].requires_python": [
+   "null"
+  ],
+  "releases.2.17.2[].size": [
+   "integer"
+  ],
+  "releases.2.17.2[].upload_time": [
+   "string"
+  ],
+  "releases.2.17.2[].upload_time_iso_8601": [
+   "string"
+  ],
+  "releases.2.17.2[].url": [
+   "string"
+  ],
+  "releases.2.17.2[].yanked": [
+   "boolean"
+  ],
+  "releases.2.17.2[].yanked_reason": [
+   "null"
+  ],
+  "releases.2.17.3": [
+   "array"
+  ],
+  "releases.2.17.3[]": [
+   "object"
+  ],
+  "releases.2.17.3[].comment_text": [
+   "string"
+  ],
+  "releases.2.17.3[].core-metadata": [
+   "boolean",
+   "object"
+  ],
+  "releases.2.17.3[].core-metadata.sha256": [
+   "string"
+  ],
+  "releases.2.17.3[].digests": [
+   "object"
+  ],
+  "releases.2.17.3[].digests.blake2b_256": [
+   "string"
+  ],
+  "releases.2.17.3[].digests.md5": [
+   "string"
+  ],
+  "releases.2.17.3[].digests.sha256": [
+   "string"
+  ],
+  "releases.2.17.3[].downloads": [
+   "integer"
+  ],
+  "releases.2.17.3[].filename": [
+   "string"
+  ],
+  "releases.2.17.3[].has_sig": [
+   "boolean"
+  ],
+  "releases.2.17.3[].md5_digest": [
+   "string"
+  ],
+  "releases.2.17.3[].packagetype": [
+   "string"
+  ],
+  "releases.2.17.3[].python_version": [
+   "string"
+  ],
+  "releases.2.17.3[].requires_python": [
+   "null"
+  ],
+  "releases.2.17.3[].size": [
+   "integer"
+  ],
+  "releases.2.17.3[].upload_time": [
+   "string"
+  ],
+  "releases.2.17.3[].upload_time_iso_8601": [
+   "string"
+  ],
+  "releases.2.17.3[].url": [
+   "string"
+  ],
+  "releases.2.17.3[].yanked": [
+   "boolean"
+  ],
+  "releases.2.17.3[].yanked_reason": [
+   "null"
+  ],
+  "releases.2.18.0": [
+   "array"
+  ],
+  "releases.2.18.0[]": [
+   "object"
+  ],
+  "releases.2.18.0[].comment_text": [
+   "string"
+  ],
+  "releases.2.18.0[].core-metadata": [
+   "boolean",
+   "object"
+  ],
+  "releases.2.18.0[].core-metadata.sha256": [
+   "string"
+  ],
+  "releases.2.18.0[].digests": [
+   "object"
+  ],
+  "releases.2.18.0[].digests.blake2b_256": [
+   "string"
+  ],
+  "releases.2.18.0[].digests.md5": [
+   "string"
+  ],
+  "releases.2.18.0[].digests.sha256": [
+   "string"
+  ],
+  "releases.2.18.0[].downloads": [
+   "integer"
+  ],
+  "releases.2.18.0[].filename": [
+   "string"
+  ],
+  "releases.2.18.0[].has_sig": [
+   "boolean"
+  ],
+  "releases.2.18.0[].md5_digest": [
+   "string"
+  ],
+  "releases.2.18.0[].packagetype": [
+   "string"
+  ],
+  "releases.2.18.0[].python_version": [
+   "string"
+  ],
+  "releases.2.18.0[].requires_python": [
+   "null"
+  ],
+  "releases.2.18.0[].size": [
+   "integer"
+  ],
+  "releases.2.18.0[].upload_time": [
+   "string"
+  ],
+  "releases.2.18.0[].upload_time_iso_8601": [
+   "string"
+  ],
+  "releases.2.18.0[].url": [
+   "string"
+  ],
+  "releases.2.18.0[].yanked": [
+   "boolean"
+  ],
+  "releases.2.18.0[].yanked_reason": [
+   "null"
+  ],
+  "releases.2.18.1": [
+   "array"
+  ],
+  "releases.2.18.1[]": [
+   "object"
+  ],
+  "releases.2.18.1[].comment_text": [
+   "string"
+  ],
+  "releases.2.18.1[].core-metadata": [
+   "boolean",
+   "object"
+  ],
+  "releases.2.18.1[].core-metadata.sha256": [
+   "string"
+  ],
+  "releases.2.18.1[].digests": [
+   "object"
+  ],
+  "releases.2.18.1[].digests.blake2b_256": [
+   "string"
+  ],
+  "releases.2.18.1[].digests.md5": [
+   "string"
+  ],
+  "releases.2.18.1[].digests.sha256": [
+   "string"
+  ],
+  "releases.2.18.1[].downloads": [
+   "integer"
+  ],
+  "releases.2.18.1[].filename": [
+   "string"
+  ],
+  "releases.2.18.1[].has_sig": [
+   "boolean"
+  ],
+  "releases.2.18.1[].md5_digest": [
+   "string"
+  ],
+  "releases.2.18.1[].packagetype": [
+   "string"
+  ],
+  "releases.2.18.1[].python_version": [
+   "string"
+  ],
+  "releases.2.18.1[].requires_python": [
+   "null"
+  ],
+  "releases.2.18.1[].size": [
+   "integer"
+  ],
+  "releases.2.18.1[].upload_time": [
+   "string"
+  ],
+  "releases.2.18.1[].upload_time_iso_8601": [
+   "string"
+  ],
+  "releases.2.18.1[].url": [
+   "string"
+  ],
+  "releases.2.18.1[].yanked": [
+   "boolean"
+  ],
+  "releases.2.18.1[].yanked_reason": [
+   "null"
+  ],
+  "releases.2.18.2": [
+   "array"
+  ],
+  "releases.2.18.2[]": [
+   "object"
+  ],
+  "releases.2.18.2[].comment_text": [
+   "string"
+  ],
+  "releases.2.18.2[].core-metadata": [
+   "boolean",
+   "object"
+  ],
+  "releases.2.18.2[].core-metadata.sha256": [
+   "string"
+  ],
+  "releases.2.18.2[].digests": [
+   "object"
+  ],
+  "releases.2.18.2[].digests.blake2b_256": [
+   "string"
+  ],
+  "releases.2.18.2[].digests.md5": [
+   "string"
+  ],
+  "releases.2.18.2[].digests.sha256": [
+   "string"
+  ],
+  "releases.2.18.2[].downloads": [
+   "integer"
+  ],
+  "releases.2.18.2[].filename": [
+   "string"
+  ],
+  "releases.2.18.2[].has_sig": [
+   "boolean"
+  ],
+  "releases.2.18.2[].md5_digest": [
+   "string"
+  ],
+  "releases.2.18.2[].packagetype": [
+   "string"
+  ],
+  "releases.2.18.2[].python_version": [
+   "string"
+  ],
+  "releases.2.18.2[].requires_python": [
+   "null"
+  ],
+  "releases.2.18.2[].size": [
+   "integer"
+  ],
+  "releases.2.18.2[].upload_time": [
+   "string"
+  ],
+  "releases.2.18.2[].upload_time_iso_8601": [
+   "string"
+  ],
+  "releases.2.18.2[].url": [
+   "string"
+  ],
+  "releases.2.18.2[].yanked": [
+   "boolean"
+  ],
+  "releases.2.18.2[].yanked_reason": [
+   "null"
+  ],
+  "releases.2.18.3": [
+   "array"
+  ],
+  "releases.2.18.3[]": [
+   "object"
+  ],
+  "releases.2.18.3[].comment_text": [
+   "string"
+  ],
+  "releases.2.18.3[].core-metadata": [
+   "boolean",
+   "object"
+  ],
+  "releases.2.18.3[].core-metadata.sha256": [
+   "string"
+  ],
+  "releases.2.18.3[].digests": [
+   "object"
+  ],
+  "releases.2.18.3[].digests.blake2b_256": [
+   "string"
+  ],
+  "releases.2.18.3[].digests.md5": [
+   "string"
+  ],
+  "releases.2.18.3[].digests.sha256": [
+   "string"
+  ],
+  "releases.2.18.3[].downloads": [
+   "integer"
+  ],
+  "releases.2.18.3[].filename": [
+   "string"
+  ],
+  "releases.2.18.3[].has_sig": [
+   "boolean"
+  ],
+  "releases.2.18.3[].md5_digest": [
+   "string"
+  ],
+  "releases.2.18.3[].packagetype": [
+   "string"
+  ],
+  "releases.2.18.3[].python_version": [
+   "string"
+  ],
+  "releases.2.18.3[].requires_python": [
+   "null"
+  ],
+  "releases.2.18.3[].size": [
+   "integer"
+  ],
+  "releases.2.18.3[].upload_time": [
+   "string"
+  ],
+  "releases.2.18.3[].upload_time_iso_8601": [
+   "string"
+  ],
+  "releases.2.18.3[].url": [
+   "string"
+  ],
+  "releases.2.18.3[].yanked": [
+   "boolean"
+  ],
+  "releases.2.18.3[].yanked_reason": [
+   "null"
+  ],
+  "releases.2.18.4": [
+   "array"
+  ],
+  "releases.2.18.4[]": [
+   "object"
+  ],
+  "releases.2.18.4[].comment_text": [
+   "string"
+  ],
+  "releases.2.18.4[].core-metadata": [
+   "boolean",
+   "object"
+  ],
+  "releases.2.18.4[].core-metadata.sha256": [
+   "string"
+  ],
+  "releases.2.18.4[].digests": [
+   "object"
+  ],
+  "releases.2.18.4[].digests.blake2b_256": [
+   "string"
+  ],
+  "releases.2.18.4[].digests.md5": [
+   "string"
+  ],
+  "releases.2.18.4[].digests.sha256": [
+   "string"
+  ],
+  "releases.2.18.4[].downloads": [
+   "integer"
+  ],
+  "releases.2.18.4[].filename": [
+   "string"
+  ],
+  "releases.2.18.4[].has_sig": [
+   "boolean"
+  ],
+  "releases.2.18.4[].md5_digest": [
+   "string"
+  ],
+  "releases.2.18.4[].packagetype": [
+   "string"
+  ],
+  "releases.2.18.4[].python_version": [
+   "string"
+  ],
+  "releases.2.18.4[].requires_python": [
+   "null"
+  ],
+  "releases.2.18.4[].size": [
+   "integer"
+  ],
+  "releases.2.18.4[].upload_time": [
+   "string"
+  ],
+  "releases.2.18.4[].upload_time_iso_8601": [
+   "string"
+  ],
+  "releases.2.18.4[].url": [
+   "string"
+  ],
+  "releases.2.18.4[].yanked": [
+   "boolean"
+  ],
+  "releases.2.18.4[].yanked_reason": [
+   "null"
+  ],
+  "releases.2.19.0": [
+   "array"
+  ],
+  "releases.2.19.0[]": [
+   "object"
+  ],
+  "releases.2.19.0[].comment_text": [
+   "string"
+  ],
+  "releases.2.19.0[].core-metadata": [
+   "boolean",
+   "object"
+  ],
+  "releases.2.19.0[].core-metadata.sha256": [
+   "string"
+  ],
+  "releases.2.19.0[].digests": [
+   "object"
+  ],
+  "releases.2.19.0[].digests.blake2b_256": [
+   "string"
+  ],
+  "releases.2.19.0[].digests.md5": [
+   "string"
+  ],
+  "releases.2.19.0[].digests.sha256": [
+   "string"
+  ],
+  "releases.2.19.0[].downloads": [
+   "integer"
+  ],
+  "releases.2.19.0[].filename": [
+   "string"
+  ],
+  "releases.2.19.0[].has_sig": [
+   "boolean"
+  ],
+  "releases.2.19.0[].md5_digest": [
+   "string"
+  ],
+  "releases.2.19.0[].packagetype": [
+   "string"
+  ],
+  "releases.2.19.0[].python_version": [
+   "string"
+  ],
+  "releases.2.19.0[].requires_python": [
+   "string"
+  ],
+  "releases.2.19.0[].size": [
+   "integer"
+  ],
+  "releases.2.19.0[].upload_time": [
+   "string"
+  ],
+  "releases.2.19.0[].upload_time_iso_8601": [
+   "string"
+  ],
+  "releases.2.19.0[].url": [
+   "string"
+  ],
+  "releases.2.19.0[].yanked": [
+   "boolean"
+  ],
+  "releases.2.19.0[].yanked_reason": [
+   "null"
+  ],
+  "releases.2.19.1": [
+   "array"
+  ],
+  "releases.2.19.1[]": [
+   "object"
+  ],
+  "releases.2.19.1[].comment_text": [
+   "string"
+  ],
+  "releases.2.19.1[].core-metadata": [
+   "boolean",
+   "object"
+  ],
+  "releases.2.19.1[].core-metadata.sha256": [
+   "string"
+  ],
+  "releases.2.19.1[].digests": [
+   "object"
+  ],
+  "releases.2.19.1[].digests.blake2b_256": [
+   "string"
+  ],
+  "releases.2.19.1[].digests.md5": [
+   "string"
+  ],
+  "releases.2.19.1[].digests.sha256": [
+   "string"
+  ],
+  "releases.2.19.1[].downloads": [
+   "integer"
+  ],
+  "releases.2.19.1[].filename": [
+   "string"
+  ],
+  "releases.2.19.1[].has_sig": [
+   "boolean"
+  ],
+  "releases.2.19.1[].md5_digest": [
+   "string"
+  ],
+  "releases.2.19.1[].packagetype": [
+   "string"
+  ],
+  "releases.2.19.1[].python_version": [
+   "string"
+  ],
+  "releases.2.19.1[].requires_python": [
+   "string"
+  ],
+  "releases.2.19.1[].size": [
+   "integer"
+  ],
+  "releases.2.19.1[].upload_time": [
+   "string"
+  ],
+  "releases.2.19.1[].upload_time_iso_8601": [
+   "string"
+  ],
+  "releases.2.19.1[].url": [
+   "string"
+  ],
+  "releases.2.19.1[].yanked": [
+   "boolean"
+  ],
+  "releases.2.19.1[].yanked_reason": [
+   "null"
+  ],
+  "releases.2.2.0": [
+   "array"
+  ],
+  "releases.2.2.0[]": [
+   "object"
+  ],
+  "releases.2.2.0[].comment_text": [
+   "string"
+  ],
+  "releases.2.2.0[].core-metadata": [
+   "boolean",
+   "object"
+  ],
+  "releases.2.2.0[].core-metadata.sha256": [
+   "string"
+  ],
+  "releases.2.2.0[].digests": [
+   "object"
+  ],
+  "releases.2.2.0[].digests.blake2b_256": [
+   "string"
+  ],
+  "releases.2.2.0[].digests.md5": [
+   "string"
+  ],
+  "releases.2.2.0[].digests.sha256": [
+   "string"
+  ],
+  "releases.2.2.0[].downloads": [
+   "integer"
+  ],
+  "releases.2.2.0[].filename": [
+   "string"
+  ],
+  "releases.2.2.0[].has_sig": [
+   "boolean"
+  ],
+  "releases.2.2.0[].md5_digest": [
+   "string"
+  ],
+  "releases.2.2.0[].packagetype": [
+   "string"
+  ],
+  "releases.2.2.0[].python_version": [
+   "string"
+  ],
+  "releases.2.2.0[].requires_python": [
+   "null"
+  ],
+  "releases.2.2.0[].size": [
+   "integer"
+  ],
+  "releases.2.2.0[].upload_time": [
+   "string"
+  ],
+  "releases.2.2.0[].upload_time_iso_8601": [
+   "string"
+  ],
+  "releases.2.2.0[].url": [
+   "string"
+  ],
+  "releases.2.2.0[].yanked": [
+   "boolean"
+  ],
+  "releases.2.2.0[].yanked_reason": [
+   "null"
+  ],
+  "releases.2.2.1": [
+   "array"
+  ],
+  "releases.2.2.1[]": [
+   "object"
+  ],
+  "releases.2.2.1[].comment_text": [
+   "string"
+  ],
+  "releases.2.2.1[].core-metadata": [
+   "boolean",
+   "object"
+  ],
+  "releases.2.2.1[].core-metadata.sha256": [
+   "string"
+  ],
+  "releases.2.2.1[].digests": [
+   "object"
+  ],
+  "releases.2.2.1[].digests.blake2b_256": [
+   "string"
+  ],
+  "releases.2.2.1[].digests.md5": [
+   "string"
+  ],
+  "releases.2.2.1[].digests.sha256": [
+   "string"
+  ],
+  "releases.2.2.1[].downloads": [
+   "integer"
+  ],
+  "releases.2.2.1[].filename": [
+   "string"
+  ],
+  "releases.2.2.1[].has_sig": [
+   "boolean"
+  ],
+  "releases.2.2.1[].md5_digest": [
+   "string"
+  ],
+  "releases.2.2.1[].packagetype": [
+   "string"
+  ],
+  "releases.2.2.1[].python_version": [
+   "string"
+  ],
+  "releases.2.2.1[].requires_python": [
+   "null"
+  ],
+  "releases.2.2.1[].size": [
+   "integer"
+  ],
+  "releases.2.2.1[].upload_time": [
+   "string"
+  ],
+  "releases.2.2.1[].upload_time_iso_8601": [
+   "string"
+  ],
+  "releases.2.2.1[].url": [
+   "string"
+  ],
+  "releases.2.2.1[].yanked": [
+   "boolean"
+  ],
+  "releases.2.2.1[].yanked_reason": [
+   "null"
+  ],
+  "releases.2.20.0": [
+   "array"
+  ],
+  "releases.2.20.0[]": [
+   "object"
+  ],
+  "releases.2.20.0[].comment_text": [
+   "string"
+  ],
+  "releases.2.20.0[].core-metadata": [
+   "boolean",
+   "object"
+  ],
+  "releases.2.20.0[].core-metadata.sha256": [
+   "string"
+  ],
+  "releases.2.20.0[].digests": [
+   "object"
+  ],
+  "releases.2.20.0[].digests.blake2b_256": [
+   "string"
+  ],
+  "releases.2.20.0[].digests.md5": [
+   "string"
+  ],
+  "releases.2.20.0[].digests.sha256": [
+   "string"
+  ],
+  "releases.2.20.0[].downloads": [
+   "integer"
+  ],
+  "releases.2.20.0[].filename": [
+   "string"
+  ],
+  "releases.2.20.0[].has_sig": [
+   "boolean"
+  ],
+  "releases.2.20.0[].md5_digest": [
+   "string"
+  ],
+  "releases.2.20.0[].packagetype": [
+   "string"
+  ],
+  "releases.2.20.0[].python_version": [
+   "string"
+  ],
+  "releases.2.20.0[].requires_python": [
+   "string"
+  ],
+  "releases.2.20.0[].size": [
+   "integer"
+  ],
+  "releases.2.20.0[].upload_time": [
+   "string"
+  ],
+  "releases.2.20.0[].upload_time_iso_8601": [
+   "string"
+  ],
+  "releases.2.20.0[].url": [
+   "string"
+  ],
+  "releases.2.20.0[].yanked": [
+   "boolean"
+  ],
+  "releases.2.20.0[].yanked_reason": [
+   "null"
+  ],
+  "releases.2.20.1": [
+   "array"
+  ],
+  "releases.2.20.1[]": [
+   "object"
+  ],
+  "releases.2.20.1[].comment_text": [
+   "string"
+  ],
+  "releases.2.20.1[].core-metadata": [
+   "boolean",
+   "object"
+  ],
+  "releases.2.20.1[].core-metadata.sha256": [
+   "string"
+  ],
+  "releases.2.20.1[].digests": [
+   "object"
+  ],
+  "releases.2.20.1[].digests.blake2b_256": [
+   "string"
+  ],
+  "releases.2.20.1[].digests.md5": [
+   "string"
+  ],
+  "releases.2.20.1[].digests.sha256": [
+   "string"
+  ],
+  "releases.2.20.1[].downloads": [
+   "integer"
+  ],
+  "releases.2.20.1[].filename": [
+   "string"
+  ],
+  "releases.2.20.1[].has_sig": [
+   "boolean"
+  ],
+  "releases.2.20.1[].md5_digest": [
+   "string"
+  ],
+  "releases.2.20.1[].packagetype": [
+   "string"
+  ],
+  "releases.2.20.1[].python_version": [
+   "string"
+  ],
+  "releases.2.20.1[].requires_python": [
+   "string"
+  ],
+  "releases.2.20.1[].size": [
+   "integer"
+  ],
+  "releases.2.20.1[].upload_time": [
+   "string"
+  ],
+  "releases.2.20.1[].upload_time_iso_8601": [
+   "string"
+  ],
+  "releases.2.20.1[].url": [
+   "string"
+  ],
+  "releases.2.20.1[].yanked": [
+   "boolean"
+  ],
+  "releases.2.20.1[].yanked_reason": [
+   "null"
+  ],
+  "releases.2.21.0": [
+   "array"
+  ],
+  "releases.2.21.0[]": [
+   "object"
+  ],
+  "releases.2.21.0[].comment_text": [
+   "string"
+  ],
+  "releases.2.21.0[].core-metadata": [
+   "boolean",
+   "object"
+  ],
+  "releases.2.21.0[].core-metadata.sha256": [
+   "string"
+  ],
+  "releases.2.21.0[].digests": [
+   "object"
+  ],
+  "releases.2.21.0[].digests.blake2b_256": [
+   "string"
+  ],
+  "releases.2.21.0[].digests.md5": [
+   "string"
+  ],
+  "releases.2.21.0[].digests.sha256": [
+   "string"
+  ],
+  "releases.2.21.0[].downloads": [
+   "integer"
+  ],
+  "releases.2.21.0[].filename": [
+   "string"
+  ],
+  "releases.2.21.0[].has_sig": [
+   "boolean"
+  ],
+  "releases.2.21.0[].md5_digest": [
+   "string"
+  ],
+  "releases.2.21.0[].packagetype": [
+   "string"
+  ],
+  "releases.2.21.0[].python_version": [
+   "string"
+  ],
+  "releases.2.21.0[].requires_python": [
+   "string"
+  ],
+  "releases.2.21.0[].size": [
+   "integer"
+  ],
+  "releases.2.21.0[].upload_time": [
+   "string"
+  ],
+  "releases.2.21.0[].upload_time_iso_8601": [
+   "string"
+  ],
+  "releases.2.21.0[].url": [
+   "string"
+  ],
+  "releases.2.21.0[].yanked": [
+   "boolean"
+  ],
+  "releases.2.21.0[].yanked_reason": [
+   "null"
+  ],
+  "releases.2.22.0": [
+   "array"
+  ],
+  "releases.2.22.0[]": [
+   "object"
+  ],
+  "releases.2.22.0[].comment_text": [
+   "string"
+  ],
+  "releases.2.22.0[].core-metadata": [
+   "boolean",
+   "object"
+  ],
+  "releases.2.22.0[].core-metadata.sha256": [
+   "string"
+  ],
+  "releases.2.22.0[].digests": [
+   "object"
+  ],
+  "releases.2.22.0[].digests.blake2b_256": [
+   "string"
+  ],
+  "releases.2.22.0[].digests.md5": [
+   "string"
+  ],
+  "releases.2.22.0[].digests.sha256": [
+   "string"
+  ],
+  "releases.2.22.0[].downloads": [
+   "integer"
+  ],
+  "releases.2.22.0[].filename": [
+   "string"
+  ],
+  "releases.2.22.0[].has_sig": [
+   "boolean"
+  ],
+  "releases.2.22.0[].md5_digest": [
+   "string"
+  ],
+  "releases.2.22.0[].packagetype": [
+   "string"
+  ],
+  "releases.2.22.0[].python_version": [
+   "string"
+  ],
+  "releases.2.22.0[].requires_python": [
+   "string"
+  ],
+  "releases.2.22.0[].size": [
+   "integer"
+  ],
+  "releases.2.22.0[].upload_time": [
+   "string"
+  ],
+  "releases.2.22.0[].upload_time_iso_8601": [
+   "string"
+  ],
+  "releases.2.22.0[].url": [
+   "string"
+  ],
+  "releases.2.22.0[].yanked": [
+   "boolean"
+  ],
+  "releases.2.22.0[].yanked_reason": [
+   "null"
+  ],
+  "releases.2.23.0": [
+   "array"
+  ],
+  "releases.2.23.0[]": [
+   "object"
+  ],
+  "releases.2.23.0[].comment_text": [
+   "string"
+  ],
+  "releases.2.23.0[].core-metadata": [
+   "boolean",
+   "object"
+  ],
+  "releases.2.23.0[].core-metadata.sha256": [
+   "string"
+  ],
+  "releases.2.23.0[].digests": [
+   "object"
+  ],
+  "releases.2.23.0[].digests.blake2b_256": [
+   "string"
+  ],
+  "releases.2.23.0[].digests.md5": [
+   "string"
+  ],
+  "releases.2.23.0[].digests.sha256": [
+   "string"
+  ],
+  "releases.2.23.0[].downloads": [
+   "integer"
+  ],
+  "releases.2.23.0[].filename": [
+   "string"
+  ],
+  "releases.2.23.0[].has_sig": [
+   "boolean"
+  ],
+  "releases.2.23.0[].md5_digest": [
+   "string"
+  ],
+  "releases.2.23.0[].packagetype": [
+   "string"
+  ],
+  "releases.2.23.0[].python_version": [
+   "string"
+  ],
+  "releases.2.23.0[].requires_python": [
+   "string"
+  ],
+  "releases.2.23.0[].size": [
+   "integer"
+  ],
+  "releases.2.23.0[].upload_time": [
+   "string"
+  ],
+  "releases.2.23.0[].upload_time_iso_8601": [
+   "string"
+  ],
+  "releases.2.23.0[].url": [
+   "string"
+  ],
+  "releases.2.23.0[].yanked": [
+   "boolean"
+  ],
+  "releases.2.23.0[].yanked_reason": [
+   "null"
+  ],
+  "releases.2.24.0": [
+   "array"
+  ],
+  "releases.2.24.0[]": [
+   "object"
+  ],
+  "releases.2.24.0[].comment_text": [
+   "string"
+  ],
+  "releases.2.24.0[].core-metadata": [
+   "boolean",
+   "object"
+  ],
+  "releases.2.24.0[].core-metadata.sha256": [
+   "string"
+  ],
+  "releases.2.24.0[].digests": [
+   "object"
+  ],
+  "releases.2.24.0[].digests.blake2b_256": [
+   "string"
+  ],
+  "releases.2.24.0[].digests.md5": [
+   "string"
+  ],
+  "releases.2.24.0[].digests.sha256": [
+   "string"
+  ],
+  "releases.2.24.0[].downloads": [
+   "integer"
+  ],
+  "releases.2.24.0[].filename": [
+   "string"
+  ],
+  "releases.2.24.0[].has_sig": [
+   "boolean"
+  ],
+  "releases.2.24.0[].md5_digest": [
+   "string"
+  ],
+  "releases.2.24.0[].packagetype": [
+   "string"
+  ],
+  "releases.2.24.0[].python_version": [
+   "string"
+  ],
+  "releases.2.24.0[].requires_python": [
+   "string"
+  ],
+  "releases.2.24.0[].size": [
+   "integer"
+  ],
+  "releases.2.24.0[].upload_time": [
+   "string"
+  ],
+  "releases.2.24.0[].upload_time_iso_8601": [
+   "string"
+  ],
+  "releases.2.24.0[].url": [
+   "string"
+  ],
+  "releases.2.24.0[].yanked": [
+   "boolean"
+  ],
+  "releases.2.24.0[].yanked_reason": [
+   "null"
+  ],
+  "releases.2.25.0": [
+   "array"
+  ],
+  "releases.2.25.0[]": [
+   "object"
+  ],
+  "releases.2.25.0[].comment_text": [
+   "string"
+  ],
+  "releases.2.25.0[].core-metadata": [
+   "boolean",
+   "object"
+  ],
+  "releases.2.25.0[].core-metadata.sha256": [
+   "string"
+  ],
+  "releases.2.25.0[].digests": [
+   "object"
+  ],
+  "releases.2.25.0[].digests.blake2b_256": [
+   "string"
+  ],
+  "releases.2.25.0[].digests.md5": [
+   "string"
+  ],
+  "releases.2.25.0[].digests.sha256": [
+   "string"
+  ],
+  "releases.2.25.0[].downloads": [
+   "integer"
+  ],
+  "releases.2.25.0[].filename": [
+   "string"
+  ],
+  "releases.2.25.0[].has_sig": [
+   "boolean"
+  ],
+  "releases.2.25.0[].md5_digest": [
+   "string"
+  ],
+  "releases.2.25.0[].packagetype": [
+   "string"
+  ],
+  "releases.2.25.0[].python_version": [
+   "string"
+  ],
+  "releases.2.25.0[].requires_python": [
+   "string"
+  ],
+  "releases.2.25.0[].size": [
+   "integer"
+  ],
+  "releases.2.25.0[].upload_time": [
+   "string"
+  ],
+  "releases.2.25.0[].upload_time_iso_8601": [
+   "string"
+  ],
+  "releases.2.25.0[].url": [
+   "string"
+  ],
+  "releases.2.25.0[].yanked": [
+   "boolean"
+  ],
+  "releases.2.25.0[].yanked_reason": [
+   "null"
+  ],
+  "releases.2.25.1": [
+   "array"
+  ],
+  "releases.2.25.1[]": [
+   "object"
+  ],
+  "releases.2.25.1[].comment_text": [
+   "string"
+  ],
+  "releases.2.25.1[].core-metadata": [
+   "boolean",
+   "object"
+  ],
+  "releases.2.25.1[].core-metadata.sha256": [
+   "string"
+  ],
+  "releases.2.25.1[].digests": [
+   "object"
+  ],
+  "releases.2.25.1[].digests.blake2b_256": [
+   "string"
+  ],
+  "releases.2.25.1[].digests.md5": [
+   "string"
+  ],
+  "releases.2.25.1[].digests.sha256": [
+   "string"
+  ],
+  "releases.2.25.1[].downloads": [
+   "integer"
+  ],
+  "releases.2.25.1[].filename": [
+   "string"
+  ],
+  "releases.2.25.1[].has_sig": [
+   "boolean"
+  ],
+  "releases.2.25.1[].md5_digest": [
+   "string"
+  ],
+  "releases.2.25.1[].packagetype": [
+   "string"
+  ],
+  "releases.2.25.1[].python_version": [
+   "string"
+  ],
+  "releases.2.25.1[].requires_python": [
+   "string"
+  ],
+  "releases.2.25.1[].size": [
+   "integer"
+  ],
+  "releases.2.25.1[].upload_time": [
+   "string"
+  ],
+  "releases.2.25.1[].upload_time_iso_8601": [
+   "string"
+  ],
+  "releases.2.25.1[].url": [
+   "string"
+  ],
+  "releases.2.25.1[].yanked": [
+   "boolean"
+  ],
+  "releases.2.25.1[].yanked_reason": [
+   "null"
+  ],
+  "releases.2.26.0": [
+   "array"
+  ],
+  "releases.2.26.0[]": [
+   "object"
+  ],
+  "releases.2.26.0[].comment_text": [
+   "string"
+  ],
+  "releases.2.26.0[].core-metadata": [
+   "boolean",
+   "object"
+  ],
+  "releases.2.26.0[].core-metadata.sha256": [
+   "string"
+  ],
+  "releases.2.26.0[].digests": [
+   "object"
+  ],
+  "releases.2.26.0[].digests.blake2b_256": [
+   "string"
+  ],
+  "releases.2.26.0[].digests.md5": [
+   "string"
+  ],
+  "releases.2.26.0[].digests.sha256": [
+   "string"
+  ],
+  "releases.2.26.0[].downloads": [
+   "integer"
+  ],
+  "releases.2.26.0[].filename": [
+   "string"
+  ],
+  "releases.2.26.0[].has_sig": [
+   "boolean"
+  ],
+  "releases.2.26.0[].md5_digest": [
+   "string"
+  ],
+  "releases.2.26.0[].packagetype": [
+   "string"
+  ],
+  "releases.2.26.0[].python_version": [
+   "string"
+  ],
+  "releases.2.26.0[].requires_python": [
+   "string"
+  ],
+  "releases.2.26.0[].size": [
+   "integer"
+  ],
+  "releases.2.26.0[].upload_time": [
+   "string"
+  ],
+  "releases.2.26.0[].upload_time_iso_8601": [
+   "string"
+  ],
+  "releases.2.26.0[].url": [
+   "string"
+  ],
+  "releases.2.26.0[].yanked": [
+   "boolean"
+  ],
+  "releases.2.26.0[].yanked_reason": [
+   "null"
+  ],
+  "releases.2.27.0": [
+   "array"
+  ],
+  "releases.2.27.0[]": [
+   "object"
+  ],
+  "releases.2.27.0[].comment_text": [
+   "string"
+  ],
+  "releases.2.27.0[].core-metadata": [
+   "boolean",
+   "object"
+  ],
+  "releases.2.27.0[].core-metadata.sha256": [
+   "string"
+  ],
+  "releases.2.27.0[].digests": [
+   "object"
+  ],
+  "releases.2.27.0[].digests.blake2b_256": [
+   "string"
+  ],
+  "releases.2.27.0[].digests.md5": [
+   "string"
+  ],
+  "releases.2.27.0[].digests.sha256": [
+   "string"
+  ],
+  "releases.2.27.0[].downloads": [
+   "integer"
+  ],
+  "releases.2.27.0[].filename": [
+   "string"
+  ],
+  "releases.2.27.0[].has_sig": [
+   "boolean"
+  ],
+  "releases.2.27.0[].md5_digest": [
+   "string"
+  ],
+  "releases.2.27.0[].packagetype": [
+   "string"
+  ],
+  "releases.2.27.0[].python_version": [
+   "string"
+  ],
+  "releases.2.27.0[].requires_python": [
+   "string"
+  ],
+  "releases.2.27.0[].size": [
+   "integer"
+  ],
+  "releases.2.27.0[].upload_time": [
+   "string"
+  ],
+  "releases.2.27.0[].upload_time_iso_8601": [
+   "string"
+  ],
+  "releases.2.27.0[].url": [
+   "string"
+  ],
+  "releases.2.27.0[].yanked": [
+   "boolean"
+  ],
+  "releases.2.27.0[].yanked_reason": [
+   "null"
+  ],
+  "releases.2.27.1": [
+   "array"
+  ],
+  "releases.2.27.1[]": [
+   "object"
+  ],
+  "releases.2.27.1[].comment_text": [
+   "string"
+  ],
+  "releases.2.27.1[].core-metadata": [
+   "boolean",
+   "object"
+  ],
+  "releases.2.27.1[].core-metadata.sha256": [
+   "string"
+  ],
+  "releases.2.27.1[].digests": [
+   "object"
+  ],
+  "releases.2.27.1[].digests.blake2b_256": [
+   "string"
+  ],
+  "releases.2.27.1[].digests.md5": [
+   "string"
+  ],
+  "releases.2.27.1[].digests.sha256": [
+   "string"
+  ],
+  "releases.2.27.1[].downloads": [
+   "integer"
+  ],
+  "releases.2.27.1[].filename": [
+   "string"
+  ],
+  "releases.2.27.1[].has_sig": [
+   "boolean"
+  ],
+  "releases.2.27.1[].md5_digest": [
+   "string"
+  ],
+  "releases.2.27.1[].packagetype": [
+   "string"
+  ],
+  "releases.2.27.1[].python_version": [
+   "string"
+  ],
+  "releases.2.27.1[].requires_python": [
+   "string"
+  ],
+  "releases.2.27.1[].size": [
+   "integer"
+  ],
+  "releases.2.27.1[].upload_time": [
+   "string"
+  ],
+  "releases.2.27.1[].upload_time_iso_8601": [
+   "string"
+  ],
+  "releases.2.27.1[].url": [
+   "string"
+  ],
+  "releases.2.27.1[].yanked": [
+   "boolean"
+  ],
+  "releases.2.27.1[].yanked_reason": [
+   "null"
+  ],
+  "releases.2.28.0": [
+   "array"
+  ],
+  "releases.2.28.0[]": [
+   "object"
+  ],
+  "releases.2.28.0[].comment_text": [
+   "string"
+  ],
+  "releases.2.28.0[].core-metadata": [
+   "boolean",
+   "object"
+  ],
+  "releases.2.28.0[].core-metadata.sha256": [
+   "string"
+  ],
+  "releases.2.28.0[].digests": [
+   "object"
+  ],
+  "releases.2.28.0[].digests.blake2b_256": [
+   "string"
+  ],
+  "releases.2.28.0[].digests.md5": [
+   "string"
+  ],
+  "releases.2.28.0[].digests.sha256": [
+   "string"
+  ],
+  "releases.2.28.0[].downloads": [
+   "integer"
+  ],
+  "releases.2.28.0[].filename": [
+   "string"
+  ],
+  "releases.2.28.0[].has_sig": [
+   "boolean"
+  ],
+  "releases.2.28.0[].md5_digest": [
+   "string"
+  ],
+  "releases.2.28.0[].packagetype": [
+   "string"
+  ],
+  "releases.2.28.0[].python_version": [
+   "string"
+  ],
+  "releases.2.28.0[].requires_python": [
+   "string"
+  ],
+  "releases.2.28.0[].size": [
+   "integer"
+  ],
+  "releases.2.28.0[].upload_time": [
+   "string"
+  ],
+  "releases.2.28.0[].upload_time_iso_8601": [
+   "string"
+  ],
+  "releases.2.28.0[].url": [
+   "string"
+  ],
+  "releases.2.28.0[].yanked": [
+   "boolean"
+  ],
+  "releases.2.28.0[].yanked_reason": [
+   "null"
+  ],
+  "releases.2.28.1": [
+   "array"
+  ],
+  "releases.2.28.1[]": [
+   "object"
+  ],
+  "releases.2.28.1[].comment_text": [
+   "string"
+  ],
+  "releases.2.28.1[].core-metadata": [
+   "boolean",
+   "object"
+  ],
+  "releases.2.28.1[].core-metadata.sha256": [
+   "string"
+  ],
+  "releases.2.28.1[].digests": [
+   "object"
+  ],
+  "releases.2.28.1[].digests.blake2b_256": [
+   "string"
+  ],
+  "releases.2.28.1[].digests.md5": [
+   "string"
+  ],
+  "releases.2.28.1[].digests.sha256": [
+   "string"
+  ],
+  "releases.2.28.1[].downloads": [
+   "integer"
+  ],
+  "releases.2.28.1[].filename": [
+   "string"
+  ],
+  "releases.2.28.1[].has_sig": [
+   "boolean"
+  ],
+  "releases.2.28.1[].md5_digest": [
+   "string"
+  ],
+  "releases.2.28.1[].packagetype": [
+   "string"
+  ],
+  "releases.2.28.1[].python_version": [
+   "string"
+  ],
+  "releases.2.28.1[].requires_python": [
+   "string"
+  ],
+  "releases.2.28.1[].size": [
+   "integer"
+  ],
+  "releases.2.28.1[].upload_time": [
+   "string"
+  ],
+  "releases.2.28.1[].upload_time_iso_8601": [
+   "string"
+  ],
+  "releases.2.28.1[].url": [
+   "string"
+  ],
+  "releases.2.28.1[].yanked": [
+   "boolean"
+  ],
+  "releases.2.28.1[].yanked_reason": [
+   "null"
+  ],
+  "releases.2.28.2": [
+   "array"
+  ],
+  "releases.2.28.2[]": [
+   "object"
+  ],
+  "releases.2.28.2[].comment_text": [
+   "string"
+  ],
+  "releases.2.28.2[].core-metadata": [
+   "boolean",
+   "object"
+  ],
+  "releases.2.28.2[].core-metadata.sha256": [
+   "string"
+  ],
+  "releases.2.28.2[].digests": [
+   "object"
+  ],
+  "releases.2.28.2[].digests.blake2b_256": [
+   "string"
+  ],
+  "releases.2.28.2[].digests.md5": [
+   "string"
+  ],
+  "releases.2.28.2[].digests.sha256": [
+   "string"
+  ],
+  "releases.2.28.2[].downloads": [
+   "integer"
+  ],
+  "releases.2.28.2[].filename": [
+   "string"
+  ],
+  "releases.2.28.2[].has_sig": [
+   "boolean"
+  ],
+  "releases.2.28.2[].md5_digest": [
+   "string"
+  ],
+  "releases.2.28.2[].packagetype": [
+   "string"
+  ],
+  "releases.2.28.2[].python_version": [
+   "string"
+  ],
+  "releases.2.28.2[].requires_python": [
+   "string"
+  ],
+  "releases.2.28.2[].size": [
+   "integer"
+  ],
+  "releases.2.28.2[].upload_time": [
+   "string"
+  ],
+  "releases.2.28.2[].upload_time_iso_8601": [
+   "string"
+  ],
+  "releases.2.28.2[].url": [
+   "string"
+  ],
+  "releases.2.28.2[].yanked": [
+   "boolean"
+  ],
+  "releases.2.28.2[].yanked_reason": [
+   "null"
+  ],
+  "releases.2.29.0": [
+   "array"
+  ],
+  "releases.2.29.0[]": [
+   "object"
+  ],
+  "releases.2.29.0[].comment_text": [
+   "string"
+  ],
+  "releases.2.29.0[].core-metadata": [
+   "boolean",
+   "object"
+  ],
+  "releases.2.29.0[].core-metadata.sha256": [
+   "string"
+  ],
+  "releases.2.29.0[].digests": [
+   "object"
+  ],
+  "releases.2.29.0[].digests.blake2b_256": [
+   "string"
+  ],
+  "releases.2.29.0[].digests.md5": [
+   "string"
+  ],
+  "releases.2.29.0[].digests.sha256": [
+   "string"
+  ],
+  "releases.2.29.0[].downloads": [
+   "integer"
+  ],
+  "releases.2.29.0[].filename": [
+   "string"
+  ],
+  "releases.2.29.0[].has_sig": [
+   "boolean"
+  ],
+  "releases.2.29.0[].md5_digest": [
+   "string"
+  ],
+  "releases.2.29.0[].packagetype": [
+   "string"
+  ],
+  "releases.2.29.0[].python_version": [
+   "string"
+  ],
+  "releases.2.29.0[].requires_python": [
+   "string"
+  ],
+  "releases.2.29.0[].size": [
+   "integer"
+  ],
+  "releases.2.29.0[].upload_time": [
+   "string"
+  ],
+  "releases.2.29.0[].upload_time_iso_8601": [
+   "string"
+  ],
+  "releases.2.29.0[].url": [
+   "string"
+  ],
+  "releases.2.29.0[].yanked": [
+   "boolean"
+  ],
+  "releases.2.29.0[].yanked_reason": [
+   "null"
+  ],
+  "releases.2.3.0": [
+   "array"
+  ],
+  "releases.2.3.0[]": [
+   "object"
+  ],
+  "releases.2.3.0[].comment_text": [
+   "string"
+  ],
+  "releases.2.3.0[].core-metadata": [
+   "boolean",
+   "object"
+  ],
+  "releases.2.3.0[].core-metadata.sha256": [
+   "string"
+  ],
+  "releases.2.3.0[].digests": [
+   "object"
+  ],
+  "releases.2.3.0[].digests.blake2b_256": [
+   "string"
+  ],
+  "releases.2.3.0[].digests.md5": [
+   "string"
+  ],
+  "releases.2.3.0[].digests.sha256": [
+   "string"
+  ],
+  "releases.2.3.0[].downloads": [
+   "integer"
+  ],
+  "releases.2.3.0[].filename": [
+   "string"
+  ],
+  "releases.2.3.0[].has_sig": [
+   "boolean"
+  ],
+  "releases.2.3.0[].md5_digest": [
+   "string"
+  ],
+  "releases.2.3.0[].packagetype": [
+   "string"
+  ],
+  "releases.2.3.0[].python_version": [
+   "string"
+  ],
+  "releases.2.3.0[].requires_python": [
+   "null"
+  ],
+  "releases.2.3.0[].size": [
+   "integer"
+  ],
+  "releases.2.3.0[].upload_time": [
+   "string"
+  ],
+  "releases.2.3.0[].upload_time_iso_8601": [
+   "string"
+  ],
+  "releases.2.3.0[].url": [
+   "string"
+  ],
+  "releases.2.3.0[].yanked": [
+   "boolean"
+  ],
+  "releases.2.3.0[].yanked_reason": [
+   "null"
+  ],
+  "releases.2.30.0": [
+   "array"
+  ],
+  "releases.2.30.0[]": [
+   "object"
+  ],
+  "releases.2.30.0[].comment_text": [
+   "string"
+  ],
+  "releases.2.30.0[].core-metadata": [
+   "boolean",
+   "object"
+  ],
+  "releases.2.30.0[].core-metadata.sha256": [
+   "string"
+  ],
+  "releases.2.30.0[].digests": [
+   "object"
+  ],
+  "releases.2.30.0[].digests.blake2b_256": [
+   "string"
+  ],
+  "releases.2.30.0[].digests.md5": [
+   "string"
+  ],
+  "releases.2.30.0[].digests.sha256": [
+   "string"
+  ],
+  "releases.2.30.0[].downloads": [
+   "integer"
+  ],
+  "releases.2.30.0[].filename": [
+   "string"
+  ],
+  "releases.2.30.0[].has_sig": [
+   "boolean"
+  ],
+  "releases.2.30.0[].md5_digest": [
+   "string"
+  ],
+  "releases.2.30.0[].packagetype": [
+   "string"
+  ],
+  "releases.2.30.0[].python_version": [
+   "string"
+  ],
+  "releases.2.30.0[].requires_python": [
+   "string"
+  ],
+  "releases.2.30.0[].size": [
+   "integer"
+  ],
+  "releases.2.30.0[].upload_time": [
+   "string"
+  ],
+  "releases.2.30.0[].upload_time_iso_8601": [
+   "string"
+  ],
+  "releases.2.30.0[].url": [
+   "string"
+  ],
+  "releases.2.30.0[].yanked": [
+   "boolean"
+  ],
+  "releases.2.30.0[].yanked_reason": [
+   "null"
+  ],
+  "releases.2.31.0": [
+   "array"
+  ],
+  "releases.2.31.0[]": [
+   "object"
+  ],
+  "releases.2.31.0[].comment_text": [
+   "string"
+  ],
+  "releases.2.31.0[].core-metadata": [
+   "boolean",
+   "object"
+  ],
+  "releases.2.31.0[].core-metadata.sha256": [
+   "string"
+  ],
+  "releases.2.31.0[].digests": [
+   "object"
+  ],
+  "releases.2.31.0[].digests.blake2b_256": [
+   "string"
+  ],
+  "releases.2.31.0[].digests.md5": [
+   "string"
+  ],
+  "releases.2.31.0[].digests.sha256": [
+   "string"
+  ],
+  "releases.2.31.0[].downloads": [
+   "integer"
+  ],
+  "releases.2.31.0[].filename": [
+   "string"
+  ],
+  "releases.2.31.0[].has_sig": [
+   "boolean"
+  ],
+  "releases.2.31.0[].md5_digest": [
+   "string"
+  ],
+  "releases.2.31.0[].packagetype": [
+   "string"
+  ],
+  "releases.2.31.0[].python_version": [
+   "string"
+  ],
+  "releases.2.31.0[].requires_python": [
+   "string"
+  ],
+  "releases.2.31.0[].size": [
+   "integer"
+  ],
+  "releases.2.31.0[].upload_time": [
+   "string"
+  ],
+  "releases.2.31.0[].upload_time_iso_8601": [
+   "string"
+  ],
+  "releases.2.31.0[].url": [
+   "string"
+  ],
+  "releases.2.31.0[].yanked": [
+   "boolean"
+  ],
+  "releases.2.31.0[].yanked_reason": [
+   "null"
+  ],
+  "releases.2.32.0": [
+   "array"
+  ],
+  "releases.2.32.0[]": [
+   "object"
+  ],
+  "releases.2.32.0[].comment_text": [
+   "string"
+  ],
+  "releases.2.32.0[].core-metadata": [
+   "boolean",
+   "object"
+  ],
+  "releases.2.32.0[].core-metadata.sha256": [
+   "string"
+  ],
+  "releases.2.32.0[].digests": [
+   "object"
+  ],
+  "releases.2.32.0[].digests.blake2b_256": [
+   "string"
+  ],
+  "releases.2.32.0[].digests.md5": [
+   "string"
+  ],
+  "releases.2.32.0[].digests.sha256": [
+   "string"
+  ],
+  "releases.2.32.0[].downloads": [
+   "integer"
+  ],
+  "releases.2.32.0[].filename": [
+   "string"
+  ],
+  "releases.2.32.0[].has_sig": [
+   "boolean"
+  ],
+  "releases.2.32.0[].md5_digest": [
+   "string"
+  ],
+  "releases.2.32.0[].packagetype": [
+   "string"
+  ],
+  "releases.2.32.0[].python_version": [
+   "string"
+  ],
+  "releases.2.32.0[].requires_python": [
+   "string"
+  ],
+  "releases.2.32.0[].size": [
+   "integer"
+  ],
+  "releases.2.32.0[].upload_time": [
+   "string"
+  ],
+  "releases.2.32.0[].upload_time_iso_8601": [
+   "string"
+  ],
+  "releases.2.32.0[].url": [
+   "string"
+  ],
+  "releases.2.32.0[].yanked": [
+   "boolean"
+  ],
+  "releases.2.32.0[].yanked_reason": [
+   "string"
+  ],
+  "releases.2.32.1": [
+   "array"
+  ],
+  "releases.2.32.1[]": [
+   "object"
+  ],
+  "releases.2.32.1[].comment_text": [
+   "string"
+  ],
+  "releases.2.32.1[].core-metadata": [
+   "boolean",
+   "object"
+  ],
+  "releases.2.32.1[].core-metadata.sha256": [
+   "string"
+  ],
+  "releases.2.32.1[].digests": [
+   "object"
+  ],
+  "releases.2.32.1[].digests.blake2b_256": [
+   "string"
+  ],
+  "releases.2.32.1[].digests.md5": [
+   "string"
+  ],
+  "releases.2.32.1[].digests.sha256": [
+   "string"
+  ],
+  "releases.2.32.1[].downloads": [
+   "integer"
+  ],
+  "releases.2.32.1[].filename": [
+   "string"
+  ],
+  "releases.2.32.1[].has_sig": [
+   "boolean"
+  ],
+  "releases.2.32.1[].md5_digest": [
+   "string"
+  ],
+  "releases.2.32.1[].packagetype": [
+   "string"
+  ],
+  "releases.2.32.1[].python_version": [
+   "string"
+  ],
+  "releases.2.32.1[].requires_python": [
+   "string"
+  ],
+  "releases.2.32.1[].size": [
+   "integer"
+  ],
+  "releases.2.32.1[].upload_time": [
+   "string"
+  ],
+  "releases.2.32.1[].upload_time_iso_8601": [
+   "string"
+  ],
+  "releases.2.32.1[].url": [
+   "string"
+  ],
+  "releases.2.32.1[].yanked": [
+   "boolean"
+  ],
+  "releases.2.32.1[].yanked_reason": [
+   "string"
+  ],
+  "releases.2.32.2": [
+   "array"
+  ],
+  "releases.2.32.2[]": [
+   "object"
+  ],
+  "releases.2.32.2[].comment_text": [
+   "string"
+  ],
+  "releases.2.32.2[].core-metadata": [
+   "boolean",
+   "object"
+  ],
+  "releases.2.32.2[].core-metadata.sha256": [
+   "string"
+  ],
+  "releases.2.32.2[].digests": [
+   "object"
+  ],
+  "releases.2.32.2[].digests.blake2b_256": [
+   "string"
+  ],
+  "releases.2.32.2[].digests.md5": [
+   "string"
+  ],
+  "releases.2.32.2[].digests.sha256": [
+   "string"
+  ],
+  "releases.2.32.2[].downloads": [
+   "integer"
+  ],
+  "releases.2.32.2[].filename": [
+   "string"
+  ],
+  "releases.2.32.2[].has_sig": [
+   "boolean"
+  ],
+  "releases.2.32.2[].md5_digest": [
+   "string"
+  ],
+  "releases.2.32.2[].packagetype": [
+   "string"
+  ],
+  "releases.2.32.2[].python_version": [
+   "string"
+  ],
+  "releases.2.32.2[].requires_python": [
+   "string"
+  ],
+  "releases.2.32.2[].size": [
+   "integer"
+  ],
+  "releases.2.32.2[].upload_time": [
+   "string"
+  ],
+  "releases.2.32.2[].upload_time_iso_8601": [
+   "string"
+  ],
+  "releases.2.32.2[].url": [
+   "string"
+  ],
+  "releases.2.32.2[].yanked": [
+   "boolean"
+  ],
+  "releases.2.32.2[].yanked_reason": [
+   "null"
+  ],
+  "releases.2.32.3": [
+   "array"
+  ],
+  "releases.2.32.3[]": [
+   "object"
+  ],
+  "releases.2.32.3[].comment_text": [
+   "string"
+  ],
+  "releases.2.32.3[].core-metadata": [
+   "boolean",
+   "object"
+  ],
+  "releases.2.32.3[].core-metadata.sha256": [
+   "string"
+  ],
+  "releases.2.32.3[].digests": [
+   "object"
+  ],
+  "releases.2.32.3[].digests.blake2b_256": [
+   "string"
+  ],
+  "releases.2.32.3[].digests.md5": [
+   "string"
+  ],
+  "releases.2.32.3[].digests.sha256": [
+   "string"
+  ],
+  "releases.2.32.3[].downloads": [
+   "integer"
+  ],
+  "releases.2.32.3[].filename": [
+   "string"
+  ],
+  "releases.2.32.3[].has_sig": [
+   "boolean"
+  ],
+  "releases.2.32.3[].md5_digest": [
+   "string"
+  ],
+  "releases.2.32.3[].packagetype": [
+   "string"
+  ],
+  "releases.2.32.3[].python_version": [
+   "string"
+  ],
+  "releases.2.32.3[].requires_python": [
+   "string"
+  ],
+  "releases.2.32.3[].size": [
+   "integer"
+  ],
+  "releases.2.32.3[].upload_time": [
+   "string"
+  ],
+  "releases.2.32.3[].upload_time_iso_8601": [
+   "string"
+  ],
+  "releases.2.32.3[].url": [
+   "string"
+  ],
+  "releases.2.32.3[].yanked": [
+   "boolean"
+  ],
+  "releases.2.32.3[].yanked_reason": [
+   "null"
+  ],
+  "releases.2.32.4": [
+   "array"
+  ],
+  "releases.2.32.4[]": [
+   "object"
+  ],
+  "releases.2.32.4[].comment_text": [
+   "null"
+  ],
+  "releases.2.32.4[].core-metadata": [
+   "boolean",
+   "object"
+  ],
+  "releases.2.32.4[].core-metadata.sha256": [
+   "string"
+  ],
+  "releases.2.32.4[].digests": [
+   "object"
+  ],
+  "releases.2.32.4[].digests.blake2b_256": [
+   "string"
+  ],
+  "releases.2.32.4[].digests.md5": [
+   "string"
+  ],
+  "releases.2.32.4[].digests.sha256": [
+   "string"
+  ],
+  "releases.2.32.4[].downloads": [
+   "integer"
+  ],
+  "releases.2.32.4[].filename": [
+   "string"
+  ],
+  "releases.2.32.4[].has_sig": [
+   "boolean"
+  ],
+  "releases.2.32.4[].md5_digest": [
+   "string"
+  ],
+  "releases.2.32.4[].packagetype": [
+   "string"
+  ],
+  "releases.2.32.4[].python_version": [
+   "string"
+  ],
+  "releases.2.32.4[].requires_python": [
+   "string"
+  ],
+  "releases.2.32.4[].size": [
+   "integer"
+  ],
+  "releases.2.32.4[].upload_time": [
+   "string"
+  ],
+  "releases.2.32.4[].upload_time_iso_8601": [
+   "string"
+  ],
+  "releases.2.32.4[].url": [
+   "string"
+  ],
+  "releases.2.32.4[].yanked": [
+   "boolean"
+  ],
+  "releases.2.32.4[].yanked_reason": [
+   "null"
+  ],
+  "releases.2.32.5": [
+   "array"
+  ],
+  "releases.2.32.5[]": [
+   "object"
+  ],
+  "releases.2.32.5[].comment_text": [
+   "null"
+  ],
+  "releases.2.32.5[].core-metadata": [
+   "boolean",
+   "object"
+  ],
+  "releases.2.32.5[].core-metadata.sha256": [
+   "string"
+  ],
+  "releases.2.32.5[].digests": [
+   "object"
+  ],
+  "releases.2.32.5[].digests.blake2b_256": [
+   "string"
+  ],
+  "releases.2.32.5[].digests.md5": [
+   "string"
+  ],
+  "releases.2.32.5[].digests.sha256": [
+   "string"
+  ],
+  "releases.2.32.5[].downloads": [
+   "integer"
+  ],
+  "releases.2.32.5[].filename": [
+   "string"
+  ],
+  "releases.2.32.5[].has_sig": [
+   "boolean"
+  ],
+  "releases.2.32.5[].md5_digest": [
+   "string"
+  ],
+  "releases.2.32.5[].packagetype": [
+   "string"
+  ],
+  "releases.2.32.5[].python_version": [
+   "string"
+  ],
+  "releases.2.32.5[].requires_python": [
+   "string"
+  ],
+  "releases.2.32.5[].size": [
+   "integer"
+  ],
+  "releases.2.32.5[].upload_time": [
+   "string"
+  ],
+  "releases.2.32.5[].upload_time_iso_8601": [
+   "string"
+  ],
+  "releases.2.32.5[].url": [
+   "string"
+  ],
+  "releases.2.32.5[].yanked": [
+   "boolean"
+  ],
+  "releases.2.32.5[].yanked_reason": [
+   "null"
+  ],
+  "releases.2.33.0": [
+   "array"
+  ],
+  "releases.2.33.0[]": [
+   "object"
+  ],
+  "releases.2.33.0[].comment_text": [
+   "null"
+  ],
+  "releases.2.33.0[].core-metadata": [
+   "boolean",
+   "object"
+  ],
+  "releases.2.33.0[].core-metadata.sha256": [
+   "string"
+  ],
+  "releases.2.33.0[].digests": [
+   "object"
+  ],
+  "releases.2.33.0[].digests.blake2b_256": [
+   "string"
+  ],
+  "releases.2.33.0[].digests.md5": [
+   "string"
+  ],
+  "releases.2.33.0[].digests.sha256": [
+   "string"
+  ],
+  "releases.2.33.0[].downloads": [
+   "integer"
+  ],
+  "releases.2.33.0[].filename": [
+   "string"
+  ],
+  "releases.2.33.0[].has_sig": [
+   "boolean"
+  ],
+  "releases.2.33.0[].md5_digest": [
+   "string"
+  ],
+  "releases.2.33.0[].packagetype": [
+   "string"
+  ],
+  "releases.2.33.0[].python_version": [
+   "string"
+  ],
+  "releases.2.33.0[].requires_python": [
+   "string"
+  ],
+  "releases.2.33.0[].size": [
+   "integer"
+  ],
+  "releases.2.33.0[].upload_time": [
+   "string"
+  ],
+  "releases.2.33.0[].upload_time_iso_8601": [
+   "string"
+  ],
+  "releases.2.33.0[].url": [
+   "string"
+  ],
+  "releases.2.33.0[].yanked": [
+   "boolean"
+  ],
+  "releases.2.33.0[].yanked_reason": [
+   "null"
+  ],
+  "releases.2.33.1": [
+   "array"
+  ],
+  "releases.2.33.1[]": [
+   "object"
+  ],
+  "releases.2.33.1[].comment_text": [
+   "null"
+  ],
+  "releases.2.33.1[].core-metadata": [
+   "boolean",
+   "object"
+  ],
+  "releases.2.33.1[].core-metadata.sha256": [
+   "string"
+  ],
+  "releases.2.33.1[].digests": [
+   "object"
+  ],
+  "releases.2.33.1[].digests.blake2b_256": [
+   "string"
+  ],
+  "releases.2.33.1[].digests.md5": [
+   "string"
+  ],
+  "releases.2.33.1[].digests.sha256": [
+   "string"
+  ],
+  "releases.2.33.1[].downloads": [
+   "integer"
+  ],
+  "releases.2.33.1[].filename": [
+   "string"
+  ],
+  "releases.2.33.1[].has_sig": [
+   "boolean"
+  ],
+  "releases.2.33.1[].md5_digest": [
+   "string"
+  ],
+  "releases.2.33.1[].packagetype": [
+   "string"
+  ],
+  "releases.2.33.1[].python_version": [
+   "string"
+  ],
+  "releases.2.33.1[].requires_python": [
+   "string"
+  ],
+  "releases.2.33.1[].size": [
+   "integer"
+  ],
+  "releases.2.33.1[].upload_time": [
+   "string"
+  ],
+  "releases.2.33.1[].upload_time_iso_8601": [
+   "string"
+  ],
+  "releases.2.33.1[].url": [
+   "string"
+  ],
+  "releases.2.33.1[].yanked": [
+   "boolean"
+  ],
+  "releases.2.33.1[].yanked_reason": [
+   "null"
+  ],
+  "releases.2.34.0": [
+   "array"
+  ],
+  "releases.2.34.0.dev1": [
+   "array"
+  ],
+  "releases.2.34.0.dev1[]": [
+   "object"
+  ],
+  "releases.2.34.0.dev1[].comment_text": [
+   "null"
+  ],
+  "releases.2.34.0.dev1[].core-metadata": [
+   "boolean",
+   "object"
+  ],
+  "releases.2.34.0.dev1[].core-metadata.sha256": [
+   "string"
+  ],
+  "releases.2.34.0.dev1[].digests": [
+   "object"
+  ],
+  "releases.2.34.0.dev1[].digests.blake2b_256": [
+   "string"
+  ],
+  "releases.2.34.0.dev1[].digests.md5": [
+   "string"
+  ],
+  "releases.2.34.0.dev1[].digests.sha256": [
+   "string"
+  ],
+  "releases.2.34.0.dev1[].downloads": [
+   "integer"
+  ],
+  "releases.2.34.0.dev1[].filename": [
+   "string"
+  ],
+  "releases.2.34.0.dev1[].has_sig": [
+   "boolean"
+  ],
+  "releases.2.34.0.dev1[].md5_digest": [
+   "string"
+  ],
+  "releases.2.34.0.dev1[].packagetype": [
+   "string"
+  ],
+  "releases.2.34.0.dev1[].python_version": [
+   "string"
+  ],
+  "releases.2.34.0.dev1[].requires_python": [
+   "string"
+  ],
+  "releases.2.34.0.dev1[].size": [
+   "integer"
+  ],
+  "releases.2.34.0.dev1[].upload_time": [
+   "string"
+  ],
+  "releases.2.34.0.dev1[].upload_time_iso_8601": [
+   "string"
+  ],
+  "releases.2.34.0.dev1[].url": [
+   "string"
+  ],
+  "releases.2.34.0.dev1[].yanked": [
+   "boolean"
+  ],
+  "releases.2.34.0.dev1[].yanked_reason": [
+   "null"
+  ],
+  "releases.2.34.0[]": [
+   "object"
+  ],
+  "releases.2.34.0[].comment_text": [
+   "null"
+  ],
+  "releases.2.34.0[].core-metadata": [
+   "boolean",
+   "object"
+  ],
+  "releases.2.34.0[].core-metadata.sha256": [
+   "string"
+  ],
+  "releases.2.34.0[].digests": [
+   "object"
+  ],
+  "releases.2.34.0[].digests.blake2b_256": [
+   "string"
+  ],
+  "releases.2.34.0[].digests.md5": [
+   "string"
+  ],
+  "releases.2.34.0[].digests.sha256": [
+   "string"
+  ],
+  "releases.2.34.0[].downloads": [
+   "integer"
+  ],
+  "releases.2.34.0[].filename": [
+   "string"
+  ],
+  "releases.2.34.0[].has_sig": [
+   "boolean"
+  ],
+  "releases.2.34.0[].md5_digest": [
+   "string"
+  ],
+  "releases.2.34.0[].packagetype": [
+   "string"
+  ],
+  "releases.2.34.0[].python_version": [
+   "string"
+  ],
+  "releases.2.34.0[].requires_python": [
+   "string"
+  ],
+  "releases.2.34.0[].size": [
+   "integer"
+  ],
+  "releases.2.34.0[].upload_time": [
+   "string"
+  ],
+  "releases.2.34.0[].upload_time_iso_8601": [
+   "string"
+  ],
+  "releases.2.34.0[].url": [
+   "string"
+  ],
+  "releases.2.34.0[].yanked": [
+   "boolean"
+  ],
+  "releases.2.34.0[].yanked_reason": [
+   "null"
+  ],
+  "releases.2.34.1": [
+   "array"
+  ],
+  "releases.2.34.1[]": [
+   "object"
+  ],
+  "releases.2.34.1[].comment_text": [
+   "null"
+  ],
+  "releases.2.34.1[].core-metadata": [
+   "boolean",
+   "object"
+  ],
+  "releases.2.34.1[].core-metadata.sha256": [
+   "string"
+  ],
+  "releases.2.34.1[].digests": [
+   "object"
+  ],
+  "releases.2.34.1[].digests.blake2b_256": [
+   "string"
+  ],
+  "releases.2.34.1[].digests.md5": [
+   "string"
+  ],
+  "releases.2.34.1[].digests.sha256": [
+   "string"
+  ],
+  "releases.2.34.1[].downloads": [
+   "integer"
+  ],
+  "releases.2.34.1[].filename": [
+   "string"
+  ],
+  "releases.2.34.1[].has_sig": [
+   "boolean"
+  ],
+  "releases.2.34.1[].md5_digest": [
+   "string"
+  ],
+  "releases.2.34.1[].packagetype": [
+   "string"
+  ],
+  "releases.2.34.1[].python_version": [
+   "string"
+  ],
+  "releases.2.34.1[].requires_python": [
+   "string"
+  ],
+  "releases.2.34.1[].size": [
+   "integer"
+  ],
+  "releases.2.34.1[].upload_time": [
+   "string"
+  ],
+  "releases.2.34.1[].upload_time_iso_8601": [
+   "string"
+  ],
+  "releases.2.34.1[].url": [
+   "string"
+  ],
+  "releases.2.34.1[].yanked": [
+   "boolean"
+  ],
+  "releases.2.34.1[].yanked_reason": [
+   "null"
+  ],
+  "releases.2.34.2": [
+   "array"
+  ],
+  "releases.2.34.2[]": [
+   "object"
+  ],
+  "releases.2.34.2[].comment_text": [
+   "null"
+  ],
+  "releases.2.34.2[].core-metadata": [
+   "boolean",
+   "object"
+  ],
+  "releases.2.34.2[].core-metadata.sha256": [
+   "string"
+  ],
+  "releases.2.34.2[].digests": [
+   "object"
+  ],
+  "releases.2.34.2[].digests.blake2b_256": [
+   "string"
+  ],
+  "releases.2.34.2[].digests.md5": [
+   "string"
+  ],
+  "releases.2.34.2[].digests.sha256": [
+   "string"
+  ],
+  "releases.2.34.2[].downloads": [
+   "integer"
+  ],
+  "releases.2.34.2[].filename": [
+   "string"
+  ],
+  "releases.2.34.2[].has_sig": [
+   "boolean"
+  ],
+  "releases.2.34.2[].md5_digest": [
+   "string"
+  ],
+  "releases.2.34.2[].packagetype": [
+   "string"
+  ],
+  "releases.2.34.2[].python_version": [
+   "string"
+  ],
+  "releases.2.34.2[].requires_python": [
+   "string"
+  ],
+  "releases.2.34.2[].size": [
+   "integer"
+  ],
+  "releases.2.34.2[].upload_time": [
+   "string"
+  ],
+  "releases.2.34.2[].upload_time_iso_8601": [
+   "string"
+  ],
+  "releases.2.34.2[].url": [
+   "string"
+  ],
+  "releases.2.34.2[].yanked": [
+   "boolean"
+  ],
+  "releases.2.34.2[].yanked_reason": [
+   "null"
+  ],
+  "releases.2.4.0": [
+   "array"
+  ],
+  "releases.2.4.0[]": [
+   "object"
+  ],
+  "releases.2.4.0[].comment_text": [
+   "string"
+  ],
+  "releases.2.4.0[].core-metadata": [
+   "boolean",
+   "object"
+  ],
+  "releases.2.4.0[].core-metadata.sha256": [
+   "string"
+  ],
+  "releases.2.4.0[].digests": [
+   "object"
+  ],
+  "releases.2.4.0[].digests.blake2b_256": [
+   "string"
+  ],
+  "releases.2.4.0[].digests.md5": [
+   "string"
+  ],
+  "releases.2.4.0[].digests.sha256": [
+   "string"
+  ],
+  "releases.2.4.0[].downloads": [
+   "integer"
+  ],
+  "releases.2.4.0[].filename": [
+   "string"
+  ],
+  "releases.2.4.0[].has_sig": [
+   "boolean"
+  ],
+  "releases.2.4.0[].md5_digest": [
+   "string"
+  ],
+  "releases.2.4.0[].packagetype": [
+   "string"
+  ],
+  "releases.2.4.0[].python_version": [
+   "string"
+  ],
+  "releases.2.4.0[].requires_python": [
+   "null"
+  ],
+  "releases.2.4.0[].size": [
+   "integer"
+  ],
+  "releases.2.4.0[].upload_time": [
+   "string"
+  ],
+  "releases.2.4.0[].upload_time_iso_8601": [
+   "string"
+  ],
+  "releases.2.4.0[].url": [
+   "string"
+  ],
+  "releases.2.4.0[].yanked": [
+   "boolean"
+  ],
+  "releases.2.4.0[].yanked_reason": [
+   "null"
+  ],
+  "releases.2.4.1": [
+   "array"
+  ],
+  "releases.2.4.1[]": [
+   "object"
+  ],
+  "releases.2.4.1[].comment_text": [
+   "string"
+  ],
+  "releases.2.4.1[].core-metadata": [
+   "boolean",
+   "object"
+  ],
+  "releases.2.4.1[].core-metadata.sha256": [
+   "string"
+  ],
+  "releases.2.4.1[].digests": [
+   "object"
+  ],
+  "releases.2.4.1[].digests.blake2b_256": [
+   "string"
+  ],
+  "releases.2.4.1[].digests.md5": [
+   "string"
+  ],
+  "releases.2.4.1[].digests.sha256": [
+   "string"
+  ],
+  "releases.2.4.1[].downloads": [
+   "integer"
+  ],
+  "releases.2.4.1[].filename": [
+   "string"
+  ],
+  "releases.2.4.1[].has_sig": [
+   "boolean"
+  ],
+  "releases.2.4.1[].md5_digest": [
+   "string"
+  ],
+  "releases.2.4.1[].packagetype": [
+   "string"
+  ],
+  "releases.2.4.1[].python_version": [
+   "string"
+  ],
+  "releases.2.4.1[].requires_python": [
+   "null"
+  ],
+  "releases.2.4.1[].size": [
+   "integer"
+  ],
+  "releases.2.4.1[].upload_time": [
+   "string"
+  ],
+  "releases.2.4.1[].upload_time_iso_8601": [
+   "string"
+  ],
+  "releases.2.4.1[].url": [
+   "string"
+  ],
+  "releases.2.4.1[].yanked": [
+   "boolean"
+  ],
+  "releases.2.4.1[].yanked_reason": [
+   "null"
+  ],
+  "releases.2.4.2": [
+   "array"
+  ],
+  "releases.2.4.2[]": [
+   "object"
+  ],
+  "releases.2.4.2[].comment_text": [
+   "string"
+  ],
+  "releases.2.4.2[].core-metadata": [
+   "boolean",
+   "object"
+  ],
+  "releases.2.4.2[].core-metadata.sha256": [
+   "string"
+  ],
+  "releases.2.4.2[].digests": [
+   "object"
+  ],
+  "releases.2.4.2[].digests.blake2b_256": [
+   "string"
+  ],
+  "releases.2.4.2[].digests.md5": [
+   "string"
+  ],
+  "releases.2.4.2[].digests.sha256": [
+   "string"
+  ],
+  "releases.2.4.2[].downloads": [
+   "integer"
+  ],
+  "releases.2.4.2[].filename": [
+   "string"
+  ],
+  "releases.2.4.2[].has_sig": [
+   "boolean"
+  ],
+  "releases.2.4.2[].md5_digest": [
+   "string"
+  ],
+  "releases.2.4.2[].packagetype": [
+   "string"
+  ],
+  "releases.2.4.2[].python_version": [
+   "string"
+  ],
+  "releases.2.4.2[].requires_python": [
+   "null"
+  ],
+  "releases.2.4.2[].size": [
+   "integer"
+  ],
+  "releases.2.4.2[].upload_time": [
+   "string"
+  ],
+  "releases.2.4.2[].upload_time_iso_8601": [
+   "string"
+  ],
+  "releases.2.4.2[].url": [
+   "string"
+  ],
+  "releases.2.4.2[].yanked": [
+   "boolean"
+  ],
+  "releases.2.4.2[].yanked_reason": [
+   "null"
+  ],
+  "releases.2.4.3": [
+   "array"
+  ],
+  "releases.2.4.3[]": [
+   "object"
+  ],
+  "releases.2.4.3[].comment_text": [
+   "string"
+  ],
+  "releases.2.4.3[].core-metadata": [
+   "boolean",
+   "object"
+  ],
+  "releases.2.4.3[].core-metadata.sha256": [
+   "string"
+  ],
+  "releases.2.4.3[].digests": [
+   "object"
+  ],
+  "releases.2.4.3[].digests.blake2b_256": [
+   "string"
+  ],
+  "releases.2.4.3[].digests.md5": [
+   "string"
+  ],
+  "releases.2.4.3[].digests.sha256": [
+   "string"
+  ],
+  "releases.2.4.3[].downloads": [
+   "integer"
+  ],
+  "releases.2.4.3[].filename": [
+   "string"
+  ],
+  "releases.2.4.3[].has_sig": [
+   "boolean"
+  ],
+  "releases.2.4.3[].md5_digest": [
+   "string"
+  ],
+  "releases.2.4.3[].packagetype": [
+   "string"
+  ],
+  "releases.2.4.3[].python_version": [
+   "string"
+  ],
+  "releases.2.4.3[].requires_python": [
+   "null"
+  ],
+  "releases.2.4.3[].size": [
+   "integer"
+  ],
+  "releases.2.4.3[].upload_time": [
+   "string"
+  ],
+  "releases.2.4.3[].upload_time_iso_8601": [
+   "string"
+  ],
+  "releases.2.4.3[].url": [
+   "string"
+  ],
+  "releases.2.4.3[].yanked": [
+   "boolean"
+  ],
+  "releases.2.4.3[].yanked_reason": [
+   "null"
+  ],
+  "releases.2.5.0": [
+   "array"
+  ],
+  "releases.2.5.0[]": [
+   "object"
+  ],
+  "releases.2.5.0[].comment_text": [
+   "string"
+  ],
+  "releases.2.5.0[].core-metadata": [
+   "boolean",
+   "object"
+  ],
+  "releases.2.5.0[].core-metadata.sha256": [
+   "string"
+  ],
+  "releases.2.5.0[].digests": [
+   "object"
+  ],
+  "releases.2.5.0[].digests.blake2b_256": [
+   "string"
+  ],
+  "releases.2.5.0[].digests.md5": [
+   "string"
+  ],
+  "releases.2.5.0[].digests.sha256": [
+   "string"
+  ],
+  "releases.2.5.0[].downloads": [
+   "integer"
+  ],
+  "releases.2.5.0[].filename": [
+   "string"
+  ],
+  "releases.2.5.0[].has_sig": [
+   "boolean"
+  ],
+  "releases.2.5.0[].md5_digest": [
+   "string"
+  ],
+  "releases.2.5.0[].packagetype": [
+   "string"
+  ],
+  "releases.2.5.0[].python_version": [
+   "string"
+  ],
+  "releases.2.5.0[].requires_python": [
+   "null"
+  ],
+  "releases.2.5.0[].size": [
+   "integer"
+  ],
+  "releases.2.5.0[].upload_time": [
+   "string"
+  ],
+  "releases.2.5.0[].upload_time_iso_8601": [
+   "string"
+  ],
+  "releases.2.5.0[].url": [
+   "string"
+  ],
+  "releases.2.5.0[].yanked": [
+   "boolean"
+  ],
+  "releases.2.5.0[].yanked_reason": [
+   "null"
+  ],
+  "releases.2.5.1": [
+   "array"
+  ],
+  "releases.2.5.1[]": [
+   "object"
+  ],
+  "releases.2.5.1[].comment_text": [
+   "string"
+  ],
+  "releases.2.5.1[].core-metadata": [
+   "boolean",
+   "object"
+  ],
+  "releases.2.5.1[].core-metadata.sha256": [
+   "string"
+  ],
+  "releases.2.5.1[].digests": [
+   "object"
+  ],
+  "releases.2.5.1[].digests.blake2b_256": [
+   "string"
+  ],
+  "releases.2.5.1[].digests.md5": [
+   "string"
+  ],
+  "releases.2.5.1[].digests.sha256": [
+   "string"
+  ],
+  "releases.2.5.1[].downloads": [
+   "integer"
+  ],
+  "releases.2.5.1[].filename": [
+   "string"
+  ],
+  "releases.2.5.1[].has_sig": [
+   "boolean"
+  ],
+  "releases.2.5.1[].md5_digest": [
+   "string"
+  ],
+  "releases.2.5.1[].packagetype": [
+   "string"
+  ],
+  "releases.2.5.1[].python_version": [
+   "string"
+  ],
+  "releases.2.5.1[].requires_python": [
+   "null"
+  ],
+  "releases.2.5.1[].size": [
+   "integer"
+  ],
+  "releases.2.5.1[].upload_time": [
+   "string"
+  ],
+  "releases.2.5.1[].upload_time_iso_8601": [
+   "string"
+  ],
+  "releases.2.5.1[].url": [
+   "string"
+  ],
+  "releases.2.5.1[].yanked": [
+   "boolean"
+  ],
+  "releases.2.5.1[].yanked_reason": [
+   "null"
+  ],
+  "releases.2.5.2": [
+   "array"
+  ],
+  "releases.2.5.2[]": [
+   "object"
+  ],
+  "releases.2.5.2[].comment_text": [
+   "string"
+  ],
+  "releases.2.5.2[].core-metadata": [
+   "boolean",
+   "object"
+  ],
+  "releases.2.5.2[].core-metadata.sha256": [
+   "string"
+  ],
+  "releases.2.5.2[].digests": [
+   "object"
+  ],
+  "releases.2.5.2[].digests.blake2b_256": [
+   "string"
+  ],
+  "releases.2.5.2[].digests.md5": [
+   "string"
+  ],
+  "releases.2.5.2[].digests.sha256": [
+   "string"
+  ],
+  "releases.2.5.2[].downloads": [
+   "integer"
+  ],
+  "releases.2.5.2[].filename": [
+   "string"
+  ],
+  "releases.2.5.2[].has_sig": [
+   "boolean"
+  ],
+  "releases.2.5.2[].md5_digest": [
+   "string"
+  ],
+  "releases.2.5.2[].packagetype": [
+   "string"
+  ],
+  "releases.2.5.2[].python_version": [
+   "string"
+  ],
+  "releases.2.5.2[].requires_python": [
+   "null"
+  ],
+  "releases.2.5.2[].size": [
+   "integer"
+  ],
+  "releases.2.5.2[].upload_time": [
+   "string"
+  ],
+  "releases.2.5.2[].upload_time_iso_8601": [
+   "string"
+  ],
+  "releases.2.5.2[].url": [
+   "string"
+  ],
+  "releases.2.5.2[].yanked": [
+   "boolean"
+  ],
+  "releases.2.5.2[].yanked_reason": [
+   "null"
+  ],
+  "releases.2.5.3": [
+   "array"
+  ],
+  "releases.2.5.3[]": [
+   "object"
+  ],
+  "releases.2.5.3[].comment_text": [
+   "string"
+  ],
+  "releases.2.5.3[].core-metadata": [
+   "boolean",
+   "object"
+  ],
+  "releases.2.5.3[].core-metadata.sha256": [
+   "string"
+  ],
+  "releases.2.5.3[].digests": [
+   "object"
+  ],
+  "releases.2.5.3[].digests.blake2b_256": [
+   "string"
+  ],
+  "releases.2.5.3[].digests.md5": [
+   "string"
+  ],
+  "releases.2.5.3[].digests.sha256": [
+   "string"
+  ],
+  "releases.2.5.3[].downloads": [
+   "integer"
+  ],
+  "releases.2.5.3[].filename": [
+   "string"
+  ],
+  "releases.2.5.3[].has_sig": [
+   "boolean"
+  ],
+  "releases.2.5.3[].md5_digest": [
+   "string"
+  ],
+  "releases.2.5.3[].packagetype": [
+   "string"
+  ],
+  "releases.2.5.3[].python_version": [
+   "string"
+  ],
+  "releases.2.5.3[].requires_python": [
+   "null"
+  ],
+  "releases.2.5.3[].size": [
+   "integer"
+  ],
+  "releases.2.5.3[].upload_time": [
+   "string"
+  ],
+  "releases.2.5.3[].upload_time_iso_8601": [
+   "string"
+  ],
+  "releases.2.5.3[].url": [
+   "string"
+  ],
+  "releases.2.5.3[].yanked": [
+   "boolean"
+  ],
+  "releases.2.5.3[].yanked_reason": [
+   "null"
+  ],
+  "releases.2.6.0": [
+   "array"
+  ],
+  "releases.2.6.0[]": [
+   "object"
+  ],
+  "releases.2.6.0[].comment_text": [
+   "string"
+  ],
+  "releases.2.6.0[].core-metadata": [
+   "boolean",
+   "object"
+  ],
+  "releases.2.6.0[].core-metadata.sha256": [
+   "string"
+  ],
+  "releases.2.6.0[].digests": [
+   "object"
+  ],
+  "releases.2.6.0[].digests.blake2b_256": [
+   "string"
+  ],
+  "releases.2.6.0[].digests.md5": [
+   "string"
+  ],
+  "releases.2.6.0[].digests.sha256": [
+   "string"
+  ],
+  "releases.2.6.0[].downloads": [
+   "integer"
+  ],
+  "releases.2.6.0[].filename": [
+   "string"
+  ],
+  "releases.2.6.0[].has_sig": [
+   "boolean"
+  ],
+  "releases.2.6.0[].md5_digest": [
+   "string"
+  ],
+  "releases.2.6.0[].packagetype": [
+   "string"
+  ],
+  "releases.2.6.0[].python_version": [
+   "string"
+  ],
+  "releases.2.6.0[].requires_python": [
+   "null"
+  ],
+  "releases.2.6.0[].size": [
+   "integer"
+  ],
+  "releases.2.6.0[].upload_time": [
+   "string"
+  ],
+  "releases.2.6.0[].upload_time_iso_8601": [
+   "string"
+  ],
+  "releases.2.6.0[].url": [
+   "string"
+  ],
+  "releases.2.6.0[].yanked": [
+   "boolean"
+  ],
+  "releases.2.6.0[].yanked_reason": [
+   "null"
+  ],
+  "releases.2.6.1": [
+   "array"
+  ],
+  "releases.2.6.1[]": [
+   "object"
+  ],
+  "releases.2.6.1[].comment_text": [
+   "string"
+  ],
+  "releases.2.6.1[].core-metadata": [
+   "boolean",
+   "object"
+  ],
+  "releases.2.6.1[].core-metadata.sha256": [
+   "string"
+  ],
+  "releases.2.6.1[].digests": [
+   "object"
+  ],
+  "releases.2.6.1[].digests.blake2b_256": [
+   "string"
+  ],
+  "releases.2.6.1[].digests.md5": [
+   "string"
+  ],
+  "releases.2.6.1[].digests.sha256": [
+   "string"
+  ],
+  "releases.2.6.1[].downloads": [
+   "integer"
+  ],
+  "releases.2.6.1[].filename": [
+   "string"
+  ],
+  "releases.2.6.1[].has_sig": [
+   "boolean"
+  ],
+  "releases.2.6.1[].md5_digest": [
+   "string"
+  ],
+  "releases.2.6.1[].packagetype": [
+   "string"
+  ],
+  "releases.2.6.1[].python_version": [
+   "string"
+  ],
+  "releases.2.6.1[].requires_python": [
+   "null"
+  ],
+  "releases.2.6.1[].size": [
+   "integer"
+  ],
+  "releases.2.6.1[].upload_time": [
+   "string"
+  ],
+  "releases.2.6.1[].upload_time_iso_8601": [
+   "string"
+  ],
+  "releases.2.6.1[].url": [
+   "string"
+  ],
+  "releases.2.6.1[].yanked": [
+   "boolean"
+  ],
+  "releases.2.6.1[].yanked_reason": [
+   "null"
+  ],
+  "releases.2.6.2": [
+   "array"
+  ],
+  "releases.2.6.2[]": [
+   "object"
+  ],
+  "releases.2.6.2[].comment_text": [
+   "string"
+  ],
+  "releases.2.6.2[].core-metadata": [
+   "boolean",
+   "object"
+  ],
+  "releases.2.6.2[].core-metadata.sha256": [
+   "string"
+  ],
+  "releases.2.6.2[].digests": [
+   "object"
+  ],
+  "releases.2.6.2[].digests.blake2b_256": [
+   "string"
+  ],
+  "releases.2.6.2[].digests.md5": [
+   "string"
+  ],
+  "releases.2.6.2[].digests.sha256": [
+   "string"
+  ],
+  "releases.2.6.2[].downloads": [
+   "integer"
+  ],
+  "releases.2.6.2[].filename": [
+   "string"
+  ],
+  "releases.2.6.2[].has_sig": [
+   "boolean"
+  ],
+  "releases.2.6.2[].md5_digest": [
+   "string"
+  ],
+  "releases.2.6.2[].packagetype": [
+   "string"
+  ],
+  "releases.2.6.2[].python_version": [
+   "string"
+  ],
+  "releases.2.6.2[].requires_python": [
+   "null"
+  ],
+  "releases.2.6.2[].size": [
+   "integer"
+  ],
+  "releases.2.6.2[].upload_time": [
+   "string"
+  ],
+  "releases.2.6.2[].upload_time_iso_8601": [
+   "string"
+  ],
+  "releases.2.6.2[].url": [
+   "string"
+  ],
+  "releases.2.6.2[].yanked": [
+   "boolean"
+  ],
+  "releases.2.6.2[].yanked_reason": [
+   "null"
+  ],
+  "releases.2.7.0": [
+   "array"
+  ],
+  "releases.2.7.0[]": [
+   "object"
+  ],
+  "releases.2.7.0[].comment_text": [
+   "string"
+  ],
+  "releases.2.7.0[].core-metadata": [
+   "boolean",
+   "object"
+  ],
+  "releases.2.7.0[].core-metadata.sha256": [
+   "string"
+  ],
+  "releases.2.7.0[].digests": [
+   "object"
+  ],
+  "releases.2.7.0[].digests.blake2b_256": [
+   "string"
+  ],
+  "releases.2.7.0[].digests.md5": [
+   "string"
+  ],
+  "releases.2.7.0[].digests.sha256": [
+   "string"
+  ],
+  "releases.2.7.0[].downloads": [
+   "integer"
+  ],
+  "releases.2.7.0[].filename": [
+   "string"
+  ],
+  "releases.2.7.0[].has_sig": [
+   "boolean"
+  ],
+  "releases.2.7.0[].md5_digest": [
+   "string"
+  ],
+  "releases.2.7.0[].packagetype": [
+   "string"
+  ],
+  "releases.2.7.0[].python_version": [
+   "string"
+  ],
+  "releases.2.7.0[].requires_python": [
+   "null"
+  ],
+  "releases.2.7.0[].size": [
+   "integer"
+  ],
+  "releases.2.7.0[].upload_time": [
+   "string"
+  ],
+  "releases.2.7.0[].upload_time_iso_8601": [
+   "string"
+  ],
+  "releases.2.7.0[].url": [
+   "string"
+  ],
+  "releases.2.7.0[].yanked": [
+   "boolean"
+  ],
+  "releases.2.7.0[].yanked_reason": [
+   "null"
+  ],
+  "releases.2.8.0": [
+   "array"
+  ],
+  "releases.2.8.0[]": [
+   "object"
+  ],
+  "releases.2.8.0[].comment_text": [
+   "string"
+  ],
+  "releases.2.8.0[].core-metadata": [
+   "boolean",
+   "object"
+  ],
+  "releases.2.8.0[].core-metadata.sha256": [
+   "string"
+  ],
+  "releases.2.8.0[].digests": [
+   "object"
+  ],
+  "releases.2.8.0[].digests.blake2b_256": [
+   "string"
+  ],
+  "releases.2.8.0[].digests.md5": [
+   "string"
+  ],
+  "releases.2.8.0[].digests.sha256": [
+   "string"
+  ],
+  "releases.2.8.0[].downloads": [
+   "integer"
+  ],
+  "releases.2.8.0[].filename": [
+   "string"
+  ],
+  "releases.2.8.0[].has_sig": [
+   "boolean"
+  ],
+  "releases.2.8.0[].md5_digest": [
+   "string"
+  ],
+  "releases.2.8.0[].packagetype": [
+   "string"
+  ],
+  "releases.2.8.0[].python_version": [
+   "string"
+  ],
+  "releases.2.8.0[].requires_python": [
+   "null"
+  ],
+  "releases.2.8.0[].size": [
+   "integer"
+  ],
+  "releases.2.8.0[].upload_time": [
+   "string"
+  ],
+  "releases.2.8.0[].upload_time_iso_8601": [
+   "string"
+  ],
+  "releases.2.8.0[].url": [
+   "string"
+  ],
+  "releases.2.8.0[].yanked": [
+   "boolean"
+  ],
+  "releases.2.8.0[].yanked_reason": [
+   "null"
+  ],
+  "releases.2.8.1": [
+   "array"
+  ],
+  "releases.2.8.1[]": [
+   "object"
+  ],
+  "releases.2.8.1[].comment_text": [
+   "string"
+  ],
+  "releases.2.8.1[].core-metadata": [
+   "boolean",
+   "object"
+  ],
+  "releases.2.8.1[].core-metadata.sha256": [
+   "string"
+  ],
+  "releases.2.8.1[].digests": [
+   "object"
+  ],
+  "releases.2.8.1[].digests.blake2b_256": [
+   "string"
+  ],
+  "releases.2.8.1[].digests.md5": [
+   "string"
+  ],
+  "releases.2.8.1[].digests.sha256": [
+   "string"
+  ],
+  "releases.2.8.1[].downloads": [
+   "integer"
+  ],
+  "releases.2.8.1[].filename": [
+   "string"
+  ],
+  "releases.2.8.1[].has_sig": [
+   "boolean"
+  ],
+  "releases.2.8.1[].md5_digest": [
+   "string"
+  ],
+  "releases.2.8.1[].packagetype": [
+   "string"
+  ],
+  "releases.2.8.1[].python_version": [
+   "string"
+  ],
+  "releases.2.8.1[].requires_python": [
+   "null"
+  ],
+  "releases.2.8.1[].size": [
+   "integer"
+  ],
+  "releases.2.8.1[].upload_time": [
+   "string"
+  ],
+  "releases.2.8.1[].upload_time_iso_8601": [
+   "string"
+  ],
+  "releases.2.8.1[].url": [
+   "string"
+  ],
+  "releases.2.8.1[].yanked": [
+   "boolean"
+  ],
+  "releases.2.8.1[].yanked_reason": [
+   "null"
+  ],
+  "releases.2.9.0": [
+   "array"
+  ],
+  "releases.2.9.0[]": [
+   "object"
+  ],
+  "releases.2.9.0[].comment_text": [
+   "string"
+  ],
+  "releases.2.9.0[].core-metadata": [
+   "boolean",
+   "object"
+  ],
+  "releases.2.9.0[].core-metadata.sha256": [
+   "string"
+  ],
+  "releases.2.9.0[].digests": [
+   "object"
+  ],
+  "releases.2.9.0[].digests.blake2b_256": [
+   "string"
+  ],
+  "releases.2.9.0[].digests.md5": [
+   "string"
+  ],
+  "releases.2.9.0[].digests.sha256": [
+   "string"
+  ],
+  "releases.2.9.0[].downloads": [
+   "integer"
+  ],
+  "releases.2.9.0[].filename": [
+   "string"
+  ],
+  "releases.2.9.0[].has_sig": [
+   "boolean"
+  ],
+  "releases.2.9.0[].md5_digest": [
+   "string"
+  ],
+  "releases.2.9.0[].packagetype": [
+   "string"
+  ],
+  "releases.2.9.0[].python_version": [
+   "string"
+  ],
+  "releases.2.9.0[].requires_python": [
+   "null"
+  ],
+  "releases.2.9.0[].size": [
+   "integer"
+  ],
+  "releases.2.9.0[].upload_time": [
+   "string"
+  ],
+  "releases.2.9.0[].upload_time_iso_8601": [
+   "string"
+  ],
+  "releases.2.9.0[].url": [
+   "string"
+  ],
+  "releases.2.9.0[].yanked": [
+   "boolean"
+  ],
+  "releases.2.9.0[].yanked_reason": [
+   "null"
+  ],
+  "releases.2.9.1": [
+   "array"
+  ],
+  "releases.2.9.1[]": [
+   "object"
+  ],
+  "releases.2.9.1[].comment_text": [
+   "string"
+  ],
+  "releases.2.9.1[].core-metadata": [
+   "boolean",
+   "object"
+  ],
+  "releases.2.9.1[].core-metadata.sha256": [
+   "string"
+  ],
+  "releases.2.9.1[].digests": [
+   "object"
+  ],
+  "releases.2.9.1[].digests.blake2b_256": [
+   "string"
+  ],
+  "releases.2.9.1[].digests.md5": [
+   "string"
+  ],
+  "releases.2.9.1[].digests.sha256": [
+   "string"
+  ],
+  "releases.2.9.1[].downloads": [
+   "integer"
+  ],
+  "releases.2.9.1[].filename": [
+   "string"
+  ],
+  "releases.2.9.1[].has_sig": [
+   "boolean"
+  ],
+  "releases.2.9.1[].md5_digest": [
+   "string"
+  ],
+  "releases.2.9.1[].packagetype": [
+   "string"
+  ],
+  "releases.2.9.1[].python_version": [
+   "string"
+  ],
+  "releases.2.9.1[].requires_python": [
+   "null"
+  ],
+  "releases.2.9.1[].size": [
+   "integer"
+  ],
+  "releases.2.9.1[].upload_time": [
+   "string"
+  ],
+  "releases.2.9.1[].upload_time_iso_8601": [
+   "string"
+  ],
+  "releases.2.9.1[].url": [
+   "string"
+  ],
+  "releases.2.9.1[].yanked": [
+   "boolean"
+  ],
+  "releases.2.9.1[].yanked_reason": [
+   "null"
+  ],
+  "releases.2.9.2": [
+   "array"
+  ],
+  "releases.2.9.2[]": [
+   "object"
+  ],
+  "releases.2.9.2[].comment_text": [
+   "string"
+  ],
+  "releases.2.9.2[].core-metadata": [
+   "boolean",
+   "object"
+  ],
+  "releases.2.9.2[].core-metadata.sha256": [
+   "string"
+  ],
+  "releases.2.9.2[].digests": [
+   "object"
+  ],
+  "releases.2.9.2[].digests.blake2b_256": [
+   "string"
+  ],
+  "releases.2.9.2[].digests.md5": [
+   "string"
+  ],
+  "releases.2.9.2[].digests.sha256": [
+   "string"
+  ],
+  "releases.2.9.2[].downloads": [
+   "integer"
+  ],
+  "releases.2.9.2[].filename": [
+   "string"
+  ],
+  "releases.2.9.2[].has_sig": [
+   "boolean"
+  ],
+  "releases.2.9.2[].md5_digest": [
+   "string"
+  ],
+  "releases.2.9.2[].packagetype": [
+   "string"
+  ],
+  "releases.2.9.2[].python_version": [
+   "string"
+  ],
+  "releases.2.9.2[].requires_python": [
+   "null"
+  ],
+  "releases.2.9.2[].size": [
+   "integer"
+  ],
+  "releases.2.9.2[].upload_time": [
+   "string"
+  ],
+  "releases.2.9.2[].upload_time_iso_8601": [
+   "string"
+  ],
+  "releases.2.9.2[].url": [
+   "string"
+  ],
+  "releases.2.9.2[].yanked": [
+   "boolean"
+  ],
+  "releases.2.9.2[].yanked_reason": [
+   "null"
+  ],
+  "urls": [
+   "array"
+  ],
+  "urls[]": [
+   "object"
+  ],
+  "urls[].comment_text": [
+   "null"
+  ],
+  "urls[].core-metadata": [
+   "boolean",
+   "object"
+  ],
+  "urls[].core-metadata.sha256": [
+   "string"
+  ],
+  "urls[].digests": [
+   "object"
+  ],
+  "urls[].digests.blake2b_256": [
+   "string"
+  ],
+  "urls[].digests.md5": [
+   "string"
+  ],
+  "urls[].digests.sha256": [
+   "string"
+  ],
+  "urls[].downloads": [
+   "integer"
+  ],
+  "urls[].filename": [
+   "string"
+  ],
+  "urls[].has_sig": [
+   "boolean"
+  ],
+  "urls[].md5_digest": [
+   "string"
+  ],
+  "urls[].packagetype": [
+   "string"
+  ],
+  "urls[].python_version": [
+   "string"
+  ],
+  "urls[].requires_python": [
+   "string"
+  ],
+  "urls[].size": [
+   "integer"
+  ],
+  "urls[].upload_time": [
+   "string"
+  ],
+  "urls[].upload_time_iso_8601": [
+   "string"
+  ],
+  "urls[].url": [
+   "string"
+  ],
+  "urls[].yanked": [
+   "boolean"
+  ],
+  "urls[].yanked_reason": [
+   "null"
+  ],
+  "vulnerabilities": [
+   "array"
+  ]
+ },
+ "ts": "2026-08-18T23:23:51+00:00",
+ "url": "https://pypi.org/pypi/requests/json",
+ "vendor": "PyPI"
+}

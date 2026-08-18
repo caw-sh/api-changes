@@ -1,0 +1,70 @@
+{
+ "category": "fun",
+ "field_count": 19,
+ "first_seen": "2026-08-18T23:20:13+00:00",
+ "id": "jsonplaceholder-users",
+ "pending_keys": [],
+ "runs": 3,
+ "schema": {
+  "[]": [
+   "object"
+  ],
+  "[].address": [
+   "object"
+  ],
+  "[].address.city": [
+   "string"
+  ],
+  "[].address.geo": [
+   "object"
+  ],
+  "[].address.geo.lat": [
+   "string"
+  ],
+  "[].address.geo.lng": [
+   "string"
+  ],
+  "[].address.street": [
+   "string"
+  ],
+  "[].address.suite": [
+   "string"
+  ],
+  "[].address.zipcode": [
+   "string"
+  ],
+  "[].company": [
+   "object"
+  ],
+  "[].company.bs": [
+   "string"
+  ],
+  "[].company.catchPhrase": [
+   "string"
+  ],
+  "[].company.name": [
+   "string"
+  ],
+  "[].email": [
+   "string"
+  ],
+  "[].id": [
+   "integer"
+  ],
+  "[].name": [
+   "string"
+  ],
+  "[].phone": [
+   "string"
+  ],
+  "[].username": [
+   "string"
+  ],
+  "[].website": [
+   "string"
+  ]
+ },
+ "ts": "2026-08-18T23:23:51+00:00",
+ "url": "https://jsonplaceholder.typicode.com/users",
+ "vendor": "JSONPlaceholder"
+}

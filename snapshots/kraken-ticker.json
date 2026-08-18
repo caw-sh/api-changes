@@ -1,0 +1,73 @@
+{
+ "category": "finance",
+ "field_count": 20,
+ "first_seen": "2026-08-18T23:20:13+00:00",
+ "id": "kraken-ticker",
+ "pending_keys": [],
+ "runs": 3,
+ "schema": {
+  "error": [
+   "array"
+  ],
+  "result": [
+   "object"
+  ],
+  "result.XXBTZUSD": [
+   "object"
+  ],
+  "result.XXBTZUSD.a": [
+   "array"
+  ],
+  "result.XXBTZUSD.a[]": [
+   "string"
+  ],
+  "result.XXBTZUSD.b": [
+   "array"
+  ],
+  "result.XXBTZUSD.b[]": [
+   "string"
+  ],
+  "result.XXBTZUSD.c": [
+   "array"
+  ],
+  "result.XXBTZUSD.c[]": [
+   "string"
+  ],
+  "result.XXBTZUSD.h": [
+   "array"
+  ],
+  "result.XXBTZUSD.h[]": [
+   "string"
+  ],
+  "result.XXBTZUSD.l": [
+   "array"
+  ],
+  "result.XXBTZUSD.l[]": [
+   "string"
+  ],
+  "result.XXBTZUSD.o": [
+   "string"
+  ],
+  "result.XXBTZUSD.p": [
+   "array"
+  ],
+  "result.XXBTZUSD.p[]": [
+   "string"
+  ],
+  "result.XXBTZUSD.t": [
+   "array"
+  ],
+  "result.XXBTZUSD.t[]": [
+   "integer"
+  ],
+  "result.XXBTZUSD.v": [
+   "array"
+  ],
+  "result.XXBTZUSD.v[]": [
+   "string"
+  ]
+ },
+ "ts": "2026-08-18T23:23:51+00:00",
+ "url": "https://api.kraken.com/0/public/Ticker?pair=XBTUSD",
+ "vendor": "Kraken"
+}

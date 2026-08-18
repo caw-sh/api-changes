@@ -1,0 +1,9151 @@
+{
+ "category": "spec",
+ "field_count": 2189,
+ "first_seen": "2026-08-18T23:20:13+00:00",
+ "id": "spec-github",
+ "pending_keys": [],
+ "runs": 3,
+ "schema": {
+  "DELETE /app/installations/{installation_id}": [
+   "params:1",
+   "responses:2"
+  ],
+  "DELETE /app/installations/{installation_id}/suspended": [
+   "params:1",
+   "responses:2"
+  ],
+  "DELETE /applications/{client_id}/grant": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "DELETE /applications/{client_id}/token": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "DELETE /enterprises/{enterprise}/actions/oidc/customization/properties/repo/{custom_property_name}": [
+   "params:2",
+   "responses:4"
+  ],
+  "DELETE /enterprises/{enterprise}/code-security/configurations/{configuration_id}": [
+   "params:2",
+   "responses:5"
+  ],
+  "DELETE /enterprises/{enterprise}/copilot/policies/coding_agent/organizations": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "DELETE /enterprises/{enterprise}/teams/{enterprise-team}/memberships/{username}": [
+   "params:3",
+   "responses:2"
+  ],
+  "DELETE /enterprises/{enterprise}/teams/{enterprise-team}/organizations/{org}": [
+   "params:3",
+   "responses:1"
+  ],
+  "DELETE /enterprises/{enterprise}/teams/{team_slug}": [
+   "params:2",
+   "responses:2"
+  ],
+  "DELETE /gists/{gist_id}": [
+   "params:1",
+   "responses:4"
+  ],
+  "DELETE /gists/{gist_id}/comments/{comment_id}": [
+   "params:2",
+   "responses:4"
+  ],
+  "DELETE /gists/{gist_id}/star": [
+   "params:1",
+   "responses:4"
+  ],
+  "DELETE /installation/token": [
+   "params:0",
+   "responses:1"
+  ],
+  "DELETE /notifications/threads/{thread_id}": [
+   "params:1",
+   "responses:1"
+  ],
+  "DELETE /notifications/threads/{thread_id}/subscription": [
+   "params:1",
+   "responses:4"
+  ],
+  "DELETE /organizations/{org}/settings/billing/budgets/{budget_id}": [
+   "params:2",
+   "responses:6"
+  ],
+  "DELETE /orgs/{org}": [
+   "params:1",
+   "responses:3"
+  ],
+  "DELETE /orgs/{org}/actions/hosted-runners/images/custom/{image_definition_id}": [
+   "params:2",
+   "responses:1"
+  ],
+  "DELETE /orgs/{org}/actions/hosted-runners/images/custom/{image_definition_id}/versions/{version}": [
+   "params:3",
+   "responses:1"
+  ],
+  "DELETE /orgs/{org}/actions/hosted-runners/{hosted_runner_id}": [
+   "params:2",
+   "responses:1"
+  ],
+  "DELETE /orgs/{org}/actions/oidc/customization/properties/repo/{custom_property_name}": [
+   "params:2",
+   "responses:4"
+  ],
+  "DELETE /orgs/{org}/actions/permissions/repositories/{repository_id}": [
+   "params:2",
+   "responses:1"
+  ],
+  "DELETE /orgs/{org}/actions/permissions/self-hosted-runners/repositories/{repository_id}": [
+   "params:2",
+   "responses:5"
+  ],
+  "DELETE /orgs/{org}/actions/runner-groups/{runner_group_id}": [
+   "params:2",
+   "responses:1"
+  ],
+  "DELETE /orgs/{org}/actions/runner-groups/{runner_group_id}/repositories/{repository_id}": [
+   "params:3",
+   "responses:1"
+  ],
+  "DELETE /orgs/{org}/actions/runner-groups/{runner_group_id}/runners/{runner_id}": [
+   "params:3",
+   "responses:1"
+  ],
+  "DELETE /orgs/{org}/actions/runners/{runner_id}": [
+   "params:2",
+   "responses:2"
+  ],
+  "DELETE /orgs/{org}/actions/runners/{runner_id}/labels": [
+   "params:2",
+   "responses:2"
+  ],
+  "DELETE /orgs/{org}/actions/runners/{runner_id}/labels/{name}": [
+   "params:3",
+   "responses:3"
+  ],
+  "DELETE /orgs/{org}/actions/secrets/{secret_name}": [
+   "params:2",
+   "responses:1"
+  ],
+  "DELETE /orgs/{org}/actions/secrets/{secret_name}/repositories/{repository_id}": [
+   "params:3",
+   "responses:2"
+  ],
+  "DELETE /orgs/{org}/actions/variables/{name}": [
+   "params:2",
+   "responses:1"
+  ],
+  "DELETE /orgs/{org}/actions/variables/{name}/repositories/{repository_id}": [
+   "params:3",
+   "responses:2"
+  ],
+  "DELETE /orgs/{org}/agents/secrets/{secret_name}": [
+   "params:2",
+   "responses:1"
+  ],
+  "DELETE /orgs/{org}/agents/secrets/{secret_name}/repositories/{repository_id}": [
+   "params:3",
+   "responses:2"
+  ],
+  "DELETE /orgs/{org}/agents/variables/{name}": [
+   "params:2",
+   "responses:1"
+  ],
+  "DELETE /orgs/{org}/agents/variables/{name}/repositories/{repository_id}": [
+   "params:3",
+   "responses:2"
+  ],
+  "DELETE /orgs/{org}/attestations/digest/{subject_digest}": [
+   "params:2",
+   "responses:3"
+  ],
+  "DELETE /orgs/{org}/attestations/{attestation_id}": [
+   "params:2",
+   "responses:4"
+  ],
+  "DELETE /orgs/{org}/blocks/{username}": [
+   "params:2",
+   "responses:1"
+  ],
+  "DELETE /orgs/{org}/campaigns/{campaign_number}": [
+   "params:2",
+   "responses:3"
+  ],
+  "DELETE /orgs/{org}/code-security/configurations/detach": [
+   "body",
+   "params:1",
+   "responses:5"
+  ],
+  "DELETE /orgs/{org}/code-security/configurations/{configuration_id}": [
+   "params:2",
+   "responses:5"
+  ],
+  "DELETE /orgs/{org}/codespaces/access/selected_users": [
+   "DEPRECATED",
+   "body",
+   "params:1",
+   "responses:6"
+  ],
+  "DELETE /orgs/{org}/codespaces/secrets/{secret_name}": [
+   "params:2",
+   "responses:2"
+  ],
+  "DELETE /orgs/{org}/codespaces/secrets/{secret_name}/repositories/{repository_id}": [
+   "params:3",
+   "responses:4"
+  ],
+  "DELETE /orgs/{org}/copilot-spaces/{space_number}": [
+   "params:2",
+   "responses:3"
+  ],
+  "DELETE /orgs/{org}/copilot-spaces/{space_number}/collaborators/{actor_type}/{actor_identifier}": [
+   "params:4",
+   "responses:3"
+  ],
+  "DELETE /orgs/{org}/copilot-spaces/{space_number}/resources/{space_resource_id}": [
+   "params:3",
+   "responses:3"
+  ],
+  "DELETE /orgs/{org}/copilot/billing/selected_teams": [
+   "body",
+   "params:1",
+   "responses:6"
+  ],
+  "DELETE /orgs/{org}/copilot/billing/selected_users": [
+   "body",
+   "params:1",
+   "responses:6"
+  ],
+  "DELETE /orgs/{org}/copilot/coding-agent/permissions/repositories/{repository_id}": [
+   "params:2",
+   "responses:6"
+  ],
+  "DELETE /orgs/{org}/dependabot/secrets/{secret_name}": [
+   "params:2",
+   "responses:1"
+  ],
+  "DELETE /orgs/{org}/dependabot/secrets/{secret_name}/repositories/{repository_id}": [
+   "params:3",
+   "responses:2"
+  ],
+  "DELETE /orgs/{org}/hooks/{hook_id}": [
+   "params:2",
+   "responses:2"
+  ],
+  "DELETE /orgs/{org}/interaction-limits": [
+   "params:1",
+   "responses:1"
+  ],
+  "DELETE /orgs/{org}/invitations/{invitation_id}": [
+   "params:2",
+   "responses:3"
+  ],
+  "DELETE /orgs/{org}/issue-fields/{issue_field_id}": [
+   "params:2",
+   "responses:3"
+  ],
+  "DELETE /orgs/{org}/issue-types/{issue_type_id}": [
+   "params:2",
+   "responses:3"
+  ],
+  "DELETE /orgs/{org}/members/{username}": [
+   "params:2",
+   "responses:2"
+  ],
+  "DELETE /orgs/{org}/members/{username}/codespaces/{codespace_name}": [
+   "params:3",
+   "responses:6"
+  ],
+  "DELETE /orgs/{org}/memberships/{username}": [
+   "params:2",
+   "responses:3"
+  ],
+  "DELETE /orgs/{org}/migrations/{migration_id}/archive": [
+   "params:2",
+   "responses:2"
+  ],
+  "DELETE /orgs/{org}/migrations/{migration_id}/repos/{repo_name}/lock": [
+   "params:3",
+   "responses:2"
+  ],
+  "DELETE /orgs/{org}/organization-roles/teams/{team_slug}": [
+   "params:2",
+   "responses:1"
+  ],
+  "DELETE /orgs/{org}/organization-roles/teams/{team_slug}/{role_id}": [
+   "params:3",
+   "responses:1"
+  ],
+  "DELETE /orgs/{org}/organization-roles/users/{username}": [
+   "params:2",
+   "responses:1"
+  ],
+  "DELETE /orgs/{org}/organization-roles/users/{username}/{role_id}": [
+   "params:3",
+   "responses:1"
+  ],
+  "DELETE /orgs/{org}/outside_collaborators/{username}": [
+   "params:2",
+   "responses:2"
+  ],
+  "DELETE /orgs/{org}/packages/{package_type}/{package_name}": [
+   "params:3",
+   "responses:4"
+  ],
+  "DELETE /orgs/{org}/packages/{package_type}/{package_name}/versions/{package_version_id}": [
+   "params:4",
+   "responses:4"
+  ],
+  "DELETE /orgs/{org}/private-registries/{secret_name}": [
+   "params:2",
+   "responses:3"
+  ],
+  "DELETE /orgs/{org}/projectsV2/{project_number}/items/{item_id}": [
+   "params:3",
+   "responses:3"
+  ],
+  "DELETE /orgs/{org}/properties/schema/{custom_property_name}": [
+   "params:2",
+   "responses:3"
+  ],
+  "DELETE /orgs/{org}/public_members/{username}": [
+   "params:2",
+   "responses:1"
+  ],
+  "DELETE /orgs/{org}/rulesets/{ruleset_id}": [
+   "params:2",
+   "responses:3"
+  ],
+  "DELETE /orgs/{org}/secret-scanning/custom-patterns": [
+   "body",
+   "params:1",
+   "responses:5"
+  ],
+  "DELETE /orgs/{org}/security-managers/teams/{team_slug}": [
+   "DEPRECATED",
+   "params:2",
+   "responses:1"
+  ],
+  "DELETE /orgs/{org}/settings/immutable-releases/repositories/{repository_id}": [
+   "params:2",
+   "responses:1"
+  ],
+  "DELETE /orgs/{org}/settings/network-configurations/{network_configuration_id}": [
+   "params:2",
+   "responses:1"
+  ],
+  "DELETE /orgs/{org}/teams/{team_slug}": [
+   "params:2",
+   "responses:2"
+  ],
+  "DELETE /orgs/{org}/teams/{team_slug}/memberships/{username}": [
+   "params:3",
+   "responses:2"
+  ],
+  "DELETE /orgs/{org}/teams/{team_slug}/repos/{owner}/{repo}": [
+   "params:4",
+   "responses:1"
+  ],
+  "DELETE /repos/{owner}/{repo}": [
+   "params:2",
+   "responses:5"
+  ],
+  "DELETE /repos/{owner}/{repo}/actions/artifacts/{artifact_id}": [
+   "params:3",
+   "responses:1"
+  ],
+  "DELETE /repos/{owner}/{repo}/actions/caches": [
+   "params:4",
+   "responses:1"
+  ],
+  "DELETE /repos/{owner}/{repo}/actions/caches/{cache_id}": [
+   "params:3",
+   "responses:1"
+  ],
+  "DELETE /repos/{owner}/{repo}/actions/runners/{runner_id}": [
+   "params:3",
+   "responses:2"
+  ],
+  "DELETE /repos/{owner}/{repo}/actions/runners/{runner_id}/labels": [
+   "params:3",
+   "responses:2"
+  ],
+  "DELETE /repos/{owner}/{repo}/actions/runners/{runner_id}/labels/{name}": [
+   "params:4",
+   "responses:3"
+  ],
+  "DELETE /repos/{owner}/{repo}/actions/runs/{run_id}": [
+   "params:3",
+   "responses:1"
+  ],
+  "DELETE /repos/{owner}/{repo}/actions/runs/{run_id}/logs": [
+   "params:3",
+   "responses:3"
+  ],
+  "DELETE /repos/{owner}/{repo}/actions/secrets/{secret_name}": [
+   "params:3",
+   "responses:1"
+  ],
+  "DELETE /repos/{owner}/{repo}/actions/variables/{name}": [
+   "params:3",
+   "responses:1"
+  ],
+  "DELETE /repos/{owner}/{repo}/agents/secrets/{secret_name}": [
+   "params:3",
+   "responses:1"
+  ],
+  "DELETE /repos/{owner}/{repo}/agents/variables/{name}": [
+   "params:3",
+   "responses:1"
+  ],
+  "DELETE /repos/{owner}/{repo}/autolinks/{autolink_id}": [
+   "params:3",
+   "responses:2"
+  ],
+  "DELETE /repos/{owner}/{repo}/automated-security-fixes": [
+   "params:2",
+   "responses:1"
+  ],
+  "DELETE /repos/{owner}/{repo}/branches/{branch}/protection": [
+   "params:3",
+   "responses:2"
+  ],
+  "DELETE /repos/{owner}/{repo}/branches/{branch}/protection/enforce_admins": [
+   "params:3",
+   "responses:2"
+  ],
+  "DELETE /repos/{owner}/{repo}/branches/{branch}/protection/required_pull_request_reviews": [
+   "params:3",
+   "responses:2"
+  ],
+  "DELETE /repos/{owner}/{repo}/branches/{branch}/protection/required_signatures": [
+   "params:3",
+   "responses:2"
+  ],
+  "DELETE /repos/{owner}/{repo}/branches/{branch}/protection/required_status_checks": [
+   "params:3",
+   "responses:1"
+  ],
+  "DELETE /repos/{owner}/{repo}/branches/{branch}/protection/required_status_checks/contexts": [
+   "body",
+   "params:3",
+   "responses:3"
+  ],
+  "DELETE /repos/{owner}/{repo}/branches/{branch}/protection/restrictions": [
+   "params:3",
+   "responses:1"
+  ],
+  "DELETE /repos/{owner}/{repo}/branches/{branch}/protection/restrictions/apps": [
+   "body",
+   "params:3",
+   "responses:2"
+  ],
+  "DELETE /repos/{owner}/{repo}/branches/{branch}/protection/restrictions/teams": [
+   "body",
+   "params:3",
+   "responses:2"
+  ],
+  "DELETE /repos/{owner}/{repo}/branches/{branch}/protection/restrictions/users": [
+   "body",
+   "params:3",
+   "responses:2"
+  ],
+  "DELETE /repos/{owner}/{repo}/code-scanning/analyses/{analysis_id}": [
+   "params:4",
+   "responses:5"
+  ],
+  "DELETE /repos/{owner}/{repo}/code-scanning/codeql/databases/{language}": [
+   "params:3",
+   "responses:4"
+  ],
+  "DELETE /repos/{owner}/{repo}/codespaces/secrets/{secret_name}": [
+   "params:3",
+   "responses:1"
+  ],
+  "DELETE /repos/{owner}/{repo}/collaborators/{username}": [
+   "params:3",
+   "responses:3"
+  ],
+  "DELETE /repos/{owner}/{repo}/comments/{comment_id}": [
+   "params:3",
+   "responses:2"
+  ],
+  "DELETE /repos/{owner}/{repo}/comments/{comment_id}/reactions/{reaction_id}": [
+   "params:4",
+   "responses:1"
+  ],
+  "DELETE /repos/{owner}/{repo}/contents/{path}": [
+   "body",
+   "params:3",
+   "responses:5"
+  ],
+  "DELETE /repos/{owner}/{repo}/dependabot/secrets/{secret_name}": [
+   "params:3",
+   "responses:1"
+  ],
+  "DELETE /repos/{owner}/{repo}/deployments/{deployment_id}": [
+   "params:3",
+   "responses:3"
+  ],
+  "DELETE /repos/{owner}/{repo}/environments/{environment_name}": [
+   "params:3",
+   "responses:1"
+  ],
+  "DELETE /repos/{owner}/{repo}/environments/{environment_name}/deployment-branch-policies/{branch_policy_id}": [
+   "params:4",
+   "responses:1"
+  ],
+  "DELETE /repos/{owner}/{repo}/environments/{environment_name}/deployment_protection_rules/{protection_rule_id}": [
+   "params:4",
+   "responses:1"
+  ],
+  "DELETE /repos/{owner}/{repo}/environments/{environment_name}/secrets/{secret_name}": [
+   "params:4",
+   "responses:1"
+  ],
+  "DELETE /repos/{owner}/{repo}/environments/{environment_name}/variables/{name}": [
+   "params:4",
+   "responses:1"
+  ],
+  "DELETE /repos/{owner}/{repo}/git/refs/{ref}": [
+   "params:3",
+   "responses:3"
+  ],
+  "DELETE /repos/{owner}/{repo}/hooks/{hook_id}": [
+   "params:3",
+   "responses:2"
+  ],
+  "DELETE /repos/{owner}/{repo}/immutable-releases": [
+   "params:2",
+   "responses:2"
+  ],
+  "DELETE /repos/{owner}/{repo}/import": [
+   "DEPRECATED",
+   "params:2",
+   "responses:2"
+  ],
+  "DELETE /repos/{owner}/{repo}/interaction-limits": [
+   "params:2",
+   "responses:2"
+  ],
+  "DELETE /repos/{owner}/{repo}/interaction-limits/pulls/bypass-list": [
+   "body",
+   "params:2",
+   "responses:4"
+  ],
+  "DELETE /repos/{owner}/{repo}/invitations/{invitation_id}": [
+   "params:3",
+   "responses:1"
+  ],
+  "DELETE /repos/{owner}/{repo}/issues/comments/{comment_id}": [
+   "params:3",
+   "responses:1"
+  ],
+  "DELETE /repos/{owner}/{repo}/issues/comments/{comment_id}/pin": [
+   "params:3",
+   "responses:6"
+  ],
+  "DELETE /repos/{owner}/{repo}/issues/comments/{comment_id}/reactions/{reaction_id}": [
+   "params:4",
+   "responses:1"
+  ],
+  "DELETE /repos/{owner}/{repo}/issues/{issue_number}/assignees": [
+   "body",
+   "params:3",
+   "responses:1"
+  ],
+  "DELETE /repos/{owner}/{repo}/issues/{issue_number}/dependencies/blocked_by/{issue_id}": [
+   "params:4",
+   "responses:7"
+  ],
+  "DELETE /repos/{owner}/{repo}/issues/{issue_number}/issue-field-values/{issue_field_id}": [
+   "params:4",
+   "responses:5"
+  ],
+  "DELETE /repos/{owner}/{repo}/issues/{issue_number}/labels": [
+   "params:3",
+   "responses:4"
+  ],
+  "DELETE /repos/{owner}/{repo}/issues/{issue_number}/labels/{name}": [
+   "params:4",
+   "responses:4"
+  ],
+  "DELETE /repos/{owner}/{repo}/issues/{issue_number}/lock": [
+   "params:3",
+   "responses:3"
+  ],
+  "DELETE /repos/{owner}/{repo}/issues/{issue_number}/reactions/{reaction_id}": [
+   "params:4",
+   "responses:1"
+  ],
+  "DELETE /repos/{owner}/{repo}/issues/{issue_number}/sub_issue": [
+   "body",
+   "params:3",
+   "responses:4"
+  ],
+  "DELETE /repos/{owner}/{repo}/keys/{key_id}": [
+   "params:3",
+   "responses:1"
+  ],
+  "DELETE /repos/{owner}/{repo}/labels/{name}": [
+   "params:3",
+   "responses:1"
+  ],
+  "DELETE /repos/{owner}/{repo}/milestones/{milestone_number}": [
+   "params:3",
+   "responses:2"
+  ],
+  "DELETE /repos/{owner}/{repo}/pages": [
+   "params:2",
+   "responses:4"
+  ],
+  "DELETE /repos/{owner}/{repo}/private-vulnerability-reporting": [
+   "params:2",
+   "responses:2"
+  ],
+  "DELETE /repos/{owner}/{repo}/pulls/comments/{comment_id}": [
+   "params:3",
+   "responses:2"
+  ],
+  "DELETE /repos/{owner}/{repo}/pulls/comments/{comment_id}/reactions/{reaction_id}": [
+   "params:4",
+   "responses:1"
+  ],
+  "DELETE /repos/{owner}/{repo}/pulls/{pull_number}/requested_reviewers": [
+   "body",
+   "params:3",
+   "responses:2"
+  ],
+  "DELETE /repos/{owner}/{repo}/pulls/{pull_number}/reviews/{review_id}": [
+   "params:4",
+   "responses:3"
+  ],
+  "DELETE /repos/{owner}/{repo}/releases/assets/{asset_id}": [
+   "params:3",
+   "responses:2"
+  ],
+  "DELETE /repos/{owner}/{repo}/releases/{release_id}": [
+   "params:3",
+   "responses:2"
+  ],
+  "DELETE /repos/{owner}/{repo}/releases/{release_id}/reactions/{reaction_id}": [
+   "params:4",
+   "responses:1"
+  ],
+  "DELETE /repos/{owner}/{repo}/rulesets/{ruleset_id}": [
+   "params:3",
+   "responses:3"
+  ],
+  "DELETE /repos/{owner}/{repo}/secret-scanning/custom-patterns": [
+   "body",
+   "params:2",
+   "responses:5"
+  ],
+  "DELETE /repos/{owner}/{repo}/subscription": [
+   "params:2",
+   "responses:1"
+  ],
+  "DELETE /repos/{owner}/{repo}/vulnerability-alerts": [
+   "params:2",
+   "responses:1"
+  ],
+  "DELETE /teams/{team_id}": [
+   "DEPRECATED",
+   "params:1",
+   "responses:3"
+  ],
+  "DELETE /teams/{team_id}/members/{username}": [
+   "DEPRECATED",
+   "params:2",
+   "responses:2"
+  ],
+  "DELETE /teams/{team_id}/memberships/{username}": [
+   "DEPRECATED",
+   "params:2",
+   "responses:2"
+  ],
+  "DELETE /teams/{team_id}/repos/{owner}/{repo}": [
+   "DEPRECATED",
+   "params:3",
+   "responses:1"
+  ],
+  "DELETE /user/blocks/{username}": [
+   "params:1",
+   "responses:5"
+  ],
+  "DELETE /user/codespaces/secrets/{secret_name}": [
+   "params:1",
+   "responses:1"
+  ],
+  "DELETE /user/codespaces/secrets/{secret_name}/repositories/{repository_id}": [
+   "params:2",
+   "responses:5"
+  ],
+  "DELETE /user/codespaces/{codespace_name}": [
+   "params:1",
+   "responses:6"
+  ],
+  "DELETE /user/emails": [
+   "body",
+   "params:0",
+   "responses:6"
+  ],
+  "DELETE /user/following/{username}": [
+   "params:1",
+   "responses:5"
+  ],
+  "DELETE /user/gpg_keys/{gpg_key_id}": [
+   "params:1",
+   "responses:6"
+  ],
+  "DELETE /user/installations/{installation_id}/repositories/{repository_id}": [
+   "params:2",
+   "responses:5"
+  ],
+  "DELETE /user/interaction-limits": [
+   "params:0",
+   "responses:1"
+  ],
+  "DELETE /user/keys/{key_id}": [
+   "params:1",
+   "responses:5"
+  ],
+  "DELETE /user/migrations/{migration_id}/archive": [
+   "params:1",
+   "responses:5"
+  ],
+  "DELETE /user/migrations/{migration_id}/repos/{repo_name}/lock": [
+   "params:2",
+   "responses:5"
+  ],
+  "DELETE /user/packages/{package_type}/{package_name}": [
+   "params:2",
+   "responses:4"
+  ],
+  "DELETE /user/packages/{package_type}/{package_name}/versions/{package_version_id}": [
+   "params:3",
+   "responses:4"
+  ],
+  "DELETE /user/repository_invitations/{invitation_id}": [
+   "params:1",
+   "responses:5"
+  ],
+  "DELETE /user/social_accounts": [
+   "body",
+   "params:0",
+   "responses:6"
+  ],
+  "DELETE /user/ssh_signing_keys/{ssh_signing_key_id}": [
+   "params:1",
+   "responses:5"
+  ],
+  "DELETE /user/starred/{owner}/{repo}": [
+   "params:2",
+   "responses:5"
+  ],
+  "DELETE /users/{username}/attestations/digest/{subject_digest}": [
+   "params:2",
+   "responses:3"
+  ],
+  "DELETE /users/{username}/attestations/{attestation_id}": [
+   "params:2",
+   "responses:4"
+  ],
+  "DELETE /users/{username}/copilot-spaces/{space_number}": [
+   "params:2",
+   "responses:3"
+  ],
+  "DELETE /users/{username}/copilot-spaces/{space_number}/collaborators/{actor_type}/{actor_identifier}": [
+   "params:4",
+   "responses:3"
+  ],
+  "DELETE /users/{username}/copilot-spaces/{space_number}/resources/{space_resource_id}": [
+   "params:3",
+   "responses:3"
+  ],
+  "DELETE /users/{username}/packages/{package_type}/{package_name}": [
+   "params:3",
+   "responses:4"
+  ],
+  "DELETE /users/{username}/packages/{package_type}/{package_name}/versions/{package_version_id}": [
+   "params:4",
+   "responses:4"
+  ],
+  "DELETE /users/{username}/projectsV2/{project_number}/items/{item_id}": [
+   "params:3",
+   "responses:3"
+  ],
+  "GET /": [
+   "params:0",
+   "responses:1"
+  ],
+  "GET /advisories": [
+   "params:18",
+   "responses:3"
+  ],
+  "GET /advisories/{ghsa_id}": [
+   "params:1",
+   "responses:2"
+  ],
+  "GET /agents/repos/{owner}/{repo}/tasks": [
+   "params:10",
+   "responses:6"
+  ],
+  "GET /agents/repos/{owner}/{repo}/tasks/{task_id}": [
+   "params:3",
+   "responses:6"
+  ],
+  "GET /agents/tasks": [
+   "params:7",
+   "responses:5"
+  ],
+  "GET /agents/tasks/{task_id}": [
+   "params:1",
+   "responses:6"
+  ],
+  "GET /app": [
+   "params:0",
+   "responses:1"
+  ],
+  "GET /app/hook/config": [
+   "params:0",
+   "responses:1"
+  ],
+  "GET /app/hook/deliveries": [
+   "params:3",
+   "responses:3"
+  ],
+  "GET /app/hook/deliveries/{delivery_id}": [
+   "params:1",
+   "responses:3"
+  ],
+  "GET /app/installation-requests": [
+   "params:2",
+   "responses:3"
+  ],
+  "GET /app/installations": [
+   "params:4",
+   "responses:1"
+  ],
+  "GET /app/installations/{installation_id}": [
+   "params:1",
+   "responses:2"
+  ],
+  "GET /apps/{app_slug}": [
+   "params:1",
+   "responses:3"
+  ],
+  "GET /assignments/{assignment_id}": [
+   "DEPRECATED",
+   "params:1",
+   "responses:3"
+  ],
+  "GET /assignments/{assignment_id}/accepted_assignments": [
+   "DEPRECATED",
+   "params:3",
+   "responses:2"
+  ],
+  "GET /assignments/{assignment_id}/grades": [
+   "DEPRECATED",
+   "params:1",
+   "responses:3"
+  ],
+  "GET /classrooms": [
+   "DEPRECATED",
+   "params:2",
+   "responses:2"
+  ],
+  "GET /classrooms/{classroom_id}": [
+   "DEPRECATED",
+   "params:1",
+   "responses:3"
+  ],
+  "GET /classrooms/{classroom_id}/assignments": [
+   "DEPRECATED",
+   "params:3",
+   "responses:2"
+  ],
+  "GET /codes_of_conduct": [
+   "params:0",
+   "responses:2"
+  ],
+  "GET /codes_of_conduct/{key}": [
+   "params:1",
+   "responses:3"
+  ],
+  "GET /emojis": [
+   "params:0",
+   "responses:2"
+  ],
+  "GET /enterprises/{enterprise}/actions/cache/retention-limit": [
+   "params:1",
+   "responses:3"
+  ],
+  "GET /enterprises/{enterprise}/actions/cache/storage-limit": [
+   "params:1",
+   "responses:3"
+  ],
+  "GET /enterprises/{enterprise}/actions/oidc/customization/properties/repo": [
+   "params:1",
+   "responses:3"
+  ],
+  "GET /enterprises/{enterprise}/code-security/configurations": [
+   "params:4",
+   "responses:3"
+  ],
+  "GET /enterprises/{enterprise}/code-security/configurations/defaults": [
+   "params:1",
+   "responses:1"
+  ],
+  "GET /enterprises/{enterprise}/code-security/configurations/{configuration_id}": [
+   "params:2",
+   "responses:4"
+  ],
+  "GET /enterprises/{enterprise}/code-security/configurations/{configuration_id}/repositories": [
+   "params:6",
+   "responses:3"
+  ],
+  "GET /enterprises/{enterprise}/copilot/metrics/reports/enterprise-1-day": [
+   "params:2",
+   "responses:4"
+  ],
+  "GET /enterprises/{enterprise}/copilot/metrics/reports/enterprise-28-day/latest": [
+   "params:1",
+   "responses:4"
+  ],
+  "GET /enterprises/{enterprise}/copilot/metrics/reports/repos-1-day": [
+   "params:2",
+   "responses:5"
+  ],
+  "GET /enterprises/{enterprise}/copilot/metrics/reports/user-teams-1-day": [
+   "params:2",
+   "responses:4"
+  ],
+  "GET /enterprises/{enterprise}/copilot/metrics/reports/users-1-day": [
+   "params:2",
+   "responses:4"
+  ],
+  "GET /enterprises/{enterprise}/copilot/metrics/reports/users-28-day/latest": [
+   "params:1",
+   "responses:4"
+  ],
+  "GET /enterprises/{enterprise}/dependabot/alerts": [
+   "params:16",
+   "responses:5"
+  ],
+  "GET /enterprises/{enterprise}/dependabot/repository-access": [
+   "params:3",
+   "responses:3"
+  ],
+  "GET /enterprises/{enterprise}/teams": [
+   "params:3",
+   "responses:2"
+  ],
+  "GET /enterprises/{enterprise}/teams/{enterprise-team}/memberships": [
+   "params:4",
+   "responses:1"
+  ],
+  "GET /enterprises/{enterprise}/teams/{enterprise-team}/memberships/{username}": [
+   "params:3",
+   "responses:1"
+  ],
+  "GET /enterprises/{enterprise}/teams/{enterprise-team}/organizations": [
+   "params:4",
+   "responses:1"
+  ],
+  "GET /enterprises/{enterprise}/teams/{enterprise-team}/organizations/{org}": [
+   "params:3",
+   "responses:2"
+  ],
+  "GET /enterprises/{enterprise}/teams/{team_slug}": [
+   "params:2",
+   "responses:2"
+  ],
+  "GET /events": [
+   "params:2",
+   "responses:4"
+  ],
+  "GET /feeds": [
+   "params:0",
+   "responses:1"
+  ],
+  "GET /gists": [
+   "params:3",
+   "responses:3"
+  ],
+  "GET /gists/public": [
+   "params:3",
+   "responses:4"
+  ],
+  "GET /gists/starred": [
+   "params:3",
+   "responses:4"
+  ],
+  "GET /gists/{gist_id}": [
+   "params:1",
+   "responses:4"
+  ],
+  "GET /gists/{gist_id}/comments": [
+   "params:3",
+   "responses:4"
+  ],
+  "GET /gists/{gist_id}/comments/{comment_id}": [
+   "params:2",
+   "responses:4"
+  ],
+  "GET /gists/{gist_id}/commits": [
+   "params:3",
+   "responses:4"
+  ],
+  "GET /gists/{gist_id}/forks": [
+   "params:3",
+   "responses:4"
+  ],
+  "GET /gists/{gist_id}/star": [
+   "params:1",
+   "responses:4"
+  ],
+  "GET /gists/{gist_id}/{sha}": [
+   "params:2",
+   "responses:4"
+  ],
+  "GET /gitignore/templates": [
+   "params:0",
+   "responses:2"
+  ],
+  "GET /gitignore/templates/{name}": [
+   "params:1",
+   "responses:2"
+  ],
+  "GET /installation/repositories": [
+   "params:2",
+   "responses:4"
+  ],
+  "GET /issues": [
+   "params:12",
+   "responses:4"
+  ],
+  "GET /licenses": [
+   "params:3",
+   "responses:2"
+  ],
+  "GET /licenses/{license}": [
+   "params:1",
+   "responses:4"
+  ],
+  "GET /marketplace_listing/accounts/{account_id}": [
+   "params:1",
+   "responses:3"
+  ],
+  "GET /marketplace_listing/plans": [
+   "params:2",
+   "responses:3"
+  ],
+  "GET /marketplace_listing/plans/{plan_id}/accounts": [
+   "params:5",
+   "responses:4"
+  ],
+  "GET /marketplace_listing/stubbed/accounts/{account_id}": [
+   "params:1",
+   "responses:3"
+  ],
+  "GET /marketplace_listing/stubbed/plans": [
+   "params:2",
+   "responses:2"
+  ],
+  "GET /marketplace_listing/stubbed/plans/{plan_id}/accounts": [
+   "params:5",
+   "responses:2"
+  ],
+  "GET /meta": [
+   "params:0",
+   "responses:2"
+  ],
+  "GET /networks/{owner}/{repo}/events": [
+   "params:4",
+   "responses:5"
+  ],
+  "GET /notifications": [
+   "params:6",
+   "responses:5"
+  ],
+  "GET /notifications/threads/{thread_id}": [
+   "params:1",
+   "responses:4"
+  ],
+  "GET /notifications/threads/{thread_id}/subscription": [
+   "params:1",
+   "responses:4"
+  ],
+  "GET /octocat": [
+   "params:1",
+   "responses:1"
+  ],
+  "GET /organizations": [
+   "params:2",
+   "responses:2"
+  ],
+  "GET /organizations/{org}/actions/cache/retention-limit": [
+   "params:1",
+   "responses:3"
+  ],
+  "GET /organizations/{org}/actions/cache/storage-limit": [
+   "params:1",
+   "responses:3"
+  ],
+  "GET /organizations/{org}/settings/billing/ai_credit/usage": [
+   "params:7",
+   "responses:6"
+  ],
+  "GET /organizations/{org}/settings/billing/budgets": [
+   "params:5",
+   "responses:4"
+  ],
+  "GET /organizations/{org}/settings/billing/budgets/{budget_id}": [
+   "params:2",
+   "responses:6"
+  ],
+  "GET /organizations/{org}/settings/billing/premium_request/usage": [
+   "params:7",
+   "responses:6"
+  ],
+  "GET /organizations/{org}/settings/billing/usage": [
+   "params:4",
+   "responses:5"
+  ],
+  "GET /organizations/{org}/settings/billing/usage/summary": [
+   "params:7",
+   "responses:5"
+  ],
+  "GET /orgs/{org}": [
+   "params:1",
+   "responses:2"
+  ],
+  "GET /orgs/{org}/actions/cache/usage": [
+   "params:1",
+   "responses:1"
+  ],
+  "GET /orgs/{org}/actions/cache/usage-by-repository": [
+   "params:3",
+   "responses:1"
+  ],
+  "GET /orgs/{org}/actions/hosted-runners": [
+   "params:3",
+   "responses:1"
+  ],
+  "GET /orgs/{org}/actions/hosted-runners/images/custom": [
+   "params:1",
+   "responses:1"
+  ],
+  "GET /orgs/{org}/actions/hosted-runners/images/custom/{image_definition_id}": [
+   "params:2",
+   "responses:1"
+  ],
+  "GET /orgs/{org}/actions/hosted-runners/images/custom/{image_definition_id}/versions": [
+   "params:2",
+   "responses:1"
+  ],
+  "GET /orgs/{org}/actions/hosted-runners/images/custom/{image_definition_id}/versions/{version}": [
+   "params:3",
+   "responses:1"
+  ],
+  "GET /orgs/{org}/actions/hosted-runners/images/github-owned": [
+   "params:1",
+   "responses:1"
+  ],
+  "GET /orgs/{org}/actions/hosted-runners/images/partner": [
+   "params:1",
+   "responses:1"
+  ],
+  "GET /orgs/{org}/actions/hosted-runners/limits": [
+   "params:1",
+   "responses:1"
+  ],
+  "GET /orgs/{org}/actions/hosted-runners/machine-sizes": [
+   "params:1",
+   "responses:1"
+  ],
+  "GET /orgs/{org}/actions/hosted-runners/platforms": [
+   "params:1",
+   "responses:1"
+  ],
+  "GET /orgs/{org}/actions/hosted-runners/{hosted_runner_id}": [
+   "params:2",
+   "responses:1"
+  ],
+  "GET /orgs/{org}/actions/oidc/customization/properties/repo": [
+   "params:1",
+   "responses:3"
+  ],
+  "GET /orgs/{org}/actions/oidc/customization/sub": [
+   "params:1",
+   "responses:1"
+  ],
+  "GET /orgs/{org}/actions/permissions": [
+   "params:1",
+   "responses:1"
+  ],
+  "GET /orgs/{org}/actions/permissions/artifact-and-log-retention": [
+   "params:1",
+   "responses:3"
+  ],
+  "GET /orgs/{org}/actions/permissions/fork-pr-contributor-approval": [
+   "params:1",
+   "responses:2"
+  ],
+  "GET /orgs/{org}/actions/permissions/fork-pr-workflows-private-repos": [
+   "params:1",
+   "responses:3"
+  ],
+  "GET /orgs/{org}/actions/permissions/repositories": [
+   "params:3",
+   "responses:1"
+  ],
+  "GET /orgs/{org}/actions/permissions/selected-actions": [
+   "params:1",
+   "responses:1"
+  ],
+  "GET /orgs/{org}/actions/permissions/self-hosted-runners": [
+   "params:1",
+   "responses:3"
+  ],
+  "GET /orgs/{org}/actions/permissions/self-hosted-runners/repositories": [
+   "params:3",
+   "responses:3"
+  ],
+  "GET /orgs/{org}/actions/permissions/workflow": [
+   "params:1",
+   "responses:1"
+  ],
+  "GET /orgs/{org}/actions/runner-groups": [
+   "params:4",
+   "responses:1"
+  ],
+  "GET /orgs/{org}/actions/runner-groups/{runner_group_id}": [
+   "params:2",
+   "responses:1"
+  ],
+  "GET /orgs/{org}/actions/runner-groups/{runner_group_id}/hosted-runners": [
+   "params:4",
+   "responses:1"
+  ],
+  "GET /orgs/{org}/actions/runner-groups/{runner_group_id}/repositories": [
+   "params:4",
+   "responses:1"
+  ],
+  "GET /orgs/{org}/actions/runner-groups/{runner_group_id}/runners": [
+   "params:4",
+   "responses:1"
+  ],
+  "GET /orgs/{org}/actions/runners": [
+   "params:4",
+   "responses:1"
+  ],
+  "GET /orgs/{org}/actions/runners/downloads": [
+   "params:1",
+   "responses:1"
+  ],
+  "GET /orgs/{org}/actions/runners/{runner_id}": [
+   "params:2",
+   "responses:1"
+  ],
+  "GET /orgs/{org}/actions/runners/{runner_id}/labels": [
+   "params:2",
+   "responses:2"
+  ],
+  "GET /orgs/{org}/actions/secrets": [
+   "params:3",
+   "responses:1"
+  ],
+  "GET /orgs/{org}/actions/secrets/public-key": [
+   "params:1",
+   "responses:1"
+  ],
+  "GET /orgs/{org}/actions/secrets/{secret_name}": [
+   "params:2",
+   "responses:1"
+  ],
+  "GET /orgs/{org}/actions/secrets/{secret_name}/repositories": [
+   "params:4",
+   "responses:1"
+  ],
+  "GET /orgs/{org}/actions/variables": [
+   "params:3",
+   "responses:1"
+  ],
+  "GET /orgs/{org}/actions/variables/{name}": [
+   "params:2",
+   "responses:1"
+  ],
+  "GET /orgs/{org}/actions/variables/{name}/repositories": [
+   "params:4",
+   "responses:2"
+  ],
+  "GET /orgs/{org}/agents/secrets": [
+   "params:3",
+   "responses:1"
+  ],
+  "GET /orgs/{org}/agents/secrets/public-key": [
+   "params:1",
+   "responses:1"
+  ],
+  "GET /orgs/{org}/agents/secrets/{secret_name}": [
+   "params:2",
+   "responses:1"
+  ],
+  "GET /orgs/{org}/agents/secrets/{secret_name}/repositories": [
+   "params:4",
+   "responses:1"
+  ],
+  "GET /orgs/{org}/agents/variables": [
+   "params:3",
+   "responses:1"
+  ],
+  "GET /orgs/{org}/agents/variables/{name}": [
+   "params:2",
+   "responses:1"
+  ],
+  "GET /orgs/{org}/agents/variables/{name}/repositories": [
+   "params:4",
+   "responses:2"
+  ],
+  "GET /orgs/{org}/artifacts/metadata/deployment-record/cluster/{cluster}/jobs/{job_id}": [
+   "params:3",
+   "responses:2"
+  ],
+  "GET /orgs/{org}/artifacts/{subject_digest}/metadata/deployment-records": [
+   "params:2",
+   "responses:1"
+  ],
+  "GET /orgs/{org}/artifacts/{subject_digest}/metadata/storage-records": [
+   "params:2",
+   "responses:1"
+  ],
+  "GET /orgs/{org}/attestations/repositories": [
+   "params:5",
+   "responses:1"
+  ],
+  "GET /orgs/{org}/attestations/{subject_digest}": [
+   "params:6",
+   "responses:1"
+  ],
+  "GET /orgs/{org}/blocks": [
+   "params:3",
+   "responses:1"
+  ],
+  "GET /orgs/{org}/blocks/{username}": [
+   "params:2",
+   "responses:2"
+  ],
+  "GET /orgs/{org}/campaigns": [
+   "params:6",
+   "responses:3"
+  ],
+  "GET /orgs/{org}/campaigns/{campaign_number}": [
+   "params:2",
+   "responses:4"
+  ],
+  "GET /orgs/{org}/code-scanning/alerts": [
+   "params:12",
+   "responses:3"
+  ],
+  "GET /orgs/{org}/code-security/configurations": [
+   "params:5",
+   "responses:3"
+  ],
+  "GET /orgs/{org}/code-security/configurations/defaults": [
+   "params:1",
+   "responses:4"
+  ],
+  "GET /orgs/{org}/code-security/configurations/{configuration_id}": [
+   "params:2",
+   "responses:4"
+  ],
+  "GET /orgs/{org}/code-security/configurations/{configuration_id}/repositories": [
+   "params:6",
+   "responses:3"
+  ],
+  "GET /orgs/{org}/codespaces": [
+   "params:3",
+   "responses:6"
+  ],
+  "GET /orgs/{org}/codespaces/secrets": [
+   "params:3",
+   "responses:1"
+  ],
+  "GET /orgs/{org}/codespaces/secrets/public-key": [
+   "params:1",
+   "responses:1"
+  ],
+  "GET /orgs/{org}/codespaces/secrets/{secret_name}": [
+   "params:2",
+   "responses:1"
+  ],
+  "GET /orgs/{org}/codespaces/secrets/{secret_name}/repositories": [
+   "params:4",
+   "responses:2"
+  ],
+  "GET /orgs/{org}/copilot-spaces": [
+   "params:4",
+   "responses:3"
+  ],
+  "GET /orgs/{org}/copilot-spaces/{space_number}": [
+   "params:2",
+   "responses:3"
+  ],
+  "GET /orgs/{org}/copilot-spaces/{space_number}/collaborators": [
+   "params:2",
+   "responses:3"
+  ],
+  "GET /orgs/{org}/copilot-spaces/{space_number}/resources": [
+   "params:2",
+   "responses:3"
+  ],
+  "GET /orgs/{org}/copilot-spaces/{space_number}/resources/{space_resource_id}": [
+   "params:3",
+   "responses:3"
+  ],
+  "GET /orgs/{org}/copilot/billing": [
+   "params:1",
+   "responses:6"
+  ],
+  "GET /orgs/{org}/copilot/billing/seats": [
+   "params:3",
+   "responses:5"
+  ],
+  "GET /orgs/{org}/copilot/coding-agent/permissions": [
+   "params:1",
+   "responses:5"
+  ],
+  "GET /orgs/{org}/copilot/coding-agent/permissions/repositories": [
+   "params:3",
+   "responses:6"
+  ],
+  "GET /orgs/{org}/copilot/content_exclusion": [
+   "params:1",
+   "responses:5"
+  ],
+  "GET /orgs/{org}/copilot/metrics/reports/organization-1-day": [
+   "params:2",
+   "responses:5"
+  ],
+  "GET /orgs/{org}/copilot/metrics/reports/organization-28-day/latest": [
+   "params:1",
+   "responses:4"
+  ],
+  "GET /orgs/{org}/copilot/metrics/reports/repos-1-day": [
+   "params:2",
+   "responses:5"
+  ],
+  "GET /orgs/{org}/copilot/metrics/reports/user-teams-1-day": [
+   "params:2",
+   "responses:5"
+  ],
+  "GET /orgs/{org}/copilot/metrics/reports/users-1-day": [
+   "params:2",
+   "responses:5"
+  ],
+  "GET /orgs/{org}/copilot/metrics/reports/users-28-day/latest": [
+   "params:1",
+   "responses:4"
+  ],
+  "GET /orgs/{org}/dependabot/alerts": [
+   "params:19",
+   "responses:6"
+  ],
+  "GET /orgs/{org}/dependabot/repository-access": [
+   "params:3",
+   "responses:3"
+  ],
+  "GET /orgs/{org}/dependabot/secrets": [
+   "params:3",
+   "responses:1"
+  ],
+  "GET /orgs/{org}/dependabot/secrets/public-key": [
+   "params:1",
+   "responses:1"
+  ],
+  "GET /orgs/{org}/dependabot/secrets/{secret_name}": [
+   "params:2",
+   "responses:1"
+  ],
+  "GET /orgs/{org}/dependabot/secrets/{secret_name}/repositories": [
+   "params:4",
+   "responses:1"
+  ],
+  "GET /orgs/{org}/docker/conflicts": [
+   "params:1",
+   "responses:3"
+  ],
+  "GET /orgs/{org}/events": [
+   "params:3",
+   "responses:1"
+  ],
+  "GET /orgs/{org}/failed_invitations": [
+   "params:3",
+   "responses:2"
+  ],
+  "GET /orgs/{org}/hooks": [
+   "params:3",
+   "responses:2"
+  ],
+  "GET /orgs/{org}/hooks/{hook_id}": [
+   "params:2",
+   "responses:2"
+  ],
+  "GET /orgs/{org}/hooks/{hook_id}/config": [
+   "params:2",
+   "responses:1"
+  ],
+  "GET /orgs/{org}/hooks/{hook_id}/deliveries": [
+   "params:5",
+   "responses:3"
+  ],
+  "GET /orgs/{org}/hooks/{hook_id}/deliveries/{delivery_id}": [
+   "params:3",
+   "responses:3"
+  ],
+  "GET /orgs/{org}/insights/api/route-stats/{actor_type}/{actor_id}": [
+   "params:10",
+   "responses:1"
+  ],
+  "GET /orgs/{org}/insights/api/subject-stats": [
+   "params:8",
+   "responses:1"
+  ],
+  "GET /orgs/{org}/insights/api/summary-stats": [
+   "params:3",
+   "responses:1"
+  ],
+  "GET /orgs/{org}/insights/api/summary-stats/users/{user_id}": [
+   "params:4",
+   "responses:1"
+  ],
+  "GET /orgs/{org}/insights/api/summary-stats/{actor_type}/{actor_id}": [
+   "params:5",
+   "responses:1"
+  ],
+  "GET /orgs/{org}/insights/api/time-stats": [
+   "params:4",
+   "responses:1"
+  ],
+  "GET /orgs/{org}/insights/api/time-stats/users/{user_id}": [
+   "params:5",
+   "responses:1"
+  ],
+  "GET /orgs/{org}/insights/api/time-stats/{actor_type}/{actor_id}": [
+   "params:6",
+   "responses:1"
+  ],
+  "GET /orgs/{org}/insights/api/user-stats/{user_id}": [
+   "params:9",
+   "responses:1"
+  ],
+  "GET /orgs/{org}/installation": [
+   "params:1",
+   "responses:1"
+  ],
+  "GET /orgs/{org}/installations": [
+   "params:3",
+   "responses:1"
+  ],
+  "GET /orgs/{org}/interaction-limits": [
+   "params:1",
+   "responses:1"
+  ],
+  "GET /orgs/{org}/interaction-limits/pulls/creation-cap": [
+   "params:1",
+   "responses:4"
+  ],
+  "GET /orgs/{org}/invitations": [
+   "params:5",
+   "responses:2"
+  ],
+  "GET /orgs/{org}/invitations/{invitation_id}/teams": [
+   "params:4",
+   "responses:2"
+  ],
+  "GET /orgs/{org}/issue-fields": [
+   "params:1",
+   "responses:2"
+  ],
+  "GET /orgs/{org}/issue-types": [
+   "params:1",
+   "responses:2"
+  ],
+  "GET /orgs/{org}/issues": [
+   "params:10",
+   "responses:2"
+  ],
+  "GET /orgs/{org}/members": [
+   "params:5",
+   "responses:2"
+  ],
+  "GET /orgs/{org}/members/{username}": [
+   "params:2",
+   "responses:3"
+  ],
+  "GET /orgs/{org}/members/{username}/codespaces": [
+   "params:4",
+   "responses:6"
+  ],
+  "GET /orgs/{org}/members/{username}/copilot": [
+   "params:2",
+   "responses:6"
+  ],
+  "GET /orgs/{org}/memberships/{username}": [
+   "params:2",
+   "responses:3"
+  ],
+  "GET /orgs/{org}/migrations": [
+   "params:4",
+   "responses:1"
+  ],
+  "GET /orgs/{org}/migrations/{migration_id}": [
+   "params:3",
+   "responses:2"
+  ],
+  "GET /orgs/{org}/migrations/{migration_id}/archive": [
+   "params:2",
+   "responses:2"
+  ],
+  "GET /orgs/{org}/migrations/{migration_id}/repositories": [
+   "params:4",
+   "responses:2"
+  ],
+  "GET /orgs/{org}/organization-roles": [
+   "params:1",
+   "responses:3"
+  ],
+  "GET /orgs/{org}/organization-roles/{role_id}": [
+   "params:2",
+   "responses:3"
+  ],
+  "GET /orgs/{org}/organization-roles/{role_id}/teams": [
+   "params:4",
+   "responses:3"
+  ],
+  "GET /orgs/{org}/organization-roles/{role_id}/users": [
+   "params:4",
+   "responses:3"
+  ],
+  "GET /orgs/{org}/outside_collaborators": [
+   "params:4",
+   "responses:1"
+  ],
+  "GET /orgs/{org}/packages": [
+   "params:5",
+   "responses:4"
+  ],
+  "GET /orgs/{org}/packages/{package_type}/{package_name}": [
+   "params:3",
+   "responses:1"
+  ],
+  "GET /orgs/{org}/packages/{package_type}/{package_name}/versions": [
+   "params:6",
+   "responses:4"
+  ],
+  "GET /orgs/{org}/packages/{package_type}/{package_name}/versions/{package_version_id}": [
+   "params:4",
+   "responses:1"
+  ],
+  "GET /orgs/{org}/personal-access-token-requests": [
+   "params:11",
+   "responses:5"
+  ],
+  "GET /orgs/{org}/personal-access-token-requests/{pat_request_id}/repositories": [
+   "params:4",
+   "responses:4"
+  ],
+  "GET /orgs/{org}/personal-access-tokens": [
+   "params:11",
+   "responses:5"
+  ],
+  "GET /orgs/{org}/personal-access-tokens/{pat_id}/repositories": [
+   "params:4",
+   "responses:4"
+  ],
+  "GET /orgs/{org}/private-registries": [
+   "params:3",
+   "responses:3"
+  ],
+  "GET /orgs/{org}/private-registries/public-key": [
+   "params:1",
+   "responses:2"
+  ],
+  "GET /orgs/{org}/private-registries/{secret_name}": [
+   "params:2",
+   "responses:2"
+  ],
+  "GET /orgs/{org}/projectsV2": [
+   "params:5",
+   "responses:4"
+  ],
+  "GET /orgs/{org}/projectsV2/{project_number}": [
+   "params:2",
+   "responses:4"
+  ],
+  "GET /orgs/{org}/projectsV2/{project_number}/fields": [
+   "params:5",
+   "responses:4"
+  ],
+  "GET /orgs/{org}/projectsV2/{project_number}/fields/{field_id}": [
+   "params:3",
+   "responses:4"
+  ],
+  "GET /orgs/{org}/projectsV2/{project_number}/items": [
+   "params:7",
+   "responses:4"
+  ],
+  "GET /orgs/{org}/projectsV2/{project_number}/items/{item_id}": [
+   "params:4",
+   "responses:4"
+  ],
+  "GET /orgs/{org}/projectsV2/{project_number}/views/{view_number}/items": [
+   "params:7",
+   "responses:5"
+  ],
+  "GET /orgs/{org}/properties/schema": [
+   "params:1",
+   "responses:3"
+  ],
+  "GET /orgs/{org}/properties/schema/{custom_property_name}": [
+   "params:2",
+   "responses:3"
+  ],
+  "GET /orgs/{org}/properties/values": [
+   "params:4",
+   "responses:3"
+  ],
+  "GET /orgs/{org}/public_members": [
+   "params:3",
+   "responses:1"
+  ],
+  "GET /orgs/{org}/public_members/{username}": [
+   "params:2",
+   "responses:2"
+  ],
+  "GET /orgs/{org}/repos": [
+   "params:6",
+   "responses:1"
+  ],
+  "GET /orgs/{org}/rulesets": [
+   "params:4",
+   "responses:3"
+  ],
+  "GET /orgs/{org}/rulesets/rule-suites": [
+   "params:9",
+   "responses:3"
+  ],
+  "GET /orgs/{org}/rulesets/rule-suites/{rule_suite_id}": [
+   "params:2",
+   "responses:3"
+  ],
+  "GET /orgs/{org}/rulesets/{ruleset_id}": [
+   "params:2",
+   "responses:3"
+  ],
+  "GET /orgs/{org}/rulesets/{ruleset_id}/history": [
+   "params:4",
+   "responses:3"
+  ],
+  "GET /orgs/{org}/rulesets/{ruleset_id}/history/{version_id}": [
+   "params:3",
+   "responses:3"
+  ],
+  "GET /orgs/{org}/secret-scanning/alerts": [
+   "params:21",
+   "responses:3"
+  ],
+  "GET /orgs/{org}/secret-scanning/custom-patterns": [
+   "params:7",
+   "responses:3"
+  ],
+  "GET /orgs/{org}/secret-scanning/pattern-configurations": [
+   "params:1",
+   "responses:3"
+  ],
+  "GET /orgs/{org}/security-advisories": [
+   "params:7",
+   "responses:3"
+  ],
+  "GET /orgs/{org}/security-managers": [
+   "DEPRECATED",
+   "params:1",
+   "responses:1"
+  ],
+  "GET /orgs/{org}/settings/immutable-releases": [
+   "params:1",
+   "responses:1"
+  ],
+  "GET /orgs/{org}/settings/immutable-releases/repositories": [
+   "params:3",
+   "responses:1"
+  ],
+  "GET /orgs/{org}/settings/network-configurations": [
+   "params:3",
+   "responses:1"
+  ],
+  "GET /orgs/{org}/settings/network-configurations/{network_configuration_id}": [
+   "params:2",
+   "responses:1"
+  ],
+  "GET /orgs/{org}/settings/network-settings/{network_settings_id}": [
+   "params:2",
+   "responses:1"
+  ],
+  "GET /orgs/{org}/teams": [
+   "params:4",
+   "responses:2"
+  ],
+  "GET /orgs/{org}/teams/{team_slug}": [
+   "params:2",
+   "responses:2"
+  ],
+  "GET /orgs/{org}/teams/{team_slug}/invitations": [
+   "params:4",
+   "responses:2"
+  ],
+  "GET /orgs/{org}/teams/{team_slug}/members": [
+   "params:5",
+   "responses:1"
+  ],
+  "GET /orgs/{org}/teams/{team_slug}/memberships/{username}": [
+   "params:3",
+   "responses:2"
+  ],
+  "GET /orgs/{org}/teams/{team_slug}/repos": [
+   "params:4",
+   "responses:1"
+  ],
+  "GET /orgs/{org}/teams/{team_slug}/repos/{owner}/{repo}": [
+   "params:4",
+   "responses:3"
+  ],
+  "GET /orgs/{org}/teams/{team_slug}/teams": [
+   "params:4",
+   "responses:1"
+  ],
+  "GET /rate_limit": [
+   "params:0",
+   "responses:3"
+  ],
+  "GET /repos/{owner}/{repo}": [
+   "params:2",
+   "responses:4"
+  ],
+  "GET /repos/{owner}/{repo}/actions/artifacts": [
+   "params:5",
+   "responses:1"
+  ],
+  "GET /repos/{owner}/{repo}/actions/artifacts/{artifact_id}": [
+   "params:3",
+   "responses:1"
+  ],
+  "GET /repos/{owner}/{repo}/actions/artifacts/{artifact_id}/{archive_format}": [
+   "params:4",
+   "responses:2"
+  ],
+  "GET /repos/{owner}/{repo}/actions/cache/retention-limit": [
+   "params:2",
+   "responses:3"
+  ],
+  "GET /repos/{owner}/{repo}/actions/cache/storage-limit": [
+   "params:2",
+   "responses:3"
+  ],
+  "GET /repos/{owner}/{repo}/actions/cache/usage": [
+   "params:2",
+   "responses:1"
+  ],
+  "GET /repos/{owner}/{repo}/actions/caches": [
+   "params:8",
+   "responses:1"
+  ],
+  "GET /repos/{owner}/{repo}/actions/concurrency_groups": [
+   "params:4",
+   "responses:2"
+  ],
+  "GET /repos/{owner}/{repo}/actions/concurrency_groups/{concurrency_group_name}": [
+   "params:5",
+   "responses:3"
+  ],
+  "GET /repos/{owner}/{repo}/actions/jobs/{job_id}": [
+   "params:3",
+   "responses:1"
+  ],
+  "GET /repos/{owner}/{repo}/actions/jobs/{job_id}/logs": [
+   "params:3",
+   "responses:1"
+  ],
+  "GET /repos/{owner}/{repo}/actions/oidc/customization/sub": [
+   "params:2",
+   "responses:3"
+  ],
+  "GET /repos/{owner}/{repo}/actions/organization-secrets": [
+   "params:4",
+   "responses:1"
+  ],
+  "GET /repos/{owner}/{repo}/actions/organization-variables": [
+   "params:4",
+   "responses:1"
+  ],
+  "GET /repos/{owner}/{repo}/actions/permissions": [
+   "params:2",
+   "responses:1"
+  ],
+  "GET /repos/{owner}/{repo}/actions/permissions/access": [
+   "params:2",
+   "responses:1"
+  ],
+  "GET /repos/{owner}/{repo}/actions/permissions/artifact-and-log-retention": [
+   "params:2",
+   "responses:2"
+  ],
+  "GET /repos/{owner}/{repo}/actions/permissions/fork-pr-contributor-approval": [
+   "params:2",
+   "responses:2"
+  ],
+  "GET /repos/{owner}/{repo}/actions/permissions/fork-pr-workflows-private-repos": [
+   "params:2",
+   "responses:3"
+  ],
+  "GET /repos/{owner}/{repo}/actions/permissions/selected-actions": [
+   "params:2",
+   "responses:1"
+  ],
+  "GET /repos/{owner}/{repo}/actions/permissions/workflow": [
+   "params:2",
+   "responses:1"
+  ],
+  "GET /repos/{owner}/{repo}/actions/runners": [
+   "params:5",
+   "responses:1"
+  ],
+  "GET /repos/{owner}/{repo}/actions/runners/downloads": [
+   "params:2",
+   "responses:1"
+  ],
+  "GET /repos/{owner}/{repo}/actions/runners/{runner_id}": [
+   "params:3",
+   "responses:1"
+  ],
+  "GET /repos/{owner}/{repo}/actions/runners/{runner_id}/labels": [
+   "params:3",
+   "responses:2"
+  ],
+  "GET /repos/{owner}/{repo}/actions/runs": [
+   "params:12",
+   "responses:1"
+  ],
+  "GET /repos/{owner}/{repo}/actions/runs/{run_id}": [
+   "params:4",
+   "responses:1"
+  ],
+  "GET /repos/{owner}/{repo}/actions/runs/{run_id}/approvals": [
+   "params:3",
+   "responses:1"
+  ],
+  "GET /repos/{owner}/{repo}/actions/runs/{run_id}/artifacts": [
+   "params:7",
+   "responses:1"
+  ],
+  "GET /repos/{owner}/{repo}/actions/runs/{run_id}/attempts/{attempt_number}": [
+   "params:5",
+   "responses:1"
+  ],
+  "GET /repos/{owner}/{repo}/actions/runs/{run_id}/attempts/{attempt_number}/jobs": [
+   "params:6",
+   "responses:2"
+  ],
+  "GET /repos/{owner}/{repo}/actions/runs/{run_id}/attempts/{attempt_number}/logs": [
+   "params:4",
+   "responses:1"
+  ],
+  "GET /repos/{owner}/{repo}/actions/runs/{run_id}/concurrency_groups": [
+   "params:6",
+   "responses:3"
+  ],
+  "GET /repos/{owner}/{repo}/actions/runs/{run_id}/jobs": [
+   "params:6",
+   "responses:1"
+  ],
+  "GET /repos/{owner}/{repo}/actions/runs/{run_id}/logs": [
+   "params:3",
+   "responses:1"
+  ],
+  "GET /repos/{owner}/{repo}/actions/runs/{run_id}/pending_deployments": [
+   "params:3",
+   "responses:1"
+  ],
+  "GET /repos/{owner}/{repo}/actions/runs/{run_id}/timing": [
+   "params:3",
+   "responses:1"
+  ],
+  "GET /repos/{owner}/{repo}/actions/secrets": [
+   "params:4",
+   "responses:1"
+  ],
+  "GET /repos/{owner}/{repo}/actions/secrets/public-key": [
+   "params:2",
+   "responses:1"
+  ],
+  "GET /repos/{owner}/{repo}/actions/secrets/{secret_name}": [
+   "params:3",
+   "responses:1"
+  ],
+  "GET /repos/{owner}/{repo}/actions/variables": [
+   "params:4",
+   "responses:1"
+  ],
+  "GET /repos/{owner}/{repo}/actions/variables/{name}": [
+   "params:3",
+   "responses:1"
+  ],
+  "GET /repos/{owner}/{repo}/actions/workflows": [
+   "params:4",
+   "responses:1"
+  ],
+  "GET /repos/{owner}/{repo}/actions/workflows/{workflow_id}": [
+   "params:3",
+   "responses:1"
+  ],
+  "GET /repos/{owner}/{repo}/actions/workflows/{workflow_id}/runs": [
+   "params:13",
+   "responses:1"
+  ],
+  "GET /repos/{owner}/{repo}/actions/workflows/{workflow_id}/timing": [
+   "params:3",
+   "responses:1"
+  ],
+  "GET /repos/{owner}/{repo}/activity": [
+   "params:10",
+   "responses:2"
+  ],
+  "GET /repos/{owner}/{repo}/agents/organization-secrets": [
+   "params:4",
+   "responses:1"
+  ],
+  "GET /repos/{owner}/{repo}/agents/organization-variables": [
+   "params:4",
+   "responses:1"
+  ],
+  "GET /repos/{owner}/{repo}/agents/secrets": [
+   "params:4",
+   "responses:1"
+  ],
+  "GET /repos/{owner}/{repo}/agents/secrets/public-key": [
+   "params:2",
+   "responses:1"
+  ],
+  "GET /repos/{owner}/{repo}/agents/secrets/{secret_name}": [
+   "params:3",
+   "responses:1"
+  ],
+  "GET /repos/{owner}/{repo}/agents/variables": [
+   "params:4",
+   "responses:1"
+  ],
+  "GET /repos/{owner}/{repo}/agents/variables/{name}": [
+   "params:3",
+   "responses:1"
+  ],
+  "GET /repos/{owner}/{repo}/assignees": [
+   "params:4",
+   "responses:2"
+  ],
+  "GET /repos/{owner}/{repo}/assignees/{assignee}": [
+   "params:3",
+   "responses:2"
+  ],
+  "GET /repos/{owner}/{repo}/attestations/{subject_digest}": [
+   "params:7",
+   "responses:1"
+  ],
+  "GET /repos/{owner}/{repo}/autolinks": [
+   "params:2",
+   "responses:1"
+  ],
+  "GET /repos/{owner}/{repo}/autolinks/{autolink_id}": [
+   "params:3",
+   "responses:2"
+  ],
+  "GET /repos/{owner}/{repo}/automated-security-fixes": [
+   "params:2",
+   "responses:2"
+  ],
+  "GET /repos/{owner}/{repo}/branches": [
+   "params:5",
+   "responses:2"
+  ],
+  "GET /repos/{owner}/{repo}/branches/{branch}": [
+   "params:3",
+   "responses:3"
+  ],
+  "GET /repos/{owner}/{repo}/branches/{branch}/protection": [
+   "params:3",
+   "responses:2"
+  ],
+  "GET /repos/{owner}/{repo}/branches/{branch}/protection/enforce_admins": [
+   "params:3",
+   "responses:1"
+  ],
+  "GET /repos/{owner}/{repo}/branches/{branch}/protection/required_pull_request_reviews": [
+   "params:3",
+   "responses:1"
+  ],
+  "GET /repos/{owner}/{repo}/branches/{branch}/protection/required_signatures": [
+   "params:3",
+   "responses:2"
+  ],
+  "GET /repos/{owner}/{repo}/branches/{branch}/protection/required_status_checks": [
+   "params:3",
+   "responses:2"
+  ],
+  "GET /repos/{owner}/{repo}/branches/{branch}/protection/required_status_checks/contexts": [
+   "params:3",
+   "responses:2"
+  ],
+  "GET /repos/{owner}/{repo}/branches/{branch}/protection/restrictions": [
+   "params:3",
+   "responses:2"
+  ],
+  "GET /repos/{owner}/{repo}/branches/{branch}/protection/restrictions/apps": [
+   "params:3",
+   "responses:2"
+  ],
+  "GET /repos/{owner}/{repo}/branches/{branch}/protection/restrictions/teams": [
+   "params:3",
+   "responses:2"
+  ],
+  "GET /repos/{owner}/{repo}/branches/{branch}/protection/restrictions/users": [
+   "params:3",
+   "responses:2"
+  ],
+  "GET /repos/{owner}/{repo}/check-runs/{check_run_id}": [
+   "params:3",
+   "responses:1"
+  ],
+  "GET /repos/{owner}/{repo}/check-runs/{check_run_id}/annotations": [
+   "params:5",
+   "responses:1"
+  ],
+  "GET /repos/{owner}/{repo}/check-suites/{check_suite_id}": [
+   "params:3",
+   "responses:1"
+  ],
+  "GET /repos/{owner}/{repo}/check-suites/{check_suite_id}/check-runs": [
+   "params:8",
+   "responses:1"
+  ],
+  "GET /repos/{owner}/{repo}/code-quality/findings": [
+   "params:7",
+   "responses:4"
+  ],
+  "GET /repos/{owner}/{repo}/code-quality/findings/{finding_number}": [
+   "params:3",
+   "responses:4"
+  ],
+  "GET /repos/{owner}/{repo}/code-quality/setup": [
+   "params:2",
+   "responses:4"
+  ],
+  "GET /repos/{owner}/{repo}/code-scanning/alerts": [
+   "params:15",
+   "responses:5"
+  ],
+  "GET /repos/{owner}/{repo}/code-scanning/alerts/{alert_number}": [
+   "params:3",
+   "responses:5"
+  ],
+  "GET /repos/{owner}/{repo}/code-scanning/alerts/{alert_number}/autofix": [
+   "params:3",
+   "responses:5"
+  ],
+  "GET /repos/{owner}/{repo}/code-scanning/alerts/{alert_number}/instances": [
+   "params:7",
+   "responses:4"
+  ],
+  "GET /repos/{owner}/{repo}/code-scanning/analyses": [
+   "params:11",
+   "responses:4"
+  ],
+  "GET /repos/{owner}/{repo}/code-scanning/analyses/{analysis_id}": [
+   "params:3",
+   "responses:5"
+  ],
+  "GET /repos/{owner}/{repo}/code-scanning/codeql/databases": [
+   "params:2",
+   "responses:4"
+  ],
+  "GET /repos/{owner}/{repo}/code-scanning/codeql/databases/{language}": [
+   "params:3",
+   "responses:5"
+  ],
+  "GET /repos/{owner}/{repo}/code-scanning/codeql/variant-analyses/{codeql_variant_analysis_id}": [
+   "params:3",
+   "responses:3"
+  ],
+  "GET /repos/{owner}/{repo}/code-scanning/codeql/variant-analyses/{codeql_variant_analysis_id}/repos/{repo_owner}/{repo_name}": [
+   "params:5",
+   "responses:3"
+  ],
+  "GET /repos/{owner}/{repo}/code-scanning/default-setup": [
+   "params:2",
+   "responses:4"
+  ],
+  "GET /repos/{owner}/{repo}/code-scanning/sarifs/{sarif_id}": [
+   "params:3",
+   "responses:4"
+  ],
+  "GET /repos/{owner}/{repo}/code-security-configuration": [
+   "params:2",
+   "responses:5"
+  ],
+  "GET /repos/{owner}/{repo}/codeowners/errors": [
+   "params:3",
+   "responses:2"
+  ],
+  "GET /repos/{owner}/{repo}/codespaces": [
+   "params:4",
+   "responses:5"
+  ],
+  "GET /repos/{owner}/{repo}/codespaces/devcontainers": [
+   "params:4",
+   "responses:6"
+  ],
+  "GET /repos/{owner}/{repo}/codespaces/machines": [
+   "params:5",
+   "responses:6"
+  ],
+  "GET /repos/{owner}/{repo}/codespaces/new": [
+   "params:4",
+   "responses:4"
+  ],
+  "GET /repos/{owner}/{repo}/codespaces/permissions_check": [
+   "params:4",
+   "responses:6"
+  ],
+  "GET /repos/{owner}/{repo}/codespaces/secrets": [
+   "params:4",
+   "responses:1"
+  ],
+  "GET /repos/{owner}/{repo}/codespaces/secrets/public-key": [
+   "params:2",
+   "responses:1"
+  ],
+  "GET /repos/{owner}/{repo}/codespaces/secrets/{secret_name}": [
+   "params:3",
+   "responses:1"
+  ],
+  "GET /repos/{owner}/{repo}/collaborators": [
+   "params:6",
+   "responses:2"
+  ],
+  "GET /repos/{owner}/{repo}/collaborators/{username}": [
+   "params:3",
+   "responses:2"
+  ],
+  "GET /repos/{owner}/{repo}/collaborators/{username}/permission": [
+   "params:3",
+   "responses:2"
+  ],
+  "GET /repos/{owner}/{repo}/comments": [
+   "params:4",
+   "responses:1"
+  ],
+  "GET /repos/{owner}/{repo}/comments/{comment_id}": [
+   "params:3",
+   "responses:2"
+  ],
+  "GET /repos/{owner}/{repo}/comments/{comment_id}/reactions": [
+   "params:6",
+   "responses:2"
+  ],
+  "GET /repos/{owner}/{repo}/commits": [
+   "params:10",
+   "responses:5"
+  ],
+  "GET /repos/{owner}/{repo}/commits/{commit_sha}/branches-where-head": [
+   "params:3",
+   "responses:3"
+  ],
+  "GET /repos/{owner}/{repo}/commits/{commit_sha}/comments": [
+   "params:5",
+   "responses:1"
+  ],
+  "GET /repos/{owner}/{repo}/commits/{commit_sha}/pulls": [
+   "params:5",
+   "responses:2"
+  ],
+  "GET /repos/{owner}/{repo}/commits/{ref}": [
+   "params:5",
+   "responses:6"
+  ],
+  "GET /repos/{owner}/{repo}/commits/{ref}/check-runs": [
+   "params:9",
+   "responses:1"
+  ],
+  "GET /repos/{owner}/{repo}/commits/{ref}/check-suites": [
+   "params:7",
+   "responses:1"
+  ],
+  "GET /repos/{owner}/{repo}/commits/{ref}/status": [
+   "params:5",
+   "responses:2"
+  ],
+  "GET /repos/{owner}/{repo}/commits/{ref}/statuses": [
+   "params:5",
+   "responses:2"
+  ],
+  "GET /repos/{owner}/{repo}/community/profile": [
+   "params:2",
+   "responses:1"
+  ],
+  "GET /repos/{owner}/{repo}/compare/{basehead}": [
+   "params:5",
+   "responses:4"
+  ],
+  "GET /repos/{owner}/{repo}/contents/{path}": [
+   "body",
+   "params:4",
+   "responses:5"
+  ],
+  "GET /repos/{owner}/{repo}/contributors": [
+   "params:5",
+   "responses:4"
+  ],
+  "GET /repos/{owner}/{repo}/copilot/cloud-agent/configuration": [
+   "params:2",
+   "responses:5"
+  ],
+  "GET /repos/{owner}/{repo}/dependabot/alerts": [
+   "params:18",
+   "responses:6"
+  ],
+  "GET /repos/{owner}/{repo}/dependabot/alerts/{alert_number}": [
+   "params:3",
+   "responses:4"
+  ],
+  "GET /repos/{owner}/{repo}/dependabot/secrets": [
+   "params:4",
+   "responses:1"
+  ],
+  "GET /repos/{owner}/{repo}/dependabot/secrets/public-key": [
+   "params:2",
+   "responses:1"
+  ],
+  "GET /repos/{owner}/{repo}/dependabot/secrets/{secret_name}": [
+   "params:3",
+   "responses:1"
+  ],
+  "GET /repos/{owner}/{repo}/dependency-graph/compare/{basehead}": [
+   "params:4",
+   "responses:6"
+  ],
+  "GET /repos/{owner}/{repo}/dependency-graph/sbom": [
+   "params:2",
+   "responses:3"
+  ],
+  "GET /repos/{owner}/{repo}/dependency-graph/sbom/fetch-report/{sbom_uuid}": [
+   "params:3",
+   "responses:4"
+  ],
+  "GET /repos/{owner}/{repo}/dependency-graph/sbom/generate-report": [
+   "params:2",
+   "responses:3"
+  ],
+  "GET /repos/{owner}/{repo}/deployments": [
+   "params:8",
+   "responses:1"
+  ],
+  "GET /repos/{owner}/{repo}/deployments/{deployment_id}": [
+   "params:3",
+   "responses:2"
+  ],
+  "GET /repos/{owner}/{repo}/deployments/{deployment_id}/statuses": [
+   "params:5",
+   "responses:2"
+  ],
+  "GET /repos/{owner}/{repo}/deployments/{deployment_id}/statuses/{status_id}": [
+   "params:4",
+   "responses:2"
+  ],
+  "GET /repos/{owner}/{repo}/environments": [
+   "params:4",
+   "responses:1"
+  ],
+  "GET /repos/{owner}/{repo}/environments/{environment_name}": [
+   "params:3",
+   "responses:1"
+  ],
+  "GET /repos/{owner}/{repo}/environments/{environment_name}/deployment-branch-policies": [
+   "params:5",
+   "responses:1"
+  ],
+  "GET /repos/{owner}/{repo}/environments/{environment_name}/deployment-branch-policies/{branch_policy_id}": [
+   "params:4",
+   "responses:1"
+  ],
+  "GET /repos/{owner}/{repo}/environments/{environment_name}/deployment_protection_rules": [
+   "params:3",
+   "responses:1"
+  ],
+  "GET /repos/{owner}/{repo}/environments/{environment_name}/deployment_protection_rules/apps": [
+   "params:5",
+   "responses:1"
+  ],
+  "GET /repos/{owner}/{repo}/environments/{environment_name}/deployment_protection_rules/{protection_rule_id}": [
+   "params:4",
+   "responses:1"
+  ],
+  "GET /repos/{owner}/{repo}/environments/{environment_name}/secrets": [
+   "params:5",
+   "responses:1"
+  ],
+  "GET /repos/{owner}/{repo}/environments/{environment_name}/secrets/public-key": [
+   "params:3",
+   "responses:1"
+  ],
+  "GET /repos/{owner}/{repo}/environments/{environment_name}/secrets/{secret_name}": [
+   "params:4",
+   "responses:1"
+  ],
+  "GET /repos/{owner}/{repo}/environments/{environment_name}/variables": [
+   "params:5",
+   "responses:1"
+  ],
+  "GET /repos/{owner}/{repo}/environments/{environment_name}/variables/{name}": [
+   "params:4",
+   "responses:1"
+  ],
+  "GET /repos/{owner}/{repo}/events": [
+   "params:4",
+   "responses:1"
+  ],
+  "GET /repos/{owner}/{repo}/forks": [
+   "params:5",
+   "responses:2"
+  ],
+  "GET /repos/{owner}/{repo}/git/blobs/{file_sha}": [
+   "params:3",
+   "responses:5"
+  ],
+  "GET /repos/{owner}/{repo}/git/commits/{commit_sha}": [
+   "params:3",
+   "responses:3"
+  ],
+  "GET /repos/{owner}/{repo}/git/matching-refs/{ref}": [
+   "params:3",
+   "responses:2"
+  ],
+  "GET /repos/{owner}/{repo}/git/ref/{ref}": [
+   "params:3",
+   "responses:3"
+  ],
+  "GET /repos/{owner}/{repo}/git/tags/{tag_sha}": [
+   "params:3",
+   "responses:3"
+  ],
+  "GET /repos/{owner}/{repo}/git/trees/{tree_sha}": [
+   "params:4",
+   "responses:4"
+  ],
+  "GET /repos/{owner}/{repo}/hash-algorithm": [
+   "params:2",
+   "responses:3"
+  ],
+  "GET /repos/{owner}/{repo}/hooks": [
+   "params:4",
+   "responses:2"
+  ],
+  "GET /repos/{owner}/{repo}/hooks/{hook_id}": [
+   "params:3",
+   "responses:2"
+  ],
+  "GET /repos/{owner}/{repo}/hooks/{hook_id}/config": [
+   "params:3",
+   "responses:1"
+  ],
+  "GET /repos/{owner}/{repo}/hooks/{hook_id}/deliveries": [
+   "params:6",
+   "responses:3"
+  ],
+  "GET /repos/{owner}/{repo}/hooks/{hook_id}/deliveries/{delivery_id}": [
+   "params:4",
+   "responses:3"
+  ],
+  "GET /repos/{owner}/{repo}/immutable-releases": [
+   "params:2",
+   "responses:2"
+  ],
+  "GET /repos/{owner}/{repo}/import": [
+   "DEPRECATED",
+   "params:2",
+   "responses:3"
+  ],
+  "GET /repos/{owner}/{repo}/import/authors": [
+   "DEPRECATED",
+   "params:3",
+   "responses:3"
+  ],
+  "GET /repos/{owner}/{repo}/import/large_files": [
+   "DEPRECATED",
+   "params:2",
+   "responses:2"
+  ],
+  "GET /repos/{owner}/{repo}/installation": [
+   "params:2",
+   "responses:3"
+  ],
+  "GET /repos/{owner}/{repo}/interaction-limits": [
+   "params:2",
+   "responses:1"
+  ],
+  "GET /repos/{owner}/{repo}/interaction-limits/pulls/bypass-list": [
+   "params:2",
+   "responses:3"
+  ],
+  "GET /repos/{owner}/{repo}/interaction-limits/pulls/creation-cap": [
+   "params:2",
+   "responses:4"
+  ],
+  "GET /repos/{owner}/{repo}/invitations": [
+   "params:4",
+   "responses:1"
+  ],
+  "GET /repos/{owner}/{repo}/issue-types": [
+   "params:2",
+   "responses:2"
+  ],
+  "GET /repos/{owner}/{repo}/issues": [
+   "params:15",
+   "responses:4"
+  ],
+  "GET /repos/{owner}/{repo}/issues/comments": [
+   "params:7",
+   "responses:3"
+  ],
+  "GET /repos/{owner}/{repo}/issues/comments/{comment_id}": [
+   "params:3",
+   "responses:2"
+  ],
+  "GET /repos/{owner}/{repo}/issues/comments/{comment_id}/reactions": [
+   "params:6",
+   "responses:2"
+  ],
+  "GET /repos/{owner}/{repo}/issues/events": [
+   "params:4",
+   "responses:2"
+  ],
+  "GET /repos/{owner}/{repo}/issues/events/{event_id}": [
+   "params:3",
+   "responses:4"
+  ],
+  "GET /repos/{owner}/{repo}/issues/{issue_number}": [
+   "params:3",
+   "responses:5"
+  ],
+  "GET /repos/{owner}/{repo}/issues/{issue_number}/assignees/{assignee}": [
+   "params:4",
+   "responses:2"
+  ],
+  "GET /repos/{owner}/{repo}/issues/{issue_number}/comments": [
+   "params:6",
+   "responses:3"
+  ],
+  "GET /repos/{owner}/{repo}/issues/{issue_number}/dependencies/blocked_by": [
+   "params:5",
+   "responses:4"
+  ],
+  "GET /repos/{owner}/{repo}/issues/{issue_number}/dependencies/blocking": [
+   "params:5",
+   "responses:4"
+  ],
+  "GET /repos/{owner}/{repo}/issues/{issue_number}/events": [
+   "params:5",
+   "responses:2"
+  ],
+  "GET /repos/{owner}/{repo}/issues/{issue_number}/issue-field-values": [
+   "params:5",
+   "responses:4"
+  ],
+  "GET /repos/{owner}/{repo}/issues/{issue_number}/labels": [
+   "params:5",
+   "responses:4"
+  ],
+  "GET /repos/{owner}/{repo}/issues/{issue_number}/parent": [
+   "params:3",
+   "responses:4"
+  ],
+  "GET /repos/{owner}/{repo}/issues/{issue_number}/reactions": [
+   "params:6",
+   "responses:3"
+  ],
+  "GET /repos/{owner}/{repo}/issues/{issue_number}/sub_issues": [
+   "params:5",
+   "responses:3"
+  ],
+  "GET /repos/{owner}/{repo}/issues/{issue_number}/suggestions": [
+   "params:7",
+   "responses:3"
+  ],
+  "GET /repos/{owner}/{repo}/issues/{issue_number}/timeline": [
+   "params:6",
+   "responses:4"
+  ],
+  "GET /repos/{owner}/{repo}/keys": [
+   "params:4",
+   "responses:1"
+  ],
+  "GET /repos/{owner}/{repo}/keys/{key_id}": [
+   "params:3",
+   "responses:2"
+  ],
+  "GET /repos/{owner}/{repo}/labels": [
+   "params:4",
+   "responses:2"
+  ],
+  "GET /repos/{owner}/{repo}/labels/{name}": [
+   "params:3",
+   "responses:2"
+  ],
+  "GET /repos/{owner}/{repo}/languages": [
+   "params:2",
+   "responses:1"
+  ],
+  "GET /repos/{owner}/{repo}/license": [
+   "params:3",
+   "responses:2"
+  ],
+  "GET /repos/{owner}/{repo}/milestones": [
+   "params:7",
+   "responses:2"
+  ],
+  "GET /repos/{owner}/{repo}/milestones/{milestone_number}": [
+   "params:3",
+   "responses:2"
+  ],
+  "GET /repos/{owner}/{repo}/milestones/{milestone_number}/labels": [
+   "params:5",
+   "responses:1"
+  ],
+  "GET /repos/{owner}/{repo}/notifications": [
+   "params:8",
+   "responses:1"
+  ],
+  "GET /repos/{owner}/{repo}/pages": [
+   "params:2",
+   "responses:2"
+  ],
+  "GET /repos/{owner}/{repo}/pages/builds": [
+   "params:4",
+   "responses:1"
+  ],
+  "GET /repos/{owner}/{repo}/pages/builds/latest": [
+   "params:2",
+   "responses:1"
+  ],
+  "GET /repos/{owner}/{repo}/pages/builds/{build_id}": [
+   "params:3",
+   "responses:1"
+  ],
+  "GET /repos/{owner}/{repo}/pages/deployments/{pages_deployment_id}": [
+   "params:3",
+   "responses:2"
+  ],
+  "GET /repos/{owner}/{repo}/pages/health": [
+   "params:2",
+   "responses:5"
+  ],
+  "GET /repos/{owner}/{repo}/private-vulnerability-reporting": [
+   "params:2",
+   "responses:2"
+  ],
+  "GET /repos/{owner}/{repo}/properties/values": [
+   "params:2",
+   "responses:3"
+  ],
+  "GET /repos/{owner}/{repo}/pulls": [
+   "params:9",
+   "responses:3"
+  ],
+  "GET /repos/{owner}/{repo}/pulls/comments": [
+   "params:7",
+   "responses:1"
+  ],
+  "GET /repos/{owner}/{repo}/pulls/comments/{comment_id}": [
+   "params:3",
+   "responses:2"
+  ],
+  "GET /repos/{owner}/{repo}/pulls/comments/{comment_id}/reactions": [
+   "params:6",
+   "responses:2"
+  ],
+  "GET /repos/{owner}/{repo}/pulls/{pull_number}": [
+   "params:3",
+   "responses:6"
+  ],
+  "GET /repos/{owner}/{repo}/pulls/{pull_number}/comments": [
+   "params:8",
+   "responses:1"
+  ],
+  "GET /repos/{owner}/{repo}/pulls/{pull_number}/commits": [
+   "params:5",
+   "responses:1"
+  ],
+  "GET /repos/{owner}/{repo}/pulls/{pull_number}/files": [
+   "params:5",
+   "responses:4"
+  ],
+  "GET /repos/{owner}/{repo}/pulls/{pull_number}/merge": [
+   "params:3",
+   "responses:2"
+  ],
+  "GET /repos/{owner}/{repo}/pulls/{pull_number}/merge-async/{uuid}": [
+   "params:4",
+   "responses:3"
+  ],
+  "GET /repos/{owner}/{repo}/pulls/{pull_number}/requested_reviewers": [
+   "params:3",
+   "responses:1"
+  ],
+  "GET /repos/{owner}/{repo}/pulls/{pull_number}/reviews": [
+   "params:5",
+   "responses:1"
+  ],
+  "GET /repos/{owner}/{repo}/pulls/{pull_number}/reviews/{review_id}": [
+   "params:4",
+   "responses:2"
+  ],
+  "GET /repos/{owner}/{repo}/pulls/{pull_number}/reviews/{review_id}/comments": [
+   "params:6",
+   "responses:2"
+  ],
+  "GET /repos/{owner}/{repo}/readme": [
+   "params:3",
+   "responses:4"
+  ],
+  "GET /repos/{owner}/{repo}/readme/{dir}": [
+   "params:4",
+   "responses:3"
+  ],
+  "GET /repos/{owner}/{repo}/releases": [
+   "params:4",
+   "responses:2"
+  ],
+  "GET /repos/{owner}/{repo}/releases/assets/{asset_id}": [
+   "params:3",
+   "responses:3"
+  ],
+  "GET /repos/{owner}/{repo}/releases/latest": [
+   "params:2",
+   "responses:2"
+  ],
+  "GET /repos/{owner}/{repo}/releases/tags/{tag}": [
+   "params:3",
+   "responses:2"
+  ],
+  "GET /repos/{owner}/{repo}/releases/{release_id}": [
+   "params:3",
+   "responses:2"
+  ],
+  "GET /repos/{owner}/{repo}/releases/{release_id}/assets": [
+   "params:5",
+   "responses:1"
+  ],
+  "GET /repos/{owner}/{repo}/releases/{release_id}/reactions": [
+   "params:6",
+   "responses:2"
+  ],
+  "GET /repos/{owner}/{repo}/rules/branches/{branch}": [
+   "params:5",
+   "responses:1"
+  ],
+  "GET /repos/{owner}/{repo}/rulesets": [
+   "params:6",
+   "responses:3"
+  ],
+  "GET /repos/{owner}/{repo}/rulesets/rule-suites": [
+   "params:9",
+   "responses:3"
+  ],
+  "GET /repos/{owner}/{repo}/rulesets/rule-suites/{rule_suite_id}": [
+   "params:3",
+   "responses:3"
+  ],
+  "GET /repos/{owner}/{repo}/rulesets/{ruleset_id}": [
+   "params:4",
+   "responses:3"
+  ],
+  "GET /repos/{owner}/{repo}/rulesets/{ruleset_id}/history": [
+   "params:5",
+   "responses:3"
+  ],
+  "GET /repos/{owner}/{repo}/rulesets/{ruleset_id}/history/{version_id}": [
+   "params:4",
+   "responses:3"
+  ],
+  "GET /repos/{owner}/{repo}/secret-scanning/alerts": [
+   "params:22",
+   "responses:3"
+  ],
+  "GET /repos/{owner}/{repo}/secret-scanning/alerts/{alert_number}": [
+   "params:4",
+   "responses:4"
+  ],
+  "GET /repos/{owner}/{repo}/secret-scanning/alerts/{alert_number}/locations": [
+   "params:5",
+   "responses:3"
+  ],
+  "GET /repos/{owner}/{repo}/secret-scanning/custom-patterns": [
+   "params:8",
+   "responses:3"
+  ],
+  "GET /repos/{owner}/{repo}/secret-scanning/scan-history": [
+   "params:2",
+   "responses:3"
+  ],
+  "GET /repos/{owner}/{repo}/security-advisories": [
+   "params:8",
+   "responses:3"
+  ],
+  "GET /repos/{owner}/{repo}/security-advisories/{ghsa_id}": [
+   "params:3",
+   "responses:3"
+  ],
+  "GET /repos/{owner}/{repo}/stacks": [
+   "params:5",
+   "responses:3"
+  ],
+  "GET /repos/{owner}/{repo}/stacks/{stack_number}": [
+   "params:3",
+   "responses:2"
+  ],
+  "GET /repos/{owner}/{repo}/stargazers": [
+   "params:4",
+   "responses:2"
+  ],
+  "GET /repos/{owner}/{repo}/stats/code_frequency": [
+   "params:2",
+   "responses:4"
+  ],
+  "GET /repos/{owner}/{repo}/stats/commit_activity": [
+   "params:2",
+   "responses:3"
+  ],
+  "GET /repos/{owner}/{repo}/stats/contributors": [
+   "params:2",
+   "responses:3"
+  ],
+  "GET /repos/{owner}/{repo}/stats/participation": [
+   "params:2",
+   "responses:2"
+  ],
+  "GET /repos/{owner}/{repo}/stats/punch_card": [
+   "params:2",
+   "responses:2"
+  ],
+  "GET /repos/{owner}/{repo}/subscribers": [
+   "params:4",
+   "responses:1"
+  ],
+  "GET /repos/{owner}/{repo}/subscription": [
+   "params:2",
+   "responses:3"
+  ],
+  "GET /repos/{owner}/{repo}/tags": [
+   "params:4",
+   "responses:1"
+  ],
+  "GET /repos/{owner}/{repo}/tarball/{ref}": [
+   "params:3",
+   "responses:1"
+  ],
+  "GET /repos/{owner}/{repo}/teams": [
+   "params:4",
+   "responses:2"
+  ],
+  "GET /repos/{owner}/{repo}/topics": [
+   "params:4",
+   "responses:2"
+  ],
+  "GET /repos/{owner}/{repo}/traffic/clones": [
+   "params:3",
+   "responses:2"
+  ],
+  "GET /repos/{owner}/{repo}/traffic/popular/paths": [
+   "params:2",
+   "responses:2"
+  ],
+  "GET /repos/{owner}/{repo}/traffic/popular/referrers": [
+   "params:2",
+   "responses:2"
+  ],
+  "GET /repos/{owner}/{repo}/traffic/views": [
+   "params:3",
+   "responses:2"
+  ],
+  "GET /repos/{owner}/{repo}/vulnerability-alerts": [
+   "params:2",
+   "responses:2"
+  ],
+  "GET /repos/{owner}/{repo}/zipball/{ref}": [
+   "params:3",
+   "responses:1"
+  ],
+  "GET /repositories": [
+   "params:1",
+   "responses:3"
+  ],
+  "GET /search/code": [
+   "params:5",
+   "responses:5"
+  ],
+  "GET /search/commits": [
+   "params:5",
+   "responses:2"
+  ],
+  "GET /search/issues": [
+   "params:7",
+   "responses:6"
+  ],
+  "GET /search/labels": [
+   "params:6",
+   "responses:5"
+  ],
+  "GET /search/repositories": [
+   "params:5",
+   "responses:4"
+  ],
+  "GET /search/topics": [
+   "params:3",
+   "responses:2"
+  ],
+  "GET /search/users": [
+   "params:5",
+   "responses:4"
+  ],
+  "GET /teams/{team_id}": [
+   "DEPRECATED",
+   "params:1",
+   "responses:2"
+  ],
+  "GET /teams/{team_id}/invitations": [
+   "DEPRECATED",
+   "params:3",
+   "responses:1"
+  ],
+  "GET /teams/{team_id}/members": [
+   "DEPRECATED",
+   "params:4",
+   "responses:2"
+  ],
+  "GET /teams/{team_id}/members/{username}": [
+   "DEPRECATED",
+   "params:2",
+   "responses:2"
+  ],
+  "GET /teams/{team_id}/memberships/{username}": [
+   "DEPRECATED",
+   "params:2",
+   "responses:2"
+  ],
+  "GET /teams/{team_id}/repos": [
+   "DEPRECATED",
+   "params:3",
+   "responses:2"
+  ],
+  "GET /teams/{team_id}/repos/{owner}/{repo}": [
+   "DEPRECATED",
+   "params:3",
+   "responses:3"
+  ],
+  "GET /teams/{team_id}/teams": [
+   "DEPRECATED",
+   "params:3",
+   "responses:4"
+  ],
+  "GET /user": [
+   "params:0",
+   "responses:4"
+  ],
+  "GET /user/blocks": [
+   "params:2",
+   "responses:5"
+  ],
+  "GET /user/blocks/{username}": [
+   "params:1",
+   "responses:5"
+  ],
+  "GET /user/codespaces": [
+   "params:3",
+   "responses:6"
+  ],
+  "GET /user/codespaces/secrets": [
+   "params:2",
+   "responses:1"
+  ],
+  "GET /user/codespaces/secrets/public-key": [
+   "params:0",
+   "responses:1"
+  ],
+  "GET /user/codespaces/secrets/{secret_name}": [
+   "params:1",
+   "responses:1"
+  ],
+  "GET /user/codespaces/secrets/{secret_name}/repositories": [
+   "params:1",
+   "responses:5"
+  ],
+  "GET /user/codespaces/{codespace_name}": [
+   "params:1",
+   "responses:6"
+  ],
+  "GET /user/codespaces/{codespace_name}/exports/{export_id}": [
+   "params:2",
+   "responses:2"
+  ],
+  "GET /user/codespaces/{codespace_name}/machines": [
+   "params:1",
+   "responses:6"
+  ],
+  "GET /user/docker/conflicts": [
+   "params:0",
+   "responses:1"
+  ],
+  "GET /user/emails": [
+   "params:2",
+   "responses:5"
+  ],
+  "GET /user/followers": [
+   "params:2",
+   "responses:4"
+  ],
+  "GET /user/following": [
+   "params:2",
+   "responses:4"
+  ],
+  "GET /user/following/{username}": [
+   "params:1",
+   "responses:5"
+  ],
+  "GET /user/gpg_keys": [
+   "params:2",
+   "responses:5"
+  ],
+  "GET /user/gpg_keys/{gpg_key_id}": [
+   "params:1",
+   "responses:5"
+  ],
+  "GET /user/installations": [
+   "params:2",
+   "responses:4"
+  ],
+  "GET /user/installations/{installation_id}/repositories": [
+   "params:3",
+   "responses:4"
+  ],
+  "GET /user/interaction-limits": [
+   "params:0",
+   "responses:2"
+  ],
+  "GET /user/issues": [
+   "params:8",
+   "responses:3"
+  ],
+  "GET /user/keys": [
+   "params:2",
+   "responses:5"
+  ],
+  "GET /user/keys/{key_id}": [
+   "params:1",
+   "responses:5"
+  ],
+  "GET /user/marketplace_purchases": [
+   "params:2",
+   "responses:4"
+  ],
+  "GET /user/marketplace_purchases/stubbed": [
+   "params:2",
+   "responses:3"
+  ],
+  "GET /user/memberships/orgs": [
+   "params:3",
+   "responses:5"
+  ],
+  "GET /user/memberships/orgs/{org}": [
+   "params:1",
+   "responses:3"
+  ],
+  "GET /user/migrations": [
+   "params:2",
+   "responses:4"
+  ],
+  "GET /user/migrations/{migration_id}": [
+   "params:2",
+   "responses:5"
+  ],
+  "GET /user/migrations/{migration_id}/archive": [
+   "params:1",
+   "responses:4"
+  ],
+  "GET /user/migrations/{migration_id}/repositories": [
+   "params:3",
+   "responses:2"
+  ],
+  "GET /user/orgs": [
+   "params:2",
+   "responses:4"
+  ],
+  "GET /user/packages": [
+   "params:4",
+   "responses:2"
+  ],
+  "GET /user/packages/{package_type}/{package_name}": [
+   "params:2",
+   "responses:1"
+  ],
+  "GET /user/packages/{package_type}/{package_name}/versions": [
+   "params:5",
+   "responses:4"
+  ],
+  "GET /user/packages/{package_type}/{package_name}/versions/{package_version_id}": [
+   "params:3",
+   "responses:1"
+  ],
+  "GET /user/public_emails": [
+   "params:2",
+   "responses:5"
+  ],
+  "GET /user/repos": [
+   "params:9",
+   "responses:5"
+  ],
+  "GET /user/repository_invitations": [
+   "params:2",
+   "responses:5"
+  ],
+  "GET /user/social_accounts": [
+   "params:2",
+   "responses:5"
+  ],
+  "GET /user/ssh_signing_keys": [
+   "params:2",
+   "responses:5"
+  ],
+  "GET /user/ssh_signing_keys/{ssh_signing_key_id}": [
+   "params:1",
+   "responses:5"
+  ],
+  "GET /user/starred": [
+   "params:4",
+   "responses:4"
+  ],
+  "GET /user/starred/{owner}/{repo}": [
+   "params:2",
+   "responses:5"
+  ],
+  "GET /user/subscriptions": [
+   "params:2",
+   "responses:4"
+  ],
+  "GET /user/teams": [
+   "params:2",
+   "responses:4"
+  ],
+  "GET /user/{account_id}": [
+   "params:1",
+   "responses:2"
+  ],
+  "GET /users": [
+   "params:2",
+   "responses:2"
+  ],
+  "GET /users/{username}": [
+   "params:1",
+   "responses:2"
+  ],
+  "GET /users/{username}/attestations/{subject_digest}": [
+   "params:6",
+   "responses:4"
+  ],
+  "GET /users/{username}/copilot-spaces": [
+   "params:4",
+   "responses:3"
+  ],
+  "GET /users/{username}/copilot-spaces/{space_number}": [
+   "params:2",
+   "responses:3"
+  ],
+  "GET /users/{username}/copilot-spaces/{space_number}/collaborators": [
+   "params:2",
+   "responses:3"
+  ],
+  "GET /users/{username}/copilot-spaces/{space_number}/resources": [
+   "params:2",
+   "responses:3"
+  ],
+  "GET /users/{username}/copilot-spaces/{space_number}/resources/{space_resource_id}": [
+   "params:3",
+   "responses:3"
+  ],
+  "GET /users/{username}/docker/conflicts": [
+   "params:1",
+   "responses:3"
+  ],
+  "GET /users/{username}/events": [
+   "params:3",
+   "responses:1"
+  ],
+  "GET /users/{username}/events/orgs/{org}": [
+   "params:4",
+   "responses:1"
+  ],
+  "GET /users/{username}/events/public": [
+   "params:3",
+   "responses:1"
+  ],
+  "GET /users/{username}/followers": [
+   "params:3",
+   "responses:1"
+  ],
+  "GET /users/{username}/following": [
+   "params:3",
+   "responses:1"
+  ],
+  "GET /users/{username}/following/{target_user}": [
+   "params:2",
+   "responses:2"
+  ],
+  "GET /users/{username}/gists": [
+   "params:4",
+   "responses:2"
+  ],
+  "GET /users/{username}/gpg_keys": [
+   "params:3",
+   "responses:1"
+  ],
+  "GET /users/{username}/hovercard": [
+   "params:3",
+   "responses:3"
+  ],
+  "GET /users/{username}/installation": [
+   "params:1",
+   "responses:1"
+  ],
+  "GET /users/{username}/keys": [
+   "params:3",
+   "responses:1"
+  ],
+  "GET /users/{username}/orgs": [
+   "params:3",
+   "responses:1"
+  ],
+  "GET /users/{username}/packages": [
+   "params:5",
+   "responses:4"
+  ],
+  "GET /users/{username}/packages/{package_type}/{package_name}": [
+   "params:3",
+   "responses:1"
+  ],
+  "GET /users/{username}/packages/{package_type}/{package_name}/versions": [
+   "params:3",
+   "responses:4"
+  ],
+  "GET /users/{username}/packages/{package_type}/{package_name}/versions/{package_version_id}": [
+   "params:4",
+   "responses:1"
+  ],
+  "GET /users/{username}/projectsV2": [
+   "params:5",
+   "responses:4"
+  ],
+  "GET /users/{username}/projectsV2/{project_number}": [
+   "params:2",
+   "responses:4"
+  ],
+  "GET /users/{username}/projectsV2/{project_number}/fields": [
+   "params:5",
+   "responses:4"
+  ],
+  "GET /users/{username}/projectsV2/{project_number}/fields/{field_id}": [
+   "params:3",
+   "responses:4"
+  ],
+  "GET /users/{username}/projectsV2/{project_number}/items": [
+   "params:7",
+   "responses:4"
+  ],
+  "GET /users/{username}/projectsV2/{project_number}/items/{item_id}": [
+   "params:4",
+   "responses:4"
+  ],
+  "GET /users/{username}/projectsV2/{project_number}/views/{view_number}/items": [
+   "params:7",
+   "responses:5"
+  ],
+  "GET /users/{username}/received_events": [
+   "params:3",
+   "responses:1"
+  ],
+  "GET /users/{username}/received_events/public": [
+   "params:3",
+   "responses:1"
+  ],
+  "GET /users/{username}/repos": [
+   "params:6",
+   "responses:1"
+  ],
+  "GET /users/{username}/settings/billing/ai_credit/usage": [
+   "params:6",
+   "responses:6"
+  ],
+  "GET /users/{username}/settings/billing/premium_request/usage": [
+   "params:6",
+   "responses:6"
+  ],
+  "GET /users/{username}/settings/billing/usage": [
+   "params:4",
+   "responses:5"
+  ],
+  "GET /users/{username}/settings/billing/usage/summary": [
+   "params:7",
+   "responses:6"
+  ],
+  "GET /users/{username}/social_accounts": [
+   "params:3",
+   "responses:1"
+  ],
+  "GET /users/{username}/ssh_signing_keys": [
+   "params:3",
+   "responses:1"
+  ],
+  "GET /users/{username}/starred": [
+   "params:5",
+   "responses:1"
+  ],
+  "GET /users/{username}/subscriptions": [
+   "params:3",
+   "responses:1"
+  ],
+  "GET /versions": [
+   "params:0",
+   "responses:2"
+  ],
+  "GET /zen": [
+   "params:0",
+   "responses:1"
+  ],
+  "PATCH /app/hook/config": [
+   "body",
+   "params:0",
+   "responses:1"
+  ],
+  "PATCH /applications/{client_id}/token": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "PATCH /enterprises/{enterprise}/code-security/configurations/{configuration_id}": [
+   "body",
+   "params:2",
+   "responses:5"
+  ],
+  "PATCH /enterprises/{enterprise}/dependabot/repository-access": [
+   "body",
+   "params:1",
+   "responses:3"
+  ],
+  "PATCH /enterprises/{enterprise}/teams/{team_slug}": [
+   "body",
+   "params:2",
+   "responses:2"
+  ],
+  "PATCH /gists/{gist_id}": [
+   "body",
+   "params:1",
+   "responses:3"
+  ],
+  "PATCH /gists/{gist_id}/comments/{comment_id}": [
+   "body",
+   "params:2",
+   "responses:2"
+  ],
+  "PATCH /notifications/threads/{thread_id}": [
+   "params:1",
+   "responses:3"
+  ],
+  "PATCH /organizations/{org}/settings/billing/budgets/{budget_id}": [
+   "body",
+   "params:2",
+   "responses:7"
+  ],
+  "PATCH /orgs/{org}": [
+   "body",
+   "params:1",
+   "responses:3"
+  ],
+  "PATCH /orgs/{org}/actions/hosted-runners/{hosted_runner_id}": [
+   "body",
+   "params:2",
+   "responses:1"
+  ],
+  "PATCH /orgs/{org}/actions/runner-groups/{runner_group_id}": [
+   "body",
+   "params:2",
+   "responses:1"
+  ],
+  "PATCH /orgs/{org}/actions/variables/{name}": [
+   "body",
+   "params:2",
+   "responses:1"
+  ],
+  "PATCH /orgs/{org}/agents/variables/{name}": [
+   "body",
+   "params:2",
+   "responses:1"
+  ],
+  "PATCH /orgs/{org}/campaigns/{campaign_number}": [
+   "body",
+   "params:2",
+   "responses:5"
+  ],
+  "PATCH /orgs/{org}/code-security/configurations/{configuration_id}": [
+   "body",
+   "params:2",
+   "responses:2"
+  ],
+  "PATCH /orgs/{org}/dependabot/repository-access": [
+   "body",
+   "params:1",
+   "responses:3"
+  ],
+  "PATCH /orgs/{org}/hooks/{hook_id}": [
+   "body",
+   "params:2",
+   "responses:3"
+  ],
+  "PATCH /orgs/{org}/hooks/{hook_id}/config": [
+   "body",
+   "params:2",
+   "responses:1"
+  ],
+  "PATCH /orgs/{org}/interaction-limits/pulls/creation-cap": [
+   "body",
+   "params:1",
+   "responses:5"
+  ],
+  "PATCH /orgs/{org}/issue-fields/{issue_field_id}": [
+   "body",
+   "params:2",
+   "responses:3"
+  ],
+  "PATCH /orgs/{org}/private-registries/{secret_name}": [
+   "body",
+   "params:2",
+   "responses:3"
+  ],
+  "PATCH /orgs/{org}/projectsV2/{project_number}/items/{item_id}": [
+   "body",
+   "params:3",
+   "responses:5"
+  ],
+  "PATCH /orgs/{org}/properties/schema": [
+   "body",
+   "params:1",
+   "responses:3"
+  ],
+  "PATCH /orgs/{org}/properties/values": [
+   "body",
+   "params:1",
+   "responses:4"
+  ],
+  "PATCH /orgs/{org}/secret-scanning/custom-patterns/{pattern_id}": [
+   "body",
+   "params:2",
+   "responses:6"
+  ],
+  "PATCH /orgs/{org}/secret-scanning/pattern-configurations": [
+   "body",
+   "params:1",
+   "responses:6"
+  ],
+  "PATCH /orgs/{org}/settings/network-configurations/{network_configuration_id}": [
+   "body",
+   "params:2",
+   "responses:1"
+  ],
+  "PATCH /orgs/{org}/teams/{team_slug}": [
+   "body",
+   "params:2",
+   "responses:5"
+  ],
+  "PATCH /repos/{owner}/{repo}": [
+   "body",
+   "params:2",
+   "responses:5"
+  ],
+  "PATCH /repos/{owner}/{repo}/actions/variables/{name}": [
+   "body",
+   "params:3",
+   "responses:1"
+  ],
+  "PATCH /repos/{owner}/{repo}/agents/variables/{name}": [
+   "body",
+   "params:3",
+   "responses:1"
+  ],
+  "PATCH /repos/{owner}/{repo}/branches/{branch}/protection/required_pull_request_reviews": [
+   "body",
+   "params:3",
+   "responses:2"
+  ],
+  "PATCH /repos/{owner}/{repo}/branches/{branch}/protection/required_status_checks": [
+   "body",
+   "params:3",
+   "responses:3"
+  ],
+  "PATCH /repos/{owner}/{repo}/check-runs/{check_run_id}": [
+   "body",
+   "params:3",
+   "responses:1"
+  ],
+  "PATCH /repos/{owner}/{repo}/check-suites/preferences": [
+   "body",
+   "params:2",
+   "responses:1"
+  ],
+  "PATCH /repos/{owner}/{repo}/code-quality/setup": [
+   "body",
+   "params:2",
+   "responses:7"
+  ],
+  "PATCH /repos/{owner}/{repo}/code-scanning/alerts/{alert_number}": [
+   "body",
+   "params:3",
+   "responses:5"
+  ],
+  "PATCH /repos/{owner}/{repo}/code-scanning/default-setup": [
+   "body",
+   "params:2",
+   "responses:7"
+  ],
+  "PATCH /repos/{owner}/{repo}/comments/{comment_id}": [
+   "body",
+   "params:3",
+   "responses:2"
+  ],
+  "PATCH /repos/{owner}/{repo}/dependabot/alerts/{alert_number}": [
+   "body",
+   "params:3",
+   "responses:6"
+  ],
+  "PATCH /repos/{owner}/{repo}/environments/{environment_name}/variables/{name}": [
+   "body",
+   "params:4",
+   "responses:1"
+  ],
+  "PATCH /repos/{owner}/{repo}/git/refs/{ref}": [
+   "body",
+   "params:3",
+   "responses:3"
+  ],
+  "PATCH /repos/{owner}/{repo}/hooks/{hook_id}": [
+   "body",
+   "params:3",
+   "responses:3"
+  ],
+  "PATCH /repos/{owner}/{repo}/hooks/{hook_id}/config": [
+   "body",
+   "params:3",
+   "responses:1"
+  ],
+  "PATCH /repos/{owner}/{repo}/import": [
+   "DEPRECATED",
+   "body",
+   "params:2",
+   "responses:2"
+  ],
+  "PATCH /repos/{owner}/{repo}/import/authors/{author_id}": [
+   "DEPRECATED",
+   "body",
+   "params:3",
+   "responses:4"
+  ],
+  "PATCH /repos/{owner}/{repo}/import/lfs": [
+   "DEPRECATED",
+   "body",
+   "params:2",
+   "responses:3"
+  ],
+  "PATCH /repos/{owner}/{repo}/interaction-limits/pulls/creation-cap": [
+   "body",
+   "params:2",
+   "responses:5"
+  ],
+  "PATCH /repos/{owner}/{repo}/invitations/{invitation_id}": [
+   "body",
+   "params:3",
+   "responses:1"
+  ],
+  "PATCH /repos/{owner}/{repo}/issues/comments/{comment_id}": [
+   "body",
+   "params:3",
+   "responses:2"
+  ],
+  "PATCH /repos/{owner}/{repo}/issues/{issue_number}": [
+   "body",
+   "params:3",
+   "responses:7"
+  ],
+  "PATCH /repos/{owner}/{repo}/issues/{issue_number}/sub_issues/priority": [
+   "body",
+   "params:3",
+   "responses:5"
+  ],
+  "PATCH /repos/{owner}/{repo}/labels/{name}": [
+   "body",
+   "params:3",
+   "responses:1"
+  ],
+  "PATCH /repos/{owner}/{repo}/milestones/{milestone_number}": [
+   "body",
+   "params:3",
+   "responses:1"
+  ],
+  "PATCH /repos/{owner}/{repo}/properties/values": [
+   "body",
+   "params:2",
+   "responses:4"
+  ],
+  "PATCH /repos/{owner}/{repo}/pulls/comments/{comment_id}": [
+   "body",
+   "params:3",
+   "responses:1"
+  ],
+  "PATCH /repos/{owner}/{repo}/pulls/{pull_number}": [
+   "body",
+   "params:3",
+   "responses:3"
+  ],
+  "PATCH /repos/{owner}/{repo}/releases/assets/{asset_id}": [
+   "body",
+   "params:3",
+   "responses:1"
+  ],
+  "PATCH /repos/{owner}/{repo}/releases/{release_id}": [
+   "body",
+   "params:3",
+   "responses:2"
+  ],
+  "PATCH /repos/{owner}/{repo}/secret-scanning/alerts/{alert_number}": [
+   "body",
+   "params:3",
+   "responses:6"
+  ],
+  "PATCH /repos/{owner}/{repo}/secret-scanning/custom-patterns/{pattern_id}": [
+   "body",
+   "params:3",
+   "responses:6"
+  ],
+  "PATCH /repos/{owner}/{repo}/security-advisories/{ghsa_id}": [
+   "body",
+   "params:3",
+   "responses:4"
+  ],
+  "PATCH /teams/{team_id}": [
+   "DEPRECATED",
+   "body",
+   "params:1",
+   "responses:5"
+  ],
+  "PATCH /user": [
+   "body",
+   "params:0",
+   "responses:6"
+  ],
+  "PATCH /user/codespaces/{codespace_name}": [
+   "body",
+   "params:1",
+   "responses:4"
+  ],
+  "PATCH /user/email/visibility": [
+   "body",
+   "params:0",
+   "responses:6"
+  ],
+  "PATCH /user/memberships/orgs/{org}": [
+   "body",
+   "params:1",
+   "responses:5"
+  ],
+  "PATCH /user/repository_invitations/{invitation_id}": [
+   "params:1",
+   "responses:5"
+  ],
+  "PATCH /users/{username}/projectsV2/{project_number}/items/{item_id}": [
+   "body",
+   "params:3",
+   "responses:5"
+  ],
+  "POST /agents/repos/{owner}/{repo}/tasks": [
+   "body",
+   "params:2",
+   "responses:5"
+  ],
+  "POST /app-manifests/{code}/conversions": [
+   "params:1",
+   "responses:3"
+  ],
+  "POST /app/hook/deliveries/{delivery_id}/attempts": [
+   "params:1",
+   "responses:3"
+  ],
+  "POST /app/installations/{installation_id}/access_tokens": [
+   "body",
+   "params:1",
+   "responses:5"
+  ],
+  "POST /applications/{client_id}/token": [
+   "body",
+   "params:1",
+   "responses:3"
+  ],
+  "POST /applications/{client_id}/token/scoped": [
+   "body",
+   "params:1",
+   "responses:5"
+  ],
+  "POST /credentials/revoke": [
+   "body",
+   "params:0",
+   "responses:3"
+  ],
+  "POST /enterprises/{enterprise}/actions/oidc/customization/properties/repo": [
+   "body",
+   "params:1",
+   "responses:4"
+  ],
+  "POST /enterprises/{enterprise}/code-security/configurations": [
+   "body",
+   "params:1",
+   "responses:4"
+  ],
+  "POST /enterprises/{enterprise}/code-security/configurations/{configuration_id}/attach": [
+   "body",
+   "params:2",
+   "responses:4"
+  ],
+  "POST /enterprises/{enterprise}/copilot/policies/coding_agent/organizations": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /enterprises/{enterprise}/teams": [
+   "body",
+   "params:1",
+   "responses:1"
+  ],
+  "POST /enterprises/{enterprise}/teams/{enterprise-team}/memberships/add": [
+   "body",
+   "params:2",
+   "responses:1"
+  ],
+  "POST /enterprises/{enterprise}/teams/{enterprise-team}/memberships/remove": [
+   "body",
+   "params:2",
+   "responses:1"
+  ],
+  "POST /enterprises/{enterprise}/teams/{enterprise-team}/organizations/add": [
+   "body",
+   "params:2",
+   "responses:1"
+  ],
+  "POST /enterprises/{enterprise}/teams/{enterprise-team}/organizations/remove": [
+   "body",
+   "params:2",
+   "responses:1"
+  ],
+  "POST /gists": [
+   "body",
+   "params:0",
+   "responses:5"
+  ],
+  "POST /gists/{gist_id}/comments": [
+   "body",
+   "params:1",
+   "responses:4"
+  ],
+  "POST /gists/{gist_id}/forks": [
+   "params:1",
+   "responses:5"
+  ],
+  "POST /markdown": [
+   "body",
+   "params:0",
+   "responses:2"
+  ],
+  "POST /markdown/raw": [
+   "body",
+   "params:0",
+   "responses:2"
+  ],
+  "POST /organizations/{org}/settings/billing/budgets": [
+   "body",
+   "params:1",
+   "responses:7"
+  ],
+  "POST /orgs/{org}/actions/hosted-runners": [
+   "body",
+   "params:1",
+   "responses:1"
+  ],
+  "POST /orgs/{org}/actions/oidc/customization/properties/repo": [
+   "body",
+   "params:1",
+   "responses:4"
+  ],
+  "POST /orgs/{org}/actions/runner-groups": [
+   "body",
+   "params:1",
+   "responses:1"
+  ],
+  "POST /orgs/{org}/actions/runners/generate-jitconfig": [
+   "body",
+   "params:1",
+   "responses:4"
+  ],
+  "POST /orgs/{org}/actions/runners/registration-token": [
+   "params:1",
+   "responses:1"
+  ],
+  "POST /orgs/{org}/actions/runners/remove-token": [
+   "params:1",
+   "responses:1"
+  ],
+  "POST /orgs/{org}/actions/runners/{runner_id}/labels": [
+   "body",
+   "params:2",
+   "responses:3"
+  ],
+  "POST /orgs/{org}/actions/variables": [
+   "body",
+   "params:1",
+   "responses:1"
+  ],
+  "POST /orgs/{org}/agents/variables": [
+   "body",
+   "params:1",
+   "responses:1"
+  ],
+  "POST /orgs/{org}/artifacts/metadata/deployment-record": [
+   "body",
+   "params:1",
+   "responses:3"
+  ],
+  "POST /orgs/{org}/artifacts/metadata/deployment-record/cluster/{cluster}": [
+   "body",
+   "params:2",
+   "responses:4"
+  ],
+  "POST /orgs/{org}/artifacts/metadata/deployment-record/cluster/{cluster}/jobs": [
+   "body",
+   "params:2",
+   "responses:5"
+  ],
+  "POST /orgs/{org}/artifacts/metadata/storage-record": [
+   "body",
+   "params:1",
+   "responses:3"
+  ],
+  "POST /orgs/{org}/attestations/bulk-list": [
+   "body",
+   "params:4",
+   "responses:1"
+  ],
+  "POST /orgs/{org}/attestations/delete-request": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /orgs/{org}/campaigns": [
+   "body",
+   "params:1",
+   "responses:6"
+  ],
+  "POST /orgs/{org}/code-security/configurations": [
+   "body",
+   "params:1",
+   "responses:1"
+  ],
+  "POST /orgs/{org}/code-security/configurations/{configuration_id}/attach": [
+   "body",
+   "params:2",
+   "responses:1"
+  ],
+  "POST /orgs/{org}/codespaces/access/selected_users": [
+   "DEPRECATED",
+   "body",
+   "params:1",
+   "responses:6"
+  ],
+  "POST /orgs/{org}/copilot-spaces": [
+   "body",
+   "params:1",
+   "responses:4"
+  ],
+  "POST /orgs/{org}/copilot-spaces/{space_number}/collaborators": [
+   "body",
+   "params:2",
+   "responses:4"
+  ],
+  "POST /orgs/{org}/copilot-spaces/{space_number}/resources": [
+   "body",
+   "params:2",
+   "responses:5"
+  ],
+  "POST /orgs/{org}/copilot/billing/selected_teams": [
+   "body",
+   "params:1",
+   "responses:6"
+  ],
+  "POST /orgs/{org}/copilot/billing/selected_users": [
+   "body",
+   "params:1",
+   "responses:6"
+  ],
+  "POST /orgs/{org}/hooks": [
+   "body",
+   "params:1",
+   "responses:3"
+  ],
+  "POST /orgs/{org}/hooks/{hook_id}/deliveries/{delivery_id}/attempts": [
+   "params:3",
+   "responses:3"
+  ],
+  "POST /orgs/{org}/hooks/{hook_id}/pings": [
+   "params:2",
+   "responses:2"
+  ],
+  "POST /orgs/{org}/invitations": [
+   "body",
+   "params:1",
+   "responses:3"
+  ],
+  "POST /orgs/{org}/issue-fields": [
+   "body",
+   "params:1",
+   "responses:3"
+  ],
+  "POST /orgs/{org}/issue-types": [
+   "body",
+   "params:1",
+   "responses:3"
+  ],
+  "POST /orgs/{org}/members/{username}/codespaces/{codespace_name}/stop": [
+   "params:3",
+   "responses:6"
+  ],
+  "POST /orgs/{org}/migrations": [
+   "body",
+   "params:1",
+   "responses:3"
+  ],
+  "POST /orgs/{org}/packages/{package_type}/{package_name}/restore": [
+   "params:4",
+   "responses:4"
+  ],
+  "POST /orgs/{org}/packages/{package_type}/{package_name}/versions/{package_version_id}/restore": [
+   "params:4",
+   "responses:4"
+  ],
+  "POST /orgs/{org}/personal-access-token-requests": [
+   "body",
+   "params:1",
+   "responses:5"
+  ],
+  "POST /orgs/{org}/personal-access-token-requests/{pat_request_id}": [
+   "body",
+   "params:2",
+   "responses:5"
+  ],
+  "POST /orgs/{org}/personal-access-tokens": [
+   "body",
+   "params:1",
+   "responses:5"
+  ],
+  "POST /orgs/{org}/personal-access-tokens/{pat_id}": [
+   "body",
+   "params:2",
+   "responses:5"
+  ],
+  "POST /orgs/{org}/private-registries": [
+   "body",
+   "params:1",
+   "responses:3"
+  ],
+  "POST /orgs/{org}/projectsV2/{project_number}/drafts": [
+   "body",
+   "params:2",
+   "responses:4"
+  ],
+  "POST /orgs/{org}/projectsV2/{project_number}/fields": [
+   "body",
+   "params:2",
+   "responses:5"
+  ],
+  "POST /orgs/{org}/projectsV2/{project_number}/items": [
+   "body",
+   "params:2",
+   "responses:4"
+  ],
+  "POST /orgs/{org}/projectsV2/{project_number}/views": [
+   "body",
+   "params:2",
+   "responses:7"
+  ],
+  "POST /orgs/{org}/repos": [
+   "body",
+   "params:1",
+   "responses:3"
+  ],
+  "POST /orgs/{org}/rulesets": [
+   "body",
+   "params:1",
+   "responses:4"
+  ],
+  "POST /orgs/{org}/secret-scanning/custom-patterns": [
+   "body",
+   "params:1",
+   "responses:5"
+  ],
+  "POST /orgs/{org}/settings/network-configurations": [
+   "body",
+   "params:1",
+   "responses:1"
+  ],
+  "POST /orgs/{org}/teams": [
+   "body",
+   "params:1",
+   "responses:3"
+  ],
+  "POST /orgs/{org}/{security_product}/{enablement}": [
+   "DEPRECATED",
+   "body",
+   "params:3",
+   "responses:2"
+  ],
+  "POST /repos/{owner}/{repo}/actions/jobs/{job_id}/rerun": [
+   "body",
+   "params:3",
+   "responses:2"
+  ],
+  "POST /repos/{owner}/{repo}/actions/runners/generate-jitconfig": [
+   "body",
+   "params:2",
+   "responses:4"
+  ],
+  "POST /repos/{owner}/{repo}/actions/runners/registration-token": [
+   "params:2",
+   "responses:1"
+  ],
+  "POST /repos/{owner}/{repo}/actions/runners/remove-token": [
+   "params:2",
+   "responses:1"
+  ],
+  "POST /repos/{owner}/{repo}/actions/runners/{runner_id}/labels": [
+   "body",
+   "params:3",
+   "responses:3"
+  ],
+  "POST /repos/{owner}/{repo}/actions/runs/{run_id}/approve": [
+   "params:3",
+   "responses:3"
+  ],
+  "POST /repos/{owner}/{repo}/actions/runs/{run_id}/cancel": [
+   "params:3",
+   "responses:2"
+  ],
+  "POST /repos/{owner}/{repo}/actions/runs/{run_id}/deployment_protection_rule": [
+   "body",
+   "params:3",
+   "responses:1"
+  ],
+  "POST /repos/{owner}/{repo}/actions/runs/{run_id}/force-cancel": [
+   "params:3",
+   "responses:2"
+  ],
+  "POST /repos/{owner}/{repo}/actions/runs/{run_id}/pending_deployments": [
+   "body",
+   "params:3",
+   "responses:1"
+  ],
+  "POST /repos/{owner}/{repo}/actions/runs/{run_id}/rerun": [
+   "body",
+   "params:3",
+   "responses:1"
+  ],
+  "POST /repos/{owner}/{repo}/actions/runs/{run_id}/rerun-failed-jobs": [
+   "body",
+   "params:3",
+   "responses:1"
+  ],
+  "POST /repos/{owner}/{repo}/actions/variables": [
+   "body",
+   "params:2",
+   "responses:1"
+  ],
+  "POST /repos/{owner}/{repo}/actions/workflows/{workflow_id}/dispatches": [
+   "body",
+   "params:3",
+   "responses:2"
+  ],
+  "POST /repos/{owner}/{repo}/agents/variables": [
+   "body",
+   "params:2",
+   "responses:1"
+  ],
+  "POST /repos/{owner}/{repo}/attestations": [
+   "body",
+   "params:2",
+   "responses:3"
+  ],
+  "POST /repos/{owner}/{repo}/autolinks": [
+   "body",
+   "params:2",
+   "responses:2"
+  ],
+  "POST /repos/{owner}/{repo}/branches/{branch}/protection/enforce_admins": [
+   "params:3",
+   "responses:1"
+  ],
+  "POST /repos/{owner}/{repo}/branches/{branch}/protection/required_signatures": [
+   "params:3",
+   "responses:2"
+  ],
+  "POST /repos/{owner}/{repo}/branches/{branch}/protection/required_status_checks/contexts": [
+   "body",
+   "params:3",
+   "responses:4"
+  ],
+  "POST /repos/{owner}/{repo}/branches/{branch}/protection/restrictions/apps": [
+   "body",
+   "params:3",
+   "responses:2"
+  ],
+  "POST /repos/{owner}/{repo}/branches/{branch}/protection/restrictions/teams": [
+   "body",
+   "params:3",
+   "responses:2"
+  ],
+  "POST /repos/{owner}/{repo}/branches/{branch}/protection/restrictions/users": [
+   "body",
+   "params:3",
+   "responses:2"
+  ],
+  "POST /repos/{owner}/{repo}/branches/{branch}/rename": [
+   "body",
+   "params:3",
+   "responses:4"
+  ],
+  "POST /repos/{owner}/{repo}/check-runs": [
+   "body",
+   "params:2",
+   "responses:1"
+  ],
+  "POST /repos/{owner}/{repo}/check-runs/{check_run_id}/rerequest": [
+   "params:3",
+   "responses:4"
+  ],
+  "POST /repos/{owner}/{repo}/check-suites": [
+   "body",
+   "params:2",
+   "responses:2"
+  ],
+  "POST /repos/{owner}/{repo}/check-suites/{check_suite_id}/rerequest": [
+   "params:3",
+   "responses:1"
+  ],
+  "POST /repos/{owner}/{repo}/code-scanning/alerts/{alert_number}/autofix": [
+   "params:3",
+   "responses:7"
+  ],
+  "POST /repos/{owner}/{repo}/code-scanning/alerts/{alert_number}/autofix/commits": [
+   "body",
+   "params:3",
+   "responses:6"
+  ],
+  "POST /repos/{owner}/{repo}/code-scanning/codeql/variant-analyses": [
+   "body",
+   "params:2",
+   "responses:4"
+  ],
+  "POST /repos/{owner}/{repo}/code-scanning/sarifs": [
+   "body",
+   "params:2",
+   "responses:6"
+  ],
+  "POST /repos/{owner}/{repo}/codespaces": [
+   "body",
+   "params:2",
+   "responses:7"
+  ],
+  "POST /repos/{owner}/{repo}/comments/{comment_id}/reactions": [
+   "body",
+   "params:3",
+   "responses:3"
+  ],
+  "POST /repos/{owner}/{repo}/commits/{commit_sha}/comments": [
+   "body",
+   "params:3",
+   "responses:3"
+  ],
+  "POST /repos/{owner}/{repo}/dependency-graph/snapshots": [
+   "body",
+   "params:2",
+   "responses:1"
+  ],
+  "POST /repos/{owner}/{repo}/deployments": [
+   "body",
+   "params:2",
+   "responses:4"
+  ],
+  "POST /repos/{owner}/{repo}/deployments/{deployment_id}/statuses": [
+   "body",
+   "params:3",
+   "responses:2"
+  ],
+  "POST /repos/{owner}/{repo}/dispatches": [
+   "body",
+   "params:2",
+   "responses:3"
+  ],
+  "POST /repos/{owner}/{repo}/environments/{environment_name}/deployment-branch-policies": [
+   "body",
+   "params:3",
+   "responses:3"
+  ],
+  "POST /repos/{owner}/{repo}/environments/{environment_name}/deployment_protection_rules": [
+   "body",
+   "params:3",
+   "responses:1"
+  ],
+  "POST /repos/{owner}/{repo}/environments/{environment_name}/variables": [
+   "body",
+   "params:3",
+   "responses:1"
+  ],
+  "POST /repos/{owner}/{repo}/forks": [
+   "body",
+   "params:2",
+   "responses:5"
+  ],
+  "POST /repos/{owner}/{repo}/git/blobs": [
+   "body",
+   "params:2",
+   "responses:5"
+  ],
+  "POST /repos/{owner}/{repo}/git/commits": [
+   "body",
+   "params:2",
+   "responses:4"
+  ],
+  "POST /repos/{owner}/{repo}/git/refs": [
+   "body",
+   "params:2",
+   "responses:3"
+  ],
+  "POST /repos/{owner}/{repo}/git/tags": [
+   "body",
+   "params:2",
+   "responses:3"
+  ],
+  "POST /repos/{owner}/{repo}/git/trees": [
+   "body",
+   "params:2",
+   "responses:5"
+  ],
+  "POST /repos/{owner}/{repo}/hooks": [
+   "body",
+   "params:2",
+   "responses:4"
+  ],
+  "POST /repos/{owner}/{repo}/hooks/{hook_id}/deliveries/{delivery_id}/attempts": [
+   "params:4",
+   "responses:3"
+  ],
+  "POST /repos/{owner}/{repo}/hooks/{hook_id}/pings": [
+   "params:3",
+   "responses:2"
+  ],
+  "POST /repos/{owner}/{repo}/hooks/{hook_id}/tests": [
+   "params:3",
+   "responses:2"
+  ],
+  "POST /repos/{owner}/{repo}/issues": [
+   "body",
+   "params:2",
+   "responses:7"
+  ],
+  "POST /repos/{owner}/{repo}/issues/comments/{comment_id}/reactions": [
+   "body",
+   "params:3",
+   "responses:3"
+  ],
+  "POST /repos/{owner}/{repo}/issues/{issue_number}/assignees": [
+   "body",
+   "params:3",
+   "responses:1"
+  ],
+  "POST /repos/{owner}/{repo}/issues/{issue_number}/comments": [
+   "body",
+   "params:3",
+   "responses:5"
+  ],
+  "POST /repos/{owner}/{repo}/issues/{issue_number}/dependencies/blocked_by": [
+   "body",
+   "params:3",
+   "responses:6"
+  ],
+  "POST /repos/{owner}/{repo}/issues/{issue_number}/issue-field-values": [
+   "body",
+   "params:3",
+   "responses:6"
+  ],
+  "POST /repos/{owner}/{repo}/issues/{issue_number}/labels": [
+   "body",
+   "params:3",
+   "responses:5"
+  ],
+  "POST /repos/{owner}/{repo}/issues/{issue_number}/reactions": [
+   "body",
+   "params:3",
+   "responses:3"
+  ],
+  "POST /repos/{owner}/{repo}/issues/{issue_number}/sub_issues": [
+   "body",
+   "params:3",
+   "responses:5"
+  ],
+  "POST /repos/{owner}/{repo}/issues/{issue_number}/suggestions/{suggestion_id}/approve": [
+   "params:4",
+   "responses:4"
+  ],
+  "POST /repos/{owner}/{repo}/issues/{issue_number}/suggestions/{suggestion_id}/dismiss": [
+   "params:4",
+   "responses:4"
+  ],
+  "POST /repos/{owner}/{repo}/keys": [
+   "body",
+   "params:2",
+   "responses:2"
+  ],
+  "POST /repos/{owner}/{repo}/labels": [
+   "body",
+   "params:2",
+   "responses:3"
+  ],
+  "POST /repos/{owner}/{repo}/merge-upstream": [
+   "body",
+   "params:2",
+   "responses:3"
+  ],
+  "POST /repos/{owner}/{repo}/merges": [
+   "body",
+   "params:2",
+   "responses:6"
+  ],
+  "POST /repos/{owner}/{repo}/milestones": [
+   "body",
+   "params:2",
+   "responses:3"
+  ],
+  "POST /repos/{owner}/{repo}/pages": [
+   "body",
+   "params:2",
+   "responses:3"
+  ],
+  "POST /repos/{owner}/{repo}/pages/builds": [
+   "params:2",
+   "responses:1"
+  ],
+  "POST /repos/{owner}/{repo}/pages/deployments": [
+   "body",
+   "params:2",
+   "responses:4"
+  ],
+  "POST /repos/{owner}/{repo}/pages/deployments/{pages_deployment_id}/cancel": [
+   "params:3",
+   "responses:2"
+  ],
+  "POST /repos/{owner}/{repo}/pulls": [
+   "body",
+   "params:2",
+   "responses:3"
+  ],
+  "POST /repos/{owner}/{repo}/pulls/comments/{comment_id}/reactions": [
+   "body",
+   "params:3",
+   "responses:3"
+  ],
+  "POST /repos/{owner}/{repo}/pulls/{pull_number}/codespaces": [
+   "body",
+   "params:3",
+   "responses:6"
+  ],
+  "POST /repos/{owner}/{repo}/pulls/{pull_number}/comments": [
+   "body",
+   "params:3",
+   "responses:3"
+  ],
+  "POST /repos/{owner}/{repo}/pulls/{pull_number}/comments/{comment_id}/replies": [
+   "body",
+   "params:4",
+   "responses:2"
+  ],
+  "POST /repos/{owner}/{repo}/pulls/{pull_number}/requested_reviewers": [
+   "body",
+   "params:3",
+   "responses:3"
+  ],
+  "POST /repos/{owner}/{repo}/pulls/{pull_number}/reviews": [
+   "body",
+   "params:3",
+   "responses:3"
+  ],
+  "POST /repos/{owner}/{repo}/pulls/{pull_number}/reviews/{review_id}/events": [
+   "body",
+   "params:4",
+   "responses:4"
+  ],
+  "POST /repos/{owner}/{repo}/releases": [
+   "body",
+   "params:2",
+   "responses:3"
+  ],
+  "POST /repos/{owner}/{repo}/releases/generate-notes": [
+   "body",
+   "params:2",
+   "responses:2"
+  ],
+  "POST /repos/{owner}/{repo}/releases/{release_id}/assets": [
+   "body",
+   "params:5",
+   "responses:2"
+  ],
+  "POST /repos/{owner}/{repo}/releases/{release_id}/reactions": [
+   "body",
+   "params:3",
+   "responses:3"
+  ],
+  "POST /repos/{owner}/{repo}/rulesets": [
+   "body",
+   "params:2",
+   "responses:4"
+  ],
+  "POST /repos/{owner}/{repo}/secret-scanning/custom-patterns": [
+   "body",
+   "params:2",
+   "responses:5"
+  ],
+  "POST /repos/{owner}/{repo}/secret-scanning/push-protection-bypasses": [
+   "body",
+   "params:2",
+   "responses:5"
+  ],
+  "POST /repos/{owner}/{repo}/security-advisories": [
+   "body",
+   "params:2",
+   "responses:4"
+  ],
+  "POST /repos/{owner}/{repo}/security-advisories/reports": [
+   "body",
+   "params:2",
+   "responses:4"
+  ],
+  "POST /repos/{owner}/{repo}/security-advisories/{ghsa_id}/cve": [
+   "params:3",
+   "responses:5"
+  ],
+  "POST /repos/{owner}/{repo}/security-advisories/{ghsa_id}/forks": [
+   "params:3",
+   "responses:5"
+  ],
+  "POST /repos/{owner}/{repo}/stacks": [
+   "body",
+   "params:2",
+   "responses:3"
+  ],
+  "POST /repos/{owner}/{repo}/stacks/{stack_number}/add": [
+   "body",
+   "params:3",
+   "responses:4"
+  ],
+  "POST /repos/{owner}/{repo}/stacks/{stack_number}/unstack": [
+   "params:3",
+   "responses:5"
+  ],
+  "POST /repos/{owner}/{repo}/statuses/{sha}": [
+   "body",
+   "params:3",
+   "responses:1"
+  ],
+  "POST /repos/{owner}/{repo}/transfer": [
+   "body",
+   "params:2",
+   "responses:1"
+  ],
+  "POST /repos/{template_owner}/{template_repo}/generate": [
+   "body",
+   "params:2",
+   "responses:1"
+  ],
+  "POST /user/codespaces": [
+   "body",
+   "params:0",
+   "responses:6"
+  ],
+  "POST /user/codespaces/{codespace_name}/exports": [
+   "params:1",
+   "responses:6"
+  ],
+  "POST /user/codespaces/{codespace_name}/publish": [
+   "body",
+   "params:1",
+   "responses:5"
+  ],
+  "POST /user/codespaces/{codespace_name}/start": [
+   "params:1",
+   "responses:9"
+  ],
+  "POST /user/codespaces/{codespace_name}/stop": [
+   "params:1",
+   "responses:5"
+  ],
+  "POST /user/emails": [
+   "body",
+   "params:0",
+   "responses:6"
+  ],
+  "POST /user/gpg_keys": [
+   "body",
+   "params:0",
+   "responses:6"
+  ],
+  "POST /user/keys": [
+   "body",
+   "params:0",
+   "responses:6"
+  ],
+  "POST /user/migrations": [
+   "body",
+   "params:0",
+   "responses:5"
+  ],
+  "POST /user/packages/{package_type}/{package_name}/restore": [
+   "params:3",
+   "responses:4"
+  ],
+  "POST /user/packages/{package_type}/{package_name}/versions/{package_version_id}/restore": [
+   "params:3",
+   "responses:4"
+  ],
+  "POST /user/repos": [
+   "body",
+   "params:0",
+   "responses:7"
+  ],
+  "POST /user/social_accounts": [
+   "body",
+   "params:0",
+   "responses:6"
+  ],
+  "POST /user/ssh_signing_keys": [
+   "body",
+   "params:0",
+   "responses:6"
+  ],
+  "POST /user/{user_id}/projectsV2/{project_number}/drafts": [
+   "body",
+   "params:2",
+   "responses:4"
+  ],
+  "POST /users/{user_id}/projectsV2/{project_number}/views": [
+   "body",
+   "params:2",
+   "responses:7"
+  ],
+  "POST /users/{username}/attestations/bulk-list": [
+   "body",
+   "params:4",
+   "responses:1"
+  ],
+  "POST /users/{username}/attestations/delete-request": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /users/{username}/copilot-spaces": [
+   "body",
+   "params:1",
+   "responses:4"
+  ],
+  "POST /users/{username}/copilot-spaces/{space_number}/collaborators": [
+   "body",
+   "params:2",
+   "responses:4"
+  ],
+  "POST /users/{username}/copilot-spaces/{space_number}/resources": [
+   "body",
+   "params:2",
+   "responses:5"
+  ],
+  "POST /users/{username}/packages/{package_type}/{package_name}/restore": [
+   "params:4",
+   "responses:4"
+  ],
+  "POST /users/{username}/packages/{package_type}/{package_name}/versions/{package_version_id}/restore": [
+   "params:4",
+   "responses:4"
+  ],
+  "POST /users/{username}/projectsV2/{project_number}/fields": [
+   "body",
+   "params:2",
+   "responses:5"
+  ],
+  "POST /users/{username}/projectsV2/{project_number}/items": [
+   "body",
+   "params:2",
+   "responses:4"
+  ],
+  "PUT /app/installations/{installation_id}/suspended": [
+   "params:1",
+   "responses:2"
+  ],
+  "PUT /enterprises/{enterprise}/actions/cache/retention-limit": [
+   "body",
+   "params:1",
+   "responses:4"
+  ],
+  "PUT /enterprises/{enterprise}/actions/cache/storage-limit": [
+   "body",
+   "params:1",
+   "responses:4"
+  ],
+  "PUT /enterprises/{enterprise}/code-security/configurations/{configuration_id}/defaults": [
+   "body",
+   "params:2",
+   "responses:3"
+  ],
+  "PUT /enterprises/{enterprise}/copilot/policies/coding_agent": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "PUT /enterprises/{enterprise}/dependabot/repository-access/default-level": [
+   "body",
+   "params:1",
+   "responses:3"
+  ],
+  "PUT /enterprises/{enterprise}/teams/{enterprise-team}/memberships/{username}": [
+   "params:3",
+   "responses:1"
+  ],
+  "PUT /enterprises/{enterprise}/teams/{enterprise-team}/organizations/{org}": [
+   "params:3",
+   "responses:1"
+  ],
+  "PUT /gists/{gist_id}/star": [
+   "params:1",
+   "responses:4"
+  ],
+  "PUT /notifications": [
+   "body",
+   "params:0",
+   "responses:5"
+  ],
+  "PUT /notifications/threads/{thread_id}/subscription": [
+   "body",
+   "params:1",
+   "responses:4"
+  ],
+  "PUT /organizations/{org}/actions/cache/retention-limit": [
+   "body",
+   "params:1",
+   "responses:4"
+  ],
+  "PUT /organizations/{org}/actions/cache/storage-limit": [
+   "body",
+   "params:1",
+   "responses:4"
+  ],
+  "PUT /orgs/{org}/actions/oidc/customization/sub": [
+   "body",
+   "params:1",
+   "responses:3"
+  ],
+  "PUT /orgs/{org}/actions/permissions": [
+   "body",
+   "params:1",
+   "responses:1"
+  ],
+  "PUT /orgs/{org}/actions/permissions/artifact-and-log-retention": [
+   "body",
+   "params:1",
+   "responses:5"
+  ],
+  "PUT /orgs/{org}/actions/permissions/fork-pr-contributor-approval": [
+   "body",
+   "params:1",
+   "responses:3"
+  ],
+  "PUT /orgs/{org}/actions/permissions/fork-pr-workflows-private-repos": [
+   "body",
+   "params:1",
+   "responses:4"
+  ],
+  "PUT /orgs/{org}/actions/permissions/repositories": [
+   "body",
+   "params:1",
+   "responses:1"
+  ],
+  "PUT /orgs/{org}/actions/permissions/repositories/{repository_id}": [
+   "params:2",
+   "responses:1"
+  ],
+  "PUT /orgs/{org}/actions/permissions/selected-actions": [
+   "body",
+   "params:1",
+   "responses:1"
+  ],
+  "PUT /orgs/{org}/actions/permissions/self-hosted-runners": [
+   "body",
+   "params:1",
+   "responses:5"
+  ],
+  "PUT /orgs/{org}/actions/permissions/self-hosted-runners/repositories": [
+   "body",
+   "params:1",
+   "responses:4"
+  ],
+  "PUT /orgs/{org}/actions/permissions/self-hosted-runners/repositories/{repository_id}": [
+   "params:2",
+   "responses:5"
+  ],
+  "PUT /orgs/{org}/actions/permissions/workflow": [
+   "body",
+   "params:1",
+   "responses:1"
+  ],
+  "PUT /orgs/{org}/actions/runner-groups/{runner_group_id}/repositories": [
+   "body",
+   "params:2",
+   "responses:1"
+  ],
+  "PUT /orgs/{org}/actions/runner-groups/{runner_group_id}/repositories/{repository_id}": [
+   "params:3",
+   "responses:1"
+  ],
+  "PUT /orgs/{org}/actions/runner-groups/{runner_group_id}/runners": [
+   "body",
+   "params:2",
+   "responses:1"
+  ],
+  "PUT /orgs/{org}/actions/runner-groups/{runner_group_id}/runners/{runner_id}": [
+   "params:3",
+   "responses:1"
+  ],
+  "PUT /orgs/{org}/actions/runners/{runner_id}/labels": [
+   "body",
+   "params:2",
+   "responses:3"
+  ],
+  "PUT /orgs/{org}/actions/secrets/{secret_name}": [
+   "body",
+   "params:2",
+   "responses:2"
+  ],
+  "PUT /orgs/{org}/actions/secrets/{secret_name}/repositories": [
+   "body",
+   "params:2",
+   "responses:1"
+  ],
+  "PUT /orgs/{org}/actions/secrets/{secret_name}/repositories/{repository_id}": [
+   "params:3",
+   "responses:2"
+  ],
+  "PUT /orgs/{org}/actions/variables/{name}/repositories": [
+   "body",
+   "params:2",
+   "responses:2"
+  ],
+  "PUT /orgs/{org}/actions/variables/{name}/repositories/{repository_id}": [
+   "params:3",
+   "responses:2"
+  ],
+  "PUT /orgs/{org}/agents/secrets/{secret_name}": [
+   "body",
+   "params:2",
+   "responses:2"
+  ],
+  "PUT /orgs/{org}/agents/secrets/{secret_name}/repositories": [
+   "body",
+   "params:2",
+   "responses:1"
+  ],
+  "PUT /orgs/{org}/agents/secrets/{secret_name}/repositories/{repository_id}": [
+   "params:3",
+   "responses:2"
+  ],
+  "PUT /orgs/{org}/agents/variables/{name}/repositories": [
+   "body",
+   "params:2",
+   "responses:2"
+  ],
+  "PUT /orgs/{org}/agents/variables/{name}/repositories/{repository_id}": [
+   "params:3",
+   "responses:2"
+  ],
+  "PUT /orgs/{org}/blocks/{username}": [
+   "params:2",
+   "responses:2"
+  ],
+  "PUT /orgs/{org}/code-security/configurations/{configuration_id}/defaults": [
+   "body",
+   "params:2",
+   "responses:3"
+  ],
+  "PUT /orgs/{org}/codespaces/access": [
+   "DEPRECATED",
+   "body",
+   "params:1",
+   "responses:6"
+  ],
+  "PUT /orgs/{org}/codespaces/secrets/{secret_name}": [
+   "body",
+   "params:2",
+   "responses:4"
+  ],
+  "PUT /orgs/{org}/codespaces/secrets/{secret_name}/repositories": [
+   "body",
+   "params:2",
+   "responses:3"
+  ],
+  "PUT /orgs/{org}/codespaces/secrets/{secret_name}/repositories/{repository_id}": [
+   "params:3",
+   "responses:4"
+  ],
+  "PUT /orgs/{org}/copilot-spaces/{space_number}": [
+   "body",
+   "params:2",
+   "responses:4"
+  ],
+  "PUT /orgs/{org}/copilot-spaces/{space_number}/collaborators/{actor_type}/{actor_identifier}": [
+   "body",
+   "params:4",
+   "responses:5"
+  ],
+  "PUT /orgs/{org}/copilot-spaces/{space_number}/resources/{space_resource_id}": [
+   "body",
+   "params:3",
+   "responses:4"
+  ],
+  "PUT /orgs/{org}/copilot/coding-agent/permissions": [
+   "body",
+   "params:1",
+   "responses:6"
+  ],
+  "PUT /orgs/{org}/copilot/coding-agent/permissions/repositories": [
+   "body",
+   "params:1",
+   "responses:7"
+  ],
+  "PUT /orgs/{org}/copilot/coding-agent/permissions/repositories/{repository_id}": [
+   "params:2",
+   "responses:7"
+  ],
+  "PUT /orgs/{org}/copilot/content_exclusion": [
+   "body",
+   "params:1",
+   "responses:7"
+  ],
+  "PUT /orgs/{org}/dependabot/repository-access/default-level": [
+   "body",
+   "params:1",
+   "responses:3"
+  ],
+  "PUT /orgs/{org}/dependabot/secrets/{secret_name}": [
+   "body",
+   "params:2",
+   "responses:2"
+  ],
+  "PUT /orgs/{org}/dependabot/secrets/{secret_name}/repositories": [
+   "body",
+   "params:2",
+   "responses:1"
+  ],
+  "PUT /orgs/{org}/dependabot/secrets/{secret_name}/repositories/{repository_id}": [
+   "params:3",
+   "responses:2"
+  ],
+  "PUT /orgs/{org}/interaction-limits": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "PUT /orgs/{org}/issue-types/{issue_type_id}": [
+   "body",
+   "params:2",
+   "responses:3"
+  ],
+  "PUT /orgs/{org}/memberships/{username}": [
+   "body",
+   "params:2",
+   "responses:3"
+  ],
+  "PUT /orgs/{org}/organization-roles/teams/{team_slug}/{role_id}": [
+   "params:3",
+   "responses:3"
+  ],
+  "PUT /orgs/{org}/organization-roles/users/{username}/{role_id}": [
+   "params:3",
+   "responses:3"
+  ],
+  "PUT /orgs/{org}/outside_collaborators/{username}": [
+   "body",
+   "params:2",
+   "responses:4"
+  ],
+  "PUT /orgs/{org}/properties/schema/{custom_property_name}": [
+   "body",
+   "params:2",
+   "responses:3"
+  ],
+  "PUT /orgs/{org}/public_members/{username}": [
+   "params:2",
+   "responses:2"
+  ],
+  "PUT /orgs/{org}/rulesets/{ruleset_id}": [
+   "body",
+   "params:2",
+   "responses:4"
+  ],
+  "PUT /orgs/{org}/security-managers/teams/{team_slug}": [
+   "DEPRECATED",
+   "params:2",
+   "responses:1"
+  ],
+  "PUT /orgs/{org}/settings/immutable-releases": [
+   "body",
+   "params:1",
+   "responses:1"
+  ],
+  "PUT /orgs/{org}/settings/immutable-releases/repositories": [
+   "body",
+   "params:1",
+   "responses:1"
+  ],
+  "PUT /orgs/{org}/settings/immutable-releases/repositories/{repository_id}": [
+   "params:2",
+   "responses:1"
+  ],
+  "PUT /orgs/{org}/teams/{team_slug}/memberships/{username}": [
+   "body",
+   "params:3",
+   "responses:3"
+  ],
+  "PUT /orgs/{org}/teams/{team_slug}/repos/{owner}/{repo}": [
+   "body",
+   "params:4",
+   "responses:1"
+  ],
+  "PUT /repos/{owner}/{repo}/actions/cache/retention-limit": [
+   "body",
+   "params:2",
+   "responses:4"
+  ],
+  "PUT /repos/{owner}/{repo}/actions/cache/storage-limit": [
+   "body",
+   "params:2",
+   "responses:4"
+  ],
+  "PUT /repos/{owner}/{repo}/actions/oidc/customization/sub": [
+   "body",
+   "params:2",
+   "responses:4"
+  ],
+  "PUT /repos/{owner}/{repo}/actions/permissions": [
+   "body",
+   "params:2",
+   "responses:1"
+  ],
+  "PUT /repos/{owner}/{repo}/actions/permissions/access": [
+   "body",
+   "params:2",
+   "responses:1"
+  ],
+  "PUT /repos/{owner}/{repo}/actions/permissions/artifact-and-log-retention": [
+   "body",
+   "params:2",
+   "responses:3"
+  ],
+  "PUT /repos/{owner}/{repo}/actions/permissions/fork-pr-contributor-approval": [
+   "body",
+   "params:2",
+   "responses:3"
+  ],
+  "PUT /repos/{owner}/{repo}/actions/permissions/fork-pr-workflows-private-repos": [
+   "body",
+   "params:2",
+   "responses:3"
+  ],
+  "PUT /repos/{owner}/{repo}/actions/permissions/selected-actions": [
+   "body",
+   "params:2",
+   "responses:1"
+  ],
+  "PUT /repos/{owner}/{repo}/actions/permissions/workflow": [
+   "body",
+   "params:2",
+   "responses:2"
+  ],
+  "PUT /repos/{owner}/{repo}/actions/runners/{runner_id}/labels": [
+   "body",
+   "params:3",
+   "responses:3"
+  ],
+  "PUT /repos/{owner}/{repo}/actions/secrets/{secret_name}": [
+   "body",
+   "params:3",
+   "responses:2"
+  ],
+  "PUT /repos/{owner}/{repo}/actions/workflows/{workflow_id}/disable": [
+   "params:3",
+   "responses:1"
+  ],
+  "PUT /repos/{owner}/{repo}/actions/workflows/{workflow_id}/enable": [
+   "params:3",
+   "responses:1"
+  ],
+  "PUT /repos/{owner}/{repo}/agents/secrets/{secret_name}": [
+   "body",
+   "params:3",
+   "responses:2"
+  ],
+  "PUT /repos/{owner}/{repo}/automated-security-fixes": [
+   "params:2",
+   "responses:1"
+  ],
+  "PUT /repos/{owner}/{repo}/branches/{branch}/protection": [
+   "body",
+   "params:3",
+   "responses:4"
+  ],
+  "PUT /repos/{owner}/{repo}/branches/{branch}/protection/required_status_checks/contexts": [
+   "body",
+   "params:3",
+   "responses:3"
+  ],
+  "PUT /repos/{owner}/{repo}/branches/{branch}/protection/restrictions/apps": [
+   "body",
+   "params:3",
+   "responses:2"
+  ],
+  "PUT /repos/{owner}/{repo}/branches/{branch}/protection/restrictions/teams": [
+   "body",
+   "params:3",
+   "responses:2"
+  ],
+  "PUT /repos/{owner}/{repo}/branches/{branch}/protection/restrictions/users": [
+   "body",
+   "params:3",
+   "responses:2"
+  ],
+  "PUT /repos/{owner}/{repo}/codespaces/secrets/{secret_name}": [
+   "body",
+   "params:3",
+   "responses:2"
+  ],
+  "PUT /repos/{owner}/{repo}/collaborators/{username}": [
+   "body",
+   "params:3",
+   "responses:4"
+  ],
+  "PUT /repos/{owner}/{repo}/contents/{path}": [
+   "body",
+   "params:3",
+   "responses:5"
+  ],
+  "PUT /repos/{owner}/{repo}/dependabot/secrets/{secret_name}": [
+   "body",
+   "params:3",
+   "responses:2"
+  ],
+  "PUT /repos/{owner}/{repo}/environments/{environment_name}": [
+   "body",
+   "params:3",
+   "responses:2"
+  ],
+  "PUT /repos/{owner}/{repo}/environments/{environment_name}/deployment-branch-policies/{branch_policy_id}": [
+   "body",
+   "params:4",
+   "responses:1"
+  ],
+  "PUT /repos/{owner}/{repo}/environments/{environment_name}/secrets/{secret_name}": [
+   "body",
+   "params:4",
+   "responses:2"
+  ],
+  "PUT /repos/{owner}/{repo}/immutable-releases": [
+   "params:2",
+   "responses:2"
+  ],
+  "PUT /repos/{owner}/{repo}/import": [
+   "DEPRECATED",
+   "body",
+   "params:2",
+   "responses:4"
+  ],
+  "PUT /repos/{owner}/{repo}/interaction-limits": [
+   "body",
+   "params:2",
+   "responses:2"
+  ],
+  "PUT /repos/{owner}/{repo}/interaction-limits/pulls/bypass-list": [
+   "body",
+   "params:2",
+   "responses:4"
+  ],
+  "PUT /repos/{owner}/{repo}/issues/comments/{comment_id}/pin": [
+   "params:3",
+   "responses:6"
+  ],
+  "PUT /repos/{owner}/{repo}/issues/{issue_number}/issue-field-values": [
+   "body",
+   "params:3",
+   "responses:6"
+  ],
+  "PUT /repos/{owner}/{repo}/issues/{issue_number}/labels": [
+   "body",
+   "params:3",
+   "responses:5"
+  ],
+  "PUT /repos/{owner}/{repo}/issues/{issue_number}/lock": [
+   "body",
+   "params:3",
+   "responses:5"
+  ],
+  "PUT /repos/{owner}/{repo}/notifications": [
+   "body",
+   "params:2",
+   "responses:2"
+  ],
+  "PUT /repos/{owner}/{repo}/pages": [
+   "body",
+   "params:2",
+   "responses:4"
+  ],
+  "PUT /repos/{owner}/{repo}/private-vulnerability-reporting": [
+   "params:2",
+   "responses:2"
+  ],
+  "PUT /repos/{owner}/{repo}/pulls/{pull_number}/merge": [
+   "body",
+   "params:3",
+   "responses:6"
+  ],
+  "PUT /repos/{owner}/{repo}/pulls/{pull_number}/merge-async": [
+   "body",
+   "params:3",
+   "responses:7"
+  ],
+  "PUT /repos/{owner}/{repo}/pulls/{pull_number}/reviews/{review_id}": [
+   "body",
+   "params:4",
+   "responses:2"
+  ],
+  "PUT /repos/{owner}/{repo}/pulls/{pull_number}/reviews/{review_id}/dismissals": [
+   "body",
+   "params:4",
+   "responses:3"
+  ],
+  "PUT /repos/{owner}/{repo}/pulls/{pull_number}/update-branch": [
+   "body",
+   "params:3",
+   "responses:3"
+  ],
+  "PUT /repos/{owner}/{repo}/rulesets/{ruleset_id}": [
+   "body",
+   "params:3",
+   "responses:4"
+  ],
+  "PUT /repos/{owner}/{repo}/subscription": [
+   "body",
+   "params:2",
+   "responses:1"
+  ],
+  "PUT /repos/{owner}/{repo}/topics": [
+   "body",
+   "params:2",
+   "responses:3"
+  ],
+  "PUT /repos/{owner}/{repo}/vulnerability-alerts": [
+   "params:2",
+   "responses:1"
+  ],
+  "PUT /teams/{team_id}/members/{username}": [
+   "DEPRECATED",
+   "params:2",
+   "responses:4"
+  ],
+  "PUT /teams/{team_id}/memberships/{username}": [
+   "DEPRECATED",
+   "body",
+   "params:2",
+   "responses:4"
+  ],
+  "PUT /teams/{team_id}/repos/{owner}/{repo}": [
+   "DEPRECATED",
+   "body",
+   "params:3",
+   "responses:3"
+  ],
+  "PUT /user/blocks/{username}": [
+   "params:1",
+   "responses:6"
+  ],
+  "PUT /user/codespaces/secrets/{secret_name}": [
+   "body",
+   "params:1",
+   "responses:4"
+  ],
+  "PUT /user/codespaces/secrets/{secret_name}/repositories": [
+   "body",
+   "params:1",
+   "responses:5"
+  ],
+  "PUT /user/codespaces/secrets/{secret_name}/repositories/{repository_id}": [
+   "params:2",
+   "responses:5"
+  ],
+  "PUT /user/following/{username}": [
+   "params:1",
+   "responses:6"
+  ],
+  "PUT /user/installations/{installation_id}/repositories/{repository_id}": [
+   "params:2",
+   "responses:4"
+  ],
+  "PUT /user/interaction-limits": [
+   "body",
+   "params:0",
+   "responses:2"
+  ],
+  "PUT /user/starred/{owner}/{repo}": [
+   "params:2",
+   "responses:5"
+  ],
+  "PUT /users/{username}/copilot-spaces/{space_number}": [
+   "body",
+   "params:2",
+   "responses:4"
+  ],
+  "PUT /users/{username}/copilot-spaces/{space_number}/collaborators/{actor_type}/{actor_identifier}": [
+   "body",
+   "params:4",
+   "responses:5"
+  ],
+  "PUT /users/{username}/copilot-spaces/{space_number}/resources/{space_resource_id}": [
+   "body",
+   "params:3",
+   "responses:4"
+  ],
+  "schema:actions-artifact-and-log-retention": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:actions-artifact-and-log-retention-response": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:actions-cache-list": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:actions-cache-retention-limit-for-enterprise": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:actions-cache-retention-limit-for-organization": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:actions-cache-retention-limit-for-repository": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:actions-cache-storage-limit-for-enterprise": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:actions-cache-storage-limit-for-organization": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:actions-cache-storage-limit-for-repository": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:actions-cache-usage-by-repository": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:actions-cache-usage-org-enterprise": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:actions-can-approve-pull-request-reviews": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:actions-default-workflow-permissions": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:actions-enabled": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:actions-fork-pr-contributor-approval": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:actions-fork-pr-workflows-private-repos": [
+   "props:4",
+   "req:4"
+  ],
+  "schema:actions-fork-pr-workflows-private-repos-request": [
+   "props:4",
+   "req:1"
+  ],
+  "schema:actions-get-default-workflow-permissions": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:actions-hosted-runner": [
+   "props:12",
+   "req:7"
+  ],
+  "schema:actions-hosted-runner-curated-image": [
+   "props:5",
+   "req:5"
+  ],
+  "schema:actions-hosted-runner-custom-image": [
+   "props:8",
+   "req:8"
+  ],
+  "schema:actions-hosted-runner-custom-image-version": [
+   "props:5",
+   "req:5"
+  ],
+  "schema:actions-hosted-runner-limits": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:actions-hosted-runner-machine-spec": [
+   "props:4",
+   "req:4"
+  ],
+  "schema:actions-organization-permissions": [
+   "props:5",
+   "req:1"
+  ],
+  "schema:actions-public-key": [
+   "props:6",
+   "req:2"
+  ],
+  "schema:actions-repository-permissions": [
+   "props:4",
+   "req:1"
+  ],
+  "schema:actions-secret": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:actions-set-default-workflow-permissions": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:actions-variable": [
+   "props:4",
+   "req:4"
+  ],
+  "schema:actions-workflow-access-to-repository": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:activity": [
+   "props:8",
+   "req:8"
+  ],
+  "schema:actor": [
+   "props:6",
+   "req:5"
+  ],
+  "schema:added-to-project-issue-event": [
+   "props:10",
+   "req:9"
+  ],
+  "schema:alert-auto-dismissed-at": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:alert-created-at": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:alert-dismissed-at": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:alert-fixed-at": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:alert-html-url": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:alert-instances-url": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:alert-number": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:alert-updated-at": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:alert-url": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:allowed-actions": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:api-insights-route-stats": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:api-insights-subject-stats": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:api-insights-summary-stats": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:api-insights-time-stats": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:api-insights-user-stats": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:api-overview": [
+   "props:18",
+   "req:1"
+  ],
+  "schema:app-permissions": [
+   "props:55",
+   "req:0"
+  ],
+  "schema:artifact": [
+   "props:12",
+   "req:10"
+  ],
+  "schema:artifact-deployment-record": [
+   "props:11",
+   "req:0"
+  ],
+  "schema:assigned-issue-event": [
+   "props:12",
+   "req:11"
+  ],
+  "schema:authentication-token": [
+   "props:6",
+   "req:2"
+  ],
+  "schema:author-association": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:authorization": [
+   "props:15",
+   "req:13"
+  ],
+  "schema:auto-merge": [
+   "props:4",
+   "req:4"
+  ],
+  "schema:autolink": [
+   "props:5",
+   "req:4"
+  ],
+  "schema:base-gist": [
+   "props:21",
+   "req:16"
+  ],
+  "schema:basic-error": [
+   "props:4",
+   "req:0"
+  ],
+  "schema:billing-ai-credit-usage-report-org": [
+   "props:6",
+   "req:3"
+  ],
+  "schema:billing-ai-credit-usage-report-user": [
+   "props:5",
+   "req:3"
+  ],
+  "schema:billing-premium-request-usage-report-org": [
+   "props:6",
+   "req:3"
+  ],
+  "schema:billing-premium-request-usage-report-user": [
+   "props:5",
+   "req:3"
+  ],
+  "schema:billing-usage-report": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:billing-usage-report-user": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:billing-usage-summary-report-org": [
+   "props:6",
+   "req:3"
+  ],
+  "schema:billing-usage-summary-report-user": [
+   "props:6",
+   "req:3"
+  ],
+  "schema:blob": [
+   "props:7",
+   "req:6"
+  ],
+  "schema:blocked-by-added-issue-event": [
+   "props:10",
+   "req:10"
+  ],
+  "schema:blocked-by-removed-issue-event": [
+   "props:10",
+   "req:10"
+  ],
+  "schema:blocking-added-issue-event": [
+   "props:10",
+   "req:10"
+  ],
+  "schema:blocking-removed-issue-event": [
+   "props:10",
+   "req:10"
+  ],
+  "schema:branch-protection": [
+   "props:16",
+   "req:0"
+  ],
+  "schema:branch-restriction-policy": [
+   "props:7",
+   "req:7"
+  ],
+  "schema:branch-short": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:branch-with-protection": [
+   "props:8",
+   "req:6"
+  ],
+  "schema:budget": [
+   "props:10",
+   "req:7"
+  ],
+  "schema:campaign-alert-type": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:campaign-state": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:campaign-summary": [
+   "props:13",
+   "req:8"
+  ],
+  "schema:check-annotation": [
+   "props:10",
+   "req:10"
+  ],
+  "schema:check-automated-security-fixes": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:check-immutable-releases": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:check-run": [
+   "props:17",
+   "req:16"
+  ],
+  "schema:check-run-with-simple-check-suite": [
+   "props:17",
+   "req:16"
+  ],
+  "schema:check-suite": [
+   "props:19",
+   "req:17"
+  ],
+  "schema:check-suite-preference": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:classroom": [
+   "props:5",
+   "req:5"
+  ],
+  "schema:classroom-accepted-assignment": [
+   "props:8",
+   "req:8"
+  ],
+  "schema:classroom-assignment": [
+   "props:19",
+   "req:19"
+  ],
+  "schema:classroom-assignment-grade": [
+   "props:11",
+   "req:10"
+  ],
+  "schema:clone-traffic": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:code-frequency-stat": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:code-of-conduct": [
+   "props:5",
+   "req:4"
+  ],
+  "schema:code-of-conduct-simple": [
+   "props:4",
+   "req:4"
+  ],
+  "schema:code-quality-finding": [
+   "props:7",
+   "req:6"
+  ],
+  "schema:code-quality-finding-location": [
+   "props:5",
+   "req:1"
+  ],
+  "schema:code-quality-finding-message": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:code-quality-finding-rule": [
+   "props:6",
+   "req:5"
+  ],
+  "schema:code-quality-setup": [
+   "props:7",
+   "req:0"
+  ],
+  "schema:code-quality-setup-update": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:code-quality-setup-update-response": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:code-scanning-alert": [
+   "props:18",
+   "req:12"
+  ],
+  "schema:code-scanning-alert-assignees": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:code-scanning-alert-classification": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:code-scanning-alert-create-request": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:code-scanning-alert-dismissed-comment": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:code-scanning-alert-dismissed-reason": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:code-scanning-alert-environment": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:code-scanning-alert-instance": [
+   "props:10",
+   "req:0"
+  ],
+  "schema:code-scanning-alert-instance-list": [
+   "props:10",
+   "req:0"
+  ],
+  "schema:code-scanning-alert-instance-state": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:code-scanning-alert-items": [
+   "props:17",
+   "req:12"
+  ],
+  "schema:code-scanning-alert-location": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:code-scanning-alert-rule": [
+   "props:9",
+   "req:0"
+  ],
+  "schema:code-scanning-alert-rule-summary": [
+   "props:9",
+   "req:0"
+  ],
+  "schema:code-scanning-alert-set-state": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:code-scanning-alert-severity": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:code-scanning-alert-state": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:code-scanning-alert-state-query": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:code-scanning-analysis": [
+   "props:15",
+   "req:14"
+  ],
+  "schema:code-scanning-analysis-analysis-key": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:code-scanning-analysis-category": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:code-scanning-analysis-commit-sha": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:code-scanning-analysis-created-at": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:code-scanning-analysis-deletion": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:code-scanning-analysis-environment": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:code-scanning-analysis-sarif-file": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:code-scanning-analysis-sarif-id": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:code-scanning-analysis-tool": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:code-scanning-analysis-tool-guid": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:code-scanning-analysis-tool-name": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:code-scanning-analysis-tool-version": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:code-scanning-analysis-url": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:code-scanning-autofix": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:code-scanning-autofix-commits": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:code-scanning-autofix-commits-response": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:code-scanning-autofix-description": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:code-scanning-autofix-started-at": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:code-scanning-autofix-status": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:code-scanning-codeql-database": [
+   "props:10",
+   "req:9"
+  ],
+  "schema:code-scanning-default-setup": [
+   "props:8",
+   "req:0"
+  ],
+  "schema:code-scanning-default-setup-options": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:code-scanning-default-setup-update": [
+   "props:6",
+   "req:0"
+  ],
+  "schema:code-scanning-default-setup-update-response": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:code-scanning-options": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:code-scanning-organization-alert-items": [
+   "props:18",
+   "req:13"
+  ],
+  "schema:code-scanning-ref": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:code-scanning-ref-full": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:code-scanning-sarifs-receipt": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:code-scanning-sarifs-status": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:code-scanning-variant-analysis": [
+   "props:13",
+   "req:6"
+  ],
+  "schema:code-scanning-variant-analysis-language": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:code-scanning-variant-analysis-repo-task": [
+   "props:8",
+   "req:2"
+  ],
+  "schema:code-scanning-variant-analysis-repository": [
+   "props:6",
+   "req:6"
+  ],
+  "schema:code-scanning-variant-analysis-skipped-repo-group": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:code-scanning-variant-analysis-status": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:code-search-result-item": [
+   "props:13",
+   "req:8"
+  ],
+  "schema:code-security-configuration": [
+   "props:30",
+   "req:0"
+  ],
+  "schema:code-security-configuration-for-repository": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:code-security-configuration-repositories": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:code-security-default-configurations": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:codeowners-errors": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:codespace": [
+   "props:32",
+   "req:22"
+  ],
+  "schema:codespace-export-details": [
+   "props:7",
+   "req:0"
+  ],
+  "schema:codespace-machine": [
+   "props:7",
+   "req:7"
+  ],
+  "schema:codespace-with-full-repository": [
+   "props:31",
+   "req:22"
+  ],
+  "schema:codespaces-org-secret": [
+   "props:5",
+   "req:4"
+  ],
+  "schema:codespaces-permissions-check-for-devcontainer": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:codespaces-public-key": [
+   "props:6",
+   "req:2"
+  ],
+  "schema:codespaces-secret": [
+   "props:5",
+   "req:5"
+  ],
+  "schema:codespaces-user-public-key": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:collaborator": [
+   "props:23",
+   "req:19"
+  ],
+  "schema:combined-commit-status": [
+   "props:7",
+   "req:7"
+  ],
+  "schema:commit": [
+   "props:11",
+   "req:9"
+  ],
+  "schema:commit-activity": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:commit-comment": [
+   "props:14",
+   "req:13"
+  ],
+  "schema:commit-comment-event": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:commit-comparison": [
+   "props:13",
+   "req:12"
+  ],
+  "schema:commit-search-result-item": [
+   "props:12",
+   "req:11"
+  ],
+  "schema:community-profile": [
+   "props:6",
+   "req:5"
+  ],
+  "schema:concurrency-group": [
+   "props:4",
+   "req:4"
+  ],
+  "schema:concurrency-group-list": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:concurrency-group-run-list": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:content-directory": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:content-file": [
+   "props:14",
+   "req:12"
+  ],
+  "schema:content-submodule": [
+   "props:11",
+   "req:11"
+  ],
+  "schema:content-symlink": [
+   "props:11",
+   "req:11"
+  ],
+  "schema:content-traffic": [
+   "props:4",
+   "req:4"
+  ],
+  "schema:content-tree": [
+   "props:13",
+   "req:10"
+  ],
+  "schema:contributor": [
+   "props:22",
+   "req:2"
+  ],
+  "schema:contributor-activity": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:converted-note-to-issue-issue-event": [
+   "props:10",
+   "req:9"
+  ],
+  "schema:copilot-organization-content-exclusion-details": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:copilot-organization-details": [
+   "props:7",
+   "req:3"
+  ],
+  "schema:copilot-organization-seat-breakdown": [
+   "props:6",
+   "req:0"
+  ],
+  "schema:copilot-seat-details": [
+   "props:10",
+   "req:1"
+  ],
+  "schema:copilot-space": [
+   "props:13",
+   "req:10"
+  ],
+  "schema:copilot-space-collaborator": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:copilot-space-resource": [
+   "props:6",
+   "req:5"
+  ],
+  "schema:copilot-usage-metrics-1-day-report": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:copilot-usage-metrics-28-day-report": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:create-budget": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:create-event": [
+   "props:6",
+   "req:5"
+  ],
+  "schema:custom-deployment-rule-app": [
+   "props:4",
+   "req:4"
+  ],
+  "schema:custom-property": [
+   "props:10",
+   "req:2"
+  ],
+  "schema:custom-property-set-payload": [
+   "props:7",
+   "req:1"
+  ],
+  "schema:custom-property-value": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:cvss-severities": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:delete-budget": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:delete-event": [
+   "props:4",
+   "req:4"
+  ],
+  "schema:demilestoned-issue-event": [
+   "props:10",
+   "req:10"
+  ],
+  "schema:dependabot-alert": [
+   "props:17",
+   "req:14"
+  ],
+  "schema:dependabot-alert-dismissal-request-simple": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:dependabot-alert-package": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:dependabot-alert-security-advisory": [
+   "props:16",
+   "req:13"
+  ],
+  "schema:dependabot-alert-security-vulnerability": [
+   "props:4",
+   "req:4"
+  ],
+  "schema:dependabot-alert-with-repository": [
+   "props:18",
+   "req:15"
+  ],
+  "schema:dependabot-public-key": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:dependabot-repository-access-details": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:dependabot-secret": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:dependency": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:dependency-graph-diff": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:dependency-graph-spdx-sbom": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:deploy-key": [
+   "props:10",
+   "req:7"
+  ],
+  "schema:deployment": [
+   "props:18",
+   "req:14"
+  ],
+  "schema:deployment-branch-policy": [
+   "props:4",
+   "req:0"
+  ],
+  "schema:deployment-branch-policy-name-pattern": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:deployment-branch-policy-name-pattern-with-type": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:deployment-branch-policy-settings": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:deployment-protection-rule": [
+   "props:4",
+   "req:4"
+  ],
+  "schema:deployment-reviewer-type": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:deployment-simple": [
+   "props:14",
+   "req:10"
+  ],
+  "schema:deployment-status": [
+   "props:15",
+   "req:11"
+  ],
+  "schema:diff-entry": [
+   "props:11",
+   "req:9"
+  ],
+  "schema:discussion": [
+   "props:23",
+   "req:19"
+  ],
+  "schema:discussion-event": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:email": [
+   "props:4",
+   "req:4"
+  ],
+  "schema:empty-object": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:enabled-repositories": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:enterprise": [
+   "props:10",
+   "req:8"
+  ],
+  "schema:enterprise-team": [
+   "props:14",
+   "req:9"
+  ],
+  "schema:enterprise-webhooks": [
+   "props:10",
+   "req:8"
+  ],
+  "schema:environment": [
+   "props:9",
+   "req:7"
+  ],
+  "schema:environment-approvals": [
+   "props:4",
+   "req:4"
+  ],
+  "schema:event": [
+   "props:8",
+   "req:7"
+  ],
+  "schema:feed": [
+   "props:11",
+   "req:3"
+  ],
+  "schema:file-commit": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:fork-event": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:full-repository": [
+   "props:105",
+   "req:75"
+  ],
+  "schema:get-budget": [
+   "props:9",
+   "req:8"
+  ],
+  "schema:get_all_budgets": [
+   "props:5",
+   "req:1"
+  ],
+  "schema:gist-comment": [
+   "props:8",
+   "req:8"
+  ],
+  "schema:gist-commit": [
+   "props:5",
+   "req:5"
+  ],
+  "schema:gist-history": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:gist-simple": [
+   "props:22",
+   "req:0"
+  ],
+  "schema:git-commit": [
+   "props:10",
+   "req:10"
+  ],
+  "schema:git-ref": [
+   "props:4",
+   "req:4"
+  ],
+  "schema:git-tag": [
+   "props:8",
+   "req:7"
+  ],
+  "schema:git-tree": [
+   "props:4",
+   "req:3"
+  ],
+  "schema:git-user": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:gitignore-template": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:global-advisory": [
+   "props:23",
+   "req:21"
+  ],
+  "schema:gollum-event": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:gpg-key": [
+   "props:15",
+   "req:14"
+  ],
+  "schema:hook": [
+   "props:13",
+   "req:12"
+  ],
+  "schema:hook-delivery": [
+   "props:15",
+   "req:13"
+  ],
+  "schema:hook-delivery-item": [
+   "props:12",
+   "req:11"
+  ],
+  "schema:hook-response": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:hovercard": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:immutable-releases-organization-settings": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:import": [
+   "props:23",
+   "req:7"
+  ],
+  "schema:installation": [
+   "props:21",
+   "req:17"
+  ],
+  "schema:installation-token": [
+   "props:8",
+   "req:2"
+  ],
+  "schema:integration": [
+   "props:14",
+   "req:11"
+  ],
+  "schema:integration-installation-request": [
+   "props:5",
+   "req:4"
+  ],
+  "schema:interaction-expiry": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:interaction-group": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:interaction-limit": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:interaction-limit-pull-request-bypass-list": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:interaction-limit-response": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:issue": [
+   "props:40",
+   "req:20"
+  ],
+  "schema:issue-comment": [
+   "props:16",
+   "req:8"
+  ],
+  "schema:issue-comment-event": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:issue-dependencies-summary": [
+   "props:4",
+   "req:4"
+  ],
+  "schema:issue-event": [
+   "props:29",
+   "req:8"
+  ],
+  "schema:issue-event-dismissed-review": [
+   "props:4",
+   "req:3"
+  ],
+  "schema:issue-event-for-issue": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:issue-event-label": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:issue-event-milestone": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:issue-event-project-card": [
+   "props:6",
+   "req:5"
+  ],
+  "schema:issue-event-rename": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:issue-field": [
+   "props:9",
+   "req:4"
+  ],
+  "schema:issue-field-value": [
+   "props:7",
+   "req:4"
+  ],
+  "schema:issue-search-result-item": [
+   "props:40",
+   "req:22"
+  ],
+  "schema:issue-suggestion": [
+   "props:13",
+   "req:13"
+  ],
+  "schema:issue-type": [
+   "props:8",
+   "req:4"
+  ],
+  "schema:issue-type-added-issue-event": [
+   "props:11",
+   "req:10"
+  ],
+  "schema:issue-type-changed-issue-event": [
+   "props:12",
+   "req:11"
+  ],
+  "schema:issue-type-removed-issue-event": [
+   "props:11",
+   "req:10"
+  ],
+  "schema:issue-type-webhook": [
+   "props:3",
+   "req:2"
+  ],
+  "schema:issues-event": [
+   "props:6",
+   "req:2"
+  ],
+  "schema:job": [
+   "props:23",
+   "req:21"
+  ],
+  "schema:key": [
+   "props:8",
+   "req:7"
+  ],
+  "schema:key-simple": [
+   "props:4",
+   "req:2"
+  ],
+  "schema:label": [
+   "props:7",
+   "req:7"
+  ],
+  "schema:label-search-result-item": [
+   "props:9",
+   "req:8"
+  ],
+  "schema:labeled-issue-event": [
+   "props:11",
+   "req:10"
+  ],
+  "schema:language": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:ldap-dn": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:license": [
+   "props:13",
+   "req:13"
+  ],
+  "schema:license-content": [
+   "props:13",
+   "req:13"
+  ],
+  "schema:license-simple": [
+   "props:6",
+   "req:5"
+  ],
+  "schema:link": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:link-with-type": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:locked-issue-event": [
+   "props:10",
+   "req:10"
+  ],
+  "schema:manifest": [
+   "props:4",
+   "req:1"
+  ],
+  "schema:marketplace-account": [
+   "props:7",
+   "req:4"
+  ],
+  "schema:marketplace-listing-plan": [
+   "props:13",
+   "req:13"
+  ],
+  "schema:marketplace-purchase": [
+   "props:8",
+   "req:5"
+  ],
+  "schema:member-event": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:merge-group": [
+   "props:5",
+   "req:5"
+  ],
+  "schema:merged-upstream": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:metadata": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:migration": [
+   "props:18",
+   "req:16"
+  ],
+  "schema:milestone": [
+   "props:16",
+   "req:16"
+  ],
+  "schema:milestoned-issue-event": [
+   "props:10",
+   "req:10"
+  ],
+  "schema:minimal-repository": [
+   "props:90",
+   "req:46"
+  ],
+  "schema:moved-column-in-project-issue-event": [
+   "props:10",
+   "req:9"
+  ],
+  "schema:network-configuration": [
+   "props:7",
+   "req:3"
+  ],
+  "schema:network-settings": [
+   "props:5",
+   "req:4"
+  ],
+  "schema:nullable-actions-hosted-runner-pool-image": [
+   "props:5",
+   "req:4"
+  ],
+  "schema:nullable-alert-updated-at": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:nullable-code-of-conduct-simple": [
+   "props:4",
+   "req:4"
+  ],
+  "schema:nullable-codespace-machine": [
+   "props:7",
+   "req:7"
+  ],
+  "schema:nullable-collaborator": [
+   "props:23",
+   "req:19"
+  ],
+  "schema:nullable-community-health-file": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:nullable-deployment": [
+   "props:18",
+   "req:14"
+  ],
+  "schema:nullable-git-user": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:nullable-integration": [
+   "props:14",
+   "req:11"
+  ],
+  "schema:nullable-issue": [
+   "props:40",
+   "req:20"
+  ],
+  "schema:nullable-issue-comment": [
+   "props:16",
+   "req:8"
+  ],
+  "schema:nullable-issue-comment-minimized": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:nullable-issue-event-intent": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:nullable-issue-reference": [
+   "props:6",
+   "req:5"
+  ],
+  "schema:nullable-license-simple": [
+   "props:6",
+   "req:5"
+  ],
+  "schema:nullable-milestone": [
+   "props:16",
+   "req:16"
+  ],
+  "schema:nullable-minimal-repository": [
+   "props:90",
+   "req:46"
+  ],
+  "schema:nullable-organization-simple": [
+   "props:12",
+   "req:12"
+  ],
+  "schema:nullable-pinned-issue-comment": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:nullable-projects-v2-status-update": [
+   "props:10",
+   "req:4"
+  ],
+  "schema:nullable-repository": [
+   "props:98",
+   "req:73"
+  ],
+  "schema:nullable-repository-webhooks": [
+   "props:102",
+   "req:73"
+  ],
+  "schema:nullable-scoped-installation": [
+   "props:7",
+   "req:5"
+  ],
+  "schema:nullable-secret-scanning-first-detected-location": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:nullable-simple-commit": [
+   "props:6",
+   "req:6"
+  ],
+  "schema:nullable-simple-repository": [
+   "props:46",
+   "req:46"
+  ],
+  "schema:nullable-simple-user": [
+   "props:22",
+   "req:18"
+  ],
+  "schema:nullable-team-simple": [
+   "props:16",
+   "req:11"
+  ],
+  "schema:oidc-custom-property-inclusion": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:oidc-custom-property-inclusion-input": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:oidc-custom-sub": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:oidc-custom-sub-repo": [
+   "props:4",
+   "req:1"
+  ],
+  "schema:org-hook": [
+   "props:11",
+   "req:10"
+  ],
+  "schema:org-membership": [
+   "props:9",
+   "req:6"
+  ],
+  "schema:org-private-registry-configuration": [
+   "props:24",
+   "req:5"
+  ],
+  "schema:org-private-registry-configuration-with-selected-repositories": [
+   "props:25",
+   "req:5"
+  ],
+  "schema:org-repo-custom-property-values": [
+   "props:4",
+   "req:4"
+  ],
+  "schema:org-rules": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:org-ruleset-conditions": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:organization-actions-secret": [
+   "props:5",
+   "req:4"
+  ],
+  "schema:organization-actions-variable": [
+   "props:6",
+   "req:5"
+  ],
+  "schema:organization-create-issue-field": [
+   "props:5",
+   "req:2"
+  ],
+  "schema:organization-create-issue-type": [
+   "props:4",
+   "req:2"
+  ],
+  "schema:organization-dependabot-secret": [
+   "props:5",
+   "req:4"
+  ],
+  "schema:organization-full": [
+   "props:67",
+   "req:23"
+  ],
+  "schema:organization-invitation": [
+   "props:12",
+   "req:9"
+  ],
+  "schema:organization-programmatic-access-grant": [
+   "props:11",
+   "req:11"
+  ],
+  "schema:organization-programmatic-access-grant-request": [
+   "props:12",
+   "req:12"
+  ],
+  "schema:organization-role": [
+   "props:9",
+   "req:6"
+  ],
+  "schema:organization-secret-scanning-alert": [
+   "props:34",
+   "req:0"
+  ],
+  "schema:organization-simple": [
+   "props:12",
+   "req:12"
+  ],
+  "schema:organization-simple-webhooks": [
+   "props:12",
+   "req:12"
+  ],
+  "schema:organization-update-issue-field": [
+   "props:4",
+   "req:0"
+  ],
+  "schema:organization-update-issue-type": [
+   "props:4",
+   "req:2"
+  ],
+  "schema:package": [
+   "props:11",
+   "req:9"
+  ],
+  "schema:package-version": [
+   "props:11",
+   "req:6"
+  ],
+  "schema:page": [
+   "props:12",
+   "req:5"
+  ],
+  "schema:page-build": [
+   "props:8",
+   "req:8"
+  ],
+  "schema:page-build-status": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:page-deployment": [
+   "props:4",
+   "req:3"
+  ],
+  "schema:pages-deployment-status": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:pages-health-check": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:pages-https-certificate": [
+   "props:4",
+   "req:3"
+  ],
+  "schema:pages-source-hash": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:parent-issue-added-issue-event": [
+   "props:10",
+   "req:10"
+  ],
+  "schema:parent-issue-removed-issue-event": [
+   "props:10",
+   "req:10"
+  ],
+  "schema:participation-stats": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:pending-deployment": [
+   "props:5",
+   "req:5"
+  ],
+  "schema:personal-access-token-request": [
+   "props:14",
+   "req:14"
+  ],
+  "schema:porter-author": [
+   "props:7",
+   "req:7"
+  ],
+  "schema:porter-large-file": [
+   "props:4",
+   "req:4"
+  ],
+  "schema:prevent-self-review": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:private-user": [
+   "props:43",
+   "req:37"
+  ],
+  "schema:private-vulnerability-report-create": [
+   "props:7",
+   "req:2"
+  ],
+  "schema:projects-v2": [
+   "props:17",
+   "req:14"
+  ],
+  "schema:projects-v2-draft-issue": [
+   "props:7",
+   "req:6"
+  ],
+  "schema:projects-v2-field": [
+   "props:10",
+   "req:6"
+  ],
+  "schema:projects-v2-field-iteration-configuration": [
+   "props:3",
+   "req:2"
+  ],
+  "schema:projects-v2-field-single-select-option": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:projects-v2-item": [
+   "props:9",
+   "req:6"
+  ],
+  "schema:projects-v2-item-content-type": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:projects-v2-item-simple": [
+   "props:10",
+   "req:5"
+  ],
+  "schema:projects-v2-item-with-content": [
+   "props:11",
+   "req:5"
+  ],
+  "schema:projects-v2-iteration-setting": [
+   "props:6",
+   "req:2"
+  ],
+  "schema:projects-v2-iteration-settings": [
+   "props:5",
+   "req:5"
+  ],
+  "schema:projects-v2-single-select-option": [
+   "props:4",
+   "req:2"
+  ],
+  "schema:projects-v2-single-select-options": [
+   "props:4",
+   "req:4"
+  ],
+  "schema:projects-v2-status-update": [
+   "props:10",
+   "req:4"
+  ],
+  "schema:projects-v2-view": [
+   "props:15",
+   "req:14"
+  ],
+  "schema:protected-branch": [
+   "props:13",
+   "req:1"
+  ],
+  "schema:protected-branch-admin-enforced": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:protected-branch-pull-request-review": [
+   "props:7",
+   "req:2"
+  ],
+  "schema:protected-branch-required-status-check": [
+   "props:6",
+   "req:2"
+  ],
+  "schema:public-event": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:public-ip": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:public-user": [
+   "props:40",
+   "req:31"
+  ],
+  "schema:pull-request": [
+   "props:49",
+   "req:42"
+  ],
+  "schema:pull-request-event": [
+   "props:7",
+   "req:3"
+  ],
+  "schema:pull-request-merge-async-result": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:pull-request-merge-result": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:pull-request-minimal": [
+   "props:5",
+   "req:5"
+  ],
+  "schema:pull-request-review": [
+   "props:13",
+   "req:10"
+  ],
+  "schema:pull-request-review-comment": [
+   "props:29",
+   "req:16"
+  ],
+  "schema:pull-request-review-comment-event": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:pull-request-review-event": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:pull-request-review-request": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:pull-request-simple": [
+   "props:37",
+   "req:31"
+  ],
+  "schema:pull-request-stack": [
+   "props:5",
+   "req:1"
+  ],
+  "schema:pull-request-stack-minimal": [
+   "props:8",
+   "req:8"
+  ],
+  "schema:pull-request-stack-pull-request": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:pull-request-webhook": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:push-event": [
+   "props:5",
+   "req:5"
+  ],
+  "schema:rate-limit": [
+   "props:4",
+   "req:4"
+  ],
+  "schema:rate-limit-overview": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:reaction": [
+   "props:5",
+   "req:5"
+  ],
+  "schema:reaction-rollup": [
+   "props:10",
+   "req:10"
+  ],
+  "schema:referenced-workflow": [
+   "props:3",
+   "req:2"
+  ],
+  "schema:referrer-traffic": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:release": [
+   "props:25",
+   "req:17"
+  ],
+  "schema:release-asset": [
+   "props:14",
+   "req:14"
+  ],
+  "schema:release-event": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:release-notes-content": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:removed-from-project-issue-event": [
+   "props:10",
+   "req:9"
+  ],
+  "schema:renamed-issue-event": [
+   "props:10",
+   "req:10"
+  ],
+  "schema:repo-codespaces-secret": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:repo-search-result-item": [
+   "props:91",
+   "req:74"
+  ],
+  "schema:repository": [
+   "props:98",
+   "req:73"
+  ],
+  "schema:repository-advisory": [
+   "props:27",
+   "req:26"
+  ],
+  "schema:repository-advisory-create": [
+   "props:9",
+   "req:3"
+  ],
+  "schema:repository-advisory-credit": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:repository-advisory-update": [
+   "props:11",
+   "req:0"
+  ],
+  "schema:repository-advisory-vulnerability": [
+   "props:4",
+   "req:4"
+  ],
+  "schema:repository-collaborator-permission": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:repository-hash-algorithm": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:repository-invitation": [
+   "props:10",
+   "req:9"
+  ],
+  "schema:repository-rule": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:repository-rule-branch-name-pattern": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:repository-rule-code-scanning": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:repository-rule-commit-author-email-pattern": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:repository-rule-commit-message-pattern": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:repository-rule-committer-email-pattern": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:repository-rule-copilot-code-review": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:repository-rule-creation": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:repository-rule-deletion": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:repository-rule-detailed": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:repository-rule-enforcement": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:repository-rule-file-extension-restriction": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:repository-rule-file-path-restriction": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:repository-rule-license-compliance-scanning": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:repository-rule-max-file-path-length": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:repository-rule-max-file-size": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:repository-rule-merge-queue": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:repository-rule-non-fast-forward": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:repository-rule-params-actor": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:repository-rule-params-code-scanning-tool": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:repository-rule-params-dismissal-restriction": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:repository-rule-params-required-reviewer-configuration": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:repository-rule-params-restricted-commits": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:repository-rule-params-reviewer": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:repository-rule-params-status-check-configuration": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:repository-rule-params-workflow-file-reference": [
+   "props:4",
+   "req:2"
+  ],
+  "schema:repository-rule-pull-request": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:repository-rule-required-deployments": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:repository-rule-required-linear-history": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:repository-rule-required-signatures": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:repository-rule-required-status-checks": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:repository-rule-ruleset-info": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:repository-rule-tag-name-pattern": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:repository-rule-update": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:repository-rule-violation-error": [
+   "props:4",
+   "req:0"
+  ],
+  "schema:repository-rule-workflows": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:repository-ruleset": [
+   "props:14",
+   "req:4"
+  ],
+  "schema:repository-ruleset-bypass-actor": [
+   "props:3",
+   "req:1"
+  ],
+  "schema:repository-ruleset-conditions": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:repository-ruleset-conditions-repository-id-target": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:repository-ruleset-conditions-repository-name-target": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:repository-ruleset-conditions-repository-property-spec": [
+   "props:3",
+   "req:2"
+  ],
+  "schema:repository-ruleset-conditions-repository-property-target": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:repository-subscription": [
+   "props:6",
+   "req:6"
+  ],
+  "schema:repository-webhooks": [
+   "props:102",
+   "req:73"
+  ],
+  "schema:review-comment": [
+   "props:29",
+   "req:18"
+  ],
+  "schema:review-custom-gates-comment-required": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:review-custom-gates-state-required": [
+   "props:3",
+   "req:2"
+  ],
+  "schema:review-dismissed-issue-event": [
+   "props:10",
+   "req:10"
+  ],
+  "schema:review-request-removed-issue-event": [
+   "props:12",
+   "req:10"
+  ],
+  "schema:review-requested-issue-event": [
+   "props:12",
+   "req:10"
+  ],
+  "schema:root": [
+   "props:33",
+   "req:31"
+  ],
+  "schema:rule-suite": [
+   "props:12",
+   "req:0"
+  ],
+  "schema:rule-suite-pull-request": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:rule-suite-required-status-checks": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:rule-suites": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:ruleset-version": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:ruleset-version-with-state": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:runner": [
+   "props:9",
+   "req:6"
+  ],
+  "schema:runner-application": [
+   "props:6",
+   "req:4"
+  ],
+  "schema:runner-groups-org": [
+   "props:14",
+   "req:7"
+  ],
+  "schema:runner-label": [
+   "props:3",
+   "req:1"
+  ],
+  "schema:scim-error": [
+   "props:6",
+   "req:0"
+  ],
+  "schema:search-result-text-matches": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:secret-scanning-alert": [
+   "props:33",
+   "req:0"
+  ],
+  "schema:secret-scanning-alert-assignee": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:secret-scanning-alert-metadata": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:secret-scanning-alert-resolution": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:secret-scanning-alert-resolution-comment": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:secret-scanning-alert-resolution-webhook": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:secret-scanning-alert-state": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:secret-scanning-alert-webhook": [
+   "props:30",
+   "req:0"
+  ],
+  "schema:secret-scanning-alert-with-metadata": [
+   "props:34",
+   "req:0"
+  ],
+  "schema:secret-scanning-custom-pattern": [
+   "props:13",
+   "req:6"
+  ],
+  "schema:secret-scanning-custom-pattern-to-create": [
+   "props:6",
+   "req:2"
+  ],
+  "schema:secret-scanning-custom-pattern-to-delete": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:secret-scanning-custom-pattern-to-update": [
+   "props:6",
+   "req:1"
+  ],
+  "schema:secret-scanning-custom-pattern-validation-error": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:secret-scanning-location": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:secret-scanning-location-commit": [
+   "props:10",
+   "req:9"
+  ],
+  "schema:secret-scanning-location-discussion-body": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:secret-scanning-location-discussion-comment": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:secret-scanning-location-discussion-title": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:secret-scanning-location-issue-body": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:secret-scanning-location-issue-comment": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:secret-scanning-location-issue-title": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:secret-scanning-location-pull-request-body": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:secret-scanning-location-pull-request-comment": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:secret-scanning-location-pull-request-review": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:secret-scanning-location-pull-request-review-comment": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:secret-scanning-location-pull-request-title": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:secret-scanning-location-wiki-commit": [
+   "props:9",
+   "req:9"
+  ],
+  "schema:secret-scanning-pattern-configuration": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:secret-scanning-pattern-override": [
+   "props:12",
+   "req:0"
+  ],
+  "schema:secret-scanning-push-protection-bypass": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:secret-scanning-push-protection-bypass-placeholder-id": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:secret-scanning-push-protection-bypass-reason": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:secret-scanning-row-version": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:secret-scanning-scan": [
+   "props:4",
+   "req:0"
+  ],
+  "schema:secret-scanning-scan-history": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:security-advisory-credit-types": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:security-advisory-ecosystems": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:security-advisory-epss": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:security-and-analysis": [
+   "props:10",
+   "req:0"
+  ],
+  "schema:selected-actions": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:selected-actions-url": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:self-hosted-runners-settings": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:sha-pinning-required": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:short-blob": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:short-branch": [
+   "props:5",
+   "req:3"
+  ],
+  "schema:simple-check-suite": [
+   "props:14",
+   "req:0"
+  ],
+  "schema:simple-classroom": [
+   "props:4",
+   "req:4"
+  ],
+  "schema:simple-classroom-assignment": [
+   "props:18",
+   "req:16"
+  ],
+  "schema:simple-classroom-organization": [
+   "props:6",
+   "req:6"
+  ],
+  "schema:simple-classroom-repository": [
+   "props:6",
+   "req:6"
+  ],
+  "schema:simple-classroom-user": [
+   "props:4",
+   "req:4"
+  ],
+  "schema:simple-commit": [
+   "props:6",
+   "req:6"
+  ],
+  "schema:simple-commit-status": [
+   "props:11",
+   "req:10"
+  ],
+  "schema:simple-installation": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:simple-repository": [
+   "props:46",
+   "req:46"
+  ],
+  "schema:simple-user": [
+   "props:22",
+   "req:18"
+  ],
+  "schema:snapshot": [
+   "props:8",
+   "req:6"
+  ],
+  "schema:social-account": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:ssh-signing-key": [
+   "props:4",
+   "req:4"
+  ],
+  "schema:stargazer": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:starred-repository": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:state-change-issue-event": [
+   "props:11",
+   "req:9"
+  ],
+  "schema:status": [
+   "props:11",
+   "req:11"
+  ],
+  "schema:status-check-policy": [
+   "props:5",
+   "req:5"
+  ],
+  "schema:sub-issue-added-issue-event": [
+   "props:10",
+   "req:10"
+  ],
+  "schema:sub-issue-removed-issue-event": [
+   "props:10",
+   "req:10"
+  ],
+  "schema:sub-issues-summary": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:tag": [
+   "props:5",
+   "req:5"
+  ],
+  "schema:team": [
+   "props:18",
+   "req:12"
+  ],
+  "schema:team-full": [
+   "props:22",
+   "req:16"
+  ],
+  "schema:team-member": [
+   "props:24",
+   "req:18"
+  ],
+  "schema:team-membership": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:team-organization": [
+   "props:49",
+   "req:23"
+  ],
+  "schema:team-repository": [
+   "props:89",
+   "req:73"
+  ],
+  "schema:team-role-assignment": [
+   "props:18",
+   "req:12"
+  ],
+  "schema:team-simple": [
+   "props:16",
+   "req:11"
+  ],
+  "schema:thread": [
+   "props:9",
+   "req:9"
+  ],
+  "schema:thread-subscription": [
+   "props:7",
+   "req:5"
+  ],
+  "schema:timeline-assigned-issue-event": [
+   "props:11",
+   "req:10"
+  ],
+  "schema:timeline-comment-event": [
+   "props:18",
+   "req:11"
+  ],
+  "schema:timeline-commit-commented-event": [
+   "props:4",
+   "req:0"
+  ],
+  "schema:timeline-committed-event": [
+   "props:11",
+   "req:10"
+  ],
+  "schema:timeline-cross-referenced-event": [
+   "props:5",
+   "req:4"
+  ],
+  "schema:timeline-issue-events": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:timeline-line-commented-event": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:timeline-reviewed-event": [
+   "props:15",
+   "req:11"
+  ],
+  "schema:timeline-unassigned-issue-event": [
+   "props:10",
+   "req:10"
+  ],
+  "schema:topic": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:topic-search-result-item": [
+   "props:16",
+   "req:11"
+  ],
+  "schema:traffic": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:unassigned-issue-event": [
+   "props:11",
+   "req:11"
+  ],
+  "schema:unlabeled-issue-event": [
+   "props:11",
+   "req:10"
+  ],
+  "schema:update-budget": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:user-marketplace-purchase": [
+   "props:8",
+   "req:8"
+  ],
+  "schema:user-role-assignment": [
+   "props:24",
+   "req:18"
+  ],
+  "schema:user-search-result-item": [
+   "props:35",
+   "req:19"
+  ],
+  "schema:validation-error": [
+   "props:3",
+   "req:2"
+  ],
+  "schema:validation-error-simple": [
+   "props:3",
+   "req:2"
+  ],
+  "schema:verification": [
+   "props:5",
+   "req:5"
+  ],
+  "schema:view-traffic": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:vulnerability": [
+   "props:4",
+   "req:4"
+  ],
+  "schema:wait-timer": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:watch-event": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:webhook-branch-protection-configuration-disabled": [
+   "props:6",
+   "req:3"
+  ],
+  "schema:webhook-branch-protection-configuration-enabled": [
+   "props:6",
+   "req:3"
+  ],
+  "schema:webhook-branch-protection-rule-created": [
+   "props:7",
+   "req:4"
+  ],
+  "schema:webhook-branch-protection-rule-deleted": [
+   "props:7",
+   "req:4"
+  ],
+  "schema:webhook-branch-protection-rule-edited": [
+   "props:8",
+   "req:4"
+  ],
+  "schema:webhook-check-run-completed": [
+   "props:7",
+   "req:3"
+  ],
+  "schema:webhook-check-run-completed-form-encoded": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:webhook-check-run-created": [
+   "props:7",
+   "req:3"
+  ],
+  "schema:webhook-check-run-created-form-encoded": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:webhook-check-run-requested-action": [
+   "props:8",
+   "req:4"
+  ],
+  "schema:webhook-check-run-requested-action-form-encoded": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:webhook-check-run-rerequested": [
+   "props:7",
+   "req:3"
+  ],
+  "schema:webhook-check-run-rerequested-form-encoded": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:webhook-check-suite-completed": [
+   "props:7",
+   "req:4"
+  ],
+  "schema:webhook-check-suite-requested": [
+   "props:7",
+   "req:4"
+  ],
+  "schema:webhook-check-suite-rerequested": [
+   "props:7",
+   "req:4"
+  ],
+  "schema:webhook-code-scanning-alert-appeared-in-branch": [
+   "props:9",
+   "req:6"
+  ],
+  "schema:webhook-code-scanning-alert-closed-by-user": [
+   "props:9",
+   "req:6"
+  ],
+  "schema:webhook-code-scanning-alert-created": [
+   "props:9",
+   "req:6"
+  ],
+  "schema:webhook-code-scanning-alert-fixed": [
+   "props:9",
+   "req:6"
+  ],
+  "schema:webhook-code-scanning-alert-reopened": [
+   "props:9",
+   "req:6"
+  ],
+  "schema:webhook-code-scanning-alert-reopened-by-user": [
+   "props:9",
+   "req:6"
+  ],
+  "schema:webhook-code-scanning-alert-updated-assignment": [
+   "props:7",
+   "req:4"
+  ],
+  "schema:webhook-commit-comment-created": [
+   "props:7",
+   "req:4"
+  ],
+  "schema:webhook-config": [
+   "props:4",
+   "req:0"
+  ],
+  "schema:webhook-config-content-type": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:webhook-config-insecure-ssl": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:webhook-config-secret": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:webhook-config-url": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:webhook-create": [
+   "props:10",
+   "req:7"
+  ],
+  "schema:webhook-custom-property-created": [
+   "props:6",
+   "req:2"
+  ],
+  "schema:webhook-custom-property-deleted": [
+   "props:6",
+   "req:2"
+  ],
+  "schema:webhook-custom-property-promoted-to-enterprise": [
+   "props:6",
+   "req:2"
+  ],
+  "schema:webhook-custom-property-updated": [
+   "props:6",
+   "req:2"
+  ],
+  "schema:webhook-custom-property-values-updated": [
+   "props:8",
+   "req:5"
+  ],
+  "schema:webhook-delete": [
+   "props:8",
+   "req:5"
+  ],
+  "schema:webhook-dependabot-alert-assignees-changed": [
+   "props:7",
+   "req:4"
+  ],
+  "schema:webhook-dependabot-alert-auto-dismissed": [
+   "props:7",
+   "req:4"
+  ],
+  "schema:webhook-dependabot-alert-auto-reopened": [
+   "props:7",
+   "req:4"
+  ],
+  "schema:webhook-dependabot-alert-created": [
+   "props:7",
+   "req:4"
+  ],
+  "schema:webhook-dependabot-alert-dismissed": [
+   "props:7",
+   "req:4"
+  ],
+  "schema:webhook-dependabot-alert-fixed": [
+   "props:7",
+   "req:4"
+  ],
+  "schema:webhook-dependabot-alert-reintroduced": [
+   "props:7",
+   "req:4"
+  ],
+  "schema:webhook-dependabot-alert-reopened": [
+   "props:7",
+   "req:4"
+  ],
+  "schema:webhook-deploy-key-created": [
+   "props:7",
+   "req:4"
+  ],
+  "schema:webhook-deploy-key-deleted": [
+   "props:7",
+   "req:4"
+  ],
+  "schema:webhook-deployment-created": [
+   "props:9",
+   "req:6"
+  ],
+  "schema:webhook-deployment-protection-rule-requested": [
+   "props:12",
+   "req:0"
+  ],
+  "schema:webhook-deployment-review-approved": [
+   "props:13",
+   "req:6"
+  ],
+  "schema:webhook-deployment-review-rejected": [
+   "props:13",
+   "req:6"
+  ],
+  "schema:webhook-deployment-review-requested": [
+   "props:12",
+   "req:10"
+  ],
+  "schema:webhook-deployment-status-created": [
+   "props:11",
+   "req:5"
+  ],
+  "schema:webhook-discussion-answered": [
+   "props:8",
+   "req:5"
+  ],
+  "schema:webhook-discussion-category-changed": [
+   "props:8",
+   "req:5"
+  ],
+  "schema:webhook-discussion-closed": [
+   "props:7",
+   "req:4"
+  ],
+  "schema:webhook-discussion-comment-created": [
+   "props:8",
+   "req:5"
+  ],
+  "schema:webhook-discussion-comment-deleted": [
+   "props:8",
+   "req:5"
+  ],
+  "schema:webhook-discussion-comment-edited": [
+   "props:9",
+   "req:6"
+  ],
+  "schema:webhook-discussion-created": [
+   "props:7",
+   "req:4"
+  ],
+  "schema:webhook-discussion-deleted": [
+   "props:7",
+   "req:4"
+  ],
+  "schema:webhook-discussion-edited": [
+   "props:8",
+   "req:4"
+  ],
+  "schema:webhook-discussion-labeled": [
+   "props:8",
+   "req:5"
+  ],
+  "schema:webhook-discussion-locked": [
+   "props:7",
+   "req:4"
+  ],
+  "schema:webhook-discussion-pinned": [
+   "props:7",
+   "req:4"
+  ],
+  "schema:webhook-discussion-reopened": [
+   "props:7",
+   "req:4"
+  ],
+  "schema:webhook-discussion-transferred": [
+   "props:8",
+   "req:5"
+  ],
+  "schema:webhook-discussion-unanswered": [
+   "props:6",
+   "req:4"
+  ],
+  "schema:webhook-discussion-unlabeled": [
+   "props:8",
+   "req:5"
+  ],
+  "schema:webhook-discussion-unlocked": [
+   "props:7",
+   "req:4"
+  ],
+  "schema:webhook-discussion-unpinned": [
+   "props:7",
+   "req:4"
+  ],
+  "schema:webhook-fork": [
+   "props:6",
+   "req:3"
+  ],
+  "schema:webhook-github-app-authorization-revoked": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:webhook-gollum": [
+   "props:6",
+   "req:3"
+  ],
+  "schema:webhook-installation-created": [
+   "props:8",
+   "req:3"
+  ],
+  "schema:webhook-installation-deleted": [
+   "props:8",
+   "req:3"
+  ],
+  "schema:webhook-installation-new-permissions-accepted": [
+   "props:8",
+   "req:3"
+  ],
+  "schema:webhook-installation-repositories-added": [
+   "props:10",
+   "req:7"
+  ],
+  "schema:webhook-installation-repositories-removed": [
+   "props:10",
+   "req:7"
+  ],
+  "schema:webhook-installation-suspend": [
+   "props:8",
+   "req:3"
+  ],
+  "schema:webhook-installation-target-renamed": [
+   "props:9",
+   "req:5"
+  ],
+  "schema:webhook-installation-unsuspend": [
+   "props:8",
+   "req:3"
+  ],
+  "schema:webhook-issue-comment-created": [
+   "props:8",
+   "req:5"
+  ],
+  "schema:webhook-issue-comment-deleted": [
+   "props:8",
+   "req:5"
+  ],
+  "schema:webhook-issue-comment-edited": [
+   "props:9",
+   "req:6"
+  ],
+  "schema:webhook-issue-comment-pinned": [
+   "props:8",
+   "req:5"
+  ],
+  "schema:webhook-issue-comment-unpinned": [
+   "props:8",
+   "req:5"
+  ],
+  "schema:webhook-issue-dependencies-blocked-by-added": [
+   "props:10",
+   "req:4"
+  ],
+  "schema:webhook-issue-dependencies-blocked-by-removed": [
+   "props:10",
+   "req:4"
+  ],
+  "schema:webhook-issue-dependencies-blocking-added": [
+   "props:10",
+   "req:4"
+  ],
+  "schema:webhook-issue-dependencies-blocking-removed": [
+   "props:10",
+   "req:4"
+  ],
+  "schema:webhook-issues-assigned": [
+   "props:8",
+   "req:4"
+  ],
+  "schema:webhook-issues-closed": [
+   "props:7",
+   "req:4"
+  ],
+  "schema:webhook-issues-deleted": [
+   "props:7",
+   "req:4"
+  ],
+  "schema:webhook-issues-demilestoned": [
+   "props:8",
+   "req:4"
+  ],
+  "schema:webhook-issues-edited": [
+   "props:9",
+   "req:5"
+  ],
+  "schema:webhook-issues-field-added": [
+   "props:10",
+   "req:5"
+  ],
+  "schema:webhook-issues-field-removed": [
+   "props:9",
+   "req:5"
+  ],
+  "schema:webhook-issues-labeled": [
+   "props:8",
+   "req:4"
+  ],
+  "schema:webhook-issues-locked": [
+   "props:7",
+   "req:4"
+  ],
+  "schema:webhook-issues-milestoned": [
+   "props:8",
+   "req:5"
+  ],
+  "schema:webhook-issues-opened": [
+   "props:8",
+   "req:4"
+  ],
+  "schema:webhook-issues-pinned": [
+   "props:7",
+   "req:4"
+  ],
+  "schema:webhook-issues-reopened": [
+   "props:7",
+   "req:4"
+  ],
+  "schema:webhook-issues-transferred": [
+   "props:8",
+   "req:5"
+  ],
+  "schema:webhook-issues-typed": [
+   "props:8",
+   "req:5"
+  ],
+  "schema:webhook-issues-unassigned": [
+   "props:8",
+   "req:4"
+  ],
+  "schema:webhook-issues-unlabeled": [
+   "props:8",
+   "req:4"
+  ],
+  "schema:webhook-issues-unlocked": [
+   "props:7",
+   "req:4"
+  ],
+  "schema:webhook-issues-unpinned": [
+   "props:7",
+   "req:4"
+  ],
+  "schema:webhook-issues-untyped": [
+   "props:8",
+   "req:5"
+  ],
+  "schema:webhook-label-created": [
+   "props:7",
+   "req:3"
+  ],
+  "schema:webhook-label-deleted": [
+   "props:7",
+   "req:4"
+  ],
+  "schema:webhook-label-edited": [
+   "props:8",
+   "req:4"
+  ],
+  "schema:webhook-marketplace-purchase-cancelled": [
+   "props:9",
+   "req:4"
+  ],
+  "schema:webhook-marketplace-purchase-changed": [
+   "props:9",
+   "req:4"
+  ],
+  "schema:webhook-marketplace-purchase-pending-change": [
+   "props:9",
+   "req:4"
+  ],
+  "schema:webhook-marketplace-purchase-pending-change-cancelled": [
+   "props:9",
+   "req:4"
+  ],
+  "schema:webhook-marketplace-purchase-purchased": [
+   "props:9",
+   "req:4"
+  ],
+  "schema:webhook-member-added": [
+   "props:8",
+   "req:4"
+  ],
+  "schema:webhook-member-edited": [
+   "props:8",
+   "req:5"
+  ],
+  "schema:webhook-member-removed": [
+   "props:7",
+   "req:4"
+  ],
+  "schema:webhook-membership-added": [
+   "props:9",
+   "req:6"
+  ],
+  "schema:webhook-membership-removed": [
+   "props:9",
+   "req:6"
+  ],
+  "schema:webhook-merge-group-checks-requested": [
+   "props:6",
+   "req:2"
+  ],
+  "schema:webhook-merge-group-destroyed": [
+   "props:7",
+   "req:2"
+  ],
+  "schema:webhook-meta-deleted": [
+   "props:8",
+   "req:3"
+  ],
+  "schema:webhook-milestone-closed": [
+   "props:7",
+   "req:4"
+  ],
+  "schema:webhook-milestone-created": [
+   "props:7",
+   "req:4"
+  ],
+  "schema:webhook-milestone-deleted": [
+   "props:7",
+   "req:4"
+  ],
+  "schema:webhook-milestone-edited": [
+   "props:8",
+   "req:5"
+  ],
+  "schema:webhook-milestone-opened": [
+   "props:7",
+   "req:4"
+  ],
+  "schema:webhook-org-block-blocked": [
+   "props:7",
+   "req:4"
+  ],
+  "schema:webhook-org-block-unblocked": [
+   "props:7",
+   "req:4"
+  ],
+  "schema:webhook-organization-deleted": [
+   "props:7",
+   "req:3"
+  ],
+  "schema:webhook-organization-member-added": [
+   "props:7",
+   "req:4"
+  ],
+  "schema:webhook-organization-member-invited": [
+   "props:8",
+   "req:4"
+  ],
+  "schema:webhook-organization-member-removed": [
+   "props:7",
+   "req:4"
+  ],
+  "schema:webhook-organization-renamed": [
+   "props:8",
+   "req:3"
+  ],
+  "schema:webhook-package-published": [
+   "props:7",
+   "req:3"
+  ],
+  "schema:webhook-package-updated": [
+   "props:7",
+   "req:4"
+  ],
+  "schema:webhook-page-build": [
+   "props:7",
+   "req:4"
+  ],
+  "schema:webhook-personal-access-token-request-approved": [
+   "props:6",
+   "req:5"
+  ],
+  "schema:webhook-personal-access-token-request-cancelled": [
+   "props:6",
+   "req:5"
+  ],
+  "schema:webhook-personal-access-token-request-created": [
+   "props:6",
+   "req:4"
+  ],
+  "schema:webhook-personal-access-token-request-denied": [
+   "props:6",
+   "req:5"
+  ],
+  "schema:webhook-ping": [
+   "props:6",
+   "req:0"
+  ],
+  "schema:webhook-ping-form-encoded": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:webhook-project-card-converted": [
+   "props:8",
+   "req:4"
+  ],
+  "schema:webhook-project-card-created": [
+   "props:7",
+   "req:3"
+  ],
+  "schema:webhook-project-card-deleted": [
+   "props:7",
+   "req:3"
+  ],
+  "schema:webhook-project-card-edited": [
+   "props:8",
+   "req:4"
+  ],
+  "schema:webhook-project-card-moved": [
+   "props:8",
+   "req:3"
+  ],
+  "schema:webhook-project-closed": [
+   "props:7",
+   "req:3"
+  ],
+  "schema:webhook-project-column-created": [
+   "props:7",
+   "req:2"
+  ],
+  "schema:webhook-project-column-deleted": [
+   "props:7",
+   "req:2"
+  ],
+  "schema:webhook-project-column-edited": [
+   "props:8",
+   "req:3"
+  ],
+  "schema:webhook-project-column-moved": [
+   "props:7",
+   "req:3"
+  ],
+  "schema:webhook-project-created": [
+   "props:7",
+   "req:3"
+  ],
+  "schema:webhook-project-deleted": [
+   "props:7",
+   "req:2"
+  ],
+  "schema:webhook-project-edited": [
+   "props:8",
+   "req:2"
+  ],
+  "schema:webhook-project-reopened": [
+   "props:7",
+   "req:3"
+  ],
+  "schema:webhook-projects-v2-item-archived": [
+   "props:6",
+   "req:5"
+  ],
+  "schema:webhook-projects-v2-item-converted": [
+   "props:6",
+   "req:5"
+  ],
+  "schema:webhook-projects-v2-item-created": [
+   "props:5",
+   "req:4"
+  ],
+  "schema:webhook-projects-v2-item-deleted": [
+   "props:5",
+   "req:4"
+  ],
+  "schema:webhook-projects-v2-item-edited": [
+   "props:6",
+   "req:4"
+  ],
+  "schema:webhook-projects-v2-item-reordered": [
+   "props:6",
+   "req:5"
+  ],
+  "schema:webhook-projects-v2-item-restored": [
+   "props:6",
+   "req:5"
+  ],
+  "schema:webhook-projects-v2-project-closed": [
+   "props:5",
+   "req:4"
+  ],
+  "schema:webhook-projects-v2-project-created": [
+   "props:5",
+   "req:4"
+  ],
+  "schema:webhook-projects-v2-project-deleted": [
+   "props:5",
+   "req:4"
+  ],
+  "schema:webhook-projects-v2-project-edited": [
+   "props:6",
+   "req:5"
+  ],
+  "schema:webhook-projects-v2-project-reopened": [
+   "props:5",
+   "req:4"
+  ],
+  "schema:webhook-projects-v2-status-update-created": [
+   "props:5",
+   "req:4"
+  ],
+  "schema:webhook-projects-v2-status-update-deleted": [
+   "props:5",
+   "req:4"
+  ],
+  "schema:webhook-projects-v2-status-update-edited": [
+   "props:6",
+   "req:4"
+  ],
+  "schema:webhook-public": [
+   "props:5",
+   "req:2"
+  ],
+  "schema:webhook-pull-request-assigned": [
+   "props:9",
+   "req:6"
+  ],
+  "schema:webhook-pull-request-auto-merge-disabled": [
+   "props:9",
+   "req:6"
+  ],
+  "schema:webhook-pull-request-auto-merge-enabled": [
+   "props:9",
+   "req:5"
+  ],
+  "schema:webhook-pull-request-closed": [
+   "props:8",
+   "req:5"
+  ],
+  "schema:webhook-pull-request-converted-to-draft": [
+   "props:8",
+   "req:5"
+  ],
+  "schema:webhook-pull-request-demilestoned": [
+   "props:8",
+   "req:4"
+  ],
+  "schema:webhook-pull-request-dequeued": [
+   "props:9",
+   "req:6"
+  ],
+  "schema:webhook-pull-request-edited": [
+   "props:9",
+   "req:5"
+  ],
+  "schema:webhook-pull-request-enqueued": [
+   "props:8",
+   "req:5"
+  ],
+  "schema:webhook-pull-request-labeled": [
+   "props:9",
+   "req:5"
+  ],
+  "schema:webhook-pull-request-locked": [
+   "props:8",
+   "req:5"
+  ],
+  "schema:webhook-pull-request-milestoned": [
+   "props:8",
+   "req:4"
+  ],
+  "schema:webhook-pull-request-opened": [
+   "props:8",
+   "req:5"
+  ],
+  "schema:webhook-pull-request-ready-for-review": [
+   "props:8",
+   "req:5"
+  ],
+  "schema:webhook-pull-request-reopened": [
+   "props:8",
+   "req:5"
+  ],
+  "schema:webhook-pull-request-review-comment-created": [
+   "props:8",
+   "req:5"
+  ],
+  "schema:webhook-pull-request-review-comment-deleted": [
+   "props:8",
+   "req:5"
+  ],
+  "schema:webhook-pull-request-review-comment-edited": [
+   "props:9",
+   "req:6"
+  ],
+  "schema:webhook-pull-request-review-dismissed": [
+   "props:8",
+   "req:5"
+  ],
+  "schema:webhook-pull-request-review-edited": [
+   "props:9",
+   "req:6"
+  ],
+  "schema:webhook-pull-request-review-request-removed": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:webhook-pull-request-review-requested": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:webhook-pull-request-review-submitted": [
+   "props:8",
+   "req:5"
+  ],
+  "schema:webhook-pull-request-review-thread-resolved": [
+   "props:9",
+   "req:4"
+  ],
+  "schema:webhook-pull-request-review-thread-unresolved": [
+   "props:9",
+   "req:4"
+  ],
+  "schema:webhook-pull-request-stacked": [
+   "props:9",
+   "req:5"
+  ],
+  "schema:webhook-pull-request-synchronize": [
+   "props:10",
+   "req:7"
+  ],
+  "schema:webhook-pull-request-unassigned": [
+   "props:9",
+   "req:4"
+  ],
+  "schema:webhook-pull-request-unlabeled": [
+   "props:9",
+   "req:5"
+  ],
+  "schema:webhook-pull-request-unlocked": [
+   "props:8",
+   "req:5"
+  ],
+  "schema:webhook-push": [
+   "props:16",
+   "req:12"
+  ],
+  "schema:webhook-registry-package-published": [
+   "props:7",
+   "req:3"
+  ],
+  "schema:webhook-registry-package-updated": [
+   "props:7",
+   "req:3"
+  ],
+  "schema:webhook-release-created": [
+   "props:7",
+   "req:4"
+  ],
+  "schema:webhook-release-deleted": [
+   "props:7",
+   "req:4"
+  ],
+  "schema:webhook-release-edited": [
+   "props:8",
+   "req:4"
+  ],
+  "schema:webhook-release-prereleased": [
+   "props:7",
+   "req:3"
+  ],
+  "schema:webhook-release-published": [
+   "props:7",
+   "req:3"
+  ],
+  "schema:webhook-release-released": [
+   "props:7",
+   "req:3"
+  ],
+  "schema:webhook-release-unpublished": [
+   "props:7",
+   "req:3"
+  ],
+  "schema:webhook-repository-advisory-published": [
+   "props:7",
+   "req:3"
+  ],
+  "schema:webhook-repository-advisory-reported": [
+   "props:7",
+   "req:3"
+  ],
+  "schema:webhook-repository-archived": [
+   "props:6",
+   "req:3"
+  ],
+  "schema:webhook-repository-created": [
+   "props:6",
+   "req:3"
+  ],
+  "schema:webhook-repository-deleted": [
+   "props:6",
+   "req:3"
+  ],
+  "schema:webhook-repository-dispatch-sample": [
+   "props:8",
+   "req:6"
+  ],
+  "schema:webhook-repository-edited": [
+   "props:7",
+   "req:4"
+  ],
+  "schema:webhook-repository-import": [
+   "props:6",
+   "req:3"
+  ],
+  "schema:webhook-repository-privatized": [
+   "props:6",
+   "req:3"
+  ],
+  "schema:webhook-repository-publicized": [
+   "props:6",
+   "req:3"
+  ],
+  "schema:webhook-repository-renamed": [
+   "props:7",
+   "req:4"
+  ],
+  "schema:webhook-repository-ruleset-created": [
+   "props:7",
+   "req:3"
+  ],
+  "schema:webhook-repository-ruleset-deleted": [
+   "props:7",
+   "req:3"
+  ],
+  "schema:webhook-repository-ruleset-edited": [
+   "props:8",
+   "req:3"
+  ],
+  "schema:webhook-repository-transferred": [
+   "props:7",
+   "req:4"
+  ],
+  "schema:webhook-repository-unarchived": [
+   "props:6",
+   "req:3"
+  ],
+  "schema:webhook-repository-vulnerability-alert-create": [
+   "props:7",
+   "req:4"
+  ],
+  "schema:webhook-repository-vulnerability-alert-dismiss": [
+   "props:7",
+   "req:4"
+  ],
+  "schema:webhook-repository-vulnerability-alert-reopen": [
+   "props:7",
+   "req:4"
+  ],
+  "schema:webhook-repository-vulnerability-alert-resolve": [
+   "props:7",
+   "req:4"
+  ],
+  "schema:webhook-rubygems-metadata": [
+   "props:10",
+   "req:0"
+  ],
+  "schema:webhook-secret-scanning-alert-assigned": [
+   "props:8",
+   "req:3"
+  ],
+  "schema:webhook-secret-scanning-alert-created": [
+   "props:7",
+   "req:3"
+  ],
+  "schema:webhook-secret-scanning-alert-location-created": [
+   "props:7",
+   "req:4"
+  ],
+  "schema:webhook-secret-scanning-alert-location-created-form-encoded": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:webhook-secret-scanning-alert-metadata-created": [
+   "props:7",
+   "req:3"
+  ],
+  "schema:webhook-secret-scanning-alert-metadata-removed": [
+   "props:7",
+   "req:3"
+  ],
+  "schema:webhook-secret-scanning-alert-publicly-leaked": [
+   "props:7",
+   "req:3"
+  ],
+  "schema:webhook-secret-scanning-alert-reopened": [
+   "props:7",
+   "req:3"
+  ],
+  "schema:webhook-secret-scanning-alert-resolved": [
+   "props:7",
+   "req:3"
+  ],
+  "schema:webhook-secret-scanning-alert-unassigned": [
+   "props:8",
+   "req:3"
+  ],
+  "schema:webhook-secret-scanning-alert-validated": [
+   "props:7",
+   "req:3"
+  ],
+  "schema:webhook-secret-scanning-scan-completed": [
+   "props:13",
+   "req:5"
+  ],
+  "schema:webhook-security-advisory-published": [
+   "props:7",
+   "req:2"
+  ],
+  "schema:webhook-security-advisory-updated": [
+   "props:7",
+   "req:2"
+  ],
+  "schema:webhook-security-advisory-withdrawn": [
+   "props:7",
+   "req:2"
+  ],
+  "schema:webhook-security-and-analysis": [
+   "props:6",
+   "req:2"
+  ],
+  "schema:webhook-sponsorship-cancelled": [
+   "props:7",
+   "req:3"
+  ],
+  "schema:webhook-sponsorship-created": [
+   "props:7",
+   "req:3"
+  ],
+  "schema:webhook-sponsorship-edited": [
+   "props:8",
+   "req:4"
+  ],
+  "schema:webhook-sponsorship-pending-cancellation": [
+   "props:8",
+   "req:3"
+  ],
+  "schema:webhook-sponsorship-pending-tier-change": [
+   "props:9",
+   "req:4"
+  ],
+  "schema:webhook-sponsorship-tier-changed": [
+   "props:8",
+   "req:4"
+  ],
+  "schema:webhook-star-created": [
+   "props:7",
+   "req:4"
+  ],
+  "schema:webhook-star-deleted": [
+   "props:7",
+   "req:4"
+  ],
+  "schema:webhook-status": [
+   "props:17",
+   "req:13"
+  ],
+  "schema:webhook-sub-issues-parent-issue-added": [
+   "props:10",
+   "req:5"
+  ],
+  "schema:webhook-sub-issues-parent-issue-removed": [
+   "props:10",
+   "req:5"
+  ],
+  "schema:webhook-sub-issues-sub-issue-added": [
+   "props:10",
+   "req:5"
+  ],
+  "schema:webhook-sub-issues-sub-issue-removed": [
+   "props:10",
+   "req:5"
+  ],
+  "schema:webhook-team-add": [
+   "props:6",
+   "req:3"
+  ],
+  "schema:webhook-team-added-to-repository": [
+   "props:7",
+   "req:3"
+  ],
+  "schema:webhook-team-created": [
+   "props:7",
+   "req:4"
+  ],
+  "schema:webhook-team-deleted": [
+   "props:7",
+   "req:3"
+  ],
+  "schema:webhook-team-edited": [
+   "props:8",
+   "req:5"
+  ],
+  "schema:webhook-team-removed-from-repository": [
+   "props:7",
+   "req:4"
+  ],
+  "schema:webhook-watch-started": [
+   "props:6",
+   "req:3"
+  ],
+  "schema:webhook-workflow-dispatch": [
+   "props:8",
+   "req:5"
+  ],
+  "schema:webhook-workflow-job-completed": [
+   "props:8",
+   "req:4"
+  ],
+  "schema:webhook-workflow-job-in-progress": [
+   "props:8",
+   "req:4"
+  ],
+  "schema:webhook-workflow-job-queued": [
+   "props:8",
+   "req:4"
+  ],
+  "schema:webhook-workflow-job-waiting": [
+   "props:8",
+   "req:4"
+  ],
+  "schema:webhook-workflow-run-completed": [
+   "props:8",
+   "req:5"
+  ],
+  "schema:webhook-workflow-run-in-progress": [
+   "props:8",
+   "req:5"
+  ],
+  "schema:webhook-workflow-run-requested": [
+   "props:8",
+   "req:5"
+  ],
+  "schema:webhooks_alert": [
+   "props:17",
+   "req:11"
+  ],
+  "schema:webhooks_answer": [
+   "props:13",
+   "req:12"
+  ],
+  "schema:webhooks_approver": [
+   "props:19",
+   "req:0"
+  ],
+  "schema:webhooks_changes": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:webhooks_changes_8": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:webhooks_code_scanning_commit_oid": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:webhooks_code_scanning_ref": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:webhooks_comment": [
+   "props:13",
+   "req:13"
+  ],
+  "schema:webhooks_deploy_key": [
+   "props:10",
+   "req:7"
+  ],
+  "schema:webhooks_deploy_pusher_type": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:webhooks_effective_date": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:webhooks_issue": [
+   "props:35",
+   "req:21"
+  ],
+  "schema:webhooks_issue_2": [
+   "props:35",
+   "req:21"
+  ],
+  "schema:webhooks_issue_comment": [
+   "props:14",
+   "req:12"
+  ],
+  "schema:webhooks_label": [
+   "props:7",
+   "req:7"
+  ],
+  "schema:webhooks_marketplace_purchase": [
+   "props:7",
+   "req:7"
+  ],
+  "schema:webhooks_membership": [
+   "props:7",
+   "req:5"
+  ],
+  "schema:webhooks_milestone": [
+   "props:16",
+   "req:16"
+  ],
+  "schema:webhooks_milestone_3": [
+   "props:16",
+   "req:16"
+  ],
+  "schema:webhooks_nullable_string": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:webhooks_number": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:webhooks_previous_marketplace_purchase": [
+   "props:7",
+   "req:6"
+  ],
+  "schema:webhooks_project": [
+   "props:13",
+   "req:13"
+  ],
+  "schema:webhooks_project_card": [
+   "props:13",
+   "req:11"
+  ],
+  "schema:webhooks_project_changes": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:webhooks_project_column": [
+   "props:9",
+   "req:8"
+  ],
+  "schema:webhooks_pull_request_5": [
+   "props:49",
+   "req:36"
+  ],
+  "schema:webhooks_ref_0": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:webhooks_release": [
+   "props:22",
+   "req:20"
+  ],
+  "schema:webhooks_release_1": [
+   "props:22",
+   "req:20"
+  ],
+  "schema:webhooks_repositories": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:webhooks_repositories_added": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:webhooks_repository_selection": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:webhooks_review": [
+   "props:12",
+   "req:11"
+  ],
+  "schema:webhooks_review_comment": [
+   "props:27",
+   "req:25"
+  ],
+  "schema:webhooks_reviewers": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:webhooks_rule": [
+   "props:28",
+   "req:25"
+  ],
+  "schema:webhooks_security_advisory": [
+   "props:13",
+   "req:12"
+  ],
+  "schema:webhooks_sponsorship": [
+   "props:7",
+   "req:6"
+  ],
+  "schema:webhooks_team": [
+   "props:17",
+   "req:2"
+  ],
+  "schema:webhooks_team_1": [
+   "props:17",
+   "req:2"
+  ],
+  "schema:webhooks_user": [
+   "props:22",
+   "req:2"
+  ],
+  "schema:webhooks_user_mannequin": [
+   "props:22",
+   "req:2"
+  ],
+  "schema:webhooks_workflow": [
+   "props:10",
+   "req:10"
+  ],
+  "schema:webhooks_workflow_job_run": [
+   "props:8",
+   "req:8"
+  ],
+  "schema:workflow": [
+   "props:11",
+   "req:10"
+  ],
+  "schema:workflow-dispatch-response": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:workflow-run": [
+   "props:36",
+   "req:26"
+  ],
+  "schema:workflow-run-id": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:workflow-run-usage": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:workflow-usage": [
+   "props:1",
+   "req:1"
+  ]
+ },
+ "ts": "2026-08-18T23:23:51+00:00",
+ "url": "https://raw.githubusercontent.com/github/rest-api-description/main/descriptions/api.github.com/api.github.com.json",
+ "vendor": "GitHub"
+}

@@ -1,0 +1,2649 @@
+{
+ "category": "spec",
+ "field_count": 659,
+ "first_seen": "2026-08-18T23:20:13+00:00",
+ "id": "spec-digitalocean",
+ "pending_keys": [],
+ "runs": 3,
+ "schema": {
+  "DELETE /v2/account/keys/{ssh_key_identifier}": [
+   "params:0",
+   "responses:0"
+  ],
+  "DELETE /v2/add-ons/saas/{resource_uuid}": [
+   "params:0",
+   "responses:0"
+  ],
+  "DELETE /v2/apps/{id}": [
+   "params:0",
+   "responses:0"
+  ],
+  "DELETE /v2/byoip_prefixes/{byoip_prefix_uuid}": [
+   "params:0",
+   "responses:0"
+  ],
+  "DELETE /v2/cdn/endpoints/{cdn_id}": [
+   "params:0",
+   "responses:0"
+  ],
+  "DELETE /v2/cdn/endpoints/{cdn_id}/cache": [
+   "params:0",
+   "responses:0"
+  ],
+  "DELETE /v2/certificates/{certificate_id}": [
+   "params:0",
+   "responses:0"
+  ],
+  "DELETE /v2/databases/{database_cluster_uuid}": [
+   "params:0",
+   "responses:0"
+  ],
+  "DELETE /v2/databases/{database_cluster_uuid}/dbs/{database_name}": [
+   "params:0",
+   "responses:0"
+  ],
+  "DELETE /v2/databases/{database_cluster_uuid}/indexes/{index_name}": [
+   "params:0",
+   "responses:0"
+  ],
+  "DELETE /v2/databases/{database_cluster_uuid}/logsink/{logsink_id}": [
+   "params:0",
+   "responses:0"
+  ],
+  "DELETE /v2/databases/{database_cluster_uuid}/online-migration/{migration_id}": [
+   "params:0",
+   "responses:0"
+  ],
+  "DELETE /v2/databases/{database_cluster_uuid}/pools/{pool_name}": [
+   "params:0",
+   "responses:0"
+  ],
+  "DELETE /v2/databases/{database_cluster_uuid}/replicas/{replica_name}": [
+   "params:0",
+   "responses:0"
+  ],
+  "DELETE /v2/databases/{database_cluster_uuid}/schema-registry/{subject_name}": [
+   "params:0",
+   "responses:0"
+  ],
+  "DELETE /v2/databases/{database_cluster_uuid}/topics/{topic_name}": [
+   "params:0",
+   "responses:0"
+  ],
+  "DELETE /v2/databases/{database_cluster_uuid}/users/{username}": [
+   "params:0",
+   "responses:0"
+  ],
+  "DELETE /v2/dedicated-inferences/{dedicated_inference_id}": [
+   "params:0",
+   "responses:0"
+  ],
+  "DELETE /v2/dedicated-inferences/{dedicated_inference_id}/tokens/{token_id}": [
+   "params:0",
+   "responses:0"
+  ],
+  "DELETE /v2/domains/{domain_name}": [
+   "params:0",
+   "responses:0"
+  ],
+  "DELETE /v2/domains/{domain_name}/records/{domain_record_id}": [
+   "params:0",
+   "responses:0"
+  ],
+  "DELETE /v2/droplets": [
+   "params:0",
+   "responses:0"
+  ],
+  "DELETE /v2/droplets/autoscale/{autoscale_pool_id}": [
+   "params:0",
+   "responses:0"
+  ],
+  "DELETE /v2/droplets/autoscale/{autoscale_pool_id}/dangerous": [
+   "params:0",
+   "responses:0"
+  ],
+  "DELETE /v2/droplets/{droplet_id}": [
+   "params:0",
+   "responses:0"
+  ],
+  "DELETE /v2/droplets/{droplet_id}/destroy_with_associated_resources/dangerous": [
+   "params:0",
+   "responses:0"
+  ],
+  "DELETE /v2/droplets/{droplet_id}/destroy_with_associated_resources/selective": [
+   "params:0",
+   "responses:0"
+  ],
+  "DELETE /v2/firewalls/{firewall_id}": [
+   "params:0",
+   "responses:0"
+  ],
+  "DELETE /v2/firewalls/{firewall_id}/droplets": [
+   "params:0",
+   "responses:0"
+  ],
+  "DELETE /v2/firewalls/{firewall_id}/rules": [
+   "params:0",
+   "responses:0"
+  ],
+  "DELETE /v2/firewalls/{firewall_id}/tags": [
+   "params:0",
+   "responses:0"
+  ],
+  "DELETE /v2/floating_ips/{floating_ip}": [
+   "params:0",
+   "responses:0"
+  ],
+  "DELETE /v2/functions/namespaces/{namespace_id}": [
+   "params:0",
+   "responses:0"
+  ],
+  "DELETE /v2/functions/namespaces/{namespace_id}/keys/{key_id}": [
+   "params:0",
+   "responses:0"
+  ],
+  "DELETE /v2/functions/namespaces/{namespace_id}/triggers/{trigger_name}": [
+   "params:0",
+   "responses:0"
+  ],
+  "DELETE /v2/gen-ai/agents/{agent_uuid}/api_keys/{api_key_uuid}": [
+   "params:0",
+   "responses:0"
+  ],
+  "DELETE /v2/gen-ai/agents/{agent_uuid}/functions/{function_uuid}": [
+   "params:0",
+   "responses:0"
+  ],
+  "DELETE /v2/gen-ai/agents/{agent_uuid}/guardrails/{guardrail_uuid}": [
+   "params:0",
+   "responses:0"
+  ],
+  "DELETE /v2/gen-ai/agents/{agent_uuid}/knowledge_bases/{knowledge_base_uuid}": [
+   "params:0",
+   "responses:0"
+  ],
+  "DELETE /v2/gen-ai/agents/{parent_agent_uuid}/child_agents/{child_agent_uuid}": [
+   "params:0",
+   "responses:0"
+  ],
+  "DELETE /v2/gen-ai/agents/{uuid}": [
+   "params:0",
+   "responses:0"
+  ],
+  "DELETE /v2/gen-ai/anthropic/keys/{api_key_uuid}": [
+   "params:0",
+   "responses:0"
+  ],
+  "DELETE /v2/gen-ai/custom_evaluation_metrics/{metric_uuid}": [
+   "params:0",
+   "responses:0"
+  ],
+  "DELETE /v2/gen-ai/custom_models/{uuid}": [
+   "params:0",
+   "responses:0"
+  ],
+  "DELETE /v2/gen-ai/evaluation_datasets/{dataset_uuid}": [
+   "params:0",
+   "responses:0"
+  ],
+  "DELETE /v2/gen-ai/knowledge_bases/{knowledge_base_uuid}/data_sources/{data_source_uuid}": [
+   "params:0",
+   "responses:0"
+  ],
+  "DELETE /v2/gen-ai/knowledge_bases/{uuid}": [
+   "params:0",
+   "responses:0"
+  ],
+  "DELETE /v2/gen-ai/model_evaluation_presets/{eval_preset_uuid}": [
+   "params:0",
+   "responses:0"
+  ],
+  "DELETE /v2/gen-ai/model_evaluation_runs/{eval_run_uuid}": [
+   "params:0",
+   "responses:0"
+  ],
+  "DELETE /v2/gen-ai/models/api_keys/{api_key_uuid}": [
+   "params:0",
+   "responses:0"
+  ],
+  "DELETE /v2/gen-ai/models/routers/{uuid}": [
+   "params:0",
+   "responses:0"
+  ],
+  "DELETE /v2/gen-ai/openai/keys/{api_key_uuid}": [
+   "params:0",
+   "responses:0"
+  ],
+  "DELETE /v2/gen-ai/scheduled-indexing/{uuid}": [
+   "params:0",
+   "responses:0"
+  ],
+  "DELETE /v2/gen-ai/workspaces/{workspace_uuid}": [
+   "params:0",
+   "responses:0"
+  ],
+  "DELETE /v2/images/{image_id}": [
+   "params:0",
+   "responses:0"
+  ],
+  "DELETE /v2/kubernetes/clusters/{cluster_id}": [
+   "params:0",
+   "responses:0"
+  ],
+  "DELETE /v2/kubernetes/clusters/{cluster_id}/destroy_with_associated_resources/dangerous": [
+   "params:0",
+   "responses:0"
+  ],
+  "DELETE /v2/kubernetes/clusters/{cluster_id}/destroy_with_associated_resources/selective": [
+   "params:0",
+   "responses:0"
+  ],
+  "DELETE /v2/kubernetes/clusters/{cluster_id}/node_pools/{node_pool_id}": [
+   "params:0",
+   "responses:0"
+  ],
+  "DELETE /v2/kubernetes/clusters/{cluster_id}/node_pools/{node_pool_id}/nodes/{node_id}": [
+   "params:0",
+   "responses:0"
+  ],
+  "DELETE /v2/kubernetes/registries": [
+   "params:0",
+   "responses:0"
+  ],
+  "DELETE /v2/kubernetes/registry": [
+   "params:0",
+   "responses:0"
+  ],
+  "DELETE /v2/load_balancers/{lb_id}": [
+   "params:0",
+   "responses:0"
+  ],
+  "DELETE /v2/load_balancers/{lb_id}/cache": [
+   "params:0",
+   "responses:0"
+  ],
+  "DELETE /v2/load_balancers/{lb_id}/droplets": [
+   "params:0",
+   "responses:0"
+  ],
+  "DELETE /v2/load_balancers/{lb_id}/forwarding_rules": [
+   "params:0",
+   "responses:0"
+  ],
+  "DELETE /v2/monitoring/alerts/{alert_uuid}": [
+   "params:0",
+   "responses:0"
+  ],
+  "DELETE /v2/monitoring/sinks/destinations/{destination_uuid}": [
+   "params:0",
+   "responses:0"
+  ],
+  "DELETE /v2/monitoring/sinks/{sink_uuid}": [
+   "params:0",
+   "responses:0"
+  ],
+  "DELETE /v2/nfs/access_points/{access_point_id}": [
+   "params:0",
+   "responses:0"
+  ],
+  "DELETE /v2/nfs/snapshots/{nfs_snapshot_id}": [
+   "params:0",
+   "responses:0"
+  ],
+  "DELETE /v2/nfs/{nfs_id}": [
+   "params:0",
+   "responses:0"
+  ],
+  "DELETE /v2/partner_network_connect/attachments/{pa_id}": [
+   "params:0",
+   "responses:0"
+  ],
+  "DELETE /v2/projects/{project_id}": [
+   "params:0",
+   "responses:0"
+  ],
+  "DELETE /v2/registries/{registry_name}": [
+   "params:0",
+   "responses:0"
+  ],
+  "DELETE /v2/registries/{registry_name}/repositories/{repository_name}": [
+   "params:0",
+   "responses:0"
+  ],
+  "DELETE /v2/registries/{registry_name}/repositories/{repository_name}/digests/{manifest_digest}": [
+   "params:0",
+   "responses:0"
+  ],
+  "DELETE /v2/registries/{registry_name}/repositories/{repository_name}/tags/{repository_tag}": [
+   "params:0",
+   "responses:0"
+  ],
+  "DELETE /v2/registry": [
+   "params:0",
+   "responses:0"
+  ],
+  "DELETE /v2/registry/{registry_name}/repositories/{repository_name}/digests/{manifest_digest}": [
+   "params:0",
+   "responses:0"
+  ],
+  "DELETE /v2/registry/{registry_name}/repositories/{repository_name}/tags/{repository_tag}": [
+   "params:0",
+   "responses:0"
+  ],
+  "DELETE /v2/reserved_ips/{reserved_ip}": [
+   "params:0",
+   "responses:0"
+  ],
+  "DELETE /v2/reserved_ipv6/{reserved_ipv6}": [
+   "params:0",
+   "responses:0"
+  ],
+  "DELETE /v2/security/settings/suppressions/{suppression_uuid}": [
+   "params:0",
+   "responses:0"
+  ],
+  "DELETE /v2/snapshots/{snapshot_id}": [
+   "params:0",
+   "responses:0"
+  ],
+  "DELETE /v2/spaces/keys/{access_key}": [
+   "params:0",
+   "responses:0"
+  ],
+  "DELETE /v2/tags/{tag_id}": [
+   "params:0",
+   "responses:0"
+  ],
+  "DELETE /v2/tags/{tag_id}/resources": [
+   "params:0",
+   "responses:0"
+  ],
+  "DELETE /v2/uptime/checks/{check_id}": [
+   "params:0",
+   "responses:0"
+  ],
+  "DELETE /v2/uptime/checks/{check_id}/alerts/{alert_id}": [
+   "params:0",
+   "responses:0"
+  ],
+  "DELETE /v2/vector-databases/{id}": [
+   "params:0",
+   "responses:0"
+  ],
+  "DELETE /v2/volumes": [
+   "params:0",
+   "responses:0"
+  ],
+  "DELETE /v2/volumes/snapshots/{snapshot_id}": [
+   "params:0",
+   "responses:0"
+  ],
+  "DELETE /v2/volumes/{volume_id}": [
+   "params:0",
+   "responses:0"
+  ],
+  "DELETE /v2/vpc_nat_gateways/{id}": [
+   "params:0",
+   "responses:0"
+  ],
+  "DELETE /v2/vpc_peerings/{vpc_peering_id}": [
+   "params:0",
+   "responses:0"
+  ],
+  "DELETE /v2/vpcs/{vpc_id}": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v1/batches": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v1/batches/{batch_id}": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v1/batches/{batch_id}/results": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v1/models": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/1-clicks": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/account": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/account/keys": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/account/keys/{ssh_key_identifier}": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/actions": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/actions/{action_id}": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/add-ons/apps": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/add-ons/apps/{app_slug}/metadata": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/add-ons/saas": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/add-ons/saas/{resource_uuid}": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/apps": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/apps/regions": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/apps/tiers/instance_sizes": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/apps/tiers/instance_sizes/{slug}": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/apps/{app_id}/alerts": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/apps/{app_id}/components/{component_name}/exec": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/apps/{app_id}/components/{component_name}/logs": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/apps/{app_id}/deployments": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/apps/{app_id}/deployments/{deployment_id}": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/apps/{app_id}/deployments/{deployment_id}/components/{component_name}/exec": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/apps/{app_id}/deployments/{deployment_id}/components/{component_name}/logs": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/apps/{app_id}/deployments/{deployment_id}/logs": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/apps/{app_id}/events": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/apps/{app_id}/events/{event_id}": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/apps/{app_id}/events/{event_id}/logs": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/apps/{app_id}/health": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/apps/{app_id}/instances": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/apps/{app_id}/job-invocations": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/apps/{app_id}/job-invocations/{job_invocation_id}": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/apps/{app_id}/jobs/{job_name}/invocations/{job_invocation_id}/logs": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/apps/{app_id}/logs": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/apps/{app_id}/metrics/bandwidth_daily": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/apps/{id}": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/billing/{account_urn}/insights/{start_date}/{end_date}": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/byoip_prefixes": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/byoip_prefixes/{byoip_prefix_uuid}": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/byoip_prefixes/{byoip_prefix_uuid}/ips": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/cdn/endpoints": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/cdn/endpoints/{cdn_id}": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/certificates": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/certificates/{certificate_id}": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/customers/my/balance": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/customers/my/billing_history": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/customers/my/invoices": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/customers/my/invoices/{invoice_uuid}": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/customers/my/invoices/{invoice_uuid}/csv": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/customers/my/invoices/{invoice_uuid}/pdf": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/customers/my/invoices/{invoice_uuid}/summary": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/databases": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/databases/metrics/credentials": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/databases/options": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/databases/{database_cluster_uuid}": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/databases/{database_cluster_uuid}/autoscale": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/databases/{database_cluster_uuid}/backups": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/databases/{database_cluster_uuid}/ca": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/databases/{database_cluster_uuid}/config": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/databases/{database_cluster_uuid}/dbs": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/databases/{database_cluster_uuid}/dbs/{database_name}": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/databases/{database_cluster_uuid}/do_settings": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/databases/{database_cluster_uuid}/events": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/databases/{database_cluster_uuid}/eviction_policy": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/databases/{database_cluster_uuid}/firewall": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/databases/{database_cluster_uuid}/indexes": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/databases/{database_cluster_uuid}/logsink": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/databases/{database_cluster_uuid}/logsink/{logsink_id}": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/databases/{database_cluster_uuid}/online-migration": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/databases/{database_cluster_uuid}/pools": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/databases/{database_cluster_uuid}/pools/{pool_name}": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/databases/{database_cluster_uuid}/replicas": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/databases/{database_cluster_uuid}/replicas/{replica_name}": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/databases/{database_cluster_uuid}/schema-registry": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/databases/{database_cluster_uuid}/schema-registry/config": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/databases/{database_cluster_uuid}/schema-registry/config/{subject_name}": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/databases/{database_cluster_uuid}/schema-registry/{subject_name}": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/databases/{database_cluster_uuid}/schema-registry/{subject_name}/versions/{version}": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/databases/{database_cluster_uuid}/sql_mode": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/databases/{database_cluster_uuid}/topics": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/databases/{database_cluster_uuid}/topics/{topic_name}": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/databases/{database_cluster_uuid}/users": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/databases/{database_cluster_uuid}/users/{username}": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/dedicated-inferences": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/dedicated-inferences/gpu-model-config": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/dedicated-inferences/sizes": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/dedicated-inferences/{dedicated_inference_id}": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/dedicated-inferences/{dedicated_inference_id}/accelerators": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/dedicated-inferences/{dedicated_inference_id}/accelerators/{accelerator_id}": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/dedicated-inferences/{dedicated_inference_id}/ca": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/dedicated-inferences/{dedicated_inference_id}/tokens": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/domains": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/domains/{domain_name}": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/domains/{domain_name}/records": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/domains/{domain_name}/records/{domain_record_id}": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/droplets": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/droplets/autoscale": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/droplets/autoscale/{autoscale_pool_id}": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/droplets/autoscale/{autoscale_pool_id}/history": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/droplets/autoscale/{autoscale_pool_id}/members": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/droplets/backups/policies": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/droplets/backups/supported_policies": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/droplets/{droplet_id}": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/droplets/{droplet_id}/actions": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/droplets/{droplet_id}/actions/{action_id}": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/droplets/{droplet_id}/backups": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/droplets/{droplet_id}/backups/policy": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/droplets/{droplet_id}/destroy_with_associated_resources": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/droplets/{droplet_id}/destroy_with_associated_resources/status": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/droplets/{droplet_id}/firewalls": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/droplets/{droplet_id}/kernels": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/droplets/{droplet_id}/neighbors": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/droplets/{droplet_id}/snapshots": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/firewalls": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/firewalls/{firewall_id}": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/floating_ips": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/floating_ips/{floating_ip}": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/floating_ips/{floating_ip}/actions": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/floating_ips/{floating_ip}/actions/{action_id}": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/functions/namespaces": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/functions/namespaces/{namespace_id}": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/functions/namespaces/{namespace_id}/keys": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/functions/namespaces/{namespace_id}/triggers": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/functions/namespaces/{namespace_id}/triggers/{trigger_name}": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/gen-ai/agents": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/gen-ai/agents/{agent_uuid}/api_keys": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/gen-ai/agents/{uuid}": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/gen-ai/agents/{uuid}/child_agents": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/gen-ai/agents/{uuid}/usage": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/gen-ai/agents/{uuid}/versions": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/gen-ai/anthropic/keys": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/gen-ai/anthropic/keys/{api_key_uuid}": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/gen-ai/anthropic/keys/{uuid}/agents": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/gen-ai/custom_models": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/gen-ai/custom_models/{uuid}": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/gen-ai/evaluation_datasets": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/gen-ai/evaluation_datasets/{dataset_uuid}/download_url": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/gen-ai/evaluation_metrics": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/gen-ai/evaluation_runs/{evaluation_run_uuid}": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/gen-ai/evaluation_runs/{evaluation_run_uuid}/results": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/gen-ai/evaluation_runs/{evaluation_run_uuid}/results/{prompt_id}": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/gen-ai/evaluation_test_cases": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/gen-ai/evaluation_test_cases/{evaluation_test_case_uuid}/evaluation_runs": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/gen-ai/evaluation_test_cases/{test_case_uuid}": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/gen-ai/indexing_jobs": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/gen-ai/indexing_jobs/{indexing_job_uuid}/data_sources": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/gen-ai/indexing_jobs/{indexing_job_uuid}/details_signed_url": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/gen-ai/indexing_jobs/{uuid}": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/gen-ai/knowledge_bases": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/gen-ai/knowledge_bases/{knowledge_base_uuid}/data_sources": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/gen-ai/knowledge_bases/{knowledge_base_uuid}/indexing_jobs": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/gen-ai/knowledge_bases/{uuid}": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/gen-ai/model_evaluation_metrics": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/gen-ai/model_evaluation_presets": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/gen-ai/model_evaluation_presets/{eval_preset_uuid}": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/gen-ai/model_evaluation_runs": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/gen-ai/model_evaluation_runs/{eval_run_uuid}": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/gen-ai/model_evaluation_runs/{eval_run_uuid}/results/download_url": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/gen-ai/models": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/gen-ai/models/api_keys": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/gen-ai/models/catalog": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/gen-ai/models/catalog/{id}": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/gen-ai/models/routers": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/gen-ai/models/routers/presets": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/gen-ai/models/routers/tasks/presets": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/gen-ai/models/routers/{uuid}": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/gen-ai/oauth2/url": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/gen-ai/openai/keys": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/gen-ai/openai/keys/{api_key_uuid}": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/gen-ai/openai/keys/{uuid}/agents": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/gen-ai/regions": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/gen-ai/scheduled-indexing/knowledge-base/{knowledge_base_uuid}": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/gen-ai/workspaces": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/gen-ai/workspaces/{workspace_uuid}": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/gen-ai/workspaces/{workspace_uuid}/agents": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/gen-ai/workspaces/{workspace_uuid}/evaluation_test_cases": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/images": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/images/{image_id}": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/images/{image_id}/actions": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/images/{image_id}/actions/{action_id}": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/kubernetes/clusters": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/kubernetes/clusters/{cluster_id}": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/kubernetes/clusters/{cluster_id}/clusterlint": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/kubernetes/clusters/{cluster_id}/credentials": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/kubernetes/clusters/{cluster_id}/destroy_with_associated_resources": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/kubernetes/clusters/{cluster_id}/kubeconfig": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/kubernetes/clusters/{cluster_id}/node_pools": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/kubernetes/clusters/{cluster_id}/node_pools/{node_pool_id}": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/kubernetes/clusters/{cluster_id}/status_messages": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/kubernetes/clusters/{cluster_id}/upgrades": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/kubernetes/clusters/{cluster_id}/user": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/kubernetes/options": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/load_balancers": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/load_balancers/{lb_id}": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/monitoring/alerts": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/monitoring/alerts/{alert_uuid}": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/monitoring/metrics/apps/cpu_percentage": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/monitoring/metrics/apps/memory_percentage": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/monitoring/metrics/apps/restart_count": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/monitoring/metrics/database/mysql/cpu_usage": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/monitoring/metrics/database/mysql/disk_usage": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/monitoring/metrics/database/mysql/index_vs_sequential_reads": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/monitoring/metrics/database/mysql/load": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/monitoring/metrics/database/mysql/memory_usage": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/monitoring/metrics/database/mysql/op_rates": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/monitoring/metrics/database/mysql/schema_latency": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/monitoring/metrics/database/mysql/schema_throughput": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/monitoring/metrics/database/mysql/threads_active": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/monitoring/metrics/database/mysql/threads_connected": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/monitoring/metrics/database/mysql/threads_created_rate": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/monitoring/metrics/droplet/bandwidth": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/monitoring/metrics/droplet/cpu": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/monitoring/metrics/droplet/filesystem_free": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/monitoring/metrics/droplet/filesystem_size": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/monitoring/metrics/droplet/load_1": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/monitoring/metrics/droplet/load_15": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/monitoring/metrics/droplet/load_5": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/monitoring/metrics/droplet/memory_available": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/monitoring/metrics/droplet/memory_cached": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/monitoring/metrics/droplet/memory_free": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/monitoring/metrics/droplet/memory_total": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/monitoring/metrics/droplet_autoscale/current_cpu_utilization": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/monitoring/metrics/droplet_autoscale/current_instances": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/monitoring/metrics/droplet_autoscale/current_memory_utilization": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/monitoring/metrics/droplet_autoscale/target_cpu_utilization": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/monitoring/metrics/droplet_autoscale/target_instances": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/monitoring/metrics/droplet_autoscale/target_memory_utilization": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/monitoring/metrics/load_balancer/droplets_connections": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/monitoring/metrics/load_balancer/droplets_downtime": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/monitoring/metrics/load_balancer/droplets_health_checks": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/monitoring/metrics/load_balancer/droplets_http_response_time_50p": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/monitoring/metrics/load_balancer/droplets_http_response_time_95p": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/monitoring/metrics/load_balancer/droplets_http_response_time_99p": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/monitoring/metrics/load_balancer/droplets_http_response_time_avg": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/monitoring/metrics/load_balancer/droplets_http_responses": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/monitoring/metrics/load_balancer/droplets_http_session_duration_50p": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/monitoring/metrics/load_balancer/droplets_http_session_duration_95p": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/monitoring/metrics/load_balancer/droplets_http_session_duration_avg": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/monitoring/metrics/load_balancer/droplets_queue_size": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/monitoring/metrics/load_balancer/frontend_connections_current": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/monitoring/metrics/load_balancer/frontend_connections_limit": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/monitoring/metrics/load_balancer/frontend_cpu_utilization": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/monitoring/metrics/load_balancer/frontend_firewall_dropped_bytes": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/monitoring/metrics/load_balancer/frontend_firewall_dropped_packets": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/monitoring/metrics/load_balancer/frontend_http_requests_per_second": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/monitoring/metrics/load_balancer/frontend_http_responses": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/monitoring/metrics/load_balancer/frontend_network_throughput_http": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/monitoring/metrics/load_balancer/frontend_network_throughput_tcp": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/monitoring/metrics/load_balancer/frontend_network_throughput_udp": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/monitoring/metrics/load_balancer/frontend_nlb_tcp_network_throughput": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/monitoring/metrics/load_balancer/frontend_nlb_udp_network_throughput": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/monitoring/metrics/load_balancer/frontend_tls_connections_current": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/monitoring/metrics/load_balancer/frontend_tls_connections_exceeding_rate_limit": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/monitoring/metrics/load_balancer/frontend_tls_connections_limit": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/monitoring/sinks": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/monitoring/sinks/destinations": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/monitoring/sinks/destinations/{destination_uuid}": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/monitoring/sinks/{sink_uuid}": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/nfs": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/nfs/access_points/{access_point_id}": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/nfs/shares/{share_id}/access_points": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/nfs/snapshots": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/nfs/snapshots/{nfs_snapshot_id}": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/nfs/{nfs_id}": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/organizations/teams": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/partner_network_connect/attachments": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/partner_network_connect/attachments/{pa_id}": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/partner_network_connect/attachments/{pa_id}/bgp_auth_key": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/partner_network_connect/attachments/{pa_id}/remote_routes": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/partner_network_connect/attachments/{pa_id}/service_key": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/projects": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/projects/default": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/projects/default/resources": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/projects/{project_id}": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/projects/{project_id}/resources": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/regions": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/registries": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/registries/options": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/registries/subscription": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/registries/{registry_name}": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/registries/{registry_name}/docker-credentials": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/registries/{registry_name}/garbage-collection": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/registries/{registry_name}/garbage-collections": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/registries/{registry_name}/repositories/{repository_name}/digests": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/registries/{registry_name}/repositories/{repository_name}/tags": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/registries/{registry_name}/repositoriesV2": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/registry": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/registry/docker-credentials": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/registry/options": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/registry/subscription": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/registry/{registry_name}/garbage-collection": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/registry/{registry_name}/garbage-collections": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/registry/{registry_name}/repositories": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/registry/{registry_name}/repositories/{repository_name}/digests": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/registry/{registry_name}/repositories/{repository_name}/tags": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/registry/{registry_name}/repositoriesV2": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/reports/droplet_neighbors_ids": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/reserved_ips": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/reserved_ips/{reserved_ip}": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/reserved_ips/{reserved_ip}/actions": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/reserved_ips/{reserved_ip}/actions/{action_id}": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/reserved_ipv6": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/reserved_ipv6/{reserved_ipv6}": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/security/scans": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/security/scans/latest": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/security/scans/{scan_id}": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/security/scans/{scan_id}/findings/{finding_uuid}/affected_resources": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/security/settings": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/sizes": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/snapshots": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/snapshots/{snapshot_id}": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/spaces/keys": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/spaces/keys/{access_key}": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/tags": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/tags/{tag_id}": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/uptime/checks": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/uptime/checks/{check_id}": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/uptime/checks/{check_id}/alerts": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/uptime/checks/{check_id}/alerts/{alert_id}": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/uptime/checks/{check_id}/state": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/vector-databases": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/vector-databases/{id}": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/vector-databases/{id}/backups": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/vector-databases/{id}/backups/{backup_id}/restore": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/vector-databases/{id}/credentials": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/volumes": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/volumes/snapshots/{snapshot_id}": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/volumes/{volume_id}": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/volumes/{volume_id}/actions": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/volumes/{volume_id}/actions/{action_id}": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/volumes/{volume_id}/snapshots": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/vpc_nat_gateways": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/vpc_nat_gateways/{id}": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/vpc_peerings": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/vpc_peerings/{vpc_peering_id}": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/vpcs": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/vpcs/{vpc_id}": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/vpcs/{vpc_id}/members": [
+   "params:0",
+   "responses:0"
+  ],
+  "GET /v2/vpcs/{vpc_id}/peerings": [
+   "params:0",
+   "responses:0"
+  ],
+  "PATCH /v2/add-ons/saas/{resource_uuid}": [
+   "params:0",
+   "responses:0"
+  ],
+  "PATCH /v2/add-ons/saas/{resource_uuid}/plan": [
+   "params:0",
+   "responses:0"
+  ],
+  "PATCH /v2/byoip_prefixes/{byoip_prefix_uuid}": [
+   "params:0",
+   "responses:0"
+  ],
+  "PATCH /v2/databases/{database_cluster_uuid}/config": [
+   "params:0",
+   "responses:0"
+  ],
+  "PATCH /v2/dedicated-inferences/{dedicated_inference_id}": [
+   "params:0",
+   "responses:0"
+  ],
+  "PATCH /v2/domains/{domain_name}/records/{domain_record_id}": [
+   "params:0",
+   "responses:0"
+  ],
+  "PATCH /v2/gen-ai/custom_models/{uuid}/metadata": [
+   "params:0",
+   "responses:0"
+  ],
+  "PATCH /v2/gen-ai/model_evaluation_runs/{eval_run_uuid}": [
+   "params:0",
+   "responses:0"
+  ],
+  "PATCH /v2/partner_network_connect/attachments/{pa_id}": [
+   "params:0",
+   "responses:0"
+  ],
+  "PATCH /v2/projects/default": [
+   "params:0",
+   "responses:0"
+  ],
+  "PATCH /v2/projects/{project_id}": [
+   "params:0",
+   "responses:0"
+  ],
+  "PATCH /v2/spaces/keys/{access_key}": [
+   "params:0",
+   "responses:0"
+  ],
+  "PATCH /v2/vpc_peerings/{vpc_peering_id}": [
+   "params:0",
+   "responses:0"
+  ],
+  "PATCH /v2/vpcs/{vpc_id}": [
+   "params:0",
+   "responses:0"
+  ],
+  "PATCH /v2/vpcs/{vpc_id}/peerings/{vpc_peering_id}": [
+   "params:0",
+   "responses:0"
+  ],
+  "POST /api/v1/chat/completions": [
+   "params:0",
+   "responses:0"
+  ],
+  "POST /v1/async-invoke": [
+   "params:0",
+   "responses:0"
+  ],
+  "POST /v1/batches": [
+   "params:0",
+   "responses:0"
+  ],
+  "POST /v1/batches/files": [
+   "params:0",
+   "responses:0"
+  ],
+  "POST /v1/batches/{batch_id}/cancel": [
+   "params:0",
+   "responses:0"
+  ],
+  "POST /v1/chat/completions": [
+   "params:0",
+   "responses:0"
+  ],
+  "POST /v1/embeddings": [
+   "params:0",
+   "responses:0"
+  ],
+  "POST /v1/images/generations": [
+   "params:0",
+   "responses:0"
+  ],
+  "POST /v1/messages": [
+   "params:0",
+   "responses:0"
+  ],
+  "POST /v1/responses": [
+   "params:0",
+   "responses:0"
+  ],
+  "POST /v2/1-clicks/kubernetes": [
+   "params:0",
+   "responses:0"
+  ],
+  "POST /v2/account/keys": [
+   "params:0",
+   "responses:0"
+  ],
+  "POST /v2/add-ons/saas": [
+   "params:0",
+   "responses:0"
+  ],
+  "POST /v2/apps": [
+   "params:0",
+   "responses:0"
+  ],
+  "POST /v2/apps/metrics/bandwidth_daily": [
+   "params:0",
+   "responses:0"
+  ],
+  "POST /v2/apps/propose": [
+   "params:0",
+   "responses:0"
+  ],
+  "POST /v2/apps/{app_id}/alerts/{alert_id}/destinations": [
+   "params:0",
+   "responses:0"
+  ],
+  "POST /v2/apps/{app_id}/deployments": [
+   "params:0",
+   "responses:0"
+  ],
+  "POST /v2/apps/{app_id}/deployments/{deployment_id}/cancel": [
+   "params:0",
+   "responses:0"
+  ],
+  "POST /v2/apps/{app_id}/events/{event_id}/cancel": [
+   "params:0",
+   "responses:0"
+  ],
+  "POST /v2/apps/{app_id}/job-invocations/{job_invocation_id}/cancel": [
+   "params:0",
+   "responses:0"
+  ],
+  "POST /v2/apps/{app_id}/restart": [
+   "params:0",
+   "responses:0"
+  ],
+  "POST /v2/apps/{app_id}/rollback": [
+   "params:0",
+   "responses:0"
+  ],
+  "POST /v2/apps/{app_id}/rollback/commit": [
+   "params:0",
+   "responses:0"
+  ],
+  "POST /v2/apps/{app_id}/rollback/revert": [
+   "params:0",
+   "responses:0"
+  ],
+  "POST /v2/apps/{app_id}/rollback/validate": [
+   "params:0",
+   "responses:0"
+  ],
+  "POST /v2/byoip_prefixes": [
+   "params:0",
+   "responses:0"
+  ],
+  "POST /v2/cdn/endpoints": [
+   "params:0",
+   "responses:0"
+  ],
+  "POST /v2/certificates": [
+   "params:0",
+   "responses:0"
+  ],
+  "POST /v2/databases": [
+   "params:0",
+   "responses:0"
+  ],
+  "POST /v2/databases/{database_cluster_uuid}/dbs": [
+   "params:0",
+   "responses:0"
+  ],
+  "POST /v2/databases/{database_cluster_uuid}/logsink": [
+   "params:0",
+   "responses:0"
+  ],
+  "POST /v2/databases/{database_cluster_uuid}/pools": [
+   "params:0",
+   "responses:0"
+  ],
+  "POST /v2/databases/{database_cluster_uuid}/replicas": [
+   "params:0",
+   "responses:0"
+  ],
+  "POST /v2/databases/{database_cluster_uuid}/schema-registry": [
+   "params:0",
+   "responses:0"
+  ],
+  "POST /v2/databases/{database_cluster_uuid}/topics": [
+   "params:0",
+   "responses:0"
+  ],
+  "POST /v2/databases/{database_cluster_uuid}/users": [
+   "params:0",
+   "responses:0"
+  ],
+  "POST /v2/databases/{database_cluster_uuid}/users/{username}/reset_auth": [
+   "params:0",
+   "responses:0"
+  ],
+  "POST /v2/dedicated-inferences": [
+   "params:0",
+   "responses:0"
+  ],
+  "POST /v2/dedicated-inferences/{dedicated_inference_id}/tokens": [
+   "params:0",
+   "responses:0"
+  ],
+  "POST /v2/domains": [
+   "params:0",
+   "responses:0"
+  ],
+  "POST /v2/domains/{domain_name}/records": [
+   "params:0",
+   "responses:0"
+  ],
+  "POST /v2/droplets": [
+   "params:0",
+   "responses:0"
+  ],
+  "POST /v2/droplets/actions": [
+   "params:0",
+   "responses:0"
+  ],
+  "POST /v2/droplets/autoscale": [
+   "params:0",
+   "responses:0"
+  ],
+  "POST /v2/droplets/{droplet_id}/actions": [
+   "params:0",
+   "responses:0"
+  ],
+  "POST /v2/droplets/{droplet_id}/destroy_with_associated_resources/retry": [
+   "params:0",
+   "responses:0"
+  ],
+  "POST /v2/firewalls": [
+   "params:0",
+   "responses:0"
+  ],
+  "POST /v2/firewalls/{firewall_id}/droplets": [
+   "params:0",
+   "responses:0"
+  ],
+  "POST /v2/firewalls/{firewall_id}/rules": [
+   "params:0",
+   "responses:0"
+  ],
+  "POST /v2/firewalls/{firewall_id}/tags": [
+   "params:0",
+   "responses:0"
+  ],
+  "POST /v2/floating_ips": [
+   "params:0",
+   "responses:0"
+  ],
+  "POST /v2/floating_ips/{floating_ip}/actions": [
+   "params:0",
+   "responses:0"
+  ],
+  "POST /v2/functions/namespaces": [
+   "params:0",
+   "responses:0"
+  ],
+  "POST /v2/functions/namespaces/{namespace_id}/keys": [
+   "params:0",
+   "responses:0"
+  ],
+  "POST /v2/functions/namespaces/{namespace_id}/triggers": [
+   "params:0",
+   "responses:0"
+  ],
+  "POST /v2/gen-ai/agents": [
+   "params:0",
+   "responses:0"
+  ],
+  "POST /v2/gen-ai/agents/{agent_uuid}/api_keys": [
+   "params:0",
+   "responses:0"
+  ],
+  "POST /v2/gen-ai/agents/{agent_uuid}/functions": [
+   "params:0",
+   "responses:0"
+  ],
+  "POST /v2/gen-ai/agents/{agent_uuid}/guardrails": [
+   "params:0",
+   "responses:0"
+  ],
+  "POST /v2/gen-ai/agents/{agent_uuid}/knowledge_bases": [
+   "params:0",
+   "responses:0"
+  ],
+  "POST /v2/gen-ai/agents/{agent_uuid}/knowledge_bases/{knowledge_base_uuid}": [
+   "params:0",
+   "responses:0"
+  ],
+  "POST /v2/gen-ai/agents/{parent_agent_uuid}/child_agents/{child_agent_uuid}": [
+   "params:0",
+   "responses:0"
+  ],
+  "POST /v2/gen-ai/anthropic/keys": [
+   "params:0",
+   "responses:0"
+  ],
+  "POST /v2/gen-ai/custom_evaluation_metrics": [
+   "params:0",
+   "responses:0"
+  ],
+  "POST /v2/gen-ai/custom_models/import": [
+   "params:0",
+   "responses:0"
+  ],
+  "POST /v2/gen-ai/evaluation_datasets": [
+   "params:0",
+   "responses:0"
+  ],
+  "POST /v2/gen-ai/evaluation_datasets/file_upload_presigned_urls": [
+   "params:0",
+   "responses:0"
+  ],
+  "POST /v2/gen-ai/evaluation_runs": [
+   "params:0",
+   "responses:0"
+  ],
+  "POST /v2/gen-ai/evaluation_test_cases": [
+   "params:0",
+   "responses:0"
+  ],
+  "POST /v2/gen-ai/indexing_jobs": [
+   "params:0",
+   "responses:0"
+  ],
+  "POST /v2/gen-ai/knowledge_bases": [
+   "params:0",
+   "responses:0"
+  ],
+  "POST /v2/gen-ai/knowledge_bases/data_sources/file_upload_presigned_urls": [
+   "params:0",
+   "responses:0"
+  ],
+  "POST /v2/gen-ai/knowledge_bases/{knowledge_base_uuid}/data_sources": [
+   "params:0",
+   "responses:0"
+  ],
+  "POST /v2/gen-ai/model_evaluation/datasets/file_upload_presigned_urls": [
+   "params:0",
+   "responses:0"
+  ],
+  "POST /v2/gen-ai/model_evaluation_runs": [
+   "params:0",
+   "responses:0"
+  ],
+  "POST /v2/gen-ai/models/api_keys": [
+   "params:0",
+   "responses:0"
+  ],
+  "POST /v2/gen-ai/models/routers": [
+   "params:0",
+   "responses:0"
+  ],
+  "POST /v2/gen-ai/oauth2/dropbox/tokens": [
+   "params:0",
+   "responses:0"
+  ],
+  "POST /v2/gen-ai/openai/keys": [
+   "params:0",
+   "responses:0"
+  ],
+  "POST /v2/gen-ai/scheduled-indexing": [
+   "params:0",
+   "responses:0"
+  ],
+  "POST /v2/gen-ai/workspaces": [
+   "params:0",
+   "responses:0"
+  ],
+  "POST /v2/images": [
+   "params:0",
+   "responses:0"
+  ],
+  "POST /v2/images/{image_id}/account_transfer": [
+   "params:0",
+   "responses:0"
+  ],
+  "POST /v2/images/{image_id}/account_transfer/accept": [
+   "params:0",
+   "responses:0"
+  ],
+  "POST /v2/images/{image_id}/account_transfer/cancel": [
+   "params:0",
+   "responses:0"
+  ],
+  "POST /v2/images/{image_id}/account_transfer/decline": [
+   "params:0",
+   "responses:0"
+  ],
+  "POST /v2/images/{image_id}/actions": [
+   "params:0",
+   "responses:0"
+  ],
+  "POST /v2/kubernetes/clusters": [
+   "params:0",
+   "responses:0"
+  ],
+  "POST /v2/kubernetes/clusters/{cluster_id}/clusterlint": [
+   "params:0",
+   "responses:0"
+  ],
+  "POST /v2/kubernetes/clusters/{cluster_id}/node_pools": [
+   "params:0",
+   "responses:0"
+  ],
+  "POST /v2/kubernetes/clusters/{cluster_id}/node_pools/{node_pool_id}/recycle": [
+   "params:0",
+   "responses:0"
+  ],
+  "POST /v2/kubernetes/clusters/{cluster_id}/upgrade": [
+   "params:0",
+   "responses:0"
+  ],
+  "POST /v2/kubernetes/registries": [
+   "params:0",
+   "responses:0"
+  ],
+  "POST /v2/kubernetes/registry": [
+   "params:0",
+   "responses:0"
+  ],
+  "POST /v2/load_balancers": [
+   "params:0",
+   "responses:0"
+  ],
+  "POST /v2/load_balancers/{lb_id}/droplets": [
+   "params:0",
+   "responses:0"
+  ],
+  "POST /v2/load_balancers/{lb_id}/forwarding_rules": [
+   "params:0",
+   "responses:0"
+  ],
+  "POST /v2/monitoring/alerts": [
+   "params:0",
+   "responses:0"
+  ],
+  "POST /v2/monitoring/sinks": [
+   "params:0",
+   "responses:0"
+  ],
+  "POST /v2/monitoring/sinks/destinations": [
+   "params:0",
+   "responses:0"
+  ],
+  "POST /v2/monitoring/sinks/destinations/{destination_uuid}": [
+   "params:0",
+   "responses:0"
+  ],
+  "POST /v2/nfs": [
+   "params:0",
+   "responses:0"
+  ],
+  "POST /v2/nfs/shares/{share_id}/access_points": [
+   "params:0",
+   "responses:0"
+  ],
+  "POST /v2/nfs/{nfs_id}/actions": [
+   "params:0",
+   "responses:0"
+  ],
+  "POST /v2/organizations/team": [
+   "params:0",
+   "responses:0"
+  ],
+  "POST /v2/partner_network_connect/attachments": [
+   "params:0",
+   "responses:0"
+  ],
+  "POST /v2/partner_network_connect/attachments/{pa_id}/service_key": [
+   "params:0",
+   "responses:0"
+  ],
+  "POST /v2/projects": [
+   "params:0",
+   "responses:0"
+  ],
+  "POST /v2/projects/default/resources": [
+   "params:0",
+   "responses:0"
+  ],
+  "POST /v2/projects/{project_id}/resources": [
+   "params:0",
+   "responses:0"
+  ],
+  "POST /v2/registries": [
+   "params:0",
+   "responses:0"
+  ],
+  "POST /v2/registries/subscription": [
+   "params:0",
+   "responses:0"
+  ],
+  "POST /v2/registries/validate-name": [
+   "params:0",
+   "responses:0"
+  ],
+  "POST /v2/registries/{registry_name}/garbage-collection": [
+   "params:0",
+   "responses:0"
+  ],
+  "POST /v2/registry": [
+   "params:0",
+   "responses:0"
+  ],
+  "POST /v2/registry/subscription": [
+   "params:0",
+   "responses:0"
+  ],
+  "POST /v2/registry/validate-name": [
+   "params:0",
+   "responses:0"
+  ],
+  "POST /v2/registry/{registry_name}/garbage-collection": [
+   "params:0",
+   "responses:0"
+  ],
+  "POST /v2/reserved_ips": [
+   "params:0",
+   "responses:0"
+  ],
+  "POST /v2/reserved_ips/{reserved_ip}/actions": [
+   "params:0",
+   "responses:0"
+  ],
+  "POST /v2/reserved_ipv6": [
+   "params:0",
+   "responses:0"
+  ],
+  "POST /v2/reserved_ipv6/{reserved_ipv6}/actions": [
+   "params:0",
+   "responses:0"
+  ],
+  "POST /v2/security/scans": [
+   "params:0",
+   "responses:0"
+  ],
+  "POST /v2/security/scans/rules": [
+   "params:0",
+   "responses:0"
+  ],
+  "POST /v2/security/settings/suppressions": [
+   "params:0",
+   "responses:0"
+  ],
+  "POST /v2/spaces/keys": [
+   "params:0",
+   "responses:0"
+  ],
+  "POST /v2/tags": [
+   "params:0",
+   "responses:0"
+  ],
+  "POST /v2/tags/{tag_id}/resources": [
+   "params:0",
+   "responses:0"
+  ],
+  "POST /v2/uptime/checks": [
+   "params:0",
+   "responses:0"
+  ],
+  "POST /v2/uptime/checks/{check_id}/alerts": [
+   "params:0",
+   "responses:0"
+  ],
+  "POST /v2/vector-databases": [
+   "params:0",
+   "responses:0"
+  ],
+  "POST /v2/vector-databases/{id}/backups/{backup_id}/restore": [
+   "params:0",
+   "responses:0"
+  ],
+  "POST /v2/vector-databases/{id}/resize": [
+   "params:0",
+   "responses:0"
+  ],
+  "POST /v2/volumes": [
+   "params:0",
+   "responses:0"
+  ],
+  "POST /v2/volumes/actions": [
+   "params:0",
+   "responses:0"
+  ],
+  "POST /v2/volumes/{volume_id}/actions": [
+   "params:0",
+   "responses:0"
+  ],
+  "POST /v2/volumes/{volume_id}/snapshots": [
+   "params:0",
+   "responses:0"
+  ],
+  "POST /v2/vpc_nat_gateways": [
+   "params:0",
+   "responses:0"
+  ],
+  "POST /v2/vpc_peerings": [
+   "params:0",
+   "responses:0"
+  ],
+  "POST /v2/vpcs": [
+   "params:0",
+   "responses:0"
+  ],
+  "POST /v2/vpcs/{vpc_id}/peerings": [
+   "params:0",
+   "responses:0"
+  ],
+  "PUT /<upload_url>": [
+   "params:0",
+   "responses:0"
+  ],
+  "PUT /v2/account/keys/{ssh_key_identifier}": [
+   "params:0",
+   "responses:0"
+  ],
+  "PUT /v2/apps/{id}": [
+   "params:0",
+   "responses:0"
+  ],
+  "PUT /v2/cdn/endpoints/{cdn_id}": [
+   "params:0",
+   "responses:0"
+  ],
+  "PUT /v2/databases/metrics/credentials": [
+   "params:0",
+   "responses:0"
+  ],
+  "PUT /v2/databases/{database_cluster_uuid}/autoscale": [
+   "params:0",
+   "responses:0"
+  ],
+  "PUT /v2/databases/{database_cluster_uuid}/do_settings": [
+   "params:0",
+   "responses:0"
+  ],
+  "PUT /v2/databases/{database_cluster_uuid}/eviction_policy": [
+   "params:0",
+   "responses:0"
+  ],
+  "PUT /v2/databases/{database_cluster_uuid}/firewall": [
+   "params:0",
+   "responses:0"
+  ],
+  "PUT /v2/databases/{database_cluster_uuid}/install_update": [
+   "params:0",
+   "responses:0"
+  ],
+  "PUT /v2/databases/{database_cluster_uuid}/logsink/{logsink_id}": [
+   "params:0",
+   "responses:0"
+  ],
+  "PUT /v2/databases/{database_cluster_uuid}/maintenance": [
+   "params:0",
+   "responses:0"
+  ],
+  "PUT /v2/databases/{database_cluster_uuid}/migrate": [
+   "params:0",
+   "responses:0"
+  ],
+  "PUT /v2/databases/{database_cluster_uuid}/online-migration": [
+   "params:0",
+   "responses:0"
+  ],
+  "PUT /v2/databases/{database_cluster_uuid}/pools/{pool_name}": [
+   "params:0",
+   "responses:0"
+  ],
+  "PUT /v2/databases/{database_cluster_uuid}/replicas/{replica_name}/promote": [
+   "params:0",
+   "responses:0"
+  ],
+  "PUT /v2/databases/{database_cluster_uuid}/resize": [
+   "params:0",
+   "responses:0"
+  ],
+  "PUT /v2/databases/{database_cluster_uuid}/schema-registry/config": [
+   "params:0",
+   "responses:0"
+  ],
+  "PUT /v2/databases/{database_cluster_uuid}/schema-registry/config/{subject_name}": [
+   "params:0",
+   "responses:0"
+  ],
+  "PUT /v2/databases/{database_cluster_uuid}/sql_mode": [
+   "params:0",
+   "responses:0"
+  ],
+  "PUT /v2/databases/{database_cluster_uuid}/topics/{topic_name}": [
+   "params:0",
+   "responses:0"
+  ],
+  "PUT /v2/databases/{database_cluster_uuid}/upgrade": [
+   "params:0",
+   "responses:0"
+  ],
+  "PUT /v2/databases/{database_cluster_uuid}/users/{username}": [
+   "params:0",
+   "responses:0"
+  ],
+  "PUT /v2/domains/{domain_name}/records/{domain_record_id}": [
+   "params:0",
+   "responses:0"
+  ],
+  "PUT /v2/droplets/autoscale/{autoscale_pool_id}": [
+   "params:0",
+   "responses:0"
+  ],
+  "PUT /v2/firewalls/{firewall_id}": [
+   "params:0",
+   "responses:0"
+  ],
+  "PUT /v2/functions/namespaces/{namespace_id}/keys/{key_id}": [
+   "params:0",
+   "responses:0"
+  ],
+  "PUT /v2/functions/namespaces/{namespace_id}/triggers/{trigger_name}": [
+   "params:0",
+   "responses:0"
+  ],
+  "PUT /v2/gen-ai/agents/{agent_uuid}/api_keys/{api_key_uuid}": [
+   "params:0",
+   "responses:0"
+  ],
+  "PUT /v2/gen-ai/agents/{agent_uuid}/api_keys/{api_key_uuid}/regenerate": [
+   "params:0",
+   "responses:0"
+  ],
+  "PUT /v2/gen-ai/agents/{agent_uuid}/functions/{function_uuid}": [
+   "params:0",
+   "responses:0"
+  ],
+  "PUT /v2/gen-ai/agents/{parent_agent_uuid}/child_agents/{child_agent_uuid}": [
+   "params:0",
+   "responses:0"
+  ],
+  "PUT /v2/gen-ai/agents/{uuid}": [
+   "params:0",
+   "responses:0"
+  ],
+  "PUT /v2/gen-ai/agents/{uuid}/deployment_visibility": [
+   "params:0",
+   "responses:0"
+  ],
+  "PUT /v2/gen-ai/agents/{uuid}/versions": [
+   "params:0",
+   "responses:0"
+  ],
+  "PUT /v2/gen-ai/anthropic/keys/{api_key_uuid}": [
+   "params:0",
+   "responses:0"
+  ],
+  "PUT /v2/gen-ai/custom_evaluation_metrics/{metric_uuid}": [
+   "params:0",
+   "responses:0"
+  ],
+  "PUT /v2/gen-ai/evaluation_test_cases/{test_case_uuid}": [
+   "params:0",
+   "responses:0"
+  ],
+  "PUT /v2/gen-ai/indexing_jobs/{uuid}/cancel": [
+   "params:0",
+   "responses:0"
+  ],
+  "PUT /v2/gen-ai/knowledge_bases/{knowledge_base_uuid}/data_sources/{data_source_uuid}": [
+   "params:0",
+   "responses:0"
+  ],
+  "PUT /v2/gen-ai/knowledge_bases/{uuid}": [
+   "params:0",
+   "responses:0"
+  ],
+  "PUT /v2/gen-ai/model_evaluation_runs/{eval_run_uuid}/cancel": [
+   "params:0",
+   "responses:0"
+  ],
+  "PUT /v2/gen-ai/models/api_keys/{api_key_uuid}": [
+   "params:0",
+   "responses:0"
+  ],
+  "PUT /v2/gen-ai/models/api_keys/{api_key_uuid}/regenerate": [
+   "params:0",
+   "responses:0"
+  ],
+  "PUT /v2/gen-ai/models/routers/{uuid}": [
+   "params:0",
+   "responses:0"
+  ],
+  "PUT /v2/gen-ai/openai/keys/{api_key_uuid}": [
+   "params:0",
+   "responses:0"
+  ],
+  "PUT /v2/gen-ai/workspaces/{workspace_uuid}": [
+   "params:0",
+   "responses:0"
+  ],
+  "PUT /v2/gen-ai/workspaces/{workspace_uuid}/agents": [
+   "params:0",
+   "responses:0"
+  ],
+  "PUT /v2/images/{image_id}": [
+   "params:0",
+   "responses:0"
+  ],
+  "PUT /v2/kubernetes/clusters/{cluster_id}": [
+   "params:0",
+   "responses:0"
+  ],
+  "PUT /v2/kubernetes/clusters/{cluster_id}/node_pools/{node_pool_id}": [
+   "params:0",
+   "responses:0"
+  ],
+  "PUT /v2/load_balancers/{lb_id}": [
+   "params:0",
+   "responses:0"
+  ],
+  "PUT /v2/monitoring/alerts/{alert_uuid}": [
+   "params:0",
+   "responses:0"
+  ],
+  "PUT /v2/projects/default": [
+   "params:0",
+   "responses:0"
+  ],
+  "PUT /v2/projects/{project_id}": [
+   "params:0",
+   "responses:0"
+  ],
+  "PUT /v2/registries/{registry_name}/garbage-collection/{garbage_collection_uuid}": [
+   "params:0",
+   "responses:0"
+  ],
+  "PUT /v2/registry/{registry_name}/garbage-collection/{garbage_collection_uuid}": [
+   "params:0",
+   "responses:0"
+  ],
+  "PUT /v2/security/settings/plan": [
+   "params:0",
+   "responses:0"
+  ],
+  "PUT /v2/spaces/keys/{access_key}": [
+   "params:0",
+   "responses:0"
+  ],
+  "PUT /v2/uptime/checks/{check_id}": [
+   "params:0",
+   "responses:0"
+  ],
+  "PUT /v2/uptime/checks/{check_id}/alerts/{alert_id}": [
+   "params:0",
+   "responses:0"
+  ],
+  "PUT /v2/vector-databases/{id}": [
+   "params:0",
+   "responses:0"
+  ],
+  "PUT /v2/vector-databases/{id}/tags": [
+   "params:0",
+   "responses:0"
+  ],
+  "PUT /v2/vpc_nat_gateways/{id}": [
+   "params:0",
+   "responses:0"
+  ],
+  "PUT /v2/vpcs/{vpc_id}": [
+   "params:0",
+   "responses:0"
+  ]
+ },
+ "ts": "2026-08-18T23:23:51+00:00",
+ "url": "https://raw.githubusercontent.com/digitalocean/openapi/main/specification/DigitalOcean-public.v2.yaml",
+ "vendor": "DigitalOcean"
+}

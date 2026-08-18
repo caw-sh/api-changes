@@ -1,0 +1,121 @@
+{
+ "category": "registry",
+ "field_count": 36,
+ "first_seen": "2026-08-18T23:20:13+00:00",
+ "id": "rubygems-rails",
+ "pending_keys": [],
+ "runs": 3,
+ "schema": {
+  "authors": [
+   "string"
+  ],
+  "bug_tracker_uri": [
+   "string"
+  ],
+  "changelog_uri": [
+   "string"
+  ],
+  "dependencies": [
+   "object"
+  ],
+  "dependencies.development": [
+   "array"
+  ],
+  "dependencies.runtime": [
+   "array"
+  ],
+  "dependencies.runtime[]": [
+   "object"
+  ],
+  "dependencies.runtime[].name": [
+   "string"
+  ],
+  "dependencies.runtime[].requirements": [
+   "string"
+  ],
+  "documentation_uri": [
+   "string"
+  ],
+  "downloads": [
+   "integer"
+  ],
+  "funding_uri": [
+   "null"
+  ],
+  "gem_uri": [
+   "string"
+  ],
+  "homepage_uri": [
+   "string"
+  ],
+  "info": [
+   "string"
+  ],
+  "licenses": [
+   "array"
+  ],
+  "licenses[]": [
+   "string"
+  ],
+  "mailing_list_uri": [
+   "string"
+  ],
+  "metadata": [
+   "object"
+  ],
+  "metadata.bug_tracker_uri": [
+   "string"
+  ],
+  "metadata.changelog_uri": [
+   "string"
+  ],
+  "metadata.documentation_uri": [
+   "string"
+  ],
+  "metadata.mailing_list_uri": [
+   "string"
+  ],
+  "metadata.rubygems_mfa_required": [
+   "string"
+  ],
+  "metadata.source_code_uri": [
+   "string"
+  ],
+  "name": [
+   "string"
+  ],
+  "platform": [
+   "string"
+  ],
+  "project_uri": [
+   "string"
+  ],
+  "sha": [
+   "string"
+  ],
+  "source_code_uri": [
+   "string"
+  ],
+  "spec_sha": [
+   "string"
+  ],
+  "version": [
+   "string"
+  ],
+  "version_created_at": [
+   "string"
+  ],
+  "version_downloads": [
+   "integer"
+  ],
+  "wiki_uri": [
+   "null"
+  ],
+  "yanked": [
+   "boolean"
+  ]
+ },
+ "ts": "2026-08-18T23:23:51+00:00",
+ "url": "https://rubygems.org/api/v1/gems/rails.json",
+ "vendor": "RubyGems"
+}

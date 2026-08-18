@@ -1,0 +1,8724 @@
+{
+ "category": "spec",
+ "field_count": 2029,
+ "first_seen": "2026-08-18T23:20:13+00:00",
+ "id": "spec-stripe",
+ "pending_keys": [],
+ "runs": 3,
+ "schema": {
+  "DELETE /v1/accounts/{account}": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "DELETE /v1/accounts/{account}/bank_accounts/{id}": [
+   "body",
+   "params:2",
+   "responses:2"
+  ],
+  "DELETE /v1/accounts/{account}/external_accounts/{id}": [
+   "body",
+   "params:2",
+   "responses:2"
+  ],
+  "DELETE /v1/accounts/{account}/people/{person}": [
+   "body",
+   "params:2",
+   "responses:2"
+  ],
+  "DELETE /v1/accounts/{account}/persons/{person}": [
+   "body",
+   "params:2",
+   "responses:2"
+  ],
+  "DELETE /v1/apple_pay/domains/{domain}": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "DELETE /v1/coupons/{coupon}": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "DELETE /v1/customers/{customer}": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "DELETE /v1/customers/{customer}/bank_accounts/{id}": [
+   "body",
+   "params:2",
+   "responses:2"
+  ],
+  "DELETE /v1/customers/{customer}/cards/{id}": [
+   "body",
+   "params:2",
+   "responses:2"
+  ],
+  "DELETE /v1/customers/{customer}/discount": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "DELETE /v1/customers/{customer}/sources/{id}": [
+   "body",
+   "params:2",
+   "responses:2"
+  ],
+  "DELETE /v1/customers/{customer}/subscriptions/{subscription_exposed_id}": [
+   "body",
+   "params:2",
+   "responses:2"
+  ],
+  "DELETE /v1/customers/{customer}/subscriptions/{subscription_exposed_id}/discount": [
+   "body",
+   "params:2",
+   "responses:2"
+  ],
+  "DELETE /v1/customers/{customer}/tax_ids/{id}": [
+   "body",
+   "params:2",
+   "responses:2"
+  ],
+  "DELETE /v1/ephemeral_keys/{key}": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "DELETE /v1/invoiceitems/{invoiceitem}": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "DELETE /v1/invoices/{invoice}": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "DELETE /v1/plans/{plan}": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "DELETE /v1/products/{id}": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "DELETE /v1/products/{product}/features/{id}": [
+   "body",
+   "params:2",
+   "responses:2"
+  ],
+  "DELETE /v1/radar/value_list_items/{item}": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "DELETE /v1/radar/value_lists/{value_list}": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "DELETE /v1/subscription_items/{item}": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "DELETE /v1/subscriptions/{subscription_exposed_id}": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "DELETE /v1/subscriptions/{subscription_exposed_id}/discount": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "DELETE /v1/tax_ids/{id}": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "DELETE /v1/terminal/configurations/{configuration}": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "DELETE /v1/terminal/locations/{location}": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "DELETE /v1/terminal/readers/{reader}": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "DELETE /v1/test_helpers/test_clocks/{test_clock}": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "DELETE /v1/webhook_endpoints/{webhook_endpoint}": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "GET /v1/account": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "GET /v1/accounts": [
+   "body",
+   "params:5",
+   "responses:2"
+  ],
+  "GET /v1/accounts/{account}": [
+   "body",
+   "params:2",
+   "responses:2"
+  ],
+  "GET /v1/accounts/{account}/bank_accounts/{id}": [
+   "body",
+   "params:3",
+   "responses:2"
+  ],
+  "GET /v1/accounts/{account}/capabilities": [
+   "body",
+   "params:2",
+   "responses:2"
+  ],
+  "GET /v1/accounts/{account}/capabilities/{capability}": [
+   "body",
+   "params:3",
+   "responses:2"
+  ],
+  "GET /v1/accounts/{account}/external_accounts": [
+   "body",
+   "params:6",
+   "responses:2"
+  ],
+  "GET /v1/accounts/{account}/external_accounts/{id}": [
+   "body",
+   "params:3",
+   "responses:2"
+  ],
+  "GET /v1/accounts/{account}/people": [
+   "body",
+   "params:6",
+   "responses:2"
+  ],
+  "GET /v1/accounts/{account}/people/{person}": [
+   "body",
+   "params:3",
+   "responses:2"
+  ],
+  "GET /v1/accounts/{account}/persons": [
+   "body",
+   "params:6",
+   "responses:2"
+  ],
+  "GET /v1/accounts/{account}/persons/{person}": [
+   "body",
+   "params:3",
+   "responses:2"
+  ],
+  "GET /v1/apple_pay/domains": [
+   "body",
+   "params:5",
+   "responses:2"
+  ],
+  "GET /v1/apple_pay/domains/{domain}": [
+   "body",
+   "params:2",
+   "responses:2"
+  ],
+  "GET /v1/application_fees": [
+   "body",
+   "params:6",
+   "responses:2"
+  ],
+  "GET /v1/application_fees/{fee}/refunds/{id}": [
+   "body",
+   "params:3",
+   "responses:2"
+  ],
+  "GET /v1/application_fees/{id}": [
+   "body",
+   "params:2",
+   "responses:2"
+  ],
+  "GET /v1/application_fees/{id}/refunds": [
+   "body",
+   "params:5",
+   "responses:2"
+  ],
+  "GET /v1/apps/secrets": [
+   "body",
+   "params:5",
+   "responses:2"
+  ],
+  "GET /v1/apps/secrets/find": [
+   "body",
+   "params:3",
+   "responses:2"
+  ],
+  "GET /v1/balance": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "GET /v1/balance/history": [
+   "body",
+   "params:9",
+   "responses:2"
+  ],
+  "GET /v1/balance/history/{id}": [
+   "body",
+   "params:2",
+   "responses:2"
+  ],
+  "GET /v1/balance_settings": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "GET /v1/balance_transactions": [
+   "body",
+   "params:9",
+   "responses:2"
+  ],
+  "GET /v1/balance_transactions/{id}": [
+   "body",
+   "params:2",
+   "responses:2"
+  ],
+  "GET /v1/billing/alerts": [
+   "body",
+   "params:6",
+   "responses:2"
+  ],
+  "GET /v1/billing/alerts/{id}": [
+   "body",
+   "params:2",
+   "responses:2"
+  ],
+  "GET /v1/billing/credit_balance_summary": [
+   "body",
+   "params:4",
+   "responses:2"
+  ],
+  "GET /v1/billing/credit_balance_transactions": [
+   "body",
+   "params:7",
+   "responses:2"
+  ],
+  "GET /v1/billing/credit_balance_transactions/{id}": [
+   "body",
+   "params:2",
+   "responses:2"
+  ],
+  "GET /v1/billing/credit_grants": [
+   "body",
+   "params:6",
+   "responses:2"
+  ],
+  "GET /v1/billing/credit_grants/{id}": [
+   "body",
+   "params:2",
+   "responses:2"
+  ],
+  "GET /v1/billing/meters": [
+   "body",
+   "params:5",
+   "responses:2"
+  ],
+  "GET /v1/billing/meters/{id}": [
+   "body",
+   "params:2",
+   "responses:2"
+  ],
+  "GET /v1/billing/meters/{id}/event_summaries": [
+   "body",
+   "params:9",
+   "responses:2"
+  ],
+  "GET /v1/billing_portal/configurations": [
+   "body",
+   "params:6",
+   "responses:2"
+  ],
+  "GET /v1/billing_portal/configurations/{configuration}": [
+   "body",
+   "params:2",
+   "responses:2"
+  ],
+  "GET /v1/charges": [
+   "body",
+   "params:8",
+   "responses:2"
+  ],
+  "GET /v1/charges/search": [
+   "body",
+   "params:4",
+   "responses:2"
+  ],
+  "GET /v1/charges/{charge}": [
+   "body",
+   "params:2",
+   "responses:2"
+  ],
+  "GET /v1/charges/{charge}/dispute": [
+   "body",
+   "params:2",
+   "responses:2"
+  ],
+  "GET /v1/charges/{charge}/refunds": [
+   "body",
+   "params:5",
+   "responses:2"
+  ],
+  "GET /v1/charges/{charge}/refunds/{refund}": [
+   "body",
+   "params:3",
+   "responses:2"
+  ],
+  "GET /v1/checkout/sessions": [
+   "body",
+   "params:12",
+   "responses:2"
+  ],
+  "GET /v1/checkout/sessions/{session}": [
+   "body",
+   "params:2",
+   "responses:2"
+  ],
+  "GET /v1/checkout/sessions/{session}/line_items": [
+   "body",
+   "params:5",
+   "responses:2"
+  ],
+  "GET /v1/climate/orders": [
+   "body",
+   "params:4",
+   "responses:2"
+  ],
+  "GET /v1/climate/orders/{order}": [
+   "body",
+   "params:2",
+   "responses:2"
+  ],
+  "GET /v1/climate/products": [
+   "body",
+   "params:4",
+   "responses:2"
+  ],
+  "GET /v1/climate/products/{product}": [
+   "body",
+   "params:2",
+   "responses:2"
+  ],
+  "GET /v1/climate/suppliers": [
+   "body",
+   "params:4",
+   "responses:2"
+  ],
+  "GET /v1/climate/suppliers/{supplier}": [
+   "body",
+   "params:2",
+   "responses:2"
+  ],
+  "GET /v1/confirmation_tokens/{confirmation_token}": [
+   "body",
+   "params:2",
+   "responses:2"
+  ],
+  "GET /v1/country_specs": [
+   "body",
+   "params:4",
+   "responses:2"
+  ],
+  "GET /v1/country_specs/{country}": [
+   "body",
+   "params:2",
+   "responses:2"
+  ],
+  "GET /v1/coupons": [
+   "body",
+   "params:5",
+   "responses:2"
+  ],
+  "GET /v1/coupons/{coupon}": [
+   "body",
+   "params:2",
+   "responses:2"
+  ],
+  "GET /v1/credit_notes": [
+   "body",
+   "params:8",
+   "responses:2"
+  ],
+  "GET /v1/credit_notes/preview": [
+   "body",
+   "params:14",
+   "responses:2"
+  ],
+  "GET /v1/credit_notes/preview/lines": [
+   "body",
+   "params:17",
+   "responses:2"
+  ],
+  "GET /v1/credit_notes/{credit_note}/lines": [
+   "body",
+   "params:5",
+   "responses:2"
+  ],
+  "GET /v1/credit_notes/{id}": [
+   "body",
+   "params:2",
+   "responses:2"
+  ],
+  "GET /v1/customers": [
+   "body",
+   "params:7",
+   "responses:2"
+  ],
+  "GET /v1/customers/search": [
+   "body",
+   "params:4",
+   "responses:2"
+  ],
+  "GET /v1/customers/{customer}": [
+   "body",
+   "params:2",
+   "responses:2"
+  ],
+  "GET /v1/customers/{customer}/balance_transactions": [
+   "body",
+   "params:7",
+   "responses:2"
+  ],
+  "GET /v1/customers/{customer}/balance_transactions/{transaction}": [
+   "body",
+   "params:3",
+   "responses:2"
+  ],
+  "GET /v1/customers/{customer}/bank_accounts": [
+   "DEPRECATED",
+   "body",
+   "params:5",
+   "responses:2"
+  ],
+  "GET /v1/customers/{customer}/bank_accounts/{id}": [
+   "DEPRECATED",
+   "body",
+   "params:3",
+   "responses:2"
+  ],
+  "GET /v1/customers/{customer}/cards": [
+   "DEPRECATED",
+   "body",
+   "params:5",
+   "responses:2"
+  ],
+  "GET /v1/customers/{customer}/cards/{id}": [
+   "DEPRECATED",
+   "body",
+   "params:3",
+   "responses:2"
+  ],
+  "GET /v1/customers/{customer}/cash_balance": [
+   "body",
+   "params:2",
+   "responses:2"
+  ],
+  "GET /v1/customers/{customer}/cash_balance_transactions": [
+   "body",
+   "params:5",
+   "responses:2"
+  ],
+  "GET /v1/customers/{customer}/cash_balance_transactions/{transaction}": [
+   "body",
+   "params:3",
+   "responses:2"
+  ],
+  "GET /v1/customers/{customer}/discount": [
+   "body",
+   "params:2",
+   "responses:2"
+  ],
+  "GET /v1/customers/{customer}/payment_methods": [
+   "body",
+   "params:7",
+   "responses:2"
+  ],
+  "GET /v1/customers/{customer}/payment_methods/{payment_method}": [
+   "body",
+   "params:3",
+   "responses:2"
+  ],
+  "GET /v1/customers/{customer}/sources": [
+   "body",
+   "params:6",
+   "responses:2"
+  ],
+  "GET /v1/customers/{customer}/sources/{id}": [
+   "body",
+   "params:3",
+   "responses:2"
+  ],
+  "GET /v1/customers/{customer}/subscriptions": [
+   "body",
+   "params:5",
+   "responses:2"
+  ],
+  "GET /v1/customers/{customer}/subscriptions/{subscription_exposed_id}": [
+   "body",
+   "params:3",
+   "responses:2"
+  ],
+  "GET /v1/customers/{customer}/subscriptions/{subscription_exposed_id}/discount": [
+   "body",
+   "params:3",
+   "responses:2"
+  ],
+  "GET /v1/customers/{customer}/tax_ids": [
+   "body",
+   "params:5",
+   "responses:2"
+  ],
+  "GET /v1/customers/{customer}/tax_ids/{id}": [
+   "body",
+   "params:3",
+   "responses:2"
+  ],
+  "GET /v1/disputes": [
+   "body",
+   "params:7",
+   "responses:2"
+  ],
+  "GET /v1/disputes/{dispute}": [
+   "body",
+   "params:2",
+   "responses:2"
+  ],
+  "GET /v1/entitlements/active_entitlements": [
+   "body",
+   "params:5",
+   "responses:2"
+  ],
+  "GET /v1/entitlements/active_entitlements/{id}": [
+   "body",
+   "params:2",
+   "responses:2"
+  ],
+  "GET /v1/entitlements/features": [
+   "body",
+   "params:6",
+   "responses:2"
+  ],
+  "GET /v1/entitlements/features/{id}": [
+   "body",
+   "params:2",
+   "responses:2"
+  ],
+  "GET /v1/events": [
+   "body",
+   "params:8",
+   "responses:2"
+  ],
+  "GET /v1/events/{id}": [
+   "body",
+   "params:2",
+   "responses:2"
+  ],
+  "GET /v1/exchange_rates": [
+   "body",
+   "params:4",
+   "responses:2"
+  ],
+  "GET /v1/exchange_rates/{rate_id}": [
+   "body",
+   "params:2",
+   "responses:2"
+  ],
+  "GET /v1/file_links": [
+   "body",
+   "params:7",
+   "responses:2"
+  ],
+  "GET /v1/file_links/{link}": [
+   "body",
+   "params:2",
+   "responses:2"
+  ],
+  "GET /v1/files": [
+   "body",
+   "params:6",
+   "responses:2"
+  ],
+  "GET /v1/files/{file}": [
+   "body",
+   "params:2",
+   "responses:2"
+  ],
+  "GET /v1/financial_connections/accounts": [
+   "body",
+   "params:6",
+   "responses:2"
+  ],
+  "GET /v1/financial_connections/accounts/{account}": [
+   "body",
+   "params:2",
+   "responses:2"
+  ],
+  "GET /v1/financial_connections/accounts/{account}/owners": [
+   "body",
+   "params:6",
+   "responses:2"
+  ],
+  "GET /v1/financial_connections/sessions/{session}": [
+   "body",
+   "params:2",
+   "responses:2"
+  ],
+  "GET /v1/financial_connections/transactions": [
+   "body",
+   "params:7",
+   "responses:2"
+  ],
+  "GET /v1/financial_connections/transactions/{transaction}": [
+   "body",
+   "params:2",
+   "responses:2"
+  ],
+  "GET /v1/forwarding/requests": [
+   "body",
+   "params:5",
+   "responses:2"
+  ],
+  "GET /v1/forwarding/requests/{id}": [
+   "body",
+   "params:2",
+   "responses:2"
+  ],
+  "GET /v1/identity/verification_reports": [
+   "body",
+   "params:8",
+   "responses:2"
+  ],
+  "GET /v1/identity/verification_reports/{report}": [
+   "body",
+   "params:2",
+   "responses:2"
+  ],
+  "GET /v1/identity/verification_sessions": [
+   "body",
+   "params:9",
+   "responses:2"
+  ],
+  "GET /v1/identity/verification_sessions/{session}": [
+   "body",
+   "params:2",
+   "responses:2"
+  ],
+  "GET /v1/invoice_payments": [
+   "body",
+   "params:8",
+   "responses:2"
+  ],
+  "GET /v1/invoice_payments/{invoice_payment}": [
+   "body",
+   "params:2",
+   "responses:2"
+  ],
+  "GET /v1/invoice_rendering_templates": [
+   "body",
+   "params:5",
+   "responses:2"
+  ],
+  "GET /v1/invoice_rendering_templates/{template}": [
+   "body",
+   "params:3",
+   "responses:2"
+  ],
+  "GET /v1/invoiceitems": [
+   "body",
+   "params:9",
+   "responses:2"
+  ],
+  "GET /v1/invoiceitems/{invoiceitem}": [
+   "body",
+   "params:2",
+   "responses:2"
+  ],
+  "GET /v1/invoices": [
+   "body",
+   "params:11",
+   "responses:2"
+  ],
+  "GET /v1/invoices/search": [
+   "body",
+   "params:4",
+   "responses:2"
+  ],
+  "GET /v1/invoices/{invoice}": [
+   "body",
+   "params:2",
+   "responses:2"
+  ],
+  "GET /v1/invoices/{invoice}/lines": [
+   "body",
+   "params:5",
+   "responses:2"
+  ],
+  "GET /v1/issuing/authorizations": [
+   "body",
+   "params:8",
+   "responses:2"
+  ],
+  "GET /v1/issuing/authorizations/{authorization}": [
+   "body",
+   "params:2",
+   "responses:2"
+  ],
+  "GET /v1/issuing/cardholders": [
+   "body",
+   "params:9",
+   "responses:2"
+  ],
+  "GET /v1/issuing/cardholders/{cardholder}": [
+   "body",
+   "params:2",
+   "responses:2"
+  ],
+  "GET /v1/issuing/cards": [
+   "body",
+   "params:12",
+   "responses:2"
+  ],
+  "GET /v1/issuing/cards/{card}": [
+   "body",
+   "params:2",
+   "responses:2"
+  ],
+  "GET /v1/issuing/disputes": [
+   "body",
+   "params:7",
+   "responses:2"
+  ],
+  "GET /v1/issuing/disputes/{dispute}": [
+   "body",
+   "params:2",
+   "responses:2"
+  ],
+  "GET /v1/issuing/personalization_designs": [
+   "body",
+   "params:7",
+   "responses:2"
+  ],
+  "GET /v1/issuing/personalization_designs/{personalization_design}": [
+   "body",
+   "params:2",
+   "responses:2"
+  ],
+  "GET /v1/issuing/physical_bundles": [
+   "body",
+   "params:6",
+   "responses:2"
+  ],
+  "GET /v1/issuing/physical_bundles/{physical_bundle}": [
+   "body",
+   "params:2",
+   "responses:2"
+  ],
+  "GET /v1/issuing/settlements/{settlement}": [
+   "body",
+   "params:2",
+   "responses:2"
+  ],
+  "GET /v1/issuing/tokens": [
+   "body",
+   "params:7",
+   "responses:2"
+  ],
+  "GET /v1/issuing/tokens/{token}": [
+   "body",
+   "params:2",
+   "responses:2"
+  ],
+  "GET /v1/issuing/transactions": [
+   "body",
+   "params:8",
+   "responses:2"
+  ],
+  "GET /v1/issuing/transactions/{transaction}": [
+   "body",
+   "params:2",
+   "responses:2"
+  ],
+  "GET /v1/link_account_sessions/{session}": [
+   "body",
+   "params:2",
+   "responses:2"
+  ],
+  "GET /v1/linked_accounts": [
+   "body",
+   "params:6",
+   "responses:2"
+  ],
+  "GET /v1/linked_accounts/{account}": [
+   "body",
+   "params:2",
+   "responses:2"
+  ],
+  "GET /v1/linked_accounts/{account}/owners": [
+   "body",
+   "params:6",
+   "responses:2"
+  ],
+  "GET /v1/mandates/{mandate}": [
+   "body",
+   "params:2",
+   "responses:2"
+  ],
+  "GET /v1/payment_attempt_records": [
+   "body",
+   "params:4",
+   "responses:2"
+  ],
+  "GET /v1/payment_attempt_records/{id}": [
+   "body",
+   "params:2",
+   "responses:2"
+  ],
+  "GET /v1/payment_intents": [
+   "body",
+   "params:7",
+   "responses:2"
+  ],
+  "GET /v1/payment_intents/search": [
+   "body",
+   "params:4",
+   "responses:2"
+  ],
+  "GET /v1/payment_intents/{intent}": [
+   "body",
+   "params:3",
+   "responses:2"
+  ],
+  "GET /v1/payment_intents/{intent}/amount_details_line_items": [
+   "body",
+   "params:5",
+   "responses:2"
+  ],
+  "GET /v1/payment_links": [
+   "body",
+   "params:5",
+   "responses:2"
+  ],
+  "GET /v1/payment_links/{payment_link}": [
+   "body",
+   "params:2",
+   "responses:2"
+  ],
+  "GET /v1/payment_links/{payment_link}/line_items": [
+   "body",
+   "params:5",
+   "responses:2"
+  ],
+  "GET /v1/payment_method_configurations": [
+   "body",
+   "params:6",
+   "responses:2"
+  ],
+  "GET /v1/payment_method_configurations/{configuration}": [
+   "body",
+   "params:2",
+   "responses:2"
+  ],
+  "GET /v1/payment_method_domains": [
+   "body",
+   "params:6",
+   "responses:2"
+  ],
+  "GET /v1/payment_method_domains/{payment_method_domain}": [
+   "body",
+   "params:2",
+   "responses:2"
+  ],
+  "GET /v1/payment_methods": [
+   "body",
+   "params:8",
+   "responses:2"
+  ],
+  "GET /v1/payment_methods/{payment_method}": [
+   "body",
+   "params:2",
+   "responses:2"
+  ],
+  "GET /v1/payment_records": [
+   "body",
+   "params:6",
+   "responses:2"
+  ],
+  "GET /v1/payment_records/{id}": [
+   "body",
+   "params:2",
+   "responses:2"
+  ],
+  "GET /v1/payouts": [
+   "body",
+   "params:8",
+   "responses:2"
+  ],
+  "GET /v1/payouts/{payout}": [
+   "body",
+   "params:2",
+   "responses:2"
+  ],
+  "GET /v1/plans": [
+   "body",
+   "params:7",
+   "responses:2"
+  ],
+  "GET /v1/plans/{plan}": [
+   "body",
+   "params:2",
+   "responses:2"
+  ],
+  "GET /v1/prices": [
+   "body",
+   "params:11",
+   "responses:2"
+  ],
+  "GET /v1/prices/search": [
+   "body",
+   "params:4",
+   "responses:2"
+  ],
+  "GET /v1/prices/{price}": [
+   "body",
+   "params:2",
+   "responses:2"
+  ],
+  "GET /v1/products": [
+   "body",
+   "params:9",
+   "responses:2"
+  ],
+  "GET /v1/products/search": [
+   "body",
+   "params:4",
+   "responses:2"
+  ],
+  "GET /v1/products/{id}": [
+   "body",
+   "params:2",
+   "responses:2"
+  ],
+  "GET /v1/products/{product}/features": [
+   "body",
+   "params:5",
+   "responses:2"
+  ],
+  "GET /v1/products/{product}/features/{id}": [
+   "body",
+   "params:3",
+   "responses:2"
+  ],
+  "GET /v1/promotion_codes": [
+   "body",
+   "params:10",
+   "responses:2"
+  ],
+  "GET /v1/promotion_codes/{promotion_code}": [
+   "body",
+   "params:2",
+   "responses:2"
+  ],
+  "GET /v1/quotes": [
+   "body",
+   "params:8",
+   "responses:2"
+  ],
+  "GET /v1/quotes/{quote}": [
+   "body",
+   "params:2",
+   "responses:2"
+  ],
+  "GET /v1/quotes/{quote}/computed_upfront_line_items": [
+   "body",
+   "params:5",
+   "responses:2"
+  ],
+  "GET /v1/quotes/{quote}/line_items": [
+   "body",
+   "params:5",
+   "responses:2"
+  ],
+  "GET /v1/quotes/{quote}/pdf": [
+   "body",
+   "params:2",
+   "responses:2"
+  ],
+  "GET /v1/radar/early_fraud_warnings": [
+   "body",
+   "params:7",
+   "responses:2"
+  ],
+  "GET /v1/radar/early_fraud_warnings/{early_fraud_warning}": [
+   "body",
+   "params:2",
+   "responses:2"
+  ],
+  "GET /v1/radar/value_list_items": [
+   "body",
+   "params:7",
+   "responses:2"
+  ],
+  "GET /v1/radar/value_list_items/{item}": [
+   "body",
+   "params:2",
+   "responses:2"
+  ],
+  "GET /v1/radar/value_lists": [
+   "body",
+   "params:7",
+   "responses:2"
+  ],
+  "GET /v1/radar/value_lists/{value_list}": [
+   "body",
+   "params:2",
+   "responses:2"
+  ],
+  "GET /v1/refunds": [
+   "body",
+   "params:7",
+   "responses:2"
+  ],
+  "GET /v1/refunds/{refund}": [
+   "body",
+   "params:2",
+   "responses:2"
+  ],
+  "GET /v1/reporting/report_runs": [
+   "body",
+   "params:5",
+   "responses:2"
+  ],
+  "GET /v1/reporting/report_runs/{report_run}": [
+   "body",
+   "params:2",
+   "responses:2"
+  ],
+  "GET /v1/reporting/report_types": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "GET /v1/reporting/report_types/{report_type}": [
+   "body",
+   "params:2",
+   "responses:2"
+  ],
+  "GET /v1/reviews": [
+   "body",
+   "params:5",
+   "responses:2"
+  ],
+  "GET /v1/reviews/{review}": [
+   "body",
+   "params:2",
+   "responses:2"
+  ],
+  "GET /v1/setup_attempts": [
+   "body",
+   "params:6",
+   "responses:2"
+  ],
+  "GET /v1/setup_intents": [
+   "body",
+   "params:9",
+   "responses:2"
+  ],
+  "GET /v1/setup_intents/{intent}": [
+   "body",
+   "params:3",
+   "responses:2"
+  ],
+  "GET /v1/shipping_rates": [
+   "body",
+   "params:7",
+   "responses:2"
+  ],
+  "GET /v1/shipping_rates/{shipping_rate_token}": [
+   "body",
+   "params:2",
+   "responses:2"
+  ],
+  "GET /v1/sigma/scheduled_query_runs": [
+   "body",
+   "params:4",
+   "responses:2"
+  ],
+  "GET /v1/sigma/scheduled_query_runs/{scheduled_query_run}": [
+   "body",
+   "params:2",
+   "responses:2"
+  ],
+  "GET /v1/sources/{source}": [
+   "body",
+   "params:3",
+   "responses:2"
+  ],
+  "GET /v1/sources/{source}/mandate_notifications/{mandate_notification}": [
+   "body",
+   "params:3",
+   "responses:2"
+  ],
+  "GET /v1/sources/{source}/source_transactions": [
+   "body",
+   "params:5",
+   "responses:2"
+  ],
+  "GET /v1/sources/{source}/source_transactions/{source_transaction}": [
+   "body",
+   "params:3",
+   "responses:2"
+  ],
+  "GET /v1/subscription_items": [
+   "body",
+   "params:5",
+   "responses:2"
+  ],
+  "GET /v1/subscription_items/{item}": [
+   "body",
+   "params:2",
+   "responses:2"
+  ],
+  "GET /v1/subscription_schedules": [
+   "body",
+   "params:11",
+   "responses:2"
+  ],
+  "GET /v1/subscription_schedules/{schedule}": [
+   "body",
+   "params:2",
+   "responses:2"
+  ],
+  "GET /v1/subscriptions": [
+   "body",
+   "params:14",
+   "responses:2"
+  ],
+  "GET /v1/subscriptions/search": [
+   "body",
+   "params:4",
+   "responses:2"
+  ],
+  "GET /v1/subscriptions/{subscription_exposed_id}": [
+   "body",
+   "params:2",
+   "responses:2"
+  ],
+  "GET /v1/tax/associations/find": [
+   "body",
+   "params:2",
+   "responses:2"
+  ],
+  "GET /v1/tax/calculations/{calculation}": [
+   "body",
+   "params:2",
+   "responses:2"
+  ],
+  "GET /v1/tax/calculations/{calculation}/line_items": [
+   "body",
+   "params:5",
+   "responses:2"
+  ],
+  "GET /v1/tax/registrations": [
+   "body",
+   "params:5",
+   "responses:2"
+  ],
+  "GET /v1/tax/registrations/{id}": [
+   "body",
+   "params:2",
+   "responses:2"
+  ],
+  "GET /v1/tax/settings": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "GET /v1/tax/transactions/{transaction}": [
+   "body",
+   "params:2",
+   "responses:2"
+  ],
+  "GET /v1/tax/transactions/{transaction}/line_items": [
+   "body",
+   "params:5",
+   "responses:2"
+  ],
+  "GET /v1/tax_codes": [
+   "body",
+   "params:4",
+   "responses:2"
+  ],
+  "GET /v1/tax_codes/{id}": [
+   "body",
+   "params:2",
+   "responses:2"
+  ],
+  "GET /v1/tax_ids": [
+   "body",
+   "params:5",
+   "responses:2"
+  ],
+  "GET /v1/tax_ids/{id}": [
+   "body",
+   "params:2",
+   "responses:2"
+  ],
+  "GET /v1/tax_rates": [
+   "body",
+   "params:7",
+   "responses:2"
+  ],
+  "GET /v1/tax_rates/{tax_rate}": [
+   "body",
+   "params:2",
+   "responses:2"
+  ],
+  "GET /v1/terminal/configurations": [
+   "body",
+   "params:5",
+   "responses:2"
+  ],
+  "GET /v1/terminal/configurations/{configuration}": [
+   "body",
+   "params:2",
+   "responses:2"
+  ],
+  "GET /v1/terminal/locations": [
+   "body",
+   "params:4",
+   "responses:2"
+  ],
+  "GET /v1/terminal/locations/{location}": [
+   "body",
+   "params:2",
+   "responses:2"
+  ],
+  "GET /v1/terminal/readers": [
+   "body",
+   "params:8",
+   "responses:2"
+  ],
+  "GET /v1/terminal/readers/{reader}": [
+   "body",
+   "params:2",
+   "responses:2"
+  ],
+  "GET /v1/test_helpers/test_clocks": [
+   "body",
+   "params:4",
+   "responses:2"
+  ],
+  "GET /v1/test_helpers/test_clocks/{test_clock}": [
+   "body",
+   "params:2",
+   "responses:2"
+  ],
+  "GET /v1/tokens/{token}": [
+   "body",
+   "params:2",
+   "responses:2"
+  ],
+  "GET /v1/topups": [
+   "body",
+   "params:7",
+   "responses:2"
+  ],
+  "GET /v1/topups/{topup}": [
+   "body",
+   "params:2",
+   "responses:2"
+  ],
+  "GET /v1/transfers": [
+   "body",
+   "params:7",
+   "responses:2"
+  ],
+  "GET /v1/transfers/{id}/reversals": [
+   "body",
+   "params:5",
+   "responses:2"
+  ],
+  "GET /v1/transfers/{transfer}": [
+   "body",
+   "params:2",
+   "responses:2"
+  ],
+  "GET /v1/transfers/{transfer}/reversals/{id}": [
+   "body",
+   "params:3",
+   "responses:2"
+  ],
+  "GET /v1/treasury/credit_reversals": [
+   "body",
+   "params:7",
+   "responses:2"
+  ],
+  "GET /v1/treasury/credit_reversals/{credit_reversal}": [
+   "body",
+   "params:2",
+   "responses:2"
+  ],
+  "GET /v1/treasury/debit_reversals": [
+   "body",
+   "params:8",
+   "responses:2"
+  ],
+  "GET /v1/treasury/debit_reversals/{debit_reversal}": [
+   "body",
+   "params:2",
+   "responses:2"
+  ],
+  "GET /v1/treasury/financial_accounts": [
+   "body",
+   "params:6",
+   "responses:2"
+  ],
+  "GET /v1/treasury/financial_accounts/{financial_account}": [
+   "body",
+   "params:2",
+   "responses:2"
+  ],
+  "GET /v1/treasury/financial_accounts/{financial_account}/features": [
+   "body",
+   "params:2",
+   "responses:2"
+  ],
+  "GET /v1/treasury/inbound_transfers": [
+   "body",
+   "params:6",
+   "responses:2"
+  ],
+  "GET /v1/treasury/inbound_transfers/{id}": [
+   "body",
+   "params:2",
+   "responses:2"
+  ],
+  "GET /v1/treasury/outbound_payments": [
+   "body",
+   "params:8",
+   "responses:2"
+  ],
+  "GET /v1/treasury/outbound_payments/{id}": [
+   "body",
+   "params:2",
+   "responses:2"
+  ],
+  "GET /v1/treasury/outbound_transfers": [
+   "body",
+   "params:6",
+   "responses:2"
+  ],
+  "GET /v1/treasury/outbound_transfers/{outbound_transfer}": [
+   "body",
+   "params:2",
+   "responses:2"
+  ],
+  "GET /v1/treasury/received_credits": [
+   "body",
+   "params:7",
+   "responses:2"
+  ],
+  "GET /v1/treasury/received_credits/{id}": [
+   "body",
+   "params:2",
+   "responses:2"
+  ],
+  "GET /v1/treasury/received_debits": [
+   "body",
+   "params:6",
+   "responses:2"
+  ],
+  "GET /v1/treasury/received_debits/{id}": [
+   "body",
+   "params:2",
+   "responses:2"
+  ],
+  "GET /v1/treasury/transaction_entries": [
+   "body",
+   "params:9",
+   "responses:2"
+  ],
+  "GET /v1/treasury/transaction_entries/{id}": [
+   "body",
+   "params:2",
+   "responses:2"
+  ],
+  "GET /v1/treasury/transactions": [
+   "body",
+   "params:9",
+   "responses:2"
+  ],
+  "GET /v1/treasury/transactions/{id}": [
+   "body",
+   "params:2",
+   "responses:2"
+  ],
+  "GET /v1/webhook_endpoints": [
+   "body",
+   "params:4",
+   "responses:2"
+  ],
+  "GET /v1/webhook_endpoints/{webhook_endpoint}": [
+   "body",
+   "params:2",
+   "responses:2"
+  ],
+  "POST /v1/account_links": [
+   "body",
+   "params:0",
+   "responses:2"
+  ],
+  "POST /v1/account_sessions": [
+   "body",
+   "params:0",
+   "responses:2"
+  ],
+  "POST /v1/accounts": [
+   "body",
+   "params:0",
+   "responses:2"
+  ],
+  "POST /v1/accounts/{account}": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /v1/accounts/{account}/bank_accounts": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /v1/accounts/{account}/bank_accounts/{id}": [
+   "body",
+   "params:2",
+   "responses:2"
+  ],
+  "POST /v1/accounts/{account}/capabilities/{capability}": [
+   "body",
+   "params:2",
+   "responses:2"
+  ],
+  "POST /v1/accounts/{account}/external_accounts": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /v1/accounts/{account}/external_accounts/{id}": [
+   "body",
+   "params:2",
+   "responses:2"
+  ],
+  "POST /v1/accounts/{account}/login_links": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /v1/accounts/{account}/people": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /v1/accounts/{account}/people/{person}": [
+   "body",
+   "params:2",
+   "responses:2"
+  ],
+  "POST /v1/accounts/{account}/persons": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /v1/accounts/{account}/persons/{person}": [
+   "body",
+   "params:2",
+   "responses:2"
+  ],
+  "POST /v1/accounts/{account}/reject": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /v1/accounts/{account}/unreject": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /v1/apple_pay/domains": [
+   "body",
+   "params:0",
+   "responses:2"
+  ],
+  "POST /v1/application_fees/{fee}/refunds/{id}": [
+   "body",
+   "params:2",
+   "responses:2"
+  ],
+  "POST /v1/application_fees/{id}/refund": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /v1/application_fees/{id}/refunds": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /v1/apps/secrets": [
+   "body",
+   "params:0",
+   "responses:2"
+  ],
+  "POST /v1/apps/secrets/delete": [
+   "body",
+   "params:0",
+   "responses:2"
+  ],
+  "POST /v1/balance_settings": [
+   "body",
+   "params:0",
+   "responses:2"
+  ],
+  "POST /v1/billing/alerts": [
+   "body",
+   "params:0",
+   "responses:2"
+  ],
+  "POST /v1/billing/alerts/{id}/activate": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /v1/billing/alerts/{id}/archive": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /v1/billing/alerts/{id}/deactivate": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /v1/billing/credit_grants": [
+   "body",
+   "params:0",
+   "responses:2"
+  ],
+  "POST /v1/billing/credit_grants/{id}": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /v1/billing/credit_grants/{id}/expire": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /v1/billing/credit_grants/{id}/void": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /v1/billing/meter_event_adjustments": [
+   "body",
+   "params:0",
+   "responses:2"
+  ],
+  "POST /v1/billing/meter_events": [
+   "body",
+   "params:0",
+   "responses:2"
+  ],
+  "POST /v1/billing/meters": [
+   "body",
+   "params:0",
+   "responses:2"
+  ],
+  "POST /v1/billing/meters/{id}": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /v1/billing/meters/{id}/deactivate": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /v1/billing/meters/{id}/reactivate": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /v1/billing_portal/configurations": [
+   "body",
+   "params:0",
+   "responses:2"
+  ],
+  "POST /v1/billing_portal/configurations/{configuration}": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /v1/billing_portal/sessions": [
+   "body",
+   "params:0",
+   "responses:2"
+  ],
+  "POST /v1/charges": [
+   "body",
+   "params:0",
+   "responses:2"
+  ],
+  "POST /v1/charges/{charge}": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /v1/charges/{charge}/capture": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /v1/charges/{charge}/dispute": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /v1/charges/{charge}/dispute/close": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /v1/charges/{charge}/refund": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /v1/charges/{charge}/refunds": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /v1/charges/{charge}/refunds/{refund}": [
+   "body",
+   "params:2",
+   "responses:2"
+  ],
+  "POST /v1/checkout/sessions": [
+   "body",
+   "params:0",
+   "responses:2"
+  ],
+  "POST /v1/checkout/sessions/{session}": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /v1/checkout/sessions/{session}/expire": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /v1/climate/orders": [
+   "body",
+   "params:0",
+   "responses:2"
+  ],
+  "POST /v1/climate/orders/{order}": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /v1/climate/orders/{order}/cancel": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /v1/coupons": [
+   "body",
+   "params:0",
+   "responses:2"
+  ],
+  "POST /v1/coupons/{coupon}": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /v1/credit_notes": [
+   "body",
+   "params:0",
+   "responses:2"
+  ],
+  "POST /v1/credit_notes/{id}": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /v1/credit_notes/{id}/void": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /v1/customer_sessions": [
+   "body",
+   "params:0",
+   "responses:2"
+  ],
+  "POST /v1/customers": [
+   "body",
+   "params:0",
+   "responses:2"
+  ],
+  "POST /v1/customers/{customer}": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /v1/customers/{customer}/balance_transactions": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /v1/customers/{customer}/balance_transactions/{transaction}": [
+   "body",
+   "params:2",
+   "responses:2"
+  ],
+  "POST /v1/customers/{customer}/bank_accounts": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /v1/customers/{customer}/bank_accounts/{id}": [
+   "body",
+   "params:2",
+   "responses:2"
+  ],
+  "POST /v1/customers/{customer}/bank_accounts/{id}/verify": [
+   "body",
+   "params:2",
+   "responses:2"
+  ],
+  "POST /v1/customers/{customer}/cards": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /v1/customers/{customer}/cards/{id}": [
+   "body",
+   "params:2",
+   "responses:2"
+  ],
+  "POST /v1/customers/{customer}/cash_balance": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /v1/customers/{customer}/funding_instructions": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /v1/customers/{customer}/sources": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /v1/customers/{customer}/sources/{id}": [
+   "body",
+   "params:2",
+   "responses:2"
+  ],
+  "POST /v1/customers/{customer}/sources/{id}/verify": [
+   "body",
+   "params:2",
+   "responses:2"
+  ],
+  "POST /v1/customers/{customer}/subscriptions": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /v1/customers/{customer}/subscriptions/{subscription_exposed_id}": [
+   "body",
+   "params:2",
+   "responses:2"
+  ],
+  "POST /v1/customers/{customer}/tax_ids": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /v1/disputes/{dispute}": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /v1/disputes/{dispute}/close": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /v1/entitlements/features": [
+   "body",
+   "params:0",
+   "responses:2"
+  ],
+  "POST /v1/entitlements/features/{id}": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /v1/ephemeral_keys": [
+   "body",
+   "params:0",
+   "responses:2"
+  ],
+  "POST /v1/external_accounts/{id}": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /v1/file_links": [
+   "body",
+   "params:0",
+   "responses:2"
+  ],
+  "POST /v1/file_links/{link}": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /v1/files": [
+   "body",
+   "params:0",
+   "responses:2"
+  ],
+  "POST /v1/financial_connections/accounts/{account}/disconnect": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /v1/financial_connections/accounts/{account}/refresh": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /v1/financial_connections/accounts/{account}/subscribe": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /v1/financial_connections/accounts/{account}/unsubscribe": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /v1/financial_connections/sessions": [
+   "body",
+   "params:0",
+   "responses:2"
+  ],
+  "POST /v1/forwarding/requests": [
+   "body",
+   "params:0",
+   "responses:2"
+  ],
+  "POST /v1/identity/verification_sessions": [
+   "body",
+   "params:0",
+   "responses:2"
+  ],
+  "POST /v1/identity/verification_sessions/{session}": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /v1/identity/verification_sessions/{session}/cancel": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /v1/identity/verification_sessions/{session}/redact": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /v1/invoice_rendering_templates/{template}/archive": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /v1/invoice_rendering_templates/{template}/unarchive": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /v1/invoiceitems": [
+   "body",
+   "params:0",
+   "responses:2"
+  ],
+  "POST /v1/invoiceitems/{invoiceitem}": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /v1/invoices": [
+   "body",
+   "params:0",
+   "responses:2"
+  ],
+  "POST /v1/invoices/create_preview": [
+   "body",
+   "params:0",
+   "responses:2"
+  ],
+  "POST /v1/invoices/{invoice}": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /v1/invoices/{invoice}/add_lines": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /v1/invoices/{invoice}/attach_payment": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /v1/invoices/{invoice}/finalize": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /v1/invoices/{invoice}/lines/{line_item_id}": [
+   "body",
+   "params:2",
+   "responses:2"
+  ],
+  "POST /v1/invoices/{invoice}/mark_uncollectible": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /v1/invoices/{invoice}/pay": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /v1/invoices/{invoice}/remove_lines": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /v1/invoices/{invoice}/send": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /v1/invoices/{invoice}/update_lines": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /v1/invoices/{invoice}/void": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /v1/issuing/authorizations/{authorization}": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /v1/issuing/authorizations/{authorization}/approve": [
+   "DEPRECATED",
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /v1/issuing/authorizations/{authorization}/decline": [
+   "DEPRECATED",
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /v1/issuing/cardholders": [
+   "body",
+   "params:0",
+   "responses:2"
+  ],
+  "POST /v1/issuing/cardholders/{cardholder}": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /v1/issuing/cards": [
+   "body",
+   "params:0",
+   "responses:2"
+  ],
+  "POST /v1/issuing/cards/{card}": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /v1/issuing/disputes": [
+   "body",
+   "params:0",
+   "responses:2"
+  ],
+  "POST /v1/issuing/disputes/{dispute}": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /v1/issuing/disputes/{dispute}/submit": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /v1/issuing/personalization_designs": [
+   "body",
+   "params:0",
+   "responses:2"
+  ],
+  "POST /v1/issuing/personalization_designs/{personalization_design}": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /v1/issuing/settlements/{settlement}": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /v1/issuing/tokens/{token}": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /v1/issuing/transactions/{transaction}": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /v1/link_account_sessions": [
+   "body",
+   "params:0",
+   "responses:2"
+  ],
+  "POST /v1/linked_accounts/{account}/disconnect": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /v1/linked_accounts/{account}/refresh": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /v1/payment_intents": [
+   "body",
+   "params:0",
+   "responses:2"
+  ],
+  "POST /v1/payment_intents/{intent}": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /v1/payment_intents/{intent}/apply_customer_balance": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /v1/payment_intents/{intent}/cancel": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /v1/payment_intents/{intent}/capture": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /v1/payment_intents/{intent}/confirm": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /v1/payment_intents/{intent}/increment_authorization": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /v1/payment_intents/{intent}/verify_microdeposits": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /v1/payment_links": [
+   "body",
+   "params:0",
+   "responses:2"
+  ],
+  "POST /v1/payment_links/{payment_link}": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /v1/payment_method_configurations": [
+   "body",
+   "params:0",
+   "responses:2"
+  ],
+  "POST /v1/payment_method_configurations/{configuration}": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /v1/payment_method_domains": [
+   "body",
+   "params:0",
+   "responses:2"
+  ],
+  "POST /v1/payment_method_domains/{payment_method_domain}": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /v1/payment_method_domains/{payment_method_domain}/validate": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /v1/payment_methods": [
+   "body",
+   "params:0",
+   "responses:2"
+  ],
+  "POST /v1/payment_methods/{payment_method}": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /v1/payment_methods/{payment_method}/attach": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /v1/payment_methods/{payment_method}/detach": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /v1/payment_records/report_payment": [
+   "body",
+   "params:0",
+   "responses:2"
+  ],
+  "POST /v1/payment_records/{id}/report_payment_attempt": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /v1/payment_records/{id}/report_payment_attempt_canceled": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /v1/payment_records/{id}/report_payment_attempt_failed": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /v1/payment_records/{id}/report_payment_attempt_guaranteed": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /v1/payment_records/{id}/report_payment_attempt_informational": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /v1/payment_records/{id}/report_refund": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /v1/payouts": [
+   "body",
+   "params:0",
+   "responses:2"
+  ],
+  "POST /v1/payouts/{payout}": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /v1/payouts/{payout}/cancel": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /v1/payouts/{payout}/reverse": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /v1/plans": [
+   "body",
+   "params:0",
+   "responses:2"
+  ],
+  "POST /v1/plans/{plan}": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /v1/prices": [
+   "body",
+   "params:0",
+   "responses:2"
+  ],
+  "POST /v1/prices/{price}": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /v1/products": [
+   "body",
+   "params:0",
+   "responses:2"
+  ],
+  "POST /v1/products/{id}": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /v1/products/{product}/features": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /v1/promotion_codes": [
+   "body",
+   "params:0",
+   "responses:2"
+  ],
+  "POST /v1/promotion_codes/{promotion_code}": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /v1/quotes": [
+   "body",
+   "params:0",
+   "responses:2"
+  ],
+  "POST /v1/quotes/{quote}": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /v1/quotes/{quote}/accept": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /v1/quotes/{quote}/cancel": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /v1/quotes/{quote}/finalize": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /v1/radar/payment_evaluations": [
+   "body",
+   "params:0",
+   "responses:2"
+  ],
+  "POST /v1/radar/value_list_items": [
+   "body",
+   "params:0",
+   "responses:2"
+  ],
+  "POST /v1/radar/value_lists": [
+   "body",
+   "params:0",
+   "responses:2"
+  ],
+  "POST /v1/radar/value_lists/{value_list}": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /v1/refunds": [
+   "body",
+   "params:0",
+   "responses:2"
+  ],
+  "POST /v1/refunds/{refund}": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /v1/refunds/{refund}/cancel": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /v1/reporting/report_runs": [
+   "body",
+   "params:0",
+   "responses:2"
+  ],
+  "POST /v1/reviews/{review}/approve": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /v1/setup_intents": [
+   "body",
+   "params:0",
+   "responses:2"
+  ],
+  "POST /v1/setup_intents/{intent}": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /v1/setup_intents/{intent}/cancel": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /v1/setup_intents/{intent}/confirm": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /v1/setup_intents/{intent}/verify_microdeposits": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /v1/shipping_rates": [
+   "body",
+   "params:0",
+   "responses:2"
+  ],
+  "POST /v1/shipping_rates/{shipping_rate_token}": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /v1/sigma/saved_queries/{id}": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /v1/sources": [
+   "body",
+   "params:0",
+   "responses:2"
+  ],
+  "POST /v1/sources/{source}": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /v1/sources/{source}/verify": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /v1/subscription_items": [
+   "body",
+   "params:0",
+   "responses:2"
+  ],
+  "POST /v1/subscription_items/{item}": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /v1/subscription_schedules": [
+   "body",
+   "params:0",
+   "responses:2"
+  ],
+  "POST /v1/subscription_schedules/{schedule}": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /v1/subscription_schedules/{schedule}/cancel": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /v1/subscription_schedules/{schedule}/release": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /v1/subscriptions": [
+   "body",
+   "params:0",
+   "responses:2"
+  ],
+  "POST /v1/subscriptions/{subscription_exposed_id}": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /v1/subscriptions/{subscription}/migrate": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /v1/subscriptions/{subscription}/resume": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /v1/tax/calculations": [
+   "body",
+   "params:0",
+   "responses:2"
+  ],
+  "POST /v1/tax/registrations": [
+   "body",
+   "params:0",
+   "responses:2"
+  ],
+  "POST /v1/tax/registrations/{id}": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /v1/tax/settings": [
+   "body",
+   "params:0",
+   "responses:2"
+  ],
+  "POST /v1/tax/transactions/create_from_calculation": [
+   "body",
+   "params:0",
+   "responses:2"
+  ],
+  "POST /v1/tax/transactions/create_reversal": [
+   "body",
+   "params:0",
+   "responses:2"
+  ],
+  "POST /v1/tax_ids": [
+   "body",
+   "params:0",
+   "responses:2"
+  ],
+  "POST /v1/tax_rates": [
+   "body",
+   "params:0",
+   "responses:2"
+  ],
+  "POST /v1/tax_rates/{tax_rate}": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /v1/terminal/configurations": [
+   "body",
+   "params:0",
+   "responses:2"
+  ],
+  "POST /v1/terminal/configurations/{configuration}": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /v1/terminal/connection_tokens": [
+   "body",
+   "params:0",
+   "responses:2"
+  ],
+  "POST /v1/terminal/locations": [
+   "body",
+   "params:0",
+   "responses:2"
+  ],
+  "POST /v1/terminal/locations/{location}": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /v1/terminal/onboarding_links": [
+   "body",
+   "params:0",
+   "responses:2"
+  ],
+  "POST /v1/terminal/readers": [
+   "body",
+   "params:0",
+   "responses:2"
+  ],
+  "POST /v1/terminal/readers/{reader}": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /v1/terminal/readers/{reader}/cancel_action": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /v1/terminal/readers/{reader}/collect_inputs": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /v1/terminal/readers/{reader}/collect_payment_method": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /v1/terminal/readers/{reader}/confirm_payment_intent": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /v1/terminal/readers/{reader}/process_payment_intent": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /v1/terminal/readers/{reader}/process_setup_intent": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /v1/terminal/readers/{reader}/refund_payment": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /v1/terminal/readers/{reader}/set_reader_display": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /v1/terminal/refunds": [
+   "body",
+   "params:0",
+   "responses:2"
+  ],
+  "POST /v1/test_helpers/confirmation_tokens": [
+   "body",
+   "params:0",
+   "responses:2"
+  ],
+  "POST /v1/test_helpers/customers/{customer}/fund_cash_balance": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /v1/test_helpers/issuing/authorizations": [
+   "body",
+   "params:0",
+   "responses:2"
+  ],
+  "POST /v1/test_helpers/issuing/authorizations/{authorization}/capture": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /v1/test_helpers/issuing/authorizations/{authorization}/expire": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /v1/test_helpers/issuing/authorizations/{authorization}/finalize_amount": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /v1/test_helpers/issuing/authorizations/{authorization}/fraud_challenges/respond": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /v1/test_helpers/issuing/authorizations/{authorization}/increment": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /v1/test_helpers/issuing/authorizations/{authorization}/reverse": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /v1/test_helpers/issuing/cards/{card}/shipping/deliver": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /v1/test_helpers/issuing/cards/{card}/shipping/fail": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /v1/test_helpers/issuing/cards/{card}/shipping/return": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /v1/test_helpers/issuing/cards/{card}/shipping/ship": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /v1/test_helpers/issuing/cards/{card}/shipping/submit": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /v1/test_helpers/issuing/personalization_designs/{personalization_design}/activate": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /v1/test_helpers/issuing/personalization_designs/{personalization_design}/deactivate": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /v1/test_helpers/issuing/personalization_designs/{personalization_design}/reject": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /v1/test_helpers/issuing/settlements": [
+   "body",
+   "params:0",
+   "responses:2"
+  ],
+  "POST /v1/test_helpers/issuing/settlements/{settlement}/complete": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /v1/test_helpers/issuing/transactions/create_force_capture": [
+   "body",
+   "params:0",
+   "responses:2"
+  ],
+  "POST /v1/test_helpers/issuing/transactions/create_unlinked_refund": [
+   "body",
+   "params:0",
+   "responses:2"
+  ],
+  "POST /v1/test_helpers/issuing/transactions/{transaction}/refund": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /v1/test_helpers/refunds/{refund}/expire": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /v1/test_helpers/terminal/readers/{reader}/present_payment_method": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /v1/test_helpers/terminal/readers/{reader}/succeed_input_collection": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /v1/test_helpers/terminal/readers/{reader}/timeout_input_collection": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /v1/test_helpers/test_clocks": [
+   "body",
+   "params:0",
+   "responses:2"
+  ],
+  "POST /v1/test_helpers/test_clocks/{test_clock}/advance": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /v1/test_helpers/treasury/inbound_transfers/{id}/fail": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /v1/test_helpers/treasury/inbound_transfers/{id}/return": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /v1/test_helpers/treasury/inbound_transfers/{id}/succeed": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /v1/test_helpers/treasury/outbound_payments/{id}": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /v1/test_helpers/treasury/outbound_payments/{id}/fail": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /v1/test_helpers/treasury/outbound_payments/{id}/post": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /v1/test_helpers/treasury/outbound_payments/{id}/return": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /v1/test_helpers/treasury/outbound_transfers/{outbound_transfer}": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /v1/test_helpers/treasury/outbound_transfers/{outbound_transfer}/fail": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /v1/test_helpers/treasury/outbound_transfers/{outbound_transfer}/post": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /v1/test_helpers/treasury/outbound_transfers/{outbound_transfer}/return": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /v1/test_helpers/treasury/received_credits": [
+   "body",
+   "params:0",
+   "responses:2"
+  ],
+  "POST /v1/test_helpers/treasury/received_debits": [
+   "body",
+   "params:0",
+   "responses:2"
+  ],
+  "POST /v1/tokens": [
+   "body",
+   "params:0",
+   "responses:2"
+  ],
+  "POST /v1/topups": [
+   "body",
+   "params:0",
+   "responses:2"
+  ],
+  "POST /v1/topups/{topup}": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /v1/topups/{topup}/cancel": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /v1/transfers": [
+   "body",
+   "params:0",
+   "responses:2"
+  ],
+  "POST /v1/transfers/{id}/reversals": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /v1/transfers/{transfer}": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /v1/transfers/{transfer}/reversals/{id}": [
+   "body",
+   "params:2",
+   "responses:2"
+  ],
+  "POST /v1/treasury/credit_reversals": [
+   "body",
+   "params:0",
+   "responses:2"
+  ],
+  "POST /v1/treasury/debit_reversals": [
+   "body",
+   "params:0",
+   "responses:2"
+  ],
+  "POST /v1/treasury/financial_accounts": [
+   "body",
+   "params:0",
+   "responses:2"
+  ],
+  "POST /v1/treasury/financial_accounts/{financial_account}": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /v1/treasury/financial_accounts/{financial_account}/close": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /v1/treasury/financial_accounts/{financial_account}/features": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /v1/treasury/inbound_transfers": [
+   "body",
+   "params:0",
+   "responses:2"
+  ],
+  "POST /v1/treasury/inbound_transfers/{inbound_transfer}/cancel": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /v1/treasury/outbound_payments": [
+   "body",
+   "params:0",
+   "responses:2"
+  ],
+  "POST /v1/treasury/outbound_payments/{id}/cancel": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /v1/treasury/outbound_transfers": [
+   "body",
+   "params:0",
+   "responses:2"
+  ],
+  "POST /v1/treasury/outbound_transfers/{outbound_transfer}/cancel": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /v1/webhook_endpoints": [
+   "body",
+   "params:0",
+   "responses:2"
+  ],
+  "POST /v1/webhook_endpoints/{webhook_endpoint}": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "schema:account": [
+   "props:23",
+   "req:2"
+  ],
+  "schema:account_annual_revenue": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:account_bacs_debit_payments_settings": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:account_branding_settings": [
+   "props:4",
+   "req:0"
+  ],
+  "schema:account_business_profile": [
+   "props:12",
+   "req:0"
+  ],
+  "schema:account_capabilities": [
+   "props:66",
+   "req:0"
+  ],
+  "schema:account_capability_future_requirements": [
+   "props:8",
+   "req:5"
+  ],
+  "schema:account_capability_requirements": [
+   "props:8",
+   "req:5"
+  ],
+  "schema:account_card_issuing_settings": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:account_card_payments_settings": [
+   "props:4",
+   "req:0"
+  ],
+  "schema:account_dashboard_settings": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:account_decline_charge_on": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:account_future_requirements": [
+   "props:8",
+   "req:0"
+  ],
+  "schema:account_group_membership": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:account_invoices_settings": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:account_link": [
+   "props:4",
+   "req:4"
+  ],
+  "schema:account_monthly_estimated_revenue": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:account_payments_settings": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:account_payout_settings": [
+   "props:3",
+   "req:2"
+  ],
+  "schema:account_requirements": [
+   "props:8",
+   "req:0"
+  ],
+  "schema:account_requirements_alternative": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:account_requirements_error": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:account_sepa_debit_payments_settings": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:account_session": [
+   "props:6",
+   "req:6"
+  ],
+  "schema:account_settings": [
+   "props:10",
+   "req:4"
+  ],
+  "schema:account_terms_of_service": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:account_tos_acceptance": [
+   "props:4",
+   "req:0"
+  ],
+  "schema:account_treasury_settings": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:account_unification_account_controller": [
+   "props:6",
+   "req:1"
+  ],
+  "schema:account_unification_account_controller_fees": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:account_unification_account_controller_losses": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:account_unification_account_controller_stripe_dashboard": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:address": [
+   "props:6",
+   "req:0"
+  ],
+  "schema:alma_installments": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:amazon_pay_underlying_payment_method_funding_details": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:api_errors": [
+   "props:16",
+   "req:1"
+  ],
+  "schema:apple_pay_domain": [
+   "props:5",
+   "req:5"
+  ],
+  "schema:application": [
+   "props:3",
+   "req:2"
+  ],
+  "schema:application_fee": [
+   "props:15",
+   "req:12"
+  ],
+  "schema:apps.secret": [
+   "props:9",
+   "req:6"
+  ],
+  "schema:automatic_tax": [
+   "props:5",
+   "req:1"
+  ],
+  "schema:balance": [
+   "props:8",
+   "req:4"
+  ],
+  "schema:balance_amount": [
+   "props:3",
+   "req:2"
+  ],
+  "schema:balance_amount_by_source_type": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:balance_amount_net": [
+   "props:4",
+   "req:2"
+  ],
+  "schema:balance_detail": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:balance_detail_ungated": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:balance_net_available": [
+   "props:3",
+   "req:2"
+  ],
+  "schema:balance_settings": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:balance_settings_resource_automatic_transfer_rule": [
+   "props:3",
+   "req:2"
+  ],
+  "schema:balance_settings_resource_payments": [
+   "props:3",
+   "req:1"
+  ],
+  "schema:balance_settings_resource_payout_schedule": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:balance_settings_resource_payouts": [
+   "props:5",
+   "req:1"
+  ],
+  "schema:balance_settings_resource_settlement_timing": [
+   "props:3",
+   "req:1"
+  ],
+  "schema:balance_settings_resource_start_of_day": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:balance_transaction": [
+   "props:16",
+   "req:13"
+  ],
+  "schema:bank_account": [
+   "props:19",
+   "req:6"
+  ],
+  "schema:bank_connections_resource_account_number_details": [
+   "props:4",
+   "req:3"
+  ],
+  "schema:bank_connections_resource_account_status_details": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:bank_connections_resource_account_status_details_api_resource_active_status_details": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:bank_connections_resource_accountholder": [
+   "props:4",
+   "req:1"
+  ],
+  "schema:bank_connections_resource_balance": [
+   "props:5",
+   "req:3"
+  ],
+  "schema:bank_connections_resource_balance_api_resource_cash_balance": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:bank_connections_resource_balance_api_resource_credit_balance": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:bank_connections_resource_balance_refresh": [
+   "props:3",
+   "req:2"
+  ],
+  "schema:bank_connections_resource_link_account_session_filters": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:bank_connections_resource_link_account_session_limits": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:bank_connections_resource_link_account_session_manual_entry": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:bank_connections_resource_ownership_refresh": [
+   "props:3",
+   "req:2"
+  ],
+  "schema:bank_connections_resource_transaction_refresh": [
+   "props:4",
+   "req:3"
+  ],
+  "schema:bank_connections_resource_transaction_resource_status_transitions": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:billing.alert": [
+   "props:7",
+   "req:5"
+  ],
+  "schema:billing.credit_balance_summary": [
+   "props:5",
+   "req:4"
+  ],
+  "schema:billing.credit_balance_transaction": [
+   "props:10",
+   "req:6"
+  ],
+  "schema:billing.credit_grant": [
+   "props:17",
+   "req:10"
+  ],
+  "schema:billing.meter": [
+   "props:13",
+   "req:12"
+  ],
+  "schema:billing.meter_event": [
+   "props:7",
+   "req:7"
+  ],
+  "schema:billing.meter_event_adjustment": [
+   "props:6",
+   "req:5"
+  ],
+  "schema:billing.meter_event_summary": [
+   "props:7",
+   "req:7"
+  ],
+  "schema:billing_bill_resource_invoice_item_parents_invoice_item_parent": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:billing_bill_resource_invoice_item_parents_invoice_item_subscription_parent": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:billing_bill_resource_invoicing_lines_common_credited_items": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:billing_bill_resource_invoicing_lines_common_proration_details": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:billing_bill_resource_invoicing_lines_parents_invoice_line_item_invoice_item_parent": [
+   "props:4",
+   "req:2"
+  ],
+  "schema:billing_bill_resource_invoicing_lines_parents_invoice_line_item_parent": [
+   "props:3",
+   "req:1"
+  ],
+  "schema:billing_bill_resource_invoicing_lines_parents_invoice_line_item_subscription_item_parent": [
+   "props:5",
+   "req:2"
+  ],
+  "schema:billing_bill_resource_invoicing_parents_invoice_parent": [
+   "props:3",
+   "req:1"
+  ],
+  "schema:billing_bill_resource_invoicing_parents_invoice_quote_parent": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:billing_bill_resource_invoicing_parents_invoice_subscription_parent": [
+   "props:3",
+   "req:1"
+  ],
+  "schema:billing_bill_resource_invoicing_pricing_pricing": [
+   "props:3",
+   "req:1"
+  ],
+  "schema:billing_bill_resource_invoicing_pricing_pricing_price_details": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:billing_bill_resource_invoicing_taxes_tax": [
+   "props:6",
+   "req:4"
+  ],
+  "schema:billing_bill_resource_invoicing_taxes_tax_rate_details": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:billing_clocks_resource_status_details_advancing_status_details": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:billing_clocks_resource_status_details_status_details": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:billing_credit_grants_resource_amount": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:billing_credit_grants_resource_applicability_config": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:billing_credit_grants_resource_applicable_price": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:billing_credit_grants_resource_balance_credit": [
+   "props:3",
+   "req:2"
+  ],
+  "schema:billing_credit_grants_resource_balance_credits_application_invoice_voided": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:billing_credit_grants_resource_balance_credits_applied": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:billing_credit_grants_resource_balance_debit": [
+   "props:3",
+   "req:2"
+  ],
+  "schema:billing_credit_grants_resource_monetary_amount": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:billing_credit_grants_resource_scope": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:billing_details": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:billing_meter_resource_aggregation_settings": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:billing_meter_resource_billing_meter_event_adjustment_cancel": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:billing_meter_resource_billing_meter_status_transitions": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:billing_meter_resource_billing_meter_value": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:billing_meter_resource_customer_mapping_settings": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:billing_portal.configuration": [
+   "props:14",
+   "req:10"
+  ],
+  "schema:billing_portal.session": [
+   "props:12",
+   "req:7"
+  ],
+  "schema:cancellation_details": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:capability": [
+   "props:8",
+   "req:5"
+  ],
+  "schema:card": [
+   "props:31",
+   "req:7"
+  ],
+  "schema:card_generated_from_payment_method_details": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:card_issuing_account_terms_of_service": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:card_mandate_payment_method_details": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:cash_balance": [
+   "props:6",
+   "req:4"
+  ],
+  "schema:charge": [
+   "props:45",
+   "req:15"
+  ],
+  "schema:charge_fraud_details": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:charge_outcome": [
+   "props:10",
+   "req:1"
+  ],
+  "schema:charge_transfer_data": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:checkout.session": [
+   "props:68",
+   "req:12"
+  ],
+  "schema:checkout_acss_debit_mandate_options": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:checkout_acss_debit_payment_method_options": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:checkout_affirm_payment_method_options": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:checkout_afterpay_clearpay_payment_method_options": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:checkout_alipay_payment_method_options": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:checkout_alma_payment_method_options": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:checkout_amazon_pay_payment_method_options": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:checkout_au_becs_debit_payment_method_options": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:checkout_bacs_debit_payment_method_options": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:checkout_bancontact_payment_method_options": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:checkout_billie_payment_method_options": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:checkout_boleto_payment_method_options": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:checkout_card_installments_options": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:checkout_card_payment_method_options": [
+   "props:11",
+   "req:1"
+  ],
+  "schema:checkout_cashapp_payment_method_options": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:checkout_customer_balance_bank_transfer_payment_method_options": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:checkout_customer_balance_payment_method_options": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:checkout_eps_payment_method_options": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:checkout_fpx_payment_method_options": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:checkout_giropay_payment_method_options": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:checkout_grab_pay_payment_method_options": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:checkout_ideal_payment_method_options": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:checkout_kakao_pay_payment_method_options": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:checkout_klarna_payment_method_options": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:checkout_konbini_payment_method_options": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:checkout_kr_card_payment_method_options": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:checkout_link_payment_method_options": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:checkout_link_wallet_options": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:checkout_mobilepay_payment_method_options": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:checkout_multibanco_payment_method_options": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:checkout_naver_pay_payment_method_options": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:checkout_oxxo_payment_method_options": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:checkout_p24_payment_method_options": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:checkout_payco_payment_method_options": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:checkout_payment_method_options_mandate_options_bacs_debit": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:checkout_payment_method_options_mandate_options_sepa_debit": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:checkout_paynow_payment_method_options": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:checkout_paypal_payment_method_options": [
+   "props:4",
+   "req:0"
+  ],
+  "schema:checkout_payto_payment_method_options": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:checkout_pix_payment_method_options": [
+   "props:4",
+   "req:0"
+  ],
+  "schema:checkout_revolut_pay_payment_method_options": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:checkout_samsung_pay_payment_method_options": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:checkout_satispay_payment_method_options": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:checkout_scalapay_payment_method_options": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:checkout_sepa_debit_payment_method_options": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:checkout_session_payment_method_options": [
+   "props:46",
+   "req:0"
+  ],
+  "schema:checkout_session_wallet_options": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:checkout_sofort_payment_method_options": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:checkout_sunbit_payment_method_options": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:checkout_swish_payment_method_options": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:checkout_twint_payment_method_options": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:checkout_upi_payment_method_options": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:checkout_us_bank_account_payment_method_options": [
+   "props:4",
+   "req:0"
+  ],
+  "schema:checkout_wechat_pay_payment_method_options": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:climate.order": [
+   "props:22",
+   "req:14"
+  ],
+  "schema:climate.product": [
+   "props:9",
+   "req:8"
+  ],
+  "schema:climate.supplier": [
+   "props:7",
+   "req:7"
+  ],
+  "schema:climate_removals_beneficiary": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:climate_removals_location": [
+   "props:5",
+   "req:1"
+  ],
+  "schema:climate_removals_order_deliveries": [
+   "props:5",
+   "req:3"
+  ],
+  "schema:climate_removals_products_price": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:confirmation_token": [
+   "props:14",
+   "req:5"
+  ],
+  "schema:confirmation_tokens_resource_mandate_data": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:confirmation_tokens_resource_mandate_data_resource_customer_acceptance": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:confirmation_tokens_resource_mandate_data_resource_customer_acceptance_resource_online": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:confirmation_tokens_resource_payment_method_options": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:confirmation_tokens_resource_payment_method_options_resource_card": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:confirmation_tokens_resource_payment_method_options_resource_card_resource_installment": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:confirmation_tokens_resource_payment_method_preview": [
+   "props:61",
+   "req:2"
+  ],
+  "schema:confirmation_tokens_resource_shipping": [
+   "props:3",
+   "req:2"
+  ],
+  "schema:connect_account_reference": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:connect_collection_transfer": [
+   "props:6",
+   "req:6"
+  ],
+  "schema:connect_embedded_account_config_claim": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:connect_embedded_account_features_claim": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:connect_embedded_account_session_create_components": [
+   "props:21",
+   "req:21"
+  ],
+  "schema:connect_embedded_base_config_claim": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:connect_embedded_base_features": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:connect_embedded_disputes_list_config": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:connect_embedded_disputes_list_features": [
+   "props:5",
+   "req:5"
+  ],
+  "schema:connect_embedded_financial_account_config_claim": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:connect_embedded_financial_account_features": [
+   "props:4",
+   "req:4"
+  ],
+  "schema:connect_embedded_financial_account_transactions_config_claim": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:connect_embedded_financial_account_transactions_features": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:connect_embedded_instant_payouts_promotion_config": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:connect_embedded_instant_payouts_promotion_features": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:connect_embedded_issuing_card_config_claim": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:connect_embedded_issuing_card_features": [
+   "props:4",
+   "req:4"
+  ],
+  "schema:connect_embedded_issuing_cards_list_config_claim": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:connect_embedded_issuing_cards_list_features": [
+   "props:5",
+   "req:5"
+  ],
+  "schema:connect_embedded_payment_disputes_config": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:connect_embedded_payment_disputes_features": [
+   "props:4",
+   "req:4"
+  ],
+  "schema:connect_embedded_payments_config_claim": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:connect_embedded_payments_features": [
+   "props:5",
+   "req:5"
+  ],
+  "schema:connect_embedded_payouts_config": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:connect_embedded_payouts_features": [
+   "props:5",
+   "req:5"
+  ],
+  "schema:country_spec": [
+   "props:8",
+   "req:8"
+  ],
+  "schema:country_spec_verification_field_details": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:country_spec_verification_fields": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:coupon": [
+   "props:17",
+   "req:7"
+  ],
+  "schema:coupon_applies_to": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:coupon_currency_option": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:credit_balance": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:credit_note": [
+   "props:34",
+   "req:22"
+  ],
+  "schema:credit_note_line_item": [
+   "props:16",
+   "req:9"
+  ],
+  "schema:credit_note_refund": [
+   "props:4",
+   "req:2"
+  ],
+  "schema:credit_notes_payment_record_refund": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:credit_notes_pretax_credit_amount": [
+   "props:4",
+   "req:2"
+  ],
+  "schema:credited_items_invoice_line_items": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:currency_option": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:custom_logo": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:custom_unit_amount": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:customer": [
+   "props:31",
+   "req:4"
+  ],
+  "schema:customer_acceptance": [
+   "props:4",
+   "req:1"
+  ],
+  "schema:customer_balance_customer_balance_settings": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:customer_balance_resource_cash_balance_transaction_resource_adjusted_for_overdraft": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:customer_balance_resource_cash_balance_transaction_resource_applied_to_payment_transaction": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:customer_balance_resource_cash_balance_transaction_resource_funded_transaction": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:customer_balance_resource_cash_balance_transaction_resource_funded_transaction_resource_bank_transfer": [
+   "props:6",
+   "req:1"
+  ],
+  "schema:customer_balance_resource_cash_balance_transaction_resource_funded_transaction_resource_bank_transfer_resource_eu_bank_transfer": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:customer_balance_resource_cash_balance_transaction_resource_funded_transaction_resource_bank_transfer_resource_gb_bank_transfer": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:customer_balance_resource_cash_balance_transaction_resource_funded_transaction_resource_bank_transfer_resource_jp_bank_transfer": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:customer_balance_resource_cash_balance_transaction_resource_funded_transaction_resource_bank_transfer_resource_us_bank_transfer": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:customer_balance_resource_cash_balance_transaction_resource_refunded_from_payment_transaction": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:customer_balance_resource_cash_balance_transaction_resource_transferred_to_balance": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:customer_balance_resource_cash_balance_transaction_resource_unapplied_from_payment_transaction": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:customer_balance_transaction": [
+   "props:15",
+   "req:9"
+  ],
+  "schema:customer_cash_balance_transaction": [
+   "props:16",
+   "req:9"
+  ],
+  "schema:customer_session": [
+   "props:8",
+   "req:6"
+  ],
+  "schema:customer_session_resource_components": [
+   "props:5",
+   "req:5"
+  ],
+  "schema:customer_session_resource_components_resource_buy_button": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:customer_session_resource_components_resource_customer_sheet": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:customer_session_resource_components_resource_customer_sheet_resource_features": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:customer_session_resource_components_resource_mobile_payment_element": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:customer_session_resource_components_resource_mobile_payment_element_resource_features": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:customer_session_resource_components_resource_payment_element": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:customer_session_resource_components_resource_payment_element_resource_features": [
+   "props:6",
+   "req:4"
+  ],
+  "schema:customer_session_resource_components_resource_pricing_table": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:customer_tax": [
+   "props:4",
+   "req:2"
+  ],
+  "schema:customer_tax_location": [
+   "props:3",
+   "req:2"
+  ],
+  "schema:deleted_account": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:deleted_apple_pay_domain": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:deleted_application": [
+   "props:4",
+   "req:3"
+  ],
+  "schema:deleted_bank_account": [
+   "props:4",
+   "req:3"
+  ],
+  "schema:deleted_card": [
+   "props:4",
+   "req:3"
+  ],
+  "schema:deleted_coupon": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:deleted_customer": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:deleted_discount": [
+   "props:13",
+   "req:5"
+  ],
+  "schema:deleted_external_account": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:deleted_invoice": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:deleted_invoiceitem": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:deleted_payment_source": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:deleted_person": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:deleted_plan": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:deleted_price": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:deleted_product": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:deleted_product_feature": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:deleted_radar.value_list": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:deleted_radar.value_list_item": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:deleted_subscription_item": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:deleted_tax_id": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:deleted_terminal.configuration": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:deleted_terminal.location": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:deleted_terminal.reader": [
+   "props:5",
+   "req:5"
+  ],
+  "schema:deleted_test_helpers.test_clock": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:deleted_webhook_endpoint": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:destination_details_unimplemented": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:discount": [
+   "props:13",
+   "req:4"
+  ],
+  "schema:discount_source": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:discounts_resource_discount_amount": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:discounts_resource_stackable_discount_with_discount_end": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:dispute": [
+   "props:17",
+   "req:15"
+  ],
+  "schema:dispute_enhanced_eligibility": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:dispute_enhanced_eligibility_mastercard_compliance": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:dispute_enhanced_eligibility_visa_compelling_evidence3": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:dispute_enhanced_eligibility_visa_compliance": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:dispute_enhanced_evidence": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:dispute_enhanced_evidence_mastercard_compliance": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:dispute_enhanced_evidence_visa_compelling_evidence3": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:dispute_enhanced_evidence_visa_compliance": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:dispute_evidence": [
+   "props:28",
+   "req:1"
+  ],
+  "schema:dispute_evidence_details": [
+   "props:5",
+   "req:4"
+  ],
+  "schema:dispute_payment_method_details": [
+   "props:5",
+   "req:1"
+  ],
+  "schema:dispute_payment_method_details_amazon_pay": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:dispute_payment_method_details_card": [
+   "props:4",
+   "req:3"
+  ],
+  "schema:dispute_payment_method_details_klarna": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:dispute_payment_method_details_paypal": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:dispute_transaction_shipping_address": [
+   "props:6",
+   "req:0"
+  ],
+  "schema:dispute_visa_compelling_evidence3_disputed_transaction": [
+   "props:8",
+   "req:0"
+  ],
+  "schema:dispute_visa_compelling_evidence3_prior_undisputed_transaction": [
+   "props:8",
+   "req:1"
+  ],
+  "schema:email_sent": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:entitlements.active_entitlement": [
+   "props:5",
+   "req:5"
+  ],
+  "schema:entitlements.feature": [
+   "props:7",
+   "req:7"
+  ],
+  "schema:ephemeral_key": [
+   "props:6",
+   "req:5"
+  ],
+  "schema:error": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:event": [
+   "props:11",
+   "req:7"
+  ],
+  "schema:exchange_rate": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:external_account": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:external_account_requirements": [
+   "props:4",
+   "req:0"
+  ],
+  "schema:fee": [
+   "props:5",
+   "req:3"
+  ],
+  "schema:fee_refund": [
+   "props:8",
+   "req:6"
+  ],
+  "schema:file": [
+   "props:11",
+   "req:5"
+  ],
+  "schema:file_link": [
+   "props:9",
+   "req:7"
+  ],
+  "schema:financial_connections.account": [
+   "props:21",
+   "req:9"
+  ],
+  "schema:financial_connections.account_owner": [
+   "props:8",
+   "req:4"
+  ],
+  "schema:financial_connections.account_ownership": [
+   "props:4",
+   "req:4"
+  ],
+  "schema:financial_connections.session": [
+   "props:13",
+   "req:5"
+  ],
+  "schema:financial_connections.transaction": [
+   "props:12",
+   "req:12"
+  ],
+  "schema:financial_reporting_finance_report_run_run_parameters": [
+   "props:8",
+   "req:0"
+  ],
+  "schema:forwarded_request_context": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:forwarded_request_details": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:forwarded_request_header": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:forwarded_response_details": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:forwarding.request": [
+   "props:11",
+   "req:6"
+  ],
+  "schema:funding_instructions": [
+   "props:5",
+   "req:5"
+  ],
+  "schema:funding_instructions_bank_transfer": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:funding_instructions_bank_transfer_aba_record": [
+   "props:7",
+   "req:7"
+  ],
+  "schema:funding_instructions_bank_transfer_financial_address": [
+   "props:8",
+   "req:1"
+  ],
+  "schema:funding_instructions_bank_transfer_iban_record": [
+   "props:6",
+   "req:6"
+  ],
+  "schema:funding_instructions_bank_transfer_sort_code_record": [
+   "props:5",
+   "req:5"
+  ],
+  "schema:funding_instructions_bank_transfer_spei_record": [
+   "props:6",
+   "req:6"
+  ],
+  "schema:funding_instructions_bank_transfer_swift_record": [
+   "props:7",
+   "req:7"
+  ],
+  "schema:funding_instructions_bank_transfer_zengin_record": [
+   "props:9",
+   "req:2"
+  ],
+  "schema:gelato_data_document_report_date_of_birth": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:gelato_data_document_report_expiration_date": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:gelato_data_document_report_issued_date": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:gelato_data_id_number_report_date": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:gelato_data_verified_outputs_date": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:gelato_document_report": [
+   "props:15",
+   "req:1"
+  ],
+  "schema:gelato_document_report_error": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:gelato_email_report": [
+   "props:3",
+   "req:1"
+  ],
+  "schema:gelato_email_report_error": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:gelato_id_number_report": [
+   "props:7",
+   "req:1"
+  ],
+  "schema:gelato_id_number_report_error": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:gelato_phone_report": [
+   "props:3",
+   "req:1"
+  ],
+  "schema:gelato_phone_report_error": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:gelato_provided_details": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:gelato_related_person": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:gelato_report_document_options": [
+   "props:4",
+   "req:0"
+  ],
+  "schema:gelato_report_id_number_options": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:gelato_selfie_report": [
+   "props:4",
+   "req:1"
+  ],
+  "schema:gelato_selfie_report_error": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:gelato_session_document_options": [
+   "props:4",
+   "req:0"
+  ],
+  "schema:gelato_session_email_options": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:gelato_session_id_number_options": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:gelato_session_last_error": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:gelato_session_matching_options": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:gelato_session_phone_options": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:gelato_verification_report_options": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:gelato_verification_session_options": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:gelato_verified_outputs": [
+   "props:11",
+   "req:0"
+  ],
+  "schema:identity.verification_report": [
+   "props:14",
+   "req:5"
+  ],
+  "schema:identity.verification_session": [
+   "props:20",
+   "req:7"
+  ],
+  "schema:inbound_transfers": [
+   "props:3",
+   "req:2"
+  ],
+  "schema:inbound_transfers_payment_method_details_us_bank_account": [
+   "props:8",
+   "req:1"
+  ],
+  "schema:insights_resources_payment_evaluation_address": [
+   "props:6",
+   "req:0"
+  ],
+  "schema:insights_resources_payment_evaluation_billing_details": [
+   "props:4",
+   "req:1"
+  ],
+  "schema:insights_resources_payment_evaluation_client_device_metadata": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:insights_resources_payment_evaluation_customer_details": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:insights_resources_payment_evaluation_dispute_opened": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:insights_resources_payment_evaluation_early_fraud_warning_received": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:insights_resources_payment_evaluation_event": [
+   "props:7",
+   "req:2"
+  ],
+  "schema:insights_resources_payment_evaluation_merchant_blocked": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:insights_resources_payment_evaluation_money_movement_card": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:insights_resources_payment_evaluation_money_movement_details": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:insights_resources_payment_evaluation_outcome": [
+   "props:5",
+   "req:1"
+  ],
+  "schema:insights_resources_payment_evaluation_payment_details": [
+   "props:7",
+   "req:2"
+  ],
+  "schema:insights_resources_payment_evaluation_payment_method_details": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:insights_resources_payment_evaluation_refunded": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:insights_resources_payment_evaluation_rejected": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:insights_resources_payment_evaluation_rejected_card": [
+   "props:4",
+   "req:4"
+  ],
+  "schema:insights_resources_payment_evaluation_shipping": [
+   "props:3",
+   "req:1"
+  ],
+  "schema:insights_resources_payment_evaluation_signal_v2": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:insights_resources_payment_evaluation_signals": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:insights_resources_payment_evaluation_succeeded": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:insights_resources_payment_evaluation_succeeded_card": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:insights_resources_payment_evaluation_user_intervention_raised": [
+   "props:3",
+   "req:2"
+  ],
+  "schema:insights_resources_payment_evaluation_user_intervention_raised_custom": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:insights_resources_payment_evaluation_user_intervention_resolved": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:internal_card": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:invoice": [
+   "props:78",
+   "req:30"
+  ],
+  "schema:invoice_installments_card": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:invoice_item_proration_credited_items": [
+   "props:3",
+   "req:1"
+  ],
+  "schema:invoice_item_threshold_reason": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:invoice_line_item_period": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:invoice_mandate_options_card": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:invoice_mandate_options_payto": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:invoice_payment": [
+   "props:12",
+   "req:11"
+  ],
+  "schema:invoice_payment_method_options_acss_debit": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:invoice_payment_method_options_acss_debit_mandate_options": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:invoice_payment_method_options_bancontact": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:invoice_payment_method_options_card": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:invoice_payment_method_options_customer_balance": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:invoice_payment_method_options_customer_balance_bank_transfer": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:invoice_payment_method_options_customer_balance_bank_transfer_eu_bank_transfer": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:invoice_payment_method_options_konbini": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:invoice_payment_method_options_mandate_options_upi": [
+   "props:4",
+   "req:0"
+  ],
+  "schema:invoice_payment_method_options_payto": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:invoice_payment_method_options_pix": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:invoice_payment_method_options_sepa_debit": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:invoice_payment_method_options_upi": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:invoice_payment_method_options_us_bank_account": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:invoice_payment_method_options_us_bank_account_linked_account_options": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:invoice_payment_method_options_us_bank_account_linked_account_options_filters": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:invoice_rendering_pdf": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:invoice_rendering_template": [
+   "props:8",
+   "req:6"
+  ],
+  "schema:invoice_setting_checkout_rendering_options": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:invoice_setting_custom_field": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:invoice_setting_customer_rendering_options": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:invoice_setting_customer_setting": [
+   "props:4",
+   "req:0"
+  ],
+  "schema:invoice_setting_quote_setting": [
+   "props:5",
+   "req:1"
+  ],
+  "schema:invoice_setting_subscription_schedule_phase_setting": [
+   "props:6",
+   "req:0"
+  ],
+  "schema:invoice_setting_subscription_schedule_setting": [
+   "props:6",
+   "req:1"
+  ],
+  "schema:invoice_threshold_reason": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:invoiceitem": [
+   "props:23",
+   "req:12"
+  ],
+  "schema:invoices_payment_method_options": [
+   "props:10",
+   "req:0"
+  ],
+  "schema:invoices_payment_settings": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:invoices_payments_invoice_payment_associated_payment": [
+   "props:4",
+   "req:1"
+  ],
+  "schema:invoices_payments_invoice_payment_status_transitions": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:invoices_resource_confirmation_secret": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:invoices_resource_from_invoice": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:invoices_resource_invoice_rendering": [
+   "props:4",
+   "req:0"
+  ],
+  "schema:invoices_resource_invoice_tax_id": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:invoices_resource_pretax_credit_amount": [
+   "props:4",
+   "req:2"
+  ],
+  "schema:invoices_resource_shipping_cost": [
+   "props:5",
+   "req:3"
+  ],
+  "schema:invoices_resource_status_transitions": [
+   "props:4",
+   "req:0"
+  ],
+  "schema:issuing.authorization": [
+   "props:30",
+   "req:18"
+  ],
+  "schema:issuing.card": [
+   "props:27",
+   "req:14"
+  ],
+  "schema:issuing.cardholder": [
+   "props:16",
+   "req:10"
+  ],
+  "schema:issuing.dispute": [
+   "props:13",
+   "req:10"
+  ],
+  "schema:issuing.personalization_design": [
+   "props:13",
+   "req:9"
+  ],
+  "schema:issuing.physical_bundle": [
+   "props:7",
+   "req:7"
+  ],
+  "schema:issuing.settlement": [
+   "props:17",
+   "req:17"
+  ],
+  "schema:issuing.token": [
+   "props:12",
+   "req:8"
+  ],
+  "schema:issuing.transaction": [
+   "props:22",
+   "req:12"
+  ],
+  "schema:issuing_authorization_amount_details": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:issuing_authorization_authentication_exemption": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:issuing_authorization_fleet_cardholder_prompt_data": [
+   "props:6",
+   "req:0"
+  ],
+  "schema:issuing_authorization_fleet_data": [
+   "props:4",
+   "req:0"
+  ],
+  "schema:issuing_authorization_fleet_fuel_price_data": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:issuing_authorization_fleet_non_fuel_price_data": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:issuing_authorization_fleet_reported_breakdown": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:issuing_authorization_fleet_tax_data": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:issuing_authorization_fraud_challenge": [
+   "props:3",
+   "req:2"
+  ],
+  "schema:issuing_authorization_fuel_data": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:issuing_authorization_merchant_data": [
+   "props:11",
+   "req:3"
+  ],
+  "schema:issuing_authorization_network_data": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:issuing_authorization_pending_request": [
+   "props:7",
+   "req:5"
+  ],
+  "schema:issuing_authorization_request": [
+   "props:12",
+   "req:7"
+  ],
+  "schema:issuing_authorization_three_d_secure": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:issuing_authorization_treasury": [
+   "props:3",
+   "req:2"
+  ],
+  "schema:issuing_authorization_verification_data": [
+   "props:7",
+   "req:4"
+  ],
+  "schema:issuing_card_apple_pay": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:issuing_card_authorization_controls": [
+   "props:8",
+   "req:0"
+  ],
+  "schema:issuing_card_fraud_warning": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:issuing_card_google_pay": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:issuing_card_lifecycle_conditions": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:issuing_card_lifecycle_controls": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:issuing_card_shipping": [
+   "props:14",
+   "req:4"
+  ],
+  "schema:issuing_card_shipping_address_validation": [
+   "props:3",
+   "req:1"
+  ],
+  "schema:issuing_card_shipping_customs": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:issuing_card_spending_limit": [
+   "props:3",
+   "req:2"
+  ],
+  "schema:issuing_card_wallets": [
+   "props:3",
+   "req:2"
+  ],
+  "schema:issuing_cardholder_address": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:issuing_cardholder_authorization_controls": [
+   "props:8",
+   "req:0"
+  ],
+  "schema:issuing_cardholder_card_issuing": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:issuing_cardholder_company": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:issuing_cardholder_id_document": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:issuing_cardholder_individual": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:issuing_cardholder_individual_dob": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:issuing_cardholder_requirements": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:issuing_cardholder_spending_limit": [
+   "props:3",
+   "req:2"
+  ],
+  "schema:issuing_cardholder_user_terms_acceptance": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:issuing_cardholder_verification": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:issuing_dispute_canceled_evidence": [
+   "props:10",
+   "req:0"
+  ],
+  "schema:issuing_dispute_duplicate_evidence": [
+   "props:6",
+   "req:0"
+  ],
+  "schema:issuing_dispute_evidence": [
+   "props:9",
+   "req:1"
+  ],
+  "schema:issuing_dispute_fraudulent_evidence": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:issuing_dispute_merchandise_not_as_described_evidence": [
+   "props:6",
+   "req:0"
+  ],
+  "schema:issuing_dispute_no_valid_authorization_evidence": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:issuing_dispute_not_received_evidence": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:issuing_dispute_other_evidence": [
+   "props:4",
+   "req:0"
+  ],
+  "schema:issuing_dispute_service_not_as_described_evidence": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:issuing_dispute_treasury": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:issuing_network_token_address": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:issuing_network_token_device": [
+   "props:6",
+   "req:0"
+  ],
+  "schema:issuing_network_token_mastercard": [
+   "props:4",
+   "req:2"
+  ],
+  "schema:issuing_network_token_network_data": [
+   "props:5",
+   "req:1"
+  ],
+  "schema:issuing_network_token_visa": [
+   "props:4",
+   "req:2"
+  ],
+  "schema:issuing_network_token_wallet_provider": [
+   "props:10",
+   "req:0"
+  ],
+  "schema:issuing_personalization_design_carrier_text": [
+   "props:4",
+   "req:0"
+  ],
+  "schema:issuing_personalization_design_preferences": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:issuing_personalization_design_rejection_reasons": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:issuing_physical_bundle_features": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:issuing_transaction_amount_details": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:issuing_transaction_fleet_cardholder_prompt_data": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:issuing_transaction_fleet_data": [
+   "props:4",
+   "req:0"
+  ],
+  "schema:issuing_transaction_fleet_fuel_price_data": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:issuing_transaction_fleet_non_fuel_price_data": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:issuing_transaction_fleet_reported_breakdown": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:issuing_transaction_fleet_tax_data": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:issuing_transaction_flight_data": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:issuing_transaction_flight_data_leg": [
+   "props:6",
+   "req:0"
+  ],
+  "schema:issuing_transaction_fuel_data": [
+   "props:5",
+   "req:3"
+  ],
+  "schema:issuing_transaction_lodging_data": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:issuing_transaction_network_data": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:issuing_transaction_purchase_details": [
+   "props:6",
+   "req:0"
+  ],
+  "schema:issuing_transaction_receipt_data": [
+   "props:4",
+   "req:0"
+  ],
+  "schema:issuing_transaction_treasury": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:item": [
+   "props:14",
+   "req:7"
+  ],
+  "schema:klarna_address": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:klarna_payer_details": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:legal_entity_company": [
+   "props:24",
+   "req:0"
+  ],
+  "schema:legal_entity_company_verification": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:legal_entity_company_verification_document": [
+   "props:4",
+   "req:0"
+  ],
+  "schema:legal_entity_directorship_declaration": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:legal_entity_dob": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:legal_entity_japan_address": [
+   "props:7",
+   "req:0"
+  ],
+  "schema:legal_entity_person_verification": [
+   "props:5",
+   "req:1"
+  ],
+  "schema:legal_entity_person_verification_document": [
+   "props:4",
+   "req:0"
+  ],
+  "schema:legal_entity_registration_date": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:legal_entity_representative_declaration": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:legal_entity_ubo_declaration": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:line_item": [
+   "props:20",
+   "req:10"
+  ],
+  "schema:line_items_adjustable_quantity": [
+   "props:3",
+   "req:1"
+  ],
+  "schema:line_items_discount_amount": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:line_items_tax_amount": [
+   "props:4",
+   "req:2"
+  ],
+  "schema:linked_account_options_common": [
+   "props:4",
+   "req:0"
+  ],
+  "schema:login_link": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:mandate": [
+   "props:11",
+   "req:8"
+  ],
+  "schema:mandate_acss_debit": [
+   "props:4",
+   "req:2"
+  ],
+  "schema:mandate_amazon_pay": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:mandate_au_becs_debit": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:mandate_bacs_debit": [
+   "props:6",
+   "req:3"
+  ],
+  "schema:mandate_cashapp": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:mandate_kakao_pay": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:mandate_klarna": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:mandate_kr_card": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:mandate_link": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:mandate_multi_use": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:mandate_naver_pay": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:mandate_nz_bank_account": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:mandate_options_payto": [
+   "props:7",
+   "req:0"
+  ],
+  "schema:mandate_options_upi": [
+   "props:4",
+   "req:0"
+  ],
+  "schema:mandate_payment_method_details": [
+   "props:21",
+   "req:1"
+  ],
+  "schema:mandate_paypal": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:mandate_payto": [
+   "props:7",
+   "req:2"
+  ],
+  "schema:mandate_pix": [
+   "props:6",
+   "req:0"
+  ],
+  "schema:mandate_revolut_pay": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:mandate_sepa_debit": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:mandate_single_use": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:mandate_twint": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:mandate_upi": [
+   "props:4",
+   "req:0"
+  ],
+  "schema:mandate_us_bank_account": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:networks": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:notification_event_data": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:notification_event_request": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:offline_acceptance": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:online_acceptance": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:outbound_payments_payment_method_details": [
+   "props:4",
+   "req:2"
+  ],
+  "schema:outbound_payments_payment_method_details_financial_account": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:outbound_payments_payment_method_details_us_bank_account": [
+   "props:8",
+   "req:1"
+  ],
+  "schema:outbound_transfers_payment_method_details": [
+   "props:4",
+   "req:2"
+  ],
+  "schema:outbound_transfers_payment_method_details_financial_account": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:outbound_transfers_payment_method_details_us_bank_account": [
+   "props:8",
+   "req:1"
+  ],
+  "schema:package_dimensions": [
+   "props:4",
+   "req:4"
+  ],
+  "schema:payment_attempt_record": [
+   "props:21",
+   "req:14"
+  ],
+  "schema:payment_data": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:payment_flows_amount_details": [
+   "props:6",
+   "req:0"
+  ],
+  "schema:payment_flows_amount_details_client": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:payment_flows_amount_details_client_resource_tip": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:payment_flows_amount_details_resource_error": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:payment_flows_amount_details_resource_line_items_list_resource_line_item_resource_payment_method_options": [
+   "props:4",
+   "req:0"
+  ],
+  "schema:payment_flows_amount_details_resource_line_items_list_resource_line_item_resource_tax": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:payment_flows_amount_details_resource_shipping": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:payment_flows_amount_details_resource_tax": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:payment_flows_automatic_payment_methods_payment_intent": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:payment_flows_automatic_payment_methods_setup_intent": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:payment_flows_installment_options": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:payment_flows_payment_details": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:payment_flows_payment_intent_async_workflows": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:payment_flows_payment_intent_async_workflows_resource_inputs": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:payment_flows_payment_intent_async_workflows_resource_inputs_resource_tax": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:payment_flows_payment_intent_presentment_details": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:payment_flows_private_payment_methods_alipay": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:payment_flows_private_payment_methods_card_details_api_resource_enterprise_features_extended_authorization_extended_authorization": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:payment_flows_private_payment_methods_card_details_api_resource_enterprise_features_incremental_authorization_incremental_authorization": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:payment_flows_private_payment_methods_card_details_api_resource_enterprise_features_overcapture_overcapture": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:payment_flows_private_payment_methods_card_details_api_resource_multicapture": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:payment_flows_private_payment_methods_card_payment_intent_amount_details_line_item_payment_method_options": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:payment_flows_private_payment_methods_card_present_amount_details_line_item_payment_method_options": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:payment_flows_private_payment_methods_card_present_common_wallet": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:payment_flows_private_payment_methods_financial_connections_common_linked_account_options_filters": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:payment_flows_private_payment_methods_kakao_pay_payment_method_options": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:payment_flows_private_payment_methods_klarna_dob": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:payment_flows_private_payment_methods_klarna_payment_intent_amount_details_line_item_payment_method_options": [
+   "props:4",
+   "req:0"
+  ],
+  "schema:payment_flows_private_payment_methods_naver_pay_payment_method_options": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:payment_flows_private_payment_methods_payco_payment_method_options": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:payment_flows_private_payment_methods_paypal_amount_details_line_item_payment_method_options": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:payment_flows_private_payment_methods_samsung_pay_payment_method_options": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:payment_flows_private_payment_methods_satispay_setup_attempt_details": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:payment_intent": [
+   "props:45",
+   "req:5"
+  ],
+  "schema:payment_intent_amount_details_line_item": [
+   "props:10",
+   "req:5"
+  ],
+  "schema:payment_intent_card_processing": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:payment_intent_next_action": [
+   "props:22",
+   "req:1"
+  ],
+  "schema:payment_intent_next_action_alipay_handle_redirect": [
+   "props:4",
+   "req:0"
+  ],
+  "schema:payment_intent_next_action_blik_authorize": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:payment_intent_next_action_boleto": [
+   "props:4",
+   "req:0"
+  ],
+  "schema:payment_intent_next_action_card_await_notification": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:payment_intent_next_action_cashapp_handle_redirect_or_display_qr_code": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:payment_intent_next_action_cashapp_qr_code": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:payment_intent_next_action_display_bank_transfer_instructions": [
+   "props:6",
+   "req:1"
+  ],
+  "schema:payment_intent_next_action_display_multibanco_details": [
+   "props:4",
+   "req:0"
+  ],
+  "schema:payment_intent_next_action_display_oxxo_details": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:payment_intent_next_action_klarna_display_qr_code": [
+   "props:4",
+   "req:3"
+  ],
+  "schema:payment_intent_next_action_konbini": [
+   "props:3",
+   "req:2"
+  ],
+  "schema:payment_intent_next_action_konbini_familymart": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:payment_intent_next_action_konbini_lawson": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:payment_intent_next_action_konbini_ministop": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:payment_intent_next_action_konbini_seicomart": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:payment_intent_next_action_konbini_stores": [
+   "props:4",
+   "req:0"
+  ],
+  "schema:payment_intent_next_action_paynow_display_qr_code": [
+   "props:4",
+   "req:3"
+  ],
+  "schema:payment_intent_next_action_pix_display_qr_code": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:payment_intent_next_action_promptpay_display_qr_code": [
+   "props:4",
+   "req:4"
+  ],
+  "schema:payment_intent_next_action_redirect_to_url": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:payment_intent_next_action_swish_handle_redirect_or_display_qr_code": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:payment_intent_next_action_swish_qr_code": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:payment_intent_next_action_upi_handle_redirect_or_display_qr_code": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:payment_intent_next_action_upiqr_code": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:payment_intent_next_action_verify_with_microdeposits": [
+   "props:3",
+   "req:2"
+  ],
+  "schema:payment_intent_next_action_wechat_pay_display_qr_code": [
+   "props:5",
+   "req:5"
+  ],
+  "schema:payment_intent_next_action_wechat_pay_redirect_to_android_app": [
+   "props:7",
+   "req:7"
+  ],
+  "schema:payment_intent_next_action_wechat_pay_redirect_to_ios_app": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:payment_intent_payment_method_options": [
+   "props:56",
+   "req:0"
+  ],
+  "schema:payment_intent_payment_method_options_acss_debit": [
+   "props:4",
+   "req:0"
+  ],
+  "schema:payment_intent_payment_method_options_au_becs_debit": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:payment_intent_payment_method_options_bacs_debit": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:payment_intent_payment_method_options_blik": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:payment_intent_payment_method_options_card": [
+   "props:13",
+   "req:0"
+  ],
+  "schema:payment_intent_payment_method_options_eps": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:payment_intent_payment_method_options_link": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:payment_intent_payment_method_options_mandate_options_acss_debit": [
+   "props:4",
+   "req:0"
+  ],
+  "schema:payment_intent_payment_method_options_mandate_options_bacs_debit": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:payment_intent_payment_method_options_mandate_options_payto": [
+   "props:6",
+   "req:0"
+  ],
+  "schema:payment_intent_payment_method_options_mandate_options_sepa_debit": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:payment_intent_payment_method_options_mobilepay": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:payment_intent_payment_method_options_nz_bank_account": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:payment_intent_payment_method_options_payto": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:payment_intent_payment_method_options_sepa_debit": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:payment_intent_payment_method_options_swish": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:payment_intent_payment_method_options_us_bank_account": [
+   "props:6",
+   "req:0"
+  ],
+  "schema:payment_intent_processing": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:payment_intent_processing_customer_notification": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:payment_intent_type_specific_payment_method_options_client": [
+   "props:8",
+   "req:0"
+  ],
+  "schema:payment_link": [
+   "props:37",
+   "req:19"
+  ],
+  "schema:payment_links_resource_after_completion": [
+   "props:3",
+   "req:1"
+  ],
+  "schema:payment_links_resource_automatic_tax": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:payment_links_resource_business_name": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:payment_links_resource_card_payment_method_options": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:payment_links_resource_card_restrictions": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:payment_links_resource_completed_sessions": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:payment_links_resource_completion_behavior_confirmation_page": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:payment_links_resource_completion_behavior_redirect": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:payment_links_resource_consent_collection": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:payment_links_resource_custom_fields": [
+   "props:7",
+   "req:4"
+  ],
+  "schema:payment_links_resource_custom_fields_dropdown": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:payment_links_resource_custom_fields_dropdown_option": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:payment_links_resource_custom_fields_label": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:payment_links_resource_custom_fields_numeric": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:payment_links_resource_custom_fields_text": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:payment_links_resource_custom_text": [
+   "props:4",
+   "req:0"
+  ],
+  "schema:payment_links_resource_custom_text_position": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:payment_links_resource_individual_name": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:payment_links_resource_invoice_creation": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:payment_links_resource_invoice_settings": [
+   "props:7",
+   "req:0"
+  ],
+  "schema:payment_links_resource_name_collection": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:payment_links_resource_optional_item": [
+   "props:3",
+   "req:2"
+  ],
+  "schema:payment_links_resource_optional_item_adjustable_quantity": [
+   "props:3",
+   "req:1"
+  ],
+  "schema:payment_links_resource_payment_intent_data": [
+   "props:7",
+   "req:1"
+  ],
+  "schema:payment_links_resource_payment_method_options": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:payment_links_resource_payment_method_reuse_agreement": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:payment_links_resource_phone_number_collection": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:payment_links_resource_restrictions": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:payment_links_resource_shipping_address_collection": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:payment_links_resource_shipping_option": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:payment_links_resource_subscription_data": [
+   "props:5",
+   "req:2"
+  ],
+  "schema:payment_links_resource_subscription_data_invoice_settings": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:payment_links_resource_tax_id_collection": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:payment_links_resource_transfer_data": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:payment_method": [
+   "props:68",
+   "req:6"
+  ],
+  "schema:payment_method_acss_debit": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:payment_method_affirm": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:payment_method_afterpay_clearpay": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:payment_method_alma": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:payment_method_amazon_pay": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:payment_method_au_becs_debit": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:payment_method_bacs_debit": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:payment_method_bancontact": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:payment_method_billie": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:payment_method_bizum": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:payment_method_blik": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:payment_method_boleto": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:payment_method_card": [
+   "props:14",
+   "req:5"
+  ],
+  "schema:payment_method_card_checks": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:payment_method_card_generated_card": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:payment_method_card_present": [
+   "props:16",
+   "req:2"
+  ],
+  "schema:payment_method_card_present_networks": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:payment_method_card_wallet": [
+   "props:9",
+   "req:1"
+  ],
+  "schema:payment_method_card_wallet_amex_express_checkout": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:payment_method_card_wallet_apple_pay": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:payment_method_card_wallet_google_pay": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:payment_method_card_wallet_link": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:payment_method_card_wallet_masterpass": [
+   "props:4",
+   "req:0"
+  ],
+  "schema:payment_method_card_wallet_samsung_pay": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:payment_method_card_wallet_visa_checkout": [
+   "props:4",
+   "req:0"
+  ],
+  "schema:payment_method_cashapp": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:payment_method_config_biz_payment_method_configuration_details": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:payment_method_config_resource_display_preference": [
+   "props:3",
+   "req:2"
+  ],
+  "schema:payment_method_config_resource_payment_method_properties": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:payment_method_configuration": [
+   "props:66",
+   "req:6"
+  ],
+  "schema:payment_method_crypto": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:payment_method_custom": [
+   "props:3",
+   "req:1"
+  ],
+  "schema:payment_method_customer_balance": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:payment_method_details": [
+   "props:61",
+   "req:1"
+  ],
+  "schema:payment_method_details_ach_credit_transfer": [
+   "props:4",
+   "req:0"
+  ],
+  "schema:payment_method_details_ach_debit": [
+   "props:6",
+   "req:0"
+  ],
+  "schema:payment_method_details_acss_debit": [
+   "props:7",
+   "req:0"
+  ],
+  "schema:payment_method_details_affirm": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:payment_method_details_afterpay_clearpay": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:payment_method_details_alipay": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:payment_method_details_alma": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:payment_method_details_amazon_pay": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:payment_method_details_au_becs_debit": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:payment_method_details_bacs_debit": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:payment_method_details_bancontact": [
+   "props:8",
+   "req:0"
+  ],
+  "schema:payment_method_details_billie": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:payment_method_details_bizum": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:payment_method_details_blik": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:payment_method_details_boleto": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:payment_method_details_card": [
+   "props:24",
+   "req:2"
+  ],
+  "schema:payment_method_details_card_checks": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:payment_method_details_card_installments": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:payment_method_details_card_installments_plan": [
+   "props:3",
+   "req:1"
+  ],
+  "schema:payment_method_details_card_network_token": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:payment_method_details_card_present": [
+   "props:26",
+   "req:4"
+  ],
+  "schema:payment_method_details_card_present_offline": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:payment_method_details_card_present_receipt": [
+   "props:9",
+   "req:0"
+  ],
+  "schema:payment_method_details_card_wallet": [
+   "props:9",
+   "req:1"
+  ],
+  "schema:payment_method_details_card_wallet_amex_express_checkout": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:payment_method_details_card_wallet_apple_pay": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:payment_method_details_card_wallet_google_pay": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:payment_method_details_card_wallet_link": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:payment_method_details_card_wallet_masterpass": [
+   "props:4",
+   "req:0"
+  ],
+  "schema:payment_method_details_card_wallet_samsung_pay": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:payment_method_details_card_wallet_visa_checkout": [
+   "props:4",
+   "req:0"
+  ],
+  "schema:payment_method_details_cashapp": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:payment_method_details_crypto": [
+   "props:4",
+   "req:0"
+  ],
+  "schema:payment_method_details_customer_balance": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:payment_method_details_eps": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:payment_method_details_fpx": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:payment_method_details_giropay": [
+   "props:4",
+   "req:0"
+  ],
+  "schema:payment_method_details_grabpay": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:payment_method_details_ideal": [
+   "props:7",
+   "req:0"
+  ],
+  "schema:payment_method_details_interac_present": [
+   "props:19",
+   "req:2"
+  ],
+  "schema:payment_method_details_interac_present_receipt": [
+   "props:9",
+   "req:0"
+  ],
+  "schema:payment_method_details_kakao_pay": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:payment_method_details_klarna": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:payment_method_details_konbini": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:payment_method_details_konbini_store": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:payment_method_details_kr_card": [
+   "props:4",
+   "req:0"
+  ],
+  "schema:payment_method_details_link": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:payment_method_details_mb_way": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:payment_method_details_mobilepay": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:payment_method_details_multibanco": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:payment_method_details_naver_pay": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:payment_method_details_nz_bank_account": [
+   "props:7",
+   "req:4"
+  ],
+  "schema:payment_method_details_oxxo": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:payment_method_details_p24": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:payment_method_details_passthrough_card": [
+   "props:6",
+   "req:0"
+  ],
+  "schema:payment_method_details_pay_by_bank": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:payment_method_details_payco": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:payment_method_details_payment_record_acss_debit": [
+   "props:7",
+   "req:0"
+  ],
+  "schema:payment_method_details_payment_record_affirm": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:payment_method_details_payment_record_afterpay_clearpay": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:payment_method_details_payment_record_alipay": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:payment_method_details_payment_record_alma": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:payment_method_details_payment_record_amazon_pay": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:payment_method_details_payment_record_au_becs_debit": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:payment_method_details_payment_record_bacs_debit": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:payment_method_details_payment_record_bancontact": [
+   "props:8",
+   "req:0"
+  ],
+  "schema:payment_method_details_payment_record_billie": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:payment_method_details_payment_record_bizum": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:payment_method_details_payment_record_blik": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:payment_method_details_payment_record_boleto": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:payment_method_details_payment_record_cashapp": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:payment_method_details_payment_record_eps": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:payment_method_details_payment_record_giropay": [
+   "props:4",
+   "req:0"
+  ],
+  "schema:payment_method_details_payment_record_ideal": [
+   "props:7",
+   "req:0"
+  ],
+  "schema:payment_method_details_payment_record_kakao_pay": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:payment_method_details_payment_record_klarna": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:payment_method_details_payment_record_konbini": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:payment_method_details_payment_record_link": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:payment_method_details_payment_record_mb_way": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:payment_method_details_payment_record_mobilepay": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:payment_method_details_payment_record_multibanco": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:payment_method_details_payment_record_naver_pay": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:payment_method_details_payment_record_oxxo": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:payment_method_details_payment_record_p24": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:payment_method_details_payment_record_pay_by_bank": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:payment_method_details_payment_record_payco": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:payment_method_details_payment_record_paynow": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:payment_method_details_payment_record_payto": [
+   "props:4",
+   "req:0"
+  ],
+  "schema:payment_method_details_payment_record_pix": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:payment_method_details_payment_record_promptpay": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:payment_method_details_payment_record_revolut_pay": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:payment_method_details_payment_record_samsung_pay": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:payment_method_details_payment_record_satispay": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:payment_method_details_payment_record_scalapay": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:payment_method_details_payment_record_sepa_debit": [
+   "props:7",
+   "req:0"
+  ],
+  "schema:payment_method_details_payment_record_sofort": [
+   "props:9",
+   "req:0"
+  ],
+  "schema:payment_method_details_payment_record_sunbit": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:payment_method_details_payment_record_swish": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:payment_method_details_payment_record_twint": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:payment_method_details_payment_record_upi": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:payment_method_details_payment_record_us_bank_account": [
+   "props:9",
+   "req:0"
+  ],
+  "schema:payment_method_details_payment_record_wechat_pay": [
+   "props:4",
+   "req:0"
+  ],
+  "schema:payment_method_details_payment_record_zip": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:payment_method_details_paynow": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:payment_method_details_paypal": [
+   "props:6",
+   "req:0"
+  ],
+  "schema:payment_method_details_payto": [
+   "props:4",
+   "req:0"
+  ],
+  "schema:payment_method_details_pix": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:payment_method_details_promptpay": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:payment_method_details_revolut_pay": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:payment_method_details_samsung_pay": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:payment_method_details_satispay": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:payment_method_details_scalapay": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:payment_method_details_sepa_debit": [
+   "props:7",
+   "req:0"
+  ],
+  "schema:payment_method_details_sofort": [
+   "props:9",
+   "req:0"
+  ],
+  "schema:payment_method_details_stripe_account": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:payment_method_details_sunbit": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:payment_method_details_swish": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:payment_method_details_twint": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:payment_method_details_upi": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:payment_method_details_us_bank_account": [
+   "props:9",
+   "req:0"
+  ],
+  "schema:payment_method_details_wechat": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:payment_method_details_wechat_pay": [
+   "props:4",
+   "req:0"
+  ],
+  "schema:payment_method_details_zip": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:payment_method_domain": [
+   "props:12",
+   "req:12"
+  ],
+  "schema:payment_method_domain_resource_payment_method_status": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:payment_method_domain_resource_payment_method_status_details": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:payment_method_eps": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:payment_method_fpx": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:payment_method_giropay": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:payment_method_grabpay": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:payment_method_ideal": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:payment_method_interac_present": [
+   "props:13",
+   "req:2"
+  ],
+  "schema:payment_method_kakao_pay": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:payment_method_klarna": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:payment_method_konbini": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:payment_method_kr_card": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:payment_method_link": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:payment_method_mb_way": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:payment_method_mobilepay": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:payment_method_multibanco": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:payment_method_naver_pay": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:payment_method_nz_bank_account": [
+   "props:6",
+   "req:4"
+  ],
+  "schema:payment_method_options_affirm": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:payment_method_options_afterpay_clearpay": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:payment_method_options_alipay": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:payment_method_options_alma": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:payment_method_options_amazon_pay": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:payment_method_options_bancontact": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:payment_method_options_billie": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:payment_method_options_bizum": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:payment_method_options_boleto": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:payment_method_options_card_installments": [
+   "props:3",
+   "req:1"
+  ],
+  "schema:payment_method_options_card_mandate_options": [
+   "props:9",
+   "req:5"
+  ],
+  "schema:payment_method_options_card_present": [
+   "props:4",
+   "req:0"
+  ],
+  "schema:payment_method_options_card_present_routing": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:payment_method_options_cashapp": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:payment_method_options_crypto": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:payment_method_options_customer_balance": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:payment_method_options_customer_balance_bank_transfer": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:payment_method_options_customer_balance_eu_bank_account": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:payment_method_options_fpx": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:payment_method_options_giropay": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:payment_method_options_grabpay": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:payment_method_options_ideal": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:payment_method_options_interac_present": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:payment_method_options_klarna": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:payment_method_options_konbini": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:payment_method_options_kr_card": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:payment_method_options_mandate_options_pix": [
+   "props:8",
+   "req:0"
+  ],
+  "schema:payment_method_options_mandate_options_upi": [
+   "props:4",
+   "req:0"
+  ],
+  "schema:payment_method_options_mb_way": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:payment_method_options_multibanco": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:payment_method_options_oxxo": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:payment_method_options_p24": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:payment_method_options_pay_by_bank": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:payment_method_options_paynow": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:payment_method_options_paypal": [
+   "props:4",
+   "req:0"
+  ],
+  "schema:payment_method_options_pix": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:payment_method_options_promptpay": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:payment_method_options_revolut_pay": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:payment_method_options_satispay": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:payment_method_options_scalapay": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:payment_method_options_sofort": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:payment_method_options_sunbit": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:payment_method_options_twint": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:payment_method_options_upi": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:payment_method_options_us_bank_account_mandate_options": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:payment_method_options_wechat_pay": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:payment_method_options_zip": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:payment_method_oxxo": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:payment_method_p24": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:payment_method_pay_by_bank": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:payment_method_payco": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:payment_method_paynow": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:payment_method_paypal": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:payment_method_payto": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:payment_method_pix": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:payment_method_promptpay": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:payment_method_revolut_pay": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:payment_method_samsung_pay": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:payment_method_satispay": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:payment_method_scalapay": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:payment_method_sepa_debit": [
+   "props:6",
+   "req:0"
+  ],
+  "schema:payment_method_sofort": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:payment_method_sunbit": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:payment_method_swish": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:payment_method_twint": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:payment_method_upi": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:payment_method_us_bank_account": [
+   "props:9",
+   "req:0"
+  ],
+  "schema:payment_method_us_bank_account_blocked": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:payment_method_us_bank_account_status_details": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:payment_method_wechat_pay": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:payment_method_zip": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:payment_pages_checkout_session_adaptive_pricing": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:payment_pages_checkout_session_after_expiration": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:payment_pages_checkout_session_after_expiration_recovery": [
+   "props:4",
+   "req:2"
+  ],
+  "schema:payment_pages_checkout_session_automatic_tax": [
+   "props:4",
+   "req:1"
+  ],
+  "schema:payment_pages_checkout_session_branding_settings": [
+   "props:7",
+   "req:5"
+  ],
+  "schema:payment_pages_checkout_session_branding_settings_icon": [
+   "props:3",
+   "req:1"
+  ],
+  "schema:payment_pages_checkout_session_branding_settings_logo": [
+   "props:3",
+   "req:1"
+  ],
+  "schema:payment_pages_checkout_session_business_name": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:payment_pages_checkout_session_checkout_address_details": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:payment_pages_checkout_session_collected_information": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:payment_pages_checkout_session_consent": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:payment_pages_checkout_session_consent_collection": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:payment_pages_checkout_session_currency_conversion": [
+   "props:4",
+   "req:4"
+  ],
+  "schema:payment_pages_checkout_session_custom_fields": [
+   "props:7",
+   "req:4"
+  ],
+  "schema:payment_pages_checkout_session_custom_fields_dropdown": [
+   "props:3",
+   "req:1"
+  ],
+  "schema:payment_pages_checkout_session_custom_fields_label": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:payment_pages_checkout_session_custom_fields_numeric": [
+   "props:4",
+   "req:0"
+  ],
+  "schema:payment_pages_checkout_session_custom_fields_option": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:payment_pages_checkout_session_custom_fields_text": [
+   "props:4",
+   "req:0"
+  ],
+  "schema:payment_pages_checkout_session_custom_text": [
+   "props:4",
+   "req:0"
+  ],
+  "schema:payment_pages_checkout_session_custom_text_position": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:payment_pages_checkout_session_customer_details": [
+   "props:8",
+   "req:0"
+  ],
+  "schema:payment_pages_checkout_session_discount": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:payment_pages_checkout_session_individual_name": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:payment_pages_checkout_session_invoice_creation": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:payment_pages_checkout_session_invoice_settings": [
+   "props:7",
+   "req:0"
+  ],
+  "schema:payment_pages_checkout_session_managed_payments": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:payment_pages_checkout_session_name_collection": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:payment_pages_checkout_session_optional_item": [
+   "props:3",
+   "req:2"
+  ],
+  "schema:payment_pages_checkout_session_optional_item_adjustable_quantity": [
+   "props:3",
+   "req:1"
+  ],
+  "schema:payment_pages_checkout_session_payment_method_reuse_agreement": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:payment_pages_checkout_session_permissions": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:payment_pages_checkout_session_phone_number_collection": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:payment_pages_checkout_session_saved_payment_method_options": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:payment_pages_checkout_session_shipping_address_collection": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:payment_pages_checkout_session_shipping_cost": [
+   "props:5",
+   "req:3"
+  ],
+  "schema:payment_pages_checkout_session_shipping_option": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:payment_pages_checkout_session_tax_id": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:payment_pages_checkout_session_tax_id_collection": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:payment_pages_checkout_session_total_details": [
+   "props:4",
+   "req:2"
+  ],
+  "schema:payment_pages_checkout_session_total_details_resource_breakdown": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:payment_pages_private_card_payment_method_options_resource_restrictions": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:payment_record": [
+   "props:21",
+   "req:14"
+  ],
+  "schema:payment_source": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:payments_primitives_payment_records_resource_address": [
+   "props:6",
+   "req:0"
+  ],
+  "schema:payments_primitives_payment_records_resource_amount": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:payments_primitives_payment_records_resource_billing_details": [
+   "props:4",
+   "req:1"
+  ],
+  "schema:payments_primitives_payment_records_resource_customer_details": [
+   "props:4",
+   "req:0"
+  ],
+  "schema:payments_primitives_payment_records_resource_payment_method_alma_details_resource_installments": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:payments_primitives_payment_records_resource_payment_method_amazon_pay_details_resource_funding": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:payments_primitives_payment_records_resource_payment_method_amazon_pay_details_resource_funding_resource_funding_card": [
+   "props:6",
+   "req:0"
+  ],
+  "schema:payments_primitives_payment_records_resource_payment_method_card_details": [
+   "props:18",
+   "req:0"
+  ],
+  "schema:payments_primitives_payment_records_resource_payment_method_card_details_resource_checks": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:payments_primitives_payment_records_resource_payment_method_card_details_resource_installment_plan": [
+   "props:3",
+   "req:1"
+  ],
+  "schema:payments_primitives_payment_records_resource_payment_method_card_details_resource_installments": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:payments_primitives_payment_records_resource_payment_method_card_details_resource_network_token": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:payments_primitives_payment_records_resource_payment_method_card_details_resource_three_d_secure": [
+   "props:8",
+   "req:0"
+  ],
+  "schema:payments_primitives_payment_records_resource_payment_method_card_details_resource_wallet": [
+   "props:4",
+   "req:1"
+  ],
+  "schema:payments_primitives_payment_records_resource_payment_method_card_details_resource_wallet_resource_apple_pay": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:payments_primitives_payment_records_resource_payment_method_card_details_resource_wallet_resource_google_pay": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:payments_primitives_payment_records_resource_payment_method_custom_details": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:payments_primitives_payment_records_resource_payment_method_details": [
+   "props:64",
+   "req:1"
+  ],
+  "schema:payments_primitives_payment_records_resource_payment_method_klarna_details_resource_payer_details": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:payments_primitives_payment_records_resource_payment_method_klarna_details_resource_payer_details_resource_payer_details_address": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:payments_primitives_payment_records_resource_payment_method_konbini_details_resource_store": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:payments_primitives_payment_records_resource_payment_method_mobilepay_details_resource_card": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:payments_primitives_payment_records_resource_payment_method_revolut_pay_details_resource_funding": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:payments_primitives_payment_records_resource_payment_method_revolut_pay_details_resource_funding_resource_funding_card": [
+   "props:6",
+   "req:0"
+  ],
+  "schema:payments_primitives_payment_records_resource_processor_details": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:payments_primitives_payment_records_resource_processor_details_resource_custom_details": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:payments_primitives_payment_records_resource_shipping_details": [
+   "props:3",
+   "req:1"
+  ],
+  "schema:payout": [
+   "props:27",
+   "req:13"
+  ],
+  "schema:payouts_trace_id": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:paypal_seller_protection": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:person": [
+   "props:32",
+   "req:4"
+  ],
+  "schema:person_additional_tos_acceptance": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:person_additional_tos_acceptances": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:person_ethnicity_details": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:person_future_requirements": [
+   "props:6",
+   "req:5"
+  ],
+  "schema:person_race_details": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:person_relationship": [
+   "props:8",
+   "req:0"
+  ],
+  "schema:person_requirements": [
+   "props:6",
+   "req:5"
+  ],
+  "schema:person_us_cfpb_data": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:plan": [
+   "props:20",
+   "req:10"
+  ],
+  "schema:plan_tier": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:platform_earning_fee_source": [
+   "props:3",
+   "req:1"
+  ],
+  "schema:portal_business_profile": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:portal_customer_update": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:portal_features": [
+   "props:5",
+   "req:5"
+  ],
+  "schema:portal_flows_after_completion_hosted_confirmation": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:portal_flows_after_completion_redirect": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:portal_flows_coupon_offer": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:portal_flows_flow": [
+   "props:5",
+   "req:2"
+  ],
+  "schema:portal_flows_flow_after_completion": [
+   "props:3",
+   "req:1"
+  ],
+  "schema:portal_flows_flow_subscription_cancel": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:portal_flows_flow_subscription_update": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:portal_flows_flow_subscription_update_confirm": [
+   "props:3",
+   "req:2"
+  ],
+  "schema:portal_flows_retention": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:portal_flows_subscription_update_confirm_discount": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:portal_flows_subscription_update_confirm_item": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:portal_invoice_list": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:portal_login_page": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:portal_payment_method_update": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:portal_resource_schedule_update_at_period_end": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:portal_resource_schedule_update_at_period_end_condition": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:portal_subscription_cancel": [
+   "props:4",
+   "req:4"
+  ],
+  "schema:portal_subscription_cancellation_reason": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:portal_subscription_update": [
+   "props:7",
+   "req:5"
+  ],
+  "schema:portal_subscription_update_product": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:portal_subscription_update_product_adjustable_quantity": [
+   "props:3",
+   "req:2"
+  ],
+  "schema:price": [
+   "props:21",
+   "req:10"
+  ],
+  "schema:price_tier": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:product": [
+   "props:18",
+   "req:10"
+  ],
+  "schema:product_feature": [
+   "props:4",
+   "req:4"
+  ],
+  "schema:product_marketing_feature": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:promotion_code": [
+   "props:14",
+   "req:9"
+  ],
+  "schema:promotion_code_currency_option": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:promotion_codes_resource_promotion": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:promotion_codes_resource_restrictions": [
+   "props:4",
+   "req:1"
+  ],
+  "schema:proration_details": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:quote": [
+   "props:36",
+   "req:17"
+  ],
+  "schema:quotes_resource_automatic_tax": [
+   "props:4",
+   "req:1"
+  ],
+  "schema:quotes_resource_computed": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:quotes_resource_from_quote": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:quotes_resource_recurring": [
+   "props:5",
+   "req:5"
+  ],
+  "schema:quotes_resource_status_transitions": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:quotes_resource_subscription_data_billing_mode": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:quotes_resource_subscription_data_subscription_data": [
+   "props:5",
+   "req:1"
+  ],
+  "schema:quotes_resource_total_details": [
+   "props:4",
+   "req:2"
+  ],
+  "schema:quotes_resource_total_details_resource_breakdown": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:quotes_resource_transfer_data": [
+   "props:3",
+   "req:1"
+  ],
+  "schema:quotes_resource_upfront": [
+   "props:4",
+   "req:3"
+  ],
+  "schema:radar.early_fraud_warning": [
+   "props:8",
+   "req:7"
+  ],
+  "schema:radar.payment_evaluation": [
+   "props:12",
+   "req:7"
+  ],
+  "schema:radar.value_list": [
+   "props:10",
+   "req:10"
+  ],
+  "schema:radar.value_list_item": [
+   "props:7",
+   "req:7"
+  ],
+  "schema:radar_radar_options": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:radar_review_resource_location": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:radar_review_resource_session": [
+   "props:4",
+   "req:0"
+  ],
+  "schema:received_payment_method_details_financial_account": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:recurring": [
+   "props:4",
+   "req:3"
+  ],
+  "schema:refund": [
+   "props:25",
+   "req:5"
+  ],
+  "schema:refund_destination_details": [
+   "props:37",
+   "req:1"
+  ],
+  "schema:refund_destination_details_blik": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:refund_destination_details_br_bank_transfer": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:refund_destination_details_card": [
+   "props:4",
+   "req:1"
+  ],
+  "schema:refund_destination_details_crypto": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:refund_destination_details_eu_bank_transfer": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:refund_destination_details_gb_bank_transfer": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:refund_destination_details_jp_bank_transfer": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:refund_destination_details_mb_way": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:refund_destination_details_multibanco": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:refund_destination_details_mx_bank_transfer": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:refund_destination_details_p24": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:refund_destination_details_paypal": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:refund_destination_details_swish": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:refund_destination_details_th_bank_transfer": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:refund_destination_details_us_bank_transfer": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:refund_next_action": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:refund_next_action_display_details": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:reporting.report_run": [
+   "props:10",
+   "req:7"
+  ],
+  "schema:reporting.report_type": [
+   "props:9",
+   "req:8"
+  ],
+  "schema:reserve_transaction": [
+   "props:5",
+   "req:4"
+  ],
+  "schema:review": [
+   "props:14",
+   "req:7"
+  ],
+  "schema:revolut_pay_underlying_payment_method_funding_details": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:rule": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:scheduled_query_run": [
+   "props:11",
+   "req:9"
+  ],
+  "schema:schedules_phase_automatic_tax": [
+   "props:3",
+   "req:1"
+  ],
+  "schema:secret_service_resource_scope": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:sepa_debit_generated_from": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:setup_attempt": [
+   "props:16",
+   "req:9"
+  ],
+  "schema:setup_attempt_payment_method_details": [
+   "props:27",
+   "req:1"
+  ],
+  "schema:setup_attempt_payment_method_details_acss_debit": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:setup_attempt_payment_method_details_amazon_pay": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:setup_attempt_payment_method_details_au_becs_debit": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:setup_attempt_payment_method_details_bacs_debit": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:setup_attempt_payment_method_details_bancontact": [
+   "props:8",
+   "req:0"
+  ],
+  "schema:setup_attempt_payment_method_details_boleto": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:setup_attempt_payment_method_details_card": [
+   "props:11",
+   "req:0"
+  ],
+  "schema:setup_attempt_payment_method_details_card_checks": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:setup_attempt_payment_method_details_card_present": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:setup_attempt_payment_method_details_card_wallet": [
+   "props:3",
+   "req:1"
+  ],
+  "schema:setup_attempt_payment_method_details_cashapp": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:setup_attempt_payment_method_details_ideal": [
+   "props:6",
+   "req:0"
+  ],
+  "schema:setup_attempt_payment_method_details_kakao_pay": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:setup_attempt_payment_method_details_klarna": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:setup_attempt_payment_method_details_kr_card": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:setup_attempt_payment_method_details_link": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:setup_attempt_payment_method_details_naver_pay": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:setup_attempt_payment_method_details_nz_bank_account": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:setup_attempt_payment_method_details_paypal": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:setup_attempt_payment_method_details_payto": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:setup_attempt_payment_method_details_pix": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:setup_attempt_payment_method_details_revolut_pay": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:setup_attempt_payment_method_details_sepa_debit": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:setup_attempt_payment_method_details_sofort": [
+   "props:8",
+   "req:0"
+  ],
+  "schema:setup_attempt_payment_method_details_twint": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:setup_attempt_payment_method_details_upi": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:setup_attempt_payment_method_details_us_bank_account": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:setup_intent": [
+   "props:29",
+   "req:7"
+  ],
+  "schema:setup_intent_next_action": [
+   "props:8",
+   "req:1"
+  ],
+  "schema:setup_intent_next_action_pix_display_qr_code": [
+   "props:5",
+   "req:5"
+  ],
+  "schema:setup_intent_next_action_redirect_to_url": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:setup_intent_next_action_verify_with_microdeposits": [
+   "props:3",
+   "req:2"
+  ],
+  "schema:setup_intent_payment_method_options": [
+   "props:14",
+   "req:0"
+  ],
+  "schema:setup_intent_payment_method_options_acss_debit": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:setup_intent_payment_method_options_amazon_pay": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:setup_intent_payment_method_options_bacs_debit": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:setup_intent_payment_method_options_bizum": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:setup_intent_payment_method_options_card": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:setup_intent_payment_method_options_card_mandate_options": [
+   "props:10",
+   "req:6"
+  ],
+  "schema:setup_intent_payment_method_options_card_present": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:setup_intent_payment_method_options_klarna": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:setup_intent_payment_method_options_link": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:setup_intent_payment_method_options_mandate_options_acss_debit": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:setup_intent_payment_method_options_mandate_options_bacs_debit": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:setup_intent_payment_method_options_mandate_options_payto": [
+   "props:7",
+   "req:0"
+  ],
+  "schema:setup_intent_payment_method_options_mandate_options_sepa_debit": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:setup_intent_payment_method_options_paypal": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:setup_intent_payment_method_options_payto": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:setup_intent_payment_method_options_pix": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:setup_intent_payment_method_options_sepa_debit": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:setup_intent_payment_method_options_upi": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:setup_intent_payment_method_options_us_bank_account": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:setup_intent_type_specific_payment_method_options_client": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:shipping": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:shipping_rate": [
+   "props:12",
+   "req:7"
+  ],
+  "schema:shipping_rate_currency_option": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:shipping_rate_delivery_estimate": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:shipping_rate_delivery_estimate_bound": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:shipping_rate_fixed_amount": [
+   "props:3",
+   "req:2"
+  ],
+  "schema:sigma.sigma_api_query": [
+   "props:6",
+   "req:6"
+  ],
+  "schema:sigma_scheduled_query_run_error": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:smor_resource_managed_payments": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:source": [
+   "props:38",
+   "req:8"
+  ],
+  "schema:source_code_verification_flow": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:source_mandate_notification": [
+   "props:12",
+   "req:8"
+  ],
+  "schema:source_mandate_notification_acss_debit_data": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:source_mandate_notification_bacs_debit_data": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:source_mandate_notification_sepa_debit_data": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:source_order": [
+   "props:5",
+   "req:2"
+  ],
+  "schema:source_order_item": [
+   "props:6",
+   "req:0"
+  ],
+  "schema:source_owner": [
+   "props:8",
+   "req:0"
+  ],
+  "schema:source_receiver_flow": [
+   "props:6",
+   "req:5"
+  ],
+  "schema:source_redirect_flow": [
+   "props:4",
+   "req:3"
+  ],
+  "schema:source_transaction": [
+   "props:14",
+   "req:9"
+  ],
+  "schema:source_transaction_ach_credit_transfer_data": [
+   "props:4",
+   "req:0"
+  ],
+  "schema:source_transaction_chf_credit_transfer_data": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:source_transaction_gbp_credit_transfer_data": [
+   "props:7",
+   "req:0"
+  ],
+  "schema:source_transaction_paper_check_data": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:source_transaction_sepa_credit_transfer_data": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:source_type_ach_credit_transfer": [
+   "props:8",
+   "req:0"
+  ],
+  "schema:source_type_ach_debit": [
+   "props:6",
+   "req:0"
+  ],
+  "schema:source_type_acss_debit": [
+   "props:10",
+   "req:0"
+  ],
+  "schema:source_type_alipay": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:source_type_au_becs_debit": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:source_type_bancontact": [
+   "props:6",
+   "req:0"
+  ],
+  "schema:source_type_card": [
+   "props:14",
+   "req:0"
+  ],
+  "schema:source_type_card_present": [
+   "props:23",
+   "req:0"
+  ],
+  "schema:source_type_eps": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:source_type_giropay": [
+   "props:4",
+   "req:0"
+  ],
+  "schema:source_type_ideal": [
+   "props:4",
+   "req:0"
+  ],
+  "schema:source_type_klarna": [
+   "props:26",
+   "req:0"
+  ],
+  "schema:source_type_multibanco": [
+   "props:10",
+   "req:0"
+  ],
+  "schema:source_type_p24": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:source_type_sepa_debit": [
+   "props:7",
+   "req:0"
+  ],
+  "schema:source_type_sofort": [
+   "props:7",
+   "req:0"
+  ],
+  "schema:source_type_three_d_secure": [
+   "props:17",
+   "req:0"
+  ],
+  "schema:source_type_wechat": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:stackable_discount_with_discount_settings": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:stackable_discount_with_discount_settings_and_discount_end": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:subscription": [
+   "props:48",
+   "req:18"
+  ],
+  "schema:subscription_automatic_tax": [
+   "props:3",
+   "req:1"
+  ],
+  "schema:subscription_billing_thresholds": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:subscription_item": [
+   "props:13",
+   "req:9"
+  ],
+  "schema:subscription_item_billing_thresholds": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:subscription_payment_method_options_card": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:subscription_payment_method_options_mandate_options_pix": [
+   "props:4",
+   "req:0"
+  ],
+  "schema:subscription_payment_method_options_pix": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:subscription_pending_invoice_item_interval": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:subscription_schedule": [
+   "props:20",
+   "req:10"
+  ],
+  "schema:subscription_schedule_add_invoice_item": [
+   "props:7",
+   "req:3"
+  ],
+  "schema:subscription_schedule_add_invoice_item_period": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:subscription_schedule_configuration_item": [
+   "props:6",
+   "req:2"
+  ],
+  "schema:subscription_schedule_current_phase": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:subscription_schedule_phase_configuration": [
+   "props:21",
+   "req:7"
+  ],
+  "schema:subscription_schedules_resource_default_settings": [
+   "props:10",
+   "req:2"
+  ],
+  "schema:subscription_schedules_resource_default_settings_automatic_tax": [
+   "props:3",
+   "req:1"
+  ],
+  "schema:subscription_schedules_resource_invoice_item_period_resource_period_end": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:subscription_schedules_resource_invoice_item_period_resource_period_start": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:subscription_transfer_data": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:subscriptions_resource_billing_cycle_anchor_config": [
+   "props:5",
+   "req:1"
+  ],
+  "schema:subscriptions_resource_billing_mode": [
+   "props:3",
+   "req:1"
+  ],
+  "schema:subscriptions_resource_billing_mode_flexible": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:subscriptions_resource_billing_schedules": [
+   "props:3",
+   "req:2"
+  ],
+  "schema:subscriptions_resource_billing_schedules_applies_to": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:subscriptions_resource_billing_schedules_bill_until": [
+   "props:4",
+   "req:2"
+  ],
+  "schema:subscriptions_resource_billing_schedules_bill_until_duration": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:subscriptions_resource_pause_collection": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:subscriptions_resource_payment_method_options": [
+   "props:10",
+   "req:0"
+  ],
+  "schema:subscriptions_resource_payment_settings": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:subscriptions_resource_pending_update": [
+   "props:8",
+   "req:1"
+  ],
+  "schema:subscriptions_resource_subscription_invoice_settings": [
+   "props:5",
+   "req:1"
+  ],
+  "schema:subscriptions_resource_subscription_presentment_details": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:subscriptions_resource_trial_settings_end_behavior": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:subscriptions_resource_trial_settings_trial_settings": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:subscriptions_trials_resource_end_behavior": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:subscriptions_trials_resource_trial_settings": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:tax.association": [
+   "props:5",
+   "req:4"
+  ],
+  "schema:tax.calculation": [
+   "props:15",
+   "req:9"
+  ],
+  "schema:tax.calculation_line_item": [
+   "props:12",
+   "req:9"
+  ],
+  "schema:tax.registration": [
+   "props:9",
+   "req:8"
+  ],
+  "schema:tax.settings": [
+   "props:6",
+   "req:5"
+  ],
+  "schema:tax.transaction": [
+   "props:16",
+   "req:10"
+  ],
+  "schema:tax.transaction_line_item": [
+   "props:13",
+   "req:10"
+  ],
+  "schema:tax_code": [
+   "props:4",
+   "req:4"
+  ],
+  "schema:tax_deducted_at_source": [
+   "props:5",
+   "req:5"
+  ],
+  "schema:tax_i_ds_owner": [
+   "props:5",
+   "req:1"
+  ],
+  "schema:tax_id": [
+   "props:11",
+   "req:6"
+  ],
+  "schema:tax_id_verification": [
+   "props:3",
+   "req:1"
+  ],
+  "schema:tax_product_registrations_resource_country_options": [
+   "props:101",
+   "req:0"
+  ],
+  "schema:tax_product_registrations_resource_country_options_ca_province_standard": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:tax_product_registrations_resource_country_options_canada": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:tax_product_registrations_resource_country_options_default": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:tax_product_registrations_resource_country_options_default_inbound_goods": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:tax_product_registrations_resource_country_options_default_standard": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:tax_product_registrations_resource_country_options_eu_standard": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:tax_product_registrations_resource_country_options_europe": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:tax_product_registrations_resource_country_options_simplified": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:tax_product_registrations_resource_country_options_thailand": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:tax_product_registrations_resource_country_options_united_states": [
+   "props:7",
+   "req:2"
+  ],
+  "schema:tax_product_registrations_resource_country_options_us_local_amusement_tax": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:tax_product_registrations_resource_country_options_us_local_lease_tax": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:tax_product_registrations_resource_country_options_us_mass_transit_parking_tax": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:tax_product_registrations_resource_country_options_us_parking_tax": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:tax_product_registrations_resource_country_options_us_state_sales_tax": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:tax_product_registrations_resource_country_options_us_state_sales_tax_election": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:tax_product_resource_customer_details": [
+   "props:5",
+   "req:2"
+  ],
+  "schema:tax_product_resource_customer_details_resource_tax_id": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:tax_product_resource_jurisdiction": [
+   "props:4",
+   "req:3"
+  ],
+  "schema:tax_product_resource_line_item_tax_breakdown": [
+   "props:6",
+   "req:5"
+  ],
+  "schema:tax_product_resource_line_item_tax_rate_details": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:tax_product_resource_postal_address": [
+   "props:6",
+   "req:1"
+  ],
+  "schema:tax_product_resource_ship_from_details": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:tax_product_resource_tax_association_transaction_attempts": [
+   "props:4",
+   "req:2"
+  ],
+  "schema:tax_product_resource_tax_association_transaction_attempts_resource_committed": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:tax_product_resource_tax_association_transaction_attempts_resource_errored": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:tax_product_resource_tax_breakdown": [
+   "props:5",
+   "req:5"
+  ],
+  "schema:tax_product_resource_tax_calculation_shipping_cost": [
+   "props:6",
+   "req:4"
+  ],
+  "schema:tax_product_resource_tax_rate_details": [
+   "props:6",
+   "req:1"
+  ],
+  "schema:tax_product_resource_tax_settings_defaults": [
+   "props:3",
+   "req:1"
+  ],
+  "schema:tax_product_resource_tax_settings_head_office": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:tax_product_resource_tax_settings_status_details": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:tax_product_resource_tax_settings_status_details_resource_active": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:tax_product_resource_tax_settings_status_details_resource_pending": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:tax_product_resource_tax_transaction_line_item_resource_reversal": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:tax_product_resource_tax_transaction_resource_reversal": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:tax_product_resource_tax_transaction_shipping_cost": [
+   "props:5",
+   "req:4"
+  ],
+  "schema:tax_rate": [
+   "props:18",
+   "req:8"
+  ],
+  "schema:tax_rate_flat_amount": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:terminal.configuration": [
+   "props:19",
+   "req:3"
+  ],
+  "schema:terminal.connection_token": [
+   "props:3",
+   "req:2"
+  ],
+  "schema:terminal.location": [
+   "props:12",
+   "req:6"
+  ],
+  "schema:terminal.onboarding_link": [
+   "props:5",
+   "req:4"
+  ],
+  "schema:terminal.reader": [
+   "props:13",
+   "req:7"
+  ],
+  "schema:terminal.refund": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:terminal_configuration_configuration_resource_cellular_config": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:terminal_configuration_configuration_resource_currency_specific_config": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:terminal_configuration_configuration_resource_device_type_specific_config": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:terminal_configuration_configuration_resource_enterprise_peap_wifi": [
+   "props:4",
+   "req:3"
+  ],
+  "schema:terminal_configuration_configuration_resource_enterprise_tls_wifi": [
+   "props:5",
+   "req:3"
+  ],
+  "schema:terminal_configuration_configuration_resource_offline_config": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:terminal_configuration_configuration_resource_personal_psk_wifi": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:terminal_configuration_configuration_resource_reboot_window": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:terminal_configuration_configuration_resource_tipping": [
+   "props:21",
+   "req:0"
+  ],
+  "schema:terminal_configuration_configuration_resource_wifi_config": [
+   "props:4",
+   "req:1"
+  ],
+  "schema:terminal_onboarding_link_apple_terms_and_conditions": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:terminal_onboarding_link_link_options": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:terminal_reader_reader_resource_cart": [
+   "props:4",
+   "req:3"
+  ],
+  "schema:terminal_reader_reader_resource_choice": [
+   "props:3",
+   "req:1"
+  ],
+  "schema:terminal_reader_reader_resource_collect_config": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:terminal_reader_reader_resource_collect_inputs_action": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:terminal_reader_reader_resource_collect_payment_method_action": [
+   "props:3",
+   "req:1"
+  ],
+  "schema:terminal_reader_reader_resource_confirm_config": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:terminal_reader_reader_resource_confirm_payment_intent_action": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:terminal_reader_reader_resource_custom_text": [
+   "props:4",
+   "req:0"
+  ],
+  "schema:terminal_reader_reader_resource_email": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:terminal_reader_reader_resource_file_metadata": [
+   "props:4",
+   "req:4"
+  ],
+  "schema:terminal_reader_reader_resource_input": [
+   "props:11",
+   "req:1"
+  ],
+  "schema:terminal_reader_reader_resource_line_item": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:terminal_reader_reader_resource_numeric": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:terminal_reader_reader_resource_phone": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:terminal_reader_reader_resource_print_content": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:terminal_reader_reader_resource_process_config": [
+   "props:4",
+   "req:0"
+  ],
+  "schema:terminal_reader_reader_resource_process_payment_intent_action": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:terminal_reader_reader_resource_process_setup_config": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:terminal_reader_reader_resource_process_setup_intent_action": [
+   "props:3",
+   "req:1"
+  ],
+  "schema:terminal_reader_reader_resource_reader_action": [
+   "props:13",
+   "req:2"
+  ],
+  "schema:terminal_reader_reader_resource_refund_payment_action": [
+   "props:9",
+   "req:0"
+  ],
+  "schema:terminal_reader_reader_resource_refund_payment_config": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:terminal_reader_reader_resource_selection": [
+   "props:3",
+   "req:1"
+  ],
+  "schema:terminal_reader_reader_resource_set_reader_display_action": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:terminal_reader_reader_resource_signature": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:terminal_reader_reader_resource_text": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:terminal_reader_reader_resource_tipping_config": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:terminal_reader_reader_resource_toggle": [
+   "props:4",
+   "req:0"
+  ],
+  "schema:test_helpers.test_clock": [
+   "props:9",
+   "req:8"
+  ],
+  "schema:three_d_secure_details": [
+   "props:6",
+   "req:0"
+  ],
+  "schema:three_d_secure_details_charge": [
+   "props:8",
+   "req:0"
+  ],
+  "schema:three_d_secure_usage": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:thresholds_resource_usage_alert_filter": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:thresholds_resource_usage_threshold_config": [
+   "props:4",
+   "req:3"
+  ],
+  "schema:token": [
+   "props:9",
+   "req:6"
+  ],
+  "schema:token_card_networks": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:topup": [
+   "props:19",
+   "req:8"
+  ],
+  "schema:topup_resource_payment_method_options": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:topup_resource_us_bank_account": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:transfer": [
+   "props:17",
+   "req:10"
+  ],
+  "schema:transfer_data": [
+   "props:5",
+   "req:1"
+  ],
+  "schema:transfer_reversal": [
+   "props:10",
+   "req:6"
+  ],
+  "schema:transfer_schedule": [
+   "props:6",
+   "req:2"
+  ],
+  "schema:transform_quantity": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:transform_usage": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:treasury.credit_reversal": [
+   "props:14",
+   "req:12"
+  ],
+  "schema:treasury.debit_reversal": [
+   "props:15",
+   "req:11"
+  ],
+  "schema:treasury.financial_account": [
+   "props:18",
+   "req:10"
+  ],
+  "schema:treasury.financial_account_features": [
+   "props:8",
+   "req:1"
+  ],
+  "schema:treasury.inbound_transfer": [
+   "props:20",
+   "req:13"
+  ],
+  "schema:treasury.outbound_payment": [
+   "props:22",
+   "req:14"
+  ],
+  "schema:treasury.outbound_transfer": [
+   "props:20",
+   "req:15"
+  ],
+  "schema:treasury.received_credit": [
+   "props:16",
+   "req:11"
+  ],
+  "schema:treasury.received_debit": [
+   "props:16",
+   "req:10"
+  ],
+  "schema:treasury.transaction": [
+   "props:15",
+   "req:12"
+  ],
+  "schema:treasury.transaction_entry": [
+   "props:13",
+   "req:11"
+  ],
+  "schema:treasury_financial_accounts_resource_aba_record": [
+   "props:5",
+   "req:4"
+  ],
+  "schema:treasury_financial_accounts_resource_aba_toggle_settings": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:treasury_financial_accounts_resource_balance": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:treasury_financial_accounts_resource_closed_status_details": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:treasury_financial_accounts_resource_financial_address": [
+   "props:3",
+   "req:1"
+  ],
+  "schema:treasury_financial_accounts_resource_financial_addresses_features": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:treasury_financial_accounts_resource_inbound_ach_toggle_settings": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:treasury_financial_accounts_resource_inbound_transfers": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:treasury_financial_accounts_resource_outbound_ach_toggle_settings": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:treasury_financial_accounts_resource_outbound_payments": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:treasury_financial_accounts_resource_outbound_transfers": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:treasury_financial_accounts_resource_platform_restrictions": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:treasury_financial_accounts_resource_status_details": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:treasury_financial_accounts_resource_toggle_settings": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:treasury_financial_accounts_resource_toggles_setting_status_details": [
+   "props:3",
+   "req:1"
+  ],
+  "schema:treasury_inbound_transfers_resource_failure_details": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:treasury_inbound_transfers_resource_inbound_transfer_resource_linked_flows": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:treasury_inbound_transfers_resource_inbound_transfer_resource_status_transitions": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:treasury_outbound_payments_resource_ach_tracking_details": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:treasury_outbound_payments_resource_outbound_payment_resource_end_user_details": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:treasury_outbound_payments_resource_outbound_payment_resource_status_transitions": [
+   "props:4",
+   "req:0"
+  ],
+  "schema:treasury_outbound_payments_resource_outbound_payment_resource_tracking_details": [
+   "props:3",
+   "req:1"
+  ],
+  "schema:treasury_outbound_payments_resource_returned_status": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:treasury_outbound_payments_resource_us_domestic_wire_tracking_details": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:treasury_outbound_transfers_resource_ach_tracking_details": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:treasury_outbound_transfers_resource_outbound_transfer_resource_tracking_details": [
+   "props:3",
+   "req:1"
+  ],
+  "schema:treasury_outbound_transfers_resource_returned_details": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:treasury_outbound_transfers_resource_status_transitions": [
+   "props:4",
+   "req:0"
+  ],
+  "schema:treasury_outbound_transfers_resource_us_domestic_wire_tracking_details": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:treasury_received_credits_resource_linked_flows": [
+   "props:6",
+   "req:0"
+  ],
+  "schema:treasury_received_credits_resource_reversal_details": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:treasury_received_credits_resource_source_flows_details": [
+   "props:5",
+   "req:1"
+  ],
+  "schema:treasury_received_credits_resource_status_transitions": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:treasury_received_debits_resource_debit_reversal_linked_flows": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:treasury_received_debits_resource_linked_flows": [
+   "props:6",
+   "req:0"
+  ],
+  "schema:treasury_received_debits_resource_reversal_details": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:treasury_received_debits_resource_status_transitions": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:treasury_shared_resource_billing_details": [
+   "props:3",
+   "req:1"
+  ],
+  "schema:treasury_shared_resource_initiating_payment_method_details_initiating_payment_method_details": [
+   "props:6",
+   "req:2"
+  ],
+  "schema:treasury_shared_resource_initiating_payment_method_details_us_bank_account": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:treasury_transactions_resource_abstract_transaction_resource_status_transitions": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:treasury_transactions_resource_balance_impact": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:treasury_transactions_resource_flow_details": [
+   "props:9",
+   "req:1"
+  ],
+  "schema:us_bank_account_networks": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:verification_session_redaction": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:webhook_endpoint": [
+   "props:12",
+   "req:8"
+  ]
+ },
+ "ts": "2026-08-18T23:23:51+00:00",
+ "url": "https://raw.githubusercontent.com/stripe/openapi/master/openapi/spec3.json",
+ "vendor": "Stripe"
+}

@@ -1,0 +1,28 @@
+{
+ "category": "reference",
+ "field_count": 5,
+ "first_seen": "2026-08-18T23:20:13+00:00",
+ "id": "restcountries-india",
+ "pending_keys": [],
+ "runs": 3,
+ "schema": {
+  "data": [
+   "null"
+  ],
+  "errors": [
+   "array"
+  ],
+  "errors[]": [
+   "object"
+  ],
+  "errors[].message": [
+   "string"
+  ],
+  "success": [
+   "boolean"
+  ]
+ },
+ "ts": "2026-08-18T23:23:51+00:00",
+ "url": "https://restcountries.com/v3.1/alpha/ind",
+ "vendor": "REST Countries"
+}

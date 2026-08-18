@@ -1,0 +1,6974 @@
+{
+ "category": "spec",
+ "field_count": 1709,
+ "first_seen": "2026-08-18T23:20:13+00:00",
+ "id": "spec-openai",
+ "pending_keys": [],
+ "runs": 3,
+ "schema": {
+  "DELETE /assistants/{assistant_id}": [
+   "DEPRECATED",
+   "params:1",
+   "responses:2"
+  ],
+  "DELETE /audio/voice_consents/{consent_id}": [
+   "params:1",
+   "responses:1"
+  ],
+  "DELETE /chat/completions/{completion_id}": [
+   "params:1",
+   "responses:1"
+  ],
+  "DELETE /chatkit/threads/{thread_id}": [
+   "params:1",
+   "responses:1"
+  ],
+  "DELETE /containers/{container_id}": [
+   "params:1",
+   "responses:2"
+  ],
+  "DELETE /containers/{container_id}/files/{file_id}": [
+   "params:2",
+   "responses:2"
+  ],
+  "DELETE /conversations/{conversation_id}": [
+   "params:1",
+   "responses:2"
+  ],
+  "DELETE /conversations/{conversation_id}/items/{item_id}": [
+   "params:2",
+   "responses:2"
+  ],
+  "DELETE /evals/{eval_id}": [
+   "params:1",
+   "responses:3"
+  ],
+  "DELETE /evals/{eval_id}/runs/{run_id}": [
+   "params:2",
+   "responses:3"
+  ],
+  "DELETE /files/{file_id}": [
+   "params:1",
+   "responses:1"
+  ],
+  "DELETE /fine_tuning/checkpoints/{fine_tuned_model_checkpoint}/permissions/{permission_id}": [
+   "params:2",
+   "responses:1"
+  ],
+  "DELETE /models/{model}": [
+   "params:1",
+   "responses:1"
+  ],
+  "DELETE /organization/admin_api_keys/{key_id}": [
+   "params:1",
+   "responses:1"
+  ],
+  "DELETE /organization/certificates/{certificate_id}": [
+   "params:1",
+   "responses:2"
+  ],
+  "DELETE /organization/groups/{group_id}": [
+   "params:1",
+   "responses:2"
+  ],
+  "DELETE /organization/groups/{group_id}/roles/{role_id}": [
+   "params:2",
+   "responses:2"
+  ],
+  "DELETE /organization/groups/{group_id}/users/{user_id}": [
+   "params:2",
+   "responses:2"
+  ],
+  "DELETE /organization/invites/{invite_id}": [
+   "params:1",
+   "responses:1"
+  ],
+  "DELETE /organization/projects/{project_id}/api_keys/{api_key_id}": [
+   "params:2",
+   "responses:2"
+  ],
+  "DELETE /organization/projects/{project_id}/groups/{group_id}": [
+   "params:2",
+   "responses:2"
+  ],
+  "DELETE /organization/projects/{project_id}/model_permissions": [
+   "params:1",
+   "responses:1"
+  ],
+  "DELETE /organization/projects/{project_id}/service_accounts/{service_account_id}": [
+   "params:2",
+   "responses:1"
+  ],
+  "DELETE /organization/projects/{project_id}/spend_alerts/{alert_id}": [
+   "params:2",
+   "responses:1"
+  ],
+  "DELETE /organization/projects/{project_id}/spend_limit": [
+   "params:1",
+   "responses:1"
+  ],
+  "DELETE /organization/projects/{project_id}/users/{user_id}": [
+   "params:2",
+   "responses:2"
+  ],
+  "DELETE /organization/roles/{role_id}": [
+   "params:1",
+   "responses:2"
+  ],
+  "DELETE /organization/spend_alerts/{alert_id}": [
+   "params:1",
+   "responses:1"
+  ],
+  "DELETE /organization/spend_limit": [
+   "params:0",
+   "responses:1"
+  ],
+  "DELETE /organization/users/{user_id}": [
+   "params:1",
+   "responses:1"
+  ],
+  "DELETE /organization/users/{user_id}/roles/{role_id}": [
+   "params:2",
+   "responses:2"
+  ],
+  "DELETE /projects/{project_id}/groups/{group_id}/roles/{role_id}": [
+   "params:3",
+   "responses:2"
+  ],
+  "DELETE /projects/{project_id}/roles/{role_id}": [
+   "params:2",
+   "responses:2"
+  ],
+  "DELETE /projects/{project_id}/users/{user_id}/roles/{role_id}": [
+   "params:3",
+   "responses:2"
+  ],
+  "DELETE /responses/{response_id}": [
+   "params:1",
+   "responses:3"
+  ],
+  "DELETE /responses/{response_id}?beta=true": [
+   "params:2",
+   "responses:3"
+  ],
+  "DELETE /skills/{skill_id}": [
+   "params:1",
+   "responses:2"
+  ],
+  "DELETE /skills/{skill_id}/versions/{version}": [
+   "params:2",
+   "responses:2"
+  ],
+  "DELETE /threads/{thread_id}": [
+   "params:1",
+   "responses:2"
+  ],
+  "DELETE /threads/{thread_id}/messages/{message_id}": [
+   "params:2",
+   "responses:2"
+  ],
+  "DELETE /vector_stores/{vector_store_id}": [
+   "params:1",
+   "responses:2"
+  ],
+  "DELETE /vector_stores/{vector_store_id}/files/{file_id}": [
+   "params:2",
+   "responses:2"
+  ],
+  "DELETE /videos/{video_id}": [
+   "DEPRECATED",
+   "params:1",
+   "responses:1"
+  ],
+  "GET /assistants": [
+   "DEPRECATED",
+   "params:4",
+   "responses:2"
+  ],
+  "GET /assistants/{assistant_id}": [
+   "DEPRECATED",
+   "params:1",
+   "responses:2"
+  ],
+  "GET /audio/voice_consents": [
+   "params:2",
+   "responses:1"
+  ],
+  "GET /audio/voice_consents/{consent_id}": [
+   "params:1",
+   "responses:1"
+  ],
+  "GET /batches": [
+   "params:2",
+   "responses:1"
+  ],
+  "GET /batches/{batch_id}": [
+   "params:1",
+   "responses:1"
+  ],
+  "GET /chat/completions": [
+   "params:5",
+   "responses:1"
+  ],
+  "GET /chat/completions/{completion_id}": [
+   "params:1",
+   "responses:1"
+  ],
+  "GET /chat/completions/{completion_id}/messages": [
+   "params:4",
+   "responses:1"
+  ],
+  "GET /chatkit/threads": [
+   "params:5",
+   "responses:1"
+  ],
+  "GET /chatkit/threads/{thread_id}": [
+   "params:1",
+   "responses:1"
+  ],
+  "GET /chatkit/threads/{thread_id}/items": [
+   "params:5",
+   "responses:1"
+  ],
+  "GET /containers": [
+   "params:4",
+   "responses:2"
+  ],
+  "GET /containers/{container_id}": [
+   "params:1",
+   "responses:2"
+  ],
+  "GET /containers/{container_id}/files": [
+   "params:4",
+   "responses:2"
+  ],
+  "GET /containers/{container_id}/files/{file_id}": [
+   "params:2",
+   "responses:2"
+  ],
+  "GET /containers/{container_id}/files/{file_id}/content": [
+   "params:2",
+   "responses:2"
+  ],
+  "GET /conversations/{conversation_id}": [
+   "params:1",
+   "responses:2"
+  ],
+  "GET /conversations/{conversation_id}/items": [
+   "params:5",
+   "responses:2"
+  ],
+  "GET /conversations/{conversation_id}/items/{item_id}": [
+   "params:3",
+   "responses:2"
+  ],
+  "GET /evals": [
+   "params:4",
+   "responses:2"
+  ],
+  "GET /evals/{eval_id}": [
+   "params:1",
+   "responses:2"
+  ],
+  "GET /evals/{eval_id}/runs": [
+   "params:5",
+   "responses:2"
+  ],
+  "GET /evals/{eval_id}/runs/{run_id}": [
+   "params:2",
+   "responses:2"
+  ],
+  "GET /evals/{eval_id}/runs/{run_id}/output_items": [
+   "params:6",
+   "responses:2"
+  ],
+  "GET /evals/{eval_id}/runs/{run_id}/output_items/{output_item_id}": [
+   "params:3",
+   "responses:2"
+  ],
+  "GET /files": [
+   "params:4",
+   "responses:1"
+  ],
+  "GET /files/{file_id}": [
+   "params:1",
+   "responses:1"
+  ],
+  "GET /files/{file_id}/content": [
+   "params:1",
+   "responses:1"
+  ],
+  "GET /fine_tuning/checkpoints/{fine_tuned_model_checkpoint}/permissions": [
+   "params:5",
+   "responses:1"
+  ],
+  "GET /fine_tuning/jobs": [
+   "params:3",
+   "responses:1"
+  ],
+  "GET /fine_tuning/jobs/{fine_tuning_job_id}": [
+   "params:1",
+   "responses:1"
+  ],
+  "GET /fine_tuning/jobs/{fine_tuning_job_id}/checkpoints": [
+   "params:3",
+   "responses:1"
+  ],
+  "GET /fine_tuning/jobs/{fine_tuning_job_id}/events": [
+   "params:3",
+   "responses:1"
+  ],
+  "GET /models": [
+   "params:0",
+   "responses:1"
+  ],
+  "GET /models/{model}": [
+   "params:1",
+   "responses:1"
+  ],
+  "GET /organization/admin_api_keys": [
+   "params:3",
+   "responses:1"
+  ],
+  "GET /organization/admin_api_keys/{key_id}": [
+   "params:1",
+   "responses:1"
+  ],
+  "GET /organization/audit_logs": [
+   "params:10",
+   "responses:2"
+  ],
+  "GET /organization/certificates": [
+   "params:3",
+   "responses:2"
+  ],
+  "GET /organization/certificates/{certificate_id}": [
+   "params:2",
+   "responses:2"
+  ],
+  "GET /organization/costs": [
+   "params:8",
+   "responses:2"
+  ],
+  "GET /organization/data_retention": [
+   "params:0",
+   "responses:1"
+  ],
+  "GET /organization/groups": [
+   "params:3",
+   "responses:2"
+  ],
+  "GET /organization/groups/{group_id}": [
+   "params:1",
+   "responses:2"
+  ],
+  "GET /organization/groups/{group_id}/roles": [
+   "params:4",
+   "responses:2"
+  ],
+  "GET /organization/groups/{group_id}/roles/{role_id}": [
+   "params:2",
+   "responses:2"
+  ],
+  "GET /organization/groups/{group_id}/users": [
+   "params:4",
+   "responses:2"
+  ],
+  "GET /organization/groups/{group_id}/users/{user_id}": [
+   "params:2",
+   "responses:2"
+  ],
+  "GET /organization/invites": [
+   "params:2",
+   "responses:1"
+  ],
+  "GET /organization/invites/{invite_id}": [
+   "params:1",
+   "responses:1"
+  ],
+  "GET /organization/projects": [
+   "params:3",
+   "responses:1"
+  ],
+  "GET /organization/projects/{project_id}": [
+   "params:1",
+   "responses:1"
+  ],
+  "GET /organization/projects/{project_id}/api_keys": [
+   "params:4",
+   "responses:1"
+  ],
+  "GET /organization/projects/{project_id}/api_keys/{api_key_id}": [
+   "params:2",
+   "responses:1"
+  ],
+  "GET /organization/projects/{project_id}/certificates": [
+   "params:4",
+   "responses:2"
+  ],
+  "GET /organization/projects/{project_id}/data_retention": [
+   "params:1",
+   "responses:1"
+  ],
+  "GET /organization/projects/{project_id}/groups": [
+   "params:4",
+   "responses:2"
+  ],
+  "GET /organization/projects/{project_id}/groups/{group_id}": [
+   "params:3",
+   "responses:2"
+  ],
+  "GET /organization/projects/{project_id}/hosted_tool_permissions": [
+   "params:1",
+   "responses:1"
+  ],
+  "GET /organization/projects/{project_id}/model_permissions": [
+   "params:1",
+   "responses:1"
+  ],
+  "GET /organization/projects/{project_id}/rate_limits": [
+   "params:4",
+   "responses:1"
+  ],
+  "GET /organization/projects/{project_id}/service_accounts": [
+   "params:3",
+   "responses:2"
+  ],
+  "GET /organization/projects/{project_id}/service_accounts/{service_account_id}": [
+   "params:2",
+   "responses:1"
+  ],
+  "GET /organization/projects/{project_id}/spend_alerts": [
+   "params:5",
+   "responses:1"
+  ],
+  "GET /organization/projects/{project_id}/spend_alerts/{alert_id}": [
+   "params:2",
+   "responses:1"
+  ],
+  "GET /organization/projects/{project_id}/spend_limit": [
+   "params:1",
+   "responses:1"
+  ],
+  "GET /organization/projects/{project_id}/users": [
+   "params:3",
+   "responses:2"
+  ],
+  "GET /organization/projects/{project_id}/users/{user_id}": [
+   "params:2",
+   "responses:1"
+  ],
+  "GET /organization/roles": [
+   "params:3",
+   "responses:2"
+  ],
+  "GET /organization/roles/{role_id}": [
+   "params:1",
+   "responses:2"
+  ],
+  "GET /organization/spend_alerts": [
+   "params:4",
+   "responses:1"
+  ],
+  "GET /organization/spend_alerts/{alert_id}": [
+   "params:1",
+   "responses:1"
+  ],
+  "GET /organization/spend_limit": [
+   "params:0",
+   "responses:1"
+  ],
+  "GET /organization/usage/audio_speeches": [
+   "params:10",
+   "responses:2"
+  ],
+  "GET /organization/usage/audio_transcriptions": [
+   "params:10",
+   "responses:2"
+  ],
+  "GET /organization/usage/code_interpreter_sessions": [
+   "params:7",
+   "responses:2"
+  ],
+  "GET /organization/usage/completions": [
+   "params:11",
+   "responses:2"
+  ],
+  "GET /organization/usage/embeddings": [
+   "params:10",
+   "responses:2"
+  ],
+  "GET /organization/usage/file_search_calls": [
+   "params:10",
+   "responses:2"
+  ],
+  "GET /organization/usage/images": [
+   "params:12",
+   "responses:2"
+  ],
+  "GET /organization/usage/moderations": [
+   "params:10",
+   "responses:2"
+  ],
+  "GET /organization/usage/vector_stores": [
+   "params:7",
+   "responses:2"
+  ],
+  "GET /organization/usage/web_search_calls": [
+   "params:11",
+   "responses:2"
+  ],
+  "GET /organization/users": [
+   "params:3",
+   "responses:1"
+  ],
+  "GET /organization/users/{user_id}": [
+   "params:1",
+   "responses:1"
+  ],
+  "GET /organization/users/{user_id}/roles": [
+   "params:4",
+   "responses:2"
+  ],
+  "GET /organization/users/{user_id}/roles/{role_id}": [
+   "params:2",
+   "responses:2"
+  ],
+  "GET /projects/{project_id}/groups/{group_id}/roles": [
+   "params:5",
+   "responses:2"
+  ],
+  "GET /projects/{project_id}/groups/{group_id}/roles/{role_id}": [
+   "params:3",
+   "responses:2"
+  ],
+  "GET /projects/{project_id}/roles": [
+   "params:4",
+   "responses:2"
+  ],
+  "GET /projects/{project_id}/roles/{role_id}": [
+   "params:2",
+   "responses:2"
+  ],
+  "GET /projects/{project_id}/users/{user_id}/roles": [
+   "params:5",
+   "responses:2"
+  ],
+  "GET /projects/{project_id}/users/{user_id}/roles/{role_id}": [
+   "params:3",
+   "responses:2"
+  ],
+  "GET /responses/{response_id}": [
+   "params:5",
+   "responses:2"
+  ],
+  "GET /responses/{response_id}/input_items": [
+   "params:5",
+   "responses:2"
+  ],
+  "GET /responses/{response_id}/input_items?beta=true": [
+   "params:6",
+   "responses:2"
+  ],
+  "GET /responses/{response_id}?beta=true": [
+   "params:6",
+   "responses:2"
+  ],
+  "GET /skills": [
+   "params:3",
+   "responses:2"
+  ],
+  "GET /skills/{skill_id}": [
+   "params:1",
+   "responses:2"
+  ],
+  "GET /skills/{skill_id}/content": [
+   "params:1",
+   "responses:2"
+  ],
+  "GET /skills/{skill_id}/versions": [
+   "params:4",
+   "responses:2"
+  ],
+  "GET /skills/{skill_id}/versions/{version}": [
+   "params:2",
+   "responses:2"
+  ],
+  "GET /skills/{skill_id}/versions/{version}/content": [
+   "params:2",
+   "responses:2"
+  ],
+  "GET /threads/{thread_id}": [
+   "params:1",
+   "responses:2"
+  ],
+  "GET /threads/{thread_id}/messages": [
+   "params:6",
+   "responses:2"
+  ],
+  "GET /threads/{thread_id}/messages/{message_id}": [
+   "params:2",
+   "responses:2"
+  ],
+  "GET /threads/{thread_id}/runs": [
+   "params:5",
+   "responses:2"
+  ],
+  "GET /threads/{thread_id}/runs/{run_id}": [
+   "params:2",
+   "responses:2"
+  ],
+  "GET /threads/{thread_id}/runs/{run_id}/steps": [
+   "params:7",
+   "responses:2"
+  ],
+  "GET /threads/{thread_id}/runs/{run_id}/steps/{step_id}": [
+   "params:4",
+   "responses:2"
+  ],
+  "GET /vector_stores": [
+   "params:4",
+   "responses:2"
+  ],
+  "GET /vector_stores/{vector_store_id}": [
+   "params:1",
+   "responses:2"
+  ],
+  "GET /vector_stores/{vector_store_id}/file_batches/{batch_id}": [
+   "params:2",
+   "responses:2"
+  ],
+  "GET /vector_stores/{vector_store_id}/file_batches/{batch_id}/files": [
+   "params:7",
+   "responses:2"
+  ],
+  "GET /vector_stores/{vector_store_id}/files": [
+   "params:6",
+   "responses:2"
+  ],
+  "GET /vector_stores/{vector_store_id}/files/{file_id}": [
+   "params:2",
+   "responses:2"
+  ],
+  "GET /vector_stores/{vector_store_id}/files/{file_id}/content": [
+   "params:2",
+   "responses:2"
+  ],
+  "GET /videos": [
+   "DEPRECATED",
+   "params:3",
+   "responses:1"
+  ],
+  "GET /videos/characters/{character_id}": [
+   "DEPRECATED",
+   "params:1",
+   "responses:1"
+  ],
+  "GET /videos/{video_id}": [
+   "DEPRECATED",
+   "params:1",
+   "responses:1"
+  ],
+  "GET /videos/{video_id}/content": [
+   "DEPRECATED",
+   "params:2",
+   "responses:1"
+  ],
+  "POST /assistants": [
+   "DEPRECATED",
+   "body",
+   "params:0",
+   "responses:2"
+  ],
+  "POST /assistants/{assistant_id}": [
+   "DEPRECATED",
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /audio/speech": [
+   "body",
+   "params:0",
+   "responses:2"
+  ],
+  "POST /audio/transcriptions": [
+   "body",
+   "params:0",
+   "responses:2"
+  ],
+  "POST /audio/translations": [
+   "body",
+   "params:0",
+   "responses:2"
+  ],
+  "POST /audio/voice_consents": [
+   "body",
+   "params:0",
+   "responses:1"
+  ],
+  "POST /audio/voice_consents/{consent_id}": [
+   "body",
+   "params:1",
+   "responses:1"
+  ],
+  "POST /audio/voices": [
+   "body",
+   "params:0",
+   "responses:1"
+  ],
+  "POST /batches": [
+   "body",
+   "params:0",
+   "responses:1"
+  ],
+  "POST /batches/{batch_id}/cancel": [
+   "params:1",
+   "responses:1"
+  ],
+  "POST /chat/completions": [
+   "body",
+   "params:0",
+   "responses:2"
+  ],
+  "POST /chat/completions/{completion_id}": [
+   "body",
+   "params:1",
+   "responses:1"
+  ],
+  "POST /chatkit/sessions": [
+   "body",
+   "params:0",
+   "responses:1"
+  ],
+  "POST /chatkit/sessions/{session_id}/cancel": [
+   "params:1",
+   "responses:1"
+  ],
+  "POST /completions": [
+   "body",
+   "params:0",
+   "responses:2"
+  ],
+  "POST /containers": [
+   "body",
+   "params:0",
+   "responses:2"
+  ],
+  "POST /containers/{container_id}/files": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /content_provenance_checks": [
+   "body",
+   "params:0",
+   "responses:2"
+  ],
+  "POST /conversations": [
+   "body",
+   "params:0",
+   "responses:2"
+  ],
+  "POST /conversations/{conversation_id}": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /conversations/{conversation_id}/items": [
+   "body",
+   "params:2",
+   "responses:2"
+  ],
+  "POST /embeddings": [
+   "body",
+   "params:0",
+   "responses:2"
+  ],
+  "POST /evals": [
+   "body",
+   "params:0",
+   "responses:2"
+  ],
+  "POST /evals/{eval_id}": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /evals/{eval_id}/runs": [
+   "body",
+   "params:1",
+   "responses:3"
+  ],
+  "POST /evals/{eval_id}/runs/{run_id}": [
+   "params:2",
+   "responses:2"
+  ],
+  "POST /files": [
+   "body",
+   "params:0",
+   "responses:1"
+  ],
+  "POST /fine_tuning/alpha/graders/run": [
+   "body",
+   "params:0",
+   "responses:1"
+  ],
+  "POST /fine_tuning/alpha/graders/validate": [
+   "body",
+   "params:0",
+   "responses:1"
+  ],
+  "POST /fine_tuning/checkpoints/{fine_tuned_model_checkpoint}/permissions": [
+   "body",
+   "params:1",
+   "responses:1"
+  ],
+  "POST /fine_tuning/jobs": [
+   "body",
+   "params:0",
+   "responses:1"
+  ],
+  "POST /fine_tuning/jobs/{fine_tuning_job_id}/cancel": [
+   "params:1",
+   "responses:1"
+  ],
+  "POST /fine_tuning/jobs/{fine_tuning_job_id}/pause": [
+   "params:1",
+   "responses:1"
+  ],
+  "POST /fine_tuning/jobs/{fine_tuning_job_id}/resume": [
+   "params:1",
+   "responses:1"
+  ],
+  "POST /images/edits": [
+   "body",
+   "params:0",
+   "responses:1"
+  ],
+  "POST /images/generations": [
+   "body",
+   "params:0",
+   "responses:1"
+  ],
+  "POST /images/variations": [
+   "body",
+   "params:0",
+   "responses:1"
+  ],
+  "POST /moderations": [
+   "body",
+   "params:0",
+   "responses:1"
+  ],
+  "POST /organization/admin_api_keys": [
+   "body",
+   "params:0",
+   "responses:1"
+  ],
+  "POST /organization/certificates": [
+   "body",
+   "params:0",
+   "responses:2"
+  ],
+  "POST /organization/certificates/activate": [
+   "body",
+   "params:0",
+   "responses:2"
+  ],
+  "POST /organization/certificates/deactivate": [
+   "body",
+   "params:0",
+   "responses:2"
+  ],
+  "POST /organization/certificates/{certificate_id}": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /organization/data_retention": [
+   "body",
+   "params:0",
+   "responses:1"
+  ],
+  "POST /organization/groups": [
+   "body",
+   "params:0",
+   "responses:2"
+  ],
+  "POST /organization/groups/{group_id}": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /organization/groups/{group_id}/roles": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /organization/groups/{group_id}/users": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /organization/invites": [
+   "body",
+   "params:0",
+   "responses:1"
+  ],
+  "POST /organization/projects": [
+   "body",
+   "params:0",
+   "responses:1"
+  ],
+  "POST /organization/projects/{project_id}": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /organization/projects/{project_id}/archive": [
+   "params:1",
+   "responses:1"
+  ],
+  "POST /organization/projects/{project_id}/certificates/activate": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /organization/projects/{project_id}/certificates/deactivate": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /organization/projects/{project_id}/data_retention": [
+   "body",
+   "params:1",
+   "responses:1"
+  ],
+  "POST /organization/projects/{project_id}/groups": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /organization/projects/{project_id}/hosted_tool_permissions": [
+   "body",
+   "params:1",
+   "responses:1"
+  ],
+  "POST /organization/projects/{project_id}/model_permissions": [
+   "body",
+   "params:1",
+   "responses:1"
+  ],
+  "POST /organization/projects/{project_id}/rate_limits/{rate_limit_id}": [
+   "body",
+   "params:2",
+   "responses:2"
+  ],
+  "POST /organization/projects/{project_id}/service_accounts": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /organization/projects/{project_id}/service_accounts/{service_account_id}": [
+   "body",
+   "params:2",
+   "responses:1"
+  ],
+  "POST /organization/projects/{project_id}/service_accounts/{service_account_id}/api_keys": [
+   "body",
+   "params:2",
+   "responses:1"
+  ],
+  "POST /organization/projects/{project_id}/spend_alerts": [
+   "body",
+   "params:1",
+   "responses:1"
+  ],
+  "POST /organization/projects/{project_id}/spend_alerts/{alert_id}": [
+   "body",
+   "params:2",
+   "responses:1"
+  ],
+  "POST /organization/projects/{project_id}/spend_limit": [
+   "body",
+   "params:1",
+   "responses:1"
+  ],
+  "POST /organization/projects/{project_id}/users": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /organization/projects/{project_id}/users/{user_id}": [
+   "body",
+   "params:2",
+   "responses:2"
+  ],
+  "POST /organization/roles": [
+   "body",
+   "params:0",
+   "responses:2"
+  ],
+  "POST /organization/roles/{role_id}": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /organization/spend_alerts": [
+   "body",
+   "params:0",
+   "responses:1"
+  ],
+  "POST /organization/spend_alerts/{alert_id}": [
+   "body",
+   "params:1",
+   "responses:1"
+  ],
+  "POST /organization/spend_limit": [
+   "body",
+   "params:0",
+   "responses:1"
+  ],
+  "POST /organization/users/{user_id}": [
+   "body",
+   "params:1",
+   "responses:1"
+  ],
+  "POST /organization/users/{user_id}/roles": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /projects/{project_id}/groups/{group_id}/roles": [
+   "body",
+   "params:2",
+   "responses:2"
+  ],
+  "POST /projects/{project_id}/roles": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /projects/{project_id}/roles/{role_id}": [
+   "body",
+   "params:2",
+   "responses:2"
+  ],
+  "POST /projects/{project_id}/users/{user_id}/roles": [
+   "body",
+   "params:2",
+   "responses:2"
+  ],
+  "POST /realtime/calls": [
+   "body",
+   "params:0",
+   "responses:1"
+  ],
+  "POST /realtime/calls/{call_id}/accept": [
+   "body",
+   "params:1",
+   "responses:1"
+  ],
+  "POST /realtime/calls/{call_id}/hangup": [
+   "params:1",
+   "responses:1"
+  ],
+  "POST /realtime/calls/{call_id}/refer": [
+   "body",
+   "params:1",
+   "responses:1"
+  ],
+  "POST /realtime/calls/{call_id}/reject": [
+   "body",
+   "params:1",
+   "responses:1"
+  ],
+  "POST /realtime/client_secrets": [
+   "body",
+   "params:0",
+   "responses:1"
+  ],
+  "POST /realtime/sessions": [
+   "body",
+   "params:0",
+   "responses:1"
+  ],
+  "POST /realtime/transcription_sessions": [
+   "body",
+   "params:0",
+   "responses:1"
+  ],
+  "POST /realtime/translations/client_secrets": [
+   "body",
+   "params:0",
+   "responses:1"
+  ],
+  "POST /responses": [
+   "body",
+   "params:0",
+   "responses:2"
+  ],
+  "POST /responses/compact": [
+   "body",
+   "params:0",
+   "responses:2"
+  ],
+  "POST /responses/compact?beta=true": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /responses/input_tokens": [
+   "body",
+   "params:0",
+   "responses:2"
+  ],
+  "POST /responses/input_tokens?beta=true": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /responses/{response_id}/cancel": [
+   "params:1",
+   "responses:3"
+  ],
+  "POST /responses/{response_id}/cancel?beta=true": [
+   "params:2",
+   "responses:3"
+  ],
+  "POST /responses?beta=true": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /skills": [
+   "body",
+   "params:0",
+   "responses:2"
+  ],
+  "POST /skills/{skill_id}": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /skills/{skill_id}/versions": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /threads": [
+   "body",
+   "params:0",
+   "responses:2"
+  ],
+  "POST /threads/runs": [
+   "body",
+   "params:0",
+   "responses:2"
+  ],
+  "POST /threads/{thread_id}": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /threads/{thread_id}/messages": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /threads/{thread_id}/messages/{message_id}": [
+   "body",
+   "params:2",
+   "responses:2"
+  ],
+  "POST /threads/{thread_id}/runs": [
+   "body",
+   "params:2",
+   "responses:2"
+  ],
+  "POST /threads/{thread_id}/runs/{run_id}": [
+   "body",
+   "params:2",
+   "responses:2"
+  ],
+  "POST /threads/{thread_id}/runs/{run_id}/cancel": [
+   "params:2",
+   "responses:2"
+  ],
+  "POST /threads/{thread_id}/runs/{run_id}/submit_tool_outputs": [
+   "body",
+   "params:2",
+   "responses:2"
+  ],
+  "POST /uploads": [
+   "body",
+   "params:0",
+   "responses:1"
+  ],
+  "POST /uploads/{upload_id}/cancel": [
+   "params:1",
+   "responses:1"
+  ],
+  "POST /uploads/{upload_id}/complete": [
+   "body",
+   "params:1",
+   "responses:1"
+  ],
+  "POST /uploads/{upload_id}/parts": [
+   "body",
+   "params:1",
+   "responses:1"
+  ],
+  "POST /vector_stores": [
+   "body",
+   "params:0",
+   "responses:2"
+  ],
+  "POST /vector_stores/{vector_store_id}": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /vector_stores/{vector_store_id}/file_batches": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /vector_stores/{vector_store_id}/file_batches/{batch_id}/cancel": [
+   "params:2",
+   "responses:2"
+  ],
+  "POST /vector_stores/{vector_store_id}/files": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /vector_stores/{vector_store_id}/files/{file_id}": [
+   "body",
+   "params:2",
+   "responses:2"
+  ],
+  "POST /vector_stores/{vector_store_id}/search": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /videos": [
+   "DEPRECATED",
+   "body",
+   "params:0",
+   "responses:1"
+  ],
+  "POST /videos/characters": [
+   "DEPRECATED",
+   "body",
+   "params:0",
+   "responses:1"
+  ],
+  "POST /videos/edits": [
+   "DEPRECATED",
+   "body",
+   "params:0",
+   "responses:1"
+  ],
+  "POST /videos/extensions": [
+   "DEPRECATED",
+   "body",
+   "params:0",
+   "responses:1"
+  ],
+  "POST /videos/{video_id}/remix": [
+   "DEPRECATED",
+   "body",
+   "params:1",
+   "responses:1"
+  ],
+  "schema:ActiveStatus": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:AddUploadPartRequest": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:AdditionalTools": [
+   "props:4",
+   "req:4"
+  ],
+  "schema:AdditionalToolsItemParam": [
+   "props:4",
+   "req:3"
+  ],
+  "schema:AdminApiKey": [
+   "props:8",
+   "req:6"
+  ],
+  "schema:AdminApiKeyCreateResponse": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:Annotation": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:ApiKeyList": [
+   "props:5",
+   "req:3"
+  ],
+  "schema:ApplyPatchCallOutputStatus": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:ApplyPatchCallOutputStatusParam": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:ApplyPatchCallStatus": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:ApplyPatchCallStatusParam": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:ApplyPatchCreateFileOperation": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:ApplyPatchCreateFileOperationParam": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:ApplyPatchDeleteFileOperation": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:ApplyPatchDeleteFileOperationParam": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:ApplyPatchOperationParam": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:ApplyPatchToolCall": [
+   "props:7",
+   "req:5"
+  ],
+  "schema:ApplyPatchToolCallItemParam": [
+   "props:6",
+   "req:4"
+  ],
+  "schema:ApplyPatchToolCallOutput": [
+   "props:7",
+   "req:4"
+  ],
+  "schema:ApplyPatchToolCallOutputItemParam": [
+   "props:6",
+   "req:3"
+  ],
+  "schema:ApplyPatchToolParam": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:ApplyPatchUpdateFileOperation": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:ApplyPatchUpdateFileOperationParam": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:ApproximateLocation": [
+   "props:5",
+   "req:1"
+  ],
+  "schema:AssignedRoleDetails": [
+   "props:12",
+   "req:12"
+  ],
+  "schema:AssistantMessageItem": [
+   "props:6",
+   "req:6"
+  ],
+  "schema:AssistantObject": [
+   "props:13",
+   "req:9"
+  ],
+  "schema:AssistantStreamEvent": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:AssistantSupportedModels": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:AssistantToolsCode": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:AssistantToolsFileSearch": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:AssistantToolsFileSearchTypeOnly": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:AssistantToolsFunction": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:AssistantsApiResponseFormatOption": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:AssistantsApiToolChoiceOption": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:AssistantsNamedToolChoice": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:Attachment": [
+   "props:5",
+   "req:5"
+  ],
+  "schema:AttachmentType": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:AudioResponseFormat": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:AudioTranscription": [
+   "props:6",
+   "req:0"
+  ],
+  "schema:AudioTranscriptionResponse": [
+   "props:4",
+   "req:0"
+  ],
+  "schema:AuditLog": [
+   "props:60",
+   "req:3"
+  ],
+  "schema:AuditLogActor": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:AuditLogActorApiKey": [
+   "props:4",
+   "req:0"
+  ],
+  "schema:AuditLogActorServiceAccount": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:AuditLogActorSession": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:AuditLogActorUser": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:AuditLogEventType": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:AutoChunkingStrategyRequestParam": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:AutoCodeInterpreterToolParam": [
+   "props:4",
+   "req:1"
+  ],
+  "schema:AutomaticThreadTitlingParam": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:Batch": [
+   "props:22",
+   "req:7"
+  ],
+  "schema:BatchError": [
+   "props:4",
+   "req:0"
+  ],
+  "schema:BatchFileExpirationAfter": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:BatchRequestCounts": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:BetaAdditionalTools": [
+   "props:5",
+   "req:4"
+  ],
+  "schema:BetaAdditionalToolsItemParam": [
+   "props:5",
+   "req:3"
+  ],
+  "schema:BetaAgentMessage": [
+   "props:6",
+   "req:5"
+  ],
+  "schema:BetaAgentMessageItemParam": [
+   "props:6",
+   "req:4"
+  ],
+  "schema:BetaAgentTag": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:BetaAnnotation": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:BetaApplyPatchCallOutputStatus": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:BetaApplyPatchCallOutputStatusParam": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:BetaApplyPatchCallStatus": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:BetaApplyPatchCallStatusParam": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:BetaApplyPatchCreateFileOperation": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:BetaApplyPatchCreateFileOperationParam": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:BetaApplyPatchDeleteFileOperation": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:BetaApplyPatchDeleteFileOperationParam": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:BetaApplyPatchOperationParam": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:BetaApplyPatchToolCall": [
+   "props:8",
+   "req:5"
+  ],
+  "schema:BetaApplyPatchToolCallItemParam": [
+   "props:7",
+   "req:4"
+  ],
+  "schema:BetaApplyPatchToolCallOutput": [
+   "props:8",
+   "req:4"
+  ],
+  "schema:BetaApplyPatchToolCallOutputItemParam": [
+   "props:7",
+   "req:3"
+  ],
+  "schema:BetaApplyPatchToolParam": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:BetaApplyPatchUpdateFileOperation": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:BetaApplyPatchUpdateFileOperationParam": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:BetaApproximateLocation": [
+   "props:5",
+   "req:1"
+  ],
+  "schema:BetaAutoCodeInterpreterToolParam": [
+   "props:4",
+   "req:1"
+  ],
+  "schema:BetaCallableToolAllowedCaller": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:BetaClickButtonType": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:BetaClickParam": [
+   "props:5",
+   "req:4"
+  ],
+  "schema:BetaCodeInterpreterOutputImage": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:BetaCodeInterpreterOutputLogs": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:BetaCodeInterpreterTool": [
+   "props:3",
+   "req:2"
+  ],
+  "schema:BetaCodeInterpreterToolCall": [
+   "props:7",
+   "req:6"
+  ],
+  "schema:BetaCompactResource": [
+   "props:5",
+   "req:5"
+  ],
+  "schema:BetaCompactResponseMethodPublicBody": [
+   "props:8",
+   "req:1"
+  ],
+  "schema:BetaCompactionBody": [
+   "props:5",
+   "req:3"
+  ],
+  "schema:BetaCompactionSummaryItemParam": [
+   "props:4",
+   "req:2"
+  ],
+  "schema:BetaCompactionTriggerItemParam": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:BetaComparisonFilter": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:BetaCompoundFilter": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:BetaComputerAction": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:BetaComputerActionList": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:BetaComputerCallOutputItemParam": [
+   "props:7",
+   "req:3"
+  ],
+  "schema:BetaComputerCallOutputStatus": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:BetaComputerCallSafetyCheckParam": [
+   "props:3",
+   "req:1"
+  ],
+  "schema:BetaComputerEnvironment": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:BetaComputerScreenshotContent": [
+   "props:5",
+   "req:4"
+  ],
+  "schema:BetaComputerScreenshotImage": [
+   "props:3",
+   "req:1"
+  ],
+  "schema:BetaComputerTool": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:BetaComputerToolCall": [
+   "props:8",
+   "req:5"
+  ],
+  "schema:BetaComputerToolCallOutput": [
+   "props:7",
+   "req:3"
+  ],
+  "schema:BetaComputerToolCallOutputResource": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:BetaComputerUsePreviewTool": [
+   "props:4",
+   "req:4"
+  ],
+  "schema:BetaContainerAutoParam": [
+   "props:5",
+   "req:1"
+  ],
+  "schema:BetaContainerFileCitationBody": [
+   "props:6",
+   "req:6"
+  ],
+  "schema:BetaContainerFileCitationParam": [
+   "props:6",
+   "req:6"
+  ],
+  "schema:BetaContainerMemoryLimit": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:BetaContainerNetworkPolicyAllowlistParam": [
+   "props:3",
+   "req:2"
+  ],
+  "schema:BetaContainerNetworkPolicyDisabledParam": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:BetaContainerNetworkPolicyDomainSecretParam": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:BetaContainerReferenceParam": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:BetaContainerReferenceResource": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:BetaContent": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:BetaContextManagementParam": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:BetaConversationParam": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:BetaConversationParam-2": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:BetaCoordParam": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:BetaCreateModelResponseProperties": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:BetaCreateResponse": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:BetaCustomGrammarFormatParam": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:BetaCustomTextFormatParam": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:BetaCustomToolCall": [
+   "props:8",
+   "req:4"
+  ],
+  "schema:BetaCustomToolCallOutput": [
+   "props:6",
+   "req:3"
+  ],
+  "schema:BetaCustomToolCallOutputResource": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:BetaCustomToolCallResource": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:BetaCustomToolParam": [
+   "props:6",
+   "req:2"
+  ],
+  "schema:BetaDetailEnum": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:BetaDirectToolCallCaller": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:BetaDirectToolCallCallerParam": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:BetaDoubleClickAction": [
+   "props:4",
+   "req:4"
+  ],
+  "schema:BetaDragParam": [
+   "props:3",
+   "req:2"
+  ],
+  "schema:BetaEasyInputMessage": [
+   "props:4",
+   "req:2"
+  ],
+  "schema:BetaEmptyModelParam": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:BetaEncryptedContent": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:BetaEncryptedContentParam": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:BetaError": [
+   "props:4",
+   "req:4"
+  ],
+  "schema:BetaErrorPayload": [
+   "props:5",
+   "req:4"
+  ],
+  "schema:BetaFileCitationBody": [
+   "props:4",
+   "req:4"
+  ],
+  "schema:BetaFileCitationParam": [
+   "props:4",
+   "req:4"
+  ],
+  "schema:BetaFileDetailEnum": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:BetaFileInputDetail": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:BetaFilePath": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:BetaFileSearchTool": [
+   "props:5",
+   "req:2"
+  ],
+  "schema:BetaFileSearchToolCall": [
+   "props:6",
+   "req:4"
+  ],
+  "schema:BetaFilters": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:BetaFunctionAndCustomToolCallOutput": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:BetaFunctionCallItemStatus": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:BetaFunctionCallOutputItemParam": [
+   "props:9",
+   "req:2"
+  ],
+  "schema:BetaFunctionCallOutputStatusEnum": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:BetaFunctionCallStatus": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:BetaFunctionShellAction": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:BetaFunctionShellActionParam": [
+   "props:3",
+   "req:1"
+  ],
+  "schema:BetaFunctionShellCall": [
+   "props:9",
+   "req:6"
+  ],
+  "schema:BetaFunctionShellCallItemParam": [
+   "props:8",
+   "req:3"
+  ],
+  "schema:BetaFunctionShellCallItemStatus": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:BetaFunctionShellCallOutput": [
+   "props:9",
+   "req:6"
+  ],
+  "schema:BetaFunctionShellCallOutputContent": [
+   "props:4",
+   "req:3"
+  ],
+  "schema:BetaFunctionShellCallOutputContentParam": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:BetaFunctionShellCallOutputExitOutcome": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:BetaFunctionShellCallOutputExitOutcomeParam": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:BetaFunctionShellCallOutputItemParam": [
+   "props:8",
+   "req:3"
+  ],
+  "schema:BetaFunctionShellCallOutputOutcomeParam": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:BetaFunctionShellCallOutputStatusEnum": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:BetaFunctionShellCallOutputTimeoutOutcome": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:BetaFunctionShellCallOutputTimeoutOutcomeParam": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:BetaFunctionShellCallStatus": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:BetaFunctionShellToolParam": [
+   "props:3",
+   "req:1"
+  ],
+  "schema:BetaFunctionTool": [
+   "props:8",
+   "req:4"
+  ],
+  "schema:BetaFunctionToolCall": [
+   "props:9",
+   "req:4"
+  ],
+  "schema:BetaFunctionToolCallOutput": [
+   "props:9",
+   "req:2"
+  ],
+  "schema:BetaFunctionToolCallOutputResource": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:BetaFunctionToolCallResource": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:BetaFunctionToolParam": [
+   "props:8",
+   "req:2"
+  ],
+  "schema:BetaGrammarSyntax1": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:BetaHTTPError": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:BetaHybridSearchOptions": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:BetaImageDetail": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:BetaImageGenActionEnum": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:BetaImageGenTool": [
+   "props:12",
+   "req:1"
+  ],
+  "schema:BetaImageGenToolCall": [
+   "props:5",
+   "req:4"
+  ],
+  "schema:BetaIncludeEnum": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:BetaInlineSkillParam": [
+   "props:4",
+   "req:4"
+  ],
+  "schema:BetaInlineSkillSourceParam": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:BetaInputAudio": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:BetaInputContent": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:BetaInputFidelity": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:BetaInputFileContent": [
+   "props:7",
+   "req:1"
+  ],
+  "schema:BetaInputFileContentParam": [
+   "props:7",
+   "req:1"
+  ],
+  "schema:BetaInputImageContent": [
+   "props:5",
+   "req:2"
+  ],
+  "schema:BetaInputImageContentParamAutoParam": [
+   "props:5",
+   "req:1"
+  ],
+  "schema:BetaInputItem": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:BetaInputMessage": [
+   "props:5",
+   "req:2"
+  ],
+  "schema:BetaInputMessageContentList": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:BetaInputMessageResource": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:BetaInputParam": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:BetaInputTextContent": [
+   "props:3",
+   "req:2"
+  ],
+  "schema:BetaInputTextContentParam": [
+   "props:3",
+   "req:2"
+  ],
+  "schema:BetaItem": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:BetaItemField": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:BetaItemReferenceParam": [
+   "props:3",
+   "req:1"
+  ],
+  "schema:BetaItemResource": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:BetaKeyPressAction": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:BetaLocalEnvironmentParam": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:BetaLocalEnvironmentResource": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:BetaLocalShellExecAction": [
+   "props:6",
+   "req:3"
+  ],
+  "schema:BetaLocalShellToolCall": [
+   "props:6",
+   "req:5"
+  ],
+  "schema:BetaLocalShellToolCallOutput": [
+   "props:5",
+   "req:4"
+  ],
+  "schema:BetaLocalShellToolParam": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:BetaLocalSkillParam": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:BetaLogProb": [
+   "props:4",
+   "req:4"
+  ],
+  "schema:BetaMCPApprovalRequest": [
+   "props:6",
+   "req:5"
+  ],
+  "schema:BetaMCPApprovalResponse": [
+   "props:6",
+   "req:4"
+  ],
+  "schema:BetaMCPApprovalResponseResource": [
+   "props:6",
+   "req:5"
+  ],
+  "schema:BetaMCPListTools": [
+   "props:6",
+   "req:4"
+  ],
+  "schema:BetaMCPListToolsTool": [
+   "props:4",
+   "req:2"
+  ],
+  "schema:BetaMCPProtocolError": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:BetaMCPTool": [
+   "props:12",
+   "req:2"
+  ],
+  "schema:BetaMCPToolCall": [
+   "props:10",
+   "req:5"
+  ],
+  "schema:BetaMCPToolCallError": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:BetaMCPToolCallStatus": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:BetaMCPToolExecutionError": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:BetaMCPToolFilter": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:BetaMessage": [
+   "props:7",
+   "req:5"
+  ],
+  "schema:BetaMessagePhase": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:BetaMessagePhase-2": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:BetaMessageRole": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:BetaMessageStatus": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:BetaMetadata": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:BetaModelIdsCompaction": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:BetaModelIdsResponses": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:BetaModelIdsShared": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:BetaModelResponseProperties": [
+   "props:8",
+   "req:0"
+  ],
+  "schema:BetaModeration": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:BetaModerationConfigParam": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:BetaModerationErrorBody": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:BetaModerationInputType": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:BetaModerationMode": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:BetaModerationParam": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:BetaModerationPolicyParam": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:BetaModerationResultBody": [
+   "props:6",
+   "req:6"
+  ],
+  "schema:BetaMoveParam": [
+   "props:4",
+   "req:3"
+  ],
+  "schema:BetaMultiAgentAction": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:BetaMultiAgentAction1": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:BetaMultiAgentCall": [
+   "props:6",
+   "req:5"
+  ],
+  "schema:BetaMultiAgentCallItemParam": [
+   "props:6",
+   "req:4"
+  ],
+  "schema:BetaMultiAgentCallOutput": [
+   "props:6",
+   "req:5"
+  ],
+  "schema:BetaMultiAgentCallOutputItemParam": [
+   "props:6",
+   "req:4"
+  ],
+  "schema:BetaMultiAgentParam": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:BetaNamespaceToolParam": [
+   "props:4",
+   "req:4"
+  ],
+  "schema:BetaOutputAudio": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:BetaOutputContent": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:BetaOutputItem": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:BetaOutputMessage": [
+   "props:7",
+   "req:5"
+  ],
+  "schema:BetaOutputMessageContent": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:BetaOutputTextContent": [
+   "props:4",
+   "req:4"
+  ],
+  "schema:BetaOutputTextContentParam": [
+   "props:3",
+   "req:2"
+  ],
+  "schema:BetaPersonalityEnum": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:BetaProgram": [
+   "props:6",
+   "req:5"
+  ],
+  "schema:BetaProgramItemParam": [
+   "props:6",
+   "req:5"
+  ],
+  "schema:BetaProgramOutput": [
+   "props:6",
+   "req:5"
+  ],
+  "schema:BetaProgramOutputItemParam": [
+   "props:6",
+   "req:5"
+  ],
+  "schema:BetaProgramOutputItemStatus": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:BetaProgramOutputStatus": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:BetaProgramToolCallCaller": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:BetaProgramToolCallCallerParam": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:BetaProgrammaticToolCallingParam": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:BetaPrompt": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:BetaPromptCacheBreakpointConfig": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:BetaPromptCacheBreakpointParam": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:BetaPromptCacheModeEnum": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:BetaPromptCacheOptions": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:BetaPromptCacheOptionsParam": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:BetaPromptCacheRetentionEnum": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:BetaPromptCacheTTLEnum": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:BetaRankerVersionType": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:BetaRankingOptions": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:BetaReasoning": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:BetaReasoningEffort": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:BetaReasoningItem": [
+   "props:7",
+   "req:3"
+  ],
+  "schema:BetaReasoningModeEnum": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:BetaReasoningTextContent": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:BetaRefusalContent": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:BetaResponse": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:BetaResponseAudioDeltaEvent": [
+   "props:4",
+   "req:3"
+  ],
+  "schema:BetaResponseAudioDoneEvent": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:BetaResponseAudioTranscriptDeltaEvent": [
+   "props:4",
+   "req:4"
+  ],
+  "schema:BetaResponseAudioTranscriptDoneEvent": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:BetaResponseCodeInterpreterCallCodeDeltaEvent": [
+   "props:6",
+   "req:5"
+  ],
+  "schema:BetaResponseCodeInterpreterCallCodeDoneEvent": [
+   "props:6",
+   "req:5"
+  ],
+  "schema:BetaResponseCodeInterpreterCallCompletedEvent": [
+   "props:5",
+   "req:4"
+  ],
+  "schema:BetaResponseCodeInterpreterCallInProgressEvent": [
+   "props:5",
+   "req:4"
+  ],
+  "schema:BetaResponseCodeInterpreterCallInterpretingEvent": [
+   "props:5",
+   "req:4"
+  ],
+  "schema:BetaResponseCompletedEvent": [
+   "props:4",
+   "req:3"
+  ],
+  "schema:BetaResponseContentPartAddedEvent": [
+   "props:7",
+   "req:6"
+  ],
+  "schema:BetaResponseContentPartDoneEvent": [
+   "props:7",
+   "req:6"
+  ],
+  "schema:BetaResponseConversation": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:BetaResponseCreatedEvent": [
+   "props:4",
+   "req:3"
+  ],
+  "schema:BetaResponseCustomToolCallInputDeltaEvent": [
+   "props:6",
+   "req:5"
+  ],
+  "schema:BetaResponseCustomToolCallInputDoneEvent": [
+   "props:6",
+   "req:5"
+  ],
+  "schema:BetaResponseError": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:BetaResponseErrorCode": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:BetaResponseErrorEvent": [
+   "props:6",
+   "req:5"
+  ],
+  "schema:BetaResponseFailedEvent": [
+   "props:4",
+   "req:3"
+  ],
+  "schema:BetaResponseFileSearchCallCompletedEvent": [
+   "props:5",
+   "req:4"
+  ],
+  "schema:BetaResponseFileSearchCallInProgressEvent": [
+   "props:5",
+   "req:4"
+  ],
+  "schema:BetaResponseFileSearchCallSearchingEvent": [
+   "props:5",
+   "req:4"
+  ],
+  "schema:BetaResponseFormatJsonObject": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:BetaResponseFormatJsonSchemaSchema": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:BetaResponseFormatText": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:BetaResponseFunctionCallArgumentsDeltaEvent": [
+   "props:6",
+   "req:5"
+  ],
+  "schema:BetaResponseFunctionCallArgumentsDoneEvent": [
+   "props:7",
+   "req:6"
+  ],
+  "schema:BetaResponseImageGenCallCompletedEvent": [
+   "props:5",
+   "req:4"
+  ],
+  "schema:BetaResponseImageGenCallGeneratingEvent": [
+   "props:5",
+   "req:4"
+  ],
+  "schema:BetaResponseImageGenCallInProgressEvent": [
+   "props:5",
+   "req:4"
+  ],
+  "schema:BetaResponseImageGenCallPartialImageEvent": [
+   "props:11",
+   "req:6"
+  ],
+  "schema:BetaResponseInProgressEvent": [
+   "props:4",
+   "req:3"
+  ],
+  "schema:BetaResponseIncompleteEvent": [
+   "props:4",
+   "req:3"
+  ],
+  "schema:BetaResponseInjectCreatedEvent": [
+   "props:4",
+   "req:3"
+  ],
+  "schema:BetaResponseInjectEvent": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:BetaResponseInjectFailedEvent": [
+   "props:6",
+   "req:5"
+  ],
+  "schema:BetaResponseItemList": [
+   "props:5",
+   "req:5"
+  ],
+  "schema:BetaResponseLogProb": [
+   "props:3",
+   "req:2"
+  ],
+  "schema:BetaResponseMCPCallArgumentsDeltaEvent": [
+   "props:6",
+   "req:5"
+  ],
+  "schema:BetaResponseMCPCallArgumentsDoneEvent": [
+   "props:6",
+   "req:5"
+  ],
+  "schema:BetaResponseMCPCallCompletedEvent": [
+   "props:5",
+   "req:4"
+  ],
+  "schema:BetaResponseMCPCallFailedEvent": [
+   "props:5",
+   "req:4"
+  ],
+  "schema:BetaResponseMCPCallInProgressEvent": [
+   "props:5",
+   "req:4"
+  ],
+  "schema:BetaResponseMCPListToolsCompletedEvent": [
+   "props:5",
+   "req:4"
+  ],
+  "schema:BetaResponseMCPListToolsFailedEvent": [
+   "props:5",
+   "req:4"
+  ],
+  "schema:BetaResponseMCPListToolsInProgressEvent": [
+   "props:5",
+   "req:4"
+  ],
+  "schema:BetaResponseOutputItemAddedEvent": [
+   "props:5",
+   "req:4"
+  ],
+  "schema:BetaResponseOutputItemDoneEvent": [
+   "props:5",
+   "req:4"
+  ],
+  "schema:BetaResponseOutputTextAnnotationAddedEvent": [
+   "props:8",
+   "req:7"
+  ],
+  "schema:BetaResponsePromptVariables": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:BetaResponseProperties": [
+   "props:8",
+   "req:0"
+  ],
+  "schema:BetaResponseQueuedEvent": [
+   "props:4",
+   "req:3"
+  ],
+  "schema:BetaResponseReasoningSummaryPartAddedEvent": [
+   "props:7",
+   "req:6"
+  ],
+  "schema:BetaResponseReasoningSummaryPartDoneEvent": [
+   "props:8",
+   "req:6"
+  ],
+  "schema:BetaResponseReasoningSummaryTextDeltaEvent": [
+   "props:7",
+   "req:6"
+  ],
+  "schema:BetaResponseReasoningSummaryTextDoneEvent": [
+   "props:7",
+   "req:6"
+  ],
+  "schema:BetaResponseReasoningTextDeltaEvent": [
+   "props:7",
+   "req:6"
+  ],
+  "schema:BetaResponseReasoningTextDoneEvent": [
+   "props:7",
+   "req:6"
+  ],
+  "schema:BetaResponseRefusalDeltaEvent": [
+   "props:7",
+   "req:6"
+  ],
+  "schema:BetaResponseRefusalDoneEvent": [
+   "props:7",
+   "req:6"
+  ],
+  "schema:BetaResponseShellCallCommandAddedStreamingEvent": [
+   "props:6",
+   "req:5"
+  ],
+  "schema:BetaResponseShellCallCommandDeltaStreamingEvent": [
+   "props:7",
+   "req:5"
+  ],
+  "schema:BetaResponseShellCallCommandDoneStreamingEvent": [
+   "props:6",
+   "req:5"
+  ],
+  "schema:BetaResponseShellCallOutputContentDeltaStreamingEvent": [
+   "props:7",
+   "req:6"
+  ],
+  "schema:BetaResponseShellCallOutputContentDoneStreamingEvent": [
+   "props:7",
+   "req:6"
+  ],
+  "schema:BetaResponseStreamEvent": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:BetaResponseStreamOptions": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:BetaResponseTextDeltaEvent": [
+   "props:8",
+   "req:7"
+  ],
+  "schema:BetaResponseTextDoneEvent": [
+   "props:8",
+   "req:7"
+  ],
+  "schema:BetaResponseTextParam": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:BetaResponseUsage": [
+   "props:5",
+   "req:5"
+  ],
+  "schema:BetaResponseWebSearchCallCompletedEvent": [
+   "props:5",
+   "req:4"
+  ],
+  "schema:BetaResponseWebSearchCallInProgressEvent": [
+   "props:5",
+   "req:4"
+  ],
+  "schema:BetaResponseWebSearchCallSearchingEvent": [
+   "props:5",
+   "req:4"
+  ],
+  "schema:BetaResponseWsError": [
+   "props:6",
+   "req:2"
+  ],
+  "schema:BetaResponsesClientEvent": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:BetaResponsesClientEventResponseCreate": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:BetaResponsesServerEvent": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:BetaResponsesWebSocketStreamEvent": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:BetaScreenshotParam": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:BetaScrollParam": [
+   "props:6",
+   "req:5"
+  ],
+  "schema:BetaSearchContentType": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:BetaSearchContextSize": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:BetaServiceTierEnum": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:BetaServiceTierResponses": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:BetaShellCallOutputDelta": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:BetaSkillReferenceParam": [
+   "props:3",
+   "req:2"
+  ],
+  "schema:BetaSpecificApplyPatchParam": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:BetaSpecificFunctionShellParam": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:BetaSpecificProgrammaticToolCallingParam": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:BetaSummaryTextContent": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:BetaTextContent": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:BetaTextResponseFormatConfiguration": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:BetaTextResponseFormatJsonSchema": [
+   "props:5",
+   "req:3"
+  ],
+  "schema:BetaTokenCountsBody": [
+   "props:12",
+   "req:0"
+  ],
+  "schema:BetaTokenCountsResource": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:BetaTool": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:BetaToolCallCaller": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:BetaToolCallCallerParam": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:BetaToolChoiceAllowed": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:BetaToolChoiceCustom": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:BetaToolChoiceFunction": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:BetaToolChoiceMCP": [
+   "props:3",
+   "req:2"
+  ],
+  "schema:BetaToolChoiceOptions": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:BetaToolChoiceParam": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:BetaToolChoiceTypes": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:BetaToolSearchCall": [
+   "props:8",
+   "req:6"
+  ],
+  "schema:BetaToolSearchCallItemParam": [
+   "props:7",
+   "req:2"
+  ],
+  "schema:BetaToolSearchExecutionType": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:BetaToolSearchOutput": [
+   "props:8",
+   "req:6"
+  ],
+  "schema:BetaToolSearchOutputItemParam": [
+   "props:7",
+   "req:2"
+  ],
+  "schema:BetaToolSearchToolParam": [
+   "props:4",
+   "req:1"
+  ],
+  "schema:BetaToolsArray": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:BetaTopLogProb": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:BetaTruncationEnum": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:BetaTypeParam": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:BetaUrlCitationBody": [
+   "props:5",
+   "req:5"
+  ],
+  "schema:BetaUrlCitationParam": [
+   "props:5",
+   "req:5"
+  ],
+  "schema:BetaVectorStoreFileAttributes": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:BetaVerbosity": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:BetaWaitParam": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:BetaWebSearchActionFind": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:BetaWebSearchActionOpenPage": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:BetaWebSearchActionSearch": [
+   "props:4",
+   "req:1"
+  ],
+  "schema:BetaWebSearchApproximateLocation": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:BetaWebSearchPreviewTool": [
+   "props:4",
+   "req:1"
+  ],
+  "schema:BetaWebSearchTool": [
+   "props:5",
+   "req:1"
+  ],
+  "schema:BetaWebSearchToolCall": [
+   "props:5",
+   "req:4"
+  ],
+  "schema:Beta_AgentTagParam": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:C2PAProvenanceResult": [
+   "props:6",
+   "req:6"
+  ],
+  "schema:C2PAValidationStateApi": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:CallableToolAllowedCaller": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:Certificate": [
+   "props:6",
+   "req:5"
+  ],
+  "schema:ChatCompletionAllowedTools": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:ChatCompletionAllowedToolsChoice": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:ChatCompletionDeleted": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:ChatCompletionFunctionCallOption": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:ChatCompletionFunctions": [
+   "props:3",
+   "req:1"
+  ],
+  "schema:ChatCompletionList": [
+   "props:5",
+   "req:5"
+  ],
+  "schema:ChatCompletionMessageCustomToolCall": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:ChatCompletionMessageList": [
+   "props:5",
+   "req:5"
+  ],
+  "schema:ChatCompletionMessageToolCall": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:ChatCompletionMessageToolCallChunk": [
+   "props:4",
+   "req:1"
+  ],
+  "schema:ChatCompletionMessageToolCalls": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:ChatCompletionModalities": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:ChatCompletionModeration": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:ChatCompletionModerationError": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:ChatCompletionModerationResults": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:ChatCompletionNamedToolChoice": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:ChatCompletionNamedToolChoiceCustom": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:ChatCompletionRequestAssistantMessage": [
+   "props:7",
+   "req:1"
+  ],
+  "schema:ChatCompletionRequestAssistantMessageContentPart": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:ChatCompletionRequestDeveloperMessage": [
+   "props:3",
+   "req:2"
+  ],
+  "schema:ChatCompletionRequestFunctionMessage": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:ChatCompletionRequestMessage": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:ChatCompletionRequestMessageContentPartAudio": [
+   "props:3",
+   "req:2"
+  ],
+  "schema:ChatCompletionRequestMessageContentPartFile": [
+   "props:3",
+   "req:2"
+  ],
+  "schema:ChatCompletionRequestMessageContentPartImage": [
+   "props:3",
+   "req:2"
+  ],
+  "schema:ChatCompletionRequestMessageContentPartRefusal": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:ChatCompletionRequestMessageContentPartText": [
+   "props:3",
+   "req:2"
+  ],
+  "schema:ChatCompletionRequestSystemMessage": [
+   "props:3",
+   "req:2"
+  ],
+  "schema:ChatCompletionRequestSystemMessageContentPart": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:ChatCompletionRequestToolMessage": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:ChatCompletionRequestToolMessageContentPart": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:ChatCompletionRequestUserMessage": [
+   "props:3",
+   "req:2"
+  ],
+  "schema:ChatCompletionRequestUserMessageContentPart": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:ChatCompletionResponseMessage": [
+   "props:7",
+   "req:3"
+  ],
+  "schema:ChatCompletionRole": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:ChatCompletionStreamOptions": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:ChatCompletionStreamResponseDelta": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:ChatCompletionTokenLogprob": [
+   "props:4",
+   "req:4"
+  ],
+  "schema:ChatCompletionTool": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:ChatCompletionToolChoiceOption": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:ChatSessionAutomaticThreadTitling": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:ChatSessionChatkitConfiguration": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:ChatSessionFileUpload": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:ChatSessionHistory": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:ChatSessionRateLimits": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:ChatSessionResource": [
+   "props:10",
+   "req:10"
+  ],
+  "schema:ChatSessionStatus": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:ChatkitConfigurationParam": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:ChatkitWorkflow": [
+   "props:4",
+   "req:4"
+  ],
+  "schema:ChatkitWorkflowTracing": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:ChunkingStrategyRequestParam": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:ClickButtonType": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:ClickParam": [
+   "props:5",
+   "req:4"
+  ],
+  "schema:ClientToolCallItem": [
+   "props:10",
+   "req:10"
+  ],
+  "schema:ClientToolCallStatus": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:ClosedStatus": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:CodeInterpreterFileOutput": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:CodeInterpreterOutputImage": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:CodeInterpreterOutputLogs": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:CodeInterpreterTextOutput": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:CodeInterpreterTool": [
+   "props:3",
+   "req:2"
+  ],
+  "schema:CodeInterpreterToolCall": [
+   "props:6",
+   "req:6"
+  ],
+  "schema:CompactResource": [
+   "props:5",
+   "req:5"
+  ],
+  "schema:CompactResponseMethodPublicBody": [
+   "props:8",
+   "req:1"
+  ],
+  "schema:CompactionBody": [
+   "props:4",
+   "req:3"
+  ],
+  "schema:CompactionSummaryItemParam": [
+   "props:3",
+   "req:2"
+  ],
+  "schema:CompactionTriggerItemParam": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:ComparisonFilter": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:CompleteUploadRequest": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:CompletionUsage": [
+   "props:5",
+   "req:3"
+  ],
+  "schema:CompoundFilter": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:ComputerAction": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:ComputerActionList": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:ComputerCallOutputItemParam": [
+   "props:6",
+   "req:3"
+  ],
+  "schema:ComputerCallOutputStatus": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:ComputerCallSafetyCheckParam": [
+   "props:3",
+   "req:1"
+  ],
+  "schema:ComputerEnvironment": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:ComputerScreenshotContent": [
+   "props:5",
+   "req:4"
+  ],
+  "schema:ComputerScreenshotImage": [
+   "props:3",
+   "req:1"
+  ],
+  "schema:ComputerTool": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:ComputerToolCall": [
+   "props:7",
+   "req:5"
+  ],
+  "schema:ComputerToolCallOutput": [
+   "props:6",
+   "req:3"
+  ],
+  "schema:ComputerToolCallOutputResource": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:ComputerUsePreviewTool": [
+   "props:4",
+   "req:4"
+  ],
+  "schema:ContainerAutoParam": [
+   "props:5",
+   "req:1"
+  ],
+  "schema:ContainerFileCitationBody": [
+   "props:6",
+   "req:6"
+  ],
+  "schema:ContainerFileCitationParam": [
+   "props:6",
+   "req:6"
+  ],
+  "schema:ContainerFileListResource": [
+   "props:5",
+   "req:5"
+  ],
+  "schema:ContainerFileResource": [
+   "props:7",
+   "req:7"
+  ],
+  "schema:ContainerListResource": [
+   "props:5",
+   "req:5"
+  ],
+  "schema:ContainerMemoryLimit": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:ContainerNetworkPolicyAllowlistParam": [
+   "props:3",
+   "req:2"
+  ],
+  "schema:ContainerNetworkPolicyDisabledParam": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:ContainerNetworkPolicyDomainSecretParam": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:ContainerReferenceParam": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:ContainerReferenceResource": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:ContainerResource": [
+   "props:9",
+   "req:9"
+  ],
+  "schema:Content": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:ContextManagementParam": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:ConversationItem": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:ConversationItemList": [
+   "props:5",
+   "req:5"
+  ],
+  "schema:ConversationParam": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:ConversationParam-2": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:ConversationResource": [
+   "props:4",
+   "req:4"
+  ],
+  "schema:CoordParam": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:CostsResult": [
+   "props:6",
+   "req:1"
+  ],
+  "schema:CreateAssistantRequest": [
+   "props:11",
+   "req:1"
+  ],
+  "schema:CreateBatchRequest": [
+   "props:5",
+   "req:3"
+  ],
+  "schema:CreateChatCompletionRequest": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:CreateChatCompletionResponse": [
+   "props:10",
+   "req:5"
+  ],
+  "schema:CreateChatCompletionStreamResponse": [
+   "props:9",
+   "req:5"
+  ],
+  "schema:CreateChatSessionBody": [
+   "props:5",
+   "req:2"
+  ],
+  "schema:CreateCompletionRequest": [
+   "props:18",
+   "req:2"
+  ],
+  "schema:CreateCompletionResponse": [
+   "props:7",
+   "req:5"
+  ],
+  "schema:CreateContainerBody": [
+   "props:6",
+   "req:1"
+  ],
+  "schema:CreateContainerFileBody": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:CreateContentProvenanceBody": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:CreateConversationBody": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:CreateEmbeddingRequest": [
+   "props:5",
+   "req:2"
+  ],
+  "schema:CreateEmbeddingResponse": [
+   "props:4",
+   "req:4"
+  ],
+  "schema:CreateEvalCompletionsRunDataSource": [
+   "props:5",
+   "req:2"
+  ],
+  "schema:CreateEvalCustomDataSourceConfig": [
+   "props:3",
+   "req:2"
+  ],
+  "schema:CreateEvalItem": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:CreateEvalJsonlRunDataSource": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:CreateEvalLabelModelGrader": [
+   "props:6",
+   "req:6"
+  ],
+  "schema:CreateEvalLogsDataSourceConfig": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:CreateEvalRequest": [
+   "props:4",
+   "req:2"
+  ],
+  "schema:CreateEvalResponsesRunDataSource": [
+   "props:5",
+   "req:2"
+  ],
+  "schema:CreateEvalRunRequest": [
+   "props:3",
+   "req:1"
+  ],
+  "schema:CreateEvalStoredCompletionsDataSourceConfig": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:CreateFileRequest": [
+   "props:3",
+   "req:2"
+  ],
+  "schema:CreateFineTuningCheckpointPermissionRequest": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:CreateFineTuningJobRequest": [
+   "props:9",
+   "req:2"
+  ],
+  "schema:CreateGroupBody": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:CreateGroupUserBody": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:CreateImageEditRequest": [
+   "props:15",
+   "req:2"
+  ],
+  "schema:CreateImageRequest": [
+   "props:14",
+   "req:1"
+  ],
+  "schema:CreateImageVariationRequest": [
+   "props:6",
+   "req:1"
+  ],
+  "schema:CreateMessageRequest": [
+   "props:4",
+   "req:2"
+  ],
+  "schema:CreateModelResponseProperties": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:CreateModerationRequest": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:CreateModerationResponse": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:CreateProjectServiceAccountApiKeyBody": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:CreateResponse": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:CreateRunRequest": [
+   "props:17",
+   "req:1"
+  ],
+  "schema:CreateSkillBody": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:CreateSkillVersionBody": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:CreateSpeechRequest": [
+   "props:7",
+   "req:3"
+  ],
+  "schema:CreateSpeechResponseStreamEvent": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:CreateSpendAlertBody": [
+   "props:4",
+   "req:4"
+  ],
+  "schema:CreateThreadAndRunRequest": [
+   "props:16",
+   "req:1"
+  ],
+  "schema:CreateThreadRequest": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:CreateTranscriptionRequest": [
+   "props:14",
+   "req:2"
+  ],
+  "schema:CreateTranscriptionResponseDiarizedJson": [
+   "props:5",
+   "req:4"
+  ],
+  "schema:CreateTranscriptionResponseJson": [
+   "props:4",
+   "req:1"
+  ],
+  "schema:CreateTranscriptionResponseStreamEvent": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:CreateTranscriptionResponseVerboseJson": [
+   "props:6",
+   "req:3"
+  ],
+  "schema:CreateTranslationRequest": [
+   "props:5",
+   "req:2"
+  ],
+  "schema:CreateTranslationResponseJson": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:CreateTranslationResponseVerboseJson": [
+   "props:4",
+   "req:3"
+  ],
+  "schema:CreateUploadRequest": [
+   "props:5",
+   "req:4"
+  ],
+  "schema:CreateVectorStoreFileBatchRequest": [
+   "props:4",
+   "req:0"
+  ],
+  "schema:CreateVectorStoreFileRequest": [
+   "props:3",
+   "req:1"
+  ],
+  "schema:CreateVectorStoreRequest": [
+   "props:6",
+   "req:0"
+  ],
+  "schema:CreateVideoCharacterBody": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:CreateVideoEditJsonBody": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:CreateVideoEditMultipartBody": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:CreateVideoExtendJsonBody": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:CreateVideoExtendMultipartBody": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:CreateVideoJsonBody": [
+   "props:5",
+   "req:1"
+  ],
+  "schema:CreateVideoMultipartBody": [
+   "props:5",
+   "req:1"
+  ],
+  "schema:CreateVideoRemixBody": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:CreateVoiceConsentRequest": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:CreateVoiceRequest": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:CustomGrammarFormatParam": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:CustomTextFormatParam": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:CustomToolCall": [
+   "props:7",
+   "req:4"
+  ],
+  "schema:CustomToolCallOutput": [
+   "props:5",
+   "req:3"
+  ],
+  "schema:CustomToolCallOutputResource": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:CustomToolCallResource": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:CustomToolChatCompletions": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:CustomToolParam": [
+   "props:6",
+   "req:2"
+  ],
+  "schema:DeleteAssistantResponse": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:DeleteCertificateResponse": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:DeleteFileResponse": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:DeleteFineTuningCheckpointPermissionResponse": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:DeleteMessageResponse": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:DeleteModelResponse": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:DeleteThreadResponse": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:DeleteVectorStoreFileResponse": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:DeleteVectorStoreResponse": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:DeletedConversation": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:DeletedConversationResource": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:DeletedRoleAssignmentResource": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:DeletedSkillResource": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:DeletedSkillVersionResource": [
+   "props:4",
+   "req:4"
+  ],
+  "schema:DeletedThreadResource": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:DeletedVideoResource": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:DetailEnum": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:DirectToolCallCaller": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:DirectToolCallCallerParam": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:DoneEvent": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:DoubleClickAction": [
+   "props:4",
+   "req:4"
+  ],
+  "schema:DragParam": [
+   "props:3",
+   "req:2"
+  ],
+  "schema:DragPoint": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:EasyInputMessage": [
+   "props:4",
+   "req:2"
+  ],
+  "schema:EditImageBodyJsonParam": [
+   "props:15",
+   "req:2"
+  ],
+  "schema:Embedding": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:EmptyModelParam": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:Error": [
+   "props:4",
+   "req:4"
+  ],
+  "schema:Error-2": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:ErrorEvent": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:ErrorPayload": [
+   "props:5",
+   "req:4"
+  ],
+  "schema:ErrorResponse": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:Eval": [
+   "props:7",
+   "req:7"
+  ],
+  "schema:EvalApiError": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:EvalCustomDataSourceConfig": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:EvalGraderLabelModel": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:EvalGraderPython": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:EvalGraderScoreModel": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:EvalGraderStringCheck": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:EvalGraderTextSimilarity": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:EvalItem": [
+   "props:3",
+   "req:2"
+  ],
+  "schema:EvalItemContent": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:EvalItemContentArray": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:EvalItemContentItem": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:EvalItemContentOutputText": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:EvalItemContentText": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:EvalItemInputImage": [
+   "props:3",
+   "req:2"
+  ],
+  "schema:EvalJsonlFileContentSource": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:EvalJsonlFileIdSource": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:EvalList": [
+   "props:5",
+   "req:5"
+  ],
+  "schema:EvalLogsDataSourceConfig": [
+   "props:3",
+   "req:2"
+  ],
+  "schema:EvalResponsesSource": [
+   "props:11",
+   "req:1"
+  ],
+  "schema:EvalRun": [
+   "props:14",
+   "req:14"
+  ],
+  "schema:EvalRunList": [
+   "props:5",
+   "req:5"
+  ],
+  "schema:EvalRunOutputItem": [
+   "props:10",
+   "req:10"
+  ],
+  "schema:EvalRunOutputItemList": [
+   "props:5",
+   "req:5"
+  ],
+  "schema:EvalRunOutputItemResult": [
+   "props:5",
+   "req:3"
+  ],
+  "schema:EvalStoredCompletionsDataSourceConfig": [
+   "props:3",
+   "req:2"
+  ],
+  "schema:EvalStoredCompletionsSource": [
+   "props:6",
+   "req:1"
+  ],
+  "schema:ExpiresAfterParam": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:FileAnnotation": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:FileAnnotationSource": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:FileCitationBody": [
+   "props:4",
+   "req:4"
+  ],
+  "schema:FileCitationParam": [
+   "props:4",
+   "req:4"
+  ],
+  "schema:FileDetailEnum": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:FileExpirationAfter": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:FileInputDetail": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:FilePath": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:FileSearchRanker": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:FileSearchRankingOptions": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:FileSearchTool": [
+   "props:5",
+   "req:2"
+  ],
+  "schema:FileSearchToolCall": [
+   "props:5",
+   "req:4"
+  ],
+  "schema:FileUploadParam": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:Filters": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:FineTuneChatCompletionRequestAssistantMessage": [
+   "props:0",
+   "req:1"
+  ],
+  "schema:FineTuneDPOHyperparameters": [
+   "props:4",
+   "req:0"
+  ],
+  "schema:FineTuneDPOMethod": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:FineTuneMethod": [
+   "props:4",
+   "req:1"
+  ],
+  "schema:FineTuneReinforcementHyperparameters": [
+   "props:7",
+   "req:0"
+  ],
+  "schema:FineTuneReinforcementMethod": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:FineTuneSupervisedHyperparameters": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:FineTuneSupervisedMethod": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:FineTuningCheckpointPermission": [
+   "props:4",
+   "req:4"
+  ],
+  "schema:FineTuningIntegration": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:FineTuningJob": [
+   "props:19",
+   "req:15"
+  ],
+  "schema:FineTuningJobCheckpoint": [
+   "props:7",
+   "req:7"
+  ],
+  "schema:FineTuningJobEvent": [
+   "props:7",
+   "req:5"
+  ],
+  "schema:FunctionAndCustomToolCallOutput": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:FunctionCallItemStatus": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:FunctionCallOutputItemParam": [
+   "props:8",
+   "req:2"
+  ],
+  "schema:FunctionCallOutputStatusEnum": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:FunctionCallStatus": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:FunctionObject": [
+   "props:4",
+   "req:1"
+  ],
+  "schema:FunctionParameters": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:FunctionShellAction": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:FunctionShellActionParam": [
+   "props:3",
+   "req:1"
+  ],
+  "schema:FunctionShellCall": [
+   "props:8",
+   "req:6"
+  ],
+  "schema:FunctionShellCallItemParam": [
+   "props:7",
+   "req:3"
+  ],
+  "schema:FunctionShellCallItemStatus": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:FunctionShellCallOutput": [
+   "props:8",
+   "req:6"
+  ],
+  "schema:FunctionShellCallOutputContent": [
+   "props:4",
+   "req:3"
+  ],
+  "schema:FunctionShellCallOutputContentParam": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:FunctionShellCallOutputExitOutcome": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:FunctionShellCallOutputExitOutcomeParam": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:FunctionShellCallOutputItemParam": [
+   "props:7",
+   "req:3"
+  ],
+  "schema:FunctionShellCallOutputOutcomeParam": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:FunctionShellCallOutputStatusEnum": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:FunctionShellCallOutputTimeoutOutcome": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:FunctionShellCallOutputTimeoutOutcomeParam": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:FunctionShellCallStatus": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:FunctionShellToolParam": [
+   "props:3",
+   "req:1"
+  ],
+  "schema:FunctionTool": [
+   "props:8",
+   "req:4"
+  ],
+  "schema:FunctionToolCall": [
+   "props:8",
+   "req:4"
+  ],
+  "schema:FunctionToolCallOutput": [
+   "props:8",
+   "req:2"
+  ],
+  "schema:FunctionToolCallOutputResource": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:FunctionToolCallResource": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:FunctionToolParam": [
+   "props:8",
+   "req:2"
+  ],
+  "schema:GraderLabelModel": [
+   "props:6",
+   "req:6"
+  ],
+  "schema:GraderMulti": [
+   "props:4",
+   "req:4"
+  ],
+  "schema:GraderPython": [
+   "props:4",
+   "req:3"
+  ],
+  "schema:GraderScoreModel": [
+   "props:6",
+   "req:4"
+  ],
+  "schema:GraderStringCheck": [
+   "props:5",
+   "req:5"
+  ],
+  "schema:GraderTextSimilarity": [
+   "props:5",
+   "req:5"
+  ],
+  "schema:GrammarSyntax1": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:Group": [
+   "props:5",
+   "req:5"
+  ],
+  "schema:GroupDeletedResource": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:GroupListResource": [
+   "props:4",
+   "req:4"
+  ],
+  "schema:GroupMemberUser": [
+   "props:6",
+   "req:6"
+  ],
+  "schema:GroupResourceWithSuccess": [
+   "props:4",
+   "req:4"
+  ],
+  "schema:GroupResponse": [
+   "props:5",
+   "req:5"
+  ],
+  "schema:GroupRoleAssignment": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:GroupUser": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:GroupUserAssignment": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:GroupUserDeletedResource": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:HTTPError": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:HistoryParam": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:HostedToolPermission": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:HostedToolPermissionUpdate": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:HybridSearchOptions": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:Image": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:ImageDetail": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:ImageEditCompletedEvent": [
+   "props:8",
+   "req:8"
+  ],
+  "schema:ImageEditPartialImageEvent": [
+   "props:8",
+   "req:8"
+  ],
+  "schema:ImageEditStreamEvent": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:ImageGenActionEnum": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:ImageGenCompletedEvent": [
+   "props:8",
+   "req:8"
+  ],
+  "schema:ImageGenInputUsageDetails": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:ImageGenOutputTokensDetails": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:ImageGenPartialImageEvent": [
+   "props:8",
+   "req:8"
+  ],
+  "schema:ImageGenStreamEvent": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:ImageGenTool": [
+   "props:12",
+   "req:1"
+  ],
+  "schema:ImageGenToolCall": [
+   "props:4",
+   "req:4"
+  ],
+  "schema:ImageGenUsage": [
+   "props:5",
+   "req:4"
+  ],
+  "schema:ImageRefParam": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:ImageRefParam-2": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:ImagesResponse": [
+   "props:7",
+   "req:1"
+  ],
+  "schema:ImagesUsage": [
+   "props:4",
+   "req:4"
+  ],
+  "schema:IncludeEnum": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:InferenceOptions": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:InlineSkillParam": [
+   "props:4",
+   "req:4"
+  ],
+  "schema:InlineSkillSourceParam": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:InputAudio": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:InputContent": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:InputFidelity": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:InputFileContent": [
+   "props:7",
+   "req:1"
+  ],
+  "schema:InputFileContentParam": [
+   "props:7",
+   "req:1"
+  ],
+  "schema:InputImageContent": [
+   "props:5",
+   "req:2"
+  ],
+  "schema:InputImageContentParamAutoParam": [
+   "props:5",
+   "req:1"
+  ],
+  "schema:InputItem": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:InputMessage": [
+   "props:4",
+   "req:2"
+  ],
+  "schema:InputMessageContentList": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:InputMessageResource": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:InputParam": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:InputTextContent": [
+   "props:3",
+   "req:2"
+  ],
+  "schema:InputTextContentParam": [
+   "props:3",
+   "req:2"
+  ],
+  "schema:Invite": [
+   "props:9",
+   "req:7"
+  ],
+  "schema:InviteDeleteResponse": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:InviteListResponse": [
+   "props:5",
+   "req:3"
+  ],
+  "schema:InviteProjectGroupBody": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:InviteRequest": [
+   "props:3",
+   "req:2"
+  ],
+  "schema:Item": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:ItemField": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:ItemReferenceParam": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:ItemResource": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:KeyPressAction": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:ListAssistantsResponse": [
+   "props:5",
+   "req:5"
+  ],
+  "schema:ListAuditLogsResponse": [
+   "props:5",
+   "req:3"
+  ],
+  "schema:ListBatchesResponse": [
+   "props:5",
+   "req:3"
+  ],
+  "schema:ListCertificatesResponse": [
+   "props:5",
+   "req:5"
+  ],
+  "schema:ListFilesResponse": [
+   "props:5",
+   "req:5"
+  ],
+  "schema:ListFineTuningCheckpointPermissionResponse": [
+   "props:5",
+   "req:3"
+  ],
+  "schema:ListFineTuningJobCheckpointsResponse": [
+   "props:5",
+   "req:3"
+  ],
+  "schema:ListFineTuningJobEventsResponse": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:ListMessagesResponse": [
+   "props:5",
+   "req:5"
+  ],
+  "schema:ListModelsResponse": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:ListPaginatedFineTuningJobsResponse": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:ListProjectCertificatesResponse": [
+   "props:5",
+   "req:5"
+  ],
+  "schema:ListRunStepsResponse": [
+   "props:5",
+   "req:5"
+  ],
+  "schema:ListRunsResponse": [
+   "props:5",
+   "req:5"
+  ],
+  "schema:ListVectorStoreFilesResponse": [
+   "props:5",
+   "req:5"
+  ],
+  "schema:ListVectorStoresResponse": [
+   "props:5",
+   "req:5"
+  ],
+  "schema:LocalEnvironmentParam": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:LocalEnvironmentResource": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:LocalShellExecAction": [
+   "props:6",
+   "req:3"
+  ],
+  "schema:LocalShellToolCall": [
+   "props:5",
+   "req:5"
+  ],
+  "schema:LocalShellToolCallOutput": [
+   "props:4",
+   "req:4"
+  ],
+  "schema:LocalShellToolParam": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:LocalSkillParam": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:LockedStatus": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:LogProb": [
+   "props:4",
+   "req:4"
+  ],
+  "schema:LogProbProperties": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:MCPApprovalRequest": [
+   "props:5",
+   "req:5"
+  ],
+  "schema:MCPApprovalResponse": [
+   "props:5",
+   "req:4"
+  ],
+  "schema:MCPApprovalResponseResource": [
+   "props:5",
+   "req:5"
+  ],
+  "schema:MCPListTools": [
+   "props:5",
+   "req:4"
+  ],
+  "schema:MCPListToolsTool": [
+   "props:4",
+   "req:2"
+  ],
+  "schema:MCPProtocolError": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:MCPTool": [
+   "props:12",
+   "req:2"
+  ],
+  "schema:MCPToolCall": [
+   "props:9",
+   "req:5"
+  ],
+  "schema:MCPToolCallError": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:MCPToolCallStatus": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:MCPToolExecutionError": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:MCPToolFilter": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:Message": [
+   "props:6",
+   "req:5"
+  ],
+  "schema:MessageContentImageFileObject": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:MessageContentImageUrlObject": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:MessageContentRefusalObject": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:MessageContentTextAnnotationsFileCitationObject": [
+   "props:5",
+   "req:5"
+  ],
+  "schema:MessageContentTextAnnotationsFilePathObject": [
+   "props:5",
+   "req:5"
+  ],
+  "schema:MessageContentTextObject": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:MessageDeltaContentImageFileObject": [
+   "props:3",
+   "req:2"
+  ],
+  "schema:MessageDeltaContentImageUrlObject": [
+   "props:3",
+   "req:2"
+  ],
+  "schema:MessageDeltaContentRefusalObject": [
+   "props:3",
+   "req:2"
+  ],
+  "schema:MessageDeltaContentTextAnnotationsFileCitationObject": [
+   "props:6",
+   "req:2"
+  ],
+  "schema:MessageDeltaContentTextAnnotationsFilePathObject": [
+   "props:6",
+   "req:2"
+  ],
+  "schema:MessageDeltaContentTextObject": [
+   "props:3",
+   "req:2"
+  ],
+  "schema:MessageDeltaObject": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:MessageObject": [
+   "props:14",
+   "req:14"
+  ],
+  "schema:MessagePhase": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:MessagePhase-2": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:MessageRequestContentTextObject": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:MessageRole": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:MessageStatus": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:MessageStreamEvent": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:Metadata": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:Model": [
+   "props:5",
+   "req:4"
+  ],
+  "schema:ModelIds": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:ModelIdsCompaction": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:ModelIdsResponses": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:ModelIdsShared": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:ModelResponseProperties": [
+   "props:8",
+   "req:0"
+  ],
+  "schema:Moderation": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:ModerationConfigParam": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:ModerationErrorBody": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:ModerationInputType": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:ModerationMode": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:ModerationParam": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:ModerationPolicyParam": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:ModerationResultBody": [
+   "props:6",
+   "req:6"
+  ],
+  "schema:ModifyAssistantRequest": [
+   "props:11",
+   "req:0"
+  ],
+  "schema:ModifyCertificateRequest": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:ModifyMessageRequest": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:ModifyRunRequest": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:ModifyThreadRequest": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:MoveParam": [
+   "props:4",
+   "req:3"
+  ],
+  "schema:NamespaceToolParam": [
+   "props:4",
+   "req:4"
+  ],
+  "schema:NoiseReductionType": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:OpenAIFile": [
+   "props:9",
+   "req:7"
+  ],
+  "schema:OrderEnum": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:OrganizationCertificate": [
+   "props:6",
+   "req:6"
+  ],
+  "schema:OrganizationCertificateActivationResponse": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:OrganizationCertificateDeactivationResponse": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:OrganizationDataRetention": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:OrganizationProjectCertificate": [
+   "props:6",
+   "req:6"
+  ],
+  "schema:OrganizationProjectCertificateActivationResponse": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:OrganizationProjectCertificateDeactivationResponse": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:OrganizationSpendAlert": [
+   "props:6",
+   "req:6"
+  ],
+  "schema:OrganizationSpendAlertDeletedResource": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:OrganizationSpendAlertListResource": [
+   "props:5",
+   "req:5"
+  ],
+  "schema:OrganizationSpendLimitDeletedResource": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:OrganizationSpendLimitResource": [
+   "props:5",
+   "req:5"
+  ],
+  "schema:OtherChunkingStrategyResponseParam": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:OutputAudio": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:OutputContent": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:OutputItem": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:OutputMessage": [
+   "props:6",
+   "req:5"
+  ],
+  "schema:OutputMessageContent": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:OutputTextContent": [
+   "props:4",
+   "req:4"
+  ],
+  "schema:ParallelToolCalls": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:PartialImages": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:PersonalityEnum": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:PredictionContent": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:Program": [
+   "props:5",
+   "req:5"
+  ],
+  "schema:ProgramItemParam": [
+   "props:5",
+   "req:5"
+  ],
+  "schema:ProgramOutput": [
+   "props:5",
+   "req:5"
+  ],
+  "schema:ProgramOutputItemParam": [
+   "props:5",
+   "req:5"
+  ],
+  "schema:ProgramOutputItemStatus": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:ProgramOutputStatus": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:ProgramToolCallCaller": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:ProgramToolCallCallerParam": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:ProgrammaticToolCallingParam": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:Project": [
+   "props:7",
+   "req:3"
+  ],
+  "schema:ProjectApiKey": [
+   "props:8",
+   "req:8"
+  ],
+  "schema:ProjectApiKeyDeleteResponse": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:ProjectApiKeyListResponse": [
+   "props:5",
+   "req:3"
+  ],
+  "schema:ProjectApiKeyOwnerServiceAccount": [
+   "props:4",
+   "req:4"
+  ],
+  "schema:ProjectApiKeyOwnerUser": [
+   "props:5",
+   "req:5"
+  ],
+  "schema:ProjectCreateRequest": [
+   "props:3",
+   "req:1"
+  ],
+  "schema:ProjectDataRetention": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:ProjectGroup": [
+   "props:6",
+   "req:6"
+  ],
+  "schema:ProjectGroupDeletedResource": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:ProjectGroupListResource": [
+   "props:4",
+   "req:4"
+  ],
+  "schema:ProjectHostedToolPermissions": [
+   "props:5",
+   "req:5"
+  ],
+  "schema:ProjectHostedToolPermissionsUpdateRequest": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:ProjectListResponse": [
+   "props:5",
+   "req:3"
+  ],
+  "schema:ProjectModelPermissions": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:ProjectModelPermissionsDeleteResponse": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:ProjectModelPermissionsUpdateRequest": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:ProjectRateLimit": [
+   "props:9",
+   "req:5"
+  ],
+  "schema:ProjectRateLimitListResponse": [
+   "props:5",
+   "req:3"
+  ],
+  "schema:ProjectRateLimitUpdateRequest": [
+   "props:6",
+   "req:0"
+  ],
+  "schema:ProjectServiceAccount": [
+   "props:5",
+   "req:5"
+  ],
+  "schema:ProjectServiceAccountApiKey": [
+   "props:5",
+   "req:5"
+  ],
+  "schema:ProjectServiceAccountCreateRequest": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:ProjectServiceAccountCreateResponse": [
+   "props:6",
+   "req:6"
+  ],
+  "schema:ProjectServiceAccountDeleteResponse": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:ProjectServiceAccountListResponse": [
+   "props:5",
+   "req:3"
+  ],
+  "schema:ProjectSpendAlert": [
+   "props:6",
+   "req:6"
+  ],
+  "schema:ProjectSpendAlertDeletedResource": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:ProjectSpendAlertListResource": [
+   "props:5",
+   "req:5"
+  ],
+  "schema:ProjectSpendLimitDeletedResource": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:ProjectSpendLimitResource": [
+   "props:5",
+   "req:5"
+  ],
+  "schema:ProjectUpdateRequest": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:ProjectUser": [
+   "props:6",
+   "req:4"
+  ],
+  "schema:ProjectUserCreateRequest": [
+   "props:3",
+   "req:1"
+  ],
+  "schema:ProjectUserDeleteResponse": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:ProjectUserListResponse": [
+   "props:5",
+   "req:3"
+  ],
+  "schema:ProjectUserUpdateRequest": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:Prompt": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:PromptCacheBreakpointConfig": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:PromptCacheBreakpointParam": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:PromptCacheModeEnum": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:PromptCacheOptions": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:PromptCacheOptionsParam": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:PromptCacheRetentionEnum": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:PromptCacheTTLEnum": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:ProvenanceCheckObject": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:ProvenanceDetectionResultApi": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:ProvenanceResource": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:PublicAssignOrganizationGroupRoleBody": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:PublicCreateOrganizationRoleBody": [
+   "props:3",
+   "req:2"
+  ],
+  "schema:PublicRoleListResource": [
+   "props:4",
+   "req:4"
+  ],
+  "schema:PublicUpdateOrganizationRoleBody": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:RankerVersionType": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:RankingOptions": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:RateLimitsParam": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:RealtimeAudioFormats": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:RealtimeBetaClientEventConversationItemCreate": [
+   "props:4",
+   "req:2"
+  ],
+  "schema:RealtimeBetaClientEventConversationItemDelete": [
+   "props:3",
+   "req:2"
+  ],
+  "schema:RealtimeBetaClientEventConversationItemRetrieve": [
+   "props:3",
+   "req:2"
+  ],
+  "schema:RealtimeBetaClientEventConversationItemTruncate": [
+   "props:5",
+   "req:4"
+  ],
+  "schema:RealtimeBetaClientEventInputAudioBufferAppend": [
+   "props:3",
+   "req:2"
+  ],
+  "schema:RealtimeBetaClientEventInputAudioBufferClear": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:RealtimeBetaClientEventInputAudioBufferCommit": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:RealtimeBetaClientEventOutputAudioBufferClear": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:RealtimeBetaClientEventResponseCancel": [
+   "props:3",
+   "req:1"
+  ],
+  "schema:RealtimeBetaClientEventResponseCreate": [
+   "props:3",
+   "req:1"
+  ],
+  "schema:RealtimeBetaClientEventSessionUpdate": [
+   "props:3",
+   "req:2"
+  ],
+  "schema:RealtimeBetaClientEventTranscriptionSessionUpdate": [
+   "props:3",
+   "req:2"
+  ],
+  "schema:RealtimeBetaResponse": [
+   "props:13",
+   "req:0"
+  ],
+  "schema:RealtimeBetaResponseCreateParams": [
+   "props:12",
+   "req:0"
+  ],
+  "schema:RealtimeBetaServerEventConversationItemCreated": [
+   "props:4",
+   "req:3"
+  ],
+  "schema:RealtimeBetaServerEventConversationItemDeleted": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:RealtimeBetaServerEventConversationItemInputAudioTranscriptionCompleted": [
+   "props:8",
+   "req:6"
+  ],
+  "schema:RealtimeBetaServerEventConversationItemInputAudioTranscriptionDelta": [
+   "props:6",
+   "req:3"
+  ],
+  "schema:RealtimeBetaServerEventConversationItemInputAudioTranscriptionFailed": [
+   "props:5",
+   "req:5"
+  ],
+  "schema:RealtimeBetaServerEventConversationItemInputAudioTranscriptionSegment": [
+   "props:9",
+   "req:9"
+  ],
+  "schema:RealtimeBetaServerEventConversationItemRetrieved": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:RealtimeBetaServerEventConversationItemTruncated": [
+   "props:5",
+   "req:5"
+  ],
+  "schema:RealtimeBetaServerEventError": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:RealtimeBetaServerEventInputAudioBufferCleared": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:RealtimeBetaServerEventInputAudioBufferCommitted": [
+   "props:4",
+   "req:3"
+  ],
+  "schema:RealtimeBetaServerEventInputAudioBufferSpeechStarted": [
+   "props:4",
+   "req:4"
+  ],
+  "schema:RealtimeBetaServerEventInputAudioBufferSpeechStopped": [
+   "props:4",
+   "req:4"
+  ],
+  "schema:RealtimeBetaServerEventMCPListToolsCompleted": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:RealtimeBetaServerEventMCPListToolsFailed": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:RealtimeBetaServerEventMCPListToolsInProgress": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:RealtimeBetaServerEventRateLimitsUpdated": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:RealtimeBetaServerEventResponseAudioDelta": [
+   "props:7",
+   "req:7"
+  ],
+  "schema:RealtimeBetaServerEventResponseAudioDone": [
+   "props:6",
+   "req:6"
+  ],
+  "schema:RealtimeBetaServerEventResponseAudioTranscriptDelta": [
+   "props:7",
+   "req:7"
+  ],
+  "schema:RealtimeBetaServerEventResponseAudioTranscriptDone": [
+   "props:7",
+   "req:7"
+  ],
+  "schema:RealtimeBetaServerEventResponseContentPartAdded": [
+   "props:7",
+   "req:7"
+  ],
+  "schema:RealtimeBetaServerEventResponseContentPartDone": [
+   "props:7",
+   "req:7"
+  ],
+  "schema:RealtimeBetaServerEventResponseCreated": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:RealtimeBetaServerEventResponseDone": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:RealtimeBetaServerEventResponseFunctionCallArgumentsDelta": [
+   "props:7",
+   "req:7"
+  ],
+  "schema:RealtimeBetaServerEventResponseFunctionCallArgumentsDone": [
+   "props:8",
+   "req:8"
+  ],
+  "schema:RealtimeBetaServerEventResponseMCPCallArgumentsDelta": [
+   "props:7",
+   "req:6"
+  ],
+  "schema:RealtimeBetaServerEventResponseMCPCallArgumentsDone": [
+   "props:6",
+   "req:6"
+  ],
+  "schema:RealtimeBetaServerEventResponseMCPCallCompleted": [
+   "props:4",
+   "req:4"
+  ],
+  "schema:RealtimeBetaServerEventResponseMCPCallFailed": [
+   "props:4",
+   "req:4"
+  ],
+  "schema:RealtimeBetaServerEventResponseMCPCallInProgress": [
+   "props:4",
+   "req:4"
+  ],
+  "schema:RealtimeBetaServerEventResponseOutputItemAdded": [
+   "props:5",
+   "req:5"
+  ],
+  "schema:RealtimeBetaServerEventResponseOutputItemDone": [
+   "props:5",
+   "req:5"
+  ],
+  "schema:RealtimeBetaServerEventResponseTextDelta": [
+   "props:7",
+   "req:7"
+  ],
+  "schema:RealtimeBetaServerEventResponseTextDone": [
+   "props:7",
+   "req:7"
+  ],
+  "schema:RealtimeBetaServerEventSessionCreated": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:RealtimeBetaServerEventSessionUpdated": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:RealtimeBetaServerEventTranscriptionSessionCreated": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:RealtimeBetaServerEventTranscriptionSessionUpdated": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:RealtimeCallCreateRequest": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:RealtimeCallReferRequest": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:RealtimeCallRejectRequest": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:RealtimeClientEvent": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:RealtimeClientEventConversationItemCreate": [
+   "props:4",
+   "req:2"
+  ],
+  "schema:RealtimeClientEventConversationItemDelete": [
+   "props:3",
+   "req:2"
+  ],
+  "schema:RealtimeClientEventConversationItemRetrieve": [
+   "props:3",
+   "req:2"
+  ],
+  "schema:RealtimeClientEventConversationItemTruncate": [
+   "props:5",
+   "req:4"
+  ],
+  "schema:RealtimeClientEventInputAudioBufferAppend": [
+   "props:3",
+   "req:2"
+  ],
+  "schema:RealtimeClientEventInputAudioBufferClear": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:RealtimeClientEventInputAudioBufferCommit": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:RealtimeClientEventOutputAudioBufferClear": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:RealtimeClientEventResponseCancel": [
+   "props:3",
+   "req:1"
+  ],
+  "schema:RealtimeClientEventResponseCreate": [
+   "props:3",
+   "req:1"
+  ],
+  "schema:RealtimeClientEventSessionUpdate": [
+   "props:3",
+   "req:2"
+  ],
+  "schema:RealtimeClientEventTranscriptionSessionUpdate": [
+   "props:3",
+   "req:2"
+  ],
+  "schema:RealtimeConversationItem": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:RealtimeConversationItemFunctionCall": [
+   "props:7",
+   "req:3"
+  ],
+  "schema:RealtimeConversationItemFunctionCallOutput": [
+   "props:6",
+   "req:3"
+  ],
+  "schema:RealtimeConversationItemMessageAssistant": [
+   "props:6",
+   "req:3"
+  ],
+  "schema:RealtimeConversationItemMessageSystem": [
+   "props:6",
+   "req:3"
+  ],
+  "schema:RealtimeConversationItemMessageUser": [
+   "props:6",
+   "req:3"
+  ],
+  "schema:RealtimeConversationItemWithReference": [
+   "props:10",
+   "req:0"
+  ],
+  "schema:RealtimeCreateClientSecretRequest": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:RealtimeCreateClientSecretResponse": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:RealtimeFunctionTool": [
+   "props:4",
+   "req:0"
+  ],
+  "schema:RealtimeMCPApprovalRequest": [
+   "props:5",
+   "req:5"
+  ],
+  "schema:RealtimeMCPApprovalResponse": [
+   "props:5",
+   "req:4"
+  ],
+  "schema:RealtimeMCPHTTPError": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:RealtimeMCPListTools": [
+   "props:4",
+   "req:3"
+  ],
+  "schema:RealtimeMCPProtocolError": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:RealtimeMCPToolCall": [
+   "props:8",
+   "req:5"
+  ],
+  "schema:RealtimeMCPToolExecutionError": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:RealtimeReasoning": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:RealtimeReasoningEffort": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:RealtimeResponse": [
+   "props:11",
+   "req:0"
+  ],
+  "schema:RealtimeResponseCreateParams": [
+   "props:12",
+   "req:0"
+  ],
+  "schema:RealtimeServerEvent": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:RealtimeServerEventConversationCreated": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:RealtimeServerEventConversationItemAdded": [
+   "props:4",
+   "req:3"
+  ],
+  "schema:RealtimeServerEventConversationItemCreated": [
+   "props:4",
+   "req:3"
+  ],
+  "schema:RealtimeServerEventConversationItemDeleted": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:RealtimeServerEventConversationItemDone": [
+   "props:4",
+   "req:3"
+  ],
+  "schema:RealtimeServerEventConversationItemInputAudioTranscriptionCompleted": [
+   "props:8",
+   "req:6"
+  ],
+  "schema:RealtimeServerEventConversationItemInputAudioTranscriptionDelta": [
+   "props:6",
+   "req:3"
+  ],
+  "schema:RealtimeServerEventConversationItemInputAudioTranscriptionFailed": [
+   "props:5",
+   "req:5"
+  ],
+  "schema:RealtimeServerEventConversationItemInputAudioTranscriptionSegment": [
+   "props:9",
+   "req:9"
+  ],
+  "schema:RealtimeServerEventConversationItemRetrieved": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:RealtimeServerEventConversationItemTruncated": [
+   "props:5",
+   "req:5"
+  ],
+  "schema:RealtimeServerEventError": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:RealtimeServerEventInputAudioBufferCleared": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:RealtimeServerEventInputAudioBufferCommitted": [
+   "props:4",
+   "req:3"
+  ],
+  "schema:RealtimeServerEventInputAudioBufferDtmfEventReceived": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:RealtimeServerEventInputAudioBufferSpeechStarted": [
+   "props:4",
+   "req:4"
+  ],
+  "schema:RealtimeServerEventInputAudioBufferSpeechStopped": [
+   "props:4",
+   "req:4"
+  ],
+  "schema:RealtimeServerEventInputAudioBufferTimeoutTriggered": [
+   "props:5",
+   "req:5"
+  ],
+  "schema:RealtimeServerEventMCPListToolsCompleted": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:RealtimeServerEventMCPListToolsFailed": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:RealtimeServerEventMCPListToolsInProgress": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:RealtimeServerEventOutputAudioBufferCleared": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:RealtimeServerEventOutputAudioBufferStarted": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:RealtimeServerEventOutputAudioBufferStopped": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:RealtimeServerEventRateLimitsUpdated": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:RealtimeServerEventResponseAudioDelta": [
+   "props:7",
+   "req:7"
+  ],
+  "schema:RealtimeServerEventResponseAudioDone": [
+   "props:6",
+   "req:6"
+  ],
+  "schema:RealtimeServerEventResponseAudioTranscriptDelta": [
+   "props:7",
+   "req:7"
+  ],
+  "schema:RealtimeServerEventResponseAudioTranscriptDone": [
+   "props:7",
+   "req:7"
+  ],
+  "schema:RealtimeServerEventResponseContentPartAdded": [
+   "props:7",
+   "req:7"
+  ],
+  "schema:RealtimeServerEventResponseContentPartDone": [
+   "props:7",
+   "req:7"
+  ],
+  "schema:RealtimeServerEventResponseCreated": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:RealtimeServerEventResponseDone": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:RealtimeServerEventResponseFunctionCallArgumentsDelta": [
+   "props:7",
+   "req:7"
+  ],
+  "schema:RealtimeServerEventResponseFunctionCallArgumentsDone": [
+   "props:8",
+   "req:8"
+  ],
+  "schema:RealtimeServerEventResponseMCPCallArgumentsDelta": [
+   "props:7",
+   "req:6"
+  ],
+  "schema:RealtimeServerEventResponseMCPCallArgumentsDone": [
+   "props:6",
+   "req:6"
+  ],
+  "schema:RealtimeServerEventResponseMCPCallCompleted": [
+   "props:4",
+   "req:4"
+  ],
+  "schema:RealtimeServerEventResponseMCPCallFailed": [
+   "props:4",
+   "req:4"
+  ],
+  "schema:RealtimeServerEventResponseMCPCallInProgress": [
+   "props:4",
+   "req:4"
+  ],
+  "schema:RealtimeServerEventResponseOutputItemAdded": [
+   "props:5",
+   "req:5"
+  ],
+  "schema:RealtimeServerEventResponseOutputItemDone": [
+   "props:5",
+   "req:5"
+  ],
+  "schema:RealtimeServerEventResponseTextDelta": [
+   "props:7",
+   "req:7"
+  ],
+  "schema:RealtimeServerEventResponseTextDone": [
+   "props:7",
+   "req:7"
+  ],
+  "schema:RealtimeServerEventSessionCreated": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:RealtimeServerEventSessionUpdated": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:RealtimeServerEventTranscriptionSessionUpdated": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:RealtimeSession": [
+   "props:20",
+   "req:0"
+  ],
+  "schema:RealtimeSessionCreateRequest": [
+   "props:16",
+   "req:1"
+  ],
+  "schema:RealtimeSessionCreateRequestGA": [
+   "props:14",
+   "req:1"
+  ],
+  "schema:RealtimeSessionCreateResponse": [
+   "props:13",
+   "req:0"
+  ],
+  "schema:RealtimeSessionCreateResponseGA": [
+   "props:16",
+   "req:3"
+  ],
+  "schema:RealtimeTranscriptionSessionCreateRequest": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:RealtimeTranscriptionSessionCreateRequestGA": [
+   "props:3",
+   "req:1"
+  ],
+  "schema:RealtimeTranscriptionSessionCreateResponse": [
+   "props:5",
+   "req:1"
+  ],
+  "schema:RealtimeTranscriptionSessionCreateResponseGA": [
+   "props:6",
+   "req:3"
+  ],
+  "schema:RealtimeTranslationClientEvent": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:RealtimeTranslationClientEventInputAudioBufferAppend": [
+   "props:3",
+   "req:2"
+  ],
+  "schema:RealtimeTranslationClientEventSessionClose": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:RealtimeTranslationClientEventSessionUpdate": [
+   "props:3",
+   "req:2"
+  ],
+  "schema:RealtimeTranslationClientSecretCreateRequest": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:RealtimeTranslationClientSecretCreateResponse": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:RealtimeTranslationServerEvent": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:RealtimeTranslationServerEventSessionClosed": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:RealtimeTranslationServerEventSessionCreated": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:RealtimeTranslationServerEventSessionInputTranscriptDelta": [
+   "props:4",
+   "req:3"
+  ],
+  "schema:RealtimeTranslationServerEventSessionOutputAudioDelta": [
+   "props:7",
+   "req:3"
+  ],
+  "schema:RealtimeTranslationServerEventSessionOutputTranscriptDelta": [
+   "props:4",
+   "req:3"
+  ],
+  "schema:RealtimeTranslationServerEventSessionUpdated": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:RealtimeTranslationSession": [
+   "props:5",
+   "req:5"
+  ],
+  "schema:RealtimeTranslationSessionCreateRequest": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:RealtimeTranslationSessionUpdateRequest": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:RealtimeTruncation": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:RealtimeTurnDetection": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:Reasoning": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:ReasoningEffort": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:ReasoningItem": [
+   "props:6",
+   "req:3"
+  ],
+  "schema:ReasoningModeEnum": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:ReasoningTextContent": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:RefusalContent": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:Response": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:ResponseAudioDeltaEvent": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:ResponseAudioDoneEvent": [
+   "props:2",
+   "req:3"
+  ],
+  "schema:ResponseAudioTranscriptDeltaEvent": [
+   "props:3",
+   "req:4"
+  ],
+  "schema:ResponseAudioTranscriptDoneEvent": [
+   "props:2",
+   "req:3"
+  ],
+  "schema:ResponseCodeInterpreterCallCodeDeltaEvent": [
+   "props:5",
+   "req:5"
+  ],
+  "schema:ResponseCodeInterpreterCallCodeDoneEvent": [
+   "props:5",
+   "req:5"
+  ],
+  "schema:ResponseCodeInterpreterCallCompletedEvent": [
+   "props:4",
+   "req:4"
+  ],
+  "schema:ResponseCodeInterpreterCallInProgressEvent": [
+   "props:4",
+   "req:4"
+  ],
+  "schema:ResponseCodeInterpreterCallInterpretingEvent": [
+   "props:4",
+   "req:4"
+  ],
+  "schema:ResponseCompletedEvent": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:ResponseContentPartAddedEvent": [
+   "props:6",
+   "req:6"
+  ],
+  "schema:ResponseContentPartDoneEvent": [
+   "props:6",
+   "req:6"
+  ],
+  "schema:ResponseConversation": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:ResponseCreatedEvent": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:ResponseCustomToolCallInputDeltaEvent": [
+   "props:5",
+   "req:5"
+  ],
+  "schema:ResponseCustomToolCallInputDoneEvent": [
+   "props:5",
+   "req:5"
+  ],
+  "schema:ResponseError": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:ResponseErrorCode": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:ResponseErrorEvent": [
+   "props:5",
+   "req:5"
+  ],
+  "schema:ResponseFailedEvent": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:ResponseFileSearchCallCompletedEvent": [
+   "props:4",
+   "req:4"
+  ],
+  "schema:ResponseFileSearchCallInProgressEvent": [
+   "props:4",
+   "req:4"
+  ],
+  "schema:ResponseFileSearchCallSearchingEvent": [
+   "props:4",
+   "req:4"
+  ],
+  "schema:ResponseFormatJsonObject": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:ResponseFormatJsonSchema": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:ResponseFormatJsonSchemaSchema": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:ResponseFormatText": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:ResponseFormatTextGrammar": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:ResponseFormatTextPython": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:ResponseFunctionCallArgumentsDeltaEvent": [
+   "props:5",
+   "req:5"
+  ],
+  "schema:ResponseFunctionCallArgumentsDoneEvent": [
+   "props:6",
+   "req:6"
+  ],
+  "schema:ResponseImageGenCallCompletedEvent": [
+   "props:4",
+   "req:4"
+  ],
+  "schema:ResponseImageGenCallGeneratingEvent": [
+   "props:4",
+   "req:4"
+  ],
+  "schema:ResponseImageGenCallInProgressEvent": [
+   "props:4",
+   "req:4"
+  ],
+  "schema:ResponseImageGenCallPartialImageEvent": [
+   "props:10",
+   "req:6"
+  ],
+  "schema:ResponseInProgressEvent": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:ResponseIncompleteEvent": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:ResponseItemList": [
+   "props:5",
+   "req:5"
+  ],
+  "schema:ResponseLogProb": [
+   "props:3",
+   "req:2"
+  ],
+  "schema:ResponseMCPCallArgumentsDeltaEvent": [
+   "props:5",
+   "req:5"
+  ],
+  "schema:ResponseMCPCallArgumentsDoneEvent": [
+   "props:5",
+   "req:5"
+  ],
+  "schema:ResponseMCPCallCompletedEvent": [
+   "props:4",
+   "req:4"
+  ],
+  "schema:ResponseMCPCallFailedEvent": [
+   "props:4",
+   "req:4"
+  ],
+  "schema:ResponseMCPCallInProgressEvent": [
+   "props:4",
+   "req:4"
+  ],
+  "schema:ResponseMCPListToolsCompletedEvent": [
+   "props:4",
+   "req:4"
+  ],
+  "schema:ResponseMCPListToolsFailedEvent": [
+   "props:4",
+   "req:4"
+  ],
+  "schema:ResponseMCPListToolsInProgressEvent": [
+   "props:4",
+   "req:4"
+  ],
+  "schema:ResponseModalities": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:ResponseOutputItemAddedEvent": [
+   "props:4",
+   "req:4"
+  ],
+  "schema:ResponseOutputItemDoneEvent": [
+   "props:4",
+   "req:4"
+  ],
+  "schema:ResponseOutputText": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:ResponseOutputTextAnnotationAddedEvent": [
+   "props:7",
+   "req:7"
+  ],
+  "schema:ResponsePromptVariables": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:ResponseProperties": [
+   "props:8",
+   "req:0"
+  ],
+  "schema:ResponseQueuedEvent": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:ResponseReasoningSummaryPartAddedEvent": [
+   "props:6",
+   "req:6"
+  ],
+  "schema:ResponseReasoningSummaryPartDoneEvent": [
+   "props:7",
+   "req:6"
+  ],
+  "schema:ResponseReasoningSummaryTextDeltaEvent": [
+   "props:6",
+   "req:6"
+  ],
+  "schema:ResponseReasoningSummaryTextDoneEvent": [
+   "props:6",
+   "req:6"
+  ],
+  "schema:ResponseReasoningTextDeltaEvent": [
+   "props:6",
+   "req:6"
+  ],
+  "schema:ResponseReasoningTextDoneEvent": [
+   "props:6",
+   "req:6"
+  ],
+  "schema:ResponseRefusalDeltaEvent": [
+   "props:6",
+   "req:6"
+  ],
+  "schema:ResponseRefusalDoneEvent": [
+   "props:6",
+   "req:6"
+  ],
+  "schema:ResponseShellCallCommandAddedStreamingEvent": [
+   "props:5",
+   "req:5"
+  ],
+  "schema:ResponseShellCallCommandDeltaStreamingEvent": [
+   "props:6",
+   "req:5"
+  ],
+  "schema:ResponseShellCallCommandDoneStreamingEvent": [
+   "props:5",
+   "req:5"
+  ],
+  "schema:ResponseShellCallOutputContentDeltaStreamingEvent": [
+   "props:6",
+   "req:6"
+  ],
+  "schema:ResponseShellCallOutputContentDoneStreamingEvent": [
+   "props:6",
+   "req:6"
+  ],
+  "schema:ResponseStreamEvent": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:ResponseStreamOptions": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:ResponseTextDeltaEvent": [
+   "props:7",
+   "req:7"
+  ],
+  "schema:ResponseTextDoneEvent": [
+   "props:7",
+   "req:7"
+  ],
+  "schema:ResponseTextParam": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:ResponseUsage": [
+   "props:5",
+   "req:5"
+  ],
+  "schema:ResponseWebSearchCallCompletedEvent": [
+   "props:4",
+   "req:4"
+  ],
+  "schema:ResponseWebSearchCallInProgressEvent": [
+   "props:4",
+   "req:4"
+  ],
+  "schema:ResponseWebSearchCallSearchingEvent": [
+   "props:4",
+   "req:4"
+  ],
+  "schema:ResponseWsError": [
+   "props:5",
+   "req:2"
+  ],
+  "schema:ResponsesClientEvent": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:ResponsesClientEventResponseCreate": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:ResponsesServerEvent": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:ResponsesWebSocketStreamEvent": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:Role": [
+   "props:7",
+   "req:7"
+  ],
+  "schema:RoleDeletedResource": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:RoleListResource": [
+   "props:4",
+   "req:4"
+  ],
+  "schema:RunCompletionUsage": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:RunGraderRequest": [
+   "props:3",
+   "req:2"
+  ],
+  "schema:RunGraderResponse": [
+   "props:4",
+   "req:4"
+  ],
+  "schema:RunObject": [
+   "props:27",
+   "req:25"
+  ],
+  "schema:RunStepCompletionUsage": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:RunStepDeltaObject": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:RunStepDeltaStepDetailsMessageCreationObject": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:RunStepDeltaStepDetailsToolCallsCodeObject": [
+   "props:4",
+   "req:2"
+  ],
+  "schema:RunStepDeltaStepDetailsToolCallsCodeOutputImageObject": [
+   "props:3",
+   "req:2"
+  ],
+  "schema:RunStepDeltaStepDetailsToolCallsCodeOutputLogsObject": [
+   "props:3",
+   "req:2"
+  ],
+  "schema:RunStepDeltaStepDetailsToolCallsFileSearchObject": [
+   "props:4",
+   "req:3"
+  ],
+  "schema:RunStepDeltaStepDetailsToolCallsFunctionObject": [
+   "props:4",
+   "req:2"
+  ],
+  "schema:RunStepDeltaStepDetailsToolCallsObject": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:RunStepDetailsMessageCreationObject": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:RunStepDetailsToolCallsCodeObject": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:RunStepDetailsToolCallsCodeOutputImageObject": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:RunStepDetailsToolCallsCodeOutputLogsObject": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:RunStepDetailsToolCallsFileSearchObject": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:RunStepDetailsToolCallsFileSearchRankingOptionsObject": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:RunStepDetailsToolCallsFileSearchResultObject": [
+   "props:4",
+   "req:3"
+  ],
+  "schema:RunStepDetailsToolCallsFunctionObject": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:RunStepDetailsToolCallsObject": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:RunStepObject": [
+   "props:16",
+   "req:16"
+  ],
+  "schema:RunStepStreamEvent": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:RunStreamEvent": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:RunToolCallObject": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:ScreenshotParam": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:ScrollParam": [
+   "props:6",
+   "req:5"
+  ],
+  "schema:SearchContentType": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:SearchContextSize": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:ServiceAccountApiKeyBody": [
+   "props:5",
+   "req:5"
+  ],
+  "schema:ServiceTier": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:ServiceTierEnum": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:ServiceTierResponses": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:SetDefaultSkillVersionBody": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:ShellCallOutputDelta": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:SkillListResource": [
+   "props:5",
+   "req:5"
+  ],
+  "schema:SkillReferenceParam": [
+   "props:3",
+   "req:2"
+  ],
+  "schema:SkillResource": [
+   "props:7",
+   "req:7"
+  ],
+  "schema:SkillVersionListResource": [
+   "props:5",
+   "req:5"
+  ],
+  "schema:SkillVersionResource": [
+   "props:7",
+   "req:7"
+  ],
+  "schema:SpecificApplyPatchParam": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:SpecificFunctionShellParam": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:SpecificProgrammaticToolCallingParam": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:SpeechAudioDeltaEvent": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:SpeechAudioDoneEvent": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:SpendAlertNotificationChannel": [
+   "props:3",
+   "req:2"
+  ],
+  "schema:SpendLimitCurrency": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:SpendLimitEnforcement": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:SpendLimitEnforcementStatus": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:SpendLimitInterval": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:StaticChunkingStrategy": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:StaticChunkingStrategyRequestParam": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:StaticChunkingStrategyResponseParam": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:StopConfiguration": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:SubmitToolOutputsRunRequest": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:SummaryTextContent": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:SynthIDProvenanceResult": [
+   "props:4",
+   "req:4"
+  ],
+  "schema:TaskGroupItem": [
+   "props:6",
+   "req:6"
+  ],
+  "schema:TaskGroupTask": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:TaskItem": [
+   "props:8",
+   "req:8"
+  ],
+  "schema:TaskType": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:TextContent": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:TextResponseFormatConfiguration": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:TextResponseFormatJsonSchema": [
+   "props:5",
+   "req:3"
+  ],
+  "schema:ThreadItem": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:ThreadItemListResource": [
+   "props:5",
+   "req:5"
+  ],
+  "schema:ThreadListResource": [
+   "props:5",
+   "req:5"
+  ],
+  "schema:ThreadObject": [
+   "props:5",
+   "req:5"
+  ],
+  "schema:ThreadResource": [
+   "props:6",
+   "req:6"
+  ],
+  "schema:ThreadStreamEvent": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:ToggleCertificatesRequest": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:TokenCountsBody": [
+   "props:12",
+   "req:0"
+  ],
+  "schema:TokenCountsResource": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:Tool": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:ToolCallCaller": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:ToolCallCallerParam": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:ToolChoice": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:ToolChoiceAllowed": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:ToolChoiceCustom": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:ToolChoiceFunction": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:ToolChoiceMCP": [
+   "props:3",
+   "req:2"
+  ],
+  "schema:ToolChoiceOptions": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:ToolChoiceParam": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:ToolChoiceTypes": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:ToolSearchCall": [
+   "props:7",
+   "req:6"
+  ],
+  "schema:ToolSearchCallItemParam": [
+   "props:6",
+   "req:2"
+  ],
+  "schema:ToolSearchExecutionType": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:ToolSearchOutput": [
+   "props:7",
+   "req:6"
+  ],
+  "schema:ToolSearchOutputItemParam": [
+   "props:6",
+   "req:2"
+  ],
+  "schema:ToolSearchToolParam": [
+   "props:4",
+   "req:1"
+  ],
+  "schema:ToolsArray": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:TopLogProb": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:TranscriptTextDeltaEvent": [
+   "props:4",
+   "req:2"
+  ],
+  "schema:TranscriptTextDoneEvent": [
+   "props:5",
+   "req:2"
+  ],
+  "schema:TranscriptTextSegmentEvent": [
+   "props:6",
+   "req:6"
+  ],
+  "schema:TranscriptTextUsageDuration": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:TranscriptTextUsageTokens": [
+   "props:5",
+   "req:4"
+  ],
+  "schema:TranscriptionChunkingStrategy": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:TranscriptionDiarizedSegment": [
+   "props:6",
+   "req:6"
+  ],
+  "schema:TranscriptionInclude": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:TranscriptionLanguage": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:TranscriptionSegment": [
+   "props:10",
+   "req:10"
+  ],
+  "schema:TranscriptionWord": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:TruncationEnum": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:TruncationObject": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:TypeParam": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:UpdateConversationBody": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:UpdateGroupBody": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:UpdateOrganizationDataRetentionBody": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:UpdateOrganizationSpendLimitBody": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:UpdateProjectDataRetentionBody": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:UpdateProjectServiceAccountBody": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:UpdateProjectSpendLimitBody": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:UpdateVectorStoreFileAttributesRequest": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:UpdateVectorStoreRequest": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:UpdateVoiceConsentRequest": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:Upload": [
+   "props:9",
+   "req:7"
+  ],
+  "schema:UploadCertificateRequest": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:UploadPart": [
+   "props:4",
+   "req:4"
+  ],
+  "schema:UrlAnnotation": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:UrlAnnotationSource": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:UrlCitationBody": [
+   "props:5",
+   "req:5"
+  ],
+  "schema:UrlCitationParam": [
+   "props:5",
+   "req:5"
+  ],
+  "schema:UsageAudioSpeechesResult": [
+   "props:7",
+   "req:3"
+  ],
+  "schema:UsageAudioTranscriptionsResult": [
+   "props:7",
+   "req:3"
+  ],
+  "schema:UsageCodeInterpreterSessionsResult": [
+   "props:3",
+   "req:2"
+  ],
+  "schema:UsageCompletionsResult": [
+   "props:22",
+   "req:4"
+  ],
+  "schema:UsageEmbeddingsResult": [
+   "props:7",
+   "req:3"
+  ],
+  "schema:UsageFileSearchCallsResult": [
+   "props:6",
+   "req:2"
+  ],
+  "schema:UsageImagesResult": [
+   "props:9",
+   "req:3"
+  ],
+  "schema:UsageModerationsResult": [
+   "props:7",
+   "req:3"
+  ],
+  "schema:UsageResponse": [
+   "props:4",
+   "req:4"
+  ],
+  "schema:UsageTimeBucket": [
+   "props:4",
+   "req:4"
+  ],
+  "schema:UsageVectorStoresResult": [
+   "props:3",
+   "req:2"
+  ],
+  "schema:UsageWebSearchCallsResult": [
+   "props:8",
+   "req:3"
+  ],
+  "schema:User": [
+   "props:16",
+   "req:3"
+  ],
+  "schema:UserDeleteResponse": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:UserListResource": [
+   "props:4",
+   "req:4"
+  ],
+  "schema:UserListResponse": [
+   "props:5",
+   "req:3"
+  ],
+  "schema:UserMessageInputText": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:UserMessageItem": [
+   "props:8",
+   "req:8"
+  ],
+  "schema:UserMessageQuotedText": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:UserRoleAssignment": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:UserRoleUpdateRequest": [
+   "props:4",
+   "req:0"
+  ],
+  "schema:VadConfig": [
+   "props:4",
+   "req:1"
+  ],
+  "schema:ValidateGraderRequest": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:ValidateGraderResponse": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:VectorStoreExpirationAfter": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:VectorStoreFileAttributes": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:VectorStoreFileBatchObject": [
+   "props:6",
+   "req:6"
+  ],
+  "schema:VectorStoreFileContentResponse": [
+   "props:4",
+   "req:4"
+  ],
+  "schema:VectorStoreFileObject": [
+   "props:9",
+   "req:7"
+  ],
+  "schema:VectorStoreObject": [
+   "props:11",
+   "req:9"
+  ],
+  "schema:VectorStoreSearchRequest": [
+   "props:5",
+   "req:1"
+  ],
+  "schema:VectorStoreSearchResultContentObject": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:VectorStoreSearchResultItem": [
+   "props:5",
+   "req:5"
+  ],
+  "schema:VectorStoreSearchResultsPage": [
+   "props:5",
+   "req:5"
+  ],
+  "schema:Verbosity": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:VideoCharacterResource": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:VideoContentVariant": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:VideoListResource": [
+   "props:5",
+   "req:5"
+  ],
+  "schema:VideoModel": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:VideoReferenceInputParam": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:VideoResource": [
+   "props:13",
+   "req:13"
+  ],
+  "schema:VideoSeconds": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:VideoSize": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:VideoStatus": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:VoiceConsentDeletedResource": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:VoiceConsentListResource": [
+   "props:5",
+   "req:3"
+  ],
+  "schema:VoiceConsentResource": [
+   "props:5",
+   "req:5"
+  ],
+  "schema:VoiceIdsOrCustomVoice": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:VoiceIdsShared": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:VoiceResource": [
+   "props:4",
+   "req:4"
+  ],
+  "schema:WaitParam": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:WebSearchActionFind": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:WebSearchActionOpenPage": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:WebSearchActionSearch": [
+   "props:4",
+   "req:1"
+  ],
+  "schema:WebSearchApproximateLocation": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:WebSearchContextSize": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:WebSearchLocation": [
+   "props:4",
+   "req:0"
+  ],
+  "schema:WebSearchPreviewTool": [
+   "props:4",
+   "req:1"
+  ],
+  "schema:WebSearchTool": [
+   "props:5",
+   "req:1"
+  ],
+  "schema:WebSearchToolCall": [
+   "props:4",
+   "req:4"
+  ],
+  "schema:WebhookBatchCancelled": [
+   "props:5",
+   "req:4"
+  ],
+  "schema:WebhookBatchCompleted": [
+   "props:5",
+   "req:4"
+  ],
+  "schema:WebhookBatchExpired": [
+   "props:5",
+   "req:4"
+  ],
+  "schema:WebhookBatchFailed": [
+   "props:5",
+   "req:4"
+  ],
+  "schema:WebhookEvalRunCanceled": [
+   "props:5",
+   "req:4"
+  ],
+  "schema:WebhookEvalRunFailed": [
+   "props:5",
+   "req:4"
+  ],
+  "schema:WebhookEvalRunSucceeded": [
+   "props:5",
+   "req:4"
+  ],
+  "schema:WebhookFineTuningJobCancelled": [
+   "props:5",
+   "req:4"
+  ],
+  "schema:WebhookFineTuningJobFailed": [
+   "props:5",
+   "req:4"
+  ],
+  "schema:WebhookFineTuningJobSucceeded": [
+   "props:5",
+   "req:4"
+  ],
+  "schema:WebhookLiveCallIncoming": [
+   "props:5",
+   "req:4"
+  ],
+  "schema:WebhookRealtimeCallIncoming": [
+   "props:5",
+   "req:4"
+  ],
+  "schema:WebhookResponseCancelled": [
+   "props:5",
+   "req:4"
+  ],
+  "schema:WebhookResponseCompleted": [
+   "props:5",
+   "req:4"
+  ],
+  "schema:WebhookResponseFailed": [
+   "props:5",
+   "req:4"
+  ],
+  "schema:WebhookResponseIncomplete": [
+   "props:5",
+   "req:4"
+  ],
+  "schema:WidgetMessageItem": [
+   "props:6",
+   "req:6"
+  ],
+  "schema:WorkflowParam": [
+   "props:4",
+   "req:1"
+  ],
+  "schema:WorkflowTracingParam": [
+   "props:1",
+   "req:0"
+  ]
+ },
+ "ts": "2026-08-18T23:23:51+00:00",
+ "url": "https://raw.githubusercontent.com/openai/openai-openapi/master/openapi.yaml",
+ "vendor": "OpenAI"
+}

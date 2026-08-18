@@ -1,0 +1,49 @@
+{
+ "category": "productivity",
+ "field_count": 12,
+ "first_seen": "2026-08-18T23:20:13+00:00",
+ "id": "status-atlassian-summary",
+ "pending_keys": [],
+ "runs": 3,
+ "schema": {
+  "components": [
+   "array"
+  ],
+  "incidents": [
+   "array"
+  ],
+  "page": [
+   "object"
+  ],
+  "page.id": [
+   "string"
+  ],
+  "page.name": [
+   "string"
+  ],
+  "page.time_zone": [
+   "string"
+  ],
+  "page.updated_at": [
+   "string"
+  ],
+  "page.url": [
+   "string"
+  ],
+  "scheduled_maintenances": [
+   "array"
+  ],
+  "status": [
+   "object"
+  ],
+  "status.description": [
+   "string"
+  ],
+  "status.indicator": [
+   "string"
+  ]
+ },
+ "ts": "2026-08-18T23:23:51+00:00",
+ "url": "https://status.atlassian.com/api/v2/summary.json",
+ "vendor": "Atlassian"
+}

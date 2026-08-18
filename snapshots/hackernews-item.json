@@ -1,0 +1,43 @@
+{
+ "category": "content",
+ "field_count": 10,
+ "first_seen": "2026-08-18T23:20:13+00:00",
+ "id": "hackernews-item",
+ "pending_keys": [],
+ "runs": 3,
+ "schema": {
+  "by": [
+   "string"
+  ],
+  "descendants": [
+   "integer"
+  ],
+  "id": [
+   "integer"
+  ],
+  "kids": [
+   "array"
+  ],
+  "kids[]": [
+   "integer"
+  ],
+  "score": [
+   "integer"
+  ],
+  "time": [
+   "integer"
+  ],
+  "title": [
+   "string"
+  ],
+  "type": [
+   "string"
+  ],
+  "url": [
+   "string"
+  ]
+ },
+ "ts": "2026-08-18T23:23:51+00:00",
+ "url": "https://hacker-news.firebaseio.com/v0/item/8863.json",
+ "vendor": "Hacker News"
+}

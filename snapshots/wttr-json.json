@@ -1,0 +1,358 @@
+{
+ "category": "weather",
+ "field_count": 115,
+ "first_seen": "2026-08-18T23:20:13+00:00",
+ "id": "wttr-json",
+ "pending_keys": [],
+ "runs": 3,
+ "schema": {
+  "current_condition": [
+   "array"
+  ],
+  "current_condition[]": [
+   "object"
+  ],
+  "current_condition[].FeelsLikeC": [
+   "string"
+  ],
+  "current_condition[].FeelsLikeF": [
+   "string"
+  ],
+  "current_condition[].cloudcover": [
+   "string"
+  ],
+  "current_condition[].humidity": [
+   "string"
+  ],
+  "current_condition[].observation_time": [
+   "string"
+  ],
+  "current_condition[].precipInches": [
+   "string"
+  ],
+  "current_condition[].precipMM": [
+   "string"
+  ],
+  "current_condition[].pressure": [
+   "string"
+  ],
+  "current_condition[].pressureInches": [
+   "string"
+  ],
+  "current_condition[].temp_C": [
+   "string"
+  ],
+  "current_condition[].temp_F": [
+   "string"
+  ],
+  "current_condition[].uvIndex": [
+   "string"
+  ],
+  "current_condition[].visibility": [
+   "string"
+  ],
+  "current_condition[].visibilityMiles": [
+   "string"
+  ],
+  "current_condition[].weatherCode": [
+   "string"
+  ],
+  "current_condition[].weatherDesc": [
+   "array"
+  ],
+  "current_condition[].weatherDesc[]": [
+   "object"
+  ],
+  "current_condition[].weatherDesc[].value": [
+   "string"
+  ],
+  "current_condition[].weatherIconUrl": [
+   "array"
+  ],
+  "current_condition[].weatherIconUrl[]": [
+   "object"
+  ],
+  "current_condition[].weatherIconUrl[].value": [
+   "string"
+  ],
+  "current_condition[].winddir16Point": [
+   "string"
+  ],
+  "current_condition[].winddirDegree": [
+   "string"
+  ],
+  "current_condition[].windspeedKmph": [
+   "string"
+  ],
+  "current_condition[].windspeedMiles": [
+   "string"
+  ],
+  "nearest_area": [
+   "array"
+  ],
+  "nearest_area[]": [
+   "object"
+  ],
+  "nearest_area[].areaName": [
+   "array"
+  ],
+  "nearest_area[].areaName[]": [
+   "object"
+  ],
+  "nearest_area[].areaName[].value": [
+   "string"
+  ],
+  "nearest_area[].country": [
+   "array"
+  ],
+  "nearest_area[].country[]": [
+   "object"
+  ],
+  "nearest_area[].country[].value": [
+   "string"
+  ],
+  "nearest_area[].latitude": [
+   "string"
+  ],
+  "nearest_area[].longitude": [
+   "string"
+  ],
+  "nearest_area[].population": [
+   "string"
+  ],
+  "nearest_area[].region": [
+   "array"
+  ],
+  "nearest_area[].region[]": [
+   "object"
+  ],
+  "nearest_area[].region[].value": [
+   "string"
+  ],
+  "nearest_area[].weatherUrl": [
+   "array"
+  ],
+  "nearest_area[].weatherUrl[]": [
+   "object"
+  ],
+  "nearest_area[].weatherUrl[].value": [
+   "string"
+  ],
+  "request": [
+   "array"
+  ],
+  "request[]": [
+   "object"
+  ],
+  "request[].query": [
+   "string"
+  ],
+  "request[].type": [
+   "string"
+  ],
+  "weather": [
+   "array"
+  ],
+  "weather[]": [
+   "object"
+  ],
+  "weather[].astronomy": [
+   "array"
+  ],
+  "weather[].astronomy[]": [
+   "object"
+  ],
+  "weather[].astronomy[].moon_illumination": [
+   "string"
+  ],
+  "weather[].astronomy[].moon_phase": [
+   "string"
+  ],
+  "weather[].astronomy[].moonrise": [
+   "string"
+  ],
+  "weather[].astronomy[].moonset": [
+   "string"
+  ],
+  "weather[].astronomy[].sunrise": [
+   "string"
+  ],
+  "weather[].astronomy[].sunset": [
+   "string"
+  ],
+  "weather[].avgtempC": [
+   "string"
+  ],
+  "weather[].avgtempF": [
+   "string"
+  ],
+  "weather[].date": [
+   "string"
+  ],
+  "weather[].hourly": [
+   "array"
+  ],
+  "weather[].hourly[]": [
+   "object"
+  ],
+  "weather[].hourly[].DewPointC": [
+   "string"
+  ],
+  "weather[].hourly[].DewPointF": [
+   "string"
+  ],
+  "weather[].hourly[].FeelsLikeC": [
+   "string"
+  ],
+  "weather[].hourly[].FeelsLikeF": [
+   "string"
+  ],
+  "weather[].hourly[].HeatIndexC": [
+   "string"
+  ],
+  "weather[].hourly[].HeatIndexF": [
+   "string"
+  ],
+  "weather[].hourly[].WindChillC": [
+   "string"
+  ],
+  "weather[].hourly[].WindChillF": [
+   "string"
+  ],
+  "weather[].hourly[].WindGustKmph": [
+   "string"
+  ],
+  "weather[].hourly[].WindGustMiles": [
+   "string"
+  ],
+  "weather[].hourly[].chanceoffog": [
+   "string"
+  ],
+  "weather[].hourly[].chanceoffrost": [
+   "string"
+  ],
+  "weather[].hourly[].chanceofhightemp": [
+   "string"
+  ],
+  "weather[].hourly[].chanceofovercast": [
+   "string"
+  ],
+  "weather[].hourly[].chanceofrain": [
+   "string"
+  ],
+  "weather[].hourly[].chanceofremdry": [
+   "string"
+  ],
+  "weather[].hourly[].chanceofsnow": [
+   "string"
+  ],
+  "weather[].hourly[].chanceofsunshine": [
+   "string"
+  ],
+  "weather[].hourly[].chanceofthunder": [
+   "string"
+  ],
+  "weather[].hourly[].chanceofwindy": [
+   "string"
+  ],
+  "weather[].hourly[].cloudcover": [
+   "string"
+  ],
+  "weather[].hourly[].diffRad": [
+   "string"
+  ],
+  "weather[].hourly[].humidity": [
+   "string"
+  ],
+  "weather[].hourly[].precipInches": [
+   "string"
+  ],
+  "weather[].hourly[].precipMM": [
+   "string"
+  ],
+  "weather[].hourly[].pressure": [
+   "string"
+  ],
+  "weather[].hourly[].pressureInches": [
+   "string"
+  ],
+  "weather[].hourly[].shortRad": [
+   "string"
+  ],
+  "weather[].hourly[].tempC": [
+   "string"
+  ],
+  "weather[].hourly[].tempF": [
+   "string"
+  ],
+  "weather[].hourly[].time": [
+   "string"
+  ],
+  "weather[].hourly[].uvIndex": [
+   "string"
+  ],
+  "weather[].hourly[].visibility": [
+   "string"
+  ],
+  "weather[].hourly[].visibilityMiles": [
+   "string"
+  ],
+  "weather[].hourly[].weatherCode": [
+   "string"
+  ],
+  "weather[].hourly[].weatherDesc": [
+   "array"
+  ],
+  "weather[].hourly[].weatherDesc[]": [
+   "object"
+  ],
+  "weather[].hourly[].weatherDesc[].value": [
+   "string"
+  ],
+  "weather[].hourly[].weatherIconUrl": [
+   "array"
+  ],
+  "weather[].hourly[].weatherIconUrl[]": [
+   "object"
+  ],
+  "weather[].hourly[].weatherIconUrl[].value": [
+   "string"
+  ],
+  "weather[].hourly[].winddir16Point": [
+   "string"
+  ],
+  "weather[].hourly[].winddirDegree": [
+   "string"
+  ],
+  "weather[].hourly[].windspeedKmph": [
+   "string"
+  ],
+  "weather[].hourly[].windspeedMiles": [
+   "string"
+  ],
+  "weather[].maxtempC": [
+   "string"
+  ],
+  "weather[].maxtempF": [
+   "string"
+  ],
+  "weather[].mintempC": [
+   "string"
+  ],
+  "weather[].mintempF": [
+   "string"
+  ],
+  "weather[].sunHour": [
+   "string"
+  ],
+  "weather[].totalSnow_cm": [
+   "string"
+  ],
+  "weather[].uvIndex": [
+   "string"
+  ]
+ },
+ "ts": "2026-08-18T23:23:51+00:00",
+ "url": "https://wttr.in/Delhi?format=j1",
+ "vendor": "wttr.in"
+}

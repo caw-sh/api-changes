@@ -1,0 +1,196 @@
+{
+ "category": "registry",
+ "field_count": 61,
+ "first_seen": "2026-08-18T23:20:13+00:00",
+ "id": "npm-express",
+ "pending_keys": [],
+ "runs": 3,
+ "schema": {
+  "_hasShrinkwrap": [
+   "boolean"
+  ],
+  "_id": [
+   "string"
+  ],
+  "_nodeVersion": [
+   "string"
+  ],
+  "_npmOperationalInternal": [
+   "object"
+  ],
+  "_npmOperationalInternal.host": [
+   "string"
+  ],
+  "_npmOperationalInternal.tmp": [
+   "string"
+  ],
+  "_npmUser": [
+   "object"
+  ],
+  "_npmUser.email": [
+   "string"
+  ],
+  "_npmUser.name": [
+   "string"
+  ],
+  "_npmVersion": [
+   "string"
+  ],
+  "author": [
+   "object"
+  ],
+  "author.email": [
+   "string"
+  ],
+  "author.name": [
+   "string"
+  ],
+  "bugs": [
+   "object"
+  ],
+  "bugs.url": [
+   "string"
+  ],
+  "contributors": [
+   "array"
+  ],
+  "contributors[]": [
+   "object"
+  ],
+  "contributors[].email": [
+   "string"
+  ],
+  "contributors[].name": [
+   "string"
+  ],
+  "dependencies": [
+   "object"
+  ],
+  "dependencies.{*}": [
+   "string"
+  ],
+  "description": [
+   "string"
+  ],
+  "devDependencies": [
+   "object"
+  ],
+  "devDependencies.{*}": [
+   "string"
+  ],
+  "directories": [
+   "object"
+  ],
+  "dist": [
+   "object"
+  ],
+  "dist.fileCount": [
+   "integer"
+  ],
+  "dist.integrity": [
+   "string"
+  ],
+  "dist.shasum": [
+   "string"
+  ],
+  "dist.signatures": [
+   "array"
+  ],
+  "dist.signatures[]": [
+   "object"
+  ],
+  "dist.signatures[].keyid": [
+   "string"
+  ],
+  "dist.signatures[].sig": [
+   "string"
+  ],
+  "dist.tarball": [
+   "string"
+  ],
+  "dist.unpackedSize": [
+   "integer"
+  ],
+  "engines": [
+   "object"
+  ],
+  "engines.node": [
+   "string"
+  ],
+  "funding": [
+   "object"
+  ],
+  "funding.type": [
+   "string"
+  ],
+  "funding.url": [
+   "string"
+  ],
+  "gitHead": [
+   "string"
+  ],
+  "homepage": [
+   "string"
+  ],
+  "keywords": [
+   "array"
+  ],
+  "keywords[]": [
+   "string"
+  ],
+  "license": [
+   "string"
+  ],
+  "maintainers": [
+   "array"
+  ],
+  "maintainers[]": [
+   "object"
+  ],
+  "maintainers[].email": [
+   "string"
+  ],
+  "maintainers[].name": [
+   "string"
+  ],
+  "name": [
+   "string"
+  ],
+  "repository": [
+   "object"
+  ],
+  "repository.type": [
+   "string"
+  ],
+  "repository.url": [
+   "string"
+  ],
+  "scripts": [
+   "object"
+  ],
+  "scripts.lint": [
+   "string"
+  ],
+  "scripts.lint:fix": [
+   "string"
+  ],
+  "scripts.test": [
+   "string"
+  ],
+  "scripts.test-ci": [
+   "string"
+  ],
+  "scripts.test-cov": [
+   "string"
+  ],
+  "scripts.test-tap": [
+   "string"
+  ],
+  "version": [
+   "string"
+  ]
+ },
+ "ts": "2026-08-18T23:23:51+00:00",
+ "url": "https://registry.npmjs.org/express/latest",
+ "vendor": "npm"
+}

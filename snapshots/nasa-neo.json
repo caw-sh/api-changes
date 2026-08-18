@@ -1,0 +1,31 @@
+{
+ "category": "science",
+ "field_count": 6,
+ "first_seen": "2026-08-18T23:20:13+00:00",
+ "id": "nasa-neo",
+ "pending_keys": [],
+ "runs": 3,
+ "schema": {
+  "close_approach_count": [
+   "integer"
+  ],
+  "id": [
+   "string"
+  ],
+  "last_updated": [
+   "string"
+  ],
+  "nasa_jpl_url": [
+   "string"
+  ],
+  "near_earth_object_count": [
+   "integer"
+  ],
+  "source": [
+   "string"
+  ]
+ },
+ "ts": "2026-08-18T23:23:51+00:00",
+ "url": "https://api.nasa.gov/neo/rest/v1/stats?api_key=DEMO_KEY",
+ "vendor": "NASA"
+}

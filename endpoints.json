@@ -1,0 +1,653 @@
+[
+ {
+  "id": "status-github-summary",
+  "vendor": "GitHub",
+  "category": "dev-infra",
+  "url": "https://www.githubstatus.com/api/v2/summary.json",
+  "kind": "json"
+ },
+ {
+  "id": "status-github-components",
+  "vendor": "GitHub",
+  "category": "dev-infra",
+  "url": "https://www.githubstatus.com/api/v2/components.json",
+  "kind": "json"
+ },
+ {
+  "id": "status-openai-summary",
+  "vendor": "OpenAI",
+  "category": "ai",
+  "url": "https://status.openai.com/api/v2/summary.json",
+  "kind": "json"
+ },
+ {
+  "id": "status-openai-components",
+  "vendor": "OpenAI",
+  "category": "ai",
+  "url": "https://status.openai.com/api/v2/components.json",
+  "kind": "json"
+ },
+ {
+  "id": "status-anthropic-summary",
+  "vendor": "Anthropic",
+  "category": "ai",
+  "url": "https://status.anthropic.com/api/v2/summary.json",
+  "kind": "json"
+ },
+ {
+  "id": "status-anthropic-components",
+  "vendor": "Anthropic",
+  "category": "ai",
+  "url": "https://status.anthropic.com/api/v2/components.json",
+  "kind": "json"
+ },
+ {
+  "id": "status-cloudflare-summary",
+  "vendor": "Cloudflare",
+  "category": "dev-infra",
+  "url": "https://www.cloudflarestatus.com/api/v2/summary.json",
+  "kind": "json"
+ },
+ {
+  "id": "status-cloudflare-components",
+  "vendor": "Cloudflare",
+  "category": "dev-infra",
+  "url": "https://www.cloudflarestatus.com/api/v2/components.json",
+  "kind": "json"
+ },
+ {
+  "id": "status-twilio-summary",
+  "vendor": "Twilio",
+  "category": "comms",
+  "url": "https://status.twilio.com/api/v2/summary.json",
+  "kind": "json"
+ },
+ {
+  "id": "status-twilio-components",
+  "vendor": "Twilio",
+  "category": "comms",
+  "url": "https://status.twilio.com/api/v2/components.json",
+  "kind": "json"
+ },
+ {
+  "id": "status-discord-summary",
+  "vendor": "Discord",
+  "category": "comms",
+  "url": "https://discordstatus.com/api/v2/summary.json",
+  "kind": "json"
+ },
+ {
+  "id": "status-discord-components",
+  "vendor": "Discord",
+  "category": "comms",
+  "url": "https://discordstatus.com/api/v2/components.json",
+  "kind": "json"
+ },
+ {
+  "id": "status-vercel-summary",
+  "vendor": "Vercel",
+  "category": "dev-infra",
+  "url": "https://www.vercel-status.com/api/v2/summary.json",
+  "kind": "json"
+ },
+ {
+  "id": "status-vercel-components",
+  "vendor": "Vercel",
+  "category": "dev-infra",
+  "url": "https://www.vercel-status.com/api/v2/components.json",
+  "kind": "json"
+ },
+ {
+  "id": "status-netlify-summary",
+  "vendor": "Netlify",
+  "category": "dev-infra",
+  "url": "https://www.netlifystatus.com/api/v2/summary.json",
+  "kind": "json"
+ },
+ {
+  "id": "status-netlify-components",
+  "vendor": "Netlify",
+  "category": "dev-infra",
+  "url": "https://www.netlifystatus.com/api/v2/components.json",
+  "kind": "json"
+ },
+ {
+  "id": "status-shopify-summary",
+  "vendor": "Shopify",
+  "category": "commerce",
+  "url": "https://www.shopifystatus.com/api/v2/summary.json",
+  "kind": "json"
+ },
+ {
+  "id": "status-digitalocean-summary",
+  "vendor": "DigitalOcean",
+  "category": "dev-infra",
+  "url": "https://status.digitalocean.com/api/v2/summary.json",
+  "kind": "json"
+ },
+ {
+  "id": "status-atlassian-summary",
+  "vendor": "Atlassian",
+  "category": "productivity",
+  "url": "https://status.atlassian.com/api/v2/summary.json",
+  "kind": "json"
+ },
+ {
+  "id": "status-dropbox-summary",
+  "vendor": "Dropbox",
+  "category": "productivity",
+  "url": "https://status.dropbox.com/api/v2/summary.json",
+  "kind": "json"
+ },
+ {
+  "id": "status-zoom-summary",
+  "vendor": "Zoom",
+  "category": "comms",
+  "url": "https://status.zoom.us/api/v2/summary.json",
+  "kind": "json"
+ },
+ {
+  "id": "status-npm-summary",
+  "vendor": "npm",
+  "category": "dev-infra",
+  "url": "https://status.npmjs.org/api/v2/summary.json",
+  "kind": "json"
+ },
+ {
+  "id": "status-mongodb-summary",
+  "vendor": "MongoDB Atlas",
+  "category": "data",
+  "url": "https://status.mongodb.com/api/v2/summary.json",
+  "kind": "json"
+ },
+ {
+  "id": "status-supabase-summary",
+  "vendor": "Supabase",
+  "category": "data",
+  "url": "https://status.supabase.com/api/v2/summary.json",
+  "kind": "json"
+ },
+ {
+  "id": "status-figma-summary",
+  "vendor": "Figma",
+  "category": "productivity",
+  "url": "https://status.figma.com/api/v2/summary.json",
+  "kind": "json"
+ },
+ {
+  "id": "npm-react",
+  "vendor": "npm",
+  "category": "registry",
+  "url": "https://registry.npmjs.org/react/latest",
+  "kind": "json"
+ },
+ {
+  "id": "npm-express",
+  "vendor": "npm",
+  "category": "registry",
+  "url": "https://registry.npmjs.org/express/latest",
+  "kind": "json"
+ },
+ {
+  "id": "npm-typescript",
+  "vendor": "npm",
+  "category": "registry",
+  "url": "https://registry.npmjs.org/typescript/latest",
+  "kind": "json"
+ },
+ {
+  "id": "npm-downloads",
+  "vendor": "npm",
+  "category": "registry",
+  "url": "https://api.npmjs.org/downloads/point/last-week/react",
+  "kind": "json"
+ },
+ {
+  "id": "pypi-requests",
+  "vendor": "PyPI",
+  "category": "registry",
+  "url": "https://pypi.org/pypi/requests/json",
+  "kind": "json"
+ },
+ {
+  "id": "pypi-django",
+  "vendor": "PyPI",
+  "category": "registry",
+  "url": "https://pypi.org/pypi/django/json",
+  "kind": "json"
+ },
+ {
+  "id": "pypi-fastapi",
+  "vendor": "PyPI",
+  "category": "registry",
+  "url": "https://pypi.org/pypi/fastapi/json",
+  "kind": "json"
+ },
+ {
+  "id": "crates-serde",
+  "vendor": "crates.io",
+  "category": "registry",
+  "url": "https://crates.io/api/v1/crates/serde",
+  "kind": "json"
+ },
+ {
+  "id": "crates-tokio",
+  "vendor": "crates.io",
+  "category": "registry",
+  "url": "https://crates.io/api/v1/crates/tokio",
+  "kind": "json"
+ },
+ {
+  "id": "rubygems-rails",
+  "vendor": "RubyGems",
+  "category": "registry",
+  "url": "https://rubygems.org/api/v1/gems/rails.json",
+  "kind": "json"
+ },
+ {
+  "id": "packagist-monolog",
+  "vendor": "Packagist",
+  "category": "registry",
+  "url": "https://repo.packagist.org/p2/monolog/monolog.json",
+  "kind": "json"
+ },
+ {
+  "id": "hex-phoenix",
+  "vendor": "Hex.pm",
+  "category": "registry",
+  "url": "https://hex.pm/api/packages/phoenix",
+  "kind": "json"
+ },
+ {
+  "id": "dockerhub-nginx",
+  "vendor": "Docker Hub",
+  "category": "registry",
+  "url": "https://hub.docker.com/v2/repositories/library/nginx/",
+  "kind": "json"
+ },
+ {
+  "id": "dockerhub-python",
+  "vendor": "Docker Hub",
+  "category": "registry",
+  "url": "https://hub.docker.com/v2/repositories/library/python/",
+  "kind": "json"
+ },
+ {
+  "id": "homebrew-wget",
+  "vendor": "Homebrew",
+  "category": "registry",
+  "url": "https://formulae.brew.sh/api/formula/wget.json",
+  "kind": "json"
+ },
+ {
+  "id": "pub-http",
+  "vendor": "pub.dev",
+  "category": "registry",
+  "url": "https://pub.dev/api/packages/http",
+  "kind": "json"
+ },
+ {
+  "id": "github-repo",
+  "vendor": "GitHub",
+  "category": "dev-infra",
+  "url": "https://api.github.com/repos/facebook/react",
+  "kind": "json"
+ },
+ {
+  "id": "github-releases",
+  "vendor": "GitHub",
+  "category": "dev-infra",
+  "url": "https://api.github.com/repos/nodejs/node/releases/latest",
+  "kind": "json"
+ },
+ {
+  "id": "github-meta",
+  "vendor": "GitHub",
+  "category": "dev-infra",
+  "url": "https://api.github.com/meta",
+  "kind": "json"
+ },
+ {
+  "id": "gitlab-projects",
+  "vendor": "GitLab",
+  "category": "dev-infra",
+  "url": "https://gitlab.com/api/v4/projects/278964",
+  "kind": "json"
+ },
+ {
+  "id": "codeberg-version",
+  "vendor": "Codeberg",
+  "category": "dev-infra",
+  "url": "https://codeberg.org/api/v1/version",
+  "kind": "json"
+ },
+ {
+  "id": "hackernews-item",
+  "vendor": "Hacker News",
+  "category": "content",
+  "url": "https://hacker-news.firebaseio.com/v0/item/8863.json",
+  "kind": "json"
+ },
+ {
+  "id": "hackernews-top",
+  "vendor": "Hacker News",
+  "category": "content",
+  "url": "https://hacker-news.firebaseio.com/v0/topstories.json",
+  "kind": "json"
+ },
+ {
+  "id": "coingecko-price",
+  "vendor": "CoinGecko",
+  "category": "finance",
+  "url": "https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=usd",
+  "kind": "json"
+ },
+ {
+  "id": "coingecko-coin",
+  "vendor": "CoinGecko",
+  "category": "finance",
+  "url": "https://api.coingecko.com/api/v3/coins/bitcoin?localization=false&tickers=false&community_data=false",
+  "kind": "json"
+ },
+ {
+  "id": "coinbase-rates",
+  "vendor": "Coinbase",
+  "category": "finance",
+  "url": "https://api.coinbase.com/v2/exchange-rates?currency=BTC",
+  "kind": "json"
+ },
+ {
+  "id": "coinbase-time",
+  "vendor": "Coinbase",
+  "category": "finance",
+  "url": "https://api.coinbase.com/v2/time",
+  "kind": "json"
+ },
+ {
+  "id": "binance-ticker",
+  "vendor": "Binance",
+  "category": "finance",
+  "url": "https://api.binance.com/api/v3/ticker/price?symbol=BTCUSDT",
+  "kind": "json"
+ },
+ {
+  "id": "binance-exchangeinfo",
+  "vendor": "Binance",
+  "category": "finance",
+  "url": "https://api.binance.com/api/v3/exchangeInfo?symbol=BTCUSDT",
+  "kind": "json"
+ },
+ {
+  "id": "kraken-ticker",
+  "vendor": "Kraken",
+  "category": "finance",
+  "url": "https://api.kraken.com/0/public/Ticker?pair=XBTUSD",
+  "kind": "json"
+ },
+ {
+  "id": "kraken-assets",
+  "vendor": "Kraken",
+  "category": "finance",
+  "url": "https://api.kraken.com/0/public/Assets",
+  "kind": "json"
+ },
+ {
+  "id": "bitfinex-ticker",
+  "vendor": "Bitfinex",
+  "category": "finance",
+  "url": "https://api-pub.bitfinex.com/v2/ticker/tBTCUSD",
+  "kind": "json"
+ },
+ {
+  "id": "frankfurter-latest",
+  "vendor": "Frankfurter",
+  "category": "finance",
+  "url": "https://api.frankfurter.app/latest",
+  "kind": "json"
+ },
+ {
+  "id": "erapi-usd",
+  "vendor": "open.er-api.com",
+  "category": "finance",
+  "url": "https://open.er-api.com/v6/latest/USD",
+  "kind": "json"
+ },
+ {
+  "id": "openmeteo-forecast",
+  "vendor": "Open-Meteo",
+  "category": "weather",
+  "url": "https://api.open-meteo.com/v1/forecast?latitude=52.52&longitude=13.41&current_weather=true",
+  "kind": "json"
+ },
+ {
+  "id": "openmeteo-air",
+  "vendor": "Open-Meteo",
+  "category": "weather",
+  "url": "https://air-quality-api.open-meteo.com/v1/air-quality?latitude=52.52&longitude=13.41&current=pm10",
+  "kind": "json"
+ },
+ {
+  "id": "wttr-json",
+  "vendor": "wttr.in",
+  "category": "weather",
+  "url": "https://wttr.in/Delhi?format=j1",
+  "kind": "json"
+ },
+ {
+  "id": "restcountries-india",
+  "vendor": "REST Countries",
+  "category": "reference",
+  "url": "https://restcountries.com/v3.1/alpha/ind",
+  "kind": "json"
+ },
+ {
+  "id": "worldbank-indicator",
+  "vendor": "World Bank",
+  "category": "reference",
+  "url": "https://api.worldbank.org/v2/country/IND/indicator/NY.GDP.MKTP.CD?format=json",
+  "kind": "json"
+ },
+ {
+  "id": "wikipedia-summary",
+  "vendor": "Wikipedia",
+  "category": "reference",
+  "url": "https://en.wikipedia.org/api/rest_v1/page/summary/Application_programming_interface",
+  "kind": "json"
+ },
+ {
+  "id": "openlibrary-book",
+  "vendor": "Open Library",
+  "category": "reference",
+  "url": "https://openlibrary.org/api/books?bibkeys=ISBN:0451526538&format=json&jscmd=data",
+  "kind": "json"
+ },
+ {
+  "id": "openlibrary-search",
+  "vendor": "Open Library",
+  "category": "reference",
+  "url": "https://openlibrary.org/search.json?q=api&limit=2",
+  "kind": "json"
+ },
+ {
+  "id": "pokeapi-pokemon",
+  "vendor": "PokeAPI",
+  "category": "fun",
+  "url": "https://pokeapi.co/api/v2/pokemon/ditto",
+  "kind": "json"
+ },
+ {
+  "id": "pokeapi-species",
+  "vendor": "PokeAPI",
+  "category": "fun",
+  "url": "https://pokeapi.co/api/v2/pokemon-species/ditto",
+  "kind": "json"
+ },
+ {
+  "id": "dogceo-random",
+  "vendor": "Dog CEO",
+  "category": "fun",
+  "url": "https://dog.ceo/api/breeds/image/random",
+  "kind": "json"
+ },
+ {
+  "id": "jsonplaceholder-post",
+  "vendor": "JSONPlaceholder",
+  "category": "fun",
+  "url": "https://jsonplaceholder.typicode.com/posts/1",
+  "kind": "json"
+ },
+ {
+  "id": "jsonplaceholder-users",
+  "vendor": "JSONPlaceholder",
+  "category": "fun",
+  "url": "https://jsonplaceholder.typicode.com/users",
+  "kind": "json"
+ },
+ {
+  "id": "ipify",
+  "vendor": "ipify",
+  "category": "utility",
+  "url": "https://api.ipify.org?format=json",
+  "kind": "json"
+ },
+ {
+  "id": "nasa-apod",
+  "vendor": "NASA",
+  "category": "science",
+  "url": "https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY",
+  "kind": "json"
+ },
+ {
+  "id": "nasa-neo",
+  "vendor": "NASA",
+  "category": "science",
+  "url": "https://api.nasa.gov/neo/rest/v1/stats?api_key=DEMO_KEY",
+  "kind": "json"
+ },
+ {
+  "id": "usgs-quakes",
+  "vendor": "USGS",
+  "category": "science",
+  "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&limit=2",
+  "kind": "json"
+ },
+ {
+  "id": "spec-openai",
+  "vendor": "OpenAI",
+  "category": "spec",
+  "url": "https://raw.githubusercontent.com/openai/openai-openapi/master/openapi.yaml",
+  "kind": "spec"
+ },
+ {
+  "id": "spec-slack",
+  "vendor": "Slack",
+  "category": "spec",
+  "url": "https://raw.githubusercontent.com/slackapi/slack-api-specs/master/web-api/slack_web_openapi_v2.json",
+  "kind": "spec"
+ },
+ {
+  "id": "spec-twilio-core",
+  "vendor": "Twilio",
+  "category": "spec",
+  "url": "https://raw.githubusercontent.com/twilio/twilio-oai/main/spec/json/twilio_api_v2010.json",
+  "kind": "spec"
+ },
+ {
+  "id": "spec-digitalocean",
+  "vendor": "DigitalOcean",
+  "category": "spec",
+  "url": "https://raw.githubusercontent.com/digitalocean/openapi/main/specification/DigitalOcean-public.v2.yaml",
+  "kind": "spec"
+ },
+ {
+  "id": "spec-asana",
+  "vendor": "Asana",
+  "category": "spec",
+  "url": "https://raw.githubusercontent.com/Asana/openapi/master/defs/asana_oas.yaml",
+  "kind": "spec"
+ },
+ {
+  "id": "spec-box",
+  "vendor": "Box",
+  "category": "spec",
+  "url": "https://raw.githubusercontent.com/box/box-openapi/main/openapi.json",
+  "kind": "spec"
+ },
+ {
+  "id": "spec-github",
+  "vendor": "GitHub",
+  "category": "spec",
+  "kind": "spec",
+  "url": "https://raw.githubusercontent.com/github/rest-api-description/main/descriptions/api.github.com/api.github.com.json"
+ },
+ {
+  "id": "spec-stripe",
+  "vendor": "Stripe",
+  "category": "spec",
+  "kind": "spec",
+  "url": "https://raw.githubusercontent.com/stripe/openapi/master/openapi/spec3.json"
+ },
+ {
+  "id": "spec-cloudflare",
+  "vendor": "Cloudflare",
+  "category": "spec",
+  "kind": "spec",
+  "url": "https://raw.githubusercontent.com/cloudflare/api-schemas/main/openapi.json"
+ },
+ {
+  "id": "nominatim-search",
+  "vendor": "OpenStreetMap",
+  "category": "reference",
+  "kind": "json",
+  "url": "https://nominatim.openstreetmap.org/search?q=delhi&format=json&limit=1"
+ },
+ {
+  "id": "status-hashicorp-summary",
+  "vendor": "HashiCorp",
+  "category": "productivity",
+  "kind": "json",
+  "url": "https://status.hashicorp.com/api/v2/summary.json"
+ },
+ {
+  "id": "status-reddit-summary",
+  "vendor": "Reddit",
+  "category": "productivity",
+  "kind": "json",
+  "url": "https://www.redditstatus.com/api/v2/summary.json"
+ },
+ {
+  "id": "gcp-incidents",
+  "vendor": "Google Cloud",
+  "category": "dev-infra",
+  "kind": "json",
+  "url": "https://status.cloud.google.com/incidents.json"
+ },
+ {
+  "id": "status-slack-summary",
+  "vendor": "Slack",
+  "category": "comms",
+  "kind": "json",
+  "url": "https://status.slack.com/api/v2.0.0/current"
+ },
+ {
+  "id": "status-cloudinary-summary",
+  "vendor": "Cloudinary",
+  "category": "dev-infra",
+  "kind": "json",
+  "url": "https://status.cloudinary.com/api/v2/summary.json"
+ },
+ {
+  "id": "status-sentry-summary",
+  "vendor": "Sentry",
+  "category": "dev-infra",
+  "kind": "json",
+  "url": "https://status.sentry.io/api/v2/summary.json"
+ },
+ {
+  "id": "status-heroku-summary",
+  "vendor": "Heroku",
+  "category": "dev-infra",
+  "kind": "json",
+  "url": "https://status.heroku.com/api/v4/current-status"
+ }
+]

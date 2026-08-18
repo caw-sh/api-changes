@@ -1,0 +1,19 @@
+{
+ "category": "finance",
+ "field_count": 2,
+ "first_seen": "2026-08-18T23:20:13+00:00",
+ "id": "coingecko-price",
+ "pending_keys": [],
+ "runs": 3,
+ "schema": {
+  "bitcoin": [
+   "object"
+  ],
+  "bitcoin.usd": [
+   "integer"
+  ]
+ },
+ "ts": "2026-08-18T23:23:51+00:00",
+ "url": "https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=usd",
+ "vendor": "CoinGecko"
+}

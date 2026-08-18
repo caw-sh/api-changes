@@ -1,0 +1,238 @@
+{
+ "category": "reference",
+ "field_count": 75,
+ "first_seen": "2026-08-18T23:20:13+00:00",
+ "id": "openlibrary-book",
+ "pending_keys": [],
+ "runs": 3,
+ "schema": {
+  "ISBN:0451526538": [
+   "object"
+  ],
+  "ISBN:0451526538.authors": [
+   "array"
+  ],
+  "ISBN:0451526538.authors[]": [
+   "object"
+  ],
+  "ISBN:0451526538.authors[].name": [
+   "string"
+  ],
+  "ISBN:0451526538.authors[].url": [
+   "string"
+  ],
+  "ISBN:0451526538.by_statement": [
+   "string"
+  ],
+  "ISBN:0451526538.classifications": [
+   "object"
+  ],
+  "ISBN:0451526538.classifications.dewey_decimal_class": [
+   "array"
+  ],
+  "ISBN:0451526538.classifications.dewey_decimal_class[]": [
+   "string"
+  ],
+  "ISBN:0451526538.classifications.lc_classifications": [
+   "array"
+  ],
+  "ISBN:0451526538.classifications.lc_classifications[]": [
+   "string"
+  ],
+  "ISBN:0451526538.cover": [
+   "object"
+  ],
+  "ISBN:0451526538.cover.large": [
+   "string"
+  ],
+  "ISBN:0451526538.cover.medium": [
+   "string"
+  ],
+  "ISBN:0451526538.cover.small": [
+   "string"
+  ],
+  "ISBN:0451526538.ebooks": [
+   "array"
+  ],
+  "ISBN:0451526538.ebooks[]": [
+   "object"
+  ],
+  "ISBN:0451526538.ebooks[].availability": [
+   "string"
+  ],
+  "ISBN:0451526538.ebooks[].formats": [
+   "object"
+  ],
+  "ISBN:0451526538.ebooks[].formats.epub": [
+   "object"
+  ],
+  "ISBN:0451526538.ebooks[].formats.epub.url": [
+   "string"
+  ],
+  "ISBN:0451526538.ebooks[].formats.pdf": [
+   "object"
+  ],
+  "ISBN:0451526538.ebooks[].formats.pdf.url": [
+   "string"
+  ],
+  "ISBN:0451526538.ebooks[].formats.text": [
+   "object"
+  ],
+  "ISBN:0451526538.ebooks[].formats.text.url": [
+   "string"
+  ],
+  "ISBN:0451526538.ebooks[].preview_url": [
+   "string"
+  ],
+  "ISBN:0451526538.ebooks[].read_url": [
+   "string"
+  ],
+  "ISBN:0451526538.identifiers": [
+   "object"
+  ],
+  "ISBN:0451526538.identifiers.goodreads": [
+   "array"
+  ],
+  "ISBN:0451526538.identifiers.goodreads[]": [
+   "string"
+  ],
+  "ISBN:0451526538.identifiers.isbn_10": [
+   "array"
+  ],
+  "ISBN:0451526538.identifiers.isbn_10[]": [
+   "string"
+  ],
+  "ISBN:0451526538.identifiers.lccn": [
+   "array"
+  ],
+  "ISBN:0451526538.identifiers.lccn[]": [
+   "string"
+  ],
+  "ISBN:0451526538.identifiers.librarything": [
+   "array"
+  ],
+  "ISBN:0451526538.identifiers.librarything[]": [
+   "string"
+  ],
+  "ISBN:0451526538.identifiers.oclc": [
+   "array"
+  ],
+  "ISBN:0451526538.identifiers.oclc[]": [
+   "string"
+  ],
+  "ISBN:0451526538.identifiers.openlibrary": [
+   "array"
+  ],
+  "ISBN:0451526538.identifiers.openlibrary[]": [
+   "string"
+  ],
+  "ISBN:0451526538.identifiers.project_gutenberg": [
+   "array"
+  ],
+  "ISBN:0451526538.identifiers.project_gutenberg[]": [
+   "string"
+  ],
+  "ISBN:0451526538.key": [
+   "string"
+  ],
+  "ISBN:0451526538.links": [
+   "array"
+  ],
+  "ISBN:0451526538.links[]": [
+   "object"
+  ],
+  "ISBN:0451526538.links[].title": [
+   "string"
+  ],
+  "ISBN:0451526538.links[].url": [
+   "string"
+  ],
+  "ISBN:0451526538.notes": [
+   "string"
+  ],
+  "ISBN:0451526538.number_of_pages": [
+   "integer"
+  ],
+  "ISBN:0451526538.pagination": [
+   "string"
+  ],
+  "ISBN:0451526538.publish_date": [
+   "string"
+  ],
+  "ISBN:0451526538.publish_places": [
+   "array"
+  ],
+  "ISBN:0451526538.publish_places[]": [
+   "object"
+  ],
+  "ISBN:0451526538.publish_places[].name": [
+   "string"
+  ],
+  "ISBN:0451526538.publishers": [
+   "array"
+  ],
+  "ISBN:0451526538.publishers[]": [
+   "object"
+  ],
+  "ISBN:0451526538.publishers[].name": [
+   "string"
+  ],
+  "ISBN:0451526538.subject_people": [
+   "array"
+  ],
+  "ISBN:0451526538.subject_people[]": [
+   "object"
+  ],
+  "ISBN:0451526538.subject_people[].name": [
+   "string"
+  ],
+  "ISBN:0451526538.subject_people[].url": [
+   "string"
+  ],
+  "ISBN:0451526538.subject_places": [
+   "array"
+  ],
+  "ISBN:0451526538.subject_places[]": [
+   "object"
+  ],
+  "ISBN:0451526538.subject_places[].name": [
+   "string"
+  ],
+  "ISBN:0451526538.subject_places[].url": [
+   "string"
+  ],
+  "ISBN:0451526538.subject_times": [
+   "array"
+  ],
+  "ISBN:0451526538.subject_times[]": [
+   "object"
+  ],
+  "ISBN:0451526538.subject_times[].name": [
+   "string"
+  ],
+  "ISBN:0451526538.subject_times[].url": [
+   "string"
+  ],
+  "ISBN:0451526538.subjects": [
+   "array"
+  ],
+  "ISBN:0451526538.subjects[]": [
+   "object"
+  ],
+  "ISBN:0451526538.subjects[].name": [
+   "string"
+  ],
+  "ISBN:0451526538.subjects[].url": [
+   "string"
+  ],
+  "ISBN:0451526538.title": [
+   "string"
+  ],
+  "ISBN:0451526538.url": [
+   "string"
+  ]
+ },
+ "ts": "2026-08-18T23:23:51+00:00",
+ "url": "https://openlibrary.org/api/books?bibkeys=ISBN:0451526538&format=json&jscmd=data",
+ "vendor": "Open Library"
+}

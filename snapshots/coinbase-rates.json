@@ -1,0 +1,25 @@
+{
+ "category": "finance",
+ "field_count": 4,
+ "first_seen": "2026-08-18T23:20:13+00:00",
+ "id": "coinbase-rates",
+ "pending_keys": [],
+ "runs": 3,
+ "schema": {
+  "data": [
+   "object"
+  ],
+  "data.currency": [
+   "string"
+  ],
+  "data.rates": [
+   "object"
+  ],
+  "data.rates.{*}": [
+   "string"
+  ]
+ },
+ "ts": "2026-08-18T23:23:51+00:00",
+ "url": "https://api.coinbase.com/v2/exchange-rates?currency=BTC",
+ "vendor": "Coinbase"
+}

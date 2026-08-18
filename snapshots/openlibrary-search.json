@@ -1,0 +1,85 @@
+{
+ "category": "reference",
+ "field_count": 24,
+ "first_seen": "2026-08-18T23:20:13+00:00",
+ "id": "openlibrary-search",
+ "pending_keys": [],
+ "runs": 3,
+ "schema": {
+  "docs": [
+   "array"
+  ],
+  "docs[]": [
+   "object"
+  ],
+  "docs[].author_key": [
+   "array"
+  ],
+  "docs[].author_key[]": [
+   "string"
+  ],
+  "docs[].author_name": [
+   "array"
+  ],
+  "docs[].author_name[]": [
+   "string"
+  ],
+  "docs[].cover_edition_key": [
+   "string"
+  ],
+  "docs[].cover_i": [
+   "integer"
+  ],
+  "docs[].ebook_access": [
+   "string"
+  ],
+  "docs[].edition_count": [
+   "integer"
+  ],
+  "docs[].first_publish_year": [
+   "integer"
+  ],
+  "docs[].has_fulltext": [
+   "boolean"
+  ],
+  "docs[].key": [
+   "string"
+  ],
+  "docs[].language": [
+   "array"
+  ],
+  "docs[].language[]": [
+   "string"
+  ],
+  "docs[].public_scan_b": [
+   "boolean"
+  ],
+  "docs[].title": [
+   "string"
+  ],
+  "documentation_url": [
+   "string"
+  ],
+  "numFound": [
+   "integer"
+  ],
+  "numFoundExact": [
+   "boolean"
+  ],
+  "num_found": [
+   "integer"
+  ],
+  "offset": [
+   "null"
+  ],
+  "q": [
+   "string"
+  ],
+  "start": [
+   "integer"
+  ]
+ },
+ "ts": "2026-08-18T23:23:51+00:00",
+ "url": "https://openlibrary.org/search.json?q=api&limit=2",
+ "vendor": "Open Library"
+}

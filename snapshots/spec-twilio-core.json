@@ -1,0 +1,1463 @@
+{
+ "category": "spec",
+ "field_count": 347,
+ "first_seen": "2026-08-18T23:20:13+00:00",
+ "id": "spec-twilio-core",
+ "pending_keys": [],
+ "runs": 3,
+ "schema": {
+  "DELETE /2010-04-01/Accounts/{AccountSid}/Addresses/{Sid}.json": [
+   "params:2",
+   "responses:1"
+  ],
+  "DELETE /2010-04-01/Accounts/{AccountSid}/Applications/{Sid}.json": [
+   "params:2",
+   "responses:1"
+  ],
+  "DELETE /2010-04-01/Accounts/{AccountSid}/Calls/{CallSid}/Recordings/{Sid}.json": [
+   "params:3",
+   "responses:1"
+  ],
+  "DELETE /2010-04-01/Accounts/{AccountSid}/Calls/{CallSid}/UserDefinedMessageSubscriptions/{Sid}.json": [
+   "params:3",
+   "responses:1"
+  ],
+  "DELETE /2010-04-01/Accounts/{AccountSid}/Calls/{Sid}.json": [
+   "params:2",
+   "responses:1"
+  ],
+  "DELETE /2010-04-01/Accounts/{AccountSid}/Conferences/{ConferenceSid}/Participants/{CallSid}.json": [
+   "params:3",
+   "responses:1"
+  ],
+  "DELETE /2010-04-01/Accounts/{AccountSid}/Conferences/{ConferenceSid}/Recordings/{Sid}.json": [
+   "params:3",
+   "responses:1"
+  ],
+  "DELETE /2010-04-01/Accounts/{AccountSid}/ConnectApps/{Sid}.json": [
+   "params:2",
+   "responses:1"
+  ],
+  "DELETE /2010-04-01/Accounts/{AccountSid}/IncomingPhoneNumbers/{ResourceSid}/AssignedAddOns/{Sid}.json": [
+   "params:3",
+   "responses:1"
+  ],
+  "DELETE /2010-04-01/Accounts/{AccountSid}/IncomingPhoneNumbers/{Sid}.json": [
+   "params:2",
+   "responses:1"
+  ],
+  "DELETE /2010-04-01/Accounts/{AccountSid}/Keys/{Sid}.json": [
+   "params:2",
+   "responses:1"
+  ],
+  "DELETE /2010-04-01/Accounts/{AccountSid}/Messages/{MessageSid}/Media/{Sid}.json": [
+   "params:3",
+   "responses:1"
+  ],
+  "DELETE /2010-04-01/Accounts/{AccountSid}/Messages/{Sid}.json": [
+   "params:2",
+   "responses:1"
+  ],
+  "DELETE /2010-04-01/Accounts/{AccountSid}/OutgoingCallerIds/{Sid}.json": [
+   "params:2",
+   "responses:1"
+  ],
+  "DELETE /2010-04-01/Accounts/{AccountSid}/Queues/{Sid}.json": [
+   "params:2",
+   "responses:1"
+  ],
+  "DELETE /2010-04-01/Accounts/{AccountSid}/Recordings/{RecordingSid}/Transcriptions/{Sid}.json": [
+   "params:3",
+   "responses:1"
+  ],
+  "DELETE /2010-04-01/Accounts/{AccountSid}/Recordings/{ReferenceSid}/AddOnResults/{AddOnResultSid}/Payloads/{Sid}.json": [
+   "params:4",
+   "responses:1"
+  ],
+  "DELETE /2010-04-01/Accounts/{AccountSid}/Recordings/{ReferenceSid}/AddOnResults/{Sid}.json": [
+   "params:3",
+   "responses:1"
+  ],
+  "DELETE /2010-04-01/Accounts/{AccountSid}/Recordings/{Sid}.json": [
+   "params:2",
+   "responses:1"
+  ],
+  "DELETE /2010-04-01/Accounts/{AccountSid}/SIP/CredentialLists/{CredentialListSid}/Credentials/{Sid}.json": [
+   "params:3",
+   "responses:1"
+  ],
+  "DELETE /2010-04-01/Accounts/{AccountSid}/SIP/CredentialLists/{Sid}.json": [
+   "params:2",
+   "responses:1"
+  ],
+  "DELETE /2010-04-01/Accounts/{AccountSid}/SIP/Domains/{DomainSid}/Auth/Calls/CredentialListMappings/{Sid}.json": [
+   "params:3",
+   "responses:1"
+  ],
+  "DELETE /2010-04-01/Accounts/{AccountSid}/SIP/Domains/{DomainSid}/Auth/Calls/IpAccessControlListMappings/{Sid}.json": [
+   "params:3",
+   "responses:1"
+  ],
+  "DELETE /2010-04-01/Accounts/{AccountSid}/SIP/Domains/{DomainSid}/Auth/Registrations/CredentialListMappings/{Sid}.json": [
+   "params:3",
+   "responses:1"
+  ],
+  "DELETE /2010-04-01/Accounts/{AccountSid}/SIP/Domains/{DomainSid}/CredentialListMappings/{Sid}.json": [
+   "params:3",
+   "responses:1"
+  ],
+  "DELETE /2010-04-01/Accounts/{AccountSid}/SIP/Domains/{DomainSid}/IpAccessControlListMappings/{Sid}.json": [
+   "params:3",
+   "responses:1"
+  ],
+  "DELETE /2010-04-01/Accounts/{AccountSid}/SIP/Domains/{Sid}.json": [
+   "params:2",
+   "responses:1"
+  ],
+  "DELETE /2010-04-01/Accounts/{AccountSid}/SIP/IpAccessControlLists/{IpAccessControlListSid}/IpAddresses/{Sid}.json": [
+   "params:3",
+   "responses:1"
+  ],
+  "DELETE /2010-04-01/Accounts/{AccountSid}/SIP/IpAccessControlLists/{Sid}.json": [
+   "params:2",
+   "responses:1"
+  ],
+  "DELETE /2010-04-01/Accounts/{AccountSid}/SigningKeys/{Sid}.json": [
+   "params:2",
+   "responses:1"
+  ],
+  "DELETE /2010-04-01/Accounts/{AccountSid}/Transcriptions/{Sid}.json": [
+   "params:2",
+   "responses:1"
+  ],
+  "DELETE /2010-04-01/Accounts/{AccountSid}/Usage/Triggers/{Sid}.json": [
+   "params:2",
+   "responses:1"
+  ],
+  "GET /2010-04-01/Accounts.json": [
+   "params:5",
+   "responses:1"
+  ],
+  "GET /2010-04-01/Accounts/{AccountSid}/Addresses.json": [
+   "params:8",
+   "responses:1"
+  ],
+  "GET /2010-04-01/Accounts/{AccountSid}/Addresses/{AddressSid}/DependentPhoneNumbers.json": [
+   "params:5",
+   "responses:1"
+  ],
+  "GET /2010-04-01/Accounts/{AccountSid}/Addresses/{Sid}.json": [
+   "params:2",
+   "responses:1"
+  ],
+  "GET /2010-04-01/Accounts/{AccountSid}/Applications.json": [
+   "params:5",
+   "responses:1"
+  ],
+  "GET /2010-04-01/Accounts/{AccountSid}/Applications/{Sid}.json": [
+   "params:2",
+   "responses:1"
+  ],
+  "GET /2010-04-01/Accounts/{AccountSid}/AuthorizedConnectApps.json": [
+   "params:4",
+   "responses:1"
+  ],
+  "GET /2010-04-01/Accounts/{AccountSid}/AuthorizedConnectApps/{ConnectAppSid}.json": [
+   "params:2",
+   "responses:1"
+  ],
+  "GET /2010-04-01/Accounts/{AccountSid}/AvailablePhoneNumbers.json": [
+   "params:4",
+   "responses:1"
+  ],
+  "GET /2010-04-01/Accounts/{AccountSid}/AvailablePhoneNumbers/{CountryCode}.json": [
+   "params:2",
+   "responses:1"
+  ],
+  "GET /2010-04-01/Accounts/{AccountSid}/AvailablePhoneNumbers/{CountryCode}/Local.json": [
+   "params:23",
+   "responses:1"
+  ],
+  "GET /2010-04-01/Accounts/{AccountSid}/AvailablePhoneNumbers/{CountryCode}/MachineToMachine.json": [
+   "params:23",
+   "responses:1"
+  ],
+  "GET /2010-04-01/Accounts/{AccountSid}/AvailablePhoneNumbers/{CountryCode}/Mobile.json": [
+   "params:23",
+   "responses:1"
+  ],
+  "GET /2010-04-01/Accounts/{AccountSid}/AvailablePhoneNumbers/{CountryCode}/National.json": [
+   "params:23",
+   "responses:1"
+  ],
+  "GET /2010-04-01/Accounts/{AccountSid}/AvailablePhoneNumbers/{CountryCode}/SharedCost.json": [
+   "params:23",
+   "responses:1"
+  ],
+  "GET /2010-04-01/Accounts/{AccountSid}/AvailablePhoneNumbers/{CountryCode}/TollFree.json": [
+   "params:23",
+   "responses:1"
+  ],
+  "GET /2010-04-01/Accounts/{AccountSid}/AvailablePhoneNumbers/{CountryCode}/Voip.json": [
+   "params:23",
+   "responses:1"
+  ],
+  "GET /2010-04-01/Accounts/{AccountSid}/Balance.json": [
+   "params:1",
+   "responses:1"
+  ],
+  "GET /2010-04-01/Accounts/{AccountSid}/Calls.json": [
+   "params:14",
+   "responses:1"
+  ],
+  "GET /2010-04-01/Accounts/{AccountSid}/Calls/{CallSid}/Events.json": [
+   "params:5",
+   "responses:1"
+  ],
+  "GET /2010-04-01/Accounts/{AccountSid}/Calls/{CallSid}/Notifications.json": [
+   "params:9",
+   "responses:1"
+  ],
+  "GET /2010-04-01/Accounts/{AccountSid}/Calls/{CallSid}/Notifications/{Sid}.json": [
+   "params:3",
+   "responses:1"
+  ],
+  "GET /2010-04-01/Accounts/{AccountSid}/Calls/{CallSid}/Recordings.json": [
+   "params:8",
+   "responses:1"
+  ],
+  "GET /2010-04-01/Accounts/{AccountSid}/Calls/{CallSid}/Recordings/{Sid}.json": [
+   "params:3",
+   "responses:1"
+  ],
+  "GET /2010-04-01/Accounts/{AccountSid}/Calls/{Sid}.json": [
+   "params:2",
+   "responses:1"
+  ],
+  "GET /2010-04-01/Accounts/{AccountSid}/Conferences.json": [
+   "params:12",
+   "responses:1"
+  ],
+  "GET /2010-04-01/Accounts/{AccountSid}/Conferences/{ConferenceSid}/Participants.json": [
+   "params:8",
+   "responses:1"
+  ],
+  "GET /2010-04-01/Accounts/{AccountSid}/Conferences/{ConferenceSid}/Participants/{CallSid}.json": [
+   "params:3",
+   "responses:1"
+  ],
+  "GET /2010-04-01/Accounts/{AccountSid}/Conferences/{ConferenceSid}/Recordings.json": [
+   "params:8",
+   "responses:1"
+  ],
+  "GET /2010-04-01/Accounts/{AccountSid}/Conferences/{ConferenceSid}/Recordings/{Sid}.json": [
+   "params:3",
+   "responses:1"
+  ],
+  "GET /2010-04-01/Accounts/{AccountSid}/Conferences/{Sid}.json": [
+   "params:2",
+   "responses:1"
+  ],
+  "GET /2010-04-01/Accounts/{AccountSid}/ConnectApps.json": [
+   "params:4",
+   "responses:1"
+  ],
+  "GET /2010-04-01/Accounts/{AccountSid}/ConnectApps/{Sid}.json": [
+   "params:2",
+   "responses:1"
+  ],
+  "GET /2010-04-01/Accounts/{AccountSid}/IncomingPhoneNumbers.json": [
+   "params:8",
+   "responses:1"
+  ],
+  "GET /2010-04-01/Accounts/{AccountSid}/IncomingPhoneNumbers/Local.json": [
+   "params:8",
+   "responses:1"
+  ],
+  "GET /2010-04-01/Accounts/{AccountSid}/IncomingPhoneNumbers/Mobile.json": [
+   "params:8",
+   "responses:1"
+  ],
+  "GET /2010-04-01/Accounts/{AccountSid}/IncomingPhoneNumbers/TollFree.json": [
+   "params:8",
+   "responses:1"
+  ],
+  "GET /2010-04-01/Accounts/{AccountSid}/IncomingPhoneNumbers/{ResourceSid}/AssignedAddOns.json": [
+   "params:5",
+   "responses:1"
+  ],
+  "GET /2010-04-01/Accounts/{AccountSid}/IncomingPhoneNumbers/{ResourceSid}/AssignedAddOns/{AssignedAddOnSid}/Extensions.json": [
+   "params:6",
+   "responses:1"
+  ],
+  "GET /2010-04-01/Accounts/{AccountSid}/IncomingPhoneNumbers/{ResourceSid}/AssignedAddOns/{AssignedAddOnSid}/Extensions/{Sid}.json": [
+   "params:4",
+   "responses:1"
+  ],
+  "GET /2010-04-01/Accounts/{AccountSid}/IncomingPhoneNumbers/{ResourceSid}/AssignedAddOns/{Sid}.json": [
+   "params:3",
+   "responses:1"
+  ],
+  "GET /2010-04-01/Accounts/{AccountSid}/IncomingPhoneNumbers/{Sid}.json": [
+   "params:2",
+   "responses:1"
+  ],
+  "GET /2010-04-01/Accounts/{AccountSid}/Keys.json": [
+   "params:4",
+   "responses:1"
+  ],
+  "GET /2010-04-01/Accounts/{AccountSid}/Keys/{Sid}.json": [
+   "params:2",
+   "responses:1"
+  ],
+  "GET /2010-04-01/Accounts/{AccountSid}/Messages.json": [
+   "params:9",
+   "responses:1"
+  ],
+  "GET /2010-04-01/Accounts/{AccountSid}/Messages/{MessageSid}/Media.json": [
+   "params:8",
+   "responses:1"
+  ],
+  "GET /2010-04-01/Accounts/{AccountSid}/Messages/{MessageSid}/Media/{Sid}.json": [
+   "params:3",
+   "responses:1"
+  ],
+  "GET /2010-04-01/Accounts/{AccountSid}/Messages/{Sid}.json": [
+   "params:2",
+   "responses:1"
+  ],
+  "GET /2010-04-01/Accounts/{AccountSid}/Notifications.json": [
+   "params:8",
+   "responses:1"
+  ],
+  "GET /2010-04-01/Accounts/{AccountSid}/Notifications/{Sid}.json": [
+   "params:2",
+   "responses:1"
+  ],
+  "GET /2010-04-01/Accounts/{AccountSid}/OutgoingCallerIds.json": [
+   "params:6",
+   "responses:1"
+  ],
+  "GET /2010-04-01/Accounts/{AccountSid}/OutgoingCallerIds/{Sid}.json": [
+   "params:2",
+   "responses:1"
+  ],
+  "GET /2010-04-01/Accounts/{AccountSid}/Queues.json": [
+   "params:4",
+   "responses:1"
+  ],
+  "GET /2010-04-01/Accounts/{AccountSid}/Queues/{QueueSid}/Members.json": [
+   "params:5",
+   "responses:1"
+  ],
+  "GET /2010-04-01/Accounts/{AccountSid}/Queues/{QueueSid}/Members/{CallSid}.json": [
+   "params:3",
+   "responses:1"
+  ],
+  "GET /2010-04-01/Accounts/{AccountSid}/Queues/{Sid}.json": [
+   "params:2",
+   "responses:1"
+  ],
+  "GET /2010-04-01/Accounts/{AccountSid}/Recordings.json": [
+   "params:10",
+   "responses:1"
+  ],
+  "GET /2010-04-01/Accounts/{AccountSid}/Recordings/{RecordingSid}/Transcriptions.json": [
+   "params:5",
+   "responses:1"
+  ],
+  "GET /2010-04-01/Accounts/{AccountSid}/Recordings/{RecordingSid}/Transcriptions/{Sid}.json": [
+   "params:3",
+   "responses:1"
+  ],
+  "GET /2010-04-01/Accounts/{AccountSid}/Recordings/{ReferenceSid}/AddOnResults.json": [
+   "params:5",
+   "responses:1"
+  ],
+  "GET /2010-04-01/Accounts/{AccountSid}/Recordings/{ReferenceSid}/AddOnResults/{AddOnResultSid}/Payloads.json": [
+   "params:6",
+   "responses:1"
+  ],
+  "GET /2010-04-01/Accounts/{AccountSid}/Recordings/{ReferenceSid}/AddOnResults/{AddOnResultSid}/Payloads/{PayloadSid}/Data.json": [
+   "params:4",
+   "responses:1"
+  ],
+  "GET /2010-04-01/Accounts/{AccountSid}/Recordings/{ReferenceSid}/AddOnResults/{AddOnResultSid}/Payloads/{Sid}.json": [
+   "params:4",
+   "responses:1"
+  ],
+  "GET /2010-04-01/Accounts/{AccountSid}/Recordings/{ReferenceSid}/AddOnResults/{Sid}.json": [
+   "params:3",
+   "responses:1"
+  ],
+  "GET /2010-04-01/Accounts/{AccountSid}/Recordings/{Sid}.json": [
+   "params:3",
+   "responses:1"
+  ],
+  "GET /2010-04-01/Accounts/{AccountSid}/SIP/CredentialLists.json": [
+   "params:4",
+   "responses:1"
+  ],
+  "GET /2010-04-01/Accounts/{AccountSid}/SIP/CredentialLists/{CredentialListSid}/Credentials.json": [
+   "params:5",
+   "responses:1"
+  ],
+  "GET /2010-04-01/Accounts/{AccountSid}/SIP/CredentialLists/{CredentialListSid}/Credentials/{Sid}.json": [
+   "params:3",
+   "responses:1"
+  ],
+  "GET /2010-04-01/Accounts/{AccountSid}/SIP/CredentialLists/{Sid}.json": [
+   "params:2",
+   "responses:1"
+  ],
+  "GET /2010-04-01/Accounts/{AccountSid}/SIP/Domains.json": [
+   "params:4",
+   "responses:1"
+  ],
+  "GET /2010-04-01/Accounts/{AccountSid}/SIP/Domains/{DomainSid}/Auth/Calls/CredentialListMappings.json": [
+   "params:5",
+   "responses:1"
+  ],
+  "GET /2010-04-01/Accounts/{AccountSid}/SIP/Domains/{DomainSid}/Auth/Calls/CredentialListMappings/{Sid}.json": [
+   "params:3",
+   "responses:1"
+  ],
+  "GET /2010-04-01/Accounts/{AccountSid}/SIP/Domains/{DomainSid}/Auth/Calls/IpAccessControlListMappings.json": [
+   "params:5",
+   "responses:1"
+  ],
+  "GET /2010-04-01/Accounts/{AccountSid}/SIP/Domains/{DomainSid}/Auth/Calls/IpAccessControlListMappings/{Sid}.json": [
+   "params:3",
+   "responses:1"
+  ],
+  "GET /2010-04-01/Accounts/{AccountSid}/SIP/Domains/{DomainSid}/Auth/Registrations/CredentialListMappings.json": [
+   "params:5",
+   "responses:1"
+  ],
+  "GET /2010-04-01/Accounts/{AccountSid}/SIP/Domains/{DomainSid}/Auth/Registrations/CredentialListMappings/{Sid}.json": [
+   "params:3",
+   "responses:1"
+  ],
+  "GET /2010-04-01/Accounts/{AccountSid}/SIP/Domains/{DomainSid}/CredentialListMappings.json": [
+   "params:5",
+   "responses:1"
+  ],
+  "GET /2010-04-01/Accounts/{AccountSid}/SIP/Domains/{DomainSid}/CredentialListMappings/{Sid}.json": [
+   "params:3",
+   "responses:1"
+  ],
+  "GET /2010-04-01/Accounts/{AccountSid}/SIP/Domains/{DomainSid}/IpAccessControlListMappings.json": [
+   "params:5",
+   "responses:1"
+  ],
+  "GET /2010-04-01/Accounts/{AccountSid}/SIP/Domains/{DomainSid}/IpAccessControlListMappings/{Sid}.json": [
+   "params:3",
+   "responses:1"
+  ],
+  "GET /2010-04-01/Accounts/{AccountSid}/SIP/Domains/{Sid}.json": [
+   "params:2",
+   "responses:1"
+  ],
+  "GET /2010-04-01/Accounts/{AccountSid}/SIP/IpAccessControlLists.json": [
+   "params:4",
+   "responses:1"
+  ],
+  "GET /2010-04-01/Accounts/{AccountSid}/SIP/IpAccessControlLists/{IpAccessControlListSid}/IpAddresses.json": [
+   "params:5",
+   "responses:1"
+  ],
+  "GET /2010-04-01/Accounts/{AccountSid}/SIP/IpAccessControlLists/{IpAccessControlListSid}/IpAddresses/{Sid}.json": [
+   "params:3",
+   "responses:1"
+  ],
+  "GET /2010-04-01/Accounts/{AccountSid}/SIP/IpAccessControlLists/{Sid}.json": [
+   "params:2",
+   "responses:1"
+  ],
+  "GET /2010-04-01/Accounts/{AccountSid}/SMS/ShortCodes.json": [
+   "params:6",
+   "responses:1"
+  ],
+  "GET /2010-04-01/Accounts/{AccountSid}/SMS/ShortCodes/{Sid}.json": [
+   "params:2",
+   "responses:1"
+  ],
+  "GET /2010-04-01/Accounts/{AccountSid}/SigningKeys.json": [
+   "params:4",
+   "responses:1"
+  ],
+  "GET /2010-04-01/Accounts/{AccountSid}/SigningKeys/{Sid}.json": [
+   "params:2",
+   "responses:1"
+  ],
+  "GET /2010-04-01/Accounts/{AccountSid}/Transcriptions.json": [
+   "params:4",
+   "responses:1"
+  ],
+  "GET /2010-04-01/Accounts/{AccountSid}/Transcriptions/{Sid}.json": [
+   "params:2",
+   "responses:1"
+  ],
+  "GET /2010-04-01/Accounts/{AccountSid}/Usage/Records.json": [
+   "params:8",
+   "responses:1"
+  ],
+  "GET /2010-04-01/Accounts/{AccountSid}/Usage/Records/AllTime.json": [
+   "params:8",
+   "responses:1"
+  ],
+  "GET /2010-04-01/Accounts/{AccountSid}/Usage/Records/Daily.json": [
+   "params:8",
+   "responses:1"
+  ],
+  "GET /2010-04-01/Accounts/{AccountSid}/Usage/Records/LastMonth.json": [
+   "params:8",
+   "responses:1"
+  ],
+  "GET /2010-04-01/Accounts/{AccountSid}/Usage/Records/Monthly.json": [
+   "params:8",
+   "responses:1"
+  ],
+  "GET /2010-04-01/Accounts/{AccountSid}/Usage/Records/ThisMonth.json": [
+   "params:8",
+   "responses:1"
+  ],
+  "GET /2010-04-01/Accounts/{AccountSid}/Usage/Records/Today.json": [
+   "params:8",
+   "responses:1"
+  ],
+  "GET /2010-04-01/Accounts/{AccountSid}/Usage/Records/Yearly.json": [
+   "params:8",
+   "responses:1"
+  ],
+  "GET /2010-04-01/Accounts/{AccountSid}/Usage/Records/Yesterday.json": [
+   "params:8",
+   "responses:1"
+  ],
+  "GET /2010-04-01/Accounts/{AccountSid}/Usage/Triggers.json": [
+   "params:7",
+   "responses:1"
+  ],
+  "GET /2010-04-01/Accounts/{AccountSid}/Usage/Triggers/{Sid}.json": [
+   "params:2",
+   "responses:1"
+  ],
+  "GET /2010-04-01/Accounts/{Sid}.json": [
+   "params:1",
+   "responses:1"
+  ],
+  "POST /2010-04-01/Accounts.json": [
+   "body",
+   "params:0",
+   "responses:1"
+  ],
+  "POST /2010-04-01/Accounts/{AccountSid}/Addresses.json": [
+   "body",
+   "params:1",
+   "responses:1"
+  ],
+  "POST /2010-04-01/Accounts/{AccountSid}/Addresses/{Sid}.json": [
+   "body",
+   "params:2",
+   "responses:1"
+  ],
+  "POST /2010-04-01/Accounts/{AccountSid}/Applications.json": [
+   "body",
+   "params:1",
+   "responses:1"
+  ],
+  "POST /2010-04-01/Accounts/{AccountSid}/Applications/{Sid}.json": [
+   "body",
+   "params:2",
+   "responses:1"
+  ],
+  "POST /2010-04-01/Accounts/{AccountSid}/Calls.json": [
+   "body",
+   "params:1",
+   "responses:1"
+  ],
+  "POST /2010-04-01/Accounts/{AccountSid}/Calls/{CallSid}/Payments.json": [
+   "body",
+   "params:2",
+   "responses:1"
+  ],
+  "POST /2010-04-01/Accounts/{AccountSid}/Calls/{CallSid}/Payments/{Sid}.json": [
+   "body",
+   "params:3",
+   "responses:1"
+  ],
+  "POST /2010-04-01/Accounts/{AccountSid}/Calls/{CallSid}/Recordings.json": [
+   "body",
+   "params:2",
+   "responses:2"
+  ],
+  "POST /2010-04-01/Accounts/{AccountSid}/Calls/{CallSid}/Recordings/{Sid}.json": [
+   "body",
+   "params:3",
+   "responses:2"
+  ],
+  "POST /2010-04-01/Accounts/{AccountSid}/Calls/{CallSid}/Siprec.json": [
+   "body",
+   "params:2",
+   "responses:1"
+  ],
+  "POST /2010-04-01/Accounts/{AccountSid}/Calls/{CallSid}/Siprec/{Sid}.json": [
+   "body",
+   "params:3",
+   "responses:1"
+  ],
+  "POST /2010-04-01/Accounts/{AccountSid}/Calls/{CallSid}/Streams.json": [
+   "body",
+   "params:2",
+   "responses:1"
+  ],
+  "POST /2010-04-01/Accounts/{AccountSid}/Calls/{CallSid}/Streams/{Sid}.json": [
+   "body",
+   "params:3",
+   "responses:1"
+  ],
+  "POST /2010-04-01/Accounts/{AccountSid}/Calls/{CallSid}/Transcriptions.json": [
+   "body",
+   "params:2",
+   "responses:1"
+  ],
+  "POST /2010-04-01/Accounts/{AccountSid}/Calls/{CallSid}/Transcriptions/{Sid}.json": [
+   "body",
+   "params:3",
+   "responses:1"
+  ],
+  "POST /2010-04-01/Accounts/{AccountSid}/Calls/{CallSid}/UserDefinedMessageSubscriptions.json": [
+   "body",
+   "params:2",
+   "responses:1"
+  ],
+  "POST /2010-04-01/Accounts/{AccountSid}/Calls/{CallSid}/UserDefinedMessages.json": [
+   "body",
+   "params:2",
+   "responses:1"
+  ],
+  "POST /2010-04-01/Accounts/{AccountSid}/Calls/{Sid}.json": [
+   "body",
+   "params:2",
+   "responses:1"
+  ],
+  "POST /2010-04-01/Accounts/{AccountSid}/Conferences/{ConferenceSid}/Participants.json": [
+   "body",
+   "params:2",
+   "responses:1"
+  ],
+  "POST /2010-04-01/Accounts/{AccountSid}/Conferences/{ConferenceSid}/Participants/{CallSid}.json": [
+   "body",
+   "params:3",
+   "responses:1"
+  ],
+  "POST /2010-04-01/Accounts/{AccountSid}/Conferences/{ConferenceSid}/Recordings/{Sid}.json": [
+   "body",
+   "params:3",
+   "responses:1"
+  ],
+  "POST /2010-04-01/Accounts/{AccountSid}/Conferences/{Sid}.json": [
+   "body",
+   "params:2",
+   "responses:1"
+  ],
+  "POST /2010-04-01/Accounts/{AccountSid}/ConnectApps/{Sid}.json": [
+   "body",
+   "params:2",
+   "responses:1"
+  ],
+  "POST /2010-04-01/Accounts/{AccountSid}/IncomingPhoneNumbers.json": [
+   "body",
+   "params:1",
+   "responses:1"
+  ],
+  "POST /2010-04-01/Accounts/{AccountSid}/IncomingPhoneNumbers/Local.json": [
+   "body",
+   "params:1",
+   "responses:1"
+  ],
+  "POST /2010-04-01/Accounts/{AccountSid}/IncomingPhoneNumbers/Mobile.json": [
+   "body",
+   "params:1",
+   "responses:1"
+  ],
+  "POST /2010-04-01/Accounts/{AccountSid}/IncomingPhoneNumbers/TollFree.json": [
+   "body",
+   "params:1",
+   "responses:1"
+  ],
+  "POST /2010-04-01/Accounts/{AccountSid}/IncomingPhoneNumbers/{ResourceSid}/AssignedAddOns.json": [
+   "body",
+   "params:2",
+   "responses:1"
+  ],
+  "POST /2010-04-01/Accounts/{AccountSid}/IncomingPhoneNumbers/{Sid}.json": [
+   "body",
+   "params:2",
+   "responses:1"
+  ],
+  "POST /2010-04-01/Accounts/{AccountSid}/Keys.json": [
+   "body",
+   "params:1",
+   "responses:1"
+  ],
+  "POST /2010-04-01/Accounts/{AccountSid}/Keys/{Sid}.json": [
+   "body",
+   "params:2",
+   "responses:1"
+  ],
+  "POST /2010-04-01/Accounts/{AccountSid}/Messages.json": [
+   "body",
+   "params:1",
+   "responses:1"
+  ],
+  "POST /2010-04-01/Accounts/{AccountSid}/Messages/{MessageSid}/Feedback.json": [
+   "body",
+   "params:2",
+   "responses:1"
+  ],
+  "POST /2010-04-01/Accounts/{AccountSid}/Messages/{Sid}.json": [
+   "body",
+   "params:2",
+   "responses:1"
+  ],
+  "POST /2010-04-01/Accounts/{AccountSid}/OutgoingCallerIds.json": [
+   "body",
+   "params:1",
+   "responses:1"
+  ],
+  "POST /2010-04-01/Accounts/{AccountSid}/OutgoingCallerIds/{Sid}.json": [
+   "body",
+   "params:2",
+   "responses:1"
+  ],
+  "POST /2010-04-01/Accounts/{AccountSid}/Queues.json": [
+   "body",
+   "params:1",
+   "responses:1"
+  ],
+  "POST /2010-04-01/Accounts/{AccountSid}/Queues/{QueueSid}/Members/{CallSid}.json": [
+   "body",
+   "params:3",
+   "responses:1"
+  ],
+  "POST /2010-04-01/Accounts/{AccountSid}/Queues/{Sid}.json": [
+   "body",
+   "params:2",
+   "responses:1"
+  ],
+  "POST /2010-04-01/Accounts/{AccountSid}/SIP/CredentialLists.json": [
+   "body",
+   "params:1",
+   "responses:1"
+  ],
+  "POST /2010-04-01/Accounts/{AccountSid}/SIP/CredentialLists/{CredentialListSid}/Credentials.json": [
+   "body",
+   "params:2",
+   "responses:1"
+  ],
+  "POST /2010-04-01/Accounts/{AccountSid}/SIP/CredentialLists/{CredentialListSid}/Credentials/{Sid}.json": [
+   "body",
+   "params:3",
+   "responses:1"
+  ],
+  "POST /2010-04-01/Accounts/{AccountSid}/SIP/CredentialLists/{Sid}.json": [
+   "body",
+   "params:2",
+   "responses:1"
+  ],
+  "POST /2010-04-01/Accounts/{AccountSid}/SIP/Domains.json": [
+   "body",
+   "params:1",
+   "responses:1"
+  ],
+  "POST /2010-04-01/Accounts/{AccountSid}/SIP/Domains/{DomainSid}/Auth/Calls/CredentialListMappings.json": [
+   "body",
+   "params:2",
+   "responses:1"
+  ],
+  "POST /2010-04-01/Accounts/{AccountSid}/SIP/Domains/{DomainSid}/Auth/Calls/IpAccessControlListMappings.json": [
+   "body",
+   "params:2",
+   "responses:1"
+  ],
+  "POST /2010-04-01/Accounts/{AccountSid}/SIP/Domains/{DomainSid}/Auth/Registrations/CredentialListMappings.json": [
+   "body",
+   "params:2",
+   "responses:1"
+  ],
+  "POST /2010-04-01/Accounts/{AccountSid}/SIP/Domains/{DomainSid}/CredentialListMappings.json": [
+   "body",
+   "params:2",
+   "responses:1"
+  ],
+  "POST /2010-04-01/Accounts/{AccountSid}/SIP/Domains/{DomainSid}/IpAccessControlListMappings.json": [
+   "body",
+   "params:2",
+   "responses:1"
+  ],
+  "POST /2010-04-01/Accounts/{AccountSid}/SIP/Domains/{Sid}.json": [
+   "body",
+   "params:2",
+   "responses:1"
+  ],
+  "POST /2010-04-01/Accounts/{AccountSid}/SIP/IpAccessControlLists.json": [
+   "body",
+   "params:1",
+   "responses:1"
+  ],
+  "POST /2010-04-01/Accounts/{AccountSid}/SIP/IpAccessControlLists/{IpAccessControlListSid}/IpAddresses.json": [
+   "body",
+   "params:2",
+   "responses:1"
+  ],
+  "POST /2010-04-01/Accounts/{AccountSid}/SIP/IpAccessControlLists/{IpAccessControlListSid}/IpAddresses/{Sid}.json": [
+   "body",
+   "params:3",
+   "responses:1"
+  ],
+  "POST /2010-04-01/Accounts/{AccountSid}/SIP/IpAccessControlLists/{Sid}.json": [
+   "body",
+   "params:2",
+   "responses:1"
+  ],
+  "POST /2010-04-01/Accounts/{AccountSid}/SMS/ShortCodes/{Sid}.json": [
+   "body",
+   "params:2",
+   "responses:1"
+  ],
+  "POST /2010-04-01/Accounts/{AccountSid}/SigningKeys.json": [
+   "body",
+   "params:1",
+   "responses:1"
+  ],
+  "POST /2010-04-01/Accounts/{AccountSid}/SigningKeys/{Sid}.json": [
+   "body",
+   "params:2",
+   "responses:1"
+  ],
+  "POST /2010-04-01/Accounts/{AccountSid}/Tokens.json": [
+   "body",
+   "params:1",
+   "responses:1"
+  ],
+  "POST /2010-04-01/Accounts/{AccountSid}/Usage/Triggers.json": [
+   "body",
+   "params:1",
+   "responses:1"
+  ],
+  "POST /2010-04-01/Accounts/{AccountSid}/Usage/Triggers/{Sid}.json": [
+   "body",
+   "params:2",
+   "responses:1"
+  ],
+  "POST /2010-04-01/Accounts/{Sid}.json": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "schema:account_enum_status": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:account_enum_type": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:api.v2010.account": [
+   "props:10",
+   "req:0"
+  ],
+  "schema:api.v2010.account.address": [
+   "props:16",
+   "req:0"
+  ],
+  "schema:api.v2010.account.address.dependent_phone_number": [
+   "props:26",
+   "req:0"
+  ],
+  "schema:api.v2010.account.application": [
+   "props:21",
+   "req:0"
+  ],
+  "schema:api.v2010.account.authorized_connect_app": [
+   "props:8",
+   "req:0"
+  ],
+  "schema:api.v2010.account.available_phone_number_country": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:api.v2010.account.available_phone_number_country.available_phone_number_local": [
+   "props:13",
+   "req:0"
+  ],
+  "schema:api.v2010.account.available_phone_number_country.available_phone_number_machine_to_machine": [
+   "props:13",
+   "req:0"
+  ],
+  "schema:api.v2010.account.available_phone_number_country.available_phone_number_mobile": [
+   "props:13",
+   "req:0"
+  ],
+  "schema:api.v2010.account.available_phone_number_country.available_phone_number_national": [
+   "props:13",
+   "req:0"
+  ],
+  "schema:api.v2010.account.available_phone_number_country.available_phone_number_shared_cost": [
+   "props:13",
+   "req:0"
+  ],
+  "schema:api.v2010.account.available_phone_number_country.available_phone_number_toll_free": [
+   "props:13",
+   "req:0"
+  ],
+  "schema:api.v2010.account.available_phone_number_country.available_phone_number_voip": [
+   "props:13",
+   "req:0"
+  ],
+  "schema:api.v2010.account.balance": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:api.v2010.account.call": [
+   "props:26",
+   "req:0"
+  ],
+  "schema:api.v2010.account.call.call_event": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:api.v2010.account.call.call_notification": [
+   "props:14",
+   "req:0"
+  ],
+  "schema:api.v2010.account.call.call_notification-instance": [
+   "props:17",
+   "req:0"
+  ],
+  "schema:api.v2010.account.call.call_recording": [
+   "props:18",
+   "req:0"
+  ],
+  "schema:api.v2010.account.call.payments": [
+   "props:6",
+   "req:0"
+  ],
+  "schema:api.v2010.account.call.realtime_transcription": [
+   "props:7",
+   "req:0"
+  ],
+  "schema:api.v2010.account.call.siprec": [
+   "props:7",
+   "req:0"
+  ],
+  "schema:api.v2010.account.call.stream": [
+   "props:7",
+   "req:0"
+  ],
+  "schema:api.v2010.account.call.user_defined_message": [
+   "props:4",
+   "req:0"
+  ],
+  "schema:api.v2010.account.call.user_defined_message_subscription": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:api.v2010.account.conference": [
+   "props:12",
+   "req:0"
+  ],
+  "schema:api.v2010.account.conference.conference_recording": [
+   "props:17",
+   "req:0"
+  ],
+  "schema:api.v2010.account.conference.participant": [
+   "props:15",
+   "req:0"
+  ],
+  "schema:api.v2010.account.connect_app": [
+   "props:11",
+   "req:0"
+  ],
+  "schema:api.v2010.account.incoming_phone_number": [
+   "props:35",
+   "req:0"
+  ],
+  "schema:api.v2010.account.incoming_phone_number.incoming_phone_number_assigned_add_on": [
+   "props:11",
+   "req:0"
+  ],
+  "schema:api.v2010.account.incoming_phone_number.incoming_phone_number_assigned_add_on.incoming_phone_number_assigned_add_on_extension": [
+   "props:9",
+   "req:0"
+  ],
+  "schema:api.v2010.account.incoming_phone_number.incoming_phone_number_local": [
+   "props:34",
+   "req:0"
+  ],
+  "schema:api.v2010.account.incoming_phone_number.incoming_phone_number_mobile": [
+   "props:34",
+   "req:0"
+  ],
+  "schema:api.v2010.account.incoming_phone_number.incoming_phone_number_toll_free": [
+   "props:34",
+   "req:0"
+  ],
+  "schema:api.v2010.account.key": [
+   "props:4",
+   "req:0"
+  ],
+  "schema:api.v2010.account.message": [
+   "props:20",
+   "req:0"
+  ],
+  "schema:api.v2010.account.message.media": [
+   "props:7",
+   "req:0"
+  ],
+  "schema:api.v2010.account.message.message_feedback": [
+   "props:6",
+   "req:0"
+  ],
+  "schema:api.v2010.account.new_key": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:api.v2010.account.new_signing_key": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:api.v2010.account.notification": [
+   "props:14",
+   "req:0"
+  ],
+  "schema:api.v2010.account.notification-instance": [
+   "props:17",
+   "req:0"
+  ],
+  "schema:api.v2010.account.outgoing_caller_id": [
+   "props:7",
+   "req:0"
+  ],
+  "schema:api.v2010.account.outgoing_caller_id.sms_verification": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:api.v2010.account.outgoing_caller_id.verification_check": [
+   "props:4",
+   "req:0"
+  ],
+  "schema:api.v2010.account.queue": [
+   "props:9",
+   "req:0"
+  ],
+  "schema:api.v2010.account.queue.member": [
+   "props:6",
+   "req:0"
+  ],
+  "schema:api.v2010.account.recording": [
+   "props:19",
+   "req:0"
+  ],
+  "schema:api.v2010.account.recording.recording_add_on_result": [
+   "props:10",
+   "req:0"
+  ],
+  "schema:api.v2010.account.recording.recording_add_on_result.recording_add_on_result_payload": [
+   "props:11",
+   "req:0"
+  ],
+  "schema:api.v2010.account.recording.recording_add_on_result.recording_add_on_result_payload.recording_add_on_result_payload_data": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:api.v2010.account.recording.recording_transcription": [
+   "props:13",
+   "req:0"
+  ],
+  "schema:api.v2010.account.short_code": [
+   "props:12",
+   "req:0"
+  ],
+  "schema:api.v2010.account.signing_key": [
+   "props:4",
+   "req:0"
+  ],
+  "schema:api.v2010.account.sip": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:api.v2010.account.sip.sip_credential_list": [
+   "props:7",
+   "req:0"
+  ],
+  "schema:api.v2010.account.sip.sip_credential_list.sip_credential": [
+   "props:7",
+   "req:0"
+  ],
+  "schema:api.v2010.account.sip.sip_domain": [
+   "props:21",
+   "req:0"
+  ],
+  "schema:api.v2010.account.sip.sip_domain.sip_auth": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:api.v2010.account.sip.sip_domain.sip_auth.sip_auth_calls": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:api.v2010.account.sip.sip_domain.sip_auth.sip_auth_calls.sip_auth_calls_credential_list_mapping": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:api.v2010.account.sip.sip_domain.sip_auth.sip_auth_calls.sip_auth_calls_ip_access_control_list_mapping": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:api.v2010.account.sip.sip_domain.sip_auth.sip_auth_registrations": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:api.v2010.account.sip.sip_domain.sip_auth.sip_auth_registrations.sip_auth_registrations_credential_list_mapping": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:api.v2010.account.sip.sip_domain.sip_credential_list_mapping": [
+   "props:7",
+   "req:0"
+  ],
+  "schema:api.v2010.account.sip.sip_domain.sip_ip_access_control_list_mapping": [
+   "props:7",
+   "req:0"
+  ],
+  "schema:api.v2010.account.sip.sip_ip_access_control_list": [
+   "props:7",
+   "req:0"
+  ],
+  "schema:api.v2010.account.sip.sip_ip_access_control_list.sip_ip_address": [
+   "props:9",
+   "req:0"
+  ],
+  "schema:api.v2010.account.token": [
+   "props:7",
+   "req:0"
+  ],
+  "schema:api.v2010.account.transcription": [
+   "props:13",
+   "req:0"
+  ],
+  "schema:api.v2010.account.usage": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:api.v2010.account.usage.usage_record": [
+   "props:15",
+   "req:0"
+  ],
+  "schema:api.v2010.account.usage.usage_record.usage_record_all_time": [
+   "props:15",
+   "req:0"
+  ],
+  "schema:api.v2010.account.usage.usage_record.usage_record_daily": [
+   "props:15",
+   "req:0"
+  ],
+  "schema:api.v2010.account.usage.usage_record.usage_record_last_month": [
+   "props:15",
+   "req:0"
+  ],
+  "schema:api.v2010.account.usage.usage_record.usage_record_monthly": [
+   "props:15",
+   "req:0"
+  ],
+  "schema:api.v2010.account.usage.usage_record.usage_record_this_month": [
+   "props:15",
+   "req:0"
+  ],
+  "schema:api.v2010.account.usage.usage_record.usage_record_today": [
+   "props:15",
+   "req:0"
+  ],
+  "schema:api.v2010.account.usage.usage_record.usage_record_yearly": [
+   "props:15",
+   "req:0"
+  ],
+  "schema:api.v2010.account.usage.usage_record.usage_record_yesterday": [
+   "props:15",
+   "req:0"
+  ],
+  "schema:api.v2010.account.usage.usage_trigger": [
+   "props:16",
+   "req:0"
+  ],
+  "schema:api.v2010.account.validation_request": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:authorized_connect_app_enum_permission": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:call_enum_event": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:call_enum_status": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:call_enum_update_status": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:call_recording_enum_source": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:call_recording_enum_status": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:conference_enum_reason_conference_ended": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:conference_enum_status": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:conference_enum_update_status": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:conference_recording_enum_source": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:conference_recording_enum_status": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:connect_app_enum_permission": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:dependent_phone_number_enum_address_requirement": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:dependent_phone_number_enum_emergency_status": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:incoming_phone_number_enum_address_requirement": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:incoming_phone_number_enum_emergency_address_status": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:incoming_phone_number_enum_emergency_status": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:incoming_phone_number_enum_voice_receive_mode": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:incoming_phone_number_local_enum_address_requirement": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:incoming_phone_number_local_enum_emergency_address_status": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:incoming_phone_number_local_enum_emergency_status": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:incoming_phone_number_local_enum_voice_receive_mode": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:incoming_phone_number_mobile_enum_address_requirement": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:incoming_phone_number_mobile_enum_emergency_address_status": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:incoming_phone_number_mobile_enum_emergency_status": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:incoming_phone_number_mobile_enum_voice_receive_mode": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:incoming_phone_number_toll_free_enum_address_requirement": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:incoming_phone_number_toll_free_enum_emergency_address_status": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:incoming_phone_number_toll_free_enum_emergency_status": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:incoming_phone_number_toll_free_enum_voice_receive_mode": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:message_enum_address_retention": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:message_enum_content_retention": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:message_enum_direction": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:message_enum_risk_check": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:message_enum_schedule_type": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:message_enum_status": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:message_enum_traffic_type": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:message_enum_update_status": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:message_feedback_enum_outcome": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:participant_enum_status": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:payments_enum_bank_account_type": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:payments_enum_capture": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:payments_enum_payment_method": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:payments_enum_status": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:payments_enum_token_type": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:realtime_transcription_enum_status": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:realtime_transcription_enum_track": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:realtime_transcription_enum_update_status": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:recording_add_on_result_enum_status": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:recording_enum_source": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:recording_enum_status": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:recording_transcription_enum_status": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:siprec_enum_status": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:siprec_enum_track": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:siprec_enum_update_status": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:sms_feedback_enum_outcome": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:sms_message_enum_direction": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:sms_message_enum_status": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:sms_message_enum_update_status": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:stream_enum_status": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:stream_enum_track": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:stream_enum_update_status": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:transcription_enum_status": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:usage_trigger_enum_recurring": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:usage_trigger_enum_trigger_field": [
+   "props:0",
+   "req:0"
+  ]
+ },
+ "ts": "2026-08-18T23:23:51+00:00",
+ "url": "https://raw.githubusercontent.com/twilio/twilio-oai/main/spec/json/twilio_api_v2010.json",
+ "vendor": "Twilio"
+}

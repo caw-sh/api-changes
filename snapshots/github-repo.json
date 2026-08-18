@@ -1,0 +1,403 @@
+{
+ "category": "dev-infra",
+ "field_count": 130,
+ "first_seen": "2026-08-18T23:20:13+00:00",
+ "id": "github-repo",
+ "pending_keys": [],
+ "runs": 3,
+ "schema": {
+  "allow_forking": [
+   "boolean"
+  ],
+  "archive_url": [
+   "string"
+  ],
+  "archived": [
+   "boolean"
+  ],
+  "assignees_url": [
+   "string"
+  ],
+  "blobs_url": [
+   "string"
+  ],
+  "branches_url": [
+   "string"
+  ],
+  "clone_url": [
+   "string"
+  ],
+  "collaborators_url": [
+   "string"
+  ],
+  "comments_url": [
+   "string"
+  ],
+  "commits_url": [
+   "string"
+  ],
+  "compare_url": [
+   "string"
+  ],
+  "contents_url": [
+   "string"
+  ],
+  "contributors_url": [
+   "string"
+  ],
+  "created_at": [
+   "string"
+  ],
+  "custom_properties": [
+   "object"
+  ],
+  "default_branch": [
+   "string"
+  ],
+  "deployments_url": [
+   "string"
+  ],
+  "description": [
+   "string"
+  ],
+  "disabled": [
+   "boolean"
+  ],
+  "downloads_url": [
+   "string"
+  ],
+  "events_url": [
+   "string"
+  ],
+  "fork": [
+   "boolean"
+  ],
+  "forks": [
+   "integer"
+  ],
+  "forks_count": [
+   "integer"
+  ],
+  "forks_url": [
+   "string"
+  ],
+  "full_name": [
+   "string"
+  ],
+  "git_commits_url": [
+   "string"
+  ],
+  "git_refs_url": [
+   "string"
+  ],
+  "git_tags_url": [
+   "string"
+  ],
+  "git_url": [
+   "string"
+  ],
+  "has_discussions": [
+   "boolean"
+  ],
+  "has_downloads": [
+   "boolean"
+  ],
+  "has_issues": [
+   "boolean"
+  ],
+  "has_pages": [
+   "boolean"
+  ],
+  "has_projects": [
+   "boolean"
+  ],
+  "has_pull_requests": [
+   "boolean"
+  ],
+  "has_wiki": [
+   "boolean"
+  ],
+  "homepage": [
+   "string"
+  ],
+  "hooks_url": [
+   "string"
+  ],
+  "html_url": [
+   "string"
+  ],
+  "id": [
+   "integer"
+  ],
+  "is_template": [
+   "boolean"
+  ],
+  "issue_comment_url": [
+   "string"
+  ],
+  "issue_events_url": [
+   "string"
+  ],
+  "issues_url": [
+   "string"
+  ],
+  "keys_url": [
+   "string"
+  ],
+  "labels_url": [
+   "string"
+  ],
+  "language": [
+   "string"
+  ],
+  "languages_url": [
+   "string"
+  ],
+  "license": [
+   "object"
+  ],
+  "license.key": [
+   "string"
+  ],
+  "license.name": [
+   "string"
+  ],
+  "license.node_id": [
+   "string"
+  ],
+  "license.spdx_id": [
+   "string"
+  ],
+  "license.url": [
+   "string"
+  ],
+  "merges_url": [
+   "string"
+  ],
+  "milestones_url": [
+   "string"
+  ],
+  "mirror_url": [
+   "null"
+  ],
+  "name": [
+   "string"
+  ],
+  "network_count": [
+   "integer"
+  ],
+  "node_id": [
+   "string"
+  ],
+  "notifications_url": [
+   "string"
+  ],
+  "open_issues": [
+   "integer"
+  ],
+  "open_issues_count": [
+   "integer"
+  ],
+  "organization": [
+   "object"
+  ],
+  "organization.avatar_url": [
+   "string"
+  ],
+  "organization.events_url": [
+   "string"
+  ],
+  "organization.followers_url": [
+   "string"
+  ],
+  "organization.following_url": [
+   "string"
+  ],
+  "organization.gists_url": [
+   "string"
+  ],
+  "organization.gravatar_id": [
+   "string"
+  ],
+  "organization.html_url": [
+   "string"
+  ],
+  "organization.id": [
+   "integer"
+  ],
+  "organization.login": [
+   "string"
+  ],
+  "organization.node_id": [
+   "string"
+  ],
+  "organization.organizations_url": [
+   "string"
+  ],
+  "organization.received_events_url": [
+   "string"
+  ],
+  "organization.repos_url": [
+   "string"
+  ],
+  "organization.site_admin": [
+   "boolean"
+  ],
+  "organization.starred_url": [
+   "string"
+  ],
+  "organization.subscriptions_url": [
+   "string"
+  ],
+  "organization.type": [
+   "string"
+  ],
+  "organization.url": [
+   "string"
+  ],
+  "organization.user_view_type": [
+   "string"
+  ],
+  "owner": [
+   "object"
+  ],
+  "owner.avatar_url": [
+   "string"
+  ],
+  "owner.events_url": [
+   "string"
+  ],
+  "owner.followers_url": [
+   "string"
+  ],
+  "owner.following_url": [
+   "string"
+  ],
+  "owner.gists_url": [
+   "string"
+  ],
+  "owner.gravatar_id": [
+   "string"
+  ],
+  "owner.html_url": [
+   "string"
+  ],
+  "owner.id": [
+   "integer"
+  ],
+  "owner.login": [
+   "string"
+  ],
+  "owner.node_id": [
+   "string"
+  ],
+  "owner.organizations_url": [
+   "string"
+  ],
+  "owner.received_events_url": [
+   "string"
+  ],
+  "owner.repos_url": [
+   "string"
+  ],
+  "owner.site_admin": [
+   "boolean"
+  ],
+  "owner.starred_url": [
+   "string"
+  ],
+  "owner.subscriptions_url": [
+   "string"
+  ],
+  "owner.type": [
+   "string"
+  ],
+  "owner.url": [
+   "string"
+  ],
+  "owner.user_view_type": [
+   "string"
+  ],
+  "private": [
+   "boolean"
+  ],
+  "pull_request_creation_policy": [
+   "string"
+  ],
+  "pulls_url": [
+   "string"
+  ],
+  "pushed_at": [
+   "string"
+  ],
+  "releases_url": [
+   "string"
+  ],
+  "size": [
+   "integer"
+  ],
+  "ssh_url": [
+   "string"
+  ],
+  "stargazers_count": [
+   "integer"
+  ],
+  "stargazers_url": [
+   "string"
+  ],
+  "statuses_url": [
+   "string"
+  ],
+  "subscribers_count": [
+   "integer"
+  ],
+  "subscribers_url": [
+   "string"
+  ],
+  "subscription_url": [
+   "string"
+  ],
+  "svn_url": [
+   "string"
+  ],
+  "tags_url": [
+   "string"
+  ],
+  "teams_url": [
+   "string"
+  ],
+  "temp_clone_token": [
+   "null"
+  ],
+  "topics": [
+   "array"
+  ],
+  "topics[]": [
+   "string"
+  ],
+  "trees_url": [
+   "string"
+  ],
+  "updated_at": [
+   "string"
+  ],
+  "url": [
+   "string"
+  ],
+  "visibility": [
+   "string"
+  ],
+  "watchers": [
+   "integer"
+  ],
+  "watchers_count": [
+   "integer"
+  ],
+  "web_commit_signoff_required": [
+   "boolean"
+  ]
+ },
+ "ts": "2026-08-18T23:23:51+00:00",
+ "url": "https://api.github.com/repos/facebook/react",
+ "vendor": "GitHub"
+}

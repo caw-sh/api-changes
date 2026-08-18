@@ -1,0 +1,124 @@
+{
+ "category": "registry",
+ "field_count": 37,
+ "first_seen": "2026-08-18T23:20:13+00:00",
+ "id": "dockerhub-nginx",
+ "pending_keys": [],
+ "runs": 3,
+ "schema": {
+  "affiliation": [
+   "null"
+  ],
+  "categories": [
+   "array"
+  ],
+  "categories[]": [
+   "object"
+  ],
+  "categories[].name": [
+   "string"
+  ],
+  "categories[].slug": [
+   "string"
+  ],
+  "collaborator_count": [
+   "integer"
+  ],
+  "content_types": [
+   "array"
+  ],
+  "content_types[]": [
+   "string"
+  ],
+  "date_registered": [
+   "string"
+  ],
+  "description": [
+   "string"
+  ],
+  "full_description": [
+   "string"
+  ],
+  "has_starred": [
+   "boolean"
+  ],
+  "hub_user": [
+   "string"
+  ],
+  "immutable_tags_settings": [
+   "object"
+  ],
+  "immutable_tags_settings.enabled": [
+   "boolean"
+  ],
+  "immutable_tags_settings.rules": [
+   "array"
+  ],
+  "immutable_tags_settings.rules[]": [
+   "string"
+  ],
+  "is_automated": [
+   "boolean"
+  ],
+  "is_private": [
+   "boolean"
+  ],
+  "last_modified": [
+   "string"
+  ],
+  "last_updated": [
+   "string"
+  ],
+  "media_types": [
+   "array"
+  ],
+  "media_types[]": [
+   "string"
+  ],
+  "name": [
+   "string"
+  ],
+  "namespace": [
+   "string"
+  ],
+  "permissions": [
+   "object"
+  ],
+  "permissions.admin": [
+   "boolean"
+  ],
+  "permissions.read": [
+   "boolean"
+  ],
+  "permissions.write": [
+   "boolean"
+  ],
+  "pull_count": [
+   "integer"
+  ],
+  "repository_type": [
+   "string"
+  ],
+  "source": [
+   "null"
+  ],
+  "star_count": [
+   "integer"
+  ],
+  "status": [
+   "integer"
+  ],
+  "status_description": [
+   "string"
+  ],
+  "storage_size": [
+   "integer"
+  ],
+  "user": [
+   "string"
+  ]
+ },
+ "ts": "2026-08-18T23:23:51+00:00",
+ "url": "https://hub.docker.com/v2/repositories/library/nginx/",
+ "vendor": "Docker Hub"
+}

@@ -1,0 +1,118 @@
+{
+ "category": "productivity",
+ "field_count": 35,
+ "first_seen": "2026-08-18T23:20:13+00:00",
+ "id": "status-hashicorp-summary",
+ "pending_keys": [],
+ "runs": 3,
+ "schema": {
+  "components": [
+   "array"
+  ],
+  "components[]": [
+   "object"
+  ],
+  "components[].created_at": [
+   "string"
+  ],
+  "components[].id": [
+   "string"
+  ],
+  "components[].name": [
+   "string"
+  ],
+  "components[].page_id": [
+   "string"
+  ],
+  "components[].position": [
+   "integer"
+  ],
+  "components[].status": [
+   "string"
+  ],
+  "components[].updated_at": [
+   "string"
+  ],
+  "page": [
+   "object"
+  ],
+  "page.id": [
+   "string"
+  ],
+  "page.name": [
+   "string"
+  ],
+  "page.updated_at": [
+   "string"
+  ],
+  "page.url": [
+   "string"
+  ],
+  "scheduled_maintenances": [
+   "array"
+  ],
+  "scheduled_maintenances[]": [
+   "object"
+  ],
+  "scheduled_maintenances[].created_at": [
+   "string"
+  ],
+  "scheduled_maintenances[].id": [
+   "string"
+  ],
+  "scheduled_maintenances[].impact": [
+   "string"
+  ],
+  "scheduled_maintenances[].incident_updates": [
+   "array"
+  ],
+  "scheduled_maintenances[].incident_updates[]": [
+   "object"
+  ],
+  "scheduled_maintenances[].incident_updates[].body": [
+   "string"
+  ],
+  "scheduled_maintenances[].incident_updates[].created_at": [
+   "string"
+  ],
+  "scheduled_maintenances[].incident_updates[].display_at": [
+   "string"
+  ],
+  "scheduled_maintenances[].incident_updates[].id": [
+   "string"
+  ],
+  "scheduled_maintenances[].incident_updates[].incident_id": [
+   "string"
+  ],
+  "scheduled_maintenances[].incident_updates[].status": [
+   "string"
+  ],
+  "scheduled_maintenances[].incident_updates[].updated_at": [
+   "string"
+  ],
+  "scheduled_maintenances[].name": [
+   "string"
+  ],
+  "scheduled_maintenances[].page_id": [
+   "string"
+  ],
+  "scheduled_maintenances[].status": [
+   "string"
+  ],
+  "scheduled_maintenances[].updated_at": [
+   "string"
+  ],
+  "status": [
+   "object"
+  ],
+  "status.description": [
+   "string"
+  ],
+  "status.indicator": [
+   "string"
+  ]
+ },
+ "ts": "2026-08-18T23:23:51+00:00",
+ "url": "https://status.hashicorp.com/api/v2/summary.json",
+ "vendor": "HashiCorp"
+}

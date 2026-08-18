@@ -1,0 +1,99 @@
+{
+ "category": "dev-infra",
+ "field_count": 28,
+ "first_seen": "2026-08-18T23:20:13+00:00",
+ "id": "status-sentry-summary",
+ "pending_keys": [],
+ "runs": 3,
+ "schema": {
+  "components": [
+   "array"
+  ],
+  "components[]": [
+   "object"
+  ],
+  "components[].components": [
+   "array"
+  ],
+  "components[].components[]": [
+   "string"
+  ],
+  "components[].created_at": [
+   "string"
+  ],
+  "components[].description": [
+   "null"
+  ],
+  "components[].group": [
+   "boolean"
+  ],
+  "components[].group_id": [
+   "null",
+   "string"
+  ],
+  "components[].id": [
+   "string"
+  ],
+  "components[].name": [
+   "string"
+  ],
+  "components[].only_show_if_degraded": [
+   "boolean"
+  ],
+  "components[].page_id": [
+   "string"
+  ],
+  "components[].position": [
+   "integer"
+  ],
+  "components[].showcase": [
+   "boolean"
+  ],
+  "components[].start_date": [
+   "null",
+   "string"
+  ],
+  "components[].status": [
+   "string"
+  ],
+  "components[].updated_at": [
+   "string"
+  ],
+  "incidents": [
+   "array"
+  ],
+  "page": [
+   "object"
+  ],
+  "page.id": [
+   "string"
+  ],
+  "page.name": [
+   "string"
+  ],
+  "page.time_zone": [
+   "string"
+  ],
+  "page.updated_at": [
+   "string"
+  ],
+  "page.url": [
+   "string"
+  ],
+  "scheduled_maintenances": [
+   "array"
+  ],
+  "status": [
+   "object"
+  ],
+  "status.description": [
+   "string"
+  ],
+  "status.indicator": [
+   "string"
+  ]
+ },
+ "ts": "2026-08-18T23:23:51+00:00",
+ "url": "https://status.sentry.io/api/v2/summary.json",
+ "vendor": "Sentry"
+}

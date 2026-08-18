@@ -1,0 +1,74 @@
+{
+ "category": "reference",
+ "field_count": 20,
+ "first_seen": "2026-08-18T23:20:13+00:00",
+ "id": "worldbank-indicator",
+ "pending_keys": [],
+ "runs": 3,
+ "schema": {
+  "[]": [
+   "array",
+   "object"
+  ],
+  "[].lastupdated": [
+   "string"
+  ],
+  "[].page": [
+   "integer"
+  ],
+  "[].pages": [
+   "integer"
+  ],
+  "[].per_page": [
+   "integer"
+  ],
+  "[].sourceid": [
+   "string"
+  ],
+  "[].total": [
+   "integer"
+  ],
+  "[][]": [
+   "object"
+  ],
+  "[][].country": [
+   "object"
+  ],
+  "[][].country.id": [
+   "string"
+  ],
+  "[][].country.value": [
+   "string"
+  ],
+  "[][].countryiso3code": [
+   "string"
+  ],
+  "[][].date": [
+   "string"
+  ],
+  "[][].decimal": [
+   "integer"
+  ],
+  "[][].indicator": [
+   "object"
+  ],
+  "[][].indicator.id": [
+   "string"
+  ],
+  "[][].indicator.value": [
+   "string"
+  ],
+  "[][].obs_status": [
+   "string"
+  ],
+  "[][].unit": [
+   "string"
+  ],
+  "[][].value": [
+   "number"
+  ]
+ },
+ "ts": "2026-08-18T23:23:51+00:00",
+ "url": "https://api.worldbank.org/v2/country/IND/indicator/NY.GDP.MKTP.CD?format=json",
+ "vendor": "World Bank"
+}

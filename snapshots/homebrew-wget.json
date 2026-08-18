@@ -1,0 +1,508 @@
+{
+ "category": "registry",
+ "field_count": 165,
+ "first_seen": "2026-08-18T23:20:13+00:00",
+ "id": "homebrew-wget",
+ "pending_keys": [],
+ "runs": 3,
+ "schema": {
+  "aliases": [
+   "array"
+  ],
+  "analytics": [
+   "object"
+  ],
+  "analytics.build_error": [
+   "object"
+  ],
+  "analytics.build_error.30d": [
+   "object"
+  ],
+  "analytics.build_error.30d.wget": [
+   "integer"
+  ],
+  "analytics.install": [
+   "object"
+  ],
+  "analytics.install.30d": [
+   "object"
+  ],
+  "analytics.install.30d.wget": [
+   "integer"
+  ],
+  "analytics.install.30d.wget --HEAD": [
+   "integer"
+  ],
+  "analytics.install.365d": [
+   "object"
+  ],
+  "analytics.install.365d.wget": [
+   "integer"
+  ],
+  "analytics.install.365d.wget --HEAD": [
+   "integer"
+  ],
+  "analytics.install.90d": [
+   "object"
+  ],
+  "analytics.install.90d.wget": [
+   "integer"
+  ],
+  "analytics.install.90d.wget --HEAD": [
+   "integer"
+  ],
+  "analytics.install_on_request": [
+   "object"
+  ],
+  "analytics.install_on_request.30d": [
+   "object"
+  ],
+  "analytics.install_on_request.30d.wget": [
+   "integer"
+  ],
+  "analytics.install_on_request.30d.wget --HEAD": [
+   "integer"
+  ],
+  "analytics.install_on_request.365d": [
+   "object"
+  ],
+  "analytics.install_on_request.365d.wget": [
+   "integer"
+  ],
+  "analytics.install_on_request.365d.wget --HEAD": [
+   "integer"
+  ],
+  "analytics.install_on_request.90d": [
+   "object"
+  ],
+  "analytics.install_on_request.90d.wget": [
+   "integer"
+  ],
+  "analytics.install_on_request.90d.wget --HEAD": [
+   "integer"
+  ],
+  "autobump": [
+   "boolean"
+  ],
+  "bottle": [
+   "object"
+  ],
+  "bottle.stable": [
+   "object"
+  ],
+  "bottle.stable.files": [
+   "object"
+  ],
+  "bottle.stable.files.arm64_linux": [
+   "object"
+  ],
+  "bottle.stable.files.arm64_linux.cellar": [
+   "string"
+  ],
+  "bottle.stable.files.arm64_linux.sha256": [
+   "string"
+  ],
+  "bottle.stable.files.arm64_linux.url": [
+   "string"
+  ],
+  "bottle.stable.files.arm64_sequoia": [
+   "object"
+  ],
+  "bottle.stable.files.arm64_sequoia.cellar": [
+   "string"
+  ],
+  "bottle.stable.files.arm64_sequoia.sha256": [
+   "string"
+  ],
+  "bottle.stable.files.arm64_sequoia.url": [
+   "string"
+  ],
+  "bottle.stable.files.arm64_sonoma": [
+   "object"
+  ],
+  "bottle.stable.files.arm64_sonoma.cellar": [
+   "string"
+  ],
+  "bottle.stable.files.arm64_sonoma.sha256": [
+   "string"
+  ],
+  "bottle.stable.files.arm64_sonoma.url": [
+   "string"
+  ],
+  "bottle.stable.files.arm64_tahoe": [
+   "object"
+  ],
+  "bottle.stable.files.arm64_tahoe.cellar": [
+   "string"
+  ],
+  "bottle.stable.files.arm64_tahoe.sha256": [
+   "string"
+  ],
+  "bottle.stable.files.arm64_tahoe.url": [
+   "string"
+  ],
+  "bottle.stable.files.sonoma": [
+   "object"
+  ],
+  "bottle.stable.files.sonoma.cellar": [
+   "string"
+  ],
+  "bottle.stable.files.sonoma.sha256": [
+   "string"
+  ],
+  "bottle.stable.files.sonoma.url": [
+   "string"
+  ],
+  "bottle.stable.files.x86_64_linux": [
+   "object"
+  ],
+  "bottle.stable.files.x86_64_linux.cellar": [
+   "string"
+  ],
+  "bottle.stable.files.x86_64_linux.sha256": [
+   "string"
+  ],
+  "bottle.stable.files.x86_64_linux.url": [
+   "string"
+  ],
+  "bottle.stable.rebuild": [
+   "integer"
+  ],
+  "bottle.stable.root_url": [
+   "string"
+  ],
+  "build_dependencies": [
+   "array"
+  ],
+  "build_dependencies[]": [
+   "string"
+  ],
+  "caveats": [
+   "null"
+  ],
+  "compatibility_version": [
+   "integer"
+  ],
+  "conflicts_with": [
+   "array"
+  ],
+  "conflicts_with_reasons": [
+   "array"
+  ],
+  "dependencies": [
+   "array"
+  ],
+  "dependencies[]": [
+   "string"
+  ],
+  "deprecate_args": [
+   "null"
+  ],
+  "deprecated": [
+   "boolean"
+  ],
+  "deprecation_date": [
+   "null"
+  ],
+  "deprecation_reason": [
+   "null"
+  ],
+  "deprecation_replacement_cask": [
+   "null"
+  ],
+  "deprecation_replacement_formula": [
+   "null"
+  ],
+  "desc": [
+   "string"
+  ],
+  "disable_args": [
+   "null"
+  ],
+  "disable_date": [
+   "null"
+  ],
+  "disable_reason": [
+   "null"
+  ],
+  "disable_replacement_cask": [
+   "null"
+  ],
+  "disable_replacement_formula": [
+   "null"
+  ],
+  "disabled": [
+   "boolean"
+  ],
+  "executables": [
+   "array"
+  ],
+  "executables[]": [
+   "string"
+  ],
+  "full_name": [
+   "string"
+  ],
+  "generated_date": [
+   "string"
+  ],
+  "head_dependencies": [
+   "object"
+  ],
+  "head_dependencies.build_dependencies": [
+   "array"
+  ],
+  "head_dependencies.build_dependencies[]": [
+   "string"
+  ],
+  "head_dependencies.dependencies": [
+   "array"
+  ],
+  "head_dependencies.dependencies[]": [
+   "string"
+  ],
+  "head_dependencies.optional_dependencies": [
+   "array"
+  ],
+  "head_dependencies.recommended_dependencies": [
+   "array"
+  ],
+  "head_dependencies.test_dependencies": [
+   "array"
+  ],
+  "head_dependencies.uses_from_macos": [
+   "array"
+  ],
+  "head_dependencies.uses_from_macos_bounds": [
+   "array"
+  ],
+  "homepage": [
+   "string"
+  ],
+  "installed": [
+   "array"
+  ],
+  "keg_only": [
+   "boolean"
+  ],
+  "keg_only_reason": [
+   "null"
+  ],
+  "license": [
+   "string"
+  ],
+  "link_overwrite": [
+   "array"
+  ],
+  "linked_keg": [
+   "null"
+  ],
+  "name": [
+   "string"
+  ],
+  "no_autobump_message": [
+   "null"
+  ],
+  "oldnames": [
+   "array"
+  ],
+  "optional_dependencies": [
+   "array"
+  ],
+  "options": [
+   "array"
+  ],
+  "outdated": [
+   "boolean"
+  ],
+  "patches": [
+   "array"
+  ],
+  "pinned": [
+   "boolean"
+  ],
+  "post_install_defined": [
+   "boolean"
+  ],
+  "post_install_steps": [
+   "array"
+  ],
+  "pour_bottle_only_if": [
+   "null"
+  ],
+  "recommended_dependencies": [
+   "array"
+  ],
+  "requirements": [
+   "array"
+  ],
+  "revision": [
+   "integer"
+  ],
+  "ruby_source_checksum": [
+   "object"
+  ],
+  "ruby_source_checksum.sha256": [
+   "string"
+  ],
+  "ruby_source_path": [
+   "string"
+  ],
+  "service": [
+   "null"
+  ],
+  "skip_livecheck": [
+   "boolean"
+  ],
+  "tap": [
+   "string"
+  ],
+  "tap_git_head": [
+   "string"
+  ],
+  "test_dependencies": [
+   "array"
+  ],
+  "urls": [
+   "object"
+  ],
+  "urls.head": [
+   "object"
+  ],
+  "urls.head.branch": [
+   "string"
+  ],
+  "urls.head.url": [
+   "string"
+  ],
+  "urls.head.using": [
+   "null"
+  ],
+  "urls.stable": [
+   "object"
+  ],
+  "urls.stable.checksum": [
+   "string"
+  ],
+  "urls.stable.revision": [
+   "null"
+  ],
+  "urls.stable.tag": [
+   "null"
+  ],
+  "urls.stable.url": [
+   "string"
+  ],
+  "urls.stable.using": [
+   "null"
+  ],
+  "uses_from_macos": [
+   "array"
+  ],
+  "uses_from_macos_bounds": [
+   "array"
+  ],
+  "variations": [
+   "object"
+  ],
+  "variations.arm64_linux": [
+   "object"
+  ],
+  "variations.arm64_linux.dependencies": [
+   "array"
+  ],
+  "variations.arm64_linux.dependencies[]": [
+   "string"
+  ],
+  "variations.arm64_linux.head_dependencies": [
+   "object"
+  ],
+  "variations.arm64_linux.head_dependencies.build_dependencies": [
+   "array"
+  ],
+  "variations.arm64_linux.head_dependencies.build_dependencies[]": [
+   "string"
+  ],
+  "variations.arm64_linux.head_dependencies.dependencies": [
+   "array"
+  ],
+  "variations.arm64_linux.head_dependencies.dependencies[]": [
+   "string"
+  ],
+  "variations.arm64_linux.head_dependencies.optional_dependencies": [
+   "array"
+  ],
+  "variations.arm64_linux.head_dependencies.recommended_dependencies": [
+   "array"
+  ],
+  "variations.arm64_linux.head_dependencies.test_dependencies": [
+   "array"
+  ],
+  "variations.arm64_linux.head_dependencies.uses_from_macos": [
+   "array"
+  ],
+  "variations.arm64_linux.head_dependencies.uses_from_macos_bounds": [
+   "array"
+  ],
+  "variations.x86_64_linux": [
+   "object"
+  ],
+  "variations.x86_64_linux.dependencies": [
+   "array"
+  ],
+  "variations.x86_64_linux.dependencies[]": [
+   "string"
+  ],
+  "variations.x86_64_linux.head_dependencies": [
+   "object"
+  ],
+  "variations.x86_64_linux.head_dependencies.build_dependencies": [
+   "array"
+  ],
+  "variations.x86_64_linux.head_dependencies.build_dependencies[]": [
+   "string"
+  ],
+  "variations.x86_64_linux.head_dependencies.dependencies": [
+   "array"
+  ],
+  "variations.x86_64_linux.head_dependencies.dependencies[]": [
+   "string"
+  ],
+  "variations.x86_64_linux.head_dependencies.optional_dependencies": [
+   "array"
+  ],
+  "variations.x86_64_linux.head_dependencies.recommended_dependencies": [
+   "array"
+  ],
+  "variations.x86_64_linux.head_dependencies.test_dependencies": [
+   "array"
+  ],
+  "variations.x86_64_linux.head_dependencies.uses_from_macos": [
+   "array"
+  ],
+  "variations.x86_64_linux.head_dependencies.uses_from_macos_bounds": [
+   "array"
+  ],
+  "version_scheme": [
+   "integer"
+  ],
+  "versioned_formulae": [
+   "array"
+  ],
+  "versions": [
+   "object"
+  ],
+  "versions.bottle": [
+   "boolean"
+  ],
+  "versions.head": [
+   "string"
+  ],
+  "versions.stable": [
+   "string"
+  ]
+ },
+ "ts": "2026-08-18T23:23:51+00:00",
+ "url": "https://formulae.brew.sh/api/formula/wget.json",
+ "vendor": "Homebrew"
+}

@@ -1,0 +1,238 @@
+{
+ "category": "fun",
+ "field_count": 75,
+ "first_seen": "2026-08-18T23:20:13+00:00",
+ "id": "pokeapi-species",
+ "pending_keys": [],
+ "runs": 3,
+ "schema": {
+  "base_happiness": [
+   "integer"
+  ],
+  "capture_rate": [
+   "integer"
+  ],
+  "color": [
+   "object"
+  ],
+  "color.name": [
+   "string"
+  ],
+  "color.url": [
+   "string"
+  ],
+  "egg_groups": [
+   "array"
+  ],
+  "egg_groups[]": [
+   "object"
+  ],
+  "egg_groups[].name": [
+   "string"
+  ],
+  "egg_groups[].url": [
+   "string"
+  ],
+  "evolution_chain": [
+   "object"
+  ],
+  "evolution_chain.url": [
+   "string"
+  ],
+  "evolves_from_species": [
+   "null"
+  ],
+  "flavor_text_entries": [
+   "array"
+  ],
+  "flavor_text_entries[]": [
+   "object"
+  ],
+  "flavor_text_entries[].flavor_text": [
+   "string"
+  ],
+  "flavor_text_entries[].language": [
+   "object"
+  ],
+  "flavor_text_entries[].language.name": [
+   "string"
+  ],
+  "flavor_text_entries[].language.url": [
+   "string"
+  ],
+  "flavor_text_entries[].version": [
+   "object"
+  ],
+  "flavor_text_entries[].version.name": [
+   "string"
+  ],
+  "flavor_text_entries[].version.url": [
+   "string"
+  ],
+  "form_descriptions": [
+   "array"
+  ],
+  "forms_switchable": [
+   "boolean"
+  ],
+  "gender_rate": [
+   "integer"
+  ],
+  "genera": [
+   "array"
+  ],
+  "genera[]": [
+   "object"
+  ],
+  "genera[].genus": [
+   "string"
+  ],
+  "genera[].language": [
+   "object"
+  ],
+  "genera[].language.name": [
+   "string"
+  ],
+  "genera[].language.url": [
+   "string"
+  ],
+  "generation": [
+   "object"
+  ],
+  "generation.name": [
+   "string"
+  ],
+  "generation.url": [
+   "string"
+  ],
+  "growth_rate": [
+   "object"
+  ],
+  "growth_rate.name": [
+   "string"
+  ],
+  "growth_rate.url": [
+   "string"
+  ],
+  "habitat": [
+   "object"
+  ],
+  "habitat.name": [
+   "string"
+  ],
+  "habitat.url": [
+   "string"
+  ],
+  "has_gender_differences": [
+   "boolean"
+  ],
+  "hatch_counter": [
+   "integer"
+  ],
+  "id": [
+   "integer"
+  ],
+  "is_baby": [
+   "boolean"
+  ],
+  "is_legendary": [
+   "boolean"
+  ],
+  "is_mythical": [
+   "boolean"
+  ],
+  "name": [
+   "string"
+  ],
+  "names": [
+   "array"
+  ],
+  "names[]": [
+   "object"
+  ],
+  "names[].language": [
+   "object"
+  ],
+  "names[].language.name": [
+   "string"
+  ],
+  "names[].language.url": [
+   "string"
+  ],
+  "names[].name": [
+   "string"
+  ],
+  "order": [
+   "integer"
+  ],
+  "pal_park_encounters": [
+   "array"
+  ],
+  "pal_park_encounters[]": [
+   "object"
+  ],
+  "pal_park_encounters[].area": [
+   "object"
+  ],
+  "pal_park_encounters[].area.name": [
+   "string"
+  ],
+  "pal_park_encounters[].area.url": [
+   "string"
+  ],
+  "pal_park_encounters[].base_score": [
+   "integer"
+  ],
+  "pal_park_encounters[].rate": [
+   "integer"
+  ],
+  "pokedex_numbers": [
+   "array"
+  ],
+  "pokedex_numbers[]": [
+   "object"
+  ],
+  "pokedex_numbers[].entry_number": [
+   "integer"
+  ],
+  "pokedex_numbers[].pokedex": [
+   "object"
+  ],
+  "pokedex_numbers[].pokedex.name": [
+   "string"
+  ],
+  "pokedex_numbers[].pokedex.url": [
+   "string"
+  ],
+  "shape": [
+   "object"
+  ],
+  "shape.name": [
+   "string"
+  ],
+  "shape.url": [
+   "string"
+  ],
+  "varieties": [
+   "array"
+  ],
+  "varieties[]": [
+   "object"
+  ],
+  "varieties[].is_default": [
+   "boolean"
+  ],
+  "varieties[].pokemon": [
+   "object"
+  ],
+  "varieties[].pokemon.name": [
+   "string"
+  ],
+  "varieties[].pokemon.url": [
+   "string"
+  ]
+ },
+ "ts": "2026-08-18T23:23:51+00:00",
+ "url": "https://pokeapi.co/api/v2/pokemon-species/ditto",
+ "vendor": "PokeAPI"
+}

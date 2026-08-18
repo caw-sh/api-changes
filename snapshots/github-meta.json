@@ -1,0 +1,172 @@
+{
+ "category": "dev-infra",
+ "field_count": 53,
+ "first_seen": "2026-08-18T23:20:13+00:00",
+ "id": "github-meta",
+ "pending_keys": [],
+ "runs": 2,
+ "schema": {
+  "actions": [
+   "array"
+  ],
+  "actions[]": [
+   "string"
+  ],
+  "actions_macos": [
+   "array"
+  ],
+  "actions_macos[]": [
+   "string"
+  ],
+  "api": [
+   "array"
+  ],
+  "api[]": [
+   "string"
+  ],
+  "codespaces": [
+   "array"
+  ],
+  "codespaces[]": [
+   "string"
+  ],
+  "commit_signing_keys": [
+   "array"
+  ],
+  "commit_signing_keys[]": [
+   "string"
+  ],
+  "copilot": [
+   "array"
+  ],
+  "copilot[]": [
+   "string"
+  ],
+  "domains": [
+   "object"
+  ],
+  "domains.actions": [
+   "array"
+  ],
+  "domains.actions[]": [
+   "string"
+  ],
+  "domains.actions_inbound": [
+   "object"
+  ],
+  "domains.actions_inbound.full_domains": [
+   "array"
+  ],
+  "domains.actions_inbound.full_domains[]": [
+   "string"
+  ],
+  "domains.actions_inbound.wildcard_domains": [
+   "array"
+  ],
+  "domains.actions_inbound.wildcard_domains[]": [
+   "string"
+  ],
+  "domains.artifact_attestations": [
+   "object"
+  ],
+  "domains.artifact_attestations.services": [
+   "array"
+  ],
+  "domains.artifact_attestations.services[]": [
+   "string"
+  ],
+  "domains.artifact_attestations.trust_domain": [
+   "string"
+  ],
+  "domains.codespaces": [
+   "array"
+  ],
+  "domains.codespaces[]": [
+   "string"
+  ],
+  "domains.copilot": [
+   "array"
+  ],
+  "domains.copilot[]": [
+   "string"
+  ],
+  "domains.packages": [
+   "array"
+  ],
+  "domains.packages[]": [
+   "string"
+  ],
+  "domains.website": [
+   "array"
+  ],
+  "domains.website[]": [
+   "string"
+  ],
+  "git": [
+   "array"
+  ],
+  "git[]": [
+   "string"
+  ],
+  "github_enterprise_importer": [
+   "array"
+  ],
+  "github_enterprise_importer[]": [
+   "string"
+  ],
+  "hooks": [
+   "array"
+  ],
+  "hooks[]": [
+   "string"
+  ],
+  "importer": [
+   "array"
+  ],
+  "importer[]": [
+   "string"
+  ],
+  "packages": [
+   "array"
+  ],
+  "packages[]": [
+   "string"
+  ],
+  "pages": [
+   "array"
+  ],
+  "pages[]": [
+   "string"
+  ],
+  "ssh_key_fingerprints": [
+   "object"
+  ],
+  "ssh_key_fingerprints.SHA256_ECDSA": [
+   "string"
+  ],
+  "ssh_key_fingerprints.SHA256_ED25519": [
+   "string"
+  ],
+  "ssh_key_fingerprints.SHA256_RSA": [
+   "string"
+  ],
+  "ssh_keys": [
+   "array"
+  ],
+  "ssh_keys[]": [
+   "string"
+  ],
+  "verifiable_password_authentication": [
+   "boolean"
+  ],
+  "web": [
+   "array"
+  ],
+  "web[]": [
+   "string"
+  ]
+ },
+ "ts": "2026-08-18T23:23:51+00:00",
+ "url": "https://api.github.com/meta",
+ "vendor": "GitHub"
+}

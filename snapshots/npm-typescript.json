@@ -1,0 +1,205 @@
+{
+ "category": "registry",
+ "field_count": 64,
+ "first_seen": "2026-08-18T23:20:13+00:00",
+ "id": "npm-typescript",
+ "pending_keys": [],
+ "runs": 3,
+ "schema": {
+  "_from": [
+   "string"
+  ],
+  "_hasShrinkwrap": [
+   "boolean"
+  ],
+  "_id": [
+   "string"
+  ],
+  "_integrity": [
+   "string"
+  ],
+  "_nodeVersion": [
+   "string"
+  ],
+  "_npmOperationalInternal": [
+   "object"
+  ],
+  "_npmOperationalInternal.host": [
+   "string"
+  ],
+  "_npmOperationalInternal.tmp": [
+   "string"
+  ],
+  "_npmUser": [
+   "object"
+  ],
+  "_npmUser.email": [
+   "string"
+  ],
+  "_npmUser.name": [
+   "string"
+  ],
+  "_resolved": [
+   "string"
+  ],
+  "author": [
+   "object"
+  ],
+  "author.name": [
+   "string"
+  ],
+  "bin": [
+   "object"
+  ],
+  "bin.tsc": [
+   "string"
+  ],
+  "bugs": [
+   "object"
+  ],
+  "bugs.url": [
+   "string"
+  ],
+  "dependencies": [
+   "object"
+  ],
+  "dependencies.{*}": [
+   "string"
+  ],
+  "description": [
+   "string"
+  ],
+  "directories": [
+   "object"
+  ],
+  "dist": [
+   "object"
+  ],
+  "dist.fileCount": [
+   "integer"
+  ],
+  "dist.integrity": [
+   "string"
+  ],
+  "dist.shasum": [
+   "string"
+  ],
+  "dist.signatures": [
+   "array"
+  ],
+  "dist.signatures[]": [
+   "object"
+  ],
+  "dist.signatures[].keyid": [
+   "string"
+  ],
+  "dist.signatures[].sig": [
+   "string"
+  ],
+  "dist.tarball": [
+   "string"
+  ],
+  "dist.unpackedSize": [
+   "integer"
+  ],
+  "engines": [
+   "object"
+  ],
+  "engines.node": [
+   "string"
+  ],
+  "exports": [
+   "object"
+  ],
+  "exports.{*}": [
+   "string"
+  ],
+  "gitHead": [
+   "string"
+  ],
+  "homepage": [
+   "string"
+  ],
+  "imports": [
+   "object"
+  ],
+  "imports.#enums/*": [
+   "object"
+  ],
+  "imports.#enums/*.default": [
+   "string"
+  ],
+  "imports.#enums/*.types": [
+   "string"
+  ],
+  "imports.#getExePath": [
+   "string"
+  ],
+  "imports.#vscode-jsonrpc/node": [
+   "string"
+  ],
+  "keywords": [
+   "array"
+  ],
+  "keywords[]": [
+   "string"
+  ],
+  "license": [
+   "string"
+  ],
+  "maintainers": [
+   "array"
+  ],
+  "maintainers[]": [
+   "object"
+  ],
+  "maintainers[].email": [
+   "string"
+  ],
+  "maintainers[].name": [
+   "string"
+  ],
+  "name": [
+   "string"
+  ],
+  "optionalDependencies": [
+   "object"
+  ],
+  "optionalDependencies.{*}": [
+   "string"
+  ],
+  "preferUnplugged": [
+   "boolean"
+  ],
+  "publishConfig": [
+   "object"
+  ],
+  "publishConfig.access": [
+   "string"
+  ],
+  "publishConfig.tag": [
+   "string"
+  ],
+  "repository": [
+   "object"
+  ],
+  "repository.type": [
+   "string"
+  ],
+  "repository.url": [
+   "string"
+  ],
+  "tag": [
+   "string"
+  ],
+  "type": [
+   "string"
+  ],
+  "version": [
+   "string"
+  ]
+ },
+ "ts": "2026-08-18T23:23:51+00:00",
+ "url": "https://registry.npmjs.org/typescript/latest",
+ "vendor": "npm"
+}

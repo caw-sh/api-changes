@@ -1,0 +1,2234 @@
+{
+ "category": "spec",
+ "field_count": 529,
+ "first_seen": "2026-08-18T23:20:13+00:00",
+ "id": "spec-asana",
+ "pending_keys": [],
+ "runs": 3,
+ "schema": {
+  "DELETE /allocations/{allocation_gid}": [
+   "params:0",
+   "responses:7"
+  ],
+  "DELETE /attachments/{attachment_gid}": [
+   "params:0",
+   "responses:6"
+  ],
+  "DELETE /budgets/{budget_gid}": [
+   "params:0",
+   "responses:7"
+  ],
+  "DELETE /custom_fields/{custom_field_gid}": [
+   "params:0",
+   "responses:6"
+  ],
+  "DELETE /goals/{goal_gid}": [
+   "params:0",
+   "responses:7"
+  ],
+  "DELETE /memberships/{membership_gid}": [
+   "params:0",
+   "responses:6"
+  ],
+  "DELETE /ooo_entries/{ooo_entry_gid}": [
+   "params:0",
+   "responses:6"
+  ],
+  "DELETE /portfolios/{portfolio_gid}": [
+   "params:0",
+   "responses:6"
+  ],
+  "DELETE /project_briefs/{project_brief_gid}": [
+   "params:0",
+   "responses:6"
+  ],
+  "DELETE /project_statuses/{project_status_gid}": [
+   "params:0",
+   "responses:6"
+  ],
+  "DELETE /project_templates/{project_template_gid}": [
+   "params:0",
+   "responses:7"
+  ],
+  "DELETE /projects/{project_gid}": [
+   "params:0",
+   "responses:6"
+  ],
+  "DELETE /rates/{rate_gid}": [
+   "params:0",
+   "responses:7"
+  ],
+  "DELETE /roles/{role_gid}": [
+   "params:0",
+   "responses:6"
+  ],
+  "DELETE /sections/{section_gid}": [
+   "params:0",
+   "responses:6"
+  ],
+  "DELETE /status_updates/{status_update_gid}": [
+   "params:0",
+   "responses:6"
+  ],
+  "DELETE /stories/{story_gid}": [
+   "params:0",
+   "responses:6"
+  ],
+  "DELETE /tags/{tag_gid}": [
+   "params:0",
+   "responses:6"
+  ],
+  "DELETE /task_templates/{task_template_gid}": [
+   "params:0",
+   "responses:7"
+  ],
+  "DELETE /tasks/{task_gid}": [
+   "params:0",
+   "responses:6"
+  ],
+  "DELETE /time_tracking_categories/{time_tracking_category_gid}": [
+   "params:0",
+   "responses:6"
+  ],
+  "DELETE /time_tracking_entries/{time_tracking_entry_gid}": [
+   "params:0",
+   "responses:7"
+  ],
+  "DELETE /webhooks/{webhook_gid}": [
+   "params:0",
+   "responses:6"
+  ],
+  "GET /access_requests": [
+   "params:4",
+   "responses:7"
+  ],
+  "GET /agents/{agent_gid}": [
+   "params:1",
+   "responses:6"
+  ],
+  "GET /allocations": [
+   "params:6",
+   "responses:7"
+  ],
+  "GET /allocations/{allocation_gid}": [
+   "params:1",
+   "responses:7"
+  ],
+  "GET /attachments": [
+   "params:4",
+   "responses:6"
+  ],
+  "GET /attachments/{attachment_gid}": [
+   "params:1",
+   "responses:11"
+  ],
+  "GET /budgets": [
+   "params:1",
+   "responses:7"
+  ],
+  "GET /budgets/{budget_gid}": [
+   "params:1",
+   "responses:7"
+  ],
+  "GET /custom_fields/{custom_field_gid}": [
+   "params:1",
+   "responses:6"
+  ],
+  "GET /custom_types": [
+   "params:1",
+   "responses:6"
+  ],
+  "GET /custom_types/{custom_type_gid}": [
+   "params:1",
+   "responses:6"
+  ],
+  "GET /events": [
+   "params:1",
+   "responses:7"
+  ],
+  "GET /goal_relationships": [
+   "params:6",
+   "responses:6"
+  ],
+  "GET /goal_relationships/{goal_relationship_gid}": [
+   "params:1",
+   "responses:6"
+  ],
+  "GET /goals": [
+   "params:10",
+   "responses:7"
+  ],
+  "GET /goals/{goal_gid}": [
+   "params:1",
+   "responses:7"
+  ],
+  "GET /goals/{goal_gid}/custom_field_settings": [
+   "params:1",
+   "responses:6"
+  ],
+  "GET /goals/{goal_gid}/parentGoals": [
+   "params:1",
+   "responses:7"
+  ],
+  "GET /goals/{goal_gid}/stories": [
+   "params:3",
+   "responses:6"
+  ],
+  "GET /jobs/{job_gid}": [
+   "params:1",
+   "responses:6"
+  ],
+  "GET /memberships": [
+   "params:6",
+   "responses:6"
+  ],
+  "GET /memberships/{membership_gid}": [
+   "params:0",
+   "responses:6"
+  ],
+  "GET /ooo_entries": [
+   "params:7",
+   "responses:6"
+  ],
+  "GET /ooo_entries/{ooo_entry_gid}": [
+   "params:1",
+   "responses:6"
+  ],
+  "GET /organization_exports/{organization_export_gid}": [
+   "params:1",
+   "responses:6"
+  ],
+  "GET /portfolio_memberships": [
+   "params:1",
+   "responses:6"
+  ],
+  "GET /portfolio_memberships/{portfolio_membership_gid}": [
+   "params:1",
+   "responses:6"
+  ],
+  "GET /portfolios": [
+   "params:6",
+   "responses:6"
+  ],
+  "GET /portfolios/{portfolio_gid}": [
+   "params:1",
+   "responses:6"
+  ],
+  "GET /portfolios/{portfolio_gid}/custom_field_settings": [
+   "params:1",
+   "responses:6"
+  ],
+  "GET /portfolios/{portfolio_gid}/items": [
+   "params:1",
+   "responses:6"
+  ],
+  "GET /portfolios/{portfolio_gid}/portfolio_memberships": [
+   "params:1",
+   "responses:6"
+  ],
+  "GET /portfolios/{portfolio_gid}/project_portfolio_settings": [
+   "params:1",
+   "responses:6"
+  ],
+  "GET /project_briefs/{project_brief_gid}": [
+   "params:1",
+   "responses:11"
+  ],
+  "GET /project_memberships/{project_membership_gid}": [
+   "params:1",
+   "responses:6"
+  ],
+  "GET /project_portfolio_settings/{project_portfolio_setting_gid}": [
+   "params:1",
+   "responses:6"
+  ],
+  "GET /project_statuses/{project_status_gid}": [
+   "params:1",
+   "responses:6"
+  ],
+  "GET /project_templates": [
+   "params:5",
+   "responses:6"
+  ],
+  "GET /project_templates/{project_template_gid}": [
+   "params:1",
+   "responses:6"
+  ],
+  "GET /projects": [
+   "params:7",
+   "responses:6"
+  ],
+  "GET /projects/{project_gid}": [
+   "params:1",
+   "responses:6"
+  ],
+  "GET /projects/{project_gid}/custom_field_settings": [
+   "params:1",
+   "responses:6"
+  ],
+  "GET /projects/{project_gid}/project_memberships": [
+   "params:1",
+   "responses:6"
+  ],
+  "GET /projects/{project_gid}/project_portfolio_settings": [
+   "params:1",
+   "responses:6"
+  ],
+  "GET /projects/{project_gid}/project_statuses": [
+   "params:5",
+   "responses:6"
+  ],
+  "GET /projects/{project_gid}/sections": [
+   "params:3",
+   "responses:6"
+  ],
+  "GET /projects/{project_gid}/task_counts": [
+   "params:1",
+   "responses:6"
+  ],
+  "GET /projects/{project_gid}/tasks": [
+   "params:1",
+   "responses:6"
+  ],
+  "GET /rates": [
+   "params:5",
+   "responses:7"
+  ],
+  "GET /rates/{rate_gid}": [
+   "params:1",
+   "responses:7"
+  ],
+  "GET /reactions": [
+   "params:2",
+   "responses:6"
+  ],
+  "GET /roles": [
+   "params:5",
+   "responses:6"
+  ],
+  "GET /roles/{role_gid}": [
+   "params:1",
+   "responses:6"
+  ],
+  "GET /sections/{section_gid}": [
+   "params:1",
+   "responses:6"
+  ],
+  "GET /sections/{section_gid}/tasks": [
+   "params:1",
+   "responses:6"
+  ],
+  "GET /status_updates": [
+   "params:3",
+   "responses:6"
+  ],
+  "GET /status_updates/{status_update_gid}": [
+   "params:1",
+   "responses:6"
+  ],
+  "GET /stories/{story_gid}": [
+   "params:1",
+   "responses:6"
+  ],
+  "GET /tags": [
+   "params:4",
+   "responses:6"
+  ],
+  "GET /tags/{tag_gid}": [
+   "params:1",
+   "responses:6"
+  ],
+  "GET /tags/{tag_gid}/tasks": [
+   "params:1",
+   "responses:6"
+  ],
+  "GET /task_templates": [
+   "params:4",
+   "responses:6"
+  ],
+  "GET /task_templates/{task_template_gid}": [
+   "params:1",
+   "responses:6"
+  ],
+  "GET /tasks": [
+   "params:10",
+   "responses:6"
+  ],
+  "GET /tasks/{task_gid}": [
+   "params:1",
+   "responses:6"
+  ],
+  "GET /tasks/{task_gid}/dependencies": [
+   "params:1",
+   "responses:7"
+  ],
+  "GET /tasks/{task_gid}/dependents": [
+   "params:1",
+   "responses:7"
+  ],
+  "GET /tasks/{task_gid}/projects": [
+   "params:1",
+   "responses:6"
+  ],
+  "GET /tasks/{task_gid}/stories": [
+   "params:3",
+   "responses:6"
+  ],
+  "GET /tasks/{task_gid}/subtasks": [
+   "params:3",
+   "responses:6"
+  ],
+  "GET /tasks/{task_gid}/tags": [
+   "params:1",
+   "responses:6"
+  ],
+  "GET /tasks/{task_gid}/time_tracking_entries": [
+   "params:3",
+   "responses:6"
+  ],
+  "GET /team_memberships": [
+   "params:4",
+   "responses:6"
+  ],
+  "GET /team_memberships/{team_membership_gid}": [
+   "params:1",
+   "responses:6"
+  ],
+  "GET /teams/{team_gid}": [
+   "params:1",
+   "responses:6"
+  ],
+  "GET /teams/{team_gid}/custom_field_settings": [
+   "params:1",
+   "responses:6"
+  ],
+  "GET /teams/{team_gid}/project_templates": [
+   "params:3",
+   "responses:6"
+  ],
+  "GET /teams/{team_gid}/projects": [
+   "params:4",
+   "responses:6"
+  ],
+  "GET /teams/{team_gid}/team_memberships": [
+   "params:1",
+   "responses:6"
+  ],
+  "GET /teams/{team_gid}/users": [
+   "params:1",
+   "responses:6"
+  ],
+  "GET /time_periods": [
+   "params:4",
+   "responses:6"
+  ],
+  "GET /time_periods/{time_period_gid}": [
+   "params:1",
+   "responses:6"
+  ],
+  "GET /time_tracking_categories": [
+   "params:5",
+   "responses:6"
+  ],
+  "GET /time_tracking_categories/{time_tracking_category_gid}": [
+   "params:1",
+   "responses:6"
+  ],
+  "GET /time_tracking_categories/{time_tracking_category_gid}/time_tracking_entries": [
+   "params:5",
+   "responses:6"
+  ],
+  "GET /time_tracking_entries": [
+   "params:11",
+   "responses:7"
+  ],
+  "GET /time_tracking_entries/{time_tracking_entry_gid}": [
+   "params:1",
+   "responses:6"
+  ],
+  "GET /timesheet_approval_statuses": [
+   "params:8",
+   "responses:6"
+  ],
+  "GET /timesheet_approval_statuses/{timesheet_approval_status_gid}": [
+   "params:1",
+   "responses:6"
+  ],
+  "GET /user_task_lists/{user_task_list_gid}": [
+   "params:1",
+   "responses:6"
+  ],
+  "GET /user_task_lists/{user_task_list_gid}/tasks": [
+   "params:1",
+   "responses:6"
+  ],
+  "GET /users": [
+   "params:1",
+   "responses:6"
+  ],
+  "GET /users/{user_gid}": [
+   "params:1",
+   "responses:6"
+  ],
+  "GET /users/{user_gid}/favorites": [
+   "params:1",
+   "responses:6"
+  ],
+  "GET /users/{user_gid}/team_memberships": [
+   "params:2",
+   "responses:6"
+  ],
+  "GET /users/{user_gid}/teams": [
+   "params:1",
+   "responses:6"
+  ],
+  "GET /users/{user_gid}/user_task_list": [
+   "params:1",
+   "responses:6"
+  ],
+  "GET /users/{user_gid}/workspace_memberships": [
+   "params:1",
+   "responses:6"
+  ],
+  "GET /webhooks": [
+   "params:5",
+   "responses:6"
+  ],
+  "GET /webhooks/{webhook_gid}": [
+   "params:1",
+   "responses:6"
+  ],
+  "GET /workspace_memberships/{workspace_membership_gid}": [
+   "params:1",
+   "responses:6"
+  ],
+  "GET /workspaces": [
+   "params:1",
+   "responses:6"
+  ],
+  "GET /workspaces/{workspace_gid}": [
+   "params:1",
+   "responses:6"
+  ],
+  "GET /workspaces/{workspace_gid}/agents": [
+   "params:3",
+   "responses:6"
+  ],
+  "GET /workspaces/{workspace_gid}/ai_studio/runs": [
+   "params:0",
+   "responses:6"
+  ],
+  "GET /workspaces/{workspace_gid}/ai_studio/seats": [
+   "params:0",
+   "responses:6"
+  ],
+  "GET /workspaces/{workspace_gid}/audit_log_events": [
+   "params:0",
+   "responses:6"
+  ],
+  "GET /workspaces/{workspace_gid}/custom_fields": [
+   "params:1",
+   "responses:6"
+  ],
+  "GET /workspaces/{workspace_gid}/events": [
+   "params:0",
+   "responses:6"
+  ],
+  "GET /workspaces/{workspace_gid}/projects": [
+   "params:4",
+   "responses:6"
+  ],
+  "GET /workspaces/{workspace_gid}/projects/search": [
+   "params:1",
+   "responses:7"
+  ],
+  "GET /workspaces/{workspace_gid}/tags": [
+   "params:3",
+   "responses:6"
+  ],
+  "GET /workspaces/{workspace_gid}/tasks/custom_id/{custom_id}": [
+   "params:0",
+   "responses:6"
+  ],
+  "GET /workspaces/{workspace_gid}/tasks/search": [
+   "params:1",
+   "responses:6"
+  ],
+  "GET /workspaces/{workspace_gid}/teams": [
+   "params:1",
+   "responses:6"
+  ],
+  "GET /workspaces/{workspace_gid}/typeahead": [
+   "params:1",
+   "responses:6"
+  ],
+  "GET /workspaces/{workspace_gid}/users": [
+   "params:1",
+   "responses:6"
+  ],
+  "GET /workspaces/{workspace_gid}/users/{user_gid}": [
+   "params:1",
+   "responses:6"
+  ],
+  "GET /workspaces/{workspace_gid}/workspace_memberships": [
+   "params:1",
+   "responses:1"
+  ],
+  "POST /access_requests": [
+   "body",
+   "params:0",
+   "responses:7"
+  ],
+  "POST /access_requests/{access_request_gid}/approve": [
+   "params:1",
+   "responses:6"
+  ],
+  "POST /access_requests/{access_request_gid}/reject": [
+   "params:1",
+   "responses:6"
+  ],
+  "POST /allocations": [
+   "body",
+   "params:1",
+   "responses:7"
+  ],
+  "POST /attachments": [
+   "body",
+   "params:1",
+   "responses:6"
+  ],
+  "POST /batch": [
+   "body",
+   "params:1",
+   "responses:6"
+  ],
+  "POST /budgets": [
+   "body",
+   "params:0",
+   "responses:7"
+  ],
+  "POST /custom_fields": [
+   "body",
+   "params:1",
+   "responses:6"
+  ],
+  "POST /custom_fields/{custom_field_gid}/enum_options": [
+   "body",
+   "params:1",
+   "responses:6"
+  ],
+  "POST /custom_fields/{custom_field_gid}/enum_options/insert": [
+   "body",
+   "params:1",
+   "responses:6"
+  ],
+  "POST /exports/graph": [
+   "body",
+   "params:0",
+   "responses:6"
+  ],
+  "POST /exports/resource": [
+   "body",
+   "params:0",
+   "responses:6"
+  ],
+  "POST /goals": [
+   "body",
+   "params:1",
+   "responses:7"
+  ],
+  "POST /goals/{goal_gid}/addCustomFieldSetting": [
+   "body",
+   "params:0",
+   "responses:6"
+  ],
+  "POST /goals/{goal_gid}/addFollowers": [
+   "body",
+   "params:1",
+   "responses:7"
+  ],
+  "POST /goals/{goal_gid}/addSupportingRelationship": [
+   "body",
+   "params:1",
+   "responses:6"
+  ],
+  "POST /goals/{goal_gid}/removeCustomFieldSetting": [
+   "body",
+   "params:0",
+   "responses:6"
+  ],
+  "POST /goals/{goal_gid}/removeFollowers": [
+   "body",
+   "params:1",
+   "responses:7"
+  ],
+  "POST /goals/{goal_gid}/removeSupportingRelationship": [
+   "body",
+   "params:0",
+   "responses:6"
+  ],
+  "POST /goals/{goal_gid}/setMetric": [
+   "body",
+   "params:1",
+   "responses:7"
+  ],
+  "POST /goals/{goal_gid}/setMetricCurrentValue": [
+   "body",
+   "params:1",
+   "responses:7"
+  ],
+  "POST /goals/{goal_gid}/stories": [
+   "body",
+   "params:1",
+   "responses:6"
+  ],
+  "POST /memberships": [
+   "body",
+   "params:0",
+   "responses:6"
+  ],
+  "POST /ooo_entries": [
+   "body",
+   "params:1",
+   "responses:6"
+  ],
+  "POST /organization_exports": [
+   "body",
+   "params:1",
+   "responses:6"
+  ],
+  "POST /portfolios": [
+   "body",
+   "params:1",
+   "responses:6"
+  ],
+  "POST /portfolios/{portfolio_gid}/addCustomFieldSetting": [
+   "body",
+   "params:0",
+   "responses:6"
+  ],
+  "POST /portfolios/{portfolio_gid}/addItem": [
+   "body",
+   "params:0",
+   "responses:6"
+  ],
+  "POST /portfolios/{portfolio_gid}/addMembers": [
+   "body",
+   "params:1",
+   "responses:6"
+  ],
+  "POST /portfolios/{portfolio_gid}/duplicate": [
+   "body",
+   "params:1",
+   "responses:6"
+  ],
+  "POST /portfolios/{portfolio_gid}/removeCustomFieldSetting": [
+   "body",
+   "params:0",
+   "responses:6"
+  ],
+  "POST /portfolios/{portfolio_gid}/removeItem": [
+   "body",
+   "params:0",
+   "responses:6"
+  ],
+  "POST /portfolios/{portfolio_gid}/removeMembers": [
+   "body",
+   "params:1",
+   "responses:6"
+  ],
+  "POST /project_templates/{project_template_gid}/instantiateProject": [
+   "body",
+   "params:1",
+   "responses:6"
+  ],
+  "POST /projects": [
+   "body",
+   "params:1",
+   "responses:6"
+  ],
+  "POST /projects/{project_gid}/addCustomFieldSetting": [
+   "body",
+   "params:1",
+   "responses:6"
+  ],
+  "POST /projects/{project_gid}/addFollowers": [
+   "body",
+   "params:1",
+   "responses:6"
+  ],
+  "POST /projects/{project_gid}/addMembers": [
+   "body",
+   "params:1",
+   "responses:6"
+  ],
+  "POST /projects/{project_gid}/duplicate": [
+   "body",
+   "params:1",
+   "responses:6"
+  ],
+  "POST /projects/{project_gid}/project_briefs": [
+   "body",
+   "params:1",
+   "responses:7"
+  ],
+  "POST /projects/{project_gid}/project_statuses": [
+   "body",
+   "params:1",
+   "responses:6"
+  ],
+  "POST /projects/{project_gid}/removeCustomFieldSetting": [
+   "body",
+   "params:0",
+   "responses:6"
+  ],
+  "POST /projects/{project_gid}/removeFollowers": [
+   "body",
+   "params:1",
+   "responses:6"
+  ],
+  "POST /projects/{project_gid}/removeMembers": [
+   "body",
+   "params:1",
+   "responses:6"
+  ],
+  "POST /projects/{project_gid}/saveAsTemplate": [
+   "body",
+   "params:1",
+   "responses:6"
+  ],
+  "POST /projects/{project_gid}/sections": [
+   "body",
+   "params:1",
+   "responses:6"
+  ],
+  "POST /projects/{project_gid}/sections/insert": [
+   "body",
+   "params:0",
+   "responses:6"
+  ],
+  "POST /rates": [
+   "body",
+   "params:1",
+   "responses:7"
+  ],
+  "POST /roles": [
+   "body",
+   "params:1",
+   "responses:6"
+  ],
+  "POST /rule_triggers/{rule_trigger_gid}/run": [
+   "body",
+   "params:0",
+   "responses:7"
+  ],
+  "POST /sections/{section_gid}/addTask": [
+   "body",
+   "params:0",
+   "responses:6"
+  ],
+  "POST /status_updates": [
+   "body",
+   "params:1",
+   "responses:6"
+  ],
+  "POST /tags": [
+   "body",
+   "params:1",
+   "responses:6"
+  ],
+  "POST /task_templates/{task_template_gid}/instantiateTask": [
+   "body",
+   "params:1",
+   "responses:6"
+  ],
+  "POST /tasks": [
+   "body",
+   "params:1",
+   "responses:6"
+  ],
+  "POST /tasks/{task_gid}/addDependencies": [
+   "body",
+   "params:0",
+   "responses:7"
+  ],
+  "POST /tasks/{task_gid}/addDependents": [
+   "body",
+   "params:0",
+   "responses:7"
+  ],
+  "POST /tasks/{task_gid}/addFollowers": [
+   "body",
+   "params:1",
+   "responses:6"
+  ],
+  "POST /tasks/{task_gid}/addProject": [
+   "body",
+   "params:0",
+   "responses:6"
+  ],
+  "POST /tasks/{task_gid}/addTag": [
+   "body",
+   "params:0",
+   "responses:6"
+  ],
+  "POST /tasks/{task_gid}/duplicate": [
+   "body",
+   "params:1",
+   "responses:6"
+  ],
+  "POST /tasks/{task_gid}/removeDependencies": [
+   "body",
+   "params:0",
+   "responses:7"
+  ],
+  "POST /tasks/{task_gid}/removeDependents": [
+   "body",
+   "params:0",
+   "responses:7"
+  ],
+  "POST /tasks/{task_gid}/removeFollowers": [
+   "body",
+   "params:1",
+   "responses:6"
+  ],
+  "POST /tasks/{task_gid}/removeProject": [
+   "body",
+   "params:0",
+   "responses:6"
+  ],
+  "POST /tasks/{task_gid}/removeTag": [
+   "body",
+   "params:0",
+   "responses:6"
+  ],
+  "POST /tasks/{task_gid}/setParent": [
+   "body",
+   "params:1",
+   "responses:6"
+  ],
+  "POST /tasks/{task_gid}/stories": [
+   "body",
+   "params:1",
+   "responses:6"
+  ],
+  "POST /tasks/{task_gid}/subtasks": [
+   "body",
+   "params:1",
+   "responses:6"
+  ],
+  "POST /tasks/{task_gid}/time_tracking_entries": [
+   "body",
+   "params:1",
+   "responses:7"
+  ],
+  "POST /teams": [
+   "body",
+   "params:1",
+   "responses:6"
+  ],
+  "POST /teams/{team_gid}/addUser": [
+   "body",
+   "params:1",
+   "responses:6"
+  ],
+  "POST /teams/{team_gid}/projects": [
+   "body",
+   "params:1",
+   "responses:6"
+  ],
+  "POST /teams/{team_gid}/removeUser": [
+   "body",
+   "params:0",
+   "responses:6"
+  ],
+  "POST /time_tracking_categories": [
+   "body",
+   "params:1",
+   "responses:6"
+  ],
+  "POST /timesheet_approval_statuses": [
+   "body",
+   "params:1",
+   "responses:7"
+  ],
+  "POST /webhooks": [
+   "body",
+   "params:1",
+   "responses:6"
+  ],
+  "POST /workspaces/{workspace_gid}/addUser": [
+   "body",
+   "params:1",
+   "responses:6"
+  ],
+  "POST /workspaces/{workspace_gid}/projects": [
+   "body",
+   "params:1",
+   "responses:6"
+  ],
+  "POST /workspaces/{workspace_gid}/removeUser": [
+   "body",
+   "params:0",
+   "responses:6"
+  ],
+  "POST /workspaces/{workspace_gid}/tags": [
+   "body",
+   "params:1",
+   "responses:6"
+  ],
+  "PUT /allocations/{allocation_gid}": [
+   "body",
+   "params:1",
+   "responses:6"
+  ],
+  "PUT /budgets/{budget_gid}": [
+   "body",
+   "params:1",
+   "responses:7"
+  ],
+  "PUT /custom_fields/{custom_field_gid}": [
+   "body",
+   "params:1",
+   "responses:6"
+  ],
+  "PUT /enum_options/{enum_option_gid}": [
+   "body",
+   "params:1",
+   "responses:6"
+  ],
+  "PUT /goal_relationships/{goal_relationship_gid}": [
+   "body",
+   "params:1",
+   "responses:6"
+  ],
+  "PUT /goals/{goal_gid}": [
+   "body",
+   "params:1",
+   "responses:6"
+  ],
+  "PUT /memberships/{membership_gid}": [
+   "body",
+   "params:0",
+   "responses:6"
+  ],
+  "PUT /ooo_entries/{ooo_entry_gid}": [
+   "body",
+   "params:1",
+   "responses:6"
+  ],
+  "PUT /portfolios/{portfolio_gid}": [
+   "body",
+   "params:1",
+   "responses:6"
+  ],
+  "PUT /project_briefs/{project_brief_gid}": [
+   "body",
+   "params:1",
+   "responses:6"
+  ],
+  "PUT /project_portfolio_settings/{project_portfolio_setting_gid}": [
+   "body",
+   "params:1",
+   "responses:6"
+  ],
+  "PUT /projects/{project_gid}": [
+   "body",
+   "params:1",
+   "responses:6"
+  ],
+  "PUT /rates/{rate_gid}": [
+   "body",
+   "params:1",
+   "responses:7"
+  ],
+  "PUT /roles/{role_gid}": [
+   "body",
+   "params:1",
+   "responses:6"
+  ],
+  "PUT /sections/{section_gid}": [
+   "body",
+   "params:1",
+   "responses:6"
+  ],
+  "PUT /stories/{story_gid}": [
+   "body",
+   "params:1",
+   "responses:6"
+  ],
+  "PUT /tags/{tag_gid}": [
+   "body",
+   "params:1",
+   "responses:6"
+  ],
+  "PUT /tasks/{task_gid}": [
+   "body",
+   "params:1",
+   "responses:6"
+  ],
+  "PUT /teams/{team_gid}": [
+   "body",
+   "params:1",
+   "responses:6"
+  ],
+  "PUT /time_tracking_categories/{time_tracking_category_gid}": [
+   "body",
+   "params:1",
+   "responses:6"
+  ],
+  "PUT /time_tracking_entries/{time_tracking_entry_gid}": [
+   "body",
+   "params:1",
+   "responses:7"
+  ],
+  "PUT /timesheet_approval_statuses/{timesheet_approval_status_gid}": [
+   "body",
+   "params:1",
+   "responses:7"
+  ],
+  "PUT /users/{user_gid}": [
+   "body",
+   "params:1",
+   "responses:6"
+  ],
+  "PUT /webhooks/{webhook_gid}": [
+   "body",
+   "params:1",
+   "responses:6"
+  ],
+  "PUT /workspaces/{workspace_gid}": [
+   "body",
+   "params:1",
+   "responses:6"
+  ],
+  "PUT /workspaces/{workspace_gid}/users/{user_gid}": [
+   "body",
+   "params:1",
+   "responses:6"
+  ],
+  "schema:AccessRequestApproveRequest": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:AccessRequestCreateRequest": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:AccessRequestRejectRequest": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:AccessRequestResponse": [
+   "props:6",
+   "req:0"
+  ],
+  "schema:AccessRequestTargetIdCompact": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:AddCustomFieldSettingRequest": [
+   "props:4",
+   "req:1"
+  ],
+  "schema:AddFollowersRequest": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:AddMembersRequest": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:AgentCompact": [
+   "props:4",
+   "req:0"
+  ],
+  "schema:AgentResponse": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:AiStudioRunCompact": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:AiStudioRunResponse": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:AiStudioSeatCompact": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:AiStudioSeatResponse": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:AllocationBase": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:AllocationRequest": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:AllocationResponse": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:AsanaNamedResource": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:AsanaResource": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:AttachmentBase": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:AttachmentCompact": [
+   "props:4",
+   "req:0"
+  ],
+  "schema:AttachmentRequest": [
+   "props:6",
+   "req:1"
+  ],
+  "schema:AttachmentResponse": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:AuditLogEvent": [
+   "props:8",
+   "req:0"
+  ],
+  "schema:AuditLogEventActor": [
+   "props:4",
+   "req:0"
+  ],
+  "schema:AuditLogEventContext": [
+   "props:7",
+   "req:0"
+  ],
+  "schema:AuditLogEventDetails": [
+   "props:4",
+   "req:0"
+  ],
+  "schema:AuditLogEventResource": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:BatchRequest": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:BatchRequestAction": [
+   "props:4",
+   "req:2"
+  ],
+  "schema:BatchResponse": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:BudgetActualRequest": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:BudgetActualResponse": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:BudgetCompact": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:BudgetEstimateRequest": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:BudgetEstimateResponse": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:BudgetRequest": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:BudgetResponse": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:BudgetTotalRequest": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:BudgetTotalResponse": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:CreateMembershipRequest": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:CreateTimeTrackingEntryRequest": [
+   "props:6",
+   "req:0"
+  ],
+  "schema:CreateTimesheetApprovalStatusRequest": [
+   "props:4",
+   "req:4"
+  ],
+  "schema:CustomFieldBase": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:CustomFieldCompact": [
+   "props:16",
+   "req:0"
+  ],
+  "schema:CustomFieldCreateRequest": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:CustomFieldMembershipBase": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:CustomFieldMembershipCompact": [
+   "props:6",
+   "req:0"
+  ],
+  "schema:CustomFieldMembershipResponse": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:CustomFieldRequest": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:CustomFieldResponse": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:CustomFieldSettingBase": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:CustomFieldSettingCompact": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:CustomFieldSettingResponse": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:CustomTypeBase": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:CustomTypeCompact": [
+   "props:4",
+   "req:0"
+  ],
+  "schema:CustomTypeMembershipBase": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:CustomTypeMembershipCompact": [
+   "props:6",
+   "req:0"
+  ],
+  "schema:CustomTypeMembershipResponse": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:CustomTypeResponse": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:CustomTypeStatusOptionBase": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:CustomTypeStatusOptionCompact": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:CustomTypeStatusOptionResponse": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:DateVariableCompact": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:DateVariableRequest": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:DeprecatedPortfolioMembershipBase": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:DeprecatedPortfolioMembershipCompact": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:DeprecatedPortfolioMembershipResponse": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:EffectiveTaskMembership": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:EmptyResponse": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:EnumOption": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:EnumOptionBase": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:EnumOptionInsertRequest": [
+   "props:3",
+   "req:1"
+  ],
+  "schema:EnumOptionRequest": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:Error": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:ErrorResponse": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:EventResponse": [
+   "props:7",
+   "req:0"
+  ],
+  "schema:GoalAddSubgoalRequest": [
+   "props:3",
+   "req:1"
+  ],
+  "schema:GoalAddSupportingRelationshipRequest": [
+   "props:4",
+   "req:1"
+  ],
+  "schema:GoalAddSupportingWorkRequest": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:GoalBase": [
+   "props:9",
+   "req:0"
+  ],
+  "schema:GoalCompact": [
+   "props:4",
+   "req:0"
+  ],
+  "schema:GoalMembershipBase": [
+   "props:8",
+   "req:0"
+  ],
+  "schema:GoalMembershipCompact": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:GoalMembershipResponse": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:GoalMetricBase": [
+   "props:12",
+   "req:0"
+  ],
+  "schema:GoalMetricCurrentValueRequest": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:GoalMetricRequest": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:GoalRelationshipBase": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:GoalRelationshipCompact": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:GoalRelationshipRequest": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:GoalRelationshipResponse": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:GoalRemoveSubgoalRequest": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:GoalRemoveSupportingRelationshipRequest": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:GoalRequest": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:GoalRequestBase": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:GoalResponse": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:GoalUpdateRequest": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:GraphExportCompact": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:GraphExportRequest": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:GraphExportResponse": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:JobBase": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:JobCompact": [
+   "props:10",
+   "req:0"
+  ],
+  "schema:JobResponse": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:Like": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:MemberCompact": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:MembershipCompact": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:MembershipRequest": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:MembershipResponse": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:MembershipUpdateRequest": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:ModifyDependenciesRequest": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:ModifyDependentsRequest": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:NextPage": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:OooEntryBase": [
+   "props:4",
+   "req:0"
+  ],
+  "schema:OooEntryCreateRequest": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:OooEntryResponse": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:OooEntryUpdateRequest": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:OrganizationExportBase": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:OrganizationExportCompact": [
+   "props:6",
+   "req:0"
+  ],
+  "schema:OrganizationExportRequest": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:OrganizationExportResponse": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:PlaceholderCompact": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:PlaceholderRateCompact": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:PortfolioAddItemRequest": [
+   "props:3",
+   "req:1"
+  ],
+  "schema:PortfolioBase": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:PortfolioCompact": [
+   "props:4",
+   "req:0"
+  ],
+  "schema:PortfolioDuplicateRequest": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:PortfolioItemCompact": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:PortfolioMembershipBase": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:PortfolioMembershipCompact": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:PortfolioMembershipCompactResponse": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:PortfolioMembershipResponse": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:PortfolioRemoveItemRequest": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:PortfolioRequest": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:PortfolioResponse": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:PortfolioUpdateRequest": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:Preview": [
+   "props:8",
+   "req:0"
+  ],
+  "schema:ProjectBase": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:ProjectBriefBase": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:ProjectBriefCompact": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:ProjectBriefRequest": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:ProjectBriefResponse": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:ProjectCompact": [
+   "props:4",
+   "req:0"
+  ],
+  "schema:ProjectDuplicateRequest": [
+   "props:3",
+   "req:1"
+  ],
+  "schema:ProjectMembershipBase": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:ProjectMembershipCompact": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:ProjectMembershipCompactResponse": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:ProjectMembershipNormalResponse": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:ProjectPortfolioSettingCompact": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:ProjectPortfolioSettingResponse": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:ProjectPortfolioSettingUpdateRequest": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:ProjectRequest": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:ProjectResponse": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:ProjectSaveAsTemplateRequest": [
+   "props:4",
+   "req:2"
+  ],
+  "schema:ProjectSectionInsertRequest": [
+   "props:3",
+   "req:1"
+  ],
+  "schema:ProjectStatusBase": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:ProjectStatusCompact": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:ProjectStatusRequest": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:ProjectStatusResponse": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:ProjectTemplateBase": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:ProjectTemplateCompact": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:ProjectTemplateInstantiateProjectRequest": [
+   "props:7",
+   "req:1"
+  ],
+  "schema:ProjectTemplateResponse": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:ProjectUpdateRequest": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:RateBase": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:RateCompact": [
+   "props:7",
+   "req:0"
+  ],
+  "schema:RateOrPlaceholderCompact": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:RateRequest": [
+   "props:5",
+   "req:3"
+  ],
+  "schema:RateResponse": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:RateUpdateRequest": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:RbacRoleBase": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:RbacRoleCompact": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:RbacRoleRequest": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:RbacRoleResponse": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:RbacRoleUpdateRequest": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:ReactionCompact": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:ReactionSummaryItemCompact": [
+   "props:4",
+   "req:0"
+  ],
+  "schema:RemoveCustomFieldSettingRequest": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:RemoveFollowersRequest": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:RemoveMembersRequest": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:RequestedRoleRequest": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:ResourceExportCompact": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:ResourceExportFilters": [
+   "props:10",
+   "req:0"
+  ],
+  "schema:ResourceExportRequest": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:ResourceExportRequestParameter": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:ResourceExportResponse": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:RuleTriggerRequest": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:RuleTriggerResponse": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:SectionBase": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:SectionCompact": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:SectionRequest": [
+   "props:3",
+   "req:1"
+  ],
+  "schema:SectionResponse": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:SectionTaskInsertRequest": [
+   "props:3",
+   "req:1"
+  ],
+  "schema:StatusUpdateBase": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:StatusUpdateCompact": [
+   "props:4",
+   "req:0"
+  ],
+  "schema:StatusUpdateRequest": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:StatusUpdateResponse": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:StoryBase": [
+   "props:8",
+   "req:0"
+  ],
+  "schema:StoryCompact": [
+   "props:6",
+   "req:0"
+  ],
+  "schema:StoryRequest": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:StoryResponse": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:StoryResponseDates": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:TagBase": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:TagBaseRequest": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:TagCompact": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:TagCreateRequest": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:TagCreateTagForWorkspaceRequest": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:TagResponse": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:TagUpdateRequest": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:TaskAddFollowersRequest": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:TaskAddProjectRequest": [
+   "props:4",
+   "req:1"
+  ],
+  "schema:TaskAddTagRequest": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:TaskBase": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:TaskCompact": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:TaskCountResponse": [
+   "props:6",
+   "req:0"
+  ],
+  "schema:TaskCreateRequest": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:TaskDuplicateRequest": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:TaskMembership": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:TaskRemoveFollowersRequest": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:TaskRemoveProjectRequest": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:TaskRemoveTagRequest": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:TaskRequestBase": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:TaskResponse": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:TaskSetParentRequest": [
+   "props:3",
+   "req:1"
+  ],
+  "schema:TaskTemplateBase": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:TaskTemplateCompact": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:TaskTemplateInstantiateTaskRequest": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:TaskTemplateRecipe": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:TaskTemplateRecipeCompact": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:TaskTemplateResponse": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:TaskUpdateRequest": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:TeamAddUserRequest": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:TeamBase": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:TeamCompact": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:TeamMembershipBase": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:TeamMembershipCompact": [
+   "props:7",
+   "req:0"
+  ],
+  "schema:TeamMembershipResponse": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:TeamRemoveUserRequest": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:TeamRequest": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:TeamResponse": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:TemplateRole": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:TimePeriodBase": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:TimePeriodCompact": [
+   "props:6",
+   "req:0"
+  ],
+  "schema:TimePeriodResponse": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:TimeTrackingCategoryBaseRequest": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:TimeTrackingCategoryCompact": [
+   "props:4",
+   "req:0"
+  ],
+  "schema:TimeTrackingCategoryCreateRequest": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:TimeTrackingCategoryResponse": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:TimeTrackingCategoryUpdateRequest": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:TimeTrackingEntryBase": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:TimeTrackingEntryCompact": [
+   "props:7",
+   "req:0"
+  ],
+  "schema:TimesheetApprovalStatusCompact": [
+   "props:8",
+   "req:0"
+  ],
+  "schema:TimesheetApprovalStatusResponse": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:UpdateTimeTrackingEntryRequest": [
+   "props:6",
+   "req:0"
+  ],
+  "schema:UpdateTimesheetApprovalStatusRequest": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:UserBase": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:UserBaseResponse": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:UserCompact": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:UserRequest": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:UserResponse": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:UserTaskListBase": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:UserTaskListCompact": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:UserTaskListRequest": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:UserTaskListResponse": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:UserUpdateRequest": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:WebhookCompact": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:WebhookFilter": [
+   "props:4",
+   "req:0"
+  ],
+  "schema:WebhookRequest": [
+   "props:3",
+   "req:2"
+  ],
+  "schema:WebhookResponse": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:WebhookUpdateRequest": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:WorkspaceAddUserRequest": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:WorkspaceBase": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:WorkspaceCompact": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:WorkspaceMembershipBase": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:WorkspaceMembershipCompact": [
+   "props:4",
+   "req:0"
+  ],
+  "schema:WorkspaceMembershipRequest": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:WorkspaceMembershipResponse": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:WorkspaceRemoveUserRequest": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:WorkspaceRequest": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:WorkspaceResponse": [
+   "props:0",
+   "req:0"
+  ]
+ },
+ "ts": "2026-08-18T23:23:51+00:00",
+ "url": "https://raw.githubusercontent.com/Asana/openapi/master/defs/asana_oas.yaml",
+ "vendor": "Asana"
+}

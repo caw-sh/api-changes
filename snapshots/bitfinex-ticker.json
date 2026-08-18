@@ -1,0 +1,17 @@
+{
+ "category": "finance",
+ "field_count": 1,
+ "first_seen": "2026-08-18T23:21:28+00:00",
+ "id": "bitfinex-ticker",
+ "pending_keys": [],
+ "runs": 2,
+ "schema": {
+  "[]": [
+   "integer",
+   "number"
+  ]
+ },
+ "ts": "2026-08-18T23:23:51+00:00",
+ "url": "https://api-pub.bitfinex.com/v2/ticker/tBTCUSD",
+ "vendor": "Bitfinex"
+}

@@ -1,0 +1,403 @@
+{
+ "category": "registry",
+ "field_count": 130,
+ "first_seen": "2026-08-18T23:20:13+00:00",
+ "id": "crates-tokio",
+ "pending_keys": [],
+ "runs": 3,
+ "schema": {
+  "categories": [
+   "array"
+  ],
+  "categories[]": [
+   "object"
+  ],
+  "categories[].category": [
+   "string"
+  ],
+  "categories[].crates_cnt": [
+   "integer"
+  ],
+  "categories[].created_at": [
+   "string"
+  ],
+  "categories[].description": [
+   "string"
+  ],
+  "categories[].id": [
+   "string"
+  ],
+  "categories[].slug": [
+   "string"
+  ],
+  "crate": [
+   "object"
+  ],
+  "crate.badges": [
+   "array"
+  ],
+  "crate.categories": [
+   "array"
+  ],
+  "crate.categories[]": [
+   "string"
+  ],
+  "crate.created_at": [
+   "string"
+  ],
+  "crate.default_version": [
+   "string"
+  ],
+  "crate.description": [
+   "string"
+  ],
+  "crate.documentation": [
+   "null"
+  ],
+  "crate.downloads": [
+   "integer"
+  ],
+  "crate.exact_match": [
+   "boolean"
+  ],
+  "crate.homepage": [
+   "string"
+  ],
+  "crate.id": [
+   "string"
+  ],
+  "crate.keywords": [
+   "array"
+  ],
+  "crate.keywords[]": [
+   "string"
+  ],
+  "crate.links": [
+   "object"
+  ],
+  "crate.links.owner_team": [
+   "string"
+  ],
+  "crate.links.owner_user": [
+   "string"
+  ],
+  "crate.links.owners": [
+   "string"
+  ],
+  "crate.links.reverse_dependencies": [
+   "string"
+  ],
+  "crate.links.version_downloads": [
+   "string"
+  ],
+  "crate.links.versions": [
+   "null"
+  ],
+  "crate.max_stable_version": [
+   "string"
+  ],
+  "crate.max_version": [
+   "string"
+  ],
+  "crate.name": [
+   "string"
+  ],
+  "crate.newest_version": [
+   "string"
+  ],
+  "crate.num_versions": [
+   "integer"
+  ],
+  "crate.recent_downloads": [
+   "integer"
+  ],
+  "crate.repository": [
+   "string"
+  ],
+  "crate.trustpub_only": [
+   "boolean"
+  ],
+  "crate.updated_at": [
+   "string"
+  ],
+  "crate.versions": [
+   "array"
+  ],
+  "crate.versions[]": [
+   "integer"
+  ],
+  "crate.yanked": [
+   "boolean"
+  ],
+  "keywords": [
+   "array"
+  ],
+  "keywords[]": [
+   "object"
+  ],
+  "keywords[].crates_cnt": [
+   "integer"
+  ],
+  "keywords[].created_at": [
+   "string"
+  ],
+  "keywords[].id": [
+   "string"
+  ],
+  "keywords[].keyword": [
+   "string"
+  ],
+  "versions": [
+   "array"
+  ],
+  "versions[]": [
+   "object"
+  ],
+  "versions[].audit_actions": [
+   "array"
+  ],
+  "versions[].audit_actions[]": [
+   "object"
+  ],
+  "versions[].audit_actions[].action": [
+   "string"
+  ],
+  "versions[].audit_actions[].time": [
+   "string"
+  ],
+  "versions[].audit_actions[].user": [
+   "object"
+  ],
+  "versions[].audit_actions[].user.avatar": [
+   "string"
+  ],
+  "versions[].audit_actions[].user.created_at": [
+   "string"
+  ],
+  "versions[].audit_actions[].user.id": [
+   "integer"
+  ],
+  "versions[].audit_actions[].user.login": [
+   "string"
+  ],
+  "versions[].audit_actions[].user.name": [
+   "string"
+  ],
+  "versions[].audit_actions[].user.url": [
+   "string"
+  ],
+  "versions[].bin_names": [
+   "array"
+  ],
+  "versions[].checksum": [
+   "string"
+  ],
+  "versions[].crate": [
+   "string"
+  ],
+  "versions[].crate_size": [
+   "integer"
+  ],
+  "versions[].created_at": [
+   "string"
+  ],
+  "versions[].description": [
+   "string"
+  ],
+  "versions[].dl_path": [
+   "string"
+  ],
+  "versions[].documentation": [
+   "null"
+  ],
+  "versions[].downloads": [
+   "integer"
+  ],
+  "versions[].edition": [
+   "string"
+  ],
+  "versions[].features": [
+   "object"
+  ],
+  "versions[].features.default": [
+   "array"
+  ],
+  "versions[].features.fs": [
+   "array"
+  ],
+  "versions[].features.full": [
+   "array"
+  ],
+  "versions[].features.full[]": [
+   "string"
+  ],
+  "versions[].features.io-std": [
+   "array"
+  ],
+  "versions[].features.io-uring": [
+   "array"
+  ],
+  "versions[].features.io-uring[]": [
+   "string"
+  ],
+  "versions[].features.io-util": [
+   "array"
+  ],
+  "versions[].features.io-util[]": [
+   "string"
+  ],
+  "versions[].features.macros": [
+   "array"
+  ],
+  "versions[].features.macros[]": [
+   "string"
+  ],
+  "versions[].features.net": [
+   "array"
+  ],
+  "versions[].features.net[]": [
+   "string"
+  ],
+  "versions[].features.process": [
+   "array"
+  ],
+  "versions[].features.process[]": [
+   "string"
+  ],
+  "versions[].features.rt": [
+   "array"
+  ],
+  "versions[].features.rt-multi-thread": [
+   "array"
+  ],
+  "versions[].features.rt-multi-thread[]": [
+   "string"
+  ],
+  "versions[].features.schedule-latency": [
+   "array"
+  ],
+  "versions[].features.signal": [
+   "array"
+  ],
+  "versions[].features.signal[]": [
+   "string"
+  ],
+  "versions[].features.sync": [
+   "array"
+  ],
+  "versions[].features.taskdump": [
+   "array"
+  ],
+  "versions[].features.taskdump[]": [
+   "string"
+  ],
+  "versions[].features.test-util": [
+   "array"
+  ],
+  "versions[].features.test-util[]": [
+   "string"
+  ],
+  "versions[].features.time": [
+   "array"
+  ],
+  "versions[].has_lib": [
+   "boolean"
+  ],
+  "versions[].homepage": [
+   "string"
+  ],
+  "versions[].id": [
+   "integer"
+  ],
+  "versions[].lib_links": [
+   "null"
+  ],
+  "versions[].license": [
+   "string"
+  ],
+  "versions[].linecounts": [
+   "object"
+  ],
+  "versions[].linecounts.languages": [
+   "object"
+  ],
+  "versions[].linecounts.languages.Rust": [
+   "object"
+  ],
+  "versions[].linecounts.languages.Rust.code_lines": [
+   "integer"
+  ],
+  "versions[].linecounts.languages.Rust.comment_lines": [
+   "integer"
+  ],
+  "versions[].linecounts.languages.Rust.files": [
+   "integer"
+  ],
+  "versions[].linecounts.total_code_lines": [
+   "integer"
+  ],
+  "versions[].linecounts.total_comment_lines": [
+   "integer"
+  ],
+  "versions[].links": [
+   "object"
+  ],
+  "versions[].links.authors": [
+   "string"
+  ],
+  "versions[].links.dependencies": [
+   "string"
+  ],
+  "versions[].links.version_downloads": [
+   "string"
+  ],
+  "versions[].num": [
+   "string"
+  ],
+  "versions[].published_by": [
+   "object"
+  ],
+  "versions[].published_by.avatar": [
+   "string"
+  ],
+  "versions[].published_by.created_at": [
+   "string"
+  ],
+  "versions[].published_by.id": [
+   "integer"
+  ],
+  "versions[].published_by.login": [
+   "string"
+  ],
+  "versions[].published_by.name": [
+   "string"
+  ],
+  "versions[].published_by.url": [
+   "string"
+  ],
+  "versions[].readme_path": [
+   "string"
+  ],
+  "versions[].repository": [
+   "string"
+  ],
+  "versions[].rust_version": [
+   "string"
+  ],
+  "versions[].trustpub_data": [
+   "null"
+  ],
+  "versions[].updated_at": [
+   "string"
+  ],
+  "versions[].yank_message": [
+   "null"
+  ],
+  "versions[].yanked": [
+   "boolean"
+  ]
+ },
+ "ts": "2026-08-18T23:23:51+00:00",
+ "url": "https://crates.io/api/v1/crates/tokio",
+ "vendor": "crates.io"
+}

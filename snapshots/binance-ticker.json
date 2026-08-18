@@ -1,0 +1,19 @@
+{
+ "category": "finance",
+ "field_count": 2,
+ "first_seen": "2026-08-18T23:20:13+00:00",
+ "id": "binance-ticker",
+ "pending_keys": [],
+ "runs": 3,
+ "schema": {
+  "price": [
+   "string"
+  ],
+  "symbol": [
+   "string"
+  ]
+ },
+ "ts": "2026-08-18T23:23:51+00:00",
+ "url": "https://api.binance.com/api/v3/ticker/price?symbol=BTCUSDT",
+ "vendor": "Binance"
+}

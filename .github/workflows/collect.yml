@@ -1,0 +1,46 @@
+name: collect
+
+on:
+  schedule:
+    - cron: "17 * * * *"      # hourly, off the hour to be polite
+  workflow_dispatch:           # lets you run it manually from the Actions tab
+
+concurrency:
+  group: collect
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: pip install pyyaml
+
+      - name: Collect
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/collect.py
+
+      - name: Build summary
+        run: python scripts/report.py >> $GITHUB_STEP_SUMMARY
+
+      - name: Commit results
+        run: |
+          git config user.name  "caw-bot"
+          git config user.email "bot@caw.sh"
+          git add -A data snapshots
+          if git diff --staged --quiet; then
+            echo "nothing changed"
+          else
+            git commit -m "collect: $(date -u +'%Y-%m-%d %H:%M UTC')"
+            git push
+          fi

@@ -1,0 +1,103 @@
+{
+ "category": "dev-infra",
+ "field_count": 30,
+ "first_seen": "2026-08-18T23:20:13+00:00",
+ "id": "gitlab-projects",
+ "pending_keys": [],
+ "runs": 3,
+ "schema": {
+  "avatar_url": [
+   "string"
+  ],
+  "created_at": [
+   "string"
+  ],
+  "default_branch": [
+   "string"
+  ],
+  "description": [
+   "string"
+  ],
+  "forks_count": [
+   "integer"
+  ],
+  "http_url_to_repo": [
+   "string"
+  ],
+  "id": [
+   "integer"
+  ],
+  "last_activity_at": [
+   "string"
+  ],
+  "name": [
+   "string"
+  ],
+  "name_with_namespace": [
+   "string"
+  ],
+  "namespace": [
+   "object"
+  ],
+  "namespace.avatar_url": [
+   "string"
+  ],
+  "namespace.full_path": [
+   "string"
+  ],
+  "namespace.id": [
+   "integer"
+  ],
+  "namespace.kind": [
+   "string"
+  ],
+  "namespace.name": [
+   "string"
+  ],
+  "namespace.parent_id": [
+   "null"
+  ],
+  "namespace.path": [
+   "string"
+  ],
+  "namespace.web_url": [
+   "string"
+  ],
+  "path": [
+   "string"
+  ],
+  "path_with_namespace": [
+   "string"
+  ],
+  "readme_url": [
+   "string"
+  ],
+  "ssh_url_to_repo": [
+   "string"
+  ],
+  "star_count": [
+   "integer"
+  ],
+  "tag_list": [
+   "array"
+  ],
+  "tag_list[]": [
+   "string"
+  ],
+  "topics": [
+   "array"
+  ],
+  "topics[]": [
+   "string"
+  ],
+  "visibility": [
+   "string"
+  ],
+  "web_url": [
+   "string"
+  ]
+ },
+ "ts": "2026-08-18T23:23:51+00:00",
+ "url": "https://gitlab.com/api/v4/projects/278964",
+ "vendor": "GitLab"
+}

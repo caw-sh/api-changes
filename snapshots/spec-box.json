@@ -1,0 +1,2536 @@
+{
+ "category": "spec",
+ "field_count": 601,
+ "first_seen": "2026-08-18T23:20:13+00:00",
+ "id": "spec-box",
+ "pending_keys": [],
+ "runs": 3,
+ "schema": {
+  "DELETE /ai_agents/{agent_id}": [
+   "params:1",
+   "responses:4"
+  ],
+  "DELETE /collaboration_whitelist_entries/{collaboration_whitelist_entry_id}": [
+   "params:1",
+   "responses:2"
+  ],
+  "DELETE /collaboration_whitelist_exempt_targets/{collaboration_whitelist_exempt_target_id}": [
+   "params:1",
+   "responses:2"
+  ],
+  "DELETE /collaborations/{collaboration_id}": [
+   "params:1",
+   "responses:2"
+  ],
+  "DELETE /comments/{comment_id}": [
+   "params:1",
+   "responses:2"
+  ],
+  "DELETE /device_pinners/{device_pinner_id}": [
+   "params:1",
+   "responses:2"
+  ],
+  "DELETE /file_requests/{file_request_id}": [
+   "params:1",
+   "responses:5"
+  ],
+  "DELETE /files/upload_sessions/{upload_session_id}": [
+   "params:1",
+   "responses:2"
+  ],
+  "DELETE /files/{file_id}": [
+   "params:2",
+   "responses:6"
+  ],
+  "DELETE /files/{file_id}/metadata/enterprise/securityClassification-6VMVochwUWo": [
+   "params:1",
+   "responses:5"
+  ],
+  "DELETE /files/{file_id}/metadata/global/boxSkillsCards": [
+   "params:1",
+   "responses:4"
+  ],
+  "DELETE /files/{file_id}/metadata/{scope}/{template_key}": [
+   "params:3",
+   "responses:5"
+  ],
+  "DELETE /files/{file_id}/trash": [
+   "params:1",
+   "responses:3"
+  ],
+  "DELETE /files/{file_id}/versions/{file_version_id}": [
+   "params:3",
+   "responses:2"
+  ],
+  "DELETE /files/{file_id}/watermark": [
+   "params:1",
+   "responses:3"
+  ],
+  "DELETE /folder_locks/{folder_lock_id}": [
+   "params:1",
+   "responses:4"
+  ],
+  "DELETE /folders/{folder_id}": [
+   "params:3",
+   "responses:8"
+  ],
+  "DELETE /folders/{folder_id}/metadata/enterprise/securityClassification-6VMVochwUWo": [
+   "params:1",
+   "responses:5"
+  ],
+  "DELETE /folders/{folder_id}/metadata/{scope}/{template_key}": [
+   "params:3",
+   "responses:5"
+  ],
+  "DELETE /folders/{folder_id}/trash": [
+   "params:1",
+   "responses:3"
+  ],
+  "DELETE /folders/{folder_id}/watermark": [
+   "params:1",
+   "responses:3"
+  ],
+  "DELETE /group_memberships/{group_membership_id}": [
+   "params:1",
+   "responses:2"
+  ],
+  "DELETE /groups/{group_id}": [
+   "params:1",
+   "responses:2"
+  ],
+  "DELETE /integration_mappings/slack/{integration_mapping_id}": [
+   "params:1",
+   "responses:3"
+  ],
+  "DELETE /integration_mappings/teams/{integration_mapping_id}": [
+   "params:1",
+   "responses:3"
+  ],
+  "DELETE /legal_hold_policies/{legal_hold_policy_id}": [
+   "params:1",
+   "responses:2"
+  ],
+  "DELETE /legal_hold_policy_assignments/{legal_hold_policy_assignment_id}": [
+   "params:1",
+   "responses:2"
+  ],
+  "DELETE /metadata_cascade_policies/{metadata_cascade_policy_id}": [
+   "params:1",
+   "responses:3"
+  ],
+  "DELETE /metadata_taxonomies/{namespace}/{taxonomy_key}": [
+   "params:2",
+   "responses:5"
+  ],
+  "DELETE /metadata_taxonomies/{namespace}/{taxonomy_key}/nodes/{node_id}": [
+   "params:3",
+   "responses:5"
+  ],
+  "DELETE /metadata_templates/{scope}/{template_key}/schema": [
+   "params:2",
+   "responses:4"
+  ],
+  "DELETE /retention_policies/{retention_policy_id}": [
+   "params:1",
+   "responses:4"
+  ],
+  "DELETE /retention_policy_assignments/{retention_policy_assignment_id}": [
+   "params:1",
+   "responses:4"
+  ],
+  "DELETE /shield_information_barrier_segment_members/{shield_information_barrier_segment_member_id}": [
+   "params:1",
+   "responses:3"
+  ],
+  "DELETE /shield_information_barrier_segment_restrictions/{shield_information_barrier_segment_restriction_id}": [
+   "params:1",
+   "responses:3"
+  ],
+  "DELETE /shield_information_barrier_segments/{shield_information_barrier_segment_id}": [
+   "params:1",
+   "responses:3"
+  ],
+  "DELETE /storage_policy_assignments/{storage_policy_assignment_id}": [
+   "params:1",
+   "responses:2"
+  ],
+  "DELETE /task_assignments/{task_assignment_id}": [
+   "params:1",
+   "responses:3"
+  ],
+  "DELETE /tasks/{task_id}": [
+   "params:1",
+   "responses:3"
+  ],
+  "DELETE /users/{user_id}": [
+   "params:3",
+   "responses:2"
+  ],
+  "DELETE /users/{user_id}/avatar": [
+   "params:1",
+   "responses:4"
+  ],
+  "DELETE /users/{user_id}/email_aliases/{email_alias_id}": [
+   "params:2",
+   "responses:2"
+  ],
+  "DELETE /web_links/{web_link_id}": [
+   "params:1",
+   "responses:2"
+  ],
+  "DELETE /web_links/{web_link_id}/trash": [
+   "params:1",
+   "responses:3"
+  ],
+  "DELETE /webhooks/{webhook_id}": [
+   "params:1",
+   "responses:4"
+  ],
+  "GET /ai_agent_default": [
+   "params:3",
+   "responses:3"
+  ],
+  "GET /ai_agents": [
+   "params:6",
+   "responses:3"
+  ],
+  "GET /ai_agents/{agent_id}": [
+   "params:2",
+   "responses:3"
+  ],
+  "GET /authorize": [
+   "params:5",
+   "responses:2"
+  ],
+  "GET /collaboration_whitelist_entries": [
+   "params:2",
+   "responses:2"
+  ],
+  "GET /collaboration_whitelist_entries/{collaboration_whitelist_entry_id}": [
+   "params:1",
+   "responses:2"
+  ],
+  "GET /collaboration_whitelist_exempt_targets": [
+   "params:2",
+   "responses:2"
+  ],
+  "GET /collaboration_whitelist_exempt_targets/{collaboration_whitelist_exempt_target_id}": [
+   "params:1",
+   "responses:2"
+  ],
+  "GET /collaborations": [
+   "params:4",
+   "responses:2"
+  ],
+  "GET /collaborations/{collaboration_id}": [
+   "params:2",
+   "responses:2"
+  ],
+  "GET /collections": [
+   "params:3",
+   "responses:2"
+  ],
+  "GET /collections/{collection_id}": [
+   "params:1",
+   "responses:2"
+  ],
+  "GET /collections/{collection_id}/items": [
+   "params:4",
+   "responses:2"
+  ],
+  "GET /comments/{comment_id}": [
+   "params:2",
+   "responses:2"
+  ],
+  "GET /device_pinners/{device_pinner_id}": [
+   "params:1",
+   "responses:2"
+  ],
+  "GET /enterprises/{enterprise_id}/device_pinners": [
+   "params:4",
+   "responses:2"
+  ],
+  "GET /events": [
+   "params:6",
+   "responses:2"
+  ],
+  "GET /file_requests/{file_request_id}": [
+   "params:1",
+   "responses:5"
+  ],
+  "GET /file_version_legal_holds": [
+   "params:3",
+   "responses:2"
+  ],
+  "GET /file_version_legal_holds/{file_version_legal_hold_id}": [
+   "params:1",
+   "responses:2"
+  ],
+  "GET /file_version_retentions": [
+   "params:8",
+   "responses:2"
+  ],
+  "GET /file_version_retentions/{file_version_retention_id}": [
+   "params:1",
+   "responses:2"
+  ],
+  "GET /files/upload_sessions/{upload_session_id}": [
+   "params:1",
+   "responses:2"
+  ],
+  "GET /files/upload_sessions/{upload_session_id}/parts": [
+   "params:3",
+   "responses:2"
+  ],
+  "GET /files/{file_id}": [
+   "params:5",
+   "responses:7"
+  ],
+  "GET /files/{file_id}#get_shared_link": [
+   "params:2",
+   "responses:5"
+  ],
+  "GET /files/{file_id}/app_item_associations": [
+   "params:4",
+   "responses:3"
+  ],
+  "GET /files/{file_id}/collaborations": [
+   "params:4",
+   "responses:2"
+  ],
+  "GET /files/{file_id}/comments": [
+   "params:4",
+   "responses:2"
+  ],
+  "GET /files/{file_id}/content": [
+   "params:5",
+   "responses:4"
+  ],
+  "GET /files/{file_id}/metadata": [
+   "params:2",
+   "responses:4"
+  ],
+  "GET /files/{file_id}/metadata/enterprise/securityClassification-6VMVochwUWo": [
+   "params:1",
+   "responses:5"
+  ],
+  "GET /files/{file_id}/metadata/global/boxSkillsCards": [
+   "params:1",
+   "responses:2"
+  ],
+  "GET /files/{file_id}/metadata/{scope}/{template_key}": [
+   "params:4",
+   "responses:5"
+  ],
+  "GET /files/{file_id}/tasks": [
+   "params:1",
+   "responses:5"
+  ],
+  "GET /files/{file_id}/thumbnail.{extension}": [
+   "params:6",
+   "responses:7"
+  ],
+  "GET /files/{file_id}/trash": [
+   "params:2",
+   "responses:3"
+  ],
+  "GET /files/{file_id}/versions": [
+   "params:4",
+   "responses:2"
+  ],
+  "GET /files/{file_id}/versions/{file_version_id}": [
+   "params:3",
+   "responses:2"
+  ],
+  "GET /files/{file_id}/watermark": [
+   "params:1",
+   "responses:3"
+  ],
+  "GET /folder_locks": [
+   "params:1",
+   "responses:5"
+  ],
+  "GET /folders/trash/items": [
+   "params:7",
+   "responses:3"
+  ],
+  "GET /folders/{folder_id}": [
+   "params:8",
+   "responses:6"
+  ],
+  "GET /folders/{folder_id}#get_shared_link": [
+   "params:2",
+   "responses:5"
+  ],
+  "GET /folders/{folder_id}/app_item_associations": [
+   "params:4",
+   "responses:3"
+  ],
+  "GET /folders/{folder_id}/collaborations": [
+   "params:4",
+   "responses:2"
+  ],
+  "GET /folders/{folder_id}/items": [
+   "params:9",
+   "responses:5"
+  ],
+  "GET /folders/{folder_id}/metadata": [
+   "params:2",
+   "responses:4"
+  ],
+  "GET /folders/{folder_id}/metadata/enterprise/securityClassification-6VMVochwUWo": [
+   "params:1",
+   "responses:5"
+  ],
+  "GET /folders/{folder_id}/metadata/{scope}/{template_key}": [
+   "params:3",
+   "responses:5"
+  ],
+  "GET /folders/{folder_id}/trash": [
+   "params:2",
+   "responses:3"
+  ],
+  "GET /folders/{folder_id}/watermark": [
+   "params:1",
+   "responses:3"
+  ],
+  "GET /group_memberships/{group_membership_id}": [
+   "params:2",
+   "responses:2"
+  ],
+  "GET /groups": [
+   "params:4",
+   "responses:2"
+  ],
+  "GET /groups/{group_id}": [
+   "params:2",
+   "responses:2"
+  ],
+  "GET /groups/{group_id}/collaborations": [
+   "params:3",
+   "responses:2"
+  ],
+  "GET /groups/{group_id}/memberships": [
+   "params:3",
+   "responses:2"
+  ],
+  "GET /integration_mappings/slack": [
+   "params:7",
+   "responses:4"
+  ],
+  "GET /integration_mappings/teams": [
+   "params:4",
+   "responses:4"
+  ],
+  "GET /invites/{invite_id}": [
+   "params:2",
+   "responses:2"
+  ],
+  "GET /legal_hold_policies": [
+   "params:4",
+   "responses:2"
+  ],
+  "GET /legal_hold_policies/{legal_hold_policy_id}": [
+   "params:1",
+   "responses:2"
+  ],
+  "GET /legal_hold_policy_assignments": [
+   "params:6",
+   "responses:2"
+  ],
+  "GET /legal_hold_policy_assignments/{legal_hold_policy_assignment_id}": [
+   "params:1",
+   "responses:2"
+  ],
+  "GET /legal_hold_policy_assignments/{legal_hold_policy_assignment_id}/file_versions_on_hold": [
+   "params:4",
+   "responses:2"
+  ],
+  "GET /legal_hold_policy_assignments/{legal_hold_policy_assignment_id}/files_on_hold": [
+   "params:4",
+   "responses:2"
+  ],
+  "GET /metadata_cascade_policies": [
+   "params:4",
+   "responses:5"
+  ],
+  "GET /metadata_cascade_policies/{metadata_cascade_policy_id}": [
+   "params:1",
+   "responses:3"
+  ],
+  "GET /metadata_taxonomies/{namespace}": [
+   "params:3",
+   "responses:3"
+  ],
+  "GET /metadata_taxonomies/{namespace}/{taxonomy_key}": [
+   "params:2",
+   "responses:4"
+  ],
+  "GET /metadata_taxonomies/{namespace}/{taxonomy_key}/nodes": [
+   "params:9",
+   "responses:3"
+  ],
+  "GET /metadata_taxonomies/{namespace}/{taxonomy_key}/nodes/{node_id}": [
+   "params:3",
+   "responses:4"
+  ],
+  "GET /metadata_templates": [
+   "params:3",
+   "responses:3"
+  ],
+  "GET /metadata_templates/enterprise": [
+   "params:2",
+   "responses:3"
+  ],
+  "GET /metadata_templates/enterprise/securityClassification-6VMVochwUWo/schema": [
+   "params:0",
+   "responses:4"
+  ],
+  "GET /metadata_templates/global": [
+   "params:2",
+   "responses:3"
+  ],
+  "GET /metadata_templates/{namespace}/{template_key}/fields/{field_key}/options": [
+   "params:11",
+   "responses:3"
+  ],
+  "GET /metadata_templates/{scope}/{template_key}/schema": [
+   "params:2",
+   "responses:4"
+  ],
+  "GET /metadata_templates/{template_id}": [
+   "params:1",
+   "responses:3"
+  ],
+  "GET /recent_items": [
+   "params:3",
+   "responses:2"
+  ],
+  "GET /retention_policies": [
+   "params:6",
+   "responses:4"
+  ],
+  "GET /retention_policies/{retention_policy_id}": [
+   "params:2",
+   "responses:2"
+  ],
+  "GET /retention_policies/{retention_policy_id}/assignments": [
+   "params:5",
+   "responses:3"
+  ],
+  "GET /retention_policy_assignments/{retention_policy_assignment_id}": [
+   "params:2",
+   "responses:2"
+  ],
+  "GET /retention_policy_assignments/{retention_policy_assignment_id}/file_versions_under_retention": [
+   "params:3",
+   "responses:3"
+  ],
+  "GET /retention_policy_assignments/{retention_policy_assignment_id}/files_under_retention": [
+   "params:3",
+   "responses:3"
+  ],
+  "GET /search": [
+   "params:21",
+   "responses:5"
+  ],
+  "GET /shared_items": [
+   "params:3",
+   "responses:3"
+  ],
+  "GET /shared_items#app_items": [
+   "params:1",
+   "responses:2"
+  ],
+  "GET /shared_items#folders": [
+   "params:3",
+   "responses:3"
+  ],
+  "GET /shared_items#web_links": [
+   "params:3",
+   "responses:3"
+  ],
+  "GET /shield_information_barrier_reports": [
+   "params:3",
+   "responses:3"
+  ],
+  "GET /shield_information_barrier_reports/{shield_information_barrier_report_id}": [
+   "params:1",
+   "responses:3"
+  ],
+  "GET /shield_information_barrier_segment_members": [
+   "params:3",
+   "responses:2"
+  ],
+  "GET /shield_information_barrier_segment_members/{shield_information_barrier_segment_member_id}": [
+   "params:1",
+   "responses:3"
+  ],
+  "GET /shield_information_barrier_segment_restrictions": [
+   "params:3",
+   "responses:2"
+  ],
+  "GET /shield_information_barrier_segment_restrictions/{shield_information_barrier_segment_restriction_id}": [
+   "params:1",
+   "responses:3"
+  ],
+  "GET /shield_information_barrier_segments": [
+   "params:3",
+   "responses:3"
+  ],
+  "GET /shield_information_barrier_segments/{shield_information_barrier_segment_id}": [
+   "params:1",
+   "responses:3"
+  ],
+  "GET /shield_information_barriers": [
+   "params:2",
+   "responses:3"
+  ],
+  "GET /shield_information_barriers/{shield_information_barrier_id}": [
+   "params:1",
+   "responses:3"
+  ],
+  "GET /sign_requests": [
+   "params:4",
+   "responses:2"
+  ],
+  "GET /sign_requests/{sign_request_id}": [
+   "params:1",
+   "responses:3"
+  ],
+  "GET /sign_templates": [
+   "params:2",
+   "responses:3"
+  ],
+  "GET /sign_templates/{template_id}": [
+   "params:1",
+   "responses:4"
+  ],
+  "GET /storage_policies": [
+   "params:3",
+   "responses:2"
+  ],
+  "GET /storage_policies/{storage_policy_id}": [
+   "params:1",
+   "responses:2"
+  ],
+  "GET /storage_policy_assignments": [
+   "params:3",
+   "responses:2"
+  ],
+  "GET /storage_policy_assignments/{storage_policy_assignment_id}": [
+   "params:1",
+   "responses:2"
+  ],
+  "GET /task_assignments/{task_assignment_id}": [
+   "params:1",
+   "responses:3"
+  ],
+  "GET /tasks/{task_id}": [
+   "params:1",
+   "responses:3"
+  ],
+  "GET /tasks/{task_id}/assignments": [
+   "params:1",
+   "responses:4"
+  ],
+  "GET /terms_of_service_user_statuses": [
+   "params:2",
+   "responses:2"
+  ],
+  "GET /terms_of_services": [
+   "params:1",
+   "responses:2"
+  ],
+  "GET /terms_of_services/{terms_of_service_id}": [
+   "params:1",
+   "responses:2"
+  ],
+  "GET /users": [
+   "params:8",
+   "responses:2"
+  ],
+  "GET /users/me": [
+   "params:1",
+   "responses:2"
+  ],
+  "GET /users/{user_id}": [
+   "params:2",
+   "responses:2"
+  ],
+  "GET /users/{user_id}/avatar": [
+   "params:1",
+   "responses:2"
+  ],
+  "GET /users/{user_id}/email_aliases": [
+   "params:1",
+   "responses:2"
+  ],
+  "GET /users/{user_id}/memberships": [
+   "params:3",
+   "responses:2"
+  ],
+  "GET /web_links/{web_link_id}": [
+   "params:2",
+   "responses:2"
+  ],
+  "GET /web_links/{web_link_id}#get_shared_link": [
+   "params:2",
+   "responses:5"
+  ],
+  "GET /web_links/{web_link_id}/trash": [
+   "params:2",
+   "responses:3"
+  ],
+  "GET /webhooks": [
+   "params:2",
+   "responses:3"
+  ],
+  "GET /webhooks/{webhook_id}": [
+   "params:1",
+   "responses:4"
+  ],
+  "GET /workflows": [
+   "params:4",
+   "responses:4"
+  ],
+  "GET /zip_downloads/{zip_download_id}/content": [
+   "params:1",
+   "responses:4"
+  ],
+  "GET /zip_downloads/{zip_download_id}/status": [
+   "params:1",
+   "responses:5"
+  ],
+  "OPTIONS /events": [
+   "params:0",
+   "responses:2"
+  ],
+  "OPTIONS /files/content": [
+   "body",
+   "params:0",
+   "responses:3"
+  ],
+  "PATCH /metadata_taxonomies/{namespace}/{taxonomy_key}": [
+   "body",
+   "params:2",
+   "responses:4"
+  ],
+  "PATCH /metadata_taxonomies/{namespace}/{taxonomy_key}/levels/{level_index}": [
+   "body",
+   "params:3",
+   "responses:4"
+  ],
+  "PATCH /metadata_taxonomies/{namespace}/{taxonomy_key}/nodes/{node_id}": [
+   "body",
+   "params:3",
+   "responses:4"
+  ],
+  "POST /ai/ask": [
+   "body",
+   "params:0",
+   "responses:4"
+  ],
+  "POST /ai/extract": [
+   "body",
+   "params:0",
+   "responses:3"
+  ],
+  "POST /ai/extract_structured": [
+   "body",
+   "params:0",
+   "responses:3"
+  ],
+  "POST /ai/text_gen": [
+   "body",
+   "params:0",
+   "responses:3"
+  ],
+  "POST /ai_agents": [
+   "body",
+   "params:0",
+   "responses:3"
+  ],
+  "POST /collaboration_whitelist_entries": [
+   "body",
+   "params:0",
+   "responses:2"
+  ],
+  "POST /collaboration_whitelist_exempt_targets": [
+   "body",
+   "params:0",
+   "responses:2"
+  ],
+  "POST /collaborations": [
+   "body",
+   "params:2",
+   "responses:3"
+  ],
+  "POST /comments": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /file_requests/{file_request_id}/copy": [
+   "body",
+   "params:1",
+   "responses:6"
+  ],
+  "POST /files/content": [
+   "body",
+   "params:2",
+   "responses:5"
+  ],
+  "POST /files/upload_sessions": [
+   "body",
+   "params:0",
+   "responses:6"
+  ],
+  "POST /files/upload_sessions/{upload_session_id}/commit": [
+   "body",
+   "params:4",
+   "responses:5"
+  ],
+  "POST /files/{file_id}": [
+   "body",
+   "params:2",
+   "responses:5"
+  ],
+  "POST /files/{file_id}/content": [
+   "body",
+   "params:4",
+   "responses:3"
+  ],
+  "POST /files/{file_id}/copy": [
+   "body",
+   "params:2",
+   "responses:7"
+  ],
+  "POST /files/{file_id}/metadata/enterprise/securityClassification-6VMVochwUWo": [
+   "body",
+   "params:1",
+   "responses:5"
+  ],
+  "POST /files/{file_id}/metadata/global/boxSkillsCards": [
+   "body",
+   "params:1",
+   "responses:5"
+  ],
+  "POST /files/{file_id}/metadata/{scope}/{template_key}": [
+   "body",
+   "params:3",
+   "responses:5"
+  ],
+  "POST /files/{file_id}/upload_sessions": [
+   "body",
+   "params:1",
+   "responses:3"
+  ],
+  "POST /files/{file_id}/versions/current": [
+   "body",
+   "params:2",
+   "responses:2"
+  ],
+  "POST /folder_locks": [
+   "body",
+   "params:0",
+   "responses:4"
+  ],
+  "POST /folders": [
+   "body",
+   "params:1",
+   "responses:6"
+  ],
+  "POST /folders/{folder_id}": [
+   "body",
+   "params:2",
+   "responses:5"
+  ],
+  "POST /folders/{folder_id}/copy": [
+   "body",
+   "params:2",
+   "responses:8"
+  ],
+  "POST /folders/{folder_id}/metadata/enterprise/securityClassification-6VMVochwUWo": [
+   "body",
+   "params:1",
+   "responses:5"
+  ],
+  "POST /folders/{folder_id}/metadata/{scope}/{template_key}": [
+   "body",
+   "params:3",
+   "responses:5"
+  ],
+  "POST /group_memberships": [
+   "body",
+   "params:1",
+   "responses:3"
+  ],
+  "POST /groups": [
+   "body",
+   "params:1",
+   "responses:3"
+  ],
+  "POST /groups/terminate_sessions": [
+   "body",
+   "params:0",
+   "responses:8"
+  ],
+  "POST /integration_mappings/slack": [
+   "body",
+   "params:0",
+   "responses:4"
+  ],
+  "POST /integration_mappings/teams": [
+   "body",
+   "params:0",
+   "responses:4"
+  ],
+  "POST /invites": [
+   "body",
+   "params:1",
+   "responses:3"
+  ],
+  "POST /legal_hold_policies": [
+   "body",
+   "params:0",
+   "responses:4"
+  ],
+  "POST /legal_hold_policy_assignments": [
+   "body",
+   "params:0",
+   "responses:2"
+  ],
+  "POST /metadata_cascade_policies": [
+   "body",
+   "params:0",
+   "responses:6"
+  ],
+  "POST /metadata_cascade_policies/{metadata_cascade_policy_id}/apply": [
+   "body",
+   "params:1",
+   "responses:3"
+  ],
+  "POST /metadata_queries/execute_read": [
+   "body",
+   "params:0",
+   "responses:4"
+  ],
+  "POST /metadata_taxonomies": [
+   "body",
+   "params:0",
+   "responses:4"
+  ],
+  "POST /metadata_taxonomies/{namespace}/{taxonomy_key}/levels": [
+   "body",
+   "params:2",
+   "responses:4"
+  ],
+  "POST /metadata_taxonomies/{namespace}/{taxonomy_key}/levels:append": [
+   "body",
+   "params:2",
+   "responses:4"
+  ],
+  "POST /metadata_taxonomies/{namespace}/{taxonomy_key}/levels:trim": [
+   "params:2",
+   "responses:4"
+  ],
+  "POST /metadata_taxonomies/{namespace}/{taxonomy_key}/nodes": [
+   "body",
+   "params:2",
+   "responses:4"
+  ],
+  "POST /metadata_templates/schema": [
+   "body",
+   "params:0",
+   "responses:4"
+  ],
+  "POST /metadata_templates/schema#classifications": [
+   "body",
+   "params:0",
+   "responses:4"
+  ],
+  "POST /oauth2/revoke": [
+   "body",
+   "params:0",
+   "responses:3"
+  ],
+  "POST /oauth2/token": [
+   "body",
+   "params:0",
+   "responses:3"
+  ],
+  "POST /oauth2/token#refresh": [
+   "body",
+   "params:0",
+   "responses:3"
+  ],
+  "POST /retention_policies": [
+   "body",
+   "params:0",
+   "responses:4"
+  ],
+  "POST /retention_policy_assignments": [
+   "body",
+   "params:0",
+   "responses:5"
+  ],
+  "POST /shield_information_barrier_reports": [
+   "body",
+   "params:0",
+   "responses:4"
+  ],
+  "POST /shield_information_barrier_segment_members": [
+   "body",
+   "params:0",
+   "responses:3"
+  ],
+  "POST /shield_information_barrier_segment_restrictions": [
+   "body",
+   "params:0",
+   "responses:3"
+  ],
+  "POST /shield_information_barrier_segments": [
+   "body",
+   "params:0",
+   "responses:4"
+  ],
+  "POST /shield_information_barriers": [
+   "body",
+   "params:0",
+   "responses:4"
+  ],
+  "POST /shield_information_barriers/change_status": [
+   "body",
+   "params:0",
+   "responses:4"
+  ],
+  "POST /sign_requests": [
+   "body",
+   "params:0",
+   "responses:2"
+  ],
+  "POST /sign_requests/{sign_request_id}/cancel": [
+   "body",
+   "params:1",
+   "responses:3"
+  ],
+  "POST /sign_requests/{sign_request_id}/resend": [
+   "params:1",
+   "responses:3"
+  ],
+  "POST /storage_policy_assignments": [
+   "body",
+   "params:0",
+   "responses:2"
+  ],
+  "POST /task_assignments": [
+   "body",
+   "params:0",
+   "responses:5"
+  ],
+  "POST /tasks": [
+   "body",
+   "params:0",
+   "responses:5"
+  ],
+  "POST /terms_of_service_user_statuses": [
+   "body",
+   "params:0",
+   "responses:2"
+  ],
+  "POST /terms_of_services": [
+   "body",
+   "params:0",
+   "responses:2"
+  ],
+  "POST /users": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /users/terminate_sessions": [
+   "body",
+   "params:0",
+   "responses:8"
+  ],
+  "POST /users/{user_id}/avatar": [
+   "body",
+   "params:1",
+   "responses:6"
+  ],
+  "POST /users/{user_id}/email_aliases": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /web_links": [
+   "body",
+   "params:0",
+   "responses:2"
+  ],
+  "POST /web_links/{web_link_id}": [
+   "body",
+   "params:2",
+   "responses:5"
+  ],
+  "POST /webhooks": [
+   "body",
+   "params:0",
+   "responses:6"
+  ],
+  "POST /workflows/{workflow_id}/start": [
+   "body",
+   "params:1",
+   "responses:5"
+  ],
+  "POST /zip_downloads": [
+   "body",
+   "params:0",
+   "responses:5"
+  ],
+  "PUT /ai_agents/{agent_id}": [
+   "body",
+   "params:1",
+   "responses:3"
+  ],
+  "PUT /collaborations/{collaboration_id}": [
+   "body",
+   "params:1",
+   "responses:4"
+  ],
+  "PUT /comments/{comment_id}": [
+   "body",
+   "params:2",
+   "responses:2"
+  ],
+  "PUT /file_requests/{file_request_id}": [
+   "body",
+   "params:2",
+   "responses:7"
+  ],
+  "PUT /files/upload_sessions/{upload_session_id}": [
+   "body",
+   "params:3",
+   "responses:5"
+  ],
+  "PUT /files/{file_id}": [
+   "body",
+   "params:3",
+   "responses:8"
+  ],
+  "PUT /files/{file_id}#add_shared_link": [
+   "body",
+   "params:2",
+   "responses:8"
+  ],
+  "PUT /files/{file_id}#remove_shared_link": [
+   "body",
+   "params:2",
+   "responses:7"
+  ],
+  "PUT /files/{file_id}#update_shared_link": [
+   "body",
+   "params:2",
+   "responses:8"
+  ],
+  "PUT /files/{file_id}/metadata/enterprise/securityClassification-6VMVochwUWo": [
+   "body",
+   "params:1",
+   "responses:4"
+  ],
+  "PUT /files/{file_id}/metadata/global/boxSkillsCards": [
+   "body",
+   "params:1",
+   "responses:3"
+  ],
+  "PUT /files/{file_id}/metadata/{scope}/{template_key}": [
+   "body",
+   "params:3",
+   "responses:4"
+  ],
+  "PUT /files/{file_id}/versions/{file_version_id}": [
+   "body",
+   "params:2",
+   "responses:2"
+  ],
+  "PUT /files/{file_id}/watermark": [
+   "body",
+   "params:1",
+   "responses:3"
+  ],
+  "PUT /folders/{folder_id}": [
+   "body",
+   "params:3",
+   "responses:8"
+  ],
+  "PUT /folders/{folder_id}#add_shared_link": [
+   "body",
+   "params:2",
+   "responses:8"
+  ],
+  "PUT /folders/{folder_id}#remove_shared_link": [
+   "body",
+   "params:2",
+   "responses:7"
+  ],
+  "PUT /folders/{folder_id}#update_shared_link": [
+   "body",
+   "params:2",
+   "responses:8"
+  ],
+  "PUT /folders/{folder_id}/metadata/enterprise/securityClassification-6VMVochwUWo": [
+   "body",
+   "params:1",
+   "responses:4"
+  ],
+  "PUT /folders/{folder_id}/metadata/{scope}/{template_key}": [
+   "body",
+   "params:3",
+   "responses:4"
+  ],
+  "PUT /folders/{folder_id}/watermark": [
+   "body",
+   "params:1",
+   "responses:3"
+  ],
+  "PUT /group_memberships/{group_membership_id}": [
+   "body",
+   "params:2",
+   "responses:2"
+  ],
+  "PUT /groups/{group_id}": [
+   "body",
+   "params:2",
+   "responses:3"
+  ],
+  "PUT /integration_mappings/slack/{integration_mapping_id}": [
+   "body",
+   "params:1",
+   "responses:4"
+  ],
+  "PUT /integration_mappings/teams/{integration_mapping_id}": [
+   "body",
+   "params:1",
+   "responses:4"
+  ],
+  "PUT /legal_hold_policies/{legal_hold_policy_id}": [
+   "body",
+   "params:1",
+   "responses:3"
+  ],
+  "PUT /metadata_templates/enterprise/securityClassification-6VMVochwUWo/schema#add": [
+   "body",
+   "params:0",
+   "responses:4"
+  ],
+  "PUT /metadata_templates/enterprise/securityClassification-6VMVochwUWo/schema#update": [
+   "body",
+   "params:0",
+   "responses:4"
+  ],
+  "PUT /metadata_templates/{scope}/{template_key}/schema": [
+   "body",
+   "params:2",
+   "responses:5"
+  ],
+  "PUT /retention_policies/{retention_policy_id}": [
+   "body",
+   "params:1",
+   "responses:5"
+  ],
+  "PUT /shield_information_barrier_segments/{shield_information_barrier_segment_id}": [
+   "body",
+   "params:1",
+   "responses:4"
+  ],
+  "PUT /skill_invocations/{skill_id}": [
+   "body",
+   "params:1",
+   "responses:4"
+  ],
+  "PUT /storage_policy_assignments/{storage_policy_assignment_id}": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "PUT /task_assignments/{task_assignment_id}": [
+   "body",
+   "params:1",
+   "responses:4"
+  ],
+  "PUT /tasks/{task_id}": [
+   "body",
+   "params:1",
+   "responses:5"
+  ],
+  "PUT /terms_of_service_user_statuses/{terms_of_service_user_status_id}": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "PUT /terms_of_services/{terms_of_service_id}": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "PUT /users/{user_id}": [
+   "body",
+   "params:2",
+   "responses:4"
+  ],
+  "PUT /users/{user_id}/folders/0": [
+   "body",
+   "params:3",
+   "responses:3"
+  ],
+  "PUT /web_links/{web_link_id}": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "PUT /web_links/{web_link_id}#add_shared_link": [
+   "body",
+   "params:2",
+   "responses:8"
+  ],
+  "PUT /web_links/{web_link_id}#remove_shared_link": [
+   "body",
+   "params:2",
+   "responses:7"
+  ],
+  "PUT /web_links/{web_link_id}#update_shared_link": [
+   "body",
+   "params:2",
+   "responses:8"
+  ],
+  "PUT /webhooks/{webhook_id}": [
+   "body",
+   "params:1",
+   "responses:6"
+  ],
+  "schema:AccessToken": [
+   "props:6",
+   "req:0"
+  ],
+  "schema:AiAgent": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:AiAgentAllowedEntity": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:AiAgentAsk": [
+   "props:8",
+   "req:1"
+  ],
+  "schema:AiAgentBasicGenTool": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:AiAgentBasicTextTool": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:AiAgentBasicTextToolBase": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:AiAgentBasicTextToolTextGen": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:AiAgentExtract": [
+   "props:4",
+   "req:1"
+  ],
+  "schema:AiAgentExtractStructured": [
+   "props:4",
+   "req:1"
+  ],
+  "schema:AiAgentInfo": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:AiAgentLongTextTool": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:AiAgentLongTextToolTextGen": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:AiAgentReference": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:AiAgentSpreadsheetTool": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:AiAgentTextGen": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:AiAsk": [
+   "props:6",
+   "req:3"
+  ],
+  "schema:AiAskAgent": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:AiCitation": [
+   "props:4",
+   "req:0"
+  ],
+  "schema:AiDialogueHistory": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:AiExtract": [
+   "props:3",
+   "req:2"
+  ],
+  "schema:AiExtractAgent": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:AiExtractFieldOption": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:AiExtractResponse": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:AiExtractStructured": [
+   "props:7",
+   "req:1"
+  ],
+  "schema:AiExtractStructuredAgent": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:AiExtractStructuredResponse": [
+   "props:6",
+   "req:2"
+  ],
+  "schema:AiExtractSubField": [
+   "props:6",
+   "req:1"
+  ],
+  "schema:AiItem--Base": [
+   "props:3",
+   "req:2"
+  ],
+  "schema:AiItemAsk": [
+   "props:3",
+   "req:2"
+  ],
+  "schema:AiLlmEndpointParams": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:AiLlmEndpointParamsAWS": [
+   "props:3",
+   "req:1"
+  ],
+  "schema:AiLlmEndpointParamsGoogle": [
+   "props:4",
+   "req:1"
+  ],
+  "schema:AiLlmEndpointParamsIBM": [
+   "props:4",
+   "req:1"
+  ],
+  "schema:AiLlmEndpointParamsOpenAi": [
+   "props:6",
+   "req:1"
+  ],
+  "schema:AiMultipleAgentResponse": [
+   "props:0",
+   "req:1"
+  ],
+  "schema:AiOptionsRules": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:AiResponse": [
+   "props:4",
+   "req:2"
+  ],
+  "schema:AiResponse--Full": [
+   "props:0",
+   "req:2"
+  ],
+  "schema:AiSingleAgentResponse": [
+   "props:11",
+   "req:4"
+  ],
+  "schema:AiSingleAgentResponse--Full": [
+   "props:0",
+   "req:4"
+  ],
+  "schema:AiStudioAgentAsk": [
+   "props:12",
+   "req:3"
+  ],
+  "schema:AiStudioAgentAskResponse": [
+   "props:12",
+   "req:3"
+  ],
+  "schema:AiStudioAgentBasicGenTool": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:AiStudioAgentBasicGenToolResponse": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:AiStudioAgentBasicTextTool": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:AiStudioAgentBasicTextToolResponse": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:AiStudioAgentExtract": [
+   "props:7",
+   "req:3"
+  ],
+  "schema:AiStudioAgentExtractResponse": [
+   "props:7",
+   "req:3"
+  ],
+  "schema:AiStudioAgentLongTextTool": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:AiStudioAgentLongTextToolResponse": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:AiStudioAgentSpreadsheetTool": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:AiStudioAgentSpreadsheetToolResponse": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:AiStudioAgentTextGen": [
+   "props:6",
+   "req:3"
+  ],
+  "schema:AiStudioAgentTextGenResponse": [
+   "props:6",
+   "req:3"
+  ],
+  "schema:AiTaxonomyFileReference": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:AiTaxonomyReference": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:AiTaxonomySource": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:AiTextGen": [
+   "props:4",
+   "req:2"
+  ],
+  "schema:AiTextGenAgent": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:AppItem": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:AppItemAssociatedItem": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:AppItemAssociation": [
+   "props:4",
+   "req:4"
+  ],
+  "schema:AppItemAssociations": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:AppItemEventSource": [
+   "props:5",
+   "req:3"
+  ],
+  "schema:Classification": [
+   "props:8",
+   "req:0"
+  ],
+  "schema:ClassificationTemplate": [
+   "props:8",
+   "req:6"
+  ],
+  "schema:ClientError": [
+   "props:7",
+   "req:0"
+  ],
+  "schema:Collaboration": [
+   "props:15",
+   "req:2"
+  ],
+  "schema:CollaborationAccessGrantee": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:CollaborationAllowlistEntries": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:CollaborationAllowlistEntry": [
+   "props:6",
+   "req:0"
+  ],
+  "schema:CollaborationAllowlistExemptTarget": [
+   "props:6",
+   "req:0"
+  ],
+  "schema:CollaborationAllowlistExemptTargets": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:CollaborationItem": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:Collaborations": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:CollaborationsOffsetPaginated": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:CollaboratorVariable": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:Collection": [
+   "props:4",
+   "req:0"
+  ],
+  "schema:Collections": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:Comment": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:Comment--Base": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:Comment--Full": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:Comments": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:CompletionRuleVariable": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:ConflictError": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:CreateAiAgent": [
+   "props:8",
+   "req:3"
+  ],
+  "schema:DevicePinner": [
+   "props:4",
+   "req:0"
+  ],
+  "schema:DevicePinners": [
+   "props:4",
+   "req:0"
+  ],
+  "schema:EmailAlias": [
+   "props:4",
+   "req:0"
+  ],
+  "schema:EmailAliases": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:Enterprise--Base": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:Event": [
+   "props:9",
+   "req:0"
+  ],
+  "schema:EventSource": [
+   "props:6",
+   "req:3"
+  ],
+  "schema:EventSourceResource": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:Events": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:File": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:File--Base": [
+   "props:3",
+   "req:2"
+  ],
+  "schema:File--Full": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:File--Mini": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:FileConflict": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:FileRequest": [
+   "props:15",
+   "req:5"
+  ],
+  "schema:FileRequestCopyRequest": [
+   "props:0",
+   "req:1"
+  ],
+  "schema:FileRequestUpdateRequest": [
+   "props:6",
+   "req:0"
+  ],
+  "schema:FileVersion": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:FileVersion--Base": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:FileVersion--Full": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:FileVersion--Mini": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:FileVersionLegalHold": [
+   "props:6",
+   "req:0"
+  ],
+  "schema:FileVersionLegalHolds": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:FileVersionRetention": [
+   "props:7",
+   "req:0"
+  ],
+  "schema:FileVersionRetentions": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:FileVersions": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:FileVersionsOnHold": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:Files": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:FilesOnHold": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:FilesUnderRetention": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:Folder": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:Folder--Base": [
+   "props:3",
+   "req:2"
+  ],
+  "schema:Folder--Full": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:Folder--Mini": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:FolderLock": [
+   "props:7",
+   "req:0"
+  ],
+  "schema:FolderLocks": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:FolderReference": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:GenericSource": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:Group": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:Group--Base": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:Group--Full": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:Group--Mini": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:GroupMembership": [
+   "props:7",
+   "req:0"
+  ],
+  "schema:GroupMemberships": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:Groups": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:IntegrationMapping": [
+   "props:0",
+   "req:2"
+  ],
+  "schema:IntegrationMappingBase": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:IntegrationMappingBoxItemSlack": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:IntegrationMappingPartnerItemSlack": [
+   "props:4",
+   "req:2"
+  ],
+  "schema:IntegrationMappingPartnerItemTeams": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:IntegrationMappingPartnerItemTeamsCreateRequest": [
+   "props:4",
+   "req:4"
+  ],
+  "schema:IntegrationMappingSlackCreateRequest": [
+   "props:3",
+   "req:2"
+  ],
+  "schema:IntegrationMappingSlackOptions": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:IntegrationMappingTeams": [
+   "props:0",
+   "req:2"
+  ],
+  "schema:IntegrationMappingTeamsCreateRequest": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:IntegrationMappings": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:IntegrationMappingsTeams": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:Invite": [
+   "props:8",
+   "req:2"
+  ],
+  "schema:Item": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:Items": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:ItemsOffsetPaginated": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:KeywordSkillCard": [
+   "props:7",
+   "req:5"
+  ],
+  "schema:LegalHoldPolicies": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:LegalHoldPolicy": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:LegalHoldPolicy--Mini": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:LegalHoldPolicyAssignedItem": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:LegalHoldPolicyAssignment": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:LegalHoldPolicyAssignment--Base": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:LegalHoldPolicyAssignments": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:Metadata": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:Metadata--Base": [
+   "props:4",
+   "req:0"
+  ],
+  "schema:Metadata--Full": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:MetadataCascadePolicies": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:MetadataCascadePolicy": [
+   "props:6",
+   "req:2"
+  ],
+  "schema:MetadataError": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:MetadataFieldFilterDateRange": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:MetadataFieldFilterFloatRange": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:MetadataFilter": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:MetadataFilterValue": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:MetadataInstanceValue": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:MetadataQuery": [
+   "props:8",
+   "req:2"
+  ],
+  "schema:MetadataQueryResultItem": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:MetadataQueryResults": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:MetadataTaxonomies": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:MetadataTaxonomy": [
+   "props:5",
+   "req:3"
+  ],
+  "schema:MetadataTaxonomyAncestor": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:MetadataTaxonomyLevel": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:MetadataTaxonomyLevels": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:MetadataTaxonomyNode": [
+   "props:6",
+   "req:3"
+  ],
+  "schema:MetadataTaxonomyNodes": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:MetadataTemplate": [
+   "props:8",
+   "req:2"
+  ],
+  "schema:MetadataTemplates": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:Metadatas": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:OAuth2Error": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:Outcome": [
+   "props:6",
+   "req:1"
+  ],
+  "schema:PostOAuth2Revoke": [
+   "props:3",
+   "req:1"
+  ],
+  "schema:PostOAuth2Token": [
+   "props:15",
+   "req:1"
+  ],
+  "schema:PostOAuth2Token--RefreshAccessToken": [
+   "props:4",
+   "req:4"
+  ],
+  "schema:RealtimeServer": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:RealtimeServers": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:RecentItem": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:RecentItemResource": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:RecentItems": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:Resource": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:ResourceScope": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:RetentionPolicies": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:RetentionPolicy": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:RetentionPolicy--Base": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:RetentionPolicy--Mini": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:RetentionPolicyAssignment": [
+   "props:8",
+   "req:2"
+  ],
+  "schema:RetentionPolicyAssignments": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:RetentionPolicyMaxExtensionLengthRequest": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:RetentionPolicyMaxExtensionLengthResponse": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:RoleVariable": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:SearchResultItem": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:SearchResultWithSharedLink": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:SearchResultWithSharedLinkItem": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:SearchResults": [
+   "props:0",
+   "req:1"
+  ],
+  "schema:SearchResultsResponse": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:SearchResultsWithSharedLinks": [
+   "props:0",
+   "req:1"
+  ],
+  "schema:SessionTerminationMessage": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:ShieldInformationBarrier": [
+   "props:10",
+   "req:0"
+  ],
+  "schema:ShieldInformationBarrier--Base": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:ShieldInformationBarrierReference": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:ShieldInformationBarrierReport": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:ShieldInformationBarrierReport--Base": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:ShieldInformationBarrierReportDetails": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:ShieldInformationBarrierReports": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:ShieldInformationBarrierSegment": [
+   "props:9",
+   "req:0"
+  ],
+  "schema:ShieldInformationBarrierSegmentMember": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:ShieldInformationBarrierSegmentMember--Base": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:ShieldInformationBarrierSegmentMember--Mini": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:ShieldInformationBarrierSegmentMembers": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:ShieldInformationBarrierSegmentRestriction": [
+   "props:0",
+   "req:2"
+  ],
+  "schema:ShieldInformationBarrierSegmentRestriction--Base": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:ShieldInformationBarrierSegmentRestriction--Mini": [
+   "props:0",
+   "req:2"
+  ],
+  "schema:ShieldInformationBarrierSegmentRestrictions": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:ShieldInformationBarrierSegments": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:ShieldInformationBarriers": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:SignRequest": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:SignRequest--Base": [
+   "props:14",
+   "req:0"
+  ],
+  "schema:SignRequestCancelRequest": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:SignRequestCreateRequest": [
+   "props:0",
+   "req:1"
+  ],
+  "schema:SignRequestCreateSigner": [
+   "props:13",
+   "req:0"
+  ],
+  "schema:SignRequestPrefillTag": [
+   "props:4",
+   "req:0"
+  ],
+  "schema:SignRequestSigner": [
+   "props:0",
+   "req:1"
+  ],
+  "schema:SignRequestSignerAttachment": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:SignRequestSignerInput": [
+   "props:0",
+   "req:1"
+  ],
+  "schema:SignRequestSignerInputCustomValidation": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:SignRequestSignerInputDateAsiaValidation": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:SignRequestSignerInputDateEUValidation": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:SignRequestSignerInputDateISOValidation": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:SignRequestSignerInputDateUSValidation": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:SignRequestSignerInputEmailValidation": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:SignRequestSignerInputNumberWithCommaValidation": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:SignRequestSignerInputNumberWithPeriodValidation": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:SignRequestSignerInputSSNValidation": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:SignRequestSignerInputValidation": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:SignRequestSignerInputZIP4Validation": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:SignRequestSignerInputZIPValidation": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:SignRequests": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:SignTemplate": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:SignTemplates": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:SkillCard": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:SkillCardsMetadata": [
+   "props:9",
+   "req:0"
+  ],
+  "schema:StatusSkillCard": [
+   "props:7",
+   "req:5"
+  ],
+  "schema:StoragePolicies": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:StoragePolicy": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:StoragePolicy--Mini": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:StoragePolicyAssignment": [
+   "props:4",
+   "req:2"
+  ],
+  "schema:StoragePolicyAssignments": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:Task": [
+   "props:11",
+   "req:0"
+  ],
+  "schema:TaskAssignment": [
+   "props:10",
+   "req:0"
+  ],
+  "schema:TaskAssignments": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:Tasks": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:TemplateSigner": [
+   "props:11",
+   "req:0"
+  ],
+  "schema:TemplateSignerInput": [
+   "props:0",
+   "req:1"
+  ],
+  "schema:TermsOfService": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:TermsOfService--Base": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:TermsOfServiceUserStatus": [
+   "props:7",
+   "req:2"
+  ],
+  "schema:TermsOfServiceUserStatuses": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:TermsOfServices": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:TimelineSkillCard": [
+   "props:8",
+   "req:5"
+  ],
+  "schema:TrackingCode": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:TranscriptSkillCard": [
+   "props:8",
+   "req:5"
+  ],
+  "schema:TrashFile": [
+   "props:22",
+   "req:12"
+  ],
+  "schema:TrashFileRestored": [
+   "props:22",
+   "req:12"
+  ],
+  "schema:TrashFolder": [
+   "props:21",
+   "req:10"
+  ],
+  "schema:TrashFolderRestored": [
+   "props:21",
+   "req:0"
+  ],
+  "schema:TrashWebLink": [
+   "props:18",
+   "req:0"
+  ],
+  "schema:TrashWebLinkRestored": [
+   "props:18",
+   "req:2"
+  ],
+  "schema:UploadPart": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:UploadPart--Mini": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:UploadParts": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:UploadSession": [
+   "props:7",
+   "req:0"
+  ],
+  "schema:UploadUrl": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:UploadedPart": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:User": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:User--Base": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:User--Collaborations": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:User--Full": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:User--Mini": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:UserAvatar": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:UserIntegrationMappings": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:Users": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:Watermark": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:WebLink": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:WebLink--Base": [
+   "props:3",
+   "req:2"
+  ],
+  "schema:WebLink--Mini": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:Webhook": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:Webhook--Mini": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:Webhooks": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:Workflow": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:Workflow--Mini": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:Workflows": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:ZipDownload": [
+   "props:4",
+   "req:0"
+  ],
+  "schema:ZipDownloadRequest": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:ZipDownloadStatus": [
+   "props:5",
+   "req:0"
+  ]
+ },
+ "ts": "2026-08-18T23:23:51+00:00",
+ "url": "https://raw.githubusercontent.com/box/box-openapi/main/openapi.json",
+ "vendor": "Box"
+}

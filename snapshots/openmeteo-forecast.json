@@ -1,0 +1,82 @@
+{
+ "category": "weather",
+ "field_count": 23,
+ "first_seen": "2026-08-18T23:20:13+00:00",
+ "id": "openmeteo-forecast",
+ "pending_keys": [],
+ "runs": 3,
+ "schema": {
+  "current_weather": [
+   "object"
+  ],
+  "current_weather.interval": [
+   "integer"
+  ],
+  "current_weather.is_day": [
+   "integer"
+  ],
+  "current_weather.temperature": [
+   "number"
+  ],
+  "current_weather.time": [
+   "string"
+  ],
+  "current_weather.weathercode": [
+   "integer"
+  ],
+  "current_weather.winddirection": [
+   "integer"
+  ],
+  "current_weather.windspeed": [
+   "number"
+  ],
+  "current_weather_units": [
+   "object"
+  ],
+  "current_weather_units.interval": [
+   "string"
+  ],
+  "current_weather_units.is_day": [
+   "string"
+  ],
+  "current_weather_units.temperature": [
+   "string"
+  ],
+  "current_weather_units.time": [
+   "string"
+  ],
+  "current_weather_units.weathercode": [
+   "string"
+  ],
+  "current_weather_units.winddirection": [
+   "string"
+  ],
+  "current_weather_units.windspeed": [
+   "string"
+  ],
+  "elevation": [
+   "number"
+  ],
+  "generationtime_ms": [
+   "number"
+  ],
+  "latitude": [
+   "number"
+  ],
+  "longitude": [
+   "number"
+  ],
+  "timezone": [
+   "string"
+  ],
+  "timezone_abbreviation": [
+   "string"
+  ],
+  "utc_offset_seconds": [
+   "integer"
+  ]
+ },
+ "ts": "2026-08-18T23:23:51+00:00",
+ "url": "https://api.open-meteo.com/v1/forecast?latitude=52.52&longitude=13.41&current_weather=true",
+ "vendor": "Open-Meteo"
+}

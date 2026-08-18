@@ -1,0 +1,214 @@
+{
+ "category": "finance",
+ "field_count": 67,
+ "first_seen": "2026-08-18T23:20:13+00:00",
+ "id": "binance-exchangeinfo",
+ "pending_keys": [],
+ "runs": 3,
+ "schema": {
+  "exchangeFilters": [
+   "array"
+  ],
+  "rateLimits": [
+   "array"
+  ],
+  "rateLimits[]": [
+   "object"
+  ],
+  "rateLimits[].interval": [
+   "string"
+  ],
+  "rateLimits[].intervalNum": [
+   "integer"
+  ],
+  "rateLimits[].limit": [
+   "integer"
+  ],
+  "rateLimits[].rateLimitType": [
+   "string"
+  ],
+  "serverTime": [
+   "integer"
+  ],
+  "symbols": [
+   "array"
+  ],
+  "symbols[]": [
+   "object"
+  ],
+  "symbols[].allowTrailingStop": [
+   "boolean"
+  ],
+  "symbols[].allowedSelfTradePreventionModes": [
+   "array"
+  ],
+  "symbols[].allowedSelfTradePreventionModes[]": [
+   "string"
+  ],
+  "symbols[].amendAllowed": [
+   "boolean"
+  ],
+  "symbols[].baseAsset": [
+   "string"
+  ],
+  "symbols[].baseAssetPrecision": [
+   "integer"
+  ],
+  "symbols[].baseCommissionPrecision": [
+   "integer"
+  ],
+  "symbols[].cancelReplaceAllowed": [
+   "boolean"
+  ],
+  "symbols[].defaultSelfTradePreventionMode": [
+   "string"
+  ],
+  "symbols[].filters": [
+   "array"
+  ],
+  "symbols[].filters[]": [
+   "object"
+  ],
+  "symbols[].filters[].applyMaxToMarket": [
+   "boolean"
+  ],
+  "symbols[].filters[].applyMinToMarket": [
+   "boolean"
+  ],
+  "symbols[].filters[].askMultiplierDown": [
+   "string"
+  ],
+  "symbols[].filters[].askMultiplierUp": [
+   "string"
+  ],
+  "symbols[].filters[].avgPriceMins": [
+   "integer"
+  ],
+  "symbols[].filters[].bidMultiplierDown": [
+   "string"
+  ],
+  "symbols[].filters[].bidMultiplierUp": [
+   "string"
+  ],
+  "symbols[].filters[].filterType": [
+   "string"
+  ],
+  "symbols[].filters[].limit": [
+   "integer"
+  ],
+  "symbols[].filters[].maxNotional": [
+   "string"
+  ],
+  "symbols[].filters[].maxNumAlgoOrders": [
+   "integer"
+  ],
+  "symbols[].filters[].maxNumOrderAmends": [
+   "integer"
+  ],
+  "symbols[].filters[].maxNumOrderLists": [
+   "integer"
+  ],
+  "symbols[].filters[].maxNumOrders": [
+   "integer"
+  ],
+  "symbols[].filters[].maxPrice": [
+   "string"
+  ],
+  "symbols[].filters[].maxQty": [
+   "string"
+  ],
+  "symbols[].filters[].maxTrailingAboveDelta": [
+   "integer"
+  ],
+  "symbols[].filters[].maxTrailingBelowDelta": [
+   "integer"
+  ],
+  "symbols[].filters[].minNotional": [
+   "string"
+  ],
+  "symbols[].filters[].minPrice": [
+   "string"
+  ],
+  "symbols[].filters[].minQty": [
+   "string"
+  ],
+  "symbols[].filters[].minTrailingAboveDelta": [
+   "integer"
+  ],
+  "symbols[].filters[].minTrailingBelowDelta": [
+   "integer"
+  ],
+  "symbols[].filters[].stepSize": [
+   "string"
+  ],
+  "symbols[].filters[].tickSize": [
+   "string"
+  ],
+  "symbols[].icebergAllowed": [
+   "boolean"
+  ],
+  "symbols[].isMarginTradingAllowed": [
+   "boolean"
+  ],
+  "symbols[].isSpotTradingAllowed": [
+   "boolean"
+  ],
+  "symbols[].ocoAllowed": [
+   "boolean"
+  ],
+  "symbols[].opoAllowed": [
+   "boolean"
+  ],
+  "symbols[].orderTypes": [
+   "array"
+  ],
+  "symbols[].orderTypes[]": [
+   "string"
+  ],
+  "symbols[].otoAllowed": [
+   "boolean"
+  ],
+  "symbols[].pegInstructionsAllowed": [
+   "boolean"
+  ],
+  "symbols[].permissionSets": [
+   "array"
+  ],
+  "symbols[].permissionSets[]": [
+   "array"
+  ],
+  "symbols[].permissionSets[][]": [
+   "string"
+  ],
+  "symbols[].permissions": [
+   "array"
+  ],
+  "symbols[].quoteAsset": [
+   "string"
+  ],
+  "symbols[].quoteAssetPrecision": [
+   "integer"
+  ],
+  "symbols[].quoteCommissionPrecision": [
+   "integer"
+  ],
+  "symbols[].quoteOrderQtyMarketAllowed": [
+   "boolean"
+  ],
+  "symbols[].quotePrecision": [
+   "integer"
+  ],
+  "symbols[].status": [
+   "string"
+  ],
+  "symbols[].symbol": [
+   "string"
+  ],
+  "timezone": [
+   "string"
+  ]
+ },
+ "ts": "2026-08-18T23:23:51+00:00",
+ "url": "https://api.binance.com/api/v3/exchangeInfo?symbol=BTCUSDT",
+ "vendor": "Binance"
+}

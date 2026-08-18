@@ -1,0 +1,181 @@
+{
+ "category": "registry",
+ "field_count": 56,
+ "first_seen": "2026-08-18T23:20:13+00:00",
+ "id": "packagist-monolog",
+ "pending_keys": [],
+ "runs": 3,
+ "schema": {
+  "minified": [
+   "string"
+  ],
+  "packages": [
+   "object"
+  ],
+  "packages.monolog/monolog": [
+   "array"
+  ],
+  "packages.monolog/monolog[]": [
+   "object"
+  ],
+  "packages.monolog/monolog[].authors": [
+   "array"
+  ],
+  "packages.monolog/monolog[].authors[]": [
+   "object"
+  ],
+  "packages.monolog/monolog[].authors[].email": [
+   "string"
+  ],
+  "packages.monolog/monolog[].authors[].homepage": [
+   "string"
+  ],
+  "packages.monolog/monolog[].authors[].name": [
+   "string"
+  ],
+  "packages.monolog/monolog[].autoload": [
+   "object"
+  ],
+  "packages.monolog/monolog[].autoload.psr-4": [
+   "object"
+  ],
+  "packages.monolog/monolog[].autoload.psr-4.Monolog\\": [
+   "string"
+  ],
+  "packages.monolog/monolog[].description": [
+   "string"
+  ],
+  "packages.monolog/monolog[].dist": [
+   "object"
+  ],
+  "packages.monolog/monolog[].dist.reference": [
+   "string"
+  ],
+  "packages.monolog/monolog[].dist.shasum": [
+   "string"
+  ],
+  "packages.monolog/monolog[].dist.type": [
+   "string"
+  ],
+  "packages.monolog/monolog[].dist.url": [
+   "string"
+  ],
+  "packages.monolog/monolog[].extra": [
+   "object"
+  ],
+  "packages.monolog/monolog[].extra.branch-alias": [
+   "object"
+  ],
+  "packages.monolog/monolog[].extra.branch-alias.dev-main": [
+   "string"
+  ],
+  "packages.monolog/monolog[].funding": [
+   "array"
+  ],
+  "packages.monolog/monolog[].funding[]": [
+   "object"
+  ],
+  "packages.monolog/monolog[].funding[].type": [
+   "string"
+  ],
+  "packages.monolog/monolog[].funding[].url": [
+   "string"
+  ],
+  "packages.monolog/monolog[].homepage": [
+   "string"
+  ],
+  "packages.monolog/monolog[].keywords": [
+   "array"
+  ],
+  "packages.monolog/monolog[].keywords[]": [
+   "string"
+  ],
+  "packages.monolog/monolog[].license": [
+   "array"
+  ],
+  "packages.monolog/monolog[].license[]": [
+   "string"
+  ],
+  "packages.monolog/monolog[].name": [
+   "string"
+  ],
+  "packages.monolog/monolog[].provide": [
+   "object"
+  ],
+  "packages.monolog/monolog[].provide.psr/log-implementation": [
+   "string"
+  ],
+  "packages.monolog/monolog[].published-time": [
+   "string"
+  ],
+  "packages.monolog/monolog[].require": [
+   "object"
+  ],
+  "packages.monolog/monolog[].require-dev": [
+   "object"
+  ],
+  "packages.monolog/monolog[].require-dev.{*}": [
+   "string"
+  ],
+  "packages.monolog/monolog[].require.php": [
+   "string"
+  ],
+  "packages.monolog/monolog[].require.psr/log": [
+   "string"
+  ],
+  "packages.monolog/monolog[].source": [
+   "object"
+  ],
+  "packages.monolog/monolog[].source.reference": [
+   "string"
+  ],
+  "packages.monolog/monolog[].source.type": [
+   "string"
+  ],
+  "packages.monolog/monolog[].source.url": [
+   "string"
+  ],
+  "packages.monolog/monolog[].suggest": [
+   "object"
+  ],
+  "packages.monolog/monolog[].suggest.{*}": [
+   "string"
+  ],
+  "packages.monolog/monolog[].support": [
+   "object"
+  ],
+  "packages.monolog/monolog[].support.issues": [
+   "string"
+  ],
+  "packages.monolog/monolog[].support.source": [
+   "string"
+  ],
+  "packages.monolog/monolog[].time": [
+   "string"
+  ],
+  "packages.monolog/monolog[].type": [
+   "string"
+  ],
+  "packages.monolog/monolog[].version": [
+   "string"
+  ],
+  "packages.monolog/monolog[].version_normalized": [
+   "string"
+  ],
+  "security-advisories": [
+   "array"
+  ],
+  "security-advisories[]": [
+   "object"
+  ],
+  "security-advisories[].advisoryId": [
+   "string"
+  ],
+  "security-advisories[].affectedVersions": [
+   "string"
+  ]
+ },
+ "ts": "2026-08-18T23:23:51+00:00",
+ "url": "https://repo.packagist.org/p2/monolog/monolog.json",
+ "vendor": "Packagist"
+}
