@@ -1,0 +1,7454 @@
+{
+ "category": "spec",
+ "field_count": 1812,
+ "first_seen": "2026-08-18T23:38:25+00:00",
+ "id": "spec-square",
+ "pending_keys": [],
+ "runs": 1,
+ "schema": {
+  "DELETE /v2/bookings/custom-attribute-definitions/{key}": [
+   "params:1",
+   "responses:1"
+  ],
+  "DELETE /v2/bookings/{booking_id}/custom-attributes/{key}": [
+   "params:2",
+   "responses:1"
+  ],
+  "DELETE /v2/catalog/object/{object_id}": [
+   "params:1",
+   "responses:1"
+  ],
+  "DELETE /v2/customers/custom-attribute-definitions/{key}": [
+   "params:1",
+   "responses:1"
+  ],
+  "DELETE /v2/customers/groups/{group_id}": [
+   "params:1",
+   "responses:1"
+  ],
+  "DELETE /v2/customers/{customer_id}": [
+   "params:2",
+   "responses:1"
+  ],
+  "DELETE /v2/customers/{customer_id}/cards/{card_id}": [
+   "DEPRECATED",
+   "params:2",
+   "responses:1"
+  ],
+  "DELETE /v2/customers/{customer_id}/custom-attributes/{key}": [
+   "params:2",
+   "responses:1"
+  ],
+  "DELETE /v2/customers/{customer_id}/groups/{group_id}": [
+   "params:2",
+   "responses:1"
+  ],
+  "DELETE /v2/disputes/{dispute_id}/evidence/{evidence_id}": [
+   "params:2",
+   "responses:1"
+  ],
+  "DELETE /v2/invoices/{invoice_id}": [
+   "params:2",
+   "responses:1"
+  ],
+  "DELETE /v2/invoices/{invoice_id}/attachments/{attachment_id}": [
+   "params:2",
+   "responses:1"
+  ],
+  "DELETE /v2/labor/break-types/{id}": [
+   "params:1",
+   "responses:1"
+  ],
+  "DELETE /v2/labor/shifts/{id}": [
+   "DEPRECATED",
+   "params:1",
+   "responses:1"
+  ],
+  "DELETE /v2/labor/timecards/{id}": [
+   "params:1",
+   "responses:1"
+  ],
+  "DELETE /v2/locations/custom-attribute-definitions/{key}": [
+   "params:1",
+   "responses:1"
+  ],
+  "DELETE /v2/locations/{location_id}/custom-attributes/{key}": [
+   "params:2",
+   "responses:1"
+  ],
+  "DELETE /v2/loyalty/rewards/{reward_id}": [
+   "params:1",
+   "responses:1"
+  ],
+  "DELETE /v2/merchants/custom-attribute-definitions/{key}": [
+   "params:1",
+   "responses:1"
+  ],
+  "DELETE /v2/merchants/{merchant_id}/custom-attributes/{key}": [
+   "params:2",
+   "responses:1"
+  ],
+  "DELETE /v2/online-checkout/payment-links/{id}": [
+   "params:1",
+   "responses:1"
+  ],
+  "DELETE /v2/orders/custom-attribute-definitions/{key}": [
+   "params:1",
+   "responses:1"
+  ],
+  "DELETE /v2/orders/{order_id}/custom-attributes/{custom_attribute_key}": [
+   "params:2",
+   "responses:1"
+  ],
+  "DELETE /v2/sites/{site_id}/snippet": [
+   "params:1",
+   "responses:1"
+  ],
+  "DELETE /v2/subscriptions/{subscription_id}/actions/{action_id}": [
+   "params:2",
+   "responses:1"
+  ],
+  "DELETE /v2/transfer-orders/{transfer_order_id}": [
+   "params:2",
+   "responses:1"
+  ],
+  "DELETE /v2/webhooks/subscriptions/{subscription_id}": [
+   "params:1",
+   "responses:1"
+  ],
+  "GET /v1/{location_id}/orders": [
+   "DEPRECATED",
+   "params:4",
+   "responses:1"
+  ],
+  "GET /v1/{location_id}/orders/{order_id}": [
+   "DEPRECATED",
+   "params:2",
+   "responses:1"
+  ],
+  "GET /v2/bank-accounts": [
+   "params:4",
+   "responses:1"
+  ],
+  "GET /v2/bank-accounts/by-v1-id/{v1_bank_account_id}": [
+   "params:1",
+   "responses:1"
+  ],
+  "GET /v2/bank-accounts/{bank_account_id}": [
+   "params:1",
+   "responses:1"
+  ],
+  "GET /v2/bookings": [
+   "params:7",
+   "responses:1"
+  ],
+  "GET /v2/bookings/business-booking-profile": [
+   "params:0",
+   "responses:1"
+  ],
+  "GET /v2/bookings/custom-attribute-definitions": [
+   "params:2",
+   "responses:1"
+  ],
+  "GET /v2/bookings/custom-attribute-definitions/{key}": [
+   "params:2",
+   "responses:1"
+  ],
+  "GET /v2/bookings/location-booking-profiles": [
+   "params:2",
+   "responses:1"
+  ],
+  "GET /v2/bookings/location-booking-profiles/{location_id}": [
+   "params:1",
+   "responses:1"
+  ],
+  "GET /v2/bookings/team-member-booking-profiles": [
+   "params:4",
+   "responses:1"
+  ],
+  "GET /v2/bookings/team-member-booking-profiles/{team_member_id}": [
+   "params:1",
+   "responses:1"
+  ],
+  "GET /v2/bookings/{booking_id}": [
+   "params:1",
+   "responses:1"
+  ],
+  "GET /v2/bookings/{booking_id}/custom-attributes": [
+   "params:4",
+   "responses:1"
+  ],
+  "GET /v2/bookings/{booking_id}/custom-attributes/{key}": [
+   "params:4",
+   "responses:1"
+  ],
+  "GET /v2/cards": [
+   "params:5",
+   "responses:1"
+  ],
+  "GET /v2/cards/{card_id}": [
+   "params:1",
+   "responses:1"
+  ],
+  "GET /v2/cash-drawers/shifts": [
+   "params:6",
+   "responses:1"
+  ],
+  "GET /v2/cash-drawers/shifts/{shift_id}": [
+   "params:2",
+   "responses:1"
+  ],
+  "GET /v2/cash-drawers/shifts/{shift_id}/events": [
+   "params:4",
+   "responses:1"
+  ],
+  "GET /v2/catalog/info": [
+   "params:0",
+   "responses:1"
+  ],
+  "GET /v2/catalog/list": [
+   "params:3",
+   "responses:1"
+  ],
+  "GET /v2/catalog/object/{object_id}": [
+   "params:4",
+   "responses:1"
+  ],
+  "GET /v2/channels": [
+   "params:5",
+   "responses:1"
+  ],
+  "GET /v2/channels/{channel_id}": [
+   "params:1",
+   "responses:1"
+  ],
+  "GET /v2/customers": [
+   "params:5",
+   "responses:1"
+  ],
+  "GET /v2/customers/custom-attribute-definitions": [
+   "params:2",
+   "responses:1"
+  ],
+  "GET /v2/customers/custom-attribute-definitions/{key}": [
+   "params:2",
+   "responses:1"
+  ],
+  "GET /v2/customers/groups": [
+   "params:2",
+   "responses:1"
+  ],
+  "GET /v2/customers/groups/{group_id}": [
+   "params:1",
+   "responses:1"
+  ],
+  "GET /v2/customers/segments": [
+   "params:2",
+   "responses:1"
+  ],
+  "GET /v2/customers/segments/{segment_id}": [
+   "params:1",
+   "responses:1"
+  ],
+  "GET /v2/customers/{customer_id}": [
+   "params:1",
+   "responses:1"
+  ],
+  "GET /v2/customers/{customer_id}/custom-attributes": [
+   "params:4",
+   "responses:1"
+  ],
+  "GET /v2/customers/{customer_id}/custom-attributes/{key}": [
+   "params:4",
+   "responses:1"
+  ],
+  "GET /v2/devices": [
+   "params:4",
+   "responses:1"
+  ],
+  "GET /v2/devices/codes": [
+   "params:4",
+   "responses:1"
+  ],
+  "GET /v2/devices/codes/{id}": [
+   "params:1",
+   "responses:1"
+  ],
+  "GET /v2/devices/{device_id}": [
+   "params:1",
+   "responses:1"
+  ],
+  "GET /v2/disputes": [
+   "params:3",
+   "responses:1"
+  ],
+  "GET /v2/disputes/{dispute_id}": [
+   "params:1",
+   "responses:1"
+  ],
+  "GET /v2/disputes/{dispute_id}/evidence": [
+   "params:2",
+   "responses:1"
+  ],
+  "GET /v2/disputes/{dispute_id}/evidence/{evidence_id}": [
+   "params:2",
+   "responses:1"
+  ],
+  "GET /v2/employees": [
+   "DEPRECATED",
+   "params:4",
+   "responses:1"
+  ],
+  "GET /v2/employees/{id}": [
+   "DEPRECATED",
+   "params:1",
+   "responses:1"
+  ],
+  "GET /v2/events/types": [
+   "params:1",
+   "responses:1"
+  ],
+  "GET /v2/gift-cards": [
+   "params:5",
+   "responses:1"
+  ],
+  "GET /v2/gift-cards/activities": [
+   "params:8",
+   "responses:1"
+  ],
+  "GET /v2/gift-cards/{id}": [
+   "params:1",
+   "responses:1"
+  ],
+  "GET /v2/inventory/adjustment-reasons": [
+   "params:2",
+   "responses:1"
+  ],
+  "GET /v2/inventory/adjustment/{adjustment_id}": [
+   "DEPRECATED",
+   "params:1",
+   "responses:1"
+  ],
+  "GET /v2/inventory/adjustments/{adjustment_id}": [
+   "params:1",
+   "responses:1"
+  ],
+  "GET /v2/inventory/physical-count/{physical_count_id}": [
+   "DEPRECATED",
+   "params:1",
+   "responses:1"
+  ],
+  "GET /v2/inventory/physical-counts/{physical_count_id}": [
+   "params:1",
+   "responses:1"
+  ],
+  "GET /v2/inventory/{catalog_object_id}": [
+   "params:3",
+   "responses:1"
+  ],
+  "GET /v2/inventory/{catalog_object_id}/changes": [
+   "DEPRECATED",
+   "params:3",
+   "responses:1"
+  ],
+  "GET /v2/invoices": [
+   "params:3",
+   "responses:1"
+  ],
+  "GET /v2/invoices/{invoice_id}": [
+   "params:1",
+   "responses:1"
+  ],
+  "GET /v2/labor/break-types": [
+   "params:3",
+   "responses:1"
+  ],
+  "GET /v2/labor/break-types/{id}": [
+   "params:1",
+   "responses:1"
+  ],
+  "GET /v2/labor/employee-wages": [
+   "DEPRECATED",
+   "params:3",
+   "responses:1"
+  ],
+  "GET /v2/labor/employee-wages/{id}": [
+   "DEPRECATED",
+   "params:1",
+   "responses:1"
+  ],
+  "GET /v2/labor/scheduled-shifts/{id}": [
+   "params:1",
+   "responses:1"
+  ],
+  "GET /v2/labor/shifts/{id}": [
+   "DEPRECATED",
+   "params:1",
+   "responses:1"
+  ],
+  "GET /v2/labor/team-member-wages": [
+   "params:3",
+   "responses:1"
+  ],
+  "GET /v2/labor/team-member-wages/{id}": [
+   "params:1",
+   "responses:1"
+  ],
+  "GET /v2/labor/timecards/{id}": [
+   "params:1",
+   "responses:1"
+  ],
+  "GET /v2/labor/workweek-configs": [
+   "params:2",
+   "responses:1"
+  ],
+  "GET /v2/locations": [
+   "params:0",
+   "responses:1"
+  ],
+  "GET /v2/locations/custom-attribute-definitions": [
+   "params:3",
+   "responses:1"
+  ],
+  "GET /v2/locations/custom-attribute-definitions/{key}": [
+   "params:2",
+   "responses:1"
+  ],
+  "GET /v2/locations/{location_id}": [
+   "params:1",
+   "responses:1"
+  ],
+  "GET /v2/locations/{location_id}/custom-attributes": [
+   "params:5",
+   "responses:1"
+  ],
+  "GET /v2/locations/{location_id}/custom-attributes/{key}": [
+   "params:4",
+   "responses:1"
+  ],
+  "GET /v2/locations/{location_id}/transactions": [
+   "DEPRECATED",
+   "params:5",
+   "responses:1"
+  ],
+  "GET /v2/locations/{location_id}/transactions/{transaction_id}": [
+   "DEPRECATED",
+   "params:2",
+   "responses:1"
+  ],
+  "GET /v2/loyalty/accounts/{account_id}": [
+   "params:1",
+   "responses:1"
+  ],
+  "GET /v2/loyalty/programs": [
+   "DEPRECATED",
+   "params:0",
+   "responses:1"
+  ],
+  "GET /v2/loyalty/programs/{program_id}": [
+   "params:1",
+   "responses:1"
+  ],
+  "GET /v2/loyalty/programs/{program_id}/promotions": [
+   "params:4",
+   "responses:1"
+  ],
+  "GET /v2/loyalty/programs/{program_id}/promotions/{promotion_id}": [
+   "params:2",
+   "responses:1"
+  ],
+  "GET /v2/loyalty/rewards/{reward_id}": [
+   "params:1",
+   "responses:1"
+  ],
+  "GET /v2/merchants": [
+   "params:1",
+   "responses:1"
+  ],
+  "GET /v2/merchants/custom-attribute-definitions": [
+   "params:3",
+   "responses:1"
+  ],
+  "GET /v2/merchants/custom-attribute-definitions/{key}": [
+   "params:2",
+   "responses:1"
+  ],
+  "GET /v2/merchants/{merchant_id}": [
+   "params:1",
+   "responses:1"
+  ],
+  "GET /v2/merchants/{merchant_id}/custom-attributes": [
+   "params:5",
+   "responses:1"
+  ],
+  "GET /v2/merchants/{merchant_id}/custom-attributes/{key}": [
+   "params:4",
+   "responses:1"
+  ],
+  "GET /v2/online-checkout/location-settings/{location_id}": [
+   "params:1",
+   "responses:1"
+  ],
+  "GET /v2/online-checkout/merchant-settings": [
+   "params:0",
+   "responses:1"
+  ],
+  "GET /v2/online-checkout/payment-links": [
+   "params:2",
+   "responses:1"
+  ],
+  "GET /v2/online-checkout/payment-links/{id}": [
+   "params:1",
+   "responses:1"
+  ],
+  "GET /v2/orders/custom-attribute-definitions": [
+   "params:3",
+   "responses:1"
+  ],
+  "GET /v2/orders/custom-attribute-definitions/{key}": [
+   "params:2",
+   "responses:1"
+  ],
+  "GET /v2/orders/{order_id}": [
+   "params:1",
+   "responses:1"
+  ],
+  "GET /v2/orders/{order_id}/custom-attributes": [
+   "params:5",
+   "responses:1"
+  ],
+  "GET /v2/orders/{order_id}/custom-attributes/{custom_attribute_key}": [
+   "params:4",
+   "responses:1"
+  ],
+  "GET /v2/payments": [
+   "params:15",
+   "responses:1"
+  ],
+  "GET /v2/payments/{payment_id}": [
+   "params:1",
+   "responses:1"
+  ],
+  "GET /v2/payouts": [
+   "params:7",
+   "responses:1"
+  ],
+  "GET /v2/payouts/{payout_id}": [
+   "params:1",
+   "responses:1"
+  ],
+  "GET /v2/payouts/{payout_id}/payout-entries": [
+   "params:4",
+   "responses:1"
+  ],
+  "GET /v2/refunds": [
+   "params:11",
+   "responses:1"
+  ],
+  "GET /v2/refunds/{refund_id}": [
+   "params:1",
+   "responses:1"
+  ],
+  "GET /v2/sites": [
+   "params:0",
+   "responses:1"
+  ],
+  "GET /v2/sites/{site_id}/snippet": [
+   "params:1",
+   "responses:1"
+  ],
+  "GET /v2/subscriptions/{subscription_id}": [
+   "params:2",
+   "responses:1"
+  ],
+  "GET /v2/subscriptions/{subscription_id}/events": [
+   "params:3",
+   "responses:1"
+  ],
+  "GET /v2/team-members/jobs": [
+   "params:1",
+   "responses:1"
+  ],
+  "GET /v2/team-members/jobs/{job_id}": [
+   "params:1",
+   "responses:1"
+  ],
+  "GET /v2/team-members/{team_member_id}": [
+   "params:1",
+   "responses:1"
+  ],
+  "GET /v2/team-members/{team_member_id}/wage-setting": [
+   "params:1",
+   "responses:1"
+  ],
+  "GET /v2/terminals/actions/{action_id}": [
+   "params:1",
+   "responses:1"
+  ],
+  "GET /v2/terminals/checkouts/{checkout_id}": [
+   "params:1",
+   "responses:1"
+  ],
+  "GET /v2/terminals/refunds/{terminal_refund_id}": [
+   "params:1",
+   "responses:1"
+  ],
+  "GET /v2/transfer-orders/{transfer_order_id}": [
+   "params:1",
+   "responses:1"
+  ],
+  "GET /v2/vendors/{vendor_id}": [
+   "params:1",
+   "responses:1"
+  ],
+  "GET /v2/webhooks/event-types": [
+   "params:1",
+   "responses:1"
+  ],
+  "GET /v2/webhooks/subscriptions": [
+   "params:4",
+   "responses:1"
+  ],
+  "GET /v2/webhooks/subscriptions/{subscription_id}": [
+   "params:1",
+   "responses:1"
+  ],
+  "POST /oauth2/revoke": [
+   "body",
+   "params:0",
+   "responses:1"
+  ],
+  "POST /oauth2/token": [
+   "body",
+   "params:0",
+   "responses:1"
+  ],
+  "POST /oauth2/token/status": [
+   "params:0",
+   "responses:1"
+  ],
+  "POST /v2/apple-pay/domains": [
+   "body",
+   "params:0",
+   "responses:1"
+  ],
+  "POST /v2/bank-accounts": [
+   "body",
+   "params:0",
+   "responses:1"
+  ],
+  "POST /v2/bank-accounts/{bank_account_id}/disable": [
+   "params:1",
+   "responses:1"
+  ],
+  "POST /v2/bookings": [
+   "body",
+   "params:0",
+   "responses:1"
+  ],
+  "POST /v2/bookings/availability/search": [
+   "body",
+   "params:0",
+   "responses:1"
+  ],
+  "POST /v2/bookings/bulk-retrieve": [
+   "body",
+   "params:0",
+   "responses:1"
+  ],
+  "POST /v2/bookings/custom-attribute-definitions": [
+   "body",
+   "params:0",
+   "responses:1"
+  ],
+  "POST /v2/bookings/custom-attributes/bulk-delete": [
+   "body",
+   "params:0",
+   "responses:1"
+  ],
+  "POST /v2/bookings/custom-attributes/bulk-upsert": [
+   "body",
+   "params:0",
+   "responses:1"
+  ],
+  "POST /v2/bookings/team-member-booking-profiles/bulk-retrieve": [
+   "body",
+   "params:0",
+   "responses:1"
+  ],
+  "POST /v2/bookings/{booking_id}/cancel": [
+   "body",
+   "params:1",
+   "responses:1"
+  ],
+  "POST /v2/cards": [
+   "body",
+   "params:0",
+   "responses:1"
+  ],
+  "POST /v2/cards/{card_id}/disable": [
+   "params:1",
+   "responses:1"
+  ],
+  "POST /v2/catalog/batch-delete": [
+   "body",
+   "params:0",
+   "responses:1"
+  ],
+  "POST /v2/catalog/batch-retrieve": [
+   "body",
+   "params:0",
+   "responses:1"
+  ],
+  "POST /v2/catalog/batch-upsert": [
+   "body",
+   "params:0",
+   "responses:1"
+  ],
+  "POST /v2/catalog/images": [
+   "body",
+   "params:0",
+   "responses:1"
+  ],
+  "POST /v2/catalog/object": [
+   "body",
+   "params:0",
+   "responses:1"
+  ],
+  "POST /v2/catalog/search": [
+   "body",
+   "params:0",
+   "responses:1"
+  ],
+  "POST /v2/catalog/search-catalog-items": [
+   "body",
+   "params:0",
+   "responses:1"
+  ],
+  "POST /v2/catalog/update-item-modifier-lists": [
+   "body",
+   "params:0",
+   "responses:1"
+  ],
+  "POST /v2/catalog/update-item-taxes": [
+   "body",
+   "params:0",
+   "responses:1"
+  ],
+  "POST /v2/channels/bulk-retrieve": [
+   "body",
+   "params:0",
+   "responses:1"
+  ],
+  "POST /v2/customers": [
+   "body",
+   "params:0",
+   "responses:1"
+  ],
+  "POST /v2/customers/bulk-create": [
+   "body",
+   "params:0",
+   "responses:1"
+  ],
+  "POST /v2/customers/bulk-delete": [
+   "body",
+   "params:0",
+   "responses:1"
+  ],
+  "POST /v2/customers/bulk-retrieve": [
+   "body",
+   "params:0",
+   "responses:1"
+  ],
+  "POST /v2/customers/bulk-update": [
+   "body",
+   "params:0",
+   "responses:1"
+  ],
+  "POST /v2/customers/custom-attribute-definitions": [
+   "body",
+   "params:0",
+   "responses:1"
+  ],
+  "POST /v2/customers/custom-attributes/bulk-upsert": [
+   "body",
+   "params:0",
+   "responses:1"
+  ],
+  "POST /v2/customers/groups": [
+   "body",
+   "params:0",
+   "responses:1"
+  ],
+  "POST /v2/customers/search": [
+   "body",
+   "params:0",
+   "responses:1"
+  ],
+  "POST /v2/customers/{customer_id}/cards": [
+   "DEPRECATED",
+   "body",
+   "params:1",
+   "responses:1"
+  ],
+  "POST /v2/customers/{customer_id}/custom-attributes/{key}": [
+   "body",
+   "params:2",
+   "responses:1"
+  ],
+  "POST /v2/devices/codes": [
+   "body",
+   "params:0",
+   "responses:1"
+  ],
+  "POST /v2/disputes/{dispute_id}/accept": [
+   "params:1",
+   "responses:1"
+  ],
+  "POST /v2/disputes/{dispute_id}/evidence-files": [
+   "body",
+   "params:1",
+   "responses:1"
+  ],
+  "POST /v2/disputes/{dispute_id}/evidence-text": [
+   "body",
+   "params:1",
+   "responses:1"
+  ],
+  "POST /v2/disputes/{dispute_id}/submit-evidence": [
+   "params:1",
+   "responses:1"
+  ],
+  "POST /v2/events": [
+   "body",
+   "params:0",
+   "responses:1"
+  ],
+  "POST /v2/gift-cards": [
+   "body",
+   "params:0",
+   "responses:1"
+  ],
+  "POST /v2/gift-cards/activities": [
+   "body",
+   "params:0",
+   "responses:1"
+  ],
+  "POST /v2/gift-cards/from-gan": [
+   "body",
+   "params:0",
+   "responses:1"
+  ],
+  "POST /v2/gift-cards/from-nonce": [
+   "body",
+   "params:0",
+   "responses:1"
+  ],
+  "POST /v2/gift-cards/{gift_card_id}/link-customer": [
+   "body",
+   "params:1",
+   "responses:1"
+  ],
+  "POST /v2/gift-cards/{gift_card_id}/unlink-customer": [
+   "body",
+   "params:1",
+   "responses:1"
+  ],
+  "POST /v2/inventory/adjustment-reasons/create": [
+   "body",
+   "params:0",
+   "responses:1"
+  ],
+  "POST /v2/inventory/adjustment-reasons/delete": [
+   "body",
+   "params:0",
+   "responses:1"
+  ],
+  "POST /v2/inventory/adjustment-reasons/restore": [
+   "body",
+   "params:0",
+   "responses:1"
+  ],
+  "POST /v2/inventory/adjustment-reasons/retrieve": [
+   "body",
+   "params:0",
+   "responses:1"
+  ],
+  "POST /v2/inventory/batch-change": [
+   "DEPRECATED",
+   "body",
+   "params:0",
+   "responses:1"
+  ],
+  "POST /v2/inventory/batch-retrieve-changes": [
+   "DEPRECATED",
+   "body",
+   "params:0",
+   "responses:1"
+  ],
+  "POST /v2/inventory/batch-retrieve-counts": [
+   "DEPRECATED",
+   "body",
+   "params:0",
+   "responses:1"
+  ],
+  "POST /v2/inventory/changes/batch-create": [
+   "body",
+   "params:0",
+   "responses:1"
+  ],
+  "POST /v2/inventory/changes/batch-retrieve": [
+   "body",
+   "params:0",
+   "responses:1"
+  ],
+  "POST /v2/inventory/counts/batch-retrieve": [
+   "body",
+   "params:0",
+   "responses:1"
+  ],
+  "POST /v2/invoices": [
+   "body",
+   "params:0",
+   "responses:1"
+  ],
+  "POST /v2/invoices/search": [
+   "body",
+   "params:0",
+   "responses:1"
+  ],
+  "POST /v2/invoices/{invoice_id}/attachments": [
+   "body",
+   "params:1",
+   "responses:1"
+  ],
+  "POST /v2/invoices/{invoice_id}/cancel": [
+   "body",
+   "params:1",
+   "responses:1"
+  ],
+  "POST /v2/invoices/{invoice_id}/publish": [
+   "body",
+   "params:1",
+   "responses:1"
+  ],
+  "POST /v2/labor/break-types": [
+   "body",
+   "params:0",
+   "responses:1"
+  ],
+  "POST /v2/labor/scheduled-shifts": [
+   "body",
+   "params:0",
+   "responses:1"
+  ],
+  "POST /v2/labor/scheduled-shifts/bulk-publish": [
+   "body",
+   "params:0",
+   "responses:1"
+  ],
+  "POST /v2/labor/scheduled-shifts/search": [
+   "body",
+   "params:0",
+   "responses:1"
+  ],
+  "POST /v2/labor/scheduled-shifts/{id}/publish": [
+   "body",
+   "params:1",
+   "responses:1"
+  ],
+  "POST /v2/labor/shifts": [
+   "DEPRECATED",
+   "body",
+   "params:0",
+   "responses:1"
+  ],
+  "POST /v2/labor/shifts/search": [
+   "DEPRECATED",
+   "body",
+   "params:0",
+   "responses:1"
+  ],
+  "POST /v2/labor/timecards": [
+   "body",
+   "params:0",
+   "responses:1"
+  ],
+  "POST /v2/labor/timecards/search": [
+   "body",
+   "params:0",
+   "responses:1"
+  ],
+  "POST /v2/locations": [
+   "body",
+   "params:0",
+   "responses:1"
+  ],
+  "POST /v2/locations/custom-attribute-definitions": [
+   "body",
+   "params:0",
+   "responses:1"
+  ],
+  "POST /v2/locations/custom-attributes/bulk-delete": [
+   "body",
+   "params:0",
+   "responses:1"
+  ],
+  "POST /v2/locations/custom-attributes/bulk-upsert": [
+   "body",
+   "params:0",
+   "responses:1"
+  ],
+  "POST /v2/locations/{location_id}/checkouts": [
+   "DEPRECATED",
+   "body",
+   "params:1",
+   "responses:1"
+  ],
+  "POST /v2/locations/{location_id}/custom-attributes/{key}": [
+   "body",
+   "params:2",
+   "responses:1"
+  ],
+  "POST /v2/locations/{location_id}/transactions/{transaction_id}/capture": [
+   "DEPRECATED",
+   "params:2",
+   "responses:1"
+  ],
+  "POST /v2/locations/{location_id}/transactions/{transaction_id}/void": [
+   "DEPRECATED",
+   "params:2",
+   "responses:1"
+  ],
+  "POST /v2/loyalty/accounts": [
+   "body",
+   "params:0",
+   "responses:1"
+  ],
+  "POST /v2/loyalty/accounts/search": [
+   "body",
+   "params:0",
+   "responses:1"
+  ],
+  "POST /v2/loyalty/accounts/{account_id}/accumulate": [
+   "body",
+   "params:1",
+   "responses:1"
+  ],
+  "POST /v2/loyalty/accounts/{account_id}/adjust": [
+   "body",
+   "params:1",
+   "responses:1"
+  ],
+  "POST /v2/loyalty/events/search": [
+   "body",
+   "params:0",
+   "responses:1"
+  ],
+  "POST /v2/loyalty/programs/{program_id}/calculate": [
+   "body",
+   "params:1",
+   "responses:1"
+  ],
+  "POST /v2/loyalty/programs/{program_id}/promotions": [
+   "body",
+   "params:1",
+   "responses:1"
+  ],
+  "POST /v2/loyalty/programs/{program_id}/promotions/{promotion_id}/cancel": [
+   "params:2",
+   "responses:1"
+  ],
+  "POST /v2/loyalty/rewards": [
+   "body",
+   "params:0",
+   "responses:1"
+  ],
+  "POST /v2/loyalty/rewards/search": [
+   "body",
+   "params:0",
+   "responses:1"
+  ],
+  "POST /v2/loyalty/rewards/{reward_id}/redeem": [
+   "body",
+   "params:1",
+   "responses:1"
+  ],
+  "POST /v2/merchants/custom-attribute-definitions": [
+   "body",
+   "params:0",
+   "responses:1"
+  ],
+  "POST /v2/merchants/custom-attributes/bulk-delete": [
+   "body",
+   "params:0",
+   "responses:1"
+  ],
+  "POST /v2/merchants/custom-attributes/bulk-upsert": [
+   "body",
+   "params:0",
+   "responses:1"
+  ],
+  "POST /v2/merchants/{merchant_id}/custom-attributes/{key}": [
+   "body",
+   "params:2",
+   "responses:1"
+  ],
+  "POST /v2/online-checkout/payment-links": [
+   "body",
+   "params:0",
+   "responses:1"
+  ],
+  "POST /v2/orders": [
+   "body",
+   "params:0",
+   "responses:1"
+  ],
+  "POST /v2/orders/batch-retrieve": [
+   "body",
+   "params:0",
+   "responses:1"
+  ],
+  "POST /v2/orders/calculate": [
+   "body",
+   "params:0",
+   "responses:1"
+  ],
+  "POST /v2/orders/clone": [
+   "body",
+   "params:0",
+   "responses:1"
+  ],
+  "POST /v2/orders/custom-attribute-definitions": [
+   "body",
+   "params:0",
+   "responses:1"
+  ],
+  "POST /v2/orders/custom-attributes/bulk-delete": [
+   "body",
+   "params:0",
+   "responses:1"
+  ],
+  "POST /v2/orders/custom-attributes/bulk-upsert": [
+   "body",
+   "params:0",
+   "responses:1"
+  ],
+  "POST /v2/orders/search": [
+   "body",
+   "params:0",
+   "responses:1"
+  ],
+  "POST /v2/orders/{order_id}/custom-attributes/{custom_attribute_key}": [
+   "body",
+   "params:2",
+   "responses:1"
+  ],
+  "POST /v2/orders/{order_id}/pay": [
+   "body",
+   "params:1",
+   "responses:1"
+  ],
+  "POST /v2/payments": [
+   "body",
+   "params:0",
+   "responses:1"
+  ],
+  "POST /v2/payments/cancel": [
+   "body",
+   "params:0",
+   "responses:1"
+  ],
+  "POST /v2/payments/{payment_id}/cancel": [
+   "params:1",
+   "responses:1"
+  ],
+  "POST /v2/payments/{payment_id}/complete": [
+   "body",
+   "params:1",
+   "responses:1"
+  ],
+  "POST /v2/refunds": [
+   "body",
+   "params:0",
+   "responses:1"
+  ],
+  "POST /v2/sites/{site_id}/snippet": [
+   "body",
+   "params:1",
+   "responses:1"
+  ],
+  "POST /v2/subscriptions": [
+   "body",
+   "params:0",
+   "responses:1"
+  ],
+  "POST /v2/subscriptions/bulk-swap-plan": [
+   "body",
+   "params:0",
+   "responses:1"
+  ],
+  "POST /v2/subscriptions/search": [
+   "body",
+   "params:0",
+   "responses:1"
+  ],
+  "POST /v2/subscriptions/{subscription_id}/billing-anchor": [
+   "body",
+   "params:1",
+   "responses:1"
+  ],
+  "POST /v2/subscriptions/{subscription_id}/cancel": [
+   "params:1",
+   "responses:1"
+  ],
+  "POST /v2/subscriptions/{subscription_id}/pause": [
+   "body",
+   "params:1",
+   "responses:1"
+  ],
+  "POST /v2/subscriptions/{subscription_id}/resume": [
+   "body",
+   "params:1",
+   "responses:1"
+  ],
+  "POST /v2/subscriptions/{subscription_id}/swap-plan": [
+   "body",
+   "params:1",
+   "responses:1"
+  ],
+  "POST /v2/team-members": [
+   "body",
+   "params:0",
+   "responses:1"
+  ],
+  "POST /v2/team-members/bulk-create": [
+   "body",
+   "params:0",
+   "responses:1"
+  ],
+  "POST /v2/team-members/bulk-update": [
+   "body",
+   "params:0",
+   "responses:1"
+  ],
+  "POST /v2/team-members/jobs": [
+   "body",
+   "params:0",
+   "responses:1"
+  ],
+  "POST /v2/team-members/search": [
+   "body",
+   "params:0",
+   "responses:1"
+  ],
+  "POST /v2/terminals/actions": [
+   "body",
+   "params:0",
+   "responses:1"
+  ],
+  "POST /v2/terminals/actions/search": [
+   "body",
+   "params:0",
+   "responses:1"
+  ],
+  "POST /v2/terminals/actions/{action_id}/cancel": [
+   "params:1",
+   "responses:1"
+  ],
+  "POST /v2/terminals/actions/{action_id}/dismiss": [
+   "params:1",
+   "responses:1"
+  ],
+  "POST /v2/terminals/checkouts": [
+   "body",
+   "params:0",
+   "responses:1"
+  ],
+  "POST /v2/terminals/checkouts/search": [
+   "body",
+   "params:0",
+   "responses:1"
+  ],
+  "POST /v2/terminals/checkouts/{checkout_id}/cancel": [
+   "params:1",
+   "responses:1"
+  ],
+  "POST /v2/terminals/checkouts/{checkout_id}/dismiss": [
+   "params:1",
+   "responses:1"
+  ],
+  "POST /v2/terminals/refunds": [
+   "body",
+   "params:0",
+   "responses:1"
+  ],
+  "POST /v2/terminals/refunds/search": [
+   "body",
+   "params:0",
+   "responses:1"
+  ],
+  "POST /v2/terminals/refunds/{terminal_refund_id}/cancel": [
+   "params:1",
+   "responses:1"
+  ],
+  "POST /v2/terminals/refunds/{terminal_refund_id}/dismiss": [
+   "params:1",
+   "responses:1"
+  ],
+  "POST /v2/transfer-orders": [
+   "body",
+   "params:0",
+   "responses:1"
+  ],
+  "POST /v2/transfer-orders/search": [
+   "body",
+   "params:0",
+   "responses:1"
+  ],
+  "POST /v2/transfer-orders/{transfer_order_id}/cancel": [
+   "body",
+   "params:1",
+   "responses:1"
+  ],
+  "POST /v2/transfer-orders/{transfer_order_id}/receive": [
+   "body",
+   "params:1",
+   "responses:1"
+  ],
+  "POST /v2/transfer-orders/{transfer_order_id}/start": [
+   "body",
+   "params:1",
+   "responses:1"
+  ],
+  "POST /v2/vendors/bulk-create": [
+   "body",
+   "params:0",
+   "responses:1"
+  ],
+  "POST /v2/vendors/bulk-retrieve": [
+   "body",
+   "params:0",
+   "responses:1"
+  ],
+  "POST /v2/vendors/create": [
+   "body",
+   "params:0",
+   "responses:1"
+  ],
+  "POST /v2/vendors/search": [
+   "body",
+   "params:0",
+   "responses:1"
+  ],
+  "POST /v2/webhooks/subscriptions": [
+   "body",
+   "params:0",
+   "responses:1"
+  ],
+  "POST /v2/webhooks/subscriptions/{subscription_id}/signature-key": [
+   "body",
+   "params:1",
+   "responses:1"
+  ],
+  "POST /v2/webhooks/subscriptions/{subscription_id}/test": [
+   "body",
+   "params:1",
+   "responses:1"
+  ],
+  "PUT /v1/{location_id}/orders/{order_id}": [
+   "DEPRECATED",
+   "body",
+   "params:2",
+   "responses:1"
+  ],
+  "PUT /v2/bookings/custom-attribute-definitions/{key}": [
+   "body",
+   "params:1",
+   "responses:1"
+  ],
+  "PUT /v2/bookings/{booking_id}": [
+   "body",
+   "params:1",
+   "responses:1"
+  ],
+  "PUT /v2/bookings/{booking_id}/custom-attributes/{key}": [
+   "body",
+   "params:2",
+   "responses:1"
+  ],
+  "PUT /v2/catalog/images/{image_id}": [
+   "body",
+   "params:1",
+   "responses:1"
+  ],
+  "PUT /v2/customers/custom-attribute-definitions/{key}": [
+   "body",
+   "params:1",
+   "responses:1"
+  ],
+  "PUT /v2/customers/groups/{group_id}": [
+   "body",
+   "params:1",
+   "responses:1"
+  ],
+  "PUT /v2/customers/{customer_id}": [
+   "body",
+   "params:1",
+   "responses:1"
+  ],
+  "PUT /v2/customers/{customer_id}/groups/{group_id}": [
+   "params:2",
+   "responses:1"
+  ],
+  "PUT /v2/events/disable": [
+   "params:0",
+   "responses:1"
+  ],
+  "PUT /v2/events/enable": [
+   "params:0",
+   "responses:1"
+  ],
+  "PUT /v2/inventory/adjustment-reasons/update": [
+   "body",
+   "params:0",
+   "responses:1"
+  ],
+  "PUT /v2/inventory/adjustments/update": [
+   "body",
+   "params:0",
+   "responses:1"
+  ],
+  "PUT /v2/invoices/{invoice_id}": [
+   "body",
+   "params:1",
+   "responses:1"
+  ],
+  "PUT /v2/labor/break-types/{id}": [
+   "body",
+   "params:1",
+   "responses:1"
+  ],
+  "PUT /v2/labor/scheduled-shifts/{id}": [
+   "body",
+   "params:1",
+   "responses:1"
+  ],
+  "PUT /v2/labor/shifts/{id}": [
+   "DEPRECATED",
+   "body",
+   "params:1",
+   "responses:1"
+  ],
+  "PUT /v2/labor/timecards/{id}": [
+   "body",
+   "params:1",
+   "responses:1"
+  ],
+  "PUT /v2/labor/workweek-configs/{id}": [
+   "body",
+   "params:1",
+   "responses:1"
+  ],
+  "PUT /v2/locations/custom-attribute-definitions/{key}": [
+   "body",
+   "params:1",
+   "responses:1"
+  ],
+  "PUT /v2/locations/{location_id}": [
+   "body",
+   "params:1",
+   "responses:1"
+  ],
+  "PUT /v2/merchants/custom-attribute-definitions/{key}": [
+   "body",
+   "params:1",
+   "responses:1"
+  ],
+  "PUT /v2/online-checkout/location-settings/{location_id}": [
+   "body",
+   "params:1",
+   "responses:1"
+  ],
+  "PUT /v2/online-checkout/merchant-settings": [
+   "body",
+   "params:0",
+   "responses:1"
+  ],
+  "PUT /v2/online-checkout/payment-links/{id}": [
+   "body",
+   "params:1",
+   "responses:1"
+  ],
+  "PUT /v2/orders/custom-attribute-definitions/{key}": [
+   "body",
+   "params:1",
+   "responses:1"
+  ],
+  "PUT /v2/orders/{order_id}": [
+   "body",
+   "params:1",
+   "responses:1"
+  ],
+  "PUT /v2/payments/{payment_id}": [
+   "body",
+   "params:1",
+   "responses:1"
+  ],
+  "PUT /v2/subscriptions/{subscription_id}": [
+   "body",
+   "params:1",
+   "responses:1"
+  ],
+  "PUT /v2/team-members/jobs/{job_id}": [
+   "body",
+   "params:1",
+   "responses:1"
+  ],
+  "PUT /v2/team-members/{team_member_id}": [
+   "body",
+   "params:1",
+   "responses:1"
+  ],
+  "PUT /v2/team-members/{team_member_id}/wage-setting": [
+   "body",
+   "params:1",
+   "responses:1"
+  ],
+  "PUT /v2/transfer-orders/{transfer_order_id}": [
+   "body",
+   "params:1",
+   "responses:1"
+  ],
+  "PUT /v2/vendors/bulk-update": [
+   "body",
+   "params:0",
+   "responses:1"
+  ],
+  "PUT /v2/vendors/{vendor_id}": [
+   "body",
+   "params:0",
+   "responses:1"
+  ],
+  "PUT /v2/webhooks/subscriptions/{subscription_id}": [
+   "body",
+   "params:1",
+   "responses:1"
+  ],
+  "schema:ACHDetails": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:AcceptDisputeResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:AcceptedPaymentMethods": [
+   "props:4",
+   "req:0"
+  ],
+  "schema:AccumulateLoyaltyPointsRequest": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:AccumulateLoyaltyPointsResponse": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:ActionCancelReason": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:ActivityType": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:AddGroupToCustomerResponse": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:AdditionalRecipient": [
+   "props:4",
+   "req:2"
+  ],
+  "schema:Address": [
+   "props:14",
+   "req:0"
+  ],
+  "schema:AdjustLoyaltyPointsRequest": [
+   "props:3",
+   "req:2"
+  ],
+  "schema:AdjustLoyaltyPointsResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:AfterpayDetails": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:ApplicationDetails": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:ApplicationDetailsExternalSquareProduct": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:ApplicationType": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:AppointmentSegment": [
+   "props:7",
+   "req:1"
+  ],
+  "schema:ArchivedState": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:Availability": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:BankAccount": [
+   "props:18",
+   "req:10"
+  ],
+  "schema:BankAccountCreatedEvent": [
+   "props:6",
+   "req:0"
+  ],
+  "schema:BankAccountCreatedEventData": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:BankAccountCreatedEventObject": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:BankAccountDisabledEvent": [
+   "props:6",
+   "req:0"
+  ],
+  "schema:BankAccountDisabledEventData": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:BankAccountDisabledEventObject": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:BankAccountPaymentDetails": [
+   "props:8",
+   "req:0"
+  ],
+  "schema:BankAccountStatus": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:BankAccountType": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:BankAccountVerifiedEvent": [
+   "props:6",
+   "req:0"
+  ],
+  "schema:BankAccountVerifiedEventData": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:BankAccountVerifiedEventObject": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:BatchChangeInventoryRequest": [
+   "props:3",
+   "req:1"
+  ],
+  "schema:BatchChangeInventoryResponse": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:BatchDeleteCatalogObjectsRequest": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:BatchDeleteCatalogObjectsResponse": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:BatchRetrieveCatalogObjectsRequest": [
+   "props:6",
+   "req:1"
+  ],
+  "schema:BatchRetrieveCatalogObjectsResponse": [
+   "props:4",
+   "req:0"
+  ],
+  "schema:BatchRetrieveInventoryChangesRequest": [
+   "props:10",
+   "req:0"
+  ],
+  "schema:BatchRetrieveInventoryChangesResponse": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:BatchRetrieveInventoryChangesSort": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:BatchRetrieveInventoryChangesSortField": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:BatchRetrieveInventoryCountsRequest": [
+   "props:6",
+   "req:0"
+  ],
+  "schema:BatchRetrieveInventoryCountsResponse": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:BatchRetrieveOrdersRequest": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:BatchRetrieveOrdersResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:BatchUpsertCatalogObjectsRequest": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:BatchUpsertCatalogObjectsResponse": [
+   "props:4",
+   "req:0"
+  ],
+  "schema:Booking": [
+   "props:17",
+   "req:0"
+  ],
+  "schema:BookingBookingSource": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:BookingCreatedEvent": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:BookingCreatedEventData": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:BookingCreatedEventObject": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:BookingCreatorDetails": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:BookingCreatorDetailsCreatorType": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:BookingCustomAttributeDefinitionOwnedCreatedEvent": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:BookingCustomAttributeDefinitionOwnedDeletedEvent": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:BookingCustomAttributeDefinitionOwnedUpdatedEvent": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:BookingCustomAttributeDefinitionVisibleCreatedEvent": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:BookingCustomAttributeDefinitionVisibleDeletedEvent": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:BookingCustomAttributeDefinitionVisibleUpdatedEvent": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:BookingCustomAttributeDeleteRequest": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:BookingCustomAttributeDeleteResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:BookingCustomAttributeOwnedDeletedEvent": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:BookingCustomAttributeOwnedUpdatedEvent": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:BookingCustomAttributeUpsertRequest": [
+   "props:3",
+   "req:2"
+  ],
+  "schema:BookingCustomAttributeUpsertResponse": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:BookingCustomAttributeVisibleDeletedEvent": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:BookingCustomAttributeVisibleUpdatedEvent": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:BookingStatus": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:BookingUpdatedEvent": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:BookingUpdatedEventData": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:BookingUpdatedEventObject": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:Break": [
+   "props:7",
+   "req:5"
+  ],
+  "schema:BreakType": [
+   "props:8",
+   "req:4"
+  ],
+  "schema:BulkCreateCustomerData": [
+   "props:11",
+   "req:0"
+  ],
+  "schema:BulkCreateCustomersRequest": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:BulkCreateCustomersResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:BulkCreateTeamMembersRequest": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:BulkCreateTeamMembersResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:BulkCreateVendorsRequest": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:BulkCreateVendorsResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:BulkDeleteBookingCustomAttributesRequest": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:BulkDeleteBookingCustomAttributesResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:BulkDeleteCustomersRequest": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:BulkDeleteCustomersResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:BulkDeleteLocationCustomAttributesRequest": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:BulkDeleteLocationCustomAttributesRequestLocationCustomAttributeDeleteRequest": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:BulkDeleteLocationCustomAttributesResponse": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:BulkDeleteLocationCustomAttributesResponseLocationCustomAttributeDeleteResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:BulkDeleteMerchantCustomAttributesRequest": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:BulkDeleteMerchantCustomAttributesRequestMerchantCustomAttributeDeleteRequest": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:BulkDeleteMerchantCustomAttributesResponse": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:BulkDeleteMerchantCustomAttributesResponseMerchantCustomAttributeDeleteResponse": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:BulkDeleteOrderCustomAttributesRequest": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:BulkDeleteOrderCustomAttributesRequestDeleteCustomAttribute": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:BulkDeleteOrderCustomAttributesResponse": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:BulkPublishScheduledShiftsData": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:BulkPublishScheduledShiftsRequest": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:BulkPublishScheduledShiftsResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:BulkRetrieveBookingsRequest": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:BulkRetrieveBookingsResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:BulkRetrieveChannelsRequest": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:BulkRetrieveChannelsRequestConstants": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:BulkRetrieveChannelsResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:BulkRetrieveCustomersRequest": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:BulkRetrieveCustomersResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:BulkRetrieveTeamMemberBookingProfilesRequest": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:BulkRetrieveTeamMemberBookingProfilesResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:BulkRetrieveVendorsRequest": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:BulkRetrieveVendorsResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:BulkSwapPlanRequest": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:BulkSwapPlanResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:BulkUpdateCustomerData": [
+   "props:12",
+   "req:0"
+  ],
+  "schema:BulkUpdateCustomersRequest": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:BulkUpdateCustomersResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:BulkUpdateTeamMembersRequest": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:BulkUpdateTeamMembersResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:BulkUpdateVendorsRequest": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:BulkUpdateVendorsResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:BulkUpsertBookingCustomAttributesRequest": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:BulkUpsertBookingCustomAttributesResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:BulkUpsertCustomerCustomAttributesRequest": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:BulkUpsertCustomerCustomAttributesRequestCustomerCustomAttributeUpsertRequest": [
+   "props:3",
+   "req:2"
+  ],
+  "schema:BulkUpsertCustomerCustomAttributesResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:BulkUpsertCustomerCustomAttributesResponseCustomerCustomAttributeUpsertResponse": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:BulkUpsertLocationCustomAttributesRequest": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:BulkUpsertLocationCustomAttributesRequestLocationCustomAttributeUpsertRequest": [
+   "props:3",
+   "req:2"
+  ],
+  "schema:BulkUpsertLocationCustomAttributesResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:BulkUpsertLocationCustomAttributesResponseLocationCustomAttributeUpsertResponse": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:BulkUpsertMerchantCustomAttributesRequest": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:BulkUpsertMerchantCustomAttributesRequestMerchantCustomAttributeUpsertRequest": [
+   "props:3",
+   "req:2"
+  ],
+  "schema:BulkUpsertMerchantCustomAttributesResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:BulkUpsertMerchantCustomAttributesResponseMerchantCustomAttributeUpsertResponse": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:BulkUpsertOrderCustomAttributesRequest": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:BulkUpsertOrderCustomAttributesRequestUpsertCustomAttribute": [
+   "props:3",
+   "req:2"
+  ],
+  "schema:BulkUpsertOrderCustomAttributesResponse": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:BusinessAppointmentSettings": [
+   "props:13",
+   "req:0"
+  ],
+  "schema:BusinessAppointmentSettingsAlignmentTime": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:BusinessAppointmentSettingsBookingLocationType": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:BusinessAppointmentSettingsCancellationPolicy": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:BusinessAppointmentSettingsMaxAppointmentsPerDayLimitType": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:BusinessBookingProfile": [
+   "props:8",
+   "req:0"
+  ],
+  "schema:BusinessBookingProfileBookingPolicy": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:BusinessBookingProfileCustomerTimezoneChoice": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:BusinessHours": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:BusinessHoursPeriod": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:BuyNowPayLaterDetails": [
+   "props:4",
+   "req:0"
+  ],
+  "schema:CalculateLoyaltyPointsRequest": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:CalculateLoyaltyPointsResponse": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:CalculateOrderRequest": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:CalculateOrderResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:CancelBookingRequest": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:CancelBookingResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:CancelInvoiceRequest": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:CancelInvoiceResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:CancelLoyaltyPromotionResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:CancelPaymentByIdempotencyKeyRequest": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:CancelPaymentByIdempotencyKeyResponse": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:CancelPaymentResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:CancelSubscriptionResponse": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:CancelTerminalActionResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:CancelTerminalCheckoutResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:CancelTerminalRefundResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:CancelTransferOrderRequest": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:CancelTransferOrderResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:CaptureTransactionResponse": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:Card": [
+   "props:22",
+   "req:0"
+  ],
+  "schema:CardAutomaticallyUpdatedEvent": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:CardAutomaticallyUpdatedEventData": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:CardAutomaticallyUpdatedEventObject": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:CardBrand": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:CardCoBrand": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:CardCreatedEvent": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:CardCreatedEventData": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:CardCreatedEventObject": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:CardDisabledEvent": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:CardDisabledEventData": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:CardDisabledEventObject": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:CardForgottenEvent": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:CardForgottenEventCard": [
+   "props:6",
+   "req:0"
+  ],
+  "schema:CardForgottenEventData": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:CardForgottenEventObject": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:CardIssuerAlert": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:CardPaymentDetails": [
+   "props:18",
+   "req:0"
+  ],
+  "schema:CardPaymentTimeline": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:CardPrepaidType": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:CardSurchargeDetails": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:CardType": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:CardUpdatedEvent": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:CardUpdatedEventData": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:CardUpdatedEventObject": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:CashAppDetails": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:CashDrawerDevice": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:CashDrawerEventType": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:CashDrawerShift": [
+   "props:21",
+   "req:0"
+  ],
+  "schema:CashDrawerShiftEvent": [
+   "props:6",
+   "req:0"
+  ],
+  "schema:CashDrawerShiftState": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:CashDrawerShiftSummary": [
+   "props:12",
+   "req:0"
+  ],
+  "schema:CashPaymentDetails": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:CatalogAvailabilityPeriod": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:CatalogCategory": [
+   "props:11",
+   "req:0"
+  ],
+  "schema:CatalogCategoryType": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:CatalogCustomAttributeDefinition": [
+   "props:12",
+   "req:3"
+  ],
+  "schema:CatalogCustomAttributeDefinitionAppVisibility": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:CatalogCustomAttributeDefinitionNumberConfig": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:CatalogCustomAttributeDefinitionSelectionConfig": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:CatalogCustomAttributeDefinitionSelectionConfigCustomAttributeSelection": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:CatalogCustomAttributeDefinitionSellerVisibility": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:CatalogCustomAttributeDefinitionStringConfig": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:CatalogCustomAttributeDefinitionType": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:CatalogCustomAttributeValue": [
+   "props:8",
+   "req:0"
+  ],
+  "schema:CatalogDiscount": [
+   "props:8",
+   "req:0"
+  ],
+  "schema:CatalogDiscountModifyTaxBasis": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:CatalogDiscountType": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:CatalogEcomSeoData": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:CatalogIdMapping": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:CatalogImage": [
+   "props:4",
+   "req:0"
+  ],
+  "schema:CatalogInfoResponse": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:CatalogInfoResponseLimits": [
+   "props:11",
+   "req:0"
+  ],
+  "schema:CatalogItem": [
+   "props:27",
+   "req:0"
+  ],
+  "schema:CatalogItemFoodAndBeverageDetails": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:CatalogItemFoodAndBeverageDetailsDietaryPreference": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:CatalogItemFoodAndBeverageDetailsDietaryPreferenceStandardDietaryPreference": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:CatalogItemFoodAndBeverageDetailsDietaryPreferenceType": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:CatalogItemFoodAndBeverageDetailsIngredient": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:CatalogItemFoodAndBeverageDetailsIngredientStandardIngredient": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:CatalogItemModifierListInfo": [
+   "props:9",
+   "req:1"
+  ],
+  "schema:CatalogItemOption": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:CatalogItemOptionForItem": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:CatalogItemOptionValue": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:CatalogItemOptionValueForItemVariation": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:CatalogItemProductType": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:CatalogItemVariation": [
+   "props:23",
+   "req:0"
+  ],
+  "schema:CatalogItemVariationVendorInformation": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:CatalogMeasurementUnit": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:CatalogModifier": [
+   "props:10",
+   "req:0"
+  ],
+  "schema:CatalogModifierList": [
+   "props:14",
+   "req:0"
+  ],
+  "schema:CatalogModifierListModifierType": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:CatalogModifierListSelectionType": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:CatalogModifierOverride": [
+   "props:4",
+   "req:1"
+  ],
+  "schema:CatalogModifierToggleOverrideType": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:CatalogObject": [
+   "props:29",
+   "req:2"
+  ],
+  "schema:CatalogObjectBatch": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:CatalogObjectCategory": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:CatalogObjectReference": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:CatalogObjectType": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:CatalogPricingRule": [
+   "props:13",
+   "req:0"
+  ],
+  "schema:CatalogPricingType": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:CatalogProductSet": [
+   "props:7",
+   "req:0"
+  ],
+  "schema:CatalogQuery": [
+   "props:11",
+   "req:0"
+  ],
+  "schema:CatalogQueryExact": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:CatalogQueryItemVariationsForItemOptionValues": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:CatalogQueryItemsForItemOptions": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:CatalogQueryItemsForModifierList": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:CatalogQueryItemsForTax": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:CatalogQueryModifiersForChildList": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:CatalogQueryPrefix": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:CatalogQueryRange": [
+   "props:3",
+   "req:1"
+  ],
+  "schema:CatalogQuerySet": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:CatalogQuerySortedAttribute": [
+   "props:3",
+   "req:1"
+  ],
+  "schema:CatalogQueryText": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:CatalogQuickAmount": [
+   "props:4",
+   "req:2"
+  ],
+  "schema:CatalogQuickAmountType": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:CatalogQuickAmountsSettings": [
+   "props:3",
+   "req:1"
+  ],
+  "schema:CatalogQuickAmountsSettingsOption": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:CatalogStockConversion": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:CatalogSubscriptionPlan": [
+   "props:6",
+   "req:1"
+  ],
+  "schema:CatalogSubscriptionPlanVariation": [
+   "props:6",
+   "req:2"
+  ],
+  "schema:CatalogTax": [
+   "props:7",
+   "req:0"
+  ],
+  "schema:CatalogTimePeriod": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:CatalogV1Id": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:CatalogVersionUpdatedEvent": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:CatalogVersionUpdatedEventCatalogVersion": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:CatalogVersionUpdatedEventData": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:CatalogVersionUpdatedEventObject": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:CategoryPathToRootNode": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:ChangeBillingAnchorDateRequest": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:ChangeBillingAnchorDateResponse": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:ChangeTiming": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:Channel": [
+   "props:8",
+   "req:0"
+  ],
+  "schema:ChannelStatus": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:ChargeRequestAdditionalRecipient": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:Checkout": [
+   "props:10",
+   "req:0"
+  ],
+  "schema:CheckoutLocationSettings": [
+   "props:7",
+   "req:0"
+  ],
+  "schema:CheckoutLocationSettingsBranding": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:CheckoutLocationSettingsBrandingButtonShape": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:CheckoutLocationSettingsBrandingHeaderType": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:CheckoutLocationSettingsCoupons": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:CheckoutLocationSettingsPolicy": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:CheckoutLocationSettingsTipping": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:CheckoutMerchantSettings": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:CheckoutMerchantSettingsPaymentMethods": [
+   "props:4",
+   "req:0"
+  ],
+  "schema:CheckoutMerchantSettingsPaymentMethodsAfterpayClearpay": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:CheckoutMerchantSettingsPaymentMethodsAfterpayClearpayEligibilityRange": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:CheckoutMerchantSettingsPaymentMethodsPaymentMethod": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:CheckoutOptions": [
+   "props:11",
+   "req:0"
+  ],
+  "schema:CheckoutOptionsPaymentType": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:ClearpayDetails": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:CloneOrderRequest": [
+   "props:3",
+   "req:1"
+  ],
+  "schema:CloneOrderResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:CollectedData": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:CompletePaymentRequest": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:CompletePaymentResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:Component": [
+   "props:6",
+   "req:1"
+  ],
+  "schema:ComponentComponentType": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:ConfirmationDecision": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:ConfirmationOptions": [
+   "props:5",
+   "req:3"
+  ],
+  "schema:Coordinates": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:Country": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:CreateBankAccountRequest": [
+   "props:3",
+   "req:2"
+  ],
+  "schema:CreateBankAccountResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:CreateBookingCustomAttributeDefinitionRequest": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:CreateBookingCustomAttributeDefinitionResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:CreateBookingRequest": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:CreateBookingResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:CreateBreakTypeRequest": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:CreateBreakTypeResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:CreateCardRequest": [
+   "props:4",
+   "req:3"
+  ],
+  "schema:CreateCardResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:CreateCatalogImageRequest": [
+   "props:4",
+   "req:2"
+  ],
+  "schema:CreateCatalogImageResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:CreateCheckoutRequest": [
+   "props:9",
+   "req:2"
+  ],
+  "schema:CreateCheckoutResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:CreateCustomerCardRequest": [
+   "props:4",
+   "req:1"
+  ],
+  "schema:CreateCustomerCardResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:CreateCustomerCustomAttributeDefinitionRequest": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:CreateCustomerCustomAttributeDefinitionResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:CreateCustomerGroupRequest": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:CreateCustomerGroupResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:CreateCustomerRequest": [
+   "props:12",
+   "req:0"
+  ],
+  "schema:CreateCustomerResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:CreateDeviceCodeRequest": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:CreateDeviceCodeResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:CreateDisputeEvidenceFileRequest": [
+   "props:3",
+   "req:1"
+  ],
+  "schema:CreateDisputeEvidenceFileResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:CreateDisputeEvidenceTextRequest": [
+   "props:3",
+   "req:2"
+  ],
+  "schema:CreateDisputeEvidenceTextResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:CreateGiftCardActivityRequest": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:CreateGiftCardActivityResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:CreateGiftCardRequest": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:CreateGiftCardResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:CreateInventoryAdjustmentReasonRequest": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:CreateInventoryAdjustmentReasonResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:CreateInvoiceAttachmentRequest": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:CreateInvoiceAttachmentResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:CreateInvoiceRequest": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:CreateInvoiceResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:CreateJobRequest": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:CreateJobResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:CreateLocationCustomAttributeDefinitionRequest": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:CreateLocationCustomAttributeDefinitionResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:CreateLocationRequest": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:CreateLocationResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:CreateLoyaltyAccountRequest": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:CreateLoyaltyAccountResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:CreateLoyaltyPromotionRequest": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:CreateLoyaltyPromotionResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:CreateLoyaltyRewardRequest": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:CreateLoyaltyRewardResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:CreateMerchantCustomAttributeDefinitionRequest": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:CreateMerchantCustomAttributeDefinitionResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:CreateOrderCustomAttributeDefinitionRequest": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:CreateOrderCustomAttributeDefinitionResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:CreateOrderRequest": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:CreateOrderResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:CreatePaymentLinkRequest": [
+   "props:7",
+   "req:0"
+  ],
+  "schema:CreatePaymentLinkResponse": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:CreatePaymentRequest": [
+   "props:26",
+   "req:2"
+  ],
+  "schema:CreatePaymentResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:CreateScheduledShiftRequest": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:CreateScheduledShiftResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:CreateShiftRequest": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:CreateShiftResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:CreateSubscriptionRequest": [
+   "props:13",
+   "req:2"
+  ],
+  "schema:CreateSubscriptionResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:CreateTeamMemberRequest": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:CreateTeamMemberResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:CreateTerminalActionRequest": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:CreateTerminalActionResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:CreateTerminalCheckoutRequest": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:CreateTerminalCheckoutResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:CreateTerminalRefundRequest": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:CreateTerminalRefundResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:CreateTimecardRequest": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:CreateTimecardResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:CreateTransferOrderData": [
+   "props:7",
+   "req:2"
+  ],
+  "schema:CreateTransferOrderLineData": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:CreateTransferOrderRequest": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:CreateTransferOrderResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:CreateVendorRequest": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:CreateVendorResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:CreateWebhookSubscriptionRequest": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:CreateWebhookSubscriptionResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:Currency": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:CustomAttribute": [
+   "props:7",
+   "req:0"
+  ],
+  "schema:CustomAttributeDefinition": [
+   "props:8",
+   "req:0"
+  ],
+  "schema:CustomAttributeDefinitionEventData": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:CustomAttributeDefinitionEventDataObject": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:CustomAttributeDefinitionVisibility": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:CustomAttributeEventData": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:CustomAttributeEventDataObject": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:CustomAttributeFilter": [
+   "props:6",
+   "req:0"
+  ],
+  "schema:CustomField": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:Customer": [
+   "props:19",
+   "req:0"
+  ],
+  "schema:CustomerAddressFilter": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:CustomerCreatedEvent": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:CustomerCreatedEventData": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:CustomerCreatedEventEventContext": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:CustomerCreatedEventEventContextMerge": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:CustomerCreatedEventObject": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:CustomerCreationSource": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:CustomerCreationSourceFilter": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:CustomerCustomAttributeDefinitionCreatedEvent": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:CustomerCustomAttributeDefinitionCreatedPublicEvent": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:CustomerCustomAttributeDefinitionDeletedEvent": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:CustomerCustomAttributeDefinitionDeletedPublicEvent": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:CustomerCustomAttributeDefinitionOwnedCreatedEvent": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:CustomerCustomAttributeDefinitionOwnedDeletedEvent": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:CustomerCustomAttributeDefinitionOwnedUpdatedEvent": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:CustomerCustomAttributeDefinitionUpdatedEvent": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:CustomerCustomAttributeDefinitionUpdatedPublicEvent": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:CustomerCustomAttributeDefinitionVisibleCreatedEvent": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:CustomerCustomAttributeDefinitionVisibleDeletedEvent": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:CustomerCustomAttributeDefinitionVisibleUpdatedEvent": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:CustomerCustomAttributeDeletedEvent": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:CustomerCustomAttributeDeletedPublicEvent": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:CustomerCustomAttributeFilter": [
+   "props:3",
+   "req:1"
+  ],
+  "schema:CustomerCustomAttributeFilterValue": [
+   "props:8",
+   "req:0"
+  ],
+  "schema:CustomerCustomAttributeFilters": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:CustomerCustomAttributeOwnedDeletedEvent": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:CustomerCustomAttributeOwnedUpdatedEvent": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:CustomerCustomAttributeUpdatedEvent": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:CustomerCustomAttributeUpdatedPublicEvent": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:CustomerCustomAttributeVisibleDeletedEvent": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:CustomerCustomAttributeVisibleUpdatedEvent": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:CustomerDeletedEvent": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:CustomerDeletedEventData": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:CustomerDeletedEventEventContext": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:CustomerDeletedEventEventContextMerge": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:CustomerDeletedEventObject": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:CustomerDetails": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:CustomerFilter": [
+   "props:9",
+   "req:0"
+  ],
+  "schema:CustomerGroup": [
+   "props:4",
+   "req:1"
+  ],
+  "schema:CustomerInclusionExclusion": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:CustomerPreferences": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:CustomerQuery": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:CustomerSegment": [
+   "props:4",
+   "req:1"
+  ],
+  "schema:CustomerSort": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:CustomerSortField": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:CustomerTaxIds": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:CustomerTextFilter": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:CustomerUpdatedEvent": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:CustomerUpdatedEventData": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:CustomerUpdatedEventObject": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:DataCollectionOptions": [
+   "props:4",
+   "req:3"
+  ],
+  "schema:DataCollectionOptionsInputType": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:DateRange": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:DayOfWeek": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:DeleteBookingCustomAttributeDefinitionResponse": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:DeleteBookingCustomAttributeResponse": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:DeleteBreakTypeResponse": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:DeleteCatalogObjectResponse": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:DeleteCustomerCardResponse": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:DeleteCustomerCustomAttributeDefinitionResponse": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:DeleteCustomerCustomAttributeResponse": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:DeleteCustomerGroupResponse": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:DeleteCustomerResponse": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:DeleteDisputeEvidenceResponse": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:DeleteInventoryAdjustmentReasonRequest": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:DeleteInventoryAdjustmentReasonResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:DeleteInvoiceAttachmentResponse": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:DeleteInvoiceResponse": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:DeleteLocationCustomAttributeDefinitionResponse": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:DeleteLocationCustomAttributeResponse": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:DeleteLoyaltyRewardResponse": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:DeleteMerchantCustomAttributeDefinitionResponse": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:DeleteMerchantCustomAttributeResponse": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:DeleteOrderCustomAttributeDefinitionResponse": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:DeleteOrderCustomAttributeResponse": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:DeletePaymentLinkResponse": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:DeleteShiftResponse": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:DeleteSnippetResponse": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:DeleteSubscriptionActionResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:DeleteTimecardResponse": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:DeleteTransferOrderResponse": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:DeleteWebhookSubscriptionResponse": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:Destination": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:DestinationDetails": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:DestinationDetailsCardRefundDetails": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:DestinationDetailsCashRefundDetails": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:DestinationDetailsExternalRefundDetails": [
+   "props:3",
+   "req:2"
+  ],
+  "schema:DestinationType": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:Device": [
+   "props:4",
+   "req:1"
+  ],
+  "schema:DeviceAttributes": [
+   "props:8",
+   "req:2"
+  ],
+  "schema:DeviceAttributesDeviceType": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:DeviceCheckoutOptions": [
+   "props:6",
+   "req:1"
+  ],
+  "schema:DeviceCode": [
+   "props:11",
+   "req:1"
+  ],
+  "schema:DeviceCodePairedEvent": [
+   "props:6",
+   "req:0"
+  ],
+  "schema:DeviceCodePairedEventData": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:DeviceCodePairedEventObject": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:DeviceCodeStatus": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:DeviceComponentDetailsApplicationDetails": [
+   "props:4",
+   "req:0"
+  ],
+  "schema:DeviceComponentDetailsBatteryDetails": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:DeviceComponentDetailsCardReaderDetails": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:DeviceComponentDetailsEthernetDetails": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:DeviceComponentDetailsExternalPower": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:DeviceComponentDetailsMeasurement": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:DeviceComponentDetailsWiFiDetails": [
+   "props:6",
+   "req:0"
+  ],
+  "schema:DeviceCreatedEvent": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:DeviceCreatedEventData": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:DeviceCreatedEventObject": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:DeviceDetails": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:DeviceMetadata": [
+   "props:12",
+   "req:0"
+  ],
+  "schema:DeviceStatus": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:DeviceStatusCategory": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:DigitalWalletDetails": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:DisableBankAccountResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:DisableCardResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:DisableEventsResponse": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:DismissTerminalActionResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:DismissTerminalCheckoutResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:DismissTerminalRefundResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:Dispute": [
+   "props:16",
+   "req:0"
+  ],
+  "schema:DisputeCreatedEvent": [
+   "props:6",
+   "req:0"
+  ],
+  "schema:DisputeCreatedEventData": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:DisputeCreatedEventObject": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:DisputeEvidence": [
+   "props:7",
+   "req:0"
+  ],
+  "schema:DisputeEvidenceAddedEvent": [
+   "props:6",
+   "req:0"
+  ],
+  "schema:DisputeEvidenceAddedEventData": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:DisputeEvidenceAddedEventObject": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:DisputeEvidenceCreatedEvent": [
+   "props:6",
+   "req:0"
+  ],
+  "schema:DisputeEvidenceCreatedEventData": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:DisputeEvidenceCreatedEventObject": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:DisputeEvidenceDeletedEvent": [
+   "props:6",
+   "req:0"
+  ],
+  "schema:DisputeEvidenceDeletedEventData": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:DisputeEvidenceDeletedEventObject": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:DisputeEvidenceFile": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:DisputeEvidenceRemovedEvent": [
+   "props:6",
+   "req:0"
+  ],
+  "schema:DisputeEvidenceRemovedEventData": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:DisputeEvidenceRemovedEventObject": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:DisputeEvidenceType": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:DisputeReason": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:DisputeState": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:DisputeStateChangedEvent": [
+   "props:6",
+   "req:0"
+  ],
+  "schema:DisputeStateChangedEventData": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:DisputeStateChangedEventObject": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:DisputeStateUpdatedEvent": [
+   "props:6",
+   "req:0"
+  ],
+  "schema:DisputeStateUpdatedEventData": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:DisputeStateUpdatedEventObject": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:DisputedPayment": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:EcomVisibility": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:ElectronicMoneyDetails": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:Employee": [
+   "props:10",
+   "req:0"
+  ],
+  "schema:EmployeeStatus": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:EmployeeWage": [
+   "props:4",
+   "req:0"
+  ],
+  "schema:EnableEventsResponse": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:Error": [
+   "props:4",
+   "req:2"
+  ],
+  "schema:ErrorCategory": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:ErrorCode": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:Event": [
+   "props:6",
+   "req:0"
+  ],
+  "schema:EventData": [
+   "props:4",
+   "req:0"
+  ],
+  "schema:EventMetadata": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:EventTypeMetadata": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:ExcludeStrategy": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:ExternalPaymentDetails": [
+   "props:4",
+   "req:2"
+  ],
+  "schema:FelicaDetails": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:FelicaDetailsFelicaBrand": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:FilterValue": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:FloatNumberRange": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:Fulfillment": [
+   "props:10",
+   "req:0"
+  ],
+  "schema:FulfillmentDeliveryDetails": [
+   "props:23",
+   "req:0"
+  ],
+  "schema:FulfillmentDeliveryDetailsOrderFulfillmentDeliveryDetailsScheduleType": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:FulfillmentFulfillmentEntry": [
+   "props:4",
+   "req:2"
+  ],
+  "schema:FulfillmentFulfillmentLineItemApplication": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:FulfillmentInStoreDetails": [
+   "props:7",
+   "req:0"
+  ],
+  "schema:FulfillmentPickupDetails": [
+   "props:18",
+   "req:0"
+  ],
+  "schema:FulfillmentPickupDetailsCurbsidePickupDetails": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:FulfillmentPickupDetailsScheduleType": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:FulfillmentRecipient": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:FulfillmentShipmentDetails": [
+   "props:15",
+   "req:0"
+  ],
+  "schema:FulfillmentState": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:FulfillmentType": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:GetBankAccountByV1IdResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:GetBankAccountResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:GetBreakTypeResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:GetDeviceCodeResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:GetDeviceResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:GetEmployeeWageResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:GetInvoiceResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:GetPaymentRefundResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:GetPaymentResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:GetPayoutResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:GetShiftResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:GetTeamMemberWageResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:GetTerminalActionResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:GetTerminalCheckoutResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:GetTerminalRefundResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:GiftCard": [
+   "props:8",
+   "req:1"
+  ],
+  "schema:GiftCardActivity": [
+   "props:22",
+   "req:2"
+  ],
+  "schema:GiftCardActivityActivate": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:GiftCardActivityAdjustDecrement": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:GiftCardActivityAdjustDecrementReason": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:GiftCardActivityAdjustIncrement": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:GiftCardActivityAdjustIncrementReason": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:GiftCardActivityBlock": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:GiftCardActivityBlockReason": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:GiftCardActivityClearBalance": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:GiftCardActivityClearBalanceReason": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:GiftCardActivityCreatedEvent": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:GiftCardActivityCreatedEventData": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:GiftCardActivityCreatedEventObject": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:GiftCardActivityDeactivate": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:GiftCardActivityDeactivateReason": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:GiftCardActivityImport": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:GiftCardActivityImportReversal": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:GiftCardActivityLoad": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:GiftCardActivityRedeem": [
+   "props:4",
+   "req:1"
+  ],
+  "schema:GiftCardActivityRedeemStatus": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:GiftCardActivityRefund": [
+   "props:4",
+   "req:0"
+  ],
+  "schema:GiftCardActivityTransferBalanceFrom": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:GiftCardActivityTransferBalanceTo": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:GiftCardActivityType": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:GiftCardActivityUnblock": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:GiftCardActivityUnblockReason": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:GiftCardActivityUnlinkedActivityRefund": [
+   "props:3",
+   "req:1"
+  ],
+  "schema:GiftCardActivityUpdatedEvent": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:GiftCardActivityUpdatedEventData": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:GiftCardActivityUpdatedEventObject": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:GiftCardCreatedEvent": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:GiftCardCreatedEventData": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:GiftCardCreatedEventObject": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:GiftCardCustomerLinkedEvent": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:GiftCardCustomerLinkedEventData": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:GiftCardCustomerLinkedEventObject": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:GiftCardCustomerUnlinkedEvent": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:GiftCardCustomerUnlinkedEventData": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:GiftCardCustomerUnlinkedEventObject": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:GiftCardGANSource": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:GiftCardStatus": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:GiftCardType": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:GiftCardUpdatedEvent": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:GiftCardUpdatedEventData": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:GiftCardUpdatedEventObject": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:IncludeOptions": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:IncludeType": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:IncludedResources": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:InventoryAdjustment": [
+   "props:24",
+   "req:0"
+  ],
+  "schema:InventoryAdjustmentGroup": [
+   "props:4",
+   "req:0"
+  ],
+  "schema:InventoryAdjustmentReason": [
+   "props:6",
+   "req:1"
+  ],
+  "schema:InventoryAdjustmentReasonDirection": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:InventoryAdjustmentReasonId": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:InventoryAdjustmentReasonIdType": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:InventoryAlertType": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:InventoryChange": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:InventoryChangeType": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:InventoryCount": [
+   "props:7",
+   "req:0"
+  ],
+  "schema:InventoryCountUpdatedEvent": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:InventoryCountUpdatedEventData": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:InventoryCountUpdatedEventObject": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:InventoryPhysicalCount": [
+   "props:13",
+   "req:0"
+  ],
+  "schema:InventoryState": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:Invoice": [
+   "props:25",
+   "req:0"
+  ],
+  "schema:InvoiceAcceptedPaymentMethods": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:InvoiceAttachment": [
+   "props:7",
+   "req:0"
+  ],
+  "schema:InvoiceAutomaticPaymentSource": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:InvoiceCanceledEvent": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:InvoiceCanceledEventData": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:InvoiceCanceledEventObject": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:InvoiceCreatedEvent": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:InvoiceCreatedEventData": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:InvoiceCreatedEventObject": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:InvoiceCustomField": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:InvoiceCustomFieldPlacement": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:InvoiceDeletedEvent": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:InvoiceDeletedEventData": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:InvoiceDeliveryMethod": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:InvoiceFilter": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:InvoicePaymentMadeEvent": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:InvoicePaymentMadeEventData": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:InvoicePaymentMadeEventObject": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:InvoicePaymentReminder": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:InvoicePaymentReminderStatus": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:InvoicePaymentRequest": [
+   "props:13",
+   "req:0"
+  ],
+  "schema:InvoicePublishedEvent": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:InvoicePublishedEventData": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:InvoicePublishedEventObject": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:InvoiceQuery": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:InvoiceRecipient": [
+   "props:8",
+   "req:0"
+  ],
+  "schema:InvoiceRecipientTaxIds": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:InvoiceRefundedEvent": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:InvoiceRefundedEventData": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:InvoiceRefundedEventObject": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:InvoiceRequestMethod": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:InvoiceRequestType": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:InvoiceScheduledChargeFailedEvent": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:InvoiceScheduledChargeFailedEventData": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:InvoiceScheduledChargeFailedEventObject": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:InvoiceSort": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:InvoiceSortField": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:InvoiceStatus": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:InvoiceUpdatedEvent": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:InvoiceUpdatedEventData": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:InvoiceUpdatedEventObject": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:ItemVariationLocationOverrides": [
+   "props:8",
+   "req:0"
+  ],
+  "schema:Job": [
+   "props:6",
+   "req:0"
+  ],
+  "schema:JobAssignment": [
+   "props:6",
+   "req:1"
+  ],
+  "schema:JobAssignmentPayType": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:JobCreatedEvent": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:JobCreatedEventData": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:JobCreatedEventObject": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:JobUpdatedEvent": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:JobUpdatedEventData": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:JobUpdatedEventObject": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:LaborScheduledShiftCreatedEvent": [
+   "props:6",
+   "req:0"
+  ],
+  "schema:LaborScheduledShiftCreatedEventData": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:LaborScheduledShiftCreatedEventObject": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:LaborScheduledShiftDeletedEvent": [
+   "props:6",
+   "req:0"
+  ],
+  "schema:LaborScheduledShiftDeletedEventData": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:LaborScheduledShiftPublishedEvent": [
+   "props:6",
+   "req:0"
+  ],
+  "schema:LaborScheduledShiftPublishedEventData": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:LaborScheduledShiftPublishedEventObject": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:LaborScheduledShiftUpdatedEvent": [
+   "props:6",
+   "req:0"
+  ],
+  "schema:LaborScheduledShiftUpdatedEventData": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:LaborScheduledShiftUpdatedEventObject": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:LaborShiftCreatedEvent": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:LaborShiftCreatedEventData": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:LaborShiftCreatedEventObject": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:LaborShiftDeletedEvent": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:LaborShiftDeletedEventData": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:LaborShiftUpdatedEvent": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:LaborShiftUpdatedEventData": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:LaborShiftUpdatedEventObject": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:LaborTimecardCreatedEvent": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:LaborTimecardCreatedEventData": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:LaborTimecardCreatedEventObject": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:LaborTimecardDeletedEvent": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:LaborTimecardDeletedEventData": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:LaborTimecardUpdatedEvent": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:LaborTimecardUpdatedEventData": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:LaborTimecardUpdatedEventObject": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:LightningDetails": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:LinkCustomerToGiftCardRequest": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:LinkCustomerToGiftCardResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:ListBankAccountsResponse": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:ListBookingCustomAttributeDefinitionsResponse": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:ListBookingCustomAttributesResponse": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:ListBookingsResponse": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:ListBreakTypesResponse": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:ListCardsResponse": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:ListCashDrawerShiftEventsResponse": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:ListCashDrawerShiftsResponse": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:ListCatalogResponse": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:ListChannelsRequestConstants": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:ListChannelsResponse": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:ListCustomerCustomAttributeDefinitionsResponse": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:ListCustomerCustomAttributesResponse": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:ListCustomerGroupsResponse": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:ListCustomerSegmentsResponse": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:ListCustomersResponse": [
+   "props:4",
+   "req:0"
+  ],
+  "schema:ListDeviceCodesResponse": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:ListDevicesResponse": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:ListDisputeEvidenceResponse": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:ListDisputesResponse": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:ListEmployeeWagesResponse": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:ListEmployeesResponse": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:ListEventTypesResponse": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:ListGiftCardActivitiesResponse": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:ListGiftCardsResponse": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:ListInventoryAdjustmentReasonsResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:ListInvoicesResponse": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:ListJobsResponse": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:ListLocationBookingProfilesResponse": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:ListLocationCustomAttributeDefinitionsResponse": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:ListLocationCustomAttributesResponse": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:ListLocationsResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:ListLoyaltyProgramsResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:ListLoyaltyPromotionsResponse": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:ListMerchantCustomAttributeDefinitionsResponse": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:ListMerchantCustomAttributesResponse": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:ListMerchantsResponse": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:ListOrderCustomAttributeDefinitionsResponse": [
+   "props:3",
+   "req:1"
+  ],
+  "schema:ListOrderCustomAttributesResponse": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:ListPaymentLinksResponse": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:ListPaymentRefundsRequestSortField": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:ListPaymentRefundsResponse": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:ListPaymentsRequestSortField": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:ListPaymentsResponse": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:ListPayoutEntriesResponse": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:ListPayoutsResponse": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:ListSitesResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:ListSubscriptionEventsResponse": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:ListTeamMemberBookingProfilesResponse": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:ListTeamMemberWagesResponse": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:ListTransactionsResponse": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:ListWebhookEventTypesResponse": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:ListWebhookSubscriptionsResponse": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:ListWorkweekConfigsResponse": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:Location": [
+   "props:29",
+   "req:0"
+  ],
+  "schema:LocationBookingProfile": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:LocationCapability": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:LocationCreatedEvent": [
+   "props:6",
+   "req:0"
+  ],
+  "schema:LocationCreatedEventData": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:LocationCustomAttributeDefinitionOwnedCreatedEvent": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:LocationCustomAttributeDefinitionOwnedDeletedEvent": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:LocationCustomAttributeDefinitionOwnedUpdatedEvent": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:LocationCustomAttributeDefinitionVisibleCreatedEvent": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:LocationCustomAttributeDefinitionVisibleDeletedEvent": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:LocationCustomAttributeDefinitionVisibleUpdatedEvent": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:LocationCustomAttributeOwnedDeletedEvent": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:LocationCustomAttributeOwnedUpdatedEvent": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:LocationCustomAttributeVisibleDeletedEvent": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:LocationCustomAttributeVisibleUpdatedEvent": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:LocationSettingsUpdatedEvent": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:LocationSettingsUpdatedEventData": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:LocationSettingsUpdatedEventObject": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:LocationStatus": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:LocationType": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:LocationUpdatedEvent": [
+   "props:6",
+   "req:0"
+  ],
+  "schema:LocationUpdatedEventData": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:LoyaltyAccount": [
+   "props:10",
+   "req:1"
+  ],
+  "schema:LoyaltyAccountCreatedEvent": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:LoyaltyAccountCreatedEventData": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:LoyaltyAccountCreatedEventObject": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:LoyaltyAccountDeletedEvent": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:LoyaltyAccountDeletedEventData": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:LoyaltyAccountDeletedEventObject": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:LoyaltyAccountExpiringPointDeadline": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:LoyaltyAccountMapping": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:LoyaltyAccountMappingType": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:LoyaltyAccountUpdatedEvent": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:LoyaltyAccountUpdatedEventData": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:LoyaltyAccountUpdatedEventObject": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:LoyaltyEvent": [
+   "props:14",
+   "req:5"
+  ],
+  "schema:LoyaltyEventAccumulatePoints": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:LoyaltyEventAccumulatePromotionPoints": [
+   "props:4",
+   "req:2"
+  ],
+  "schema:LoyaltyEventAdjustPoints": [
+   "props:3",
+   "req:1"
+  ],
+  "schema:LoyaltyEventCreateReward": [
+   "props:3",
+   "req:2"
+  ],
+  "schema:LoyaltyEventCreatedEvent": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:LoyaltyEventCreatedEventData": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:LoyaltyEventCreatedEventObject": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:LoyaltyEventDateTimeFilter": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:LoyaltyEventDeleteReward": [
+   "props:3",
+   "req:2"
+  ],
+  "schema:LoyaltyEventExpirePoints": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:LoyaltyEventFilter": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:LoyaltyEventLocationFilter": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:LoyaltyEventLoyaltyAccountFilter": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:LoyaltyEventOrderFilter": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:LoyaltyEventOther": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:LoyaltyEventQuery": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:LoyaltyEventRedeemReward": [
+   "props:3",
+   "req:1"
+  ],
+  "schema:LoyaltyEventSource": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:LoyaltyEventType": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:LoyaltyEventTypeFilter": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:LoyaltyProgram": [
+   "props:9",
+   "req:0"
+  ],
+  "schema:LoyaltyProgramAccrualRule": [
+   "props:6",
+   "req:1"
+  ],
+  "schema:LoyaltyProgramAccrualRuleCategoryData": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:LoyaltyProgramAccrualRuleItemVariationData": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:LoyaltyProgramAccrualRuleSpendData": [
+   "props:4",
+   "req:2"
+  ],
+  "schema:LoyaltyProgramAccrualRuleTaxMode": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:LoyaltyProgramAccrualRuleType": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:LoyaltyProgramAccrualRuleVisitData": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:LoyaltyProgramCreatedEvent": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:LoyaltyProgramCreatedEventData": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:LoyaltyProgramCreatedEventObject": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:LoyaltyProgramExpirationPolicy": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:LoyaltyProgramRewardTier": [
+   "props:5",
+   "req:2"
+  ],
+  "schema:LoyaltyProgramStatus": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:LoyaltyProgramTerminology": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:LoyaltyProgramUpdatedEvent": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:LoyaltyProgramUpdatedEventData": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:LoyaltyProgramUpdatedEventObject": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:LoyaltyPromotion": [
+   "props:13",
+   "req:3"
+  ],
+  "schema:LoyaltyPromotionAvailableTimeData": [
+   "props:3",
+   "req:1"
+  ],
+  "schema:LoyaltyPromotionCreatedEvent": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:LoyaltyPromotionCreatedEventData": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:LoyaltyPromotionCreatedEventObject": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:LoyaltyPromotionIncentive": [
+   "props:3",
+   "req:1"
+  ],
+  "schema:LoyaltyPromotionIncentivePointsAdditionData": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:LoyaltyPromotionIncentivePointsMultiplierData": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:LoyaltyPromotionIncentiveType": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:LoyaltyPromotionStatus": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:LoyaltyPromotionTriggerLimit": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:LoyaltyPromotionTriggerLimitInterval": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:LoyaltyPromotionUpdatedEvent": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:LoyaltyPromotionUpdatedEventData": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:LoyaltyPromotionUpdatedEventObject": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:LoyaltyReward": [
+   "props:9",
+   "req:2"
+  ],
+  "schema:LoyaltyRewardStatus": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:MeasurementUnit": [
+   "props:8",
+   "req:0"
+  ],
+  "schema:MeasurementUnitArea": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:MeasurementUnitCustom": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:MeasurementUnitGeneric": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:MeasurementUnitLength": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:MeasurementUnitTime": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:MeasurementUnitUnitType": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:MeasurementUnitVolume": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:MeasurementUnitWeight": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:Merchant": [
+   "props:8",
+   "req:1"
+  ],
+  "schema:MerchantCustomAttributeDefinitionOwnedCreatedEvent": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:MerchantCustomAttributeDefinitionOwnedDeletedEvent": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:MerchantCustomAttributeDefinitionOwnedUpdatedEvent": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:MerchantCustomAttributeDefinitionVisibleCreatedEvent": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:MerchantCustomAttributeDefinitionVisibleDeletedEvent": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:MerchantCustomAttributeDefinitionVisibleUpdatedEvent": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:MerchantCustomAttributeOwnedDeletedEvent": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:MerchantCustomAttributeOwnedUpdatedEvent": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:MerchantCustomAttributeVisibleDeletedEvent": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:MerchantCustomAttributeVisibleUpdatedEvent": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:MerchantSettingsUpdatedEvent": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:MerchantSettingsUpdatedEventData": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:MerchantSettingsUpdatedEventObject": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:MerchantStatus": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:ModifierLocationOverrides": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:Money": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:OauthAuthorizationRevokedEvent": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:OauthAuthorizationRevokedEventData": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:OauthAuthorizationRevokedEventObject": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:OauthAuthorizationRevokedEventRevocationObject": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:OauthAuthorizationRevokedEventRevokerType": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:ObtainTokenRequest": [
+   "props:11",
+   "req:2"
+  ],
+  "schema:ObtainTokenResponse": [
+   "props:11",
+   "req:0"
+  ],
+  "schema:OfflinePaymentDetails": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:Order": [
+   "props:31",
+   "req:1"
+  ],
+  "schema:OrderCardSurchargeTreatmentType": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:OrderCreated": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:OrderCreatedEvent": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:OrderCreatedEventData": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:OrderCreatedObject": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:OrderCustomAttributeDefinitionOwnedCreatedEvent": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:OrderCustomAttributeDefinitionOwnedDeletedEvent": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:OrderCustomAttributeDefinitionOwnedUpdatedEvent": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:OrderCustomAttributeDefinitionVisibleCreatedEvent": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:OrderCustomAttributeDefinitionVisibleDeletedEvent": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:OrderCustomAttributeDefinitionVisibleUpdatedEvent": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:OrderCustomAttributeOwnedDeletedEvent": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:OrderCustomAttributeOwnedUpdatedEvent": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:OrderCustomAttributeVisibleDeletedEvent": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:OrderCustomAttributeVisibleUpdatedEvent": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:OrderEntry": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:OrderFulfillmentDeliveryDetailsScheduleType": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:OrderFulfillmentFulfillmentLineItemApplication": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:OrderFulfillmentPickupDetailsScheduleType": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:OrderFulfillmentState": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:OrderFulfillmentType": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:OrderFulfillmentUpdated": [
+   "props:7",
+   "req:0"
+  ],
+  "schema:OrderFulfillmentUpdatedEvent": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:OrderFulfillmentUpdatedEventData": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:OrderFulfillmentUpdatedObject": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:OrderFulfillmentUpdatedUpdate": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:OrderLineItem": [
+   "props:22",
+   "req:1"
+  ],
+  "schema:OrderLineItemAppliedDiscount": [
+   "props:3",
+   "req:1"
+  ],
+  "schema:OrderLineItemAppliedServiceCharge": [
+   "props:3",
+   "req:1"
+  ],
+  "schema:OrderLineItemAppliedTax": [
+   "props:4",
+   "req:1"
+  ],
+  "schema:OrderLineItemDiscount": [
+   "props:12",
+   "req:0"
+  ],
+  "schema:OrderLineItemDiscountScope": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:OrderLineItemDiscountType": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:OrderLineItemItemType": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:OrderLineItemModifier": [
+   "props:9",
+   "req:0"
+  ],
+  "schema:OrderLineItemPricingBlocklists": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:OrderLineItemPricingBlocklistsBlockedDiscount": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:OrderLineItemPricingBlocklistsBlockedServiceCharge": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:OrderLineItemPricingBlocklistsBlockedTax": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:OrderLineItemTax": [
+   "props:10",
+   "req:0"
+  ],
+  "schema:OrderLineItemTaxScope": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:OrderLineItemTaxType": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:OrderMoneyAmounts": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:OrderPricingOptions": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:OrderQuantityUnit": [
+   "props:4",
+   "req:0"
+  ],
+  "schema:OrderReturn": [
+   "props:9",
+   "req:0"
+  ],
+  "schema:OrderReturnDiscount": [
+   "props:10",
+   "req:0"
+  ],
+  "schema:OrderReturnLineItem": [
+   "props:21",
+   "req:1"
+  ],
+  "schema:OrderReturnLineItemModifier": [
+   "props:8",
+   "req:0"
+  ],
+  "schema:OrderReturnServiceCharge": [
+   "props:16",
+   "req:0"
+  ],
+  "schema:OrderReturnTax": [
+   "props:9",
+   "req:0"
+  ],
+  "schema:OrderReturnTip": [
+   "props:4",
+   "req:0"
+  ],
+  "schema:OrderReward": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:OrderRoundingAdjustment": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:OrderServiceCharge": [
+   "props:16",
+   "req:0"
+  ],
+  "schema:OrderServiceChargeCalculationPhase": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:OrderServiceChargeScope": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:OrderServiceChargeTreatmentType": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:OrderServiceChargeType": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:OrderSource": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:OrderState": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:OrderUpdated": [
+   "props:6",
+   "req:0"
+  ],
+  "schema:OrderUpdatedEvent": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:OrderUpdatedEventData": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:OrderUpdatedObject": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:PauseSubscriptionRequest": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:PauseSubscriptionResponse": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:PayOrderRequest": [
+   "props:3",
+   "req:1"
+  ],
+  "schema:PayOrderResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:Payment": [
+   "props:47",
+   "req:0"
+  ],
+  "schema:PaymentBalanceActivityAppFeeRefundDetail": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:PaymentBalanceActivityAppFeeRevenueDetail": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:PaymentBalanceActivityAutomaticSavingsDetail": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:PaymentBalanceActivityAutomaticSavingsReversedDetail": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:PaymentBalanceActivityChargeDetail": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:PaymentBalanceActivityDepositFeeDetail": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:PaymentBalanceActivityDepositFeeReversedDetail": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:PaymentBalanceActivityDisputeDetail": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:PaymentBalanceActivityFeeDetail": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:PaymentBalanceActivityFreeProcessingDetail": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:PaymentBalanceActivityHoldAdjustmentDetail": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:PaymentBalanceActivityOpenDisputeDetail": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:PaymentBalanceActivityOtherAdjustmentDetail": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:PaymentBalanceActivityOtherDetail": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:PaymentBalanceActivityRefundDetail": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:PaymentBalanceActivityReleaseAdjustmentDetail": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:PaymentBalanceActivityReserveHoldDetail": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:PaymentBalanceActivityReserveReleaseDetail": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:PaymentBalanceActivitySquareCapitalPaymentDetail": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:PaymentBalanceActivitySquareCapitalReversedPaymentDetail": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:PaymentBalanceActivitySquarePayrollTransferDetail": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:PaymentBalanceActivitySquarePayrollTransferReversedDetail": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:PaymentBalanceActivityTaxOnFeeDetail": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:PaymentBalanceActivityThirdPartyFeeDetail": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:PaymentBalanceActivityThirdPartyFeeRefundDetail": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:PaymentCreatedEvent": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:PaymentCreatedEventData": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:PaymentCreatedEventObject": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:PaymentLink": [
+   "props:11",
+   "req:1"
+  ],
+  "schema:PaymentLinkRelatedResources": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:PaymentOptions": [
+   "props:4",
+   "req:0"
+  ],
+  "schema:PaymentOptionsDelayAction": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:PaymentRefund": [
+   "props:17",
+   "req:2"
+  ],
+  "schema:PaymentUpdatedEvent": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:PaymentUpdatedEventData": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:PaymentUpdatedEventObject": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:Payout": [
+   "props:12",
+   "req:2"
+  ],
+  "schema:PayoutEntry": [
+   "props:32",
+   "req:2"
+  ],
+  "schema:PayoutFailedEvent": [
+   "props:6",
+   "req:0"
+  ],
+  "schema:PayoutFailedEventData": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:PayoutFailedEventObject": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:PayoutFee": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:PayoutFeeType": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:PayoutPaidEvent": [
+   "props:6",
+   "req:0"
+  ],
+  "schema:PayoutPaidEventData": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:PayoutPaidEventObject": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:PayoutSentEvent": [
+   "props:6",
+   "req:0"
+  ],
+  "schema:PayoutSentEventData": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:PayoutSentEventObject": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:PayoutStatus": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:PayoutType": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:Phase": [
+   "props:4",
+   "req:0"
+  ],
+  "schema:PhaseInput": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:PrePopulatedData": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:ProcessingFee": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:Product": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:ProductType": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:PublishInvoiceRequest": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:PublishInvoiceResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:PublishScheduledShiftRequest": [
+   "props:3",
+   "req:1"
+  ],
+  "schema:PublishScheduledShiftResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:QrCodeOptions": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:QuickPay": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:Range": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:ReceiptOptions": [
+   "props:3",
+   "req:1"
+  ],
+  "schema:ReceiveTransferOrderRequest": [
+   "props:3",
+   "req:2"
+  ],
+  "schema:ReceiveTransferOrderResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:RedeemLoyaltyRewardRequest": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:RedeemLoyaltyRewardResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:Reference": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:ReferenceType": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:Refund": [
+   "props:10",
+   "req:5"
+  ],
+  "schema:RefundCreatedEvent": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:RefundCreatedEventData": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:RefundCreatedEventObject": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:RefundPaymentRequest": [
+   "props:14",
+   "req:2"
+  ],
+  "schema:RefundPaymentResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:RefundStatus": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:RefundUpdatedEvent": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:RefundUpdatedEventData": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:RefundUpdatedEventObject": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:RegisterDomainRequest": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:RegisterDomainResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:RegisterDomainResponseStatus": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:RemoveGroupFromCustomerResponse": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:RestoreInventoryAdjustmentReasonRequest": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:RestoreInventoryAdjustmentReasonResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:ResumeSubscriptionRequest": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:ResumeSubscriptionResponse": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:RetrieveBookingCustomAttributeDefinitionResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:RetrieveBookingCustomAttributeResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:RetrieveBookingResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:RetrieveBusinessBookingProfileResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:RetrieveCardResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:RetrieveCashDrawerShiftResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:RetrieveCatalogObjectResponse": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:RetrieveChannelResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:RetrieveCustomerCustomAttributeDefinitionResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:RetrieveCustomerCustomAttributeResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:RetrieveCustomerGroupResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:RetrieveCustomerResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:RetrieveCustomerSegmentResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:RetrieveDisputeEvidenceResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:RetrieveDisputeResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:RetrieveEmployeeResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:RetrieveGiftCardFromGANRequest": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:RetrieveGiftCardFromGANResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:RetrieveGiftCardFromNonceRequest": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:RetrieveGiftCardFromNonceResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:RetrieveGiftCardResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:RetrieveInventoryAdjustmentReasonRequest": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:RetrieveInventoryAdjustmentReasonResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:RetrieveInventoryAdjustmentResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:RetrieveInventoryChangesResponse": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:RetrieveInventoryCountResponse": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:RetrieveInventoryPhysicalCountResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:RetrieveJobResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:RetrieveLocationBookingProfileResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:RetrieveLocationCustomAttributeDefinitionResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:RetrieveLocationCustomAttributeResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:RetrieveLocationResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:RetrieveLocationSettingsResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:RetrieveLoyaltyAccountResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:RetrieveLoyaltyProgramResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:RetrieveLoyaltyPromotionResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:RetrieveLoyaltyRewardResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:RetrieveMerchantCustomAttributeDefinitionResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:RetrieveMerchantCustomAttributeResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:RetrieveMerchantResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:RetrieveMerchantSettingsResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:RetrieveOrderCustomAttributeDefinitionResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:RetrieveOrderCustomAttributeResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:RetrieveOrderResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:RetrievePaymentLinkResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:RetrieveScheduledShiftResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:RetrieveSnippetResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:RetrieveSubscriptionResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:RetrieveTeamMemberBookingProfileResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:RetrieveTeamMemberResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:RetrieveTimecardResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:RetrieveTokenStatusResponse": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:RetrieveTransactionResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:RetrieveTransferOrderResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:RetrieveVendorResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:RetrieveWageSettingResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:RetrieveWebhookSubscriptionResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:RevokeTokenRequest": [
+   "props:4",
+   "req:0"
+  ],
+  "schema:RevokeTokenResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:RiskEvaluation": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:RiskEvaluationRiskLevel": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:SaveCardOptions": [
+   "props:3",
+   "req:1"
+  ],
+  "schema:ScheduledShift": [
+   "props:6",
+   "req:0"
+  ],
+  "schema:ScheduledShiftDetails": [
+   "props:8",
+   "req:0"
+  ],
+  "schema:ScheduledShiftFilter": [
+   "props:7",
+   "req:0"
+  ],
+  "schema:ScheduledShiftFilterAssignmentStatus": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:ScheduledShiftFilterScheduledShiftStatus": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:ScheduledShiftNotificationAudience": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:ScheduledShiftQuery": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:ScheduledShiftSort": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:ScheduledShiftSortField": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:ScheduledShiftWorkday": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:ScheduledShiftWorkdayMatcher": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:SearchAvailabilityFilter": [
+   "props:4",
+   "req:1"
+  ],
+  "schema:SearchAvailabilityQuery": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:SearchAvailabilityRequest": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:SearchAvailabilityResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:SearchCatalogItemsRequest": [
+   "props:11",
+   "req:0"
+  ],
+  "schema:SearchCatalogItemsRequestStockLevel": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:SearchCatalogItemsResponse": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:SearchCatalogObjectsRequest": [
+   "props:9",
+   "req:0"
+  ],
+  "schema:SearchCatalogObjectsResponse": [
+   "props:6",
+   "req:0"
+  ],
+  "schema:SearchCustomersRequest": [
+   "props:4",
+   "req:0"
+  ],
+  "schema:SearchCustomersResponse": [
+   "props:4",
+   "req:0"
+  ],
+  "schema:SearchEventsFilter": [
+   "props:4",
+   "req:0"
+  ],
+  "schema:SearchEventsQuery": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:SearchEventsRequest": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:SearchEventsResponse": [
+   "props:4",
+   "req:0"
+  ],
+  "schema:SearchEventsSort": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:SearchEventsSortField": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:SearchInvoicesRequest": [
+   "props:3",
+   "req:1"
+  ],
+  "schema:SearchInvoicesResponse": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:SearchLoyaltyAccountsRequest": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:SearchLoyaltyAccountsRequestLoyaltyAccountQuery": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:SearchLoyaltyAccountsResponse": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:SearchLoyaltyEventsRequest": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:SearchLoyaltyEventsResponse": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:SearchLoyaltyRewardsRequest": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:SearchLoyaltyRewardsRequestLoyaltyRewardQuery": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:SearchLoyaltyRewardsResponse": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:SearchOrdersCustomerFilter": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:SearchOrdersDateTimeFilter": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:SearchOrdersFilter": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:SearchOrdersFulfillmentFilter": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:SearchOrdersQuery": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:SearchOrdersRequest": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:SearchOrdersResponse": [
+   "props:4",
+   "req:0"
+  ],
+  "schema:SearchOrdersSort": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:SearchOrdersSortField": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:SearchOrdersSourceFilter": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:SearchOrdersStateFilter": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:SearchScheduledShiftsRequest": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:SearchScheduledShiftsResponse": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:SearchShiftsRequest": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:SearchShiftsResponse": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:SearchSubscriptionsFilter": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:SearchSubscriptionsQuery": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:SearchSubscriptionsRequest": [
+   "props:4",
+   "req:0"
+  ],
+  "schema:SearchSubscriptionsResponse": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:SearchTeamMembersFilter": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:SearchTeamMembersQuery": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:SearchTeamMembersRequest": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:SearchTeamMembersResponse": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:SearchTerminalActionsRequest": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:SearchTerminalActionsResponse": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:SearchTerminalCheckoutsRequest": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:SearchTerminalCheckoutsResponse": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:SearchTerminalRefundsRequest": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:SearchTerminalRefundsResponse": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:SearchTimecardsRequest": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:SearchTimecardsResponse": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:SearchTransferOrdersRequest": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:SearchTransferOrdersResponse": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:SearchVendorsRequest": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:SearchVendorsRequestFilter": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:SearchVendorsRequestSort": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:SearchVendorsRequestSortField": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:SearchVendorsResponse": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:SegmentFilter": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:SelectOption": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:SelectOptions": [
+   "props:4",
+   "req:3"
+  ],
+  "schema:Shift": [
+   "props:14",
+   "req:2"
+  ],
+  "schema:ShiftFilter": [
+   "props:7",
+   "req:0"
+  ],
+  "schema:ShiftFilterStatus": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:ShiftQuery": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:ShiftSort": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:ShiftSortField": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:ShiftStatus": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:ShiftWage": [
+   "props:4",
+   "req:0"
+  ],
+  "schema:ShiftWorkday": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:ShiftWorkdayMatcher": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:ShippingFee": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:SignatureImage": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:SignatureOptions": [
+   "props:3",
+   "req:2"
+  ],
+  "schema:Site": [
+   "props:6",
+   "req:0"
+  ],
+  "schema:Snippet": [
+   "props:5",
+   "req:1"
+  ],
+  "schema:SortOrder": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:SourceApplication": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:SquareAccountDetails": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:StandardUnitDescription": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:StandardUnitDescriptionGroup": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:StartTransferOrderRequest": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:StartTransferOrderResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:SubmitEvidenceResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:Subscription": [
+   "props:20",
+   "req:0"
+  ],
+  "schema:SubscriptionAction": [
+   "props:6",
+   "req:0"
+  ],
+  "schema:SubscriptionActionType": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:SubscriptionCadence": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:SubscriptionCreatedEvent": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:SubscriptionCreatedEventData": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:SubscriptionCreatedEventObject": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:SubscriptionEvent": [
+   "props:7",
+   "req:4"
+  ],
+  "schema:SubscriptionEventInfo": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:SubscriptionEventInfoCode": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:SubscriptionEventSubscriptionEventType": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:SubscriptionPhase": [
+   "props:6",
+   "req:1"
+  ],
+  "schema:SubscriptionPricing": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:SubscriptionPricingType": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:SubscriptionSource": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:SubscriptionStatus": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:SubscriptionTestResult": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:SubscriptionUpdatedEvent": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:SubscriptionUpdatedEventData": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:SubscriptionUpdatedEventObject": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:SwapPlanRequest": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:SwapPlanResponse": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:TaxCalculationPhase": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:TaxIds": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:TaxInclusionType": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:TeamMember": [
+   "props:12",
+   "req:0"
+  ],
+  "schema:TeamMemberAssignedLocations": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:TeamMemberAssignedLocationsAssignmentType": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:TeamMemberBookingProfile": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:TeamMemberCreatedEvent": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:TeamMemberCreatedEventData": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:TeamMemberCreatedEventObject": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:TeamMemberInvitationStatus": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:TeamMemberStatus": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:TeamMemberUpdatedEvent": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:TeamMemberUpdatedEventData": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:TeamMemberUpdatedEventObject": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:TeamMemberWage": [
+   "props:6",
+   "req:0"
+  ],
+  "schema:TeamMemberWageSettingUpdatedEvent": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:TeamMemberWageSettingUpdatedEventData": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:TeamMemberWageSettingUpdatedEventObject": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:Tender": [
+   "props:17",
+   "req:1"
+  ],
+  "schema:TenderBankAccountDetails": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:TenderBankAccountDetailsStatus": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:TenderBuyNowPayLaterDetails": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:TenderBuyNowPayLaterDetailsBrand": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:TenderBuyNowPayLaterDetailsStatus": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:TenderCardDetails": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:TenderCardDetailsEntryMethod": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:TenderCardDetailsStatus": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:TenderCashDetails": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:TenderSquareAccountDetails": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:TenderSquareAccountDetailsStatus": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:TenderType": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:TerminalAction": [
+   "props:20",
+   "req:0"
+  ],
+  "schema:TerminalActionActionType": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:TerminalActionCreatedEvent": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:TerminalActionCreatedEventData": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:TerminalActionCreatedEventObject": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:TerminalActionQuery": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:TerminalActionQueryFilter": [
+   "props:4",
+   "req:0"
+  ],
+  "schema:TerminalActionQuerySort": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:TerminalActionUpdatedEvent": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:TerminalActionUpdatedEventData": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:TerminalActionUpdatedEventObject": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:TerminalCheckout": [
+   "props:21",
+   "req:2"
+  ],
+  "schema:TerminalCheckoutCreatedEvent": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:TerminalCheckoutCreatedEventData": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:TerminalCheckoutCreatedEventObject": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:TerminalCheckoutQuery": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:TerminalCheckoutQueryFilter": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:TerminalCheckoutQuerySort": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:TerminalCheckoutUpdatedEvent": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:TerminalCheckoutUpdatedEventData": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:TerminalCheckoutUpdatedEventObject": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:TerminalRefund": [
+   "props:14",
+   "req:4"
+  ],
+  "schema:TerminalRefundCreatedEvent": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:TerminalRefundCreatedEventData": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:TerminalRefundCreatedEventObject": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:TerminalRefundQuery": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:TerminalRefundQueryFilter": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:TerminalRefundQuerySort": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:TerminalRefundUpdatedEvent": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:TerminalRefundUpdatedEventData": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:TerminalRefundUpdatedEventObject": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:TestWebhookSubscriptionRequest": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:TestWebhookSubscriptionResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:TimeRange": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:Timecard": [
+   "props:13",
+   "req:3"
+  ],
+  "schema:TimecardFilter": [
+   "props:6",
+   "req:0"
+  ],
+  "schema:TimecardFilterStatus": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:TimecardQuery": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:TimecardSort": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:TimecardSortField": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:TimecardStatus": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:TimecardWage": [
+   "props:4",
+   "req:0"
+  ],
+  "schema:TimecardWorkday": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:TimecardWorkdayMatcher": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:TipSettings": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:Transaction": [
+   "props:10",
+   "req:0"
+  ],
+  "schema:TransactionProduct": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:TransactionType": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:TransferOrder": [
+   "props:13",
+   "req:0"
+  ],
+  "schema:TransferOrderCreatedEvent": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:TransferOrderCreatedEventData": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:TransferOrderCreatedEventObject": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:TransferOrderDeletedEvent": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:TransferOrderDeletedEventData": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:TransferOrderFilter": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:TransferOrderGoodsReceipt": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:TransferOrderGoodsReceiptLineItem": [
+   "props:4",
+   "req:1"
+  ],
+  "schema:TransferOrderLine": [
+   "props:7",
+   "req:2"
+  ],
+  "schema:TransferOrderQuery": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:TransferOrderSort": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:TransferOrderSortField": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:TransferOrderStatus": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:TransferOrderUpdatedEvent": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:TransferOrderUpdatedEventData": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:TransferOrderUpdatedEventObject": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:UnlinkCustomerFromGiftCardRequest": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:UnlinkCustomerFromGiftCardResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:UpdateBookingCustomAttributeDefinitionRequest": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:UpdateBookingCustomAttributeDefinitionResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:UpdateBookingRequest": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:UpdateBookingResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:UpdateBreakTypeRequest": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:UpdateBreakTypeResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:UpdateCatalogImageRequest": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:UpdateCatalogImageResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:UpdateCustomerCustomAttributeDefinitionRequest": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:UpdateCustomerCustomAttributeDefinitionResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:UpdateCustomerGroupRequest": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:UpdateCustomerGroupResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:UpdateCustomerRequest": [
+   "props:12",
+   "req:0"
+  ],
+  "schema:UpdateCustomerResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:UpdateInventoryAdjustmentReasonRequest": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:UpdateInventoryAdjustmentReasonResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:UpdateInventoryAdjustmentRequest": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:UpdateInventoryAdjustmentResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:UpdateInvoiceRequest": [
+   "props:3",
+   "req:1"
+  ],
+  "schema:UpdateInvoiceResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:UpdateItemModifierListsRequest": [
+   "props:3",
+   "req:1"
+  ],
+  "schema:UpdateItemModifierListsResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:UpdateItemTaxesRequest": [
+   "props:3",
+   "req:1"
+  ],
+  "schema:UpdateItemTaxesResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:UpdateJobRequest": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:UpdateJobResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:UpdateLocationCustomAttributeDefinitionRequest": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:UpdateLocationCustomAttributeDefinitionResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:UpdateLocationRequest": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:UpdateLocationResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:UpdateLocationSettingsRequest": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:UpdateLocationSettingsResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:UpdateMerchantCustomAttributeDefinitionRequest": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:UpdateMerchantCustomAttributeDefinitionResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:UpdateMerchantSettingsRequest": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:UpdateMerchantSettingsResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:UpdateOrderCustomAttributeDefinitionRequest": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:UpdateOrderCustomAttributeDefinitionResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:UpdateOrderRequest": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:UpdateOrderResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:UpdatePaymentLinkRequest": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:UpdatePaymentLinkResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:UpdatePaymentRequest": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:UpdatePaymentResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:UpdateScheduledShiftRequest": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:UpdateScheduledShiftResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:UpdateShiftRequest": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:UpdateShiftResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:UpdateSubscriptionRequest": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:UpdateSubscriptionResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:UpdateTeamMemberRequest": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:UpdateTeamMemberResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:UpdateTimecardRequest": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:UpdateTimecardResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:UpdateTransferOrderData": [
+   "props:6",
+   "req:0"
+  ],
+  "schema:UpdateTransferOrderLineData": [
+   "props:4",
+   "req:0"
+  ],
+  "schema:UpdateTransferOrderRequest": [
+   "props:3",
+   "req:2"
+  ],
+  "schema:UpdateTransferOrderResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:UpdateVendorRequest": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:UpdateVendorResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:UpdateWageSettingRequest": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:UpdateWageSettingResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:UpdateWebhookSubscriptionRequest": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:UpdateWebhookSubscriptionResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:UpdateWebhookSubscriptionSignatureKeyRequest": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:UpdateWebhookSubscriptionSignatureKeyResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:UpdateWorkweekConfigRequest": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:UpdateWorkweekConfigResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:UpsertBookingCustomAttributeRequest": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:UpsertBookingCustomAttributeResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:UpsertCatalogObjectRequest": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:UpsertCatalogObjectResponse": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:UpsertCustomerCustomAttributeRequest": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:UpsertCustomerCustomAttributeResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:UpsertLocationCustomAttributeRequest": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:UpsertLocationCustomAttributeResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:UpsertMerchantCustomAttributeRequest": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:UpsertMerchantCustomAttributeResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:UpsertOrderCustomAttributeRequest": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:UpsertOrderCustomAttributeResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:UpsertSnippetRequest": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:UpsertSnippetResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:V1Money": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:V1Order": [
+   "props:25",
+   "req:0"
+  ],
+  "schema:V1OrderHistoryEntry": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:V1OrderHistoryEntryAction": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:V1OrderState": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:V1Tender": [
+   "props:16",
+   "req:0"
+  ],
+  "schema:V1TenderCardBrand": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:V1TenderEntryMethod": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:V1TenderType": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:V1UpdateOrderRequest": [
+   "props:5",
+   "req:1"
+  ],
+  "schema:V1UpdateOrderRequestAction": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:Vendor": [
+   "props:10",
+   "req:0"
+  ],
+  "schema:VendorContact": [
+   "props:6",
+   "req:1"
+  ],
+  "schema:VendorCreatedEvent": [
+   "props:6",
+   "req:0"
+  ],
+  "schema:VendorCreatedEventData": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:VendorCreatedEventObject": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:VendorCreatedEventObjectOperation": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:VendorStatus": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:VendorUpdatedEvent": [
+   "props:6",
+   "req:0"
+  ],
+  "schema:VendorUpdatedEventData": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:VendorUpdatedEventObject": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:VendorUpdatedEventObjectOperation": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:VisibilityFilter": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:VoidTransactionResponse": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:WageSetting": [
+   "props:6",
+   "req:0"
+  ],
+  "schema:WebhookSubscription": [
+   "props:9",
+   "req:0"
+  ],
+  "schema:Weekday": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:WorkweekConfig": [
+   "props:6",
+   "req:2"
+  ]
+ },
+ "ts": "2026-08-18T23:38:25+00:00",
+ "url": "https://raw.githubusercontent.com/square/connect-api-specification/master/api.json",
+ "vendor": "Square"
+}

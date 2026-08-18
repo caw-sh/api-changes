@@ -4,7 +4,7 @@
  "first_seen": "2026-08-18T23:20:13+00:00",
  "id": "spec-openai",
  "pending_keys": [],
- "runs": 3,
+ "runs": 4,
  "schema": {
   "DELETE /assistants/{assistant_id}": [
    "DEPRECATED",
@@ -6968,7 +6968,7 @@
    "req:0"
   ]
  },
- "ts": "2026-08-18T23:23:51+00:00",
+ "ts": "2026-08-18T23:38:25+00:00",
  "url": "https://raw.githubusercontent.com/openai/openai-openapi/master/openapi.yaml",
  "vendor": "OpenAI"
 }

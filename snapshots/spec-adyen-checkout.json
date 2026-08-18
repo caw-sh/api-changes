@@ -1,0 +1,1194 @@
+{
+ "category": "spec",
+ "field_count": 289,
+ "first_seen": "2026-08-18T23:38:25+00:00",
+ "id": "spec-adyen-checkout",
+ "pending_keys": [],
+ "runs": 1,
+ "schema": {
+  "DELETE /storedPaymentMethods/{storedPaymentMethodId}": [
+   "params:3",
+   "responses:1"
+  ],
+  "GET /paymentLinks/{linkId}": [
+   "params:1",
+   "responses:6"
+  ],
+  "GET /sessions/{sessionId}": [
+   "params:2",
+   "responses:1"
+  ],
+  "GET /storedPaymentMethods": [
+   "params:2",
+   "responses:1"
+  ],
+  "PATCH /paymentLinks/{linkId}": [
+   "body",
+   "params:1",
+   "responses:6"
+  ],
+  "POST /applePay/sessions": [
+   "body",
+   "params:1",
+   "responses:1"
+  ],
+  "POST /cancels": [
+   "body",
+   "params:1",
+   "responses:6"
+  ],
+  "POST /cardDetails": [
+   "body",
+   "params:1",
+   "responses:1"
+  ],
+  "POST /donationCampaigns": [
+   "body",
+   "params:1",
+   "responses:6"
+  ],
+  "POST /donations": [
+   "body",
+   "params:1",
+   "responses:6"
+  ],
+  "POST /forward": [
+   "body",
+   "params:1",
+   "responses:1"
+  ],
+  "POST /orders": [
+   "body",
+   "params:1",
+   "responses:6"
+  ],
+  "POST /orders/cancel": [
+   "body",
+   "params:1",
+   "responses:6"
+  ],
+  "POST /originKeys": [
+   "DEPRECATED",
+   "body",
+   "params:1",
+   "responses:6"
+  ],
+  "POST /paymentLinks": [
+   "body",
+   "params:1",
+   "responses:6"
+  ],
+  "POST /paymentMethods": [
+   "body",
+   "params:1",
+   "responses:6"
+  ],
+  "POST /paymentMethods/balance": [
+   "body",
+   "params:1",
+   "responses:6"
+  ],
+  "POST /payments": [
+   "body",
+   "params:1",
+   "responses:6"
+  ],
+  "POST /payments/details": [
+   "body",
+   "params:1",
+   "responses:6"
+  ],
+  "POST /payments/{paymentPspReference}/amountUpdates": [
+   "body",
+   "params:2",
+   "responses:6"
+  ],
+  "POST /payments/{paymentPspReference}/cancels": [
+   "body",
+   "params:2",
+   "responses:6"
+  ],
+  "POST /payments/{paymentPspReference}/captures": [
+   "body",
+   "params:2",
+   "responses:6"
+  ],
+  "POST /payments/{paymentPspReference}/refunds": [
+   "body",
+   "params:2",
+   "responses:6"
+  ],
+  "POST /payments/{paymentPspReference}/reversals": [
+   "body",
+   "params:2",
+   "responses:6"
+  ],
+  "POST /paypal/updateOrder": [
+   "body",
+   "params:1",
+   "responses:6"
+  ],
+  "POST /sessions": [
+   "body",
+   "params:1",
+   "responses:1"
+  ],
+  "POST /storedPaymentMethods": [
+   "body",
+   "params:1",
+   "responses:1"
+  ],
+  "POST /validateShopperId": [
+   "body",
+   "params:0",
+   "responses:6"
+  ],
+  "schema:AccountInfo": [
+   "props:19",
+   "req:0"
+  ],
+  "schema:AcctInfo": [
+   "props:16",
+   "req:0"
+  ],
+  "schema:AchDetails": [
+   "props:13",
+   "req:0"
+  ],
+  "schema:AdditionalData3DSecure": [
+   "props:6",
+   "req:0"
+  ],
+  "schema:AdditionalDataAirline": [
+   "props:29",
+   "req:1"
+  ],
+  "schema:AdditionalDataCarRental": [
+   "props:23",
+   "req:0"
+  ],
+  "schema:AdditionalDataCommon": [
+   "props:22",
+   "req:0"
+  ],
+  "schema:AdditionalDataLevel23": [
+   "props:17",
+   "req:0"
+  ],
+  "schema:AdditionalDataLodging": [
+   "props:17",
+   "req:0"
+  ],
+  "schema:AdditionalDataOpenInvoice": [
+   "props:18",
+   "req:0"
+  ],
+  "schema:AdditionalDataOpi": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:AdditionalDataRatepay": [
+   "props:8",
+   "req:0"
+  ],
+  "schema:AdditionalDataRetry": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:AdditionalDataRisk": [
+   "props:21",
+   "req:0"
+  ],
+  "schema:AdditionalDataRiskStandalone": [
+   "props:15",
+   "req:0"
+  ],
+  "schema:AdditionalDataSubMerchant": [
+   "props:12",
+   "req:0"
+  ],
+  "schema:AdditionalDataTemporaryServices": [
+   "props:9",
+   "req:0"
+  ],
+  "schema:AdditionalDataWallets": [
+   "props:6",
+   "req:0"
+  ],
+  "schema:Address": [
+   "props:6",
+   "req:5"
+  ],
+  "schema:AffirmDetails": [
+   "props:4",
+   "req:0"
+  ],
+  "schema:AfterpayDetails": [
+   "props:8",
+   "req:1"
+  ],
+  "schema:Agency": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:Airline": [
+   "props:13",
+   "req:1"
+  ],
+  "schema:AlmaDetails": [
+   "props:4",
+   "req:0"
+  ],
+  "schema:AmazonPayDetails": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:Amount": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:Amounts": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:AncvDetails": [
+   "props:6",
+   "req:0"
+  ],
+  "schema:AndroidPayDetails": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:AppIdentifierInfo": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:ApplePayDetails": [
+   "props:7",
+   "req:1"
+  ],
+  "schema:ApplePayDonations": [
+   "props:7",
+   "req:1"
+  ],
+  "schema:ApplePaySessionRequest": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:ApplePaySessionResponse": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:ApplicationInfo": [
+   "props:6",
+   "req:0"
+  ],
+  "schema:AuPayDetails": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:AuthenticationData": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:BacsDirectDebitDetails": [
+   "props:9",
+   "req:0"
+  ],
+  "schema:BalanceCheckRequest": [
+   "props:44",
+   "req:3"
+  ],
+  "schema:BalanceCheckResponse": [
+   "props:7",
+   "req:2"
+  ],
+  "schema:BillDeskDetails": [
+   "props:4",
+   "req:2"
+  ],
+  "schema:BillingAddress": [
+   "props:6",
+   "req:5"
+  ],
+  "schema:BlikDetails": [
+   "props:6",
+   "req:0"
+  ],
+  "schema:BrowserInfo": [
+   "props:9",
+   "req:8"
+  ],
+  "schema:CancelOrderRequest": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:CancelOrderResponse": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:CarRental": [
+   "props:12",
+   "req:1"
+  ],
+  "schema:CardBrandDetails": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:CardDetails": [
+   "props:28",
+   "req:0"
+  ],
+  "schema:CardDetailsRequest": [
+   "props:5",
+   "req:1"
+  ],
+  "schema:CardDetailsResponse": [
+   "props:4",
+   "req:0"
+  ],
+  "schema:CardDonations": [
+   "props:28",
+   "req:0"
+  ],
+  "schema:CashAppDetails": [
+   "props:11",
+   "req:0"
+  ],
+  "schema:CellulantDetails": [
+   "props:4",
+   "req:0"
+  ],
+  "schema:CheckoutAwaitAction": [
+   "props:4",
+   "req:1"
+  ],
+  "schema:CheckoutBankAccount": [
+   "props:10",
+   "req:0"
+  ],
+  "schema:CheckoutBankTransferAction": [
+   "props:15",
+   "req:1"
+  ],
+  "schema:CheckoutDelegatedAuthenticationAction": [
+   "props:6",
+   "req:1"
+  ],
+  "schema:CheckoutErrorResponseEntity": [
+   "props:5",
+   "req:3"
+  ],
+  "schema:CheckoutForwardRequest": [
+   "props:9",
+   "req:4"
+  ],
+  "schema:CheckoutForwardRequestCard": [
+   "props:10",
+   "req:0"
+  ],
+  "schema:CheckoutForwardRequestOptions": [
+   "props:6",
+   "req:0"
+  ],
+  "schema:CheckoutForwardResponse": [
+   "props:4",
+   "req:1"
+  ],
+  "schema:CheckoutForwardResponseFromUrl": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:CheckoutNativeRedirectAction": [
+   "props:6",
+   "req:1"
+  ],
+  "schema:CheckoutNetworkTokenOption": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:CheckoutOrderResponse": [
+   "props:6",
+   "req:1"
+  ],
+  "schema:CheckoutOutgoingForwardRequest": [
+   "props:5",
+   "req:2"
+  ],
+  "schema:CheckoutQrCodeAction": [
+   "props:6",
+   "req:1"
+  ],
+  "schema:CheckoutRedirectAction": [
+   "props:5",
+   "req:1"
+  ],
+  "schema:CheckoutSDKAction": [
+   "props:5",
+   "req:1"
+  ],
+  "schema:CheckoutSessionInstallmentOption": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:CheckoutSessionThreeDS2RequestData": [
+   "props:4",
+   "req:0"
+  ],
+  "schema:CheckoutThreeDS2Action": [
+   "props:7",
+   "req:1"
+  ],
+  "schema:CheckoutVoucherAction": [
+   "props:21",
+   "req:1"
+  ],
+  "schema:CommonField": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:Company": [
+   "props:6",
+   "req:0"
+  ],
+  "schema:ConfidenceScore": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:CreateCheckoutSessionRequest": [
+   "props:63",
+   "req:4"
+  ],
+  "schema:CreateCheckoutSessionResponse": [
+   "props:65",
+   "req:6"
+  ],
+  "schema:CreateOrderRequest": [
+   "props:4",
+   "req:3"
+  ],
+  "schema:CreateOrderResponse": [
+   "props:10",
+   "req:5"
+  ],
+  "schema:DBaraiDetails": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:DeliveryAddress": [
+   "props:8",
+   "req:5"
+  ],
+  "schema:DeliveryMethod": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:Destination": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:DetailsRequestAuthenticationData": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:DeviceRenderOptions": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:DirectDebitAuDetails": [
+   "props:8",
+   "req:0"
+  ],
+  "schema:DokuDetails": [
+   "props:6",
+   "req:4"
+  ],
+  "schema:Donation": [
+   "props:5",
+   "req:3"
+  ],
+  "schema:DonationCampaign": [
+   "props:11",
+   "req:0"
+  ],
+  "schema:DonationCampaignsRequest": [
+   "props:5",
+   "req:2"
+  ],
+  "schema:DonationCampaignsResponse": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:DonationPaymentRequest": [
+   "props:43",
+   "req:4"
+  ],
+  "schema:DonationPaymentResponse": [
+   "props:7",
+   "req:0"
+  ],
+  "schema:DragonpayDetails": [
+   "props:5",
+   "req:2"
+  ],
+  "schema:EBankingFinlandDetails": [
+   "props:4",
+   "req:1"
+  ],
+  "schema:EcontextVoucherDetails": [
+   "props:7",
+   "req:5"
+  ],
+  "schema:EftDetails": [
+   "props:9",
+   "req:0"
+  ],
+  "schema:EncryptedOrderData": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:EnhancedSchemeData": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:ExternalPlatform": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:ExternalTokenDetails": [
+   "props:8",
+   "req:3"
+  ],
+  "schema:FastlaneDetails": [
+   "props:6",
+   "req:2"
+  ],
+  "schema:Folio": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:ForexQuote": [
+   "props:12",
+   "req:2"
+  ],
+  "schema:FraudCheckResult": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:FraudResult": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:FundOrigin": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:FundRecipient": [
+   "props:12",
+   "req:0"
+  ],
+  "schema:GenericIssuerPaymentMethodDetails": [
+   "props:6",
+   "req:2"
+  ],
+  "schema:GooglePayDetails": [
+   "props:9",
+   "req:1"
+  ],
+  "schema:GooglePayDonations": [
+   "props:9",
+   "req:1"
+  ],
+  "schema:IdealDetails": [
+   "props:6",
+   "req:0"
+  ],
+  "schema:IdealDonations": [
+   "props:6",
+   "req:0"
+  ],
+  "schema:InputDetail": [
+   "props:9",
+   "req:0"
+  ],
+  "schema:InstallmentOption": [
+   "props:4",
+   "req:0"
+  ],
+  "schema:Installments": [
+   "props:3",
+   "req:1"
+  ],
+  "schema:Item": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:ItemDetailLine": [
+   "props:8",
+   "req:0"
+  ],
+  "schema:KlarnaDetails": [
+   "props:9",
+   "req:1"
+  ],
+  "schema:KlarnaNetworkDetails": [
+   "props:7",
+   "req:1"
+  ],
+  "schema:Leg": [
+   "props:9",
+   "req:0"
+  ],
+  "schema:LevelTwoThree": [
+   "props:8",
+   "req:0"
+  ],
+  "schema:LineItem": [
+   "props:18",
+   "req:0"
+  ],
+  "schema:ListStoredPaymentMethodsResponse": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:Lodging": [
+   "props:14",
+   "req:0"
+  ],
+  "schema:Mandate": [
+   "props:9",
+   "req:3"
+  ],
+  "schema:MasterpassDetails": [
+   "props:5",
+   "req:1"
+  ],
+  "schema:MbwayDetails": [
+   "props:5",
+   "req:2"
+  ],
+  "schema:MerchantDevice": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:MerchantRiskIndicator": [
+   "props:14",
+   "req:0"
+  ],
+  "schema:MobilePayDetails": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:MolPayDetails": [
+   "props:4",
+   "req:2"
+  ],
+  "schema:Name": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:OpenInvoiceDetails": [
+   "props:8",
+   "req:0"
+  ],
+  "schema:Passenger": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:PayByBankAISDirectDebitDetails": [
+   "props:5",
+   "req:1"
+  ],
+  "schema:PayByBankDetails": [
+   "props:4",
+   "req:1"
+  ],
+  "schema:PayPalDetails": [
+   "props:10",
+   "req:1"
+  ],
+  "schema:PayPayDetails": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:PayToDetails": [
+   "props:6",
+   "req:0"
+  ],
+  "schema:PayToPaymentMethod": [
+   "props:0",
+   "req:1"
+  ],
+  "schema:PayUUpiDetails": [
+   "props:7",
+   "req:1"
+  ],
+  "schema:PayWithGoogleDetails": [
+   "props:8",
+   "req:1"
+  ],
+  "schema:PayWithGoogleDonations": [
+   "props:8",
+   "req:1"
+  ],
+  "schema:Payment": [
+   "props:4",
+   "req:0"
+  ],
+  "schema:PaymentAmountUpdateRequest": [
+   "props:8",
+   "req:2"
+  ],
+  "schema:PaymentAmountUpdateResponse": [
+   "props:9",
+   "req:6"
+  ],
+  "schema:PaymentCancelRequest": [
+   "props:4",
+   "req:1"
+  ],
+  "schema:PaymentCancelResponse": [
+   "props:5",
+   "req:4"
+  ],
+  "schema:PaymentCaptureRequest": [
+   "props:9",
+   "req:2"
+  ],
+  "schema:PaymentCaptureResponse": [
+   "props:10",
+   "req:5"
+  ],
+  "schema:PaymentCompletionDetails": [
+   "props:20",
+   "req:0"
+  ],
+  "schema:PaymentDetails": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:PaymentDetailsRequest": [
+   "props:4",
+   "req:1"
+  ],
+  "schema:PaymentDetailsResponse": [
+   "props:17",
+   "req:0"
+  ],
+  "schema:PaymentLinkRequest": [
+   "props:42",
+   "req:3"
+  ],
+  "schema:PaymentLinkResponse": [
+   "props:46",
+   "req:6"
+  ],
+  "schema:PaymentMethod": [
+   "props:11",
+   "req:0"
+  ],
+  "schema:PaymentMethodGroup": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:PaymentMethodIssuer": [
+   "props:3",
+   "req:2"
+  ],
+  "schema:PaymentMethodToStore": [
+   "props:12",
+   "req:0"
+  ],
+  "schema:PaymentMethodUPIApps": [
+   "props:3",
+   "req:2"
+  ],
+  "schema:PaymentMethodsRequest": [
+   "props:18",
+   "req:1"
+  ],
+  "schema:PaymentMethodsResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:PaymentRefundRequest": [
+   "props:10",
+   "req:2"
+  ],
+  "schema:PaymentRefundResponse": [
+   "props:11",
+   "req:5"
+  ],
+  "schema:PaymentRequest": [
+   "props:75",
+   "req:5"
+  ],
+  "schema:PaymentResponse": [
+   "props:16",
+   "req:0"
+  ],
+  "schema:PaymentReversalRequest": [
+   "props:4",
+   "req:1"
+  ],
+  "schema:PaymentReversalResponse": [
+   "props:5",
+   "req:4"
+  ],
+  "schema:PaymentValidations": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:PaymentValidationsNameRequest": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:PaymentValidationsNameResponse": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:PaymentValidationsNameResultRawResponse": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:PaymentValidationsNameResultResponse": [
+   "props:4",
+   "req:0"
+  ],
+  "schema:PaymentValidationsResponse": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:PaypalUpdateOrderRequest": [
+   "props:9",
+   "req:0"
+  ],
+  "schema:PaypalUpdateOrderResponse": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:Phone": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:PickupInfo": [
+   "props:4",
+   "req:0"
+  ],
+  "schema:PixDetails": [
+   "props:6",
+   "req:0"
+  ],
+  "schema:PixPayByBankDetails": [
+   "props:8",
+   "req:0"
+  ],
+  "schema:PixPayByBankRiskSignals": [
+   "props:8",
+   "req:0"
+  ],
+  "schema:PixRecurring": [
+   "props:10",
+   "req:0"
+  ],
+  "schema:PlatformChargebackLogic": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:PseDetails": [
+   "props:7",
+   "req:4"
+  ],
+  "schema:RakutenPayDetails": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:RatepayDetails": [
+   "props:8",
+   "req:1"
+  ],
+  "schema:Recurring": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:RentalSurcharges": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:ResponseAdditionalData3DSecure": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:ResponseAdditionalDataBillingAddress": [
+   "props:6",
+   "req:0"
+  ],
+  "schema:ResponseAdditionalDataCard": [
+   "props:10",
+   "req:0"
+  ],
+  "schema:ResponseAdditionalDataCommon": [
+   "props:65",
+   "req:0"
+  ],
+  "schema:ResponseAdditionalDataDomesticError": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:ResponseAdditionalDataInstallments": [
+   "props:12",
+   "req:0"
+  ],
+  "schema:ResponseAdditionalDataNetworkTokens": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:ResponseAdditionalDataOpi": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:ResponseAdditionalDataSepa": [
+   "props:4",
+   "req:0"
+  ],
+  "schema:ResponseAdditionalDataSwish": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:ResponsePaymentMethod": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:Result": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:ReturnInfo": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:RiskData": [
+   "props:4",
+   "req:0"
+  ],
+  "schema:RivertyDetails": [
+   "props:11",
+   "req:1"
+  ],
+  "schema:Room": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:SDKEphemPubKey": [
+   "props:4",
+   "req:0"
+  ],
+  "schema:SamsungPayDetails": [
+   "props:7",
+   "req:1"
+  ],
+  "schema:ScreenDimensions": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:SepaDirectDebitDetails": [
+   "props:9",
+   "req:0"
+  ],
+  "schema:SepaDirectDebitDonations": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:ServiceError": [
+   "props:6",
+   "req:0"
+  ],
+  "schema:SessionResultResponse": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:ShopperIdPaymentMethod": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:ShopperInteractionDevice": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:ShopperName": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:ShopperTaxInfo": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:Split": [
+   "props:5",
+   "req:1"
+  ],
+  "schema:SplitAmount": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:StandalonePaymentCancelRequest": [
+   "props:5",
+   "req:2"
+  ],
+  "schema:StandalonePaymentCancelResponse": [
+   "props:5",
+   "req:4"
+  ],
+  "schema:StoredPaymentMethod": [
+   "props:18",
+   "req:0"
+  ],
+  "schema:StoredPaymentMethodDetails": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:StoredPaymentMethodRequest": [
+   "props:6",
+   "req:4"
+  ],
+  "schema:StoredPaymentMethodResource": [
+   "props:21",
+   "req:0"
+  ],
+  "schema:SubInputDetail": [
+   "props:6",
+   "req:0"
+  ],
+  "schema:SubMerchant": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:SubMerchantInfo": [
+   "props:10",
+   "req:0"
+  ],
+  "schema:Surcharge": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:TaxTotal": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:TemporaryServices": [
+   "props:7",
+   "req:0"
+  ],
+  "schema:ThirdPartyTokenRedundancyInfo": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:ThreeDS2RequestData": [
+   "props:39",
+   "req:1"
+  ],
+  "schema:ThreeDS2RequestFields": [
+   "props:36",
+   "req:0"
+  ],
+  "schema:ThreeDS2ResponseData": [
+   "props:19",
+   "req:0"
+  ],
+  "schema:ThreeDS2Result": [
+   "props:14",
+   "req:0"
+  ],
+  "schema:ThreeDSRequestData": [
+   "props:4",
+   "req:0"
+  ],
+  "schema:ThreeDSRequestorAuthenticationInfo": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:ThreeDSRequestorPriorAuthenticationInfo": [
+   "props:4",
+   "req:0"
+  ],
+  "schema:ThreeDSecureData": [
+   "props:12",
+   "req:0"
+  ],
+  "schema:Ticket": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:TokenMandate": [
+   "props:20",
+   "req:8"
+  ],
+  "schema:TravelAgency": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:TwintDetails": [
+   "props:6",
+   "req:0"
+  ],
+  "schema:UPIPaymentMethod": [
+   "props:0",
+   "req:1"
+  ],
+  "schema:UpdatePaymentLinkRequest": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:UpiCollectDetails": [
+   "props:8",
+   "req:1"
+  ],
+  "schema:UpiIntentDetails": [
+   "props:8",
+   "req:1"
+  ],
+  "schema:UpiQrDetails": [
+   "props:7",
+   "req:1"
+  ],
+  "schema:UtilityRequest": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:UtilityResponse": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:ValidateShopperIdRequest": [
+   "props:5",
+   "req:2"
+  ],
+  "schema:ValidateShopperIdResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:VippsDetails": [
+   "props:6",
+   "req:1"
+  ],
+  "schema:VisaCheckoutDetails": [
+   "props:5",
+   "req:1"
+  ],
+  "schema:WeChatPayDetails": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:WeChatPayMiniProgramDetails": [
+   "props:7",
+   "req:0"
+  ],
+  "schema:ZipDetails": [
+   "props:6",
+   "req:0"
+  ]
+ },
+ "ts": "2026-08-18T23:38:25+00:00",
+ "url": "https://raw.githubusercontent.com/Adyen/adyen-openapi/main/json/CheckoutService-v71.json",
+ "vendor": "Adyen"
+}

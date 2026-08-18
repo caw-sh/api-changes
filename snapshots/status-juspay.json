@@ -1,0 +1,25 @@
+{
+ "category": "regional",
+ "field_count": 4,
+ "first_seen": "2026-08-18T23:38:25+00:00",
+ "id": "status-juspay",
+ "pending_keys": [],
+ "runs": 1,
+ "schema": {
+  "page": [
+   "object"
+  ],
+  "page.name": [
+   "string"
+  ],
+  "page.status": [
+   "string"
+  ],
+  "page.url": [
+   "string"
+  ]
+ },
+ "ts": "2026-08-18T23:38:25+00:00",
+ "url": "https://status.juspay.in/api/v2/summary.json",
+ "vendor": "Juspay"
+}

@@ -1,0 +1,1145 @@
+{
+ "category": "spec",
+ "field_count": 283,
+ "first_seen": "2026-08-18T23:38:25+00:00",
+ "id": "spec-netlify",
+ "pending_keys": [],
+ "runs": 1,
+ "schema": {
+  "DELETE /accounts/{account_id}": [
+   "params:0",
+   "responses:2"
+  ],
+  "DELETE /accounts/{account_id}/env/{key}": [
+   "params:3",
+   "responses:2"
+  ],
+  "DELETE /accounts/{account_id}/env/{key}/value/{id}": [
+   "params:4",
+   "responses:2"
+  ],
+  "DELETE /agent_runners/{agent_runner_id}": [
+   "params:0",
+   "responses:2"
+  ],
+  "DELETE /agent_runners/{agent_runner_id}/sessions/{agent_runner_session_id}": [
+   "params:0",
+   "responses:2"
+  ],
+  "DELETE /deploy_keys/{key_id}": [
+   "params:0",
+   "responses:2"
+  ],
+  "DELETE /deploys/{deploy_id}": [
+   "params:1",
+   "responses:2"
+  ],
+  "DELETE /dns_zones/{zone_id}": [
+   "params:0",
+   "responses:2"
+  ],
+  "DELETE /dns_zones/{zone_id}/dns_records/{dns_record_id}": [
+   "params:0",
+   "responses:2"
+  ],
+  "DELETE /hooks/{hook_id}": [
+   "params:0",
+   "responses:1"
+  ],
+  "DELETE /sites/{site_id}": [
+   "params:0",
+   "responses:2"
+  ],
+  "DELETE /sites/{site_id}/agent_runner_hooks/{id}": [
+   "params:0",
+   "responses:2"
+  ],
+  "DELETE /sites/{site_id}/assets/{asset_id}": [
+   "params:0",
+   "responses:2"
+  ],
+  "DELETE /sites/{site_id}/build_hooks/{id}": [
+   "params:0",
+   "responses:2"
+  ],
+  "DELETE /sites/{site_id}/database": [
+   "params:0",
+   "responses:2"
+  ],
+  "DELETE /sites/{site_id}/database/branch/{branch_id}": [
+   "params:0",
+   "responses:2"
+  ],
+  "DELETE /sites/{site_id}/database/compute/settings": [
+   "params:0",
+   "responses:3"
+  ],
+  "DELETE /sites/{site_id}/database/snapshot/{snapshot_id}": [
+   "params:0",
+   "responses:2"
+  ],
+  "DELETE /sites/{site_id}/deploys/{deploy_id}": [
+   "params:2",
+   "responses:2"
+  ],
+  "DELETE /sites/{site_id}/dev_server_hooks/{id}": [
+   "params:0",
+   "responses:2"
+  ],
+  "DELETE /sites/{site_id}/dev_servers": [
+   "params:1",
+   "responses:2"
+  ],
+  "DELETE /sites/{site_id}/forms/{form_id}": [
+   "params:2",
+   "responses:2"
+  ],
+  "DELETE /sites/{site_id}/services/{addon}/instances/{instance_id}": [
+   "params:0",
+   "responses:2"
+  ],
+  "DELETE /sites/{site_id}/snippets/{snippet_id}": [
+   "params:0",
+   "responses:2"
+  ],
+  "DELETE /submissions/{submission_id}": [
+   "params:0",
+   "responses:2"
+  ],
+  "DELETE /{account_slug}/members/{member_id}": [
+   "params:0",
+   "responses:2"
+  ],
+  "GET /accounts": [
+   "params:1",
+   "responses:2"
+  ],
+  "GET /accounts/types": [
+   "params:0",
+   "responses:2"
+  ],
+  "GET /accounts/{account_id}": [
+   "params:0",
+   "responses:2"
+  ],
+  "GET /accounts/{account_id}/ai-gateway/token": [
+   "params:0",
+   "responses:3"
+  ],
+  "GET /accounts/{account_id}/audit": [
+   "params:4",
+   "responses:2"
+  ],
+  "GET /accounts/{account_id}/env": [
+   "params:4",
+   "responses:2"
+  ],
+  "GET /accounts/{account_id}/env/{key}": [
+   "params:3",
+   "responses:2"
+  ],
+  "GET /agent_runners": [
+   "params:10",
+   "responses:2"
+  ],
+  "GET /agent_runners/{agent_runner_id}": [
+   "params:0",
+   "responses:2"
+  ],
+  "GET /agent_runners/{agent_runner_id}/sessions": [
+   "params:6",
+   "responses:2"
+  ],
+  "GET /agent_runners/{agent_runner_id}/sessions/{agent_runner_session_id}": [
+   "params:0",
+   "responses:2"
+  ],
+  "GET /ai-gateway/providers": [
+   "params:0",
+   "responses:2"
+  ],
+  "GET /api/v1/sites/{site_id}/env": [
+   "params:3",
+   "responses:2"
+  ],
+  "GET /billing/payment_methods": [
+   "params:0",
+   "responses:2"
+  ],
+  "GET /builds/{build_id}": [
+   "params:0",
+   "responses:2"
+  ],
+  "GET /deploy_keys": [
+   "params:0",
+   "responses:2"
+  ],
+  "GET /deploy_keys/{key_id}": [
+   "params:0",
+   "responses:2"
+  ],
+  "GET /deploys/{deploy_id}": [
+   "params:1",
+   "responses:2"
+  ],
+  "GET /dns_zones": [
+   "params:1",
+   "responses:2"
+  ],
+  "GET /dns_zones/{zone_id}": [
+   "params:0",
+   "responses:2"
+  ],
+  "GET /dns_zones/{zone_id}/dns_records": [
+   "params:0",
+   "responses:2"
+  ],
+  "GET /dns_zones/{zone_id}/dns_records/{dns_record_id}": [
+   "params:0",
+   "responses:2"
+  ],
+  "GET /forms/{form_id}/submissions": [
+   "params:3",
+   "responses:2"
+  ],
+  "GET /hooks": [
+   "params:1",
+   "responses:2"
+  ],
+  "GET /hooks/types": [
+   "params:0",
+   "responses:2"
+  ],
+  "GET /hooks/{hook_id}": [
+   "params:0",
+   "responses:2"
+  ],
+  "GET /oauth/tickets/{ticket_id}": [
+   "params:1",
+   "responses:2"
+  ],
+  "GET /services/": [
+   "params:0",
+   "responses:2"
+  ],
+  "GET /services/{addonName}": [
+   "params:0",
+   "responses:2"
+  ],
+  "GET /services/{addonName}/manifest": [
+   "params:0",
+   "responses:2"
+  ],
+  "GET /sites": [
+   "params:4",
+   "responses:2"
+  ],
+  "GET /sites/{site_id}": [
+   "params:1",
+   "responses:2"
+  ],
+  "GET /sites/{site_id}/agent_runner_hooks": [
+   "params:0",
+   "responses:2"
+  ],
+  "GET /sites/{site_id}/agent_runner_hooks/{id}": [
+   "params:0",
+   "responses:2"
+  ],
+  "GET /sites/{site_id}/ai-gateway/token": [
+   "params:0",
+   "responses:3"
+  ],
+  "GET /sites/{site_id}/assets": [
+   "params:0",
+   "responses:2"
+  ],
+  "GET /sites/{site_id}/assets/{asset_id}": [
+   "params:0",
+   "responses:2"
+  ],
+  "GET /sites/{site_id}/assets/{asset_id}/public_signature": [
+   "params:0",
+   "responses:2"
+  ],
+  "GET /sites/{site_id}/build_hooks": [
+   "params:0",
+   "responses:2"
+  ],
+  "GET /sites/{site_id}/build_hooks/{id}": [
+   "params:0",
+   "responses:2"
+  ],
+  "GET /sites/{site_id}/builds": [
+   "params:2",
+   "responses:2"
+  ],
+  "GET /sites/{site_id}/database": [
+   "params:1",
+   "responses:2"
+  ],
+  "GET /sites/{site_id}/database/branch/{branch_id}": [
+   "params:1",
+   "responses:3"
+  ],
+  "GET /sites/{site_id}/database/branches": [
+   "params:0",
+   "responses:2"
+  ],
+  "GET /sites/{site_id}/database/compute/settings": [
+   "params:0",
+   "responses:3"
+  ],
+  "GET /sites/{site_id}/database/migrations": [
+   "params:1",
+   "responses:4"
+  ],
+  "GET /sites/{site_id}/database/migrations/{name}": [
+   "params:1",
+   "responses:4"
+  ],
+  "GET /sites/{site_id}/database/snapshots": [
+   "params:0",
+   "responses:2"
+  ],
+  "GET /sites/{site_id}/deployed-branches": [
+   "params:0",
+   "responses:2"
+  ],
+  "GET /sites/{site_id}/deploys": [
+   "params:2",
+   "responses:2"
+  ],
+  "GET /sites/{site_id}/deploys/{deploy_id}": [
+   "params:2",
+   "responses:2"
+  ],
+  "GET /sites/{site_id}/dev_server_hooks": [
+   "params:0",
+   "responses:2"
+  ],
+  "GET /sites/{site_id}/dev_server_hooks/{id}": [
+   "params:0",
+   "responses:2"
+  ],
+  "GET /sites/{site_id}/dev_servers": [
+   "params:2",
+   "responses:2"
+  ],
+  "GET /sites/{site_id}/dev_servers/{dev_server_id}": [
+   "params:0",
+   "responses:1"
+  ],
+  "GET /sites/{site_id}/dns": [
+   "params:0",
+   "responses:2"
+  ],
+  "GET /sites/{site_id}/files": [
+   "params:1",
+   "responses:2"
+  ],
+  "GET /sites/{site_id}/files/{file_path}": [
+   "params:2",
+   "responses:2"
+  ],
+  "GET /sites/{site_id}/forms": [
+   "params:1",
+   "responses:2"
+  ],
+  "GET /sites/{site_id}/functions": [
+   "params:2",
+   "responses:2"
+  ],
+  "GET /sites/{site_id}/metadata": [
+   "params:0",
+   "responses:2"
+  ],
+  "GET /sites/{site_id}/plugin_runs/latest": [
+   "params:3",
+   "responses:2"
+  ],
+  "GET /sites/{site_id}/service-instances": [
+   "params:0",
+   "responses:2"
+  ],
+  "GET /sites/{site_id}/services/{addon}/instances/{instance_id}": [
+   "params:0",
+   "responses:2"
+  ],
+  "GET /sites/{site_id}/snippets": [
+   "params:0",
+   "responses:2"
+  ],
+  "GET /sites/{site_id}/snippets/{snippet_id}": [
+   "params:0",
+   "responses:2"
+  ],
+  "GET /sites/{site_id}/ssl": [
+   "params:1",
+   "responses:2"
+  ],
+  "GET /sites/{site_id}/ssl/certificates": [
+   "params:2",
+   "responses:3"
+  ],
+  "GET /sites/{site_id}/submissions": [
+   "params:3",
+   "responses:2"
+  ],
+  "GET /sites/{site_id}/traffic_splits": [
+   "params:0",
+   "responses:2"
+  ],
+  "GET /sites/{site_id}/traffic_splits/{split_test_id}": [
+   "params:0",
+   "responses:2"
+  ],
+  "GET /submissions/{submission_id}": [
+   "params:3",
+   "responses:2"
+  ],
+  "GET /user": [
+   "params:0",
+   "responses:2"
+  ],
+  "GET /{account_id}/builds/status": [
+   "params:0",
+   "responses:2"
+  ],
+  "GET /{account_slug}/members": [
+   "params:0",
+   "responses:2"
+  ],
+  "GET /{account_slug}/members/{member_id}": [
+   "params:0",
+   "responses:2"
+  ],
+  "GET /{account_slug}/sites": [
+   "params:4",
+   "responses:2"
+  ],
+  "PATCH /accounts/{account_id}/env/{key}": [
+   "params:4",
+   "responses:2"
+  ],
+  "PATCH /agent_runners/{agent_runner_id}": [
+   "params:0",
+   "responses:2"
+  ],
+  "PATCH /agent_runners/{agent_runner_id}/sessions/{agent_runner_session_id}": [
+   "params:1",
+   "responses:2"
+  ],
+  "PATCH /deploys/{deploy_id}/validations_report": [
+   "params:2",
+   "responses:1"
+  ],
+  "PATCH /sites/{site_id}": [
+   "params:1",
+   "responses:2"
+  ],
+  "POST /accounts": [
+   "params:1",
+   "responses:2"
+  ],
+  "POST /accounts/{account_id}/env": [
+   "params:3",
+   "responses:2"
+  ],
+  "POST /agent_runners": [
+   "params:9",
+   "responses:4"
+  ],
+  "POST /agent_runners/upload_url": [
+   "params:3",
+   "responses:4"
+  ],
+  "POST /agent_runners/{agent_runner_id}/archive": [
+   "params:0",
+   "responses:4"
+  ],
+  "POST /agent_runners/{agent_runner_id}/commit": [
+   "params:1",
+   "responses:5"
+  ],
+  "POST /agent_runners/{agent_runner_id}/pull_request": [
+   "params:0",
+   "responses:5"
+  ],
+  "POST /agent_runners/{agent_runner_id}/sessions": [
+   "params:4",
+   "responses:4"
+  ],
+  "POST /builds/{build_id}/log": [
+   "params:0",
+   "responses:2"
+  ],
+  "POST /builds/{build_id}/start": [
+   "params:0",
+   "responses:2"
+  ],
+  "POST /deploy_keys": [
+   "params:0",
+   "responses:2"
+  ],
+  "POST /deploys/{deploy_id}/cancel": [
+   "params:1",
+   "responses:2"
+  ],
+  "POST /deploys/{deploy_id}/lock": [
+   "params:1",
+   "responses:2"
+  ],
+  "POST /deploys/{deploy_id}/plugin_runs": [
+   "params:2",
+   "responses:2"
+  ],
+  "POST /deploys/{deploy_id}/unlock": [
+   "params:1",
+   "responses:2"
+  ],
+  "POST /dns_zones": [
+   "params:1",
+   "responses:2"
+  ],
+  "POST /dns_zones/{zone_id}/dns_records": [
+   "params:1",
+   "responses:2"
+  ],
+  "POST /hooks": [
+   "params:2",
+   "responses:2"
+  ],
+  "POST /hooks/{hook_id}/enable": [
+   "params:0",
+   "responses:2"
+  ],
+  "POST /oauth/tickets": [
+   "params:2",
+   "responses:4"
+  ],
+  "POST /oauth/tickets/{ticket_id}/exchange": [
+   "params:1",
+   "responses:2"
+  ],
+  "POST /purge": [
+   "params:1",
+   "responses:3"
+  ],
+  "POST /sites": [
+   "params:2",
+   "responses:2"
+  ],
+  "POST /sites/{site_id}/agent_runner_hooks": [
+   "params:1",
+   "responses:2"
+  ],
+  "POST /sites/{site_id}/assets": [
+   "params:4",
+   "responses:2"
+  ],
+  "POST /sites/{site_id}/build_hooks": [
+   "params:1",
+   "responses:2"
+  ],
+  "POST /sites/{site_id}/builds": [
+   "params:6",
+   "responses:5"
+  ],
+  "POST /sites/{site_id}/database": [
+   "params:1",
+   "responses:3"
+  ],
+  "POST /sites/{site_id}/database/branch": [
+   "params:1",
+   "responses:3"
+  ],
+  "POST /sites/{site_id}/database/branch/{branch_id}/reset": [
+   "params:3",
+   "responses:4"
+  ],
+  "POST /sites/{site_id}/database/migrations/{deploy_id}": [
+   "params:1",
+   "responses:4"
+  ],
+  "POST /sites/{site_id}/database/snapshot": [
+   "params:1",
+   "responses:2"
+  ],
+  "POST /sites/{site_id}/database/snapshot/{snapshot_id}/restore": [
+   "params:1",
+   "responses:2"
+  ],
+  "POST /sites/{site_id}/deploys": [
+   "params:2",
+   "responses:2"
+  ],
+  "POST /sites/{site_id}/deploys/{deploy_id}/restore": [
+   "params:2",
+   "responses:2"
+  ],
+  "POST /sites/{site_id}/dev_server_hooks": [
+   "params:1",
+   "responses:2"
+  ],
+  "POST /sites/{site_id}/dev_servers": [
+   "params:1",
+   "responses:2"
+  ],
+  "POST /sites/{site_id}/dev_servers/{dev_server_id}/activity": [
+   "params:0",
+   "responses:1"
+  ],
+  "POST /sites/{site_id}/dev_servers/{dev_server_id}/state": [
+   "params:1",
+   "responses:2"
+  ],
+  "POST /sites/{site_id}/services/{addon}/instances": [
+   "params:1",
+   "responses:2"
+  ],
+  "POST /sites/{site_id}/snippets": [
+   "params:1",
+   "responses:2"
+  ],
+  "POST /sites/{site_id}/ssl": [
+   "params:4",
+   "responses:3"
+  ],
+  "POST /sites/{site_id}/traffic_splits": [
+   "params:1",
+   "responses:2"
+  ],
+  "POST /sites/{site_id}/traffic_splits/{split_test_id}/publish": [
+   "params:0",
+   "responses:2"
+  ],
+  "POST /sites/{site_id}/traffic_splits/{split_test_id}/unpublish": [
+   "params:0",
+   "responses:2"
+  ],
+  "POST /{account_slug}/members": [
+   "params:1",
+   "responses:2"
+  ],
+  "POST /{account_slug}/sites": [
+   "params:3",
+   "responses:2"
+  ],
+  "PUT /accounts/{account_id}": [
+   "params:1",
+   "responses:2"
+  ],
+  "PUT /accounts/{account_id}/env/{key}": [
+   "params:4",
+   "responses:2"
+  ],
+  "PUT /deploys/{deploy_id}/edge_functions/{code_sha}": [
+   "params:4",
+   "responses:2"
+  ],
+  "PUT /deploys/{deploy_id}/files/{path}": [
+   "params:4",
+   "responses:2"
+  ],
+  "PUT /deploys/{deploy_id}/functions/{name}": [
+   "params:8",
+   "responses:2"
+  ],
+  "PUT /dns_zones/{zone_id}/transfer": [
+   "params:0",
+   "responses:2"
+  ],
+  "PUT /hooks/{hook_id}": [
+   "params:1",
+   "responses:2"
+  ],
+  "PUT /sites/{site_id}/agent_runner_hooks/{id}": [
+   "params:1",
+   "responses:2"
+  ],
+  "PUT /sites/{site_id}/assets/{asset_id}": [
+   "params:1",
+   "responses:2"
+  ],
+  "PUT /sites/{site_id}/build_hooks/{id}": [
+   "params:1",
+   "responses:2"
+  ],
+  "PUT /sites/{site_id}/database/branch/{branch_id}/compute/settings": [
+   "params:1",
+   "responses:3"
+  ],
+  "PUT /sites/{site_id}/database/compute/settings": [
+   "params:1",
+   "responses:3"
+  ],
+  "PUT /sites/{site_id}/deploys/{deploy_id}": [
+   "params:4",
+   "responses:2"
+  ],
+  "PUT /sites/{site_id}/dev_server_hooks/{id}": [
+   "params:1",
+   "responses:2"
+  ],
+  "PUT /sites/{site_id}/disable": [
+   "params:1",
+   "responses:2"
+  ],
+  "PUT /sites/{site_id}/dns": [
+   "params:0",
+   "responses:2"
+  ],
+  "PUT /sites/{site_id}/enable": [
+   "params:0",
+   "responses:3"
+  ],
+  "PUT /sites/{site_id}/metadata": [
+   "params:1",
+   "responses:2"
+  ],
+  "PUT /sites/{site_id}/plugins/{package}": [
+   "params:3",
+   "responses:2"
+  ],
+  "PUT /sites/{site_id}/rollback": [
+   "params:0",
+   "responses:2"
+  ],
+  "PUT /sites/{site_id}/services/{addon}/instances/{instance_id}": [
+   "params:1",
+   "responses:2"
+  ],
+  "PUT /sites/{site_id}/snippets/{snippet_id}": [
+   "params:1",
+   "responses:2"
+  ],
+  "PUT /sites/{site_id}/traffic_splits/{split_test_id}": [
+   "params:1",
+   "responses:2"
+  ],
+  "PUT /sites/{site_id}/unlink_repo": [
+   "params:0",
+   "responses:2"
+  ],
+  "PUT /{account_slug}/members/{member_id}": [
+   "params:1",
+   "responses:2"
+  ],
+  "schema:DeployValidationsReport": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:DeployValidationsReport_SecretScanResult": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:accessToken": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:accountAddMemberSetup": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:accountMembership": [
+   "props:16",
+   "req:0"
+  ],
+  "schema:accountSetup": [
+   "props:5",
+   "req:2"
+  ],
+  "schema:accountType": [
+   "props:8",
+   "req:0"
+  ],
+  "schema:accountUpdateMemberSetup": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:accountUpdateSetup": [
+   "props:7",
+   "req:0"
+  ],
+  "schema:accountUsageCapability": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:agentRunner": [
+   "props:28",
+   "req:0"
+  ],
+  "schema:agentRunnerHook": [
+   "props:9",
+   "req:0"
+  ],
+  "schema:agentRunnerHookCreated": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:agentRunnerHookSetup": [
+   "props:4",
+   "req:0"
+  ],
+  "schema:agentRunnerSession": [
+   "props:21",
+   "req:0"
+  ],
+  "schema:agentRunnerSessionConfig": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:agentRunnerSessionStep": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:agentRunnerUser": [
+   "props:4",
+   "req:0"
+  ],
+  "schema:aiGatewayToken": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:asset": [
+   "props:12",
+   "req:0"
+  ],
+  "schema:assetForm": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:assetPublicSignature": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:assetSignature": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:auditLog": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:build": [
+   "props:6",
+   "req:0"
+  ],
+  "schema:buildHook": [
+   "props:6",
+   "req:0"
+  ],
+  "schema:buildHookSetup": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:buildLogMsg": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:buildSetup": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:buildStatus": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:createDatabaseBranchRequest": [
+   "props:3",
+   "req:1"
+  ],
+  "schema:createDatabaseRequest": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:createDatabaseSnapshotRequest": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:databaseBranchCompute": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:databaseBranchDetail": [
+   "props:10",
+   "req:0"
+  ],
+  "schema:databaseBranchResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:databaseBranchesResponse": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:databaseComputeSettings": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:databaseComputeSettingsRequest": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:databaseMigration": [
+   "props:4",
+   "req:0"
+  ],
+  "schema:databaseMigrationDetail": [
+   "props:4",
+   "req:0"
+  ],
+  "schema:databaseResponse": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:databaseSnapshot": [
+   "props:7",
+   "req:0"
+  ],
+  "schema:databaseSnapshotMetadata": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:databaseSnapshotsResponse": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:deploy": [
+   "props:34",
+   "req:0"
+  ],
+  "schema:deployEnvironmentVariable": [
+   "props:4",
+   "req:4"
+  ],
+  "schema:deployFiles": [
+   "props:12",
+   "req:0"
+  ],
+  "schema:deployKey": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:deployedBranch": [
+   "props:6",
+   "req:0"
+  ],
+  "schema:devServer": [
+   "props:12",
+   "req:0"
+  ],
+  "schema:devServerHook": [
+   "props:7",
+   "req:0"
+  ],
+  "schema:devServerHookSetup": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:dnsRecord": [
+   "props:11",
+   "req:0"
+  ],
+  "schema:dnsRecordCreate": [
+   "props:9",
+   "req:0"
+  ],
+  "schema:dnsRecords": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:dnsZone": [
+   "props:16",
+   "req:0"
+  ],
+  "schema:dnsZoneSetup": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:dnsZones": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:envVar": [
+   "props:6",
+   "req:0"
+  ],
+  "schema:envVarUser": [
+   "props:4",
+   "req:0"
+  ],
+  "schema:envVarValue": [
+   "props:4",
+   "req:0"
+  ],
+  "schema:error": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:excludedFunctionRoute": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:file": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:form": [
+   "props:7",
+   "req:0"
+  ],
+  "schema:function": [
+   "props:4",
+   "req:0"
+  ],
+  "schema:functionConfig": [
+   "props:11",
+   "req:0"
+  ],
+  "schema:functionRoute": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:functionSchedule": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:hook": [
+   "props:8",
+   "req:0"
+  ],
+  "schema:hookType": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:listDatabaseMigrationsResponse": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:member": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:metadata": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:paymentMethod": [
+   "props:7",
+   "req:0"
+  ],
+  "schema:plugin": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:pluginParams": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:pluginRun": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:pluginRunData": [
+   "props:7",
+   "req:0"
+  ],
+  "schema:providerDefinition": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:purge": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:repoInfo": [
+   "props:15",
+   "req:0"
+  ],
+  "schema:resetDatabaseBranchRequest": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:resetDatabaseBranchResponse": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:restoreDatabaseSnapshotRequest": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:runDatabaseMigrationsRequest": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:service": [
+   "props:13",
+   "req:0"
+  ],
+  "schema:serviceInstance": [
+   "props:12",
+   "req:0"
+  ],
+  "schema:site": [
+   "props:37",
+   "req:0"
+  ],
+  "schema:siteFunction": [
+   "props:6",
+   "req:0"
+  ],
+  "schema:siteSetup": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:sniCertificate": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:snippet": [
+   "props:7",
+   "req:0"
+  ],
+  "schema:splitTest": [
+   "props:9",
+   "req:0"
+  ],
+  "schema:splitTestSetup": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:splitTests": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:submission": [
+   "props:12",
+   "req:0"
+  ],
+  "schema:ticket": [
+   "props:4",
+   "req:0"
+  ],
+  "schema:trafficRulesAggregateConfig": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:trafficRulesConfig": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:trafficRulesRateLimitConfig": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:user": [
+   "props:11",
+   "req:0"
+  ]
+ },
+ "ts": "2026-08-18T23:38:25+00:00",
+ "url": "https://open-api.netlify.com/swagger.json",
+ "vendor": "Netlify"
+}

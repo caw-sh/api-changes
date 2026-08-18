@@ -1,0 +1,64 @@
+{
+ "category": "saas",
+ "field_count": 17,
+ "first_seen": "2026-08-18T23:38:25+00:00",
+ "id": "status-clerk",
+ "pending_keys": [],
+ "runs": 1,
+ "schema": {
+  "components": [
+   "array"
+  ],
+  "components[]": [
+   "object"
+  ],
+  "components[].created_at": [
+   "string"
+  ],
+  "components[].id": [
+   "string"
+  ],
+  "components[].name": [
+   "string"
+  ],
+  "components[].page_id": [
+   "string"
+  ],
+  "components[].position": [
+   "integer"
+  ],
+  "components[].status": [
+   "string"
+  ],
+  "components[].updated_at": [
+   "string"
+  ],
+  "page": [
+   "object"
+  ],
+  "page.id": [
+   "string"
+  ],
+  "page.name": [
+   "string"
+  ],
+  "page.updated_at": [
+   "string"
+  ],
+  "page.url": [
+   "string"
+  ],
+  "status": [
+   "object"
+  ],
+  "status.description": [
+   "string"
+  ],
+  "status.indicator": [
+   "string"
+  ]
+ },
+ "ts": "2026-08-18T23:38:25+00:00",
+ "url": "https://status.clerk.com/api/v2/summary.json",
+ "vendor": "Clerk"
+}

@@ -4,7 +4,7 @@
  "first_seen": "2026-08-18T23:20:13+00:00",
  "id": "status-anthropic-components",
  "pending_keys": [],
- "runs": 3,
+ "runs": 4,
  "schema": {
   "components": [
    "array"
@@ -70,7 +70,7 @@
    "string"
   ]
  },
- "ts": "2026-08-18T23:23:51+00:00",
+ "ts": "2026-08-18T23:38:25+00:00",
  "url": "https://status.anthropic.com/api/v2/components.json",
  "vendor": "Anthropic"
 }

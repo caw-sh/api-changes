@@ -1,0 +1,40 @@
+{
+ "category": "saas",
+ "field_count": 9,
+ "first_seen": "2026-08-18T23:38:25+00:00",
+ "id": "status-square",
+ "pending_keys": [],
+ "runs": 1,
+ "schema": {
+  "components": [
+   "array"
+  ],
+  "page": [
+   "object"
+  ],
+  "page.id": [
+   "string"
+  ],
+  "page.name": [
+   "string"
+  ],
+  "page.updated_at": [
+   "string"
+  ],
+  "page.url": [
+   "string"
+  ],
+  "status": [
+   "object"
+  ],
+  "status.description": [
+   "string"
+  ],
+  "status.indicator": [
+   "string"
+  ]
+ },
+ "ts": "2026-08-18T23:38:25+00:00",
+ "url": "https://www.issquareup.com/api/v2/summary.json",
+ "vendor": "Square"
+}

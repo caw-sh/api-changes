@@ -1,0 +1,1725 @@
+{
+ "category": "spec",
+ "field_count": 411,
+ "first_seen": "2026-08-18T23:38:25+00:00",
+ "id": "spec-sentry",
+ "pending_keys": [],
+ "runs": 1,
+ "schema": {
+  "DELETE /api/0/organizations/{organization_id_or_slug}/dashboards/{dashboard_id}/": [
+   "params:2",
+   "responses:3"
+  ],
+  "DELETE /api/0/organizations/{organization_id_or_slug}/detectors/": [
+   "params:5",
+   "responses:6"
+  ],
+  "DELETE /api/0/organizations/{organization_id_or_slug}/detectors/{detector_id}/": [
+   "params:2",
+   "responses:3"
+  ],
+  "DELETE /api/0/organizations/{organization_id_or_slug}/discover/saved/{query_id}/": [
+   "params:2",
+   "responses:3"
+  ],
+  "DELETE /api/0/organizations/{organization_id_or_slug}/external-users/{external_user_id}/": [
+   "params:2",
+   "responses:3"
+  ],
+  "DELETE /api/0/organizations/{organization_id_or_slug}/forwarding/{data_forwarder_id}/": [
+   "params:2",
+   "responses:2"
+  ],
+  "DELETE /api/0/organizations/{organization_id_or_slug}/integrations/{integration_id}/": [
+   "params:2",
+   "responses:2"
+  ],
+  "DELETE /api/0/organizations/{organization_id_or_slug}/issues/": [
+   "params:8",
+   "responses:5"
+  ],
+  "DELETE /api/0/organizations/{organization_id_or_slug}/issues/{issue_id}/": [
+   "params:2",
+   "responses:4"
+  ],
+  "DELETE /api/0/organizations/{organization_id_or_slug}/issues/{issue_id}/integrations/{integration_id}/": [
+   "params:4",
+   "responses:4"
+  ],
+  "DELETE /api/0/organizations/{organization_id_or_slug}/members/{member_id}/": [
+   "params:2",
+   "responses:4"
+  ],
+  "DELETE /api/0/organizations/{organization_id_or_slug}/members/{member_id}/teams/{team_id_or_slug}/": [
+   "params:3",
+   "responses:4"
+  ],
+  "DELETE /api/0/organizations/{organization_id_or_slug}/monitors/{monitor_id_or_slug}/": [
+   "params:3",
+   "responses:4"
+  ],
+  "DELETE /api/0/organizations/{organization_id_or_slug}/notifications/actions/{action_id}/": [
+   "params:2",
+   "responses:1"
+  ],
+  "DELETE /api/0/organizations/{organization_id_or_slug}/preprodartifacts/snapshots/{snapshot_id}/": [
+   "params:2",
+   "responses:3"
+  ],
+  "DELETE /api/0/organizations/{organization_id_or_slug}/releases/{version}/": [
+   "params:2",
+   "responses:4"
+  ],
+  "DELETE /api/0/organizations/{organization_id_or_slug}/releases/{version}/files/{file_id}/": [
+   "params:3",
+   "responses:4"
+  ],
+  "DELETE /api/0/organizations/{organization_id_or_slug}/scim/v2/Groups/{team_id_or_slug}": [
+   "params:2",
+   "responses:4"
+  ],
+  "DELETE /api/0/organizations/{organization_id_or_slug}/scim/v2/Users/{member_id}": [
+   "params:2",
+   "responses:4"
+  ],
+  "DELETE /api/0/organizations/{organization_id_or_slug}/spike-protections/": [
+   "body",
+   "params:1",
+   "responses:3"
+  ],
+  "DELETE /api/0/organizations/{organization_id_or_slug}/workflows/": [
+   "params:4",
+   "responses:6"
+  ],
+  "DELETE /api/0/organizations/{organization_id_or_slug}/workflows/{workflow_id}/": [
+   "params:2",
+   "responses:5"
+  ],
+  "DELETE /api/0/projects/{organization_id_or_slug}/{project_id_or_slug}/": [
+   "params:2",
+   "responses:3"
+  ],
+  "DELETE /api/0/projects/{organization_id_or_slug}/{project_id_or_slug}/hooks/{hook_id}/": [
+   "params:3",
+   "responses:3"
+  ],
+  "DELETE /api/0/projects/{organization_id_or_slug}/{project_id_or_slug}/issues/": [
+   "params:3",
+   "responses:3"
+  ],
+  "DELETE /api/0/projects/{organization_id_or_slug}/{project_id_or_slug}/keys/{key_id}/": [
+   "params:3",
+   "responses:3"
+  ],
+  "DELETE /api/0/projects/{organization_id_or_slug}/{project_id_or_slug}/monitors/{monitor_id_or_slug}/": [
+   "params:4",
+   "responses:4"
+  ],
+  "DELETE /api/0/projects/{organization_id_or_slug}/{project_id_or_slug}/releases/{version}/files/{file_id}/": [
+   "params:4",
+   "responses:4"
+  ],
+  "DELETE /api/0/projects/{organization_id_or_slug}/{project_id_or_slug}/replays/{replay_id}/": [
+   "params:3",
+   "responses:2"
+  ],
+  "DELETE /api/0/projects/{organization_id_or_slug}/{project_id_or_slug}/symbol-sources/": [
+   "params:3",
+   "responses:3"
+  ],
+  "DELETE /api/0/projects/{organization_id_or_slug}/{project_id_or_slug}/teams/{team_id_or_slug}/": [
+   "params:3",
+   "responses:3"
+  ],
+  "DELETE /api/0/sentry-app-installations/{uuid}/external-issues/{external_issue_id}/": [
+   "params:2",
+   "responses:3"
+  ],
+  "DELETE /api/0/sentry-apps/{sentry_app_id_or_slug}/": [
+   "params:1",
+   "responses:2"
+  ],
+  "DELETE /api/0/teams/{organization_id_or_slug}/{team_id_or_slug}/": [
+   "params:2",
+   "responses:3"
+  ],
+  "DELETE /api/0/teams/{organization_id_or_slug}/{team_id_or_slug}/external-teams/{external_team_id}/": [
+   "params:3",
+   "responses:3"
+  ],
+  "GET /api/0/organizations/": [
+   "params:5",
+   "responses:4"
+  ],
+  "GET /api/0/organizations/{organization_id_or_slug}/": [
+   "params:2",
+   "responses:4"
+  ],
+  "GET /api/0/organizations/{organization_id_or_slug}/config/integrations/": [
+   "params:2",
+   "responses:2"
+  ],
+  "GET /api/0/organizations/{organization_id_or_slug}/dashboards/": [
+   "params:3",
+   "responses:4"
+  ],
+  "GET /api/0/organizations/{organization_id_or_slug}/dashboards/{dashboard_id}/": [
+   "params:2",
+   "responses:3"
+  ],
+  "GET /api/0/organizations/{organization_id_or_slug}/detectors/": [
+   "params:5",
+   "responses:5"
+  ],
+  "GET /api/0/organizations/{organization_id_or_slug}/detectors/{detector_id}/": [
+   "params:2",
+   "responses:5"
+  ],
+  "GET /api/0/organizations/{organization_id_or_slug}/discover/saved/": [
+   "params:5",
+   "responses:4"
+  ],
+  "GET /api/0/organizations/{organization_id_or_slug}/discover/saved/{query_id}/": [
+   "params:2",
+   "responses:3"
+  ],
+  "GET /api/0/organizations/{organization_id_or_slug}/environments/": [
+   "params:2",
+   "responses:3"
+  ],
+  "GET /api/0/organizations/{organization_id_or_slug}/eventids/{event_id}/": [
+   "params:2",
+   "responses:2"
+  ],
+  "GET /api/0/organizations/{organization_id_or_slug}/events-timeseries/": [
+   "params:17",
+   "responses:3"
+  ],
+  "GET /api/0/organizations/{organization_id_or_slug}/events/": [
+   "params:13",
+   "responses:3"
+  ],
+  "GET /api/0/organizations/{organization_id_or_slug}/forwarding/": [
+   "params:1",
+   "responses:1"
+  ],
+  "GET /api/0/organizations/{organization_id_or_slug}/integrations/": [
+   "params:5",
+   "responses:1"
+  ],
+  "GET /api/0/organizations/{organization_id_or_slug}/integrations/{integration_id}/": [
+   "params:2",
+   "responses:1"
+  ],
+  "GET /api/0/organizations/{organization_id_or_slug}/issues/": [
+   "params:15",
+   "responses:5"
+  ],
+  "GET /api/0/organizations/{organization_id_or_slug}/issues/{issue_id}/": [
+   "params:5",
+   "responses:4"
+  ],
+  "GET /api/0/organizations/{organization_id_or_slug}/issues/{issue_id}/autofix/": [
+   "params:3",
+   "responses:4"
+  ],
+  "GET /api/0/organizations/{organization_id_or_slug}/issues/{issue_id}/events/": [
+   "params:11",
+   "responses:5"
+  ],
+  "GET /api/0/organizations/{organization_id_or_slug}/issues/{issue_id}/events/{event_id}/": [
+   "params:5",
+   "responses:5"
+  ],
+  "GET /api/0/organizations/{organization_id_or_slug}/issues/{issue_id}/external-issues/": [
+   "params:2",
+   "responses:1"
+  ],
+  "GET /api/0/organizations/{organization_id_or_slug}/issues/{issue_id}/hashes/": [
+   "params:4",
+   "responses:4"
+  ],
+  "GET /api/0/organizations/{organization_id_or_slug}/issues/{issue_id}/integrations/{integration_id}/": [
+   "params:4",
+   "responses:5"
+  ],
+  "GET /api/0/organizations/{organization_id_or_slug}/issues/{issue_id}/tags/{key}/": [
+   "params:4",
+   "responses:5"
+  ],
+  "GET /api/0/organizations/{organization_id_or_slug}/issues/{issue_id}/tags/{key}/values/": [
+   "params:5",
+   "responses:5"
+  ],
+  "GET /api/0/organizations/{organization_id_or_slug}/members/": [
+   "params:2",
+   "responses:4"
+  ],
+  "GET /api/0/organizations/{organization_id_or_slug}/members/{member_id}/": [
+   "params:2",
+   "responses:4"
+  ],
+  "GET /api/0/organizations/{organization_id_or_slug}/monitors/": [
+   "params:5",
+   "responses:4"
+  ],
+  "GET /api/0/organizations/{organization_id_or_slug}/monitors/{monitor_id_or_slug}/": [
+   "params:3",
+   "responses:4"
+  ],
+  "GET /api/0/organizations/{organization_id_or_slug}/monitors/{monitor_id_or_slug}/checkins/": [
+   "params:3",
+   "responses:4"
+  ],
+  "GET /api/0/organizations/{organization_id_or_slug}/notifications/actions/": [
+   "params:4",
+   "responses:3"
+  ],
+  "GET /api/0/organizations/{organization_id_or_slug}/notifications/actions/{action_id}/": [
+   "params:2",
+   "responses:1"
+  ],
+  "GET /api/0/organizations/{organization_id_or_slug}/preprodartifacts/snapshots/latest-base/": [
+   "params:5",
+   "responses:4"
+  ],
+  "GET /api/0/organizations/{organization_id_or_slug}/preprodartifacts/snapshots/{snapshot_id}/": [
+   "params:3",
+   "responses:3"
+  ],
+  "GET /api/0/organizations/{organization_id_or_slug}/preprodartifacts/snapshots/{snapshot_id}/images/{image_identifier}/": [
+   "params:3",
+   "responses:3"
+  ],
+  "GET /api/0/organizations/{organization_id_or_slug}/preprodartifacts/{artifact_id}/install-details/": [
+   "params:2",
+   "responses:3"
+  ],
+  "GET /api/0/organizations/{organization_id_or_slug}/preprodartifacts/{artifact_id}/size-analysis/": [
+   "params:3",
+   "responses:4"
+  ],
+  "GET /api/0/organizations/{organization_id_or_slug}/profiling/chunks/": [
+   "params:6",
+   "responses:4"
+  ],
+  "GET /api/0/organizations/{organization_id_or_slug}/profiling/flamegraph/": [
+   "params:10",
+   "responses:4"
+  ],
+  "GET /api/0/organizations/{organization_id_or_slug}/project-keys/": [
+   "params:4",
+   "responses:4"
+  ],
+  "GET /api/0/organizations/{organization_id_or_slug}/projects/": [
+   "params:4",
+   "responses:4"
+  ],
+  "GET /api/0/organizations/{organization_id_or_slug}/relay_usage/": [
+   "params:1",
+   "responses:2"
+  ],
+  "GET /api/0/organizations/{organization_id_or_slug}/release-threshold-statuses/": [
+   "params:7",
+   "responses:2"
+  ],
+  "GET /api/0/organizations/{organization_id_or_slug}/releases/": [
+   "params:6",
+   "responses:4"
+  ],
+  "GET /api/0/organizations/{organization_id_or_slug}/releases/{version}/": [
+   "params:11",
+   "responses:4"
+  ],
+  "GET /api/0/organizations/{organization_id_or_slug}/releases/{version}/commitfiles/": [
+   "params:2",
+   "responses:3"
+  ],
+  "GET /api/0/organizations/{organization_id_or_slug}/releases/{version}/commits/": [
+   "params:3",
+   "responses:4"
+  ],
+  "GET /api/0/organizations/{organization_id_or_slug}/releases/{version}/deploys/": [
+   "params:3",
+   "responses:1"
+  ],
+  "GET /api/0/organizations/{organization_id_or_slug}/releases/{version}/files/": [
+   "params:5",
+   "responses:4"
+  ],
+  "GET /api/0/organizations/{organization_id_or_slug}/releases/{version}/files/{file_id}/": [
+   "params:4",
+   "responses:4"
+  ],
+  "GET /api/0/organizations/{organization_id_or_slug}/replay-count/": [
+   "params:10",
+   "responses:3"
+  ],
+  "GET /api/0/organizations/{organization_id_or_slug}/replay-selectors/": [
+   "params:13",
+   "responses:3"
+  ],
+  "GET /api/0/organizations/{organization_id_or_slug}/replays/": [
+   "params:14",
+   "responses:3"
+  ],
+  "GET /api/0/organizations/{organization_id_or_slug}/replays/{replay_id}/": [
+   "params:15",
+   "responses:4"
+  ],
+  "GET /api/0/organizations/{organization_id_or_slug}/repos/": [
+   "params:6",
+   "responses:4"
+  ],
+  "GET /api/0/organizations/{organization_id_or_slug}/repos/{repo_id}/commits/": [
+   "params:3",
+   "responses:5"
+  ],
+  "GET /api/0/organizations/{organization_id_or_slug}/scim/v2/Groups": [
+   "params:5",
+   "responses:4"
+  ],
+  "GET /api/0/organizations/{organization_id_or_slug}/scim/v2/Groups/{team_id_or_slug}": [
+   "params:2",
+   "responses:4"
+  ],
+  "GET /api/0/organizations/{organization_id_or_slug}/scim/v2/Users": [
+   "params:5",
+   "responses:4"
+  ],
+  "GET /api/0/organizations/{organization_id_or_slug}/scim/v2/Users/{member_id}": [
+   "params:2",
+   "responses:4"
+  ],
+  "GET /api/0/organizations/{organization_id_or_slug}/sentry-app-installations/": [
+   "params:2",
+   "responses:3"
+  ],
+  "GET /api/0/organizations/{organization_id_or_slug}/sentry-apps/": [
+   "params:1",
+   "responses:1"
+  ],
+  "GET /api/0/organizations/{organization_id_or_slug}/sessions/": [
+   "params:14",
+   "responses:3"
+  ],
+  "GET /api/0/organizations/{organization_id_or_slug}/shortids/{issue_id}/": [
+   "params:3",
+   "responses:5"
+  ],
+  "GET /api/0/organizations/{organization_id_or_slug}/stats-summary/": [
+   "params:11",
+   "responses:3"
+  ],
+  "GET /api/0/organizations/{organization_id_or_slug}/stats_v2/": [
+   "params:11",
+   "responses:3"
+  ],
+  "GET /api/0/organizations/{organization_id_or_slug}/tags/": [
+   "params:9",
+   "responses:4"
+  ],
+  "GET /api/0/organizations/{organization_id_or_slug}/teams/": [
+   "params:5",
+   "responses:3"
+  ],
+  "GET /api/0/organizations/{organization_id_or_slug}/trace-items/attributes/": [
+   "params:10",
+   "responses:4"
+  ],
+  "GET /api/0/organizations/{organization_id_or_slug}/trace-items/stats/": [
+   "params:12",
+   "responses:4"
+  ],
+  "GET /api/0/organizations/{organization_id_or_slug}/trace-meta/{trace_id}/": [
+   "params:6",
+   "responses:4"
+  ],
+  "GET /api/0/organizations/{organization_id_or_slug}/trace/{trace_id}/": [
+   "params:9",
+   "responses:4"
+  ],
+  "GET /api/0/organizations/{organization_id_or_slug}/user-teams/": [
+   "params:1",
+   "responses:3"
+  ],
+  "GET /api/0/organizations/{organization_id_or_slug}/workflows/": [
+   "params:5",
+   "responses:5"
+  ],
+  "GET /api/0/organizations/{organization_id_or_slug}/workflows/{workflow_id}/": [
+   "params:2",
+   "responses:5"
+  ],
+  "GET /api/0/projects/{organization_id_or_slug}/{project_id_or_slug}/": [
+   "params:2",
+   "responses:3"
+  ],
+  "GET /api/0/projects/{organization_id_or_slug}/{project_id_or_slug}/environments/": [
+   "params:3",
+   "responses:5"
+  ],
+  "GET /api/0/projects/{organization_id_or_slug}/{project_id_or_slug}/environments/{environment}/": [
+   "params:3",
+   "responses:4"
+  ],
+  "GET /api/0/projects/{organization_id_or_slug}/{project_id_or_slug}/events/": [
+   "params:8",
+   "responses:4"
+  ],
+  "GET /api/0/projects/{organization_id_or_slug}/{project_id_or_slug}/events/{event_id}/": [
+   "params:4",
+   "responses:4"
+  ],
+  "GET /api/0/projects/{organization_id_or_slug}/{project_id_or_slug}/events/{event_id}/attachments/": [
+   "params:5",
+   "responses:4"
+  ],
+  "GET /api/0/projects/{organization_id_or_slug}/{project_id_or_slug}/events/{event_id}/attachments/{attachment_id}/": [
+   "params:5",
+   "responses:4"
+  ],
+  "GET /api/0/projects/{organization_id_or_slug}/{project_id_or_slug}/events/{event_id}/source-map-debug/": [
+   "params:3",
+   "responses:4"
+  ],
+  "GET /api/0/projects/{organization_id_or_slug}/{project_id_or_slug}/files/dsyms/": [
+   "params:7",
+   "responses:4"
+  ],
+  "GET /api/0/projects/{organization_id_or_slug}/{project_id_or_slug}/filters/": [
+   "params:2",
+   "responses:2"
+  ],
+  "GET /api/0/projects/{organization_id_or_slug}/{project_id_or_slug}/hooks/": [
+   "params:3",
+   "responses:2"
+  ],
+  "GET /api/0/projects/{organization_id_or_slug}/{project_id_or_slug}/hooks/{hook_id}/": [
+   "params:3",
+   "responses:3"
+  ],
+  "GET /api/0/projects/{organization_id_or_slug}/{project_id_or_slug}/issues/": [
+   "DEPRECATED",
+   "params:9",
+   "responses:2"
+  ],
+  "GET /api/0/projects/{organization_id_or_slug}/{project_id_or_slug}/keys/": [
+   "params:4",
+   "responses:3"
+  ],
+  "GET /api/0/projects/{organization_id_or_slug}/{project_id_or_slug}/keys/{key_id}/": [
+   "params:3",
+   "responses:3"
+  ],
+  "GET /api/0/projects/{organization_id_or_slug}/{project_id_or_slug}/members/": [
+   "params:2",
+   "responses:3"
+  ],
+  "GET /api/0/projects/{organization_id_or_slug}/{project_id_or_slug}/monitors/{monitor_id_or_slug}/": [
+   "params:3",
+   "responses:4"
+  ],
+  "GET /api/0/projects/{organization_id_or_slug}/{project_id_or_slug}/monitors/{monitor_id_or_slug}/checkins/": [
+   "params:3",
+   "responses:4"
+  ],
+  "GET /api/0/projects/{organization_id_or_slug}/{project_id_or_slug}/ownership/": [
+   "params:2",
+   "responses:1"
+  ],
+  "GET /api/0/projects/{organization_id_or_slug}/{project_id_or_slug}/preprod/size-analysis/status-check-rules/": [
+   "params:2",
+   "responses:3"
+  ],
+  "GET /api/0/projects/{organization_id_or_slug}/{project_id_or_slug}/preprod/snapshots/status-check-rules/": [
+   "params:2",
+   "responses:3"
+  ],
+  "GET /api/0/projects/{organization_id_or_slug}/{project_id_or_slug}/preprodartifacts/build-distribution/latest/": [
+   "params:10",
+   "responses:3"
+  ],
+  "GET /api/0/projects/{organization_id_or_slug}/{project_id_or_slug}/profiling/profiles/{profile_id}/": [
+   "params:3",
+   "responses:4"
+  ],
+  "GET /api/0/projects/{organization_id_or_slug}/{project_id_or_slug}/releases/": [
+   "params:6",
+   "responses:4"
+  ],
+  "GET /api/0/projects/{organization_id_or_slug}/{project_id_or_slug}/releases/{version}/commits/": [
+   "params:4",
+   "responses:4"
+  ],
+  "GET /api/0/projects/{organization_id_or_slug}/{project_id_or_slug}/releases/{version}/files/": [
+   "params:6",
+   "responses:4"
+  ],
+  "GET /api/0/projects/{organization_id_or_slug}/{project_id_or_slug}/releases/{version}/files/{file_id}/": [
+   "params:5",
+   "responses:4"
+  ],
+  "GET /api/0/projects/{organization_id_or_slug}/{project_id_or_slug}/replays/jobs/delete/": [
+   "params:2",
+   "responses:2"
+  ],
+  "GET /api/0/projects/{organization_id_or_slug}/{project_id_or_slug}/replays/jobs/delete/{job_id}/": [
+   "params:3",
+   "responses:3"
+  ],
+  "GET /api/0/projects/{organization_id_or_slug}/{project_id_or_slug}/replays/{replay_id}/clicks/": [
+   "params:7",
+   "responses:4"
+  ],
+  "GET /api/0/projects/{organization_id_or_slug}/{project_id_or_slug}/replays/{replay_id}/recording-segments/": [
+   "params:5",
+   "responses:4"
+  ],
+  "GET /api/0/projects/{organization_id_or_slug}/{project_id_or_slug}/replays/{replay_id}/recording-segments/{segment_id}/": [
+   "params:4",
+   "responses:4"
+  ],
+  "GET /api/0/projects/{organization_id_or_slug}/{project_id_or_slug}/replays/{replay_id}/viewed-by/": [
+   "params:3",
+   "responses:4"
+  ],
+  "GET /api/0/projects/{organization_id_or_slug}/{project_id_or_slug}/stats/": [
+   "params:6",
+   "responses:4"
+  ],
+  "GET /api/0/projects/{organization_id_or_slug}/{project_id_or_slug}/symbol-sources/": [
+   "params:3",
+   "responses:3"
+  ],
+  "GET /api/0/projects/{organization_id_or_slug}/{project_id_or_slug}/tags/{key}/values/": [
+   "params:4",
+   "responses:2"
+  ],
+  "GET /api/0/projects/{organization_id_or_slug}/{project_id_or_slug}/teams/": [
+   "params:3",
+   "responses:3"
+  ],
+  "GET /api/0/projects/{organization_id_or_slug}/{project_id_or_slug}/user-feedback/": [
+   "params:3",
+   "responses:3"
+  ],
+  "GET /api/0/projects/{organization_id_or_slug}/{project_id_or_slug}/users/": [
+   "params:4",
+   "responses:4"
+  ],
+  "GET /api/0/seer/models/": [
+   "params:0",
+   "responses:1"
+  ],
+  "GET /api/0/sentry-apps/{sentry_app_id_or_slug}/": [
+   "params:1",
+   "responses:1"
+  ],
+  "GET /api/0/teams/{organization_id_or_slug}/{team_id_or_slug}/": [
+   "params:4",
+   "responses:4"
+  ],
+  "GET /api/0/teams/{organization_id_or_slug}/{team_id_or_slug}/members/": [
+   "params:3",
+   "responses:3"
+  ],
+  "GET /api/0/teams/{organization_id_or_slug}/{team_id_or_slug}/projects/": [
+   "params:3",
+   "responses:3"
+  ],
+  "PATCH /api/0/organizations/{organization_id_or_slug}/scim/v2/Groups/{team_id_or_slug}": [
+   "body",
+   "params:2",
+   "responses:4"
+  ],
+  "PATCH /api/0/organizations/{organization_id_or_slug}/scim/v2/Users/{member_id}": [
+   "body",
+   "params:2",
+   "responses:4"
+  ],
+  "POST /api/0/organizations/{organization_id_or_slug}/dashboards/": [
+   "body",
+   "params:1",
+   "responses:5"
+  ],
+  "POST /api/0/organizations/{organization_id_or_slug}/discover/saved/": [
+   "body",
+   "params:1",
+   "responses:4"
+  ],
+  "POST /api/0/organizations/{organization_id_or_slug}/external-users/": [
+   "body",
+   "params:1",
+   "responses:4"
+  ],
+  "POST /api/0/organizations/{organization_id_or_slug}/forwarding/": [
+   "body",
+   "params:1",
+   "responses:3"
+  ],
+  "POST /api/0/organizations/{organization_id_or_slug}/issues/{issue_id}/autofix/": [
+   "body",
+   "params:2",
+   "responses:5"
+  ],
+  "POST /api/0/organizations/{organization_id_or_slug}/issues/{issue_id}/integrations/{integration_id}/": [
+   "body",
+   "params:3",
+   "responses:4"
+  ],
+  "POST /api/0/organizations/{organization_id_or_slug}/members/": [
+   "body",
+   "params:1",
+   "responses:4"
+  ],
+  "POST /api/0/organizations/{organization_id_or_slug}/members/{member_id}/teams/{team_id_or_slug}/": [
+   "params:3",
+   "responses:6"
+  ],
+  "POST /api/0/organizations/{organization_id_or_slug}/monitors/": [
+   "body",
+   "params:1",
+   "responses:5"
+  ],
+  "POST /api/0/organizations/{organization_id_or_slug}/notifications/actions/": [
+   "body",
+   "params:1",
+   "responses:3"
+  ],
+  "POST /api/0/organizations/{organization_id_or_slug}/projects/": [
+   "body",
+   "params:1",
+   "responses:6"
+  ],
+  "POST /api/0/organizations/{organization_id_or_slug}/projects/{project_id_or_slug}/detectors/": [
+   "body",
+   "params:2",
+   "responses:5"
+  ],
+  "POST /api/0/organizations/{organization_id_or_slug}/releases/": [
+   "body",
+   "params:1",
+   "responses:5"
+  ],
+  "POST /api/0/organizations/{organization_id_or_slug}/releases/{version}/deploys/": [
+   "body",
+   "params:2",
+   "responses:2"
+  ],
+  "POST /api/0/organizations/{organization_id_or_slug}/releases/{version}/files/": [
+   "body",
+   "params:2",
+   "responses:6"
+  ],
+  "POST /api/0/organizations/{organization_id_or_slug}/scim/v2/Groups": [
+   "body",
+   "params:1",
+   "responses:4"
+  ],
+  "POST /api/0/organizations/{organization_id_or_slug}/scim/v2/Users": [
+   "body",
+   "params:1",
+   "responses:4"
+  ],
+  "POST /api/0/organizations/{organization_id_or_slug}/spike-protections/": [
+   "body",
+   "params:1",
+   "responses:3"
+  ],
+  "POST /api/0/organizations/{organization_id_or_slug}/teams/": [
+   "body",
+   "params:1",
+   "responses:4"
+  ],
+  "POST /api/0/organizations/{organization_id_or_slug}/workflows/": [
+   "body",
+   "params:1",
+   "responses:5"
+  ],
+  "POST /api/0/projects/{organization_id_or_slug}/{project_id_or_slug}/hooks/": [
+   "body",
+   "params:2",
+   "responses:3"
+  ],
+  "POST /api/0/projects/{organization_id_or_slug}/{project_id_or_slug}/keys/": [
+   "body",
+   "params:2",
+   "responses:3"
+  ],
+  "POST /api/0/projects/{organization_id_or_slug}/{project_id_or_slug}/preprod/size-analysis/status-checks/skip/": [
+   "body",
+   "params:2",
+   "responses:6"
+  ],
+  "POST /api/0/projects/{organization_id_or_slug}/{project_id_or_slug}/preprod/snapshots/status-checks/skip/": [
+   "body",
+   "params:2",
+   "responses:6"
+  ],
+  "POST /api/0/projects/{organization_id_or_slug}/{project_id_or_slug}/preprodartifacts/snapshots/": [
+   "params:2",
+   "responses:3"
+  ],
+  "POST /api/0/projects/{organization_id_or_slug}/{project_id_or_slug}/releases/{version}/files/": [
+   "body",
+   "params:3",
+   "responses:6"
+  ],
+  "POST /api/0/projects/{organization_id_or_slug}/{project_id_or_slug}/replays/jobs/delete/": [
+   "body",
+   "params:2",
+   "responses:3"
+  ],
+  "POST /api/0/projects/{organization_id_or_slug}/{project_id_or_slug}/repo/": [
+   "body",
+   "params:2",
+   "responses:3"
+  ],
+  "POST /api/0/projects/{organization_id_or_slug}/{project_id_or_slug}/symbol-sources/": [
+   "body",
+   "params:2",
+   "responses:3"
+  ],
+  "POST /api/0/projects/{organization_id_or_slug}/{project_id_or_slug}/teams/{team_id_or_slug}/": [
+   "params:3",
+   "responses:3"
+  ],
+  "POST /api/0/projects/{organization_id_or_slug}/{project_id_or_slug}/user-feedback/": [
+   "DEPRECATED",
+   "body",
+   "params:2",
+   "responses:5"
+  ],
+  "POST /api/0/sentry-app-installations/{uuid}/external-issues/": [
+   "body",
+   "params:1",
+   "responses:3"
+  ],
+  "POST /api/0/teams/{organization_id_or_slug}/{team_id_or_slug}/external-teams/": [
+   "body",
+   "params:2",
+   "responses:4"
+  ],
+  "POST /api/0/teams/{organization_id_or_slug}/{team_id_or_slug}/projects/": [
+   "body",
+   "params:2",
+   "responses:5"
+  ],
+  "PUT /api/0/organizations/{organization_id_or_slug}/": [
+   "body",
+   "params:1",
+   "responses:7"
+  ],
+  "PUT /api/0/organizations/{organization_id_or_slug}/dashboards/{dashboard_id}/": [
+   "body",
+   "params:2",
+   "responses:4"
+  ],
+  "PUT /api/0/organizations/{organization_id_or_slug}/detectors/": [
+   "body",
+   "params:4",
+   "responses:5"
+  ],
+  "PUT /api/0/organizations/{organization_id_or_slug}/detectors/{detector_id}/": [
+   "body",
+   "params:2",
+   "responses:5"
+  ],
+  "PUT /api/0/organizations/{organization_id_or_slug}/discover/saved/{query_id}/": [
+   "body",
+   "params:2",
+   "responses:4"
+  ],
+  "PUT /api/0/organizations/{organization_id_or_slug}/external-users/{external_user_id}/": [
+   "body",
+   "params:2",
+   "responses:3"
+  ],
+  "PUT /api/0/organizations/{organization_id_or_slug}/forwarding/{data_forwarder_id}/": [
+   "body",
+   "params:2",
+   "responses:3"
+  ],
+  "PUT /api/0/organizations/{organization_id_or_slug}/issues/": [
+   "body",
+   "params:8",
+   "responses:6"
+  ],
+  "PUT /api/0/organizations/{organization_id_or_slug}/issues/{issue_id}/": [
+   "body",
+   "params:2",
+   "responses:5"
+  ],
+  "PUT /api/0/organizations/{organization_id_or_slug}/issues/{issue_id}/integrations/{integration_id}/": [
+   "body",
+   "params:3",
+   "responses:4"
+  ],
+  "PUT /api/0/organizations/{organization_id_or_slug}/members/{member_id}/": [
+   "body",
+   "params:2",
+   "responses:4"
+  ],
+  "PUT /api/0/organizations/{organization_id_or_slug}/members/{member_id}/teams/{team_id_or_slug}/": [
+   "body",
+   "params:3",
+   "responses:3"
+  ],
+  "PUT /api/0/organizations/{organization_id_or_slug}/monitors/{monitor_id_or_slug}/": [
+   "body",
+   "params:2",
+   "responses:5"
+  ],
+  "PUT /api/0/organizations/{organization_id_or_slug}/notifications/actions/{action_id}/": [
+   "body",
+   "params:2",
+   "responses:2"
+  ],
+  "PUT /api/0/organizations/{organization_id_or_slug}/releases/{version}/": [
+   "body",
+   "params:2",
+   "responses:4"
+  ],
+  "PUT /api/0/organizations/{organization_id_or_slug}/releases/{version}/files/{file_id}/": [
+   "body",
+   "params:3",
+   "responses:5"
+  ],
+  "PUT /api/0/organizations/{organization_id_or_slug}/workflows/": [
+   "body",
+   "params:4",
+   "responses:5"
+  ],
+  "PUT /api/0/organizations/{organization_id_or_slug}/workflows/{workflow_id}/": [
+   "body",
+   "params:2",
+   "responses:5"
+  ],
+  "PUT /api/0/projects/{organization_id_or_slug}/{project_id_or_slug}/": [
+   "body",
+   "params:2",
+   "responses:3"
+  ],
+  "PUT /api/0/projects/{organization_id_or_slug}/{project_id_or_slug}/environments/": [
+   "body",
+   "params:2",
+   "responses:5"
+  ],
+  "PUT /api/0/projects/{organization_id_or_slug}/{project_id_or_slug}/environments/{environment}/": [
+   "body",
+   "params:3",
+   "responses:5"
+  ],
+  "PUT /api/0/projects/{organization_id_or_slug}/{project_id_or_slug}/filters/{filter_id}/": [
+   "body",
+   "params:3",
+   "responses:4"
+  ],
+  "PUT /api/0/projects/{organization_id_or_slug}/{project_id_or_slug}/hooks/{hook_id}/": [
+   "body",
+   "params:3",
+   "responses:4"
+  ],
+  "PUT /api/0/projects/{organization_id_or_slug}/{project_id_or_slug}/issues/": [
+   "body",
+   "params:4",
+   "responses:4"
+  ],
+  "PUT /api/0/projects/{organization_id_or_slug}/{project_id_or_slug}/keys/{key_id}/": [
+   "body",
+   "params:3",
+   "responses:4"
+  ],
+  "PUT /api/0/projects/{organization_id_or_slug}/{project_id_or_slug}/monitors/{monitor_id_or_slug}/": [
+   "body",
+   "params:3",
+   "responses:5"
+  ],
+  "PUT /api/0/projects/{organization_id_or_slug}/{project_id_or_slug}/ownership/": [
+   "body",
+   "params:2",
+   "responses:2"
+  ],
+  "PUT /api/0/projects/{organization_id_or_slug}/{project_id_or_slug}/releases/{version}/files/{file_id}/": [
+   "body",
+   "params:4",
+   "responses:5"
+  ],
+  "PUT /api/0/projects/{organization_id_or_slug}/{project_id_or_slug}/symbol-sources/": [
+   "body",
+   "params:3",
+   "responses:4"
+  ],
+  "PUT /api/0/sentry-apps/{sentry_app_id_or_slug}/": [
+   "body",
+   "params:1",
+   "responses:3"
+  ],
+  "PUT /api/0/teams/{organization_id_or_slug}/{team_id_or_slug}/": [
+   "body",
+   "params:2",
+   "responses:4"
+  ],
+  "PUT /api/0/teams/{organization_id_or_slug}/{team_id_or_slug}/external-teams/{external_team_id}/": [
+   "body",
+   "params:3",
+   "responses:3"
+  ],
+  "schema:AutofixPostResponse": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:AutofixStateResponse": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:BaseDataConditionGroupValidator": [
+   "props:3",
+   "req:1"
+  ],
+  "schema:BaseDetectorTypeValidator": [
+   "props:9",
+   "req:2"
+  ],
+  "schema:BaseTeam": [
+   "props:12",
+   "req:12"
+  ],
+  "schema:BulkEnvironment": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:BulkUpdateAlerts": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:BulkUpdateMonitors": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:BulkUpdateProjectEnvironments": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:CheckInList": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:Commit": [
+   "props:7",
+   "req:1"
+  ],
+  "schema:CommitPatchSet": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:CommitSerializerResponse": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:ConfigValidator": [
+   "props:7",
+   "req:1"
+  ],
+  "schema:CreateExternalIssueRequest": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:CreateOrganizationReleaseResponse": [
+   "props:24",
+   "req:11"
+  ],
+  "schema:CreateReplayDeletionJob": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:Dashboard": [
+   "props:12",
+   "req:1"
+  ],
+  "schema:DashboardDetails": [
+   "props:11",
+   "req:0"
+  ],
+  "schema:DashboardDetailsModel": [
+   "props:16",
+   "req:10"
+  ],
+  "schema:DashboardListResponse": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:DashboardPermissions": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:DashboardWidget": [
+   "props:12",
+   "req:0"
+  ],
+  "schema:DashboardWidgetQuery": [
+   "props:13",
+   "req:0"
+  ],
+  "schema:DashboardWidgetQueryOnDemand": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:DataForwarder": [
+   "props:6",
+   "req:2"
+  ],
+  "schema:DataForwarderResponse": [
+   "props:10",
+   "req:10"
+  ],
+  "schema:Deploy": [
+   "props:6",
+   "req:1"
+  ],
+  "schema:DeployResponse": [
+   "props:6",
+   "req:6"
+  ],
+  "schema:DetailedProject": [
+   "props:85",
+   "req:81"
+  ],
+  "schema:Detector": [
+   "props:15",
+   "req:11"
+  ],
+  "schema:DiscoverSavedQuery": [
+   "props:14",
+   "req:1"
+  ],
+  "schema:DiscoverSavedQueryListResponse": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:DiscoverSavedQueryModel": [
+   "props:26",
+   "req:10"
+  ],
+  "schema:DynamicSdkLoaderOption": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:Environment": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:EnvironmentProject": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:EventAttachmentDetailsResponse": [
+   "props:9",
+   "req:9"
+  ],
+  "schema:EventIdLookupResponse": [
+   "props:5",
+   "req:5"
+  ],
+  "schema:ExplorerAutofixRequest": [
+   "props:11",
+   "req:0"
+  ],
+  "schema:ExternalActor": [
+   "props:7",
+   "req:4"
+  ],
+  "schema:ExternalIssueLinkResponse": [
+   "props:5",
+   "req:5"
+  ],
+  "schema:ExternalTeam": [
+   "props:4",
+   "req:3"
+  ],
+  "schema:ExternalUser": [
+   "props:6",
+   "req:5"
+  ],
+  "schema:Filters": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:GetReplay": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:GetReplayDeletionJob": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:GetReplayRecordingSegment": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:GetReplayViewedBy": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:GroupDetailsResponse": [
+   "props:50",
+   "req:34"
+  ],
+  "schema:GroupEventsResponseDict": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:GroupExternalIssueResponse": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:GroupHashesResponse": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:GroupUpdateResponse": [
+   "props:36",
+   "req:30"
+  ],
+  "schema:GroupValidator": [
+   "props:12",
+   "req:12"
+  ],
+  "schema:InCommitValidator": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:InstallInfoResponse": [
+   "props:17",
+   "req:17"
+  ],
+  "schema:IntegrationIssueConfigResponse": [
+   "props:11",
+   "req:9"
+  ],
+  "schema:IssueEventDetailsResponse": [
+   "props:39",
+   "req:29"
+  ],
+  "schema:LatestBaseSnapshotResponse": [
+   "props:9",
+   "req:0"
+  ],
+  "schema:LatestInstallableBuildResponse": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:Layout": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:LinkExternalIssueRequest": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:LinkedDashboard": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:ListClientKeysResponse": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:ListDataForwarderResponse": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:ListDetectorSerializerResponse": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:ListEventAttachmentsResponse": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:ListMemberOnTeamResponse": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:ListOrgMembersResponse": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:ListOrgTeamResponse": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:ListOrganizationClientKeysResponse": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:ListOrganizationIntegrationResponse": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:ListOrganizationMemberResponse": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:ListOrganizationReleaseCommitsResponse": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:ListOrganizationReleasesResponse": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:ListOrganizationRepositoriesResponse": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:ListOrganizationTagsResponse": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:ListOrganizations": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:ListProjectDebugFilesResponse": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:ListProjectEnvironments": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:ListProjectReleaseCommitsResponse": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:ListProjectReleasesResponse": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:ListProjectUsersResponse": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:ListReleaseFiles": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:ListReplayClicks": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:ListReplayDeletionJobs": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:ListReplayRecordingSegments": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:ListReplays": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:ListSelectors": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:ListTeamProjectResponse": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:ListTraceItemAttributesResponse": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:ListWorkflow": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:Monitor": [
+   "props:12",
+   "req:11"
+  ],
+  "schema:MonitorList": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:MonitorValidator": [
+   "props:7",
+   "req:3"
+  ],
+  "schema:NotificationAction": [
+   "props:6",
+   "req:2"
+  ],
+  "schema:OrgReleaseResponse": [
+   "props:24",
+   "req:11"
+  ],
+  "schema:OrganizationConfigIntegrationsEndpointResponse": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:OrganizationDetailsPut": [
+   "props:31",
+   "req:0"
+  ],
+  "schema:OrganizationEnvironmentResponse": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:OrganizationEventsResponseDict": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:OrganizationEventsTimeseriesResponse": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:OrganizationGroupIndexGetResponse": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:OrganizationGroupIndexPutResponse": [
+   "props:14",
+   "req:0"
+  ],
+  "schema:OrganizationIntegrationResponse": [
+   "props:15",
+   "req:15"
+  ],
+  "schema:OrganizationMember": [
+   "props:12",
+   "req:11"
+  ],
+  "schema:OrganizationMemberRequest": [
+   "props:5",
+   "req:1"
+  ],
+  "schema:OrganizationMemberSCIM": [
+   "props:8",
+   "req:7"
+  ],
+  "schema:OrganizationMemberTeam": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:OrganizationMemberTeamDetails": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:OrganizationMemberWithRoles": [
+   "props:20",
+   "req:17"
+  ],
+  "schema:OrganizationProfilingChunksResponse": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:OrganizationProfilingFlamegraphResponse": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:OrganizationProjectResponseDict": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:OrganizationRelayResponse": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:OrganizationRelease": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:OrganizationSentryAppDetailsResponse": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:OrganizationStatsSummaryResponse": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:OrganizationSummary": [
+   "props:17",
+   "req:13"
+  ],
+  "schema:OrganizationTraceMetaResponse": [
+   "props:8",
+   "req:7"
+  ],
+  "schema:OrganizationTraceResponse": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:OrganizationWithProjectsAndTeams": [
+   "props:64",
+   "req:54"
+  ],
+  "schema:OutcomesResponse": [
+   "props:4",
+   "req:4"
+  ],
+  "schema:OutgoingNotificationAction": [
+   "props:10",
+   "req:10"
+  ],
+  "schema:ProjectAdmin": [
+   "props:11",
+   "req:0"
+  ],
+  "schema:ProjectEventDetailsResponse": [
+   "props:38",
+   "req:29"
+  ],
+  "schema:ProjectEventsResponseDict": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:ProjectFilterResponse": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:ProjectKey": [
+   "props:14",
+   "req:13"
+  ],
+  "schema:ProjectKeyPost": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:ProjectOwnership": [
+   "props:8",
+   "req:7"
+  ],
+  "schema:ProjectOwnershipRequest": [
+   "props:4",
+   "req:0"
+  ],
+  "schema:ProjectPost": [
+   "props:4",
+   "req:1"
+  ],
+  "schema:ProjectProfilingProfileResponse": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:ProjectRepoLinkRequest": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:ProjectRepoLinkResponse": [
+   "props:5",
+   "req:5"
+  ],
+  "schema:ProjectSizeStatusCheckRulesResponse": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:ProjectSnapshotStatusCheckRulesResponse": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:ProjectStats": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:ProjectSummary": [
+   "props:43",
+   "req:38"
+  ],
+  "schema:ProjectTeamsResponse": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:ProjectWithTeam": [
+   "props:42",
+   "req:38"
+  ],
+  "schema:RateLimit": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:ReleaseFile": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:ReleaseFileResponse": [
+   "props:7",
+   "req:7"
+  ],
+  "schema:ReleaseFileUpload": [
+   "props:4",
+   "req:1"
+  ],
+  "schema:ReleaseHeadCommit": [
+   "props:3",
+   "req:2"
+  ],
+  "schema:ReleaseHeadCommitSerializerDeprecated": [
+   "props:3",
+   "req:2"
+  ],
+  "schema:ReleaseSerializerWithProjects": [
+   "props:10",
+   "req:2"
+  ],
+  "schema:ReleaseThresholdStatusResponse": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:ReplayCounts": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:ReplayDeletionJobCreate": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:ReplayDeletionJobCreateData": [
+   "props:4",
+   "req:4"
+  ],
+  "schema:SCIMListResponseEnvelopeSCIMMemberIndexResponse": [
+   "props:5",
+   "req:5"
+  ],
+  "schema:SCIMListResponseEnvelopeSCIMTeamIndexResponse": [
+   "props:5",
+   "req:5"
+  ],
+  "schema:SCIMMemberProvision": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:SCIMPatchOperation": [
+   "props:3",
+   "req:2"
+  ],
+  "schema:SCIMPatchRequest": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:SCIMTeamPatchOperation": [
+   "props:3",
+   "req:1"
+  ],
+  "schema:SCIMTeamPatchRequest": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:SCIMTeamRequestBody": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:SeerModelsResponse": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:SentryAppDetailsResponse": [
+   "props:25",
+   "req:15"
+  ],
+  "schema:SentryAppParser": [
+   "props:13",
+   "req:2"
+  ],
+  "schema:SessionsQueryResult": [
+   "props:5",
+   "req:5"
+  ],
+  "schema:ShortIdLookupResponse": [
+   "props:5",
+   "req:5"
+  ],
+  "schema:SizeAnalysisResponse": [
+   "props:15",
+   "req:15"
+  ],
+  "schema:SkipStatusCheck": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:SnapshotCreateResponse": [
+   "props:4",
+   "req:4"
+  ],
+  "schema:SnapshotDetailsResponse": [
+   "props:29",
+   "req:0"
+  ],
+  "schema:SnapshotImageDetailResponse": [
+   "props:7",
+   "req:0"
+  ],
+  "schema:Source": [
+   "props:15",
+   "req:2"
+  ],
+  "schema:SourceMapDebug": [
+   "props:11",
+   "req:11"
+  ],
+  "schema:StatusDetailsValidator": [
+   "props:8",
+   "req:7"
+  ],
+  "schema:TagKeyDetailsDict": [
+   "props:5",
+   "req:2"
+  ],
+  "schema:TagKeyValuesDict": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:Team": [
+   "props:15",
+   "req:12"
+  ],
+  "schema:TeamDetails": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:TeamPost": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:TeamSCIM": [
+   "props:5",
+   "req:4"
+  ],
+  "schema:TraceItemStatsResponse": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:UpdateClientKey": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:UpdateOrgMemberRoles": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:WidgetLayout": [
+   "props:5",
+   "req:5"
+  ],
+  "schema:Workflow": [
+   "props:14",
+   "req:14"
+  ],
+  "schema:WorkflowValidator": [
+   "props:9",
+   "req:1"
+  ],
+  "schema:_LegacyBrowserFilter": [
+   "props:2",
+   "req:0"
+  ]
+ },
+ "ts": "2026-08-18T23:38:25+00:00",
+ "url": "https://raw.githubusercontent.com/getsentry/sentry-api-schema/main/openapi-derefed.json",
+ "vendor": "Sentry"
+}

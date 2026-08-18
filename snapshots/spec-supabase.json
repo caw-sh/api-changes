@@ -1,0 +1,1350 @@
+{
+ "category": "spec",
+ "field_count": 318,
+ "first_seen": "2026-08-18T23:38:25+00:00",
+ "id": "spec-supabase",
+ "pending_keys": [],
+ "runs": 1,
+ "schema": {
+  "DELETE /v1/branches/{branch_id_or_ref}": [
+   "params:2",
+   "responses:2"
+  ],
+  "DELETE /v1/projects/{ref}": [
+   "params:1",
+   "responses:4"
+  ],
+  "DELETE /v1/projects/{ref}/api-keys/{id}": [
+   "params:5",
+   "responses:4"
+  ],
+  "DELETE /v1/projects/{ref}/billing/addons/{addon_variant}": [
+   "params:2",
+   "responses:5"
+  ],
+  "DELETE /v1/projects/{ref}/branches": [
+   "params:1",
+   "responses:5"
+  ],
+  "DELETE /v1/projects/{ref}/claim-token": [
+   "params:1",
+   "responses:4"
+  ],
+  "DELETE /v1/projects/{ref}/cli/login-role": [
+   "params:1",
+   "responses:5"
+  ],
+  "DELETE /v1/projects/{ref}/config/auth/signing-keys/{id}": [
+   "params:2",
+   "responses:4"
+  ],
+  "DELETE /v1/projects/{ref}/config/auth/sso/providers/{provider_id}": [
+   "params:2",
+   "responses:5"
+  ],
+  "DELETE /v1/projects/{ref}/config/auth/third-party-auth/{tpa_id}": [
+   "params:2",
+   "responses:4"
+  ],
+  "DELETE /v1/projects/{ref}/custom-hostname": [
+   "params:2",
+   "responses:5"
+  ],
+  "DELETE /v1/projects/{ref}/database/jit/invite/{invite_id}": [
+   "params:2",
+   "responses:5"
+  ],
+  "DELETE /v1/projects/{ref}/database/jit/{user_id}": [
+   "params:2",
+   "responses:5"
+  ],
+  "DELETE /v1/projects/{ref}/database/migrations": [
+   "params:2",
+   "responses:5"
+  ],
+  "DELETE /v1/projects/{ref}/functions/{function_slug}": [
+   "params:2",
+   "responses:5"
+  ],
+  "DELETE /v1/projects/{ref}/network-bans": [
+   "body",
+   "params:1",
+   "responses:5"
+  ],
+  "DELETE /v1/projects/{ref}/secrets": [
+   "body",
+   "params:1",
+   "responses:5"
+  ],
+  "DELETE /v1/projects/{ref}/vanity-subdomain": [
+   "params:1",
+   "responses:5"
+  ],
+  "GET /v1/branches/{branch_id_or_ref}": [
+   "params:1",
+   "responses:2"
+  ],
+  "GET /v1/branches/{branch_id_or_ref}/diff": [
+   "params:3",
+   "responses:2"
+  ],
+  "GET /v1/oauth/authorize": [
+   "params:11",
+   "responses:1"
+  ],
+  "GET /v1/oauth/authorize/project-claim": [
+   "params:8",
+   "responses:4"
+  ],
+  "GET /v1/organizations": [
+   "params:0",
+   "responses:5"
+  ],
+  "GET /v1/organizations/{slug}": [
+   "params:1",
+   "responses:4"
+  ],
+  "GET /v1/organizations/{slug}/entitlements": [
+   "params:1",
+   "responses:4"
+  ],
+  "GET /v1/organizations/{slug}/members": [
+   "params:1",
+   "responses:1"
+  ],
+  "GET /v1/organizations/{slug}/project-claim/{token}": [
+   "params:2",
+   "responses:4"
+  ],
+  "GET /v1/organizations/{slug}/projects": [
+   "params:6",
+   "responses:5"
+  ],
+  "GET /v1/profile": [
+   "params:0",
+   "responses:1"
+  ],
+  "GET /v1/projects": [
+   "params:0",
+   "responses:4"
+  ],
+  "GET /v1/projects/available-regions": [
+   "params:3",
+   "responses:1"
+  ],
+  "GET /v1/projects/{ref}": [
+   "params:1",
+   "responses:5"
+  ],
+  "GET /v1/projects/{ref}/actions": [
+   "params:3",
+   "responses:5"
+  ],
+  "GET /v1/projects/{ref}/actions/{run_id}": [
+   "params:2",
+   "responses:5"
+  ],
+  "GET /v1/projects/{ref}/actions/{run_id}/logs": [
+   "params:2",
+   "responses:5"
+  ],
+  "GET /v1/projects/{ref}/advisors/performance": [
+   "DEPRECATED",
+   "params:1",
+   "responses:4"
+  ],
+  "GET /v1/projects/{ref}/advisors/security": [
+   "DEPRECATED",
+   "params:2",
+   "responses:4"
+  ],
+  "GET /v1/projects/{ref}/analytics/endpoints/functions.combined-stats": [
+   "params:3",
+   "responses:5"
+  ],
+  "GET /v1/projects/{ref}/analytics/endpoints/logs": [
+   "params:4",
+   "responses:5"
+  ],
+  "GET /v1/projects/{ref}/analytics/endpoints/logs.all": [
+   "DEPRECATED",
+   "params:4",
+   "responses:5"
+  ],
+  "GET /v1/projects/{ref}/analytics/endpoints/metrics": [
+   "params:1",
+   "responses:5"
+  ],
+  "GET /v1/projects/{ref}/analytics/endpoints/usage.api-counts": [
+   "params:2",
+   "responses:5"
+  ],
+  "GET /v1/projects/{ref}/analytics/endpoints/usage.api-requests-count": [
+   "params:1",
+   "responses:5"
+  ],
+  "GET /v1/projects/{ref}/api-keys": [
+   "params:2",
+   "responses:4"
+  ],
+  "GET /v1/projects/{ref}/api-keys/legacy": [
+   "params:1",
+   "responses:4"
+  ],
+  "GET /v1/projects/{ref}/api-keys/{id}": [
+   "params:3",
+   "responses:4"
+  ],
+  "GET /v1/projects/{ref}/billing/addons": [
+   "params:1",
+   "responses:5"
+  ],
+  "GET /v1/projects/{ref}/branches": [
+   "params:1",
+   "responses:2"
+  ],
+  "GET /v1/projects/{ref}/branches/{name}": [
+   "params:2",
+   "responses:2"
+  ],
+  "GET /v1/projects/{ref}/claim-token": [
+   "params:1",
+   "responses:4"
+  ],
+  "GET /v1/projects/{ref}/config/auth": [
+   "params:1",
+   "responses:5"
+  ],
+  "GET /v1/projects/{ref}/config/auth/signing-keys": [
+   "params:1",
+   "responses:4"
+  ],
+  "GET /v1/projects/{ref}/config/auth/signing-keys/legacy": [
+   "params:1",
+   "responses:4"
+  ],
+  "GET /v1/projects/{ref}/config/auth/signing-keys/{id}": [
+   "params:2",
+   "responses:4"
+  ],
+  "GET /v1/projects/{ref}/config/auth/sso/providers": [
+   "params:1",
+   "responses:5"
+  ],
+  "GET /v1/projects/{ref}/config/auth/sso/providers/{provider_id}": [
+   "params:2",
+   "responses:5"
+  ],
+  "GET /v1/projects/{ref}/config/auth/third-party-auth": [
+   "params:1",
+   "responses:4"
+  ],
+  "GET /v1/projects/{ref}/config/auth/third-party-auth/{tpa_id}": [
+   "params:2",
+   "responses:4"
+  ],
+  "GET /v1/projects/{ref}/config/database/pgbouncer": [
+   "params:1",
+   "responses:5"
+  ],
+  "GET /v1/projects/{ref}/config/database/pooler": [
+   "params:1",
+   "responses:5"
+  ],
+  "GET /v1/projects/{ref}/config/database/postgres": [
+   "params:1",
+   "responses:5"
+  ],
+  "GET /v1/projects/{ref}/config/disk": [
+   "params:1",
+   "responses:5"
+  ],
+  "GET /v1/projects/{ref}/config/disk/autoscale": [
+   "params:1",
+   "responses:5"
+  ],
+  "GET /v1/projects/{ref}/config/disk/util": [
+   "params:1",
+   "responses:5"
+  ],
+  "GET /v1/projects/{ref}/config/realtime": [
+   "params:1",
+   "responses:4"
+  ],
+  "GET /v1/projects/{ref}/config/storage": [
+   "params:1",
+   "responses:5"
+  ],
+  "GET /v1/projects/{ref}/custom-hostname": [
+   "params:1",
+   "responses:5"
+  ],
+  "GET /v1/projects/{ref}/database/backups": [
+   "params:1",
+   "responses:5"
+  ],
+  "GET /v1/projects/{ref}/database/backups/restore-point": [
+   "params:2",
+   "responses:5"
+  ],
+  "GET /v1/projects/{ref}/database/backups/schedule": [
+   "params:1",
+   "responses:7"
+  ],
+  "GET /v1/projects/{ref}/database/context": [
+   "DEPRECATED",
+   "params:1",
+   "responses:4"
+  ],
+  "GET /v1/projects/{ref}/database/jit": [
+   "params:1",
+   "responses:5"
+  ],
+  "GET /v1/projects/{ref}/database/jit/list": [
+   "params:1",
+   "responses:5"
+  ],
+  "GET /v1/projects/{ref}/database/migrations": [
+   "params:1",
+   "responses:5"
+  ],
+  "GET /v1/projects/{ref}/database/migrations/{version}": [
+   "params:2",
+   "responses:5"
+  ],
+  "GET /v1/projects/{ref}/database/openapi": [
+   "params:2",
+   "responses:5"
+  ],
+  "GET /v1/projects/{ref}/functions": [
+   "params:1",
+   "responses:5"
+  ],
+  "GET /v1/projects/{ref}/functions/{function_slug}": [
+   "params:2",
+   "responses:5"
+  ],
+  "GET /v1/projects/{ref}/functions/{function_slug}/body": [
+   "params:2",
+   "responses:5"
+  ],
+  "GET /v1/projects/{ref}/health": [
+   "params:3",
+   "responses:5"
+  ],
+  "GET /v1/projects/{ref}/jit-access": [
+   "params:1",
+   "responses:5"
+  ],
+  "GET /v1/projects/{ref}/network-restrictions": [
+   "params:1",
+   "responses:5"
+  ],
+  "GET /v1/projects/{ref}/pgsodium": [
+   "params:1",
+   "responses:5"
+  ],
+  "GET /v1/projects/{ref}/postgrest": [
+   "params:1",
+   "responses:5"
+  ],
+  "GET /v1/projects/{ref}/readonly": [
+   "params:1",
+   "responses:5"
+  ],
+  "GET /v1/projects/{ref}/restore": [
+   "params:1",
+   "responses:4"
+  ],
+  "GET /v1/projects/{ref}/secrets": [
+   "params:1",
+   "responses:5"
+  ],
+  "GET /v1/projects/{ref}/ssl-enforcement": [
+   "params:1",
+   "responses:5"
+  ],
+  "GET /v1/projects/{ref}/storage/buckets": [
+   "params:1",
+   "responses:5"
+  ],
+  "GET /v1/projects/{ref}/types/typescript": [
+   "params:2",
+   "responses:5"
+  ],
+  "GET /v1/projects/{ref}/upgrade/eligibility": [
+   "params:1",
+   "responses:5"
+  ],
+  "GET /v1/projects/{ref}/upgrade/status": [
+   "params:2",
+   "responses:5"
+  ],
+  "GET /v1/projects/{ref}/vanity-subdomain": [
+   "params:1",
+   "responses:6"
+  ],
+  "GET /v1/snippets": [
+   "params:5",
+   "responses:5"
+  ],
+  "GET /v1/snippets/{id}": [
+   "params:1",
+   "responses:5"
+  ],
+  "HEAD /v1/projects/{ref}/actions": [
+   "params:1",
+   "responses:5"
+  ],
+  "PATCH /v1/branches/{branch_id_or_ref}": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "PATCH /v1/projects/{ref}": [
+   "body",
+   "params:1",
+   "responses:5"
+  ],
+  "PATCH /v1/projects/{ref}/actions/{run_id}/status": [
+   "body",
+   "params:2",
+   "responses:5"
+  ],
+  "PATCH /v1/projects/{ref}/api-keys/{id}": [
+   "body",
+   "params:3",
+   "responses:4"
+  ],
+  "PATCH /v1/projects/{ref}/billing/addons": [
+   "body",
+   "params:1",
+   "responses:5"
+  ],
+  "PATCH /v1/projects/{ref}/config/auth": [
+   "body",
+   "params:1",
+   "responses:5"
+  ],
+  "PATCH /v1/projects/{ref}/config/auth/signing-keys/{id}": [
+   "body",
+   "params:2",
+   "responses:4"
+  ],
+  "PATCH /v1/projects/{ref}/config/database/pooler": [
+   "body",
+   "params:1",
+   "responses:5"
+  ],
+  "PATCH /v1/projects/{ref}/config/realtime": [
+   "body",
+   "params:1",
+   "responses:4"
+  ],
+  "PATCH /v1/projects/{ref}/config/storage": [
+   "body",
+   "params:1",
+   "responses:5"
+  ],
+  "PATCH /v1/projects/{ref}/database/backups/schedule": [
+   "body",
+   "params:1",
+   "responses:8"
+  ],
+  "PATCH /v1/projects/{ref}/database/migrations/{version}": [
+   "body",
+   "params:2",
+   "responses:5"
+  ],
+  "PATCH /v1/projects/{ref}/database/password": [
+   "body",
+   "params:1",
+   "responses:5"
+  ],
+  "PATCH /v1/projects/{ref}/functions/{function_slug}": [
+   "body",
+   "params:9",
+   "responses:5"
+  ],
+  "PATCH /v1/projects/{ref}/network-restrictions": [
+   "body",
+   "params:1",
+   "responses:5"
+  ],
+  "PATCH /v1/projects/{ref}/postgrest": [
+   "body",
+   "params:1",
+   "responses:5"
+  ],
+  "POST /v1/branches/{branch_id_or_ref}/merge": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /v1/branches/{branch_id_or_ref}/push": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /v1/branches/{branch_id_or_ref}/reset": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /v1/branches/{branch_id_or_ref}/restore": [
+   "params:1",
+   "responses:2"
+  ],
+  "POST /v1/oauth/revoke": [
+   "body",
+   "params:0",
+   "responses:1"
+  ],
+  "POST /v1/oauth/token": [
+   "body",
+   "params:0",
+   "responses:1"
+  ],
+  "POST /v1/organizations": [
+   "body",
+   "params:0",
+   "responses:5"
+  ],
+  "POST /v1/organizations/{slug}/project-claim/{token}": [
+   "params:2",
+   "responses:4"
+  ],
+  "POST /v1/projects": [
+   "body",
+   "params:0",
+   "responses:4"
+  ],
+  "POST /v1/projects/{ref}/api-keys": [
+   "body",
+   "params:2",
+   "responses:4"
+  ],
+  "POST /v1/projects/{ref}/branches": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /v1/projects/{ref}/claim-token": [
+   "params:1",
+   "responses:4"
+  ],
+  "POST /v1/projects/{ref}/cli/login-role": [
+   "body",
+   "params:1",
+   "responses:5"
+  ],
+  "POST /v1/projects/{ref}/config/auth/signing-keys": [
+   "body",
+   "params:1",
+   "responses:4"
+  ],
+  "POST /v1/projects/{ref}/config/auth/signing-keys/legacy": [
+   "params:1",
+   "responses:4"
+  ],
+  "POST /v1/projects/{ref}/config/auth/sso/providers": [
+   "body",
+   "params:1",
+   "responses:5"
+  ],
+  "POST /v1/projects/{ref}/config/auth/third-party-auth": [
+   "body",
+   "params:1",
+   "responses:4"
+  ],
+  "POST /v1/projects/{ref}/config/disk": [
+   "body",
+   "params:1",
+   "responses:5"
+  ],
+  "POST /v1/projects/{ref}/config/realtime/shutdown": [
+   "params:1",
+   "responses:5"
+  ],
+  "POST /v1/projects/{ref}/custom-hostname/activate": [
+   "params:1",
+   "responses:5"
+  ],
+  "POST /v1/projects/{ref}/custom-hostname/initialize": [
+   "body",
+   "params:1",
+   "responses:5"
+  ],
+  "POST /v1/projects/{ref}/custom-hostname/reverify": [
+   "params:1",
+   "responses:5"
+  ],
+  "POST /v1/projects/{ref}/database/backups/restore": [
+   "body",
+   "params:1",
+   "responses:4"
+  ],
+  "POST /v1/projects/{ref}/database/backups/restore-pitr": [
+   "body",
+   "params:1",
+   "responses:4"
+  ],
+  "POST /v1/projects/{ref}/database/backups/restore-point": [
+   "body",
+   "params:1",
+   "responses:4"
+  ],
+  "POST /v1/projects/{ref}/database/backups/undo": [
+   "body",
+   "params:1",
+   "responses:4"
+  ],
+  "POST /v1/projects/{ref}/database/jit": [
+   "body",
+   "params:1",
+   "responses:5"
+  ],
+  "POST /v1/projects/{ref}/database/jit/invite": [
+   "body",
+   "params:1",
+   "responses:5"
+  ],
+  "POST /v1/projects/{ref}/database/jit/invite/accept": [
+   "body",
+   "params:1",
+   "responses:2"
+  ],
+  "POST /v1/projects/{ref}/database/migrations": [
+   "body",
+   "params:2",
+   "responses:5"
+  ],
+  "POST /v1/projects/{ref}/database/query": [
+   "body",
+   "params:1",
+   "responses:5"
+  ],
+  "POST /v1/projects/{ref}/database/query/read-only": [
+   "body",
+   "params:1",
+   "responses:5"
+  ],
+  "POST /v1/projects/{ref}/database/webhooks/enable": [
+   "params:1",
+   "responses:5"
+  ],
+  "POST /v1/projects/{ref}/functions": [
+   "DEPRECATED",
+   "body",
+   "params:8",
+   "responses:6"
+  ],
+  "POST /v1/projects/{ref}/functions/deploy": [
+   "body",
+   "params:3",
+   "responses:6"
+  ],
+  "POST /v1/projects/{ref}/network-bans/retrieve": [
+   "params:1",
+   "responses:5"
+  ],
+  "POST /v1/projects/{ref}/network-bans/retrieve/enriched": [
+   "params:1",
+   "responses:5"
+  ],
+  "POST /v1/projects/{ref}/network-restrictions/apply": [
+   "body",
+   "params:1",
+   "responses:5"
+  ],
+  "POST /v1/projects/{ref}/pause": [
+   "params:1",
+   "responses:4"
+  ],
+  "POST /v1/projects/{ref}/read-replicas/remove": [
+   "body",
+   "params:1",
+   "responses:5"
+  ],
+  "POST /v1/projects/{ref}/read-replicas/setup": [
+   "body",
+   "params:1",
+   "responses:6"
+  ],
+  "POST /v1/projects/{ref}/readonly/temporary-disable": [
+   "params:1",
+   "responses:5"
+  ],
+  "POST /v1/projects/{ref}/restart": [
+   "params:1",
+   "responses:4"
+  ],
+  "POST /v1/projects/{ref}/restore": [
+   "params:1",
+   "responses:4"
+  ],
+  "POST /v1/projects/{ref}/restore/cancel": [
+   "params:1",
+   "responses:4"
+  ],
+  "POST /v1/projects/{ref}/secrets": [
+   "body",
+   "params:1",
+   "responses:5"
+  ],
+  "POST /v1/projects/{ref}/upgrade": [
+   "body",
+   "params:1",
+   "responses:5"
+  ],
+  "POST /v1/projects/{ref}/vanity-subdomain/activate": [
+   "body",
+   "params:1",
+   "responses:6"
+  ],
+  "POST /v1/projects/{ref}/vanity-subdomain/check-availability": [
+   "body",
+   "params:1",
+   "responses:6"
+  ],
+  "PUT /v1/projects/{ref}/api-keys/legacy": [
+   "params:2",
+   "responses:4"
+  ],
+  "PUT /v1/projects/{ref}/config/auth/sso/providers/{provider_id}": [
+   "body",
+   "params:2",
+   "responses:5"
+  ],
+  "PUT /v1/projects/{ref}/config/database/postgres": [
+   "body",
+   "params:1",
+   "responses:5"
+  ],
+  "PUT /v1/projects/{ref}/database/jit": [
+   "body",
+   "params:1",
+   "responses:5"
+  ],
+  "PUT /v1/projects/{ref}/database/migrations": [
+   "body",
+   "params:2",
+   "responses:5"
+  ],
+  "PUT /v1/projects/{ref}/functions": [
+   "body",
+   "params:1",
+   "responses:6"
+  ],
+  "PUT /v1/projects/{ref}/jit-access": [
+   "body",
+   "params:1",
+   "responses:5"
+  ],
+  "PUT /v1/projects/{ref}/pgsodium": [
+   "body",
+   "params:1",
+   "responses:5"
+  ],
+  "PUT /v1/projects/{ref}/ssl-enforcement": [
+   "body",
+   "params:1",
+   "responses:5"
+  ],
+  "schema:AcceptInviteExternalUserJitAccessBody": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:ActionRunResponse": [
+   "props:8",
+   "req:7"
+  ],
+  "schema:ActivateVanitySubdomainResponse": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:AnalyticsResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:ApiKeyResponse": [
+   "props:10",
+   "req:1"
+  ],
+  "schema:ApplyProjectAddonBody": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:AuthConfigResponse": [
+   "props:237",
+   "req:237"
+  ],
+  "schema:AuthorizeJitAccessBody": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:BranchActionBody": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:BranchDeleteResponse": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:BranchDetailResponse": [
+   "props:10",
+   "req:7"
+  ],
+  "schema:BranchResponse": [
+   "props:17",
+   "req:10"
+  ],
+  "schema:BranchRestoreResponse": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:BranchUpdateResponse": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:BulkUpdateFunctionBody": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:BulkUpdateFunctionResponse": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:CreateApiKeyBody": [
+   "props:4",
+   "req:2"
+  ],
+  "schema:CreateBranchBody": [
+   "props:11",
+   "req:1"
+  ],
+  "schema:CreateOrganizationV1": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:CreateProjectClaimTokenResponse": [
+   "props:5",
+   "req:5"
+  ],
+  "schema:CreateProviderBody": [
+   "props:6",
+   "req:1"
+  ],
+  "schema:CreateProviderResponse": [
+   "props:5",
+   "req:1"
+  ],
+  "schema:CreateRoleBody": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:CreateRoleResponse": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:CreateSecretBody": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:CreateSigningKeyBody": [
+   "props:3",
+   "req:1"
+  ],
+  "schema:CreateThirdPartyAuthBody": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:DatabaseUpgradeStatusResponse": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:DeleteProviderResponse": [
+   "props:5",
+   "req:1"
+  ],
+  "schema:DeleteRolesResponse": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:DeleteSecretsBody": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:DeployFunctionResponse": [
+   "props:12",
+   "req:5"
+  ],
+  "schema:DiskAutoscaleConfig": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:DiskRequestBody": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:DiskResponse": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:DiskUtilMetricsResponse": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:FunctionDeployBody": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:FunctionResponse": [
+   "props:12",
+   "req:7"
+  ],
+  "schema:FunctionSlugResponse": [
+   "props:12",
+   "req:7"
+  ],
+  "schema:GetProjectAvailableRestoreVersionsResponse": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:GetProjectDbMetadataResponse": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:GetProviderResponse": [
+   "props:5",
+   "req:1"
+  ],
+  "schema:InviteExternalUserJitAccessBody": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:InviteExternalUserJitResponse": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:JitAccessRequestRequest": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:JitAccessResponse": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:JitAuthorizeAccessResponse": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:JitListAccessResponse": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:LegacyApiKeysResponse": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:ListActionRunResponse": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:ListProjectAddonsResponse": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:ListProjectAddonsResponseJsonValue": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:ListProvidersResponse": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:NetworkBanResponse": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:NetworkBanResponseEnriched": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:NetworkRestrictionsPatchRequest": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:NetworkRestrictionsRequest": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:NetworkRestrictionsResponse": [
+   "props:6",
+   "req:3"
+  ],
+  "schema:NetworkRestrictionsV2Response": [
+   "props:6",
+   "req:3"
+  ],
+  "schema:OAuthRevokeTokenBody": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:OAuthTokenBody": [
+   "props:10",
+   "req:0"
+  ],
+  "schema:OAuthTokenResponse": [
+   "props:4",
+   "req:3"
+  ],
+  "schema:OrganizationProjectClaimResponse": [
+   "props:5",
+   "req:5"
+  ],
+  "schema:OrganizationProjectsResponse": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:OrganizationResponseV1": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:PgsodiumConfigResponse": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:PlanGateErrorBody": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:PostgresConfigResponse": [
+   "props:38",
+   "req:0"
+  ],
+  "schema:PostgrestConfigWithJWTSecretResponse": [
+   "props:6",
+   "req:5"
+  ],
+  "schema:ProjectClaimTokenResponse": [
+   "props:4",
+   "req:4"
+  ],
+  "schema:ProjectUpgradeEligibilityResponse": [
+   "props:12",
+   "req:12"
+  ],
+  "schema:ProjectUpgradeInitiateResponse": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:ReadOnlyStatusResponse": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:RealtimeConfigResponse": [
+   "props:12",
+   "req:12"
+  ],
+  "schema:RegionsInfo": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:RemoveNetworkBanRequest": [
+   "props:3",
+   "req:1"
+  ],
+  "schema:RemoveReadReplicaBody": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:SecretResponse": [
+   "props:3",
+   "req:2"
+  ],
+  "schema:SetUpReadReplicaBody": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:SigningKeyResponse": [
+   "props:6",
+   "req:6"
+  ],
+  "schema:SigningKeysResponse": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:SnippetList": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:SnippetResponse": [
+   "props:12",
+   "req:12"
+  ],
+  "schema:SslEnforcementRequest": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:SslEnforcementResponse": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:StorageConfigResponse": [
+   "props:6",
+   "req:6"
+  ],
+  "schema:StreamableFile": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:SubdomainAvailabilityResponse": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:SupavisorConfigResponse": [
+   "props:12",
+   "req:12"
+  ],
+  "schema:ThirdPartyAuth": [
+   "props:9",
+   "req:4"
+  ],
+  "schema:TypescriptResponse": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:UpdateApiKeyBody": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:UpdateAuthConfigBody": [
+   "props:234",
+   "req:0"
+  ],
+  "schema:UpdateBranchBody": [
+   "props:7",
+   "req:0"
+  ],
+  "schema:UpdateCustomHostnameBody": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:UpdateCustomHostnameResponse": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:UpdateCustomHostnameResponseJsonValue": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:UpdateJitAccessBody": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:UpdatePgsodiumConfigBody": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:UpdatePostgresConfigBody": [
+   "props:39",
+   "req:0"
+  ],
+  "schema:UpdateProviderBody": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:UpdateProviderResponse": [
+   "props:5",
+   "req:1"
+  ],
+  "schema:UpdateRealtimeConfigBody": [
+   "props:12",
+   "req:0"
+  ],
+  "schema:UpdateRunStatusBody": [
+   "props:7",
+   "req:0"
+  ],
+  "schema:UpdateRunStatusResponse": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:UpdateSigningKeyBody": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:UpdateStorageConfigBody": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:UpdateSupavisorConfigBody": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:UpdateSupavisorConfigResponse": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:UpgradeDatabaseBody": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:V1BackupScheduleResponse": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:V1BackupsResponse": [
+   "props:5",
+   "req:5"
+  ],
+  "schema:V1CreateFunctionBody": [
+   "props:4",
+   "req:3"
+  ],
+  "schema:V1CreateMigrationBody": [
+   "props:3",
+   "req:1"
+  ],
+  "schema:V1CreateProjectBody": [
+   "props:13",
+   "req:3"
+  ],
+  "schema:V1GetMigrationResponse": [
+   "props:6",
+   "req:1"
+  ],
+  "schema:V1GetUsageApiCountResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:V1GetUsageApiRequestsCountResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:V1ListEntitlementsResponse": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:V1ListMigrationsResponse": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:V1OrganizationMemberResponse": [
+   "props:6",
+   "req:5"
+  ],
+  "schema:V1OrganizationSlugResponse": [
+   "props:5",
+   "req:4"
+  ],
+  "schema:V1PatchMigrationBody": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:V1PgbouncerConfigResponse": [
+   "props:9",
+   "req:0"
+  ],
+  "schema:V1PostgrestConfigResponse": [
+   "props:5",
+   "req:5"
+  ],
+  "schema:V1ProfileResponse": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:V1ProjectAdvisorsResponse": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:V1ProjectRefResponse": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:V1ProjectResponse": [
+   "props:8",
+   "req:8"
+  ],
+  "schema:V1ProjectWithDatabaseResponse": [
+   "props:9",
+   "req:9"
+  ],
+  "schema:V1ReadOnlyQueryBody": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:V1RestoreBackupBody": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:V1RestorePitrBody": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:V1RestorePointPostBody": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:V1RestorePointResponse": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:V1RunQueryBody": [
+   "props:3",
+   "req:1"
+  ],
+  "schema:V1ServiceHealthResponse": [
+   "props:5",
+   "req:3"
+  ],
+  "schema:V1StorageBucketResponse": [
+   "props:6",
+   "req:6"
+  ],
+  "schema:V1UndoBody": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:V1UpdateBackupScheduleBody": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:V1UpdateFunctionBody": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:V1UpdatePasswordBody": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:V1UpdatePasswordResponse": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:V1UpdatePostgrestConfigBody": [
+   "props:5",
+   "req:0"
+  ],
+  "schema:V1UpdateProjectBody": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:V1UpsertMigrationBody": [
+   "props:3",
+   "req:1"
+  ],
+  "schema:VanitySubdomainBody": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:VanitySubdomainConfigResponse": [
+   "props:2",
+   "req:1"
+  ]
+ },
+ "ts": "2026-08-18T23:38:25+00:00",
+ "url": "https://api.supabase.com/api/v1-json",
+ "vendor": "Supabase"
+}

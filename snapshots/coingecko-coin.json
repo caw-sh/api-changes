@@ -4,11 +4,9 @@
  "first_seen": "2026-08-18T23:20:13+00:00",
  "id": "coingecko-coin",
  "pending_keys": [
-  "TYPE_CHANGED:market_data.market_cap_change_24h_in_currency.bits",
-  "TYPE_CHANGED:market_data.market_cap_change_24h_in_currency.btc",
-  "TYPE_CHANGED:market_data.market_cap_change_24h_in_currency.sats"
+  "TYPE_CHANGED:market_data.price_change_24h_in_currency.sats"
  ],
- "runs": 3,
+ "runs": 4,
  "schema": {
   "additional_notices": [
    "array"
@@ -1727,7 +1725,7 @@
    "string"
   ]
  },
- "ts": "2026-08-18T23:23:51+00:00",
+ "ts": "2026-08-18T23:38:25+00:00",
  "url": "https://api.coingecko.com/api/v3/coins/bitcoin?localization=false&tickers=false&community_data=false",
  "vendor": "CoinGecko"
 }

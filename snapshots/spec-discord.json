@@ -1,0 +1,3225 @@
+{
+ "category": "spec",
+ "field_count": 781,
+ "first_seen": "2026-08-18T23:38:25+00:00",
+ "id": "spec-discord",
+ "pending_keys": [],
+ "runs": 1,
+ "schema": {
+  "DELETE /applications/{application_id}/commands/{command_id}": [
+   "params:0",
+   "responses:3"
+  ],
+  "DELETE /applications/{application_id}/emojis/{emoji_id}": [
+   "params:0",
+   "responses:3"
+  ],
+  "DELETE /applications/{application_id}/entitlements/{entitlement_id}": [
+   "params:0",
+   "responses:3"
+  ],
+  "DELETE /applications/{application_id}/guilds/{guild_id}/commands/{command_id}": [
+   "params:0",
+   "responses:3"
+  ],
+  "DELETE /channels/{channel_id}": [
+   "params:0",
+   "responses:3"
+  ],
+  "DELETE /channels/{channel_id}/messages/pins/{message_id}": [
+   "params:0",
+   "responses:3"
+  ],
+  "DELETE /channels/{channel_id}/messages/{message_id}": [
+   "params:0",
+   "responses:3"
+  ],
+  "DELETE /channels/{channel_id}/messages/{message_id}/reactions": [
+   "params:0",
+   "responses:3"
+  ],
+  "DELETE /channels/{channel_id}/messages/{message_id}/reactions/{emoji_name}": [
+   "params:0",
+   "responses:3"
+  ],
+  "DELETE /channels/{channel_id}/messages/{message_id}/reactions/{emoji_name}/@me": [
+   "params:0",
+   "responses:3"
+  ],
+  "DELETE /channels/{channel_id}/messages/{message_id}/reactions/{emoji_name}/{user_id}": [
+   "params:0",
+   "responses:3"
+  ],
+  "DELETE /channels/{channel_id}/permissions/{overwrite_id}": [
+   "params:0",
+   "responses:3"
+  ],
+  "DELETE /channels/{channel_id}/pins/{message_id}": [
+   "params:0",
+   "responses:3"
+  ],
+  "DELETE /channels/{channel_id}/recipients/{user_id}": [
+   "params:0",
+   "responses:3"
+  ],
+  "DELETE /channels/{channel_id}/thread-members/@me": [
+   "params:0",
+   "responses:3"
+  ],
+  "DELETE /channels/{channel_id}/thread-members/{user_id}": [
+   "params:0",
+   "responses:3"
+  ],
+  "DELETE /guilds/{guild_id}/auto-moderation/rules/{rule_id}": [
+   "params:0",
+   "responses:3"
+  ],
+  "DELETE /guilds/{guild_id}/bans/{user_id}": [
+   "body",
+   "params:0",
+   "responses:3"
+  ],
+  "DELETE /guilds/{guild_id}/emojis/{emoji_id}": [
+   "params:0",
+   "responses:3"
+  ],
+  "DELETE /guilds/{guild_id}/integrations/{integration_id}": [
+   "params:0",
+   "responses:3"
+  ],
+  "DELETE /guilds/{guild_id}/members/{user_id}": [
+   "params:0",
+   "responses:3"
+  ],
+  "DELETE /guilds/{guild_id}/members/{user_id}/roles/{role_id}": [
+   "params:0",
+   "responses:3"
+  ],
+  "DELETE /guilds/{guild_id}/roles/{role_id}": [
+   "params:0",
+   "responses:3"
+  ],
+  "DELETE /guilds/{guild_id}/scheduled-events/{guild_scheduled_event_id}": [
+   "params:0",
+   "responses:3"
+  ],
+  "DELETE /guilds/{guild_id}/scheduled-events/{guild_scheduled_event_id}/exceptions/{exception_id}": [
+   "params:0",
+   "responses:3"
+  ],
+  "DELETE /guilds/{guild_id}/soundboard-sounds/{sound_id}": [
+   "params:0",
+   "responses:3"
+  ],
+  "DELETE /guilds/{guild_id}/stickers/{sticker_id}": [
+   "params:0",
+   "responses:3"
+  ],
+  "DELETE /guilds/{guild_id}/templates/{code}": [
+   "params:0",
+   "responses:3"
+  ],
+  "DELETE /invites/{code}": [
+   "params:0",
+   "responses:3"
+  ],
+  "DELETE /lobbies/{lobby_id}": [
+   "params:0",
+   "responses:3"
+  ],
+  "DELETE /lobbies/{lobby_id}/members/@me": [
+   "params:0",
+   "responses:3"
+  ],
+  "DELETE /lobbies/{lobby_id}/members/{user_id}": [
+   "params:0",
+   "responses:3"
+  ],
+  "DELETE /stage-instances/{channel_id}": [
+   "params:0",
+   "responses:3"
+  ],
+  "DELETE /users/@me/applications/{application_id}/role-connection": [
+   "params:0",
+   "responses:3"
+  ],
+  "DELETE /users/@me/guilds/{guild_id}": [
+   "params:0",
+   "responses:3"
+  ],
+  "DELETE /webhooks/{webhook_id}": [
+   "params:0",
+   "responses:3"
+  ],
+  "DELETE /webhooks/{webhook_id}/{webhook_token}": [
+   "params:0",
+   "responses:3"
+  ],
+  "DELETE /webhooks/{webhook_id}/{webhook_token}/messages/@original": [
+   "params:1",
+   "responses:3"
+  ],
+  "DELETE /webhooks/{webhook_id}/{webhook_token}/messages/{message_id}": [
+   "params:1",
+   "responses:3"
+  ],
+  "GET /applications/@me": [
+   "params:0",
+   "responses:3"
+  ],
+  "GET /applications/{application_id}": [
+   "params:0",
+   "responses:3"
+  ],
+  "GET /applications/{application_id}/activity-instances/{instance_id}": [
+   "params:0",
+   "responses:3"
+  ],
+  "GET /applications/{application_id}/commands": [
+   "params:1",
+   "responses:3"
+  ],
+  "GET /applications/{application_id}/commands/{command_id}": [
+   "params:0",
+   "responses:3"
+  ],
+  "GET /applications/{application_id}/emojis": [
+   "params:0",
+   "responses:3"
+  ],
+  "GET /applications/{application_id}/emojis/{emoji_id}": [
+   "params:0",
+   "responses:3"
+  ],
+  "GET /applications/{application_id}/entitlements": [
+   "params:9",
+   "responses:3"
+  ],
+  "GET /applications/{application_id}/entitlements/{entitlement_id}": [
+   "params:0",
+   "responses:3"
+  ],
+  "GET /applications/{application_id}/guilds/{guild_id}/commands": [
+   "params:1",
+   "responses:3"
+  ],
+  "GET /applications/{application_id}/guilds/{guild_id}/commands/permissions": [
+   "params:0",
+   "responses:3"
+  ],
+  "GET /applications/{application_id}/guilds/{guild_id}/commands/{command_id}": [
+   "params:0",
+   "responses:3"
+  ],
+  "GET /applications/{application_id}/guilds/{guild_id}/commands/{command_id}/permissions": [
+   "params:0",
+   "responses:3"
+  ],
+  "GET /applications/{application_id}/role-connections/metadata": [
+   "params:0",
+   "responses:3"
+  ],
+  "GET /channels/{channel_id}": [
+   "params:0",
+   "responses:3"
+  ],
+  "GET /channels/{channel_id}/invites": [
+   "params:0",
+   "responses:3"
+  ],
+  "GET /channels/{channel_id}/messages": [
+   "params:4",
+   "responses:3"
+  ],
+  "GET /channels/{channel_id}/messages/pins": [
+   "params:2",
+   "responses:3"
+  ],
+  "GET /channels/{channel_id}/messages/{message_id}": [
+   "params:0",
+   "responses:3"
+  ],
+  "GET /channels/{channel_id}/messages/{message_id}/reactions/{emoji_name}": [
+   "params:3",
+   "responses:3"
+  ],
+  "GET /channels/{channel_id}/pins": [
+   "params:0",
+   "responses:3"
+  ],
+  "GET /channels/{channel_id}/polls/{message_id}/answers/{answer_id}": [
+   "params:2",
+   "responses:3"
+  ],
+  "GET /channels/{channel_id}/thread-members": [
+   "params:3",
+   "responses:3"
+  ],
+  "GET /channels/{channel_id}/thread-members/{user_id}": [
+   "params:1",
+   "responses:3"
+  ],
+  "GET /channels/{channel_id}/threads/archived/private": [
+   "params:2",
+   "responses:3"
+  ],
+  "GET /channels/{channel_id}/threads/archived/public": [
+   "params:2",
+   "responses:3"
+  ],
+  "GET /channels/{channel_id}/threads/search": [
+   "params:11",
+   "responses:4"
+  ],
+  "GET /channels/{channel_id}/users/@me/threads/archived/private": [
+   "params:2",
+   "responses:3"
+  ],
+  "GET /channels/{channel_id}/webhooks": [
+   "params:0",
+   "responses:3"
+  ],
+  "GET /gateway": [
+   "params:0",
+   "responses:3"
+  ],
+  "GET /gateway/bot": [
+   "params:0",
+   "responses:3"
+  ],
+  "GET /guilds/templates/{code}": [
+   "params:0",
+   "responses:3"
+  ],
+  "GET /guilds/{guild_id}": [
+   "params:1",
+   "responses:3"
+  ],
+  "GET /guilds/{guild_id}/audit-logs": [
+   "params:6",
+   "responses:3"
+  ],
+  "GET /guilds/{guild_id}/auto-moderation/rules": [
+   "params:0",
+   "responses:3"
+  ],
+  "GET /guilds/{guild_id}/auto-moderation/rules/{rule_id}": [
+   "params:0",
+   "responses:3"
+  ],
+  "GET /guilds/{guild_id}/bans": [
+   "params:3",
+   "responses:3"
+  ],
+  "GET /guilds/{guild_id}/bans/{user_id}": [
+   "params:0",
+   "responses:3"
+  ],
+  "GET /guilds/{guild_id}/channels": [
+   "params:0",
+   "responses:3"
+  ],
+  "GET /guilds/{guild_id}/emojis": [
+   "params:0",
+   "responses:3"
+  ],
+  "GET /guilds/{guild_id}/emojis/{emoji_id}": [
+   "params:0",
+   "responses:3"
+  ],
+  "GET /guilds/{guild_id}/integrations": [
+   "params:0",
+   "responses:3"
+  ],
+  "GET /guilds/{guild_id}/invites": [
+   "params:0",
+   "responses:3"
+  ],
+  "GET /guilds/{guild_id}/members": [
+   "params:2",
+   "responses:3"
+  ],
+  "GET /guilds/{guild_id}/members/search": [
+   "params:2",
+   "responses:3"
+  ],
+  "GET /guilds/{guild_id}/members/{user_id}": [
+   "params:0",
+   "responses:3"
+  ],
+  "GET /guilds/{guild_id}/messages/search": [
+   "params:24",
+   "responses:4"
+  ],
+  "GET /guilds/{guild_id}/new-member-welcome": [
+   "params:0",
+   "responses:4"
+  ],
+  "GET /guilds/{guild_id}/onboarding": [
+   "params:0",
+   "responses:3"
+  ],
+  "GET /guilds/{guild_id}/preview": [
+   "params:0",
+   "responses:3"
+  ],
+  "GET /guilds/{guild_id}/prune": [
+   "params:2",
+   "responses:3"
+  ],
+  "GET /guilds/{guild_id}/regions": [
+   "params:0",
+   "responses:3"
+  ],
+  "GET /guilds/{guild_id}/requests": [
+   "params:4",
+   "responses:3"
+  ],
+  "GET /guilds/{guild_id}/roles": [
+   "params:0",
+   "responses:3"
+  ],
+  "GET /guilds/{guild_id}/roles/member-counts": [
+   "params:0",
+   "responses:3"
+  ],
+  "GET /guilds/{guild_id}/roles/{role_id}": [
+   "params:0",
+   "responses:3"
+  ],
+  "GET /guilds/{guild_id}/scheduled-events": [
+   "params:1",
+   "responses:3"
+  ],
+  "GET /guilds/{guild_id}/scheduled-events/{guild_scheduled_event_id}": [
+   "params:1",
+   "responses:3"
+  ],
+  "GET /guilds/{guild_id}/scheduled-events/{guild_scheduled_event_id}/users": [
+   "params:4",
+   "responses:3"
+  ],
+  "GET /guilds/{guild_id}/scheduled-events/{guild_scheduled_event_id}/users/counts": [
+   "params:1",
+   "responses:3"
+  ],
+  "GET /guilds/{guild_id}/scheduled-events/{guild_scheduled_event_id}/{guild_scheduled_event_exception_id}/users": [
+   "params:4",
+   "responses:3"
+  ],
+  "GET /guilds/{guild_id}/soundboard-sounds": [
+   "params:0",
+   "responses:3"
+  ],
+  "GET /guilds/{guild_id}/soundboard-sounds/{sound_id}": [
+   "params:0",
+   "responses:3"
+  ],
+  "GET /guilds/{guild_id}/stickers": [
+   "params:0",
+   "responses:3"
+  ],
+  "GET /guilds/{guild_id}/stickers/{sticker_id}": [
+   "params:0",
+   "responses:3"
+  ],
+  "GET /guilds/{guild_id}/templates": [
+   "params:0",
+   "responses:3"
+  ],
+  "GET /guilds/{guild_id}/threads/active": [
+   "params:0",
+   "responses:3"
+  ],
+  "GET /guilds/{guild_id}/vanity-url": [
+   "params:0",
+   "responses:3"
+  ],
+  "GET /guilds/{guild_id}/voice-states/@me": [
+   "params:0",
+   "responses:3"
+  ],
+  "GET /guilds/{guild_id}/voice-states/{user_id}": [
+   "params:0",
+   "responses:3"
+  ],
+  "GET /guilds/{guild_id}/webhooks": [
+   "params:0",
+   "responses:3"
+  ],
+  "GET /guilds/{guild_id}/welcome-screen": [
+   "params:0",
+   "responses:3"
+  ],
+  "GET /guilds/{guild_id}/widget": [
+   "params:0",
+   "responses:3"
+  ],
+  "GET /guilds/{guild_id}/widget.json": [
+   "params:0",
+   "responses:3"
+  ],
+  "GET /guilds/{guild_id}/widget.png": [
+   "params:1",
+   "responses:3"
+  ],
+  "GET /invites/{code}": [
+   "params:4",
+   "responses:3"
+  ],
+  "GET /invites/{code}/target-users": [
+   "params:0",
+   "responses:3"
+  ],
+  "GET /invites/{code}/target-users/job-status": [
+   "params:0",
+   "responses:3"
+  ],
+  "GET /lobbies/{lobby_id}": [
+   "params:0",
+   "responses:3"
+  ],
+  "GET /lobbies/{lobby_id}/messages": [
+   "params:1",
+   "responses:3"
+  ],
+  "GET /oauth2/@me": [
+   "params:0",
+   "responses:3"
+  ],
+  "GET /oauth2/applications/@me": [
+   "params:0",
+   "responses:3"
+  ],
+  "GET /oauth2/keys": [
+   "params:0",
+   "responses:3"
+  ],
+  "GET /oauth2/userinfo": [
+   "params:0",
+   "responses:3"
+  ],
+  "GET /skus/{sku_id}/subscriptions": [
+   "params:4",
+   "responses:3"
+  ],
+  "GET /skus/{sku_id}/subscriptions/{subscription_id}": [
+   "params:1",
+   "responses:3"
+  ],
+  "GET /soundboard-default-sounds": [
+   "params:0",
+   "responses:3"
+  ],
+  "GET /stage-instances/{channel_id}": [
+   "params:0",
+   "responses:3"
+  ],
+  "GET /sticker-packs": [
+   "params:0",
+   "responses:3"
+  ],
+  "GET /sticker-packs/{pack_id}": [
+   "params:0",
+   "responses:3"
+  ],
+  "GET /stickers/{sticker_id}": [
+   "params:0",
+   "responses:3"
+  ],
+  "GET /users/@me": [
+   "params:0",
+   "responses:3"
+  ],
+  "GET /users/@me/applications/{application_id}/entitlements": [
+   "params:2",
+   "responses:3"
+  ],
+  "GET /users/@me/applications/{application_id}/role-connection": [
+   "params:0",
+   "responses:3"
+  ],
+  "GET /users/@me/connections": [
+   "params:0",
+   "responses:3"
+  ],
+  "GET /users/@me/guilds": [
+   "params:4",
+   "responses:3"
+  ],
+  "GET /users/@me/guilds/{guild_id}/member": [
+   "params:0",
+   "responses:3"
+  ],
+  "GET /users/{user_id}": [
+   "params:0",
+   "responses:3"
+  ],
+  "GET /voice/regions": [
+   "params:0",
+   "responses:3"
+  ],
+  "GET /webhooks/{webhook_id}": [
+   "params:0",
+   "responses:3"
+  ],
+  "GET /webhooks/{webhook_id}/{webhook_token}": [
+   "params:0",
+   "responses:3"
+  ],
+  "GET /webhooks/{webhook_id}/{webhook_token}/messages/@original": [
+   "params:1",
+   "responses:3"
+  ],
+  "GET /webhooks/{webhook_id}/{webhook_token}/messages/{message_id}": [
+   "params:1",
+   "responses:3"
+  ],
+  "PATCH /applications/@me": [
+   "body",
+   "params:0",
+   "responses:3"
+  ],
+  "PATCH /applications/{application_id}": [
+   "body",
+   "params:0",
+   "responses:3"
+  ],
+  "PATCH /applications/{application_id}/commands/{command_id}": [
+   "body",
+   "params:0",
+   "responses:3"
+  ],
+  "PATCH /applications/{application_id}/emojis/{emoji_id}": [
+   "body",
+   "params:0",
+   "responses:3"
+  ],
+  "PATCH /applications/{application_id}/guilds/{guild_id}/commands/{command_id}": [
+   "body",
+   "params:0",
+   "responses:3"
+  ],
+  "PATCH /channels/{channel_id}": [
+   "body",
+   "params:0",
+   "responses:3"
+  ],
+  "PATCH /channels/{channel_id}/messages/{message_id}": [
+   "body",
+   "params:0",
+   "responses:3"
+  ],
+  "PATCH /guilds/{guild_id}": [
+   "body",
+   "params:0",
+   "responses:3"
+  ],
+  "PATCH /guilds/{guild_id}/auto-moderation/rules/{rule_id}": [
+   "body",
+   "params:0",
+   "responses:3"
+  ],
+  "PATCH /guilds/{guild_id}/channels": [
+   "body",
+   "params:0",
+   "responses:3"
+  ],
+  "PATCH /guilds/{guild_id}/emojis/{emoji_id}": [
+   "body",
+   "params:0",
+   "responses:3"
+  ],
+  "PATCH /guilds/{guild_id}/members/@me": [
+   "body",
+   "params:0",
+   "responses:3"
+  ],
+  "PATCH /guilds/{guild_id}/members/{user_id}": [
+   "body",
+   "params:0",
+   "responses:4"
+  ],
+  "PATCH /guilds/{guild_id}/requests/{request_id}": [
+   "body",
+   "params:0",
+   "responses:3"
+  ],
+  "PATCH /guilds/{guild_id}/roles": [
+   "body",
+   "params:0",
+   "responses:3"
+  ],
+  "PATCH /guilds/{guild_id}/roles/{role_id}": [
+   "body",
+   "params:0",
+   "responses:3"
+  ],
+  "PATCH /guilds/{guild_id}/scheduled-events/{guild_scheduled_event_id}": [
+   "body",
+   "params:0",
+   "responses:3"
+  ],
+  "PATCH /guilds/{guild_id}/scheduled-events/{guild_scheduled_event_id}/exceptions/{exception_id}": [
+   "body",
+   "params:0",
+   "responses:3"
+  ],
+  "PATCH /guilds/{guild_id}/soundboard-sounds/{sound_id}": [
+   "body",
+   "params:0",
+   "responses:3"
+  ],
+  "PATCH /guilds/{guild_id}/stickers/{sticker_id}": [
+   "body",
+   "params:0",
+   "responses:3"
+  ],
+  "PATCH /guilds/{guild_id}/templates/{code}": [
+   "body",
+   "params:0",
+   "responses:3"
+  ],
+  "PATCH /guilds/{guild_id}/voice-states/@me": [
+   "body",
+   "params:0",
+   "responses:3"
+  ],
+  "PATCH /guilds/{guild_id}/voice-states/{user_id}": [
+   "body",
+   "params:0",
+   "responses:3"
+  ],
+  "PATCH /guilds/{guild_id}/welcome-screen": [
+   "body",
+   "params:0",
+   "responses:3"
+  ],
+  "PATCH /guilds/{guild_id}/widget": [
+   "body",
+   "params:0",
+   "responses:3"
+  ],
+  "PATCH /lobbies/{lobby_id}": [
+   "body",
+   "params:0",
+   "responses:3"
+  ],
+  "PATCH /lobbies/{lobby_id}/channel-linking": [
+   "body",
+   "params:0",
+   "responses:3"
+  ],
+  "PATCH /stage-instances/{channel_id}": [
+   "body",
+   "params:0",
+   "responses:3"
+  ],
+  "PATCH /users/@me": [
+   "body",
+   "params:0",
+   "responses:3"
+  ],
+  "PATCH /webhooks/{webhook_id}": [
+   "body",
+   "params:0",
+   "responses:3"
+  ],
+  "PATCH /webhooks/{webhook_id}/{webhook_token}": [
+   "body",
+   "params:0",
+   "responses:3"
+  ],
+  "PATCH /webhooks/{webhook_id}/{webhook_token}/messages/@original": [
+   "body",
+   "params:2",
+   "responses:3"
+  ],
+  "PATCH /webhooks/{webhook_id}/{webhook_token}/messages/{message_id}": [
+   "body",
+   "params:2",
+   "responses:3"
+  ],
+  "POST /applications/{application_id}/attachment": [
+   "body",
+   "params:0",
+   "responses:3"
+  ],
+  "POST /applications/{application_id}/commands": [
+   "body",
+   "params:0",
+   "responses:4"
+  ],
+  "POST /applications/{application_id}/emojis": [
+   "body",
+   "params:0",
+   "responses:3"
+  ],
+  "POST /applications/{application_id}/entitlements": [
+   "body",
+   "params:0",
+   "responses:3"
+  ],
+  "POST /applications/{application_id}/entitlements/{entitlement_id}/consume": [
+   "params:0",
+   "responses:3"
+  ],
+  "POST /applications/{application_id}/guilds/{guild_id}/commands": [
+   "body",
+   "params:0",
+   "responses:4"
+  ],
+  "POST /channels/{channel_id}/followers": [
+   "body",
+   "params:0",
+   "responses:3"
+  ],
+  "POST /channels/{channel_id}/invites": [
+   "body",
+   "params:0",
+   "responses:4"
+  ],
+  "POST /channels/{channel_id}/messages": [
+   "body",
+   "params:0",
+   "responses:3"
+  ],
+  "POST /channels/{channel_id}/messages/bulk-delete": [
+   "body",
+   "params:0",
+   "responses:3"
+  ],
+  "POST /channels/{channel_id}/messages/{message_id}/crosspost": [
+   "params:0",
+   "responses:3"
+  ],
+  "POST /channels/{channel_id}/messages/{message_id}/threads": [
+   "body",
+   "params:0",
+   "responses:3"
+  ],
+  "POST /channels/{channel_id}/polls/{message_id}/expire": [
+   "params:0",
+   "responses:3"
+  ],
+  "POST /channels/{channel_id}/send-soundboard-sound": [
+   "body",
+   "params:0",
+   "responses:3"
+  ],
+  "POST /channels/{channel_id}/threads": [
+   "body",
+   "params:0",
+   "responses:3"
+  ],
+  "POST /channels/{channel_id}/typing": [
+   "params:0",
+   "responses:4"
+  ],
+  "POST /channels/{channel_id}/webhooks": [
+   "body",
+   "params:0",
+   "responses:3"
+  ],
+  "POST /guilds/{guild_id}/auto-moderation/rules": [
+   "body",
+   "params:0",
+   "responses:3"
+  ],
+  "POST /guilds/{guild_id}/bulk-ban": [
+   "body",
+   "params:0",
+   "responses:3"
+  ],
+  "POST /guilds/{guild_id}/channels": [
+   "body",
+   "params:0",
+   "responses:3"
+  ],
+  "POST /guilds/{guild_id}/emojis": [
+   "body",
+   "params:0",
+   "responses:3"
+  ],
+  "POST /guilds/{guild_id}/prune": [
+   "body",
+   "params:0",
+   "responses:3"
+  ],
+  "POST /guilds/{guild_id}/roles": [
+   "body",
+   "params:0",
+   "responses:3"
+  ],
+  "POST /guilds/{guild_id}/scheduled-events": [
+   "body",
+   "params:0",
+   "responses:3"
+  ],
+  "POST /guilds/{guild_id}/scheduled-events/{guild_scheduled_event_id}/exceptions": [
+   "body",
+   "params:0",
+   "responses:3"
+  ],
+  "POST /guilds/{guild_id}/soundboard-sounds": [
+   "body",
+   "params:0",
+   "responses:3"
+  ],
+  "POST /guilds/{guild_id}/stickers": [
+   "body",
+   "params:0",
+   "responses:3"
+  ],
+  "POST /guilds/{guild_id}/templates": [
+   "body",
+   "params:0",
+   "responses:3"
+  ],
+  "POST /interactions/{interaction_id}/{interaction_token}/callback": [
+   "body",
+   "params:1",
+   "responses:4"
+  ],
+  "POST /lobbies": [
+   "body",
+   "params:0",
+   "responses:3"
+  ],
+  "POST /lobbies/{lobby_id}/members/@me/invites": [
+   "params:0",
+   "responses:3"
+  ],
+  "POST /lobbies/{lobby_id}/members/bulk": [
+   "body",
+   "params:0",
+   "responses:3"
+  ],
+  "POST /lobbies/{lobby_id}/members/{user_id}/invites": [
+   "params:0",
+   "responses:3"
+  ],
+  "POST /lobbies/{lobby_id}/messages": [
+   "body",
+   "params:0",
+   "responses:3"
+  ],
+  "POST /partner-sdk/provisional-accounts/unmerge": [
+   "body",
+   "params:0",
+   "responses:3"
+  ],
+  "POST /partner-sdk/provisional-accounts/unmerge/bot": [
+   "body",
+   "params:0",
+   "responses:3"
+  ],
+  "POST /partner-sdk/token": [
+   "body",
+   "params:0",
+   "responses:3"
+  ],
+  "POST /partner-sdk/token/bot": [
+   "body",
+   "params:0",
+   "responses:3"
+  ],
+  "POST /stage-instances": [
+   "body",
+   "params:0",
+   "responses:3"
+  ],
+  "POST /users/@me/channels": [
+   "body",
+   "params:0",
+   "responses:3"
+  ],
+  "POST /webhooks/{webhook_id}/{webhook_token}": [
+   "body",
+   "params:3",
+   "responses:4"
+  ],
+  "POST /webhooks/{webhook_id}/{webhook_token}/github": [
+   "body",
+   "params:2",
+   "responses:3"
+  ],
+  "POST /webhooks/{webhook_id}/{webhook_token}/slack": [
+   "body",
+   "params:2",
+   "responses:3"
+  ],
+  "PUT /applications/{application_id}/commands": [
+   "body",
+   "params:0",
+   "responses:3"
+  ],
+  "PUT /applications/{application_id}/guilds/{guild_id}/commands": [
+   "body",
+   "params:0",
+   "responses:3"
+  ],
+  "PUT /applications/{application_id}/guilds/{guild_id}/commands/{command_id}/permissions": [
+   "body",
+   "params:0",
+   "responses:3"
+  ],
+  "PUT /applications/{application_id}/role-connections/metadata": [
+   "body",
+   "params:0",
+   "responses:3"
+  ],
+  "PUT /channels/{channel_id}/messages/pins/{message_id}": [
+   "params:0",
+   "responses:3"
+  ],
+  "PUT /channels/{channel_id}/messages/{message_id}/reactions/{emoji_name}/@me": [
+   "params:0",
+   "responses:3"
+  ],
+  "PUT /channels/{channel_id}/permissions/{overwrite_id}": [
+   "body",
+   "params:0",
+   "responses:3"
+  ],
+  "PUT /channels/{channel_id}/pins/{message_id}": [
+   "params:0",
+   "responses:3"
+  ],
+  "PUT /channels/{channel_id}/recipients/{user_id}": [
+   "body",
+   "params:0",
+   "responses:4"
+  ],
+  "PUT /channels/{channel_id}/thread-members/@me": [
+   "params:0",
+   "responses:3"
+  ],
+  "PUT /channels/{channel_id}/thread-members/{user_id}": [
+   "params:0",
+   "responses:3"
+  ],
+  "PUT /channels/{channel_id}/voice-status": [
+   "body",
+   "params:0",
+   "responses:3"
+  ],
+  "PUT /guilds/{guild_id}/bans/{user_id}": [
+   "body",
+   "params:0",
+   "responses:3"
+  ],
+  "PUT /guilds/{guild_id}/incident-actions": [
+   "body",
+   "params:0",
+   "responses:3"
+  ],
+  "PUT /guilds/{guild_id}/members/{user_id}": [
+   "body",
+   "params:0",
+   "responses:4"
+  ],
+  "PUT /guilds/{guild_id}/members/{user_id}/roles/{role_id}": [
+   "params:0",
+   "responses:3"
+  ],
+  "PUT /guilds/{guild_id}/onboarding": [
+   "body",
+   "params:0",
+   "responses:3"
+  ],
+  "PUT /guilds/{guild_id}/templates/{code}": [
+   "params:0",
+   "responses:3"
+  ],
+  "PUT /invites/{code}/target-users": [
+   "body",
+   "params:0",
+   "responses:3"
+  ],
+  "PUT /lobbies": [
+   "body",
+   "params:0",
+   "responses:3"
+  ],
+  "PUT /lobbies/{lobby_id}/members/{user_id}": [
+   "body",
+   "params:0",
+   "responses:3"
+  ],
+  "PUT /lobbies/{lobby_id}/messages/{message_id}/moderation-metadata": [
+   "body",
+   "params:0",
+   "responses:3"
+  ],
+  "PUT /partner-sdk/dms/{user_id_1}/{user_id_2}/messages/{message_id}/moderation-metadata": [
+   "body",
+   "params:0",
+   "responses:3"
+  ],
+  "PUT /users/@me/applications/{application_id}/role-connection": [
+   "body",
+   "params:0",
+   "responses:3"
+  ],
+  "schema:AccountResponse": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:ActionRowComponentForMessageRequest": [
+   "props:3",
+   "req:2"
+  ],
+  "schema:ActionRowComponentForModalRequest": [
+   "props:3",
+   "req:2"
+  ],
+  "schema:ActionRowComponentResponse": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:ActionTypes": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:ActivitiesAttachmentResponse": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:ActivityActionTypes": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:ActivityInstanceCallbackResponse": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:AfkTimeouts": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:AllowedMentionTypes": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:ApplicationCommandAttachmentOption": [
+   "props:7",
+   "req:3"
+  ],
+  "schema:ApplicationCommandAttachmentOptionResponse": [
+   "props:9",
+   "req:3"
+  ],
+  "schema:ApplicationCommandAutocompleteCallbackRequest": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:ApplicationCommandBooleanOption": [
+   "props:6",
+   "req:3"
+  ],
+  "schema:ApplicationCommandBooleanOptionResponse": [
+   "props:8",
+   "req:3"
+  ],
+  "schema:ApplicationCommandChannelOption": [
+   "props:7",
+   "req:3"
+  ],
+  "schema:ApplicationCommandChannelOptionResponse": [
+   "props:9",
+   "req:3"
+  ],
+  "schema:ApplicationCommandCreateRequest": [
+   "props:11",
+   "req:1"
+  ],
+  "schema:ApplicationCommandHandler": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:ApplicationCommandIntegerOption": [
+   "props:10",
+   "req:3"
+  ],
+  "schema:ApplicationCommandIntegerOptionResponse": [
+   "props:12",
+   "req:3"
+  ],
+  "schema:ApplicationCommandInteractionMetadataResponse": [
+   "props:7",
+   "req:3"
+  ],
+  "schema:ApplicationCommandMentionableOption": [
+   "props:6",
+   "req:3"
+  ],
+  "schema:ApplicationCommandMentionableOptionResponse": [
+   "props:8",
+   "req:3"
+  ],
+  "schema:ApplicationCommandNumberOption": [
+   "props:10",
+   "req:3"
+  ],
+  "schema:ApplicationCommandNumberOptionResponse": [
+   "props:12",
+   "req:3"
+  ],
+  "schema:ApplicationCommandOptionIntegerChoice": [
+   "props:3",
+   "req:2"
+  ],
+  "schema:ApplicationCommandOptionIntegerChoiceResponse": [
+   "props:4",
+   "req:2"
+  ],
+  "schema:ApplicationCommandOptionNumberChoice": [
+   "props:3",
+   "req:2"
+  ],
+  "schema:ApplicationCommandOptionNumberChoiceResponse": [
+   "props:4",
+   "req:2"
+  ],
+  "schema:ApplicationCommandOptionStringChoice": [
+   "props:3",
+   "req:2"
+  ],
+  "schema:ApplicationCommandOptionStringChoiceResponse": [
+   "props:4",
+   "req:2"
+  ],
+  "schema:ApplicationCommandOptionType": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:ApplicationCommandPatchRequestPartial": [
+   "props:10",
+   "req:0"
+  ],
+  "schema:ApplicationCommandPermission": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:ApplicationCommandPermissionType": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:ApplicationCommandResponse": [
+   "props:18",
+   "req:7"
+  ],
+  "schema:ApplicationCommandRoleOption": [
+   "props:6",
+   "req:3"
+  ],
+  "schema:ApplicationCommandRoleOptionResponse": [
+   "props:8",
+   "req:3"
+  ],
+  "schema:ApplicationCommandStringOption": [
+   "props:10",
+   "req:3"
+  ],
+  "schema:ApplicationCommandStringOptionResponse": [
+   "props:12",
+   "req:3"
+  ],
+  "schema:ApplicationCommandSubcommandGroupOption": [
+   "props:7",
+   "req:3"
+  ],
+  "schema:ApplicationCommandSubcommandGroupOptionResponse": [
+   "props:9",
+   "req:3"
+  ],
+  "schema:ApplicationCommandSubcommandOption": [
+   "props:7",
+   "req:3"
+  ],
+  "schema:ApplicationCommandSubcommandOptionResponse": [
+   "props:9",
+   "req:3"
+  ],
+  "schema:ApplicationCommandType": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:ApplicationCommandUpdateRequest": [
+   "props:12",
+   "req:1"
+  ],
+  "schema:ApplicationCommandUserOption": [
+   "props:6",
+   "req:3"
+  ],
+  "schema:ApplicationCommandUserOptionResponse": [
+   "props:8",
+   "req:3"
+  ],
+  "schema:ApplicationEventWebhooksStatus": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:ApplicationExplicitContentFilterTypes": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:ApplicationFormPartial": [
+   "props:17",
+   "req:0"
+  ],
+  "schema:ApplicationIdentityProviderAuthType": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:ApplicationIncomingWebhookResponse": [
+   "props:8",
+   "req:6"
+  ],
+  "schema:ApplicationIntegrationType": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:ApplicationIntegrationTypeConfiguration": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:ApplicationIntegrationTypeConfigurationResponse": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:ApplicationOAuth2InstallParams": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:ApplicationOAuth2InstallParamsResponse": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:ApplicationResponse": [
+   "props:23",
+   "req:8"
+  ],
+  "schema:ApplicationRoleConnectionsMetadataItemRequest": [
+   "props:6",
+   "req:4"
+  ],
+  "schema:ApplicationRoleConnectionsMetadataItemResponse": [
+   "props:6",
+   "req:4"
+  ],
+  "schema:ApplicationTypes": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:ApplicationUserRoleConnectionResponse": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:AttachmentResponse": [
+   "props:19",
+   "req:5"
+  ],
+  "schema:AuditLogActionTypes": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:AuditLogEntryResponse": [
+   "props:7",
+   "req:4"
+  ],
+  "schema:AuditLogObjectChangeResponse": [
+   "props:3",
+   "req:1"
+  ],
+  "schema:AuthorType": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:AutomodActionType": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:AutomodEventType": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:AutomodKeywordPresetType": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:AutomodTriggerType": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:AvailableLocalesEnum": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:BanUserFromGuildRequest": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:BaseCreateMessageCreateRequest": [
+   "props:9",
+   "req:0"
+  ],
+  "schema:BasicApplicationResponseWithBot": [
+   "props:8",
+   "req:5"
+  ],
+  "schema:BasicGuildMemberResponse": [
+   "props:11",
+   "req:9"
+  ],
+  "schema:BasicMessageResponse": [
+   "props:37",
+   "req:16"
+  ],
+  "schema:BlockMessageAction": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:BlockMessageActionMetadata": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:BlockMessageActionMetadataResponse": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:BlockMessageActionResponse": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:BotAccountPatchRequest": [
+   "props:3",
+   "req:1"
+  ],
+  "schema:BotAddGuildMemberRequest": [
+   "props:6",
+   "req:1"
+  ],
+  "schema:BulkBanUsersRequest": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:BulkBanUsersResponse": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:BulkLobbyMemberRequest": [
+   "props:5",
+   "req:1"
+  ],
+  "schema:ButtonComponentForMessageRequest": [
+   "props:9",
+   "req:2"
+  ],
+  "schema:ButtonComponentResponse": [
+   "props:9",
+   "req:3"
+  ],
+  "schema:ButtonStyleTypes": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:ByNWeekday": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:ByNWeekdayResponse": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:ChannelFollowerResponse": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:ChannelFollowerWebhookResponse": [
+   "props:10",
+   "req:6"
+  ],
+  "schema:ChannelPermissionOverwriteRequest": [
+   "props:4",
+   "req:1"
+  ],
+  "schema:ChannelPermissionOverwriteResponse": [
+   "props:4",
+   "req:4"
+  ],
+  "schema:ChannelPermissionOverwrites": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:ChannelSelectComponentForMessageRequest": [
+   "props:10",
+   "req:2"
+  ],
+  "schema:ChannelSelectComponentForModalRequest": [
+   "props:10",
+   "req:2"
+  ],
+  "schema:ChannelSelectComponentResponse": [
+   "props:9",
+   "req:5"
+  ],
+  "schema:ChannelSelectDefaultValue": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:ChannelSelectDefaultValueResponse": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:ChannelTypes": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:CheckboxComponentForModalRequest": [
+   "props:4",
+   "req:2"
+  ],
+  "schema:CheckboxGroupComponentForModalRequest": [
+   "props:7",
+   "req:3"
+  ],
+  "schema:CheckboxGroupOptionForRequest": [
+   "props:4",
+   "req:2"
+  ],
+  "schema:CommandPermissionResponse": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:CommandPermissionsResponse": [
+   "props:4",
+   "req:4"
+  ],
+  "schema:ComponentEmojiForRequest": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:ComponentEmojiResponse": [
+   "props:3",
+   "req:1"
+  ],
+  "schema:ConnectedAccountGuildResponse": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:ConnectedAccountIntegrationResponse": [
+   "props:4",
+   "req:4"
+  ],
+  "schema:ConnectedAccountProviders": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:ConnectedAccountResponse": [
+   "props:10",
+   "req:8"
+  ],
+  "schema:ConnectedAccountVisibility": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:ContainerComponentForMessageRequest": [
+   "props:5",
+   "req:2"
+  ],
+  "schema:ContainerComponentResponse": [
+   "props:5",
+   "req:5"
+  ],
+  "schema:CreateEntitlementRequestData": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:CreateForumThreadRequest": [
+   "props:5",
+   "req:2"
+  ],
+  "schema:CreateGroupDMInviteRequest": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:CreateGuildChannelRequest": [
+   "props:19",
+   "req:1"
+  ],
+  "schema:CreateGuildInviteRequest": [
+   "props:8",
+   "req:0"
+  ],
+  "schema:CreateMessageInteractionCallbackRequest": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:CreateMessageInteractionCallbackResponse": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:CreateOrUpdateThreadTagRequest": [
+   "props:4",
+   "req:1"
+  ],
+  "schema:CreatePrivateChannelRequest": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:CreateRoleRequest": [
+   "props:8",
+   "req:0"
+  ],
+  "schema:CreateTextThreadWithMessageRequest": [
+   "props:3",
+   "req:1"
+  ],
+  "schema:CreateTextThreadWithoutMessageRequest": [
+   "props:5",
+   "req:1"
+  ],
+  "schema:CreatedThreadResponse": [
+   "props:21",
+   "req:10"
+  ],
+  "schema:CustomClientThemeResponse": [
+   "props:4",
+   "req:4"
+  ],
+  "schema:CustomClientThemeShareRequest": [
+   "props:4",
+   "req:3"
+  ],
+  "schema:DefaultKeywordListTriggerMetadata": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:DefaultKeywordListTriggerMetadataResponse": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:DefaultKeywordListUpsertRequest": [
+   "props:8",
+   "req:4"
+  ],
+  "schema:DefaultKeywordListUpsertRequestPartial": [
+   "props:8",
+   "req:0"
+  ],
+  "schema:DefaultKeywordRuleResponse": [
+   "props:11",
+   "req:11"
+  ],
+  "schema:DefaultReactionEmojiResponse": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:DiscordIntegrationResponse": [
+   "props:8",
+   "req:7"
+  ],
+  "schema:EmbeddedActivityInstance": [
+   "props:5",
+   "req:5"
+  ],
+  "schema:EmbeddedActivityLocationKind": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:EmojiResponse": [
+   "props:8",
+   "req:7"
+  ],
+  "schema:EntitlementOwnerTypes": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:EntitlementResponse": [
+   "props:14",
+   "req:8"
+  ],
+  "schema:EntitlementTenantFulfillmentStatusResponse": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:EntitlementTypes": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:EntityMetadataExternal": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:EntityMetadataExternalResponse": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:EntityMetadataStageInstance": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:EntityMetadataStageInstanceResponse": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:EntityMetadataVoice": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:EntityMetadataVoiceResponse": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:Error": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:ErrorDetails": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:ErrorResponse": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:ExternalConnectionIntegrationResponse": [
+   "props:14",
+   "req:6"
+  ],
+  "schema:ExternalScheduledEventCreateRequest": [
+   "props:10",
+   "req:5"
+  ],
+  "schema:ExternalScheduledEventPatchRequestPartial": [
+   "props:11",
+   "req:0"
+  ],
+  "schema:ExternalScheduledEventResponse": [
+   "props:19",
+   "req:16"
+  ],
+  "schema:FileComponentForMessageRequest": [
+   "props:4",
+   "req:2"
+  ],
+  "schema:FileComponentResponse": [
+   "props:6",
+   "req:6"
+  ],
+  "schema:FileUploadComponentForModalRequest": [
+   "props:7",
+   "req:2"
+  ],
+  "schema:FlagToChannelAction": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:FlagToChannelActionMetadata": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:FlagToChannelActionMetadataResponse": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:FlagToChannelActionResponse": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:ForumLayout": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:ForumTagResponse": [
+   "props:5",
+   "req:5"
+  ],
+  "schema:FriendInviteResponse": [
+   "props:12",
+   "req:4"
+  ],
+  "schema:GatewayBotResponse": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:GatewayBotSessionStartLimitResponse": [
+   "props:4",
+   "req:4"
+  ],
+  "schema:GatewayResponse": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:GithubAuthor": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:GithubCheckApp": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:GithubCheckPullRequest": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:GithubCheckRun": [
+   "props:7",
+   "req:3"
+  ],
+  "schema:GithubCheckRunOutput": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:GithubCheckSuite": [
+   "props:5",
+   "req:2"
+  ],
+  "schema:GithubComment": [
+   "props:5",
+   "req:4"
+  ],
+  "schema:GithubCommit": [
+   "props:4",
+   "req:4"
+  ],
+  "schema:GithubDiscussion": [
+   "props:6",
+   "req:4"
+  ],
+  "schema:GithubIssue": [
+   "props:7",
+   "req:5"
+  ],
+  "schema:GithubRelease": [
+   "props:4",
+   "req:4"
+  ],
+  "schema:GithubRepository": [
+   "props:4",
+   "req:4"
+  ],
+  "schema:GithubReview": [
+   "props:4",
+   "req:3"
+  ],
+  "schema:GithubUser": [
+   "props:4",
+   "req:4"
+  ],
+  "schema:GithubWebhook": [
+   "props:20",
+   "req:1"
+  ],
+  "schema:GroupDMInviteResponse": [
+   "props:8",
+   "req:4"
+  ],
+  "schema:GuildAuditLogResponse": [
+   "props:8",
+   "req:8"
+  ],
+  "schema:GuildBanResponse": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:GuildChannelLocation": [
+   "props:4",
+   "req:4"
+  ],
+  "schema:GuildChannelResponse": [
+   "props:25",
+   "req:6"
+  ],
+  "schema:GuildExplicitContentFilterTypes": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:GuildFeatures": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:GuildHomeSettingsResponse": [
+   "props:5",
+   "req:4"
+  ],
+  "schema:GuildIncidentActionsRequest": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:GuildIncidentsDataResponse": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:GuildIncomingWebhookResponse": [
+   "props:10",
+   "req:6"
+  ],
+  "schema:GuildInviteResponse": [
+   "props:25",
+   "req:6"
+  ],
+  "schema:GuildJoinRequestApplicationStatus": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:GuildJoinRequestResponse": [
+   "props:10",
+   "req:7"
+  ],
+  "schema:GuildJoinRequestsListResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:GuildLivelinessResponse": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:GuildMFALevel": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:GuildMemberResponse": [
+   "props:14",
+   "req:12"
+  ],
+  "schema:GuildMemberVerificationFormFieldType": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:GuildNSFWContentLevel": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:GuildOnboardingMode": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:GuildOnboardingResponse": [
+   "props:5",
+   "req:5"
+  ],
+  "schema:GuildPatchRequestPartial": [
+   "props:21",
+   "req:0"
+  ],
+  "schema:GuildPreviewResponse": [
+   "props:12",
+   "req:12"
+  ],
+  "schema:GuildProductPurchaseResponse": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:GuildPruneResponse": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:GuildResponse": [
+   "props:41",
+   "req:40"
+  ],
+  "schema:GuildRoleColorsResponse": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:GuildRoleResponse": [
+   "props:13",
+   "req:12"
+  ],
+  "schema:GuildRoleTagsResponse": [
+   "props:6",
+   "req:0"
+  ],
+  "schema:GuildScheduledEventEntityTypes": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:GuildScheduledEventExceptionCreateRequest": [
+   "props:4",
+   "req:1"
+  ],
+  "schema:GuildScheduledEventExceptionPatchRequestPartial": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:GuildScheduledEventExceptionResponse": [
+   "props:5",
+   "req:5"
+  ],
+  "schema:GuildScheduledEventPrivacyLevels": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:GuildScheduledEventStatuses": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:GuildScheduledEventUserResponses": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:GuildSearchResponse": [
+   "props:6",
+   "req:3"
+  ],
+  "schema:GuildStickerResponse": [
+   "props:9",
+   "req:8"
+  ],
+  "schema:GuildSubscriptionIntegrationResponse": [
+   "props:5",
+   "req:5"
+  ],
+  "schema:GuildTemplateChannelResponse": [
+   "props:20",
+   "req:20"
+  ],
+  "schema:GuildTemplateChannelTags": [
+   "props:5",
+   "req:5"
+  ],
+  "schema:GuildTemplateResponse": [
+   "props:11",
+   "req:11"
+  ],
+  "schema:GuildTemplateRoleColorsResponse": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:GuildTemplateRoleResponse": [
+   "props:9",
+   "req:9"
+  ],
+  "schema:GuildTemplateSnapshotResponse": [
+   "props:13",
+   "req:13"
+  ],
+  "schema:GuildWelcomeChannel": [
+   "props:4",
+   "req:2"
+  ],
+  "schema:GuildWelcomeScreenChannelResponse": [
+   "props:4",
+   "req:4"
+  ],
+  "schema:GuildWelcomeScreenResponse": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:GuildWithCountsResponse": [
+   "props:43",
+   "req:40"
+  ],
+  "schema:HasOption": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:IncomingWebhookInteractionRequest": [
+   "props:8",
+   "req:0"
+  ],
+  "schema:IncomingWebhookRequestPartial": [
+   "props:12",
+   "req:0"
+  ],
+  "schema:IncomingWebhookUpdateForInteractionCallbackRequestPartial": [
+   "props:6",
+   "req:0"
+  ],
+  "schema:IncomingWebhookUpdateRequestPartial": [
+   "props:7",
+   "req:0"
+  ],
+  "schema:InnerErrors": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:Int53Type": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:IntegrationApplicationResponse": [
+   "props:8",
+   "req:5"
+  ],
+  "schema:IntegrationExpireBehaviorTypes": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:IntegrationExpireGracePeriodTypes": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:IntegrationTypes": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:InteractionApplicationCommandAutocompleteCallbackIntegerData": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:InteractionApplicationCommandAutocompleteCallbackNumberData": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:InteractionApplicationCommandAutocompleteCallbackStringData": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:InteractionCallbackResponse": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:InteractionCallbackTypes": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:InteractionContextType": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:InteractionResponse": [
+   "props:8",
+   "req:2"
+  ],
+  "schema:InteractionTypes": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:InviteApplicationResponse": [
+   "props:23",
+   "req:8"
+  ],
+  "schema:InviteChannelRecipientResponse": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:InviteChannelResponse": [
+   "props:5",
+   "req:3"
+  ],
+  "schema:InviteGuildResponse": [
+   "props:12",
+   "req:12"
+  ],
+  "schema:InviteGuildRoleResponse": [
+   "props:8",
+   "req:7"
+  ],
+  "schema:InviteTargetTypes": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:InviteTypes": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:KeywordRuleResponse": [
+   "props:11",
+   "req:11"
+  ],
+  "schema:KeywordTriggerMetadata": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:KeywordTriggerMetadataResponse": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:KeywordUpsertRequest": [
+   "props:8",
+   "req:3"
+  ],
+  "schema:KeywordUpsertRequestPartial": [
+   "props:8",
+   "req:0"
+  ],
+  "schema:LabelComponentForModalRequest": [
+   "props:5",
+   "req:3"
+  ],
+  "schema:LaunchActivityInteractionCallbackRequest": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:LaunchActivityInteractionCallbackResponse": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:ListApplicationEmojisResponse": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:ListGuildSoundboardSoundsResponse": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:LobbyGuildInviteResponse": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:LobbyMemberRequest": [
+   "props:4",
+   "req:1"
+  ],
+  "schema:LobbyMemberResponse": [
+   "props:4",
+   "req:3"
+  ],
+  "schema:LobbyMessageResponse": [
+   "props:11",
+   "req:7"
+  ],
+  "schema:LobbyResponse": [
+   "props:7",
+   "req:5"
+  ],
+  "schema:MLSpamRuleResponse": [
+   "props:11",
+   "req:11"
+  ],
+  "schema:MLSpamTriggerMetadata": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:MLSpamTriggerMetadataResponse": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:MLSpamUpsertRequest": [
+   "props:8",
+   "req:3"
+  ],
+  "schema:MLSpamUpsertRequestPartial": [
+   "props:8",
+   "req:0"
+  ],
+  "schema:MediaGalleryComponentForMessageRequest": [
+   "props:3",
+   "req:2"
+  ],
+  "schema:MediaGalleryComponentResponse": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:MediaGalleryItemRequest": [
+   "props:3",
+   "req:1"
+  ],
+  "schema:MediaGalleryItemResponse": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:MentionSpamRuleResponse": [
+   "props:11",
+   "req:11"
+  ],
+  "schema:MentionSpamTriggerMetadata": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:MentionSpamTriggerMetadataResponse": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:MentionSpamUpsertRequest": [
+   "props:8",
+   "req:3"
+  ],
+  "schema:MentionSpamUpsertRequestPartial": [
+   "props:8",
+   "req:0"
+  ],
+  "schema:MentionableSelectComponentForMessageRequest": [
+   "props:9",
+   "req:2"
+  ],
+  "schema:MentionableSelectComponentForModalRequest": [
+   "props:9",
+   "req:2"
+  ],
+  "schema:MentionableSelectComponentResponse": [
+   "props:8",
+   "req:5"
+  ],
+  "schema:MessageActivityResponse": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:MessageAllowedMentionsRequest": [
+   "props:4",
+   "req:0"
+  ],
+  "schema:MessageAttachmentRequest": [
+   "props:8",
+   "req:1"
+  ],
+  "schema:MessageAttachmentResponse": [
+   "props:19",
+   "req:5"
+  ],
+  "schema:MessageCallResponse": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:MessageComponentInteractionMetadataResponse": [
+   "props:6",
+   "req:4"
+  ],
+  "schema:MessageComponentSeparatorSpacingSize": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:MessageComponentTypes": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:MessageCreateRequest": [
+   "props:13",
+   "req:0"
+  ],
+  "schema:MessageEditRequestPartial": [
+   "props:7",
+   "req:0"
+  ],
+  "schema:MessageEmbedAuthorResponse": [
+   "props:4",
+   "req:1"
+  ],
+  "schema:MessageEmbedFieldResponse": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:MessageEmbedFooterResponse": [
+   "props:3",
+   "req:1"
+  ],
+  "schema:MessageEmbedImageResponse": [
+   "props:9",
+   "req:0"
+  ],
+  "schema:MessageEmbedProviderResponse": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:MessageEmbedResponse": [
+   "props:15",
+   "req:1"
+  ],
+  "schema:MessageEmbedVideoResponse": [
+   "props:9",
+   "req:0"
+  ],
+  "schema:MessageInteractionResponse": [
+   "props:5",
+   "req:3"
+  ],
+  "schema:MessageLobbyMemberResponse": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:MessageMentionChannelResponse": [
+   "props:4",
+   "req:4"
+  ],
+  "schema:MessageReactionCountDetailsResponse": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:MessageReactionEmojiResponse": [
+   "props:3",
+   "req:2"
+  ],
+  "schema:MessageReactionResponse": [
+   "props:6",
+   "req:6"
+  ],
+  "schema:MessageReferenceRequest": [
+   "props:5",
+   "req:1"
+  ],
+  "schema:MessageReferenceResponse": [
+   "props:4",
+   "req:2"
+  ],
+  "schema:MessageReferenceType": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:MessageResponse": [
+   "props:39",
+   "req:16"
+  ],
+  "schema:MessageRoleSubscriptionDataResponse": [
+   "props:4",
+   "req:4"
+  ],
+  "schema:MessageShareCustomUserThemeBaseTheme": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:MessageSnapshotResponse": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:MessageStickerItemResponse": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:MessageType": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:MetadataItemTypes": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:MinimalContentMessageResponse": [
+   "props:12",
+   "req:10"
+  ],
+  "schema:ModalInteractionCallbackRequest": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:ModalInteractionCallbackRequestData": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:ModalSubmitInteractionMetadataResponse": [
+   "props:6",
+   "req:4"
+  ],
+  "schema:MultipleChoiceFormFieldResponse": [
+   "props:6",
+   "req:2"
+  ],
+  "schema:MyGuildResponse": [
+   "props:9",
+   "req:7"
+  ],
+  "schema:NameplatePalette": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:NewMemberActionResponse": [
+   "props:6",
+   "req:4"
+  ],
+  "schema:NewMemberActionType": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:OAuth2GetAuthorizationResponse": [
+   "props:4",
+   "req:3"
+  ],
+  "schema:OAuth2GetKeys": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:OAuth2GetOpenIDConnectUserInfoResponse": [
+   "props:7",
+   "req:1"
+  ],
+  "schema:OAuth2Key": [
+   "props:6",
+   "req:6"
+  ],
+  "schema:OAuth2Scopes": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:OnboardingPromptOptionRequest": [
+   "props:8",
+   "req:1"
+  ],
+  "schema:OnboardingPromptOptionResponse": [
+   "props:6",
+   "req:6"
+  ],
+  "schema:OnboardingPromptResponse": [
+   "props:7",
+   "req:7"
+  ],
+  "schema:OnboardingPromptType": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:ParagraphFormFieldResponse": [
+   "props:6",
+   "req:1"
+  ],
+  "schema:PartialDiscordIntegrationResponse": [
+   "props:5",
+   "req:5"
+  ],
+  "schema:PartialExternalConnectionIntegrationResponse": [
+   "props:4",
+   "req:4"
+  ],
+  "schema:PartialGuildSubscriptionIntegrationResponse": [
+   "props:4",
+   "req:4"
+  ],
+  "schema:PinnedMessageResponse": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:PinnedMessagesResponse": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:PollAnswerCreateRequest": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:PollAnswerDetailsResponse": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:PollAnswerResponse": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:PollCreateRequest": [
+   "props:5",
+   "req:2"
+  ],
+  "schema:PollEmoji": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:PollEmojiCreateRequest": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:PollLayoutTypes": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:PollMedia": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:PollMediaCreateRequest": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:PollMediaResponse": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:PollResponse": [
+   "props:6",
+   "req:6"
+  ],
+  "schema:PollResultsEntryResponse": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:PollResultsResponse": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:PongInteractionCallbackRequest": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:PremiumGuildTiers": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:PremiumTypes": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:PrivateApplicationResponse": [
+   "props:36",
+   "req:18"
+  ],
+  "schema:PrivateChannelLocation": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:PrivateChannelResponse": [
+   "props:6",
+   "req:4"
+  ],
+  "schema:PrivateGroupChannelResponse": [
+   "props:11",
+   "req:7"
+  ],
+  "schema:PrivateGuildMemberResponse": [
+   "props:15",
+   "req:12"
+  ],
+  "schema:ProvisionalTokenResponse": [
+   "props:8",
+   "req:5"
+  ],
+  "schema:PruneGuildRequest": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:PurchaseNotificationResponse": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:PurchaseType": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:QuarantineUserAction": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:QuarantineUserActionMetadata": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:QuarantineUserActionMetadataResponse": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:QuarantineUserActionResponse": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:RadioGroupComponentForModalRequest": [
+   "props:5",
+   "req:3"
+  ],
+  "schema:RadioGroupOptionForRequest": [
+   "props:4",
+   "req:2"
+  ],
+  "schema:RatelimitedResponse": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:ReactionTypes": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:RecurrenceRule": [
+   "props:10",
+   "req:2"
+  ],
+  "schema:RecurrenceRuleFrequencies": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:RecurrenceRuleMonths": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:RecurrenceRuleResponse": [
+   "props:10",
+   "req:7"
+  ],
+  "schema:RecurrenceRuleWeekdays": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:ResolvedObjectsResponse": [
+   "props:4",
+   "req:0"
+  ],
+  "schema:ResourceChannelResponse": [
+   "props:5",
+   "req:3"
+  ],
+  "schema:RichEmbed": [
+   "props:13",
+   "req:0"
+  ],
+  "schema:RichEmbedAuthor": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:RichEmbedField": [
+   "props:3",
+   "req:2"
+  ],
+  "schema:RichEmbedFooter": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:RichEmbedImage": [
+   "props:7",
+   "req:0"
+  ],
+  "schema:RichEmbedProvider": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:RichEmbedThumbnail": [
+   "props:7",
+   "req:0"
+  ],
+  "schema:RichEmbedVideo": [
+   "props:7",
+   "req:0"
+  ],
+  "schema:RoleColors": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:RoleSelectComponentForMessageRequest": [
+   "props:9",
+   "req:2"
+  ],
+  "schema:RoleSelectComponentForModalRequest": [
+   "props:9",
+   "req:2"
+  ],
+  "schema:RoleSelectComponentResponse": [
+   "props:8",
+   "req:5"
+  ],
+  "schema:RoleSelectDefaultValue": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:RoleSelectDefaultValueResponse": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:SDKMessageRequest": [
+   "props:13",
+   "req:0"
+  ],
+  "schema:SKUIneligibilityReason": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:ScheduledEventResponse": [
+   "props:18",
+   "req:15"
+  ],
+  "schema:ScheduledEventUserCountResponse": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:ScheduledEventUserResponse": [
+   "props:6",
+   "req:3"
+  ],
+  "schema:SearchIndexNotReadyResponse": [
+   "props:4",
+   "req:4"
+  ],
+  "schema:SearchMessageResponse": [
+   "props:41",
+   "req:17"
+  ],
+  "schema:SearchableEmbedType": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:SectionComponentForMessageRequest": [
+   "props:4",
+   "req:3"
+  ],
+  "schema:SectionComponentResponse": [
+   "props:4",
+   "req:4"
+  ],
+  "schema:SeparatorComponentForMessageRequest": [
+   "props:4",
+   "req:1"
+  ],
+  "schema:SeparatorComponentResponse": [
+   "props:4",
+   "req:4"
+  ],
+  "schema:SettingsEmojiResponse": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:SlackWebhook": [
+   "props:4",
+   "req:0"
+  ],
+  "schema:SnowflakeSelectDefaultValueTypes": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:SnowflakeType": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:SocialLayerSKUPurchaseEligibilityCallbackData": [
+   "props:3",
+   "req:1"
+  ],
+  "schema:SocialLayerSKUPurchaseEligibilityInteractionCallbackRequest": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:SortingMode": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:SortingOrder": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:SoundboardCreateRequest": [
+   "props:5",
+   "req:2"
+  ],
+  "schema:SoundboardPatchRequestPartial": [
+   "props:4",
+   "req:0"
+  ],
+  "schema:SoundboardSoundResponse": [
+   "props:8",
+   "req:6"
+  ],
+  "schema:SoundboardSoundSendRequest": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:StageInstanceResponse": [
+   "props:7",
+   "req:7"
+  ],
+  "schema:StageInstancesPrivacyLevels": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:StageScheduledEventCreateRequest": [
+   "props:10",
+   "req:4"
+  ],
+  "schema:StageScheduledEventPatchRequestPartial": [
+   "props:11",
+   "req:0"
+  ],
+  "schema:StageScheduledEventResponse": [
+   "props:19",
+   "req:16"
+  ],
+  "schema:StandardStickerResponse": [
+   "props:8",
+   "req:8"
+  ],
+  "schema:StickerFormatTypes": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:StickerPackCollectionResponse": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:StickerPackResponse": [
+   "props:7",
+   "req:5"
+  ],
+  "schema:StickerTypes": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:StringSelectComponentForMessageRequest": [
+   "props:9",
+   "req:3"
+  ],
+  "schema:StringSelectComponentForModalRequest": [
+   "props:9",
+   "req:3"
+  ],
+  "schema:StringSelectComponentResponse": [
+   "props:8",
+   "req:6"
+  ],
+  "schema:StringSelectOptionForRequest": [
+   "props:5",
+   "req:2"
+  ],
+  "schema:StringSelectOptionResponse": [
+   "props:5",
+   "req:2"
+  ],
+  "schema:SubscriptionResponse": [
+   "props:10",
+   "req:9"
+  ],
+  "schema:SubscriptionResponseStatusType": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:TargetUsersJobStatusResponse": [
+   "props:6",
+   "req:6"
+  ],
+  "schema:TargetUsersJobStatusTypes": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:TeamMemberResponse": [
+   "props:5",
+   "req:5"
+  ],
+  "schema:TeamMemberRoles": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:TeamMembershipStates": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:TeamResponse": [
+   "props:5",
+   "req:5"
+  ],
+  "schema:TermsFormFieldResponse": [
+   "props:6",
+   "req:2"
+  ],
+  "schema:TextDisplayComponentForMessageRequest": [
+   "props:3",
+   "req:2"
+  ],
+  "schema:TextDisplayComponentForModalRequest": [
+   "props:3",
+   "req:2"
+  ],
+  "schema:TextDisplayComponentResponse": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:TextInputComponentForModalRequest": [
+   "props:10",
+   "req:3"
+  ],
+  "schema:TextInputComponentResponse": [
+   "props:10",
+   "req:7"
+  ],
+  "schema:TextInputFormFieldResponse": [
+   "props:6",
+   "req:1"
+  ],
+  "schema:TextInputStyleTypes": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:ThreadAutoArchiveDuration": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:ThreadMemberResponse": [
+   "props:5",
+   "req:4"
+  ],
+  "schema:ThreadMetadataResponse": [
+   "props:6",
+   "req:4"
+  ],
+  "schema:ThreadResponse": [
+   "props:21",
+   "req:10"
+  ],
+  "schema:ThreadSearchResponse": [
+   "props:5",
+   "req:4"
+  ],
+  "schema:ThreadSearchTagSetting": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:ThreadSortOrder": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:ThreadSortingMode": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:ThreadsResponse": [
+   "props:4",
+   "req:3"
+  ],
+  "schema:ThumbnailComponentForMessageRequest": [
+   "props:5",
+   "req:2"
+  ],
+  "schema:ThumbnailComponentResponse": [
+   "props:5",
+   "req:5"
+  ],
+  "schema:TypingIndicatorResponse": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:UInt32Type": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:UnbanUserFromGuildRequest": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:UnfurledMediaRequest": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:UnfurledMediaRequestWithAttachmentReferenceRequired": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:UnfurledMediaResponse": [
+   "props:7",
+   "req:3"
+  ],
+  "schema:UpdateApplicationUserRoleConnectionRequest": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:UpdateDMRequestPartial": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:UpdateDefaultReactionEmojiRequest": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:UpdateGroupDMRequestPartial": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:UpdateGuildChannelRequestPartial": [
+   "props:20",
+   "req:0"
+  ],
+  "schema:UpdateGuildOnboardingRequest": [
+   "props:4",
+   "req:0"
+  ],
+  "schema:UpdateMessageInteractionCallbackRequest": [
+   "props:2",
+   "req:1"
+  ],
+  "schema:UpdateMessageInteractionCallbackResponse": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:UpdateOnboardingPromptRequest": [
+   "props:7",
+   "req:3"
+  ],
+  "schema:UpdateRolePositionsRequest": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:UpdateRoleRequestPartial": [
+   "props:8",
+   "req:0"
+  ],
+  "schema:UpdateSelfVoiceStateRequestPartial": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:UpdateThreadRequestPartial": [
+   "props:12",
+   "req:0"
+  ],
+  "schema:UpdateThreadTagRequest": [
+   "props:5",
+   "req:1"
+  ],
+  "schema:UpdateVoiceStateRequestPartial": [
+   "props:2",
+   "req:0"
+  ],
+  "schema:UserAvatarDecorationResponse": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:UserCollectiblesResponse": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:UserCommunicationDisabledAction": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:UserCommunicationDisabledActionMetadata": [
+   "props:1",
+   "req:0"
+  ],
+  "schema:UserCommunicationDisabledActionMetadataResponse": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:UserCommunicationDisabledActionResponse": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:UserGuildOnboardingResponse": [
+   "props:5",
+   "req:5"
+  ],
+  "schema:UserNameplateResponse": [
+   "props:4",
+   "req:4"
+  ],
+  "schema:UserNotificationSettings": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:UserPIIResponse": [
+   "props:19",
+   "req:9"
+  ],
+  "schema:UserPrimaryGuildResponse": [
+   "props:4",
+   "req:4"
+  ],
+  "schema:UserProfileMetadata": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:UserProfileMetadataResponse": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:UserProfileRuleResponse": [
+   "props:11",
+   "req:11"
+  ],
+  "schema:UserProfileUpsertRequest": [
+   "props:8",
+   "req:4"
+  ],
+  "schema:UserProfileUpsertRequestPartial": [
+   "props:8",
+   "req:0"
+  ],
+  "schema:UserResponse": [
+   "props:14",
+   "req:8"
+  ],
+  "schema:UserSelectComponentForMessageRequest": [
+   "props:9",
+   "req:2"
+  ],
+  "schema:UserSelectComponentForModalRequest": [
+   "props:9",
+   "req:2"
+  ],
+  "schema:UserSelectComponentResponse": [
+   "props:8",
+   "req:5"
+  ],
+  "schema:UserSelectDefaultValue": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:UserSelectDefaultValueResponse": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:VanityURLErrorResponse": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:VanityURLResponse": [
+   "props:3",
+   "req:2"
+  ],
+  "schema:VerificationLevels": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:VideoQualityModes": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:VoiceRegionResponse": [
+   "props:5",
+   "req:5"
+  ],
+  "schema:VoiceScheduledEventCreateRequest": [
+   "props:10",
+   "req:4"
+  ],
+  "schema:VoiceScheduledEventPatchRequestPartial": [
+   "props:11",
+   "req:0"
+  ],
+  "schema:VoiceScheduledEventResponse": [
+   "props:19",
+   "req:16"
+  ],
+  "schema:VoiceStateResponse": [
+   "props:13",
+   "req:12"
+  ],
+  "schema:WebhookSlackEmbed": [
+   "props:14",
+   "req:0"
+  ],
+  "schema:WebhookSlackEmbedField": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:WebhookSourceChannelResponse": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:WebhookSourceGuildResponse": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:WebhookTypes": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:WelcomeMessageResponse": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:WelcomeScreenPatchRequestPartial": [
+   "props:3",
+   "req:0"
+  ],
+  "schema:WidgetActivity": [
+   "props:1",
+   "req:1"
+  ],
+  "schema:WidgetChannel": [
+   "props:3",
+   "req:3"
+  ],
+  "schema:WidgetImageStyles": [
+   "props:0",
+   "req:0"
+  ],
+  "schema:WidgetMember": [
+   "props:13",
+   "req:6"
+  ],
+  "schema:WidgetResponse": [
+   "props:6",
+   "req:6"
+  ],
+  "schema:WidgetSettingsResponse": [
+   "props:2",
+   "req:2"
+  ],
+  "schema:WidgetUserDiscriminator": [
+   "props:0",
+   "req:0"
+  ]
+ },
+ "ts": "2026-08-18T23:38:25+00:00",
+ "url": "https://raw.githubusercontent.com/discord/discord-api-spec/main/specs/openapi.json",
+ "vendor": "Discord"
+}

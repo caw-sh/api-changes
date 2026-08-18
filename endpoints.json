@@ -649,5 +649,166 @@
   "category": "dev-infra",
   "kind": "json",
   "url": "https://status.heroku.com/api/v4/current-status"
+ },
+ {
+  "id": "status-juspay",
+  "vendor": "Juspay",
+  "category": "regional",
+  "url": "https://status.juspay.in/api/v2/summary.json",
+  "kind": "json"
+ },
+ {
+  "id": "status-browserstack",
+  "vendor": "BrowserStack",
+  "category": "regional",
+  "url": "https://status.browserstack.com/api/v2/summary.json",
+  "kind": "json"
+ },
+ {
+  "id": "status-postman",
+  "vendor": "Postman",
+  "category": "regional",
+  "url": "https://status.postman.com/api/v2/summary.json",
+  "kind": "json"
+ },
+ {
+  "id": "status-chargebee",
+  "vendor": "Chargebee",
+  "category": "regional",
+  "url": "https://status.chargebee.com/api/v2/summary.json",
+  "kind": "json"
+ },
+ {
+  "id": "status-datadog",
+  "vendor": "Datadog",
+  "category": "saas",
+  "url": "https://status.datadoghq.com/api/v2/summary.json",
+  "kind": "json"
+ },
+ {
+  "id": "status-segment",
+  "vendor": "Segment",
+  "category": "saas",
+  "url": "https://status.segment.com/api/v2/summary.json",
+  "kind": "json"
+ },
+ {
+  "id": "status-airtable",
+  "vendor": "Airtable",
+  "category": "saas",
+  "url": "https://status.airtable.com/api/v2/summary.json",
+  "kind": "json"
+ },
+ {
+  "id": "status-square",
+  "vendor": "Square",
+  "category": "saas",
+  "url": "https://www.issquareup.com/api/v2/summary.json",
+  "kind": "json"
+ },
+ {
+  "id": "status-plaid",
+  "vendor": "Plaid",
+  "category": "saas",
+  "url": "https://status.plaid.com/api/v2/summary.json",
+  "kind": "json"
+ },
+ {
+  "id": "status-newrelic",
+  "vendor": "New Relic",
+  "category": "saas",
+  "url": "https://status.newrelic.com/api/v2/summary.json",
+  "kind": "json"
+ },
+ {
+  "id": "status-circleci",
+  "vendor": "CircleCI",
+  "category": "saas",
+  "url": "https://status.circleci.com/api/v2/summary.json",
+  "kind": "json"
+ },
+ {
+  "id": "status-render",
+  "vendor": "Render",
+  "category": "saas",
+  "url": "https://status.render.com/api/v2/summary.json",
+  "kind": "json"
+ },
+ {
+  "id": "status-planetscale",
+  "vendor": "PlanetScale",
+  "category": "saas",
+  "url": "https://www.planetscalestatus.com/api/v2/summary.json",
+  "kind": "json"
+ },
+ {
+  "id": "status-upstash",
+  "vendor": "Upstash",
+  "category": "saas",
+  "url": "https://status.upstash.com/api/v2/summary.json",
+  "kind": "json"
+ },
+ {
+  "id": "spec-plaid",
+  "vendor": "Plaid",
+  "category": "spec",
+  "url": "https://raw.githubusercontent.com/plaid/plaid-openapi/master/2020-09-14.yml",
+  "kind": "spec"
+ },
+ {
+  "id": "spec-discord",
+  "vendor": "Discord",
+  "category": "spec",
+  "url": "https://raw.githubusercontent.com/discord/discord-api-spec/main/specs/openapi.json",
+  "kind": "spec"
+ },
+ {
+  "id": "spec-netlify",
+  "vendor": "Netlify",
+  "category": "spec",
+  "url": "https://open-api.netlify.com/swagger.json",
+  "kind": "spec"
+ },
+ {
+  "id": "spec-supabase",
+  "vendor": "Supabase",
+  "category": "spec",
+  "url": "https://api.supabase.com/api/v1-json",
+  "kind": "spec"
+ },
+ {
+  "id": "spec-adyen-checkout",
+  "vendor": "Adyen",
+  "category": "spec",
+  "url": "https://raw.githubusercontent.com/Adyen/adyen-openapi/main/json/CheckoutService-v71.json",
+  "kind": "spec"
+ },
+ {
+  "id": "status-deepgram",
+  "vendor": "Deepgram",
+  "category": "saas",
+  "url": "https://status.deepgram.com/api/v2/summary.json",
+  "kind": "json"
+ },
+ {
+  "id": "status-clerk",
+  "vendor": "Clerk",
+  "category": "saas",
+  "url": "https://status.clerk.com/api/v2/summary.json",
+  "kind": "json"
+ },
+ {
+  "id": "spec-square",
+  "vendor": "Square",
+  "category": "spec",
+  "url": "https://raw.githubusercontent.com/square/connect-api-specification/master/api.json",
+  "kind": "spec"
+ },
+ {
+  "id": "spec-sentry",
+  "vendor": "Sentry",
+  "category": "spec",
+  "url": "https://raw.githubusercontent.com/getsentry/sentry-api-schema/main/openapi-derefed.json",
+  "kind": "spec"
  }
 ]
