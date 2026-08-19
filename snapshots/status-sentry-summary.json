@@ -1,58 +1,10 @@
 {
  "category": "dev-infra",
- "field_count": 28,
+ "field_count": 75,
  "first_seen": "2026-08-18T23:20:13+00:00",
  "id": "status-sentry-summary",
- "last_changed": "2026-08-18T23:20:13+00:00",
- "pending_keys": [
-  "FIELD_ADDED:scheduled_maintenances[]",
-  "FIELD_ADDED:scheduled_maintenances[].components",
-  "FIELD_ADDED:scheduled_maintenances[].components[]",
-  "FIELD_ADDED:scheduled_maintenances[].components[].created_at",
-  "FIELD_ADDED:scheduled_maintenances[].components[].description",
-  "FIELD_ADDED:scheduled_maintenances[].components[].group",
-  "FIELD_ADDED:scheduled_maintenances[].components[].group_id",
-  "FIELD_ADDED:scheduled_maintenances[].components[].id",
-  "FIELD_ADDED:scheduled_maintenances[].components[].name",
-  "FIELD_ADDED:scheduled_maintenances[].components[].only_show_if_degraded",
-  "FIELD_ADDED:scheduled_maintenances[].components[].page_id",
-  "FIELD_ADDED:scheduled_maintenances[].components[].position",
-  "FIELD_ADDED:scheduled_maintenances[].components[].showcase",
-  "FIELD_ADDED:scheduled_maintenances[].components[].start_date",
-  "FIELD_ADDED:scheduled_maintenances[].components[].status",
-  "FIELD_ADDED:scheduled_maintenances[].components[].updated_at",
-  "FIELD_ADDED:scheduled_maintenances[].created_at",
-  "FIELD_ADDED:scheduled_maintenances[].id",
-  "FIELD_ADDED:scheduled_maintenances[].impact",
-  "FIELD_ADDED:scheduled_maintenances[].incident_updates",
-  "FIELD_ADDED:scheduled_maintenances[].incident_updates[]",
-  "FIELD_ADDED:scheduled_maintenances[].incident_updates[].affected_components",
-  "FIELD_ADDED:scheduled_maintenances[].incident_updates[].affected_components[]",
-  "FIELD_ADDED:scheduled_maintenances[].incident_updates[].affected_components[].code",
-  "FIELD_ADDED:scheduled_maintenances[].incident_updates[].affected_components[].name",
-  "FIELD_ADDED:scheduled_maintenances[].incident_updates[].affected_components[].new_status",
-  "FIELD_ADDED:scheduled_maintenances[].incident_updates[].affected_components[].old_status",
-  "FIELD_ADDED:scheduled_maintenances[].incident_updates[].body",
-  "FIELD_ADDED:scheduled_maintenances[].incident_updates[].created_at",
-  "FIELD_ADDED:scheduled_maintenances[].incident_updates[].custom_tweet",
-  "FIELD_ADDED:scheduled_maintenances[].incident_updates[].deliver_notifications",
-  "FIELD_ADDED:scheduled_maintenances[].incident_updates[].display_at",
-  "FIELD_ADDED:scheduled_maintenances[].incident_updates[].id",
-  "FIELD_ADDED:scheduled_maintenances[].incident_updates[].incident_id",
-  "FIELD_ADDED:scheduled_maintenances[].incident_updates[].status",
-  "FIELD_ADDED:scheduled_maintenances[].incident_updates[].tweet_id",
-  "FIELD_ADDED:scheduled_maintenances[].incident_updates[].updated_at",
-  "FIELD_ADDED:scheduled_maintenances[].monitoring_at",
-  "FIELD_ADDED:scheduled_maintenances[].name",
-  "FIELD_ADDED:scheduled_maintenances[].page_id",
-  "FIELD_ADDED:scheduled_maintenances[].resolved_at",
-  "FIELD_ADDED:scheduled_maintenances[].scheduled_for",
-  "FIELD_ADDED:scheduled_maintenances[].scheduled_until",
-  "FIELD_ADDED:scheduled_maintenances[].shortlink",
-  "FIELD_ADDED:scheduled_maintenances[].started_at",
-  "FIELD_ADDED:scheduled_maintenances[].status",
-  "FIELD_ADDED:scheduled_maintenances[].updated_at"
- ],
+ "last_changed": "2026-08-19T17:04:26+00:00",
+ "pending_keys": [],
  "schema": {
   "components": [
    "array"
@@ -130,6 +82,148 @@
   ],
   "scheduled_maintenances": [
    "array"
+  ],
+  "scheduled_maintenances[]": [
+   "object"
+  ],
+  "scheduled_maintenances[].components": [
+   "array"
+  ],
+  "scheduled_maintenances[].components[]": [
+   "object"
+  ],
+  "scheduled_maintenances[].components[].created_at": [
+   "string"
+  ],
+  "scheduled_maintenances[].components[].description": [
+   "null"
+  ],
+  "scheduled_maintenances[].components[].group": [
+   "boolean"
+  ],
+  "scheduled_maintenances[].components[].group_id": [
+   "null",
+   "string"
+  ],
+  "scheduled_maintenances[].components[].id": [
+   "string"
+  ],
+  "scheduled_maintenances[].components[].name": [
+   "string"
+  ],
+  "scheduled_maintenances[].components[].only_show_if_degraded": [
+   "boolean"
+  ],
+  "scheduled_maintenances[].components[].page_id": [
+   "string"
+  ],
+  "scheduled_maintenances[].components[].position": [
+   "integer"
+  ],
+  "scheduled_maintenances[].components[].showcase": [
+   "boolean"
+  ],
+  "scheduled_maintenances[].components[].start_date": [
+   "null"
+  ],
+  "scheduled_maintenances[].components[].status": [
+   "string"
+  ],
+  "scheduled_maintenances[].components[].updated_at": [
+   "string"
+  ],
+  "scheduled_maintenances[].created_at": [
+   "string"
+  ],
+  "scheduled_maintenances[].id": [
+   "string"
+  ],
+  "scheduled_maintenances[].impact": [
+   "string"
+  ],
+  "scheduled_maintenances[].incident_updates": [
+   "array"
+  ],
+  "scheduled_maintenances[].incident_updates[]": [
+   "object"
+  ],
+  "scheduled_maintenances[].incident_updates[].affected_components": [
+   "array"
+  ],
+  "scheduled_maintenances[].incident_updates[].affected_components[]": [
+   "object"
+  ],
+  "scheduled_maintenances[].incident_updates[].affected_components[].code": [
+   "string"
+  ],
+  "scheduled_maintenances[].incident_updates[].affected_components[].name": [
+   "string"
+  ],
+  "scheduled_maintenances[].incident_updates[].affected_components[].new_status": [
+   "string"
+  ],
+  "scheduled_maintenances[].incident_updates[].affected_components[].old_status": [
+   "string"
+  ],
+  "scheduled_maintenances[].incident_updates[].body": [
+   "string"
+  ],
+  "scheduled_maintenances[].incident_updates[].created_at": [
+   "string"
+  ],
+  "scheduled_maintenances[].incident_updates[].custom_tweet": [
+   "null"
+  ],
+  "scheduled_maintenances[].incident_updates[].deliver_notifications": [
+   "boolean"
+  ],
+  "scheduled_maintenances[].incident_updates[].display_at": [
+   "string"
+  ],
+  "scheduled_maintenances[].incident_updates[].id": [
+   "string"
+  ],
+  "scheduled_maintenances[].incident_updates[].incident_id": [
+   "string"
+  ],
+  "scheduled_maintenances[].incident_updates[].status": [
+   "string"
+  ],
+  "scheduled_maintenances[].incident_updates[].tweet_id": [
+   "null"
+  ],
+  "scheduled_maintenances[].incident_updates[].updated_at": [
+   "string"
+  ],
+  "scheduled_maintenances[].monitoring_at": [
+   "null"
+  ],
+  "scheduled_maintenances[].name": [
+   "string"
+  ],
+  "scheduled_maintenances[].page_id": [
+   "string"
+  ],
+  "scheduled_maintenances[].resolved_at": [
+   "null"
+  ],
+  "scheduled_maintenances[].scheduled_for": [
+   "string"
+  ],
+  "scheduled_maintenances[].scheduled_until": [
+   "string"
+  ],
+  "scheduled_maintenances[].shortlink": [
+   "string"
+  ],
+  "scheduled_maintenances[].started_at": [
+   "string"
+  ],
+  "scheduled_maintenances[].status": [
+   "string"
+  ],
+  "scheduled_maintenances[].updated_at": [
+   "string"
   ],
   "status": [
    "object"

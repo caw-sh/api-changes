@@ -9,8 +9,8 @@
   "TYPE_WIDENED:features[].geometry.coordinates[]",
   "TYPE_WIDENED:features[].properties.alert",
   "TYPE_WIDENED:features[].properties.cdi",
+  "TYPE_WIDENED:features[].properties.dmin",
   "TYPE_WIDENED:features[].properties.felt",
-  "TYPE_WIDENED:features[].properties.mag",
   "TYPE_WIDENED:features[].properties.mmi"
  ],
  "schema": {
