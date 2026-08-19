@@ -4,7 +4,15 @@
  "first_seen": "2026-08-18T23:20:13+00:00",
  "id": "kraken-assets",
  "last_changed": "2026-08-18T23:20:13+00:00",
- "pending_keys": [],
+ "pending_keys": [
+  "FIELD_ADDED:result.ALIGN",
+  "FIELD_ADDED:result.ALIGN.aclass",
+  "FIELD_ADDED:result.ALIGN.altname",
+  "FIELD_ADDED:result.ALIGN.decimals",
+  "FIELD_ADDED:result.ALIGN.display_decimals",
+  "FIELD_ADDED:result.ALIGN.margin_rate",
+  "FIELD_ADDED:result.ALIGN.status"
+ ],
  "schema": {
   "error": [
    "array"
