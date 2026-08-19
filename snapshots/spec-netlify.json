@@ -3,8 +3,8 @@
  "field_count": 283,
  "first_seen": "2026-08-18T23:38:25+00:00",
  "id": "spec-netlify",
+ "last_changed": "2026-08-18T23:38:25+00:00",
  "pending_keys": [],
- "runs": 2,
  "schema": {
   "DELETE /accounts/{account_id}": [
    "params:0",
@@ -1139,7 +1139,6 @@
    "req:0"
   ]
  },
- "ts": "2026-08-18T23:43:32+00:00",
  "url": "https://open-api.netlify.com/swagger.json",
  "vendor": "Netlify"
 }

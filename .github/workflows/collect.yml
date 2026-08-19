@@ -3,6 +3,7 @@ name: collect
 on:
   schedule:
     - cron: "17 * * * *"      # hourly, off the hour to be polite
+    - cron: "47 * * * *"      # GitHub silently drops scheduled runs; a second slot halves the gaps
   workflow_dispatch:           # lets you run it manually from the Actions tab
 
 concurrency:

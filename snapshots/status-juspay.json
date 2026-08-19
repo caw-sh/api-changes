@@ -3,8 +3,8 @@
  "field_count": 4,
  "first_seen": "2026-08-18T23:38:25+00:00",
  "id": "status-juspay",
+ "last_changed": "2026-08-18T23:38:25+00:00",
  "pending_keys": [],
- "runs": 2,
  "schema": {
   "page": [
    "object"
@@ -19,7 +19,6 @@
    "string"
   ]
  },
- "ts": "2026-08-18T23:43:32+00:00",
  "url": "https://status.juspay.in/api/v2/summary.json",
  "vendor": "Juspay"
 }

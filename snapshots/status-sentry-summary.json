@@ -3,8 +3,8 @@
  "field_count": 28,
  "first_seen": "2026-08-18T23:20:13+00:00",
  "id": "status-sentry-summary",
+ "last_changed": "2026-08-18T23:20:13+00:00",
  "pending_keys": [],
- "runs": 5,
  "schema": {
   "components": [
    "array"
@@ -93,7 +93,6 @@
    "string"
   ]
  },
- "ts": "2026-08-18T23:43:32+00:00",
  "url": "https://status.sentry.io/api/v2/summary.json",
  "vendor": "Sentry"
 }

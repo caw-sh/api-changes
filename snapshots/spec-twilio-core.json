@@ -3,8 +3,8 @@
  "field_count": 347,
  "first_seen": "2026-08-18T23:20:13+00:00",
  "id": "spec-twilio-core",
+ "last_changed": "2026-08-18T23:20:13+00:00",
  "pending_keys": [],
- "runs": 5,
  "schema": {
   "DELETE /2010-04-01/Accounts/{AccountSid}/Addresses/{Sid}.json": [
    "params:2",
@@ -1457,7 +1457,6 @@
    "req:0"
   ]
  },
- "ts": "2026-08-18T23:43:32+00:00",
  "url": "https://raw.githubusercontent.com/twilio/twilio-oai/main/spec/json/twilio_api_v2010.json",
  "vendor": "Twilio"
 }

@@ -274,7 +274,7 @@ def main() -> int:
 
     ts = now()
     observations, change_rows, header_rows = [], [], []
-    stats = {"ok": 0, "failed": 0, "changed": 0, "new": 0, "headers": 0, "pending": 0}
+    stats = {"ok": 0, "failed": 0, "changed": 0, "new": 0, "headers": 0, "pending": 0, "written": 0}
 
     for ep in endpoints:
         eid = ep["id"]
@@ -346,7 +346,7 @@ def main() -> int:
                     "vendor": ep.get("vendor", eid),
                     "url": ep["url"],
                     "first_seen": prev.get("first_seen"),
-                    "prev_ts": prev.get("ts"),
+                    "prev_ts": prev.get("last_changed") or prev.get("first_seen"),
                     "counts": {
                         "total": len(diffs),
                         "breaking": breaking,
@@ -357,29 +357,36 @@ def main() -> int:
                 mark = "BREAKING" if breaking else "changed "
                 print(f"  {mark} {eid}: {len(diffs)} change(s), {breaking} breaking")
             first_seen = prev.get("first_seen", ts)
-            runs = prev.get("runs", 1) + 1
+            last_changed = ts if diffs else prev.get("last_changed", first_seen)
         else:
             stats["new"] += 1
-            first_seen = ts
-            runs = 1
+            prev = {}
+            first_seen = last_changed = ts
             print(f"  new      {eid}: {len(schema)} fields")
 
-        snap_path.write_text(json.dumps({
+        snapshot = {
             "id": eid,
             "vendor": ep.get("vendor", eid),
             "category": ep.get("category"),
             "url": ep["url"],
-            "ts": ts,
             "first_seen": first_seen,
-            "runs": runs,
+            "last_changed": last_changed,
             "field_count": len(confirmed),
             "pending_keys": pending,
             "schema": confirmed,
-        }, indent=1, sort_keys=True))
+        }
+        # Only touch the file when something genuinely differs. Rewriting an
+        # identical snapshot every hour would bloat the repo and — worse — make
+        # `git log` on a snapshot useless for seeing when an API really changed.
+        blob = json.dumps(snapshot, indent=1, sort_keys=True)
+        if not snap_path.exists() or snap_path.read_text() != blob:
+            snap_path.write_text(blob)
+            stats["written"] += 1
 
         observations.append(obs)
 
-    append_jsonl(DATADIR / "observations.jsonl", observations)
+    day = ts[:10]
+    append_jsonl(DATADIR / "observations" / f"{day}.jsonl", observations)
     append_jsonl(DATADIR / "changes.jsonl", change_rows)
     append_jsonl(DATADIR / "signals.jsonl", header_rows)
 
@@ -389,7 +396,7 @@ def main() -> int:
     print(f"\n{ts}  {len(endpoints)} endpoints  "
           f"ok={stats['ok']} failed={stats['failed']} new={stats['new']} "
           f"changed={stats['changed']} pending={stats['pending']} "
-          f"signal-headers={stats['headers']}")
+          f"signal-headers={stats['headers']} files-written={stats['written']}")
     return 0
 
 

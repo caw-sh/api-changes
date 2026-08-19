@@ -3,8 +3,8 @@
  "field_count": 48,
  "first_seen": "2026-08-18T23:20:13+00:00",
  "id": "pub-http",
+ "last_changed": "2026-08-18T23:20:13+00:00",
  "pending_keys": [],
- "runs": 5,
  "schema": {
   "advisoriesUpdated": [
    "string"
@@ -151,7 +151,6 @@
    "string"
   ]
  },
- "ts": "2026-08-18T23:43:32+00:00",
  "url": "https://pub.dev/api/packages/http",
  "vendor": "pub.dev"
 }

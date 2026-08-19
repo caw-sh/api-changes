@@ -3,8 +3,8 @@
  "field_count": 63,
  "first_seen": "2026-08-18T23:20:13+00:00",
  "id": "npm-react",
+ "last_changed": "2026-08-18T23:20:13+00:00",
  "pending_keys": [],
- "runs": 5,
  "schema": {
   "_hasShrinkwrap": [
    "boolean"
@@ -196,7 +196,6 @@
    "string"
   ]
  },
- "ts": "2026-08-18T23:43:32+00:00",
  "url": "https://registry.npmjs.org/react/latest",
  "vendor": "npm"
 }

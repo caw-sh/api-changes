@@ -3,8 +3,8 @@
  "field_count": 246,
  "first_seen": "2026-08-18T23:20:13+00:00",
  "id": "pokeapi-pokemon",
+ "last_changed": "2026-08-18T23:20:13+00:00",
  "pending_keys": [],
- "runs": 5,
  "schema": {
   "abilities": [
    "array"
@@ -745,7 +745,6 @@
    "integer"
   ]
  },
- "ts": "2026-08-18T23:43:32+00:00",
  "url": "https://pokeapi.co/api/v2/pokemon/ditto",
  "vendor": "PokeAPI"
 }

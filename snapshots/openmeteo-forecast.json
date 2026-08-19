@@ -3,8 +3,8 @@
  "field_count": 23,
  "first_seen": "2026-08-18T23:20:13+00:00",
  "id": "openmeteo-forecast",
+ "last_changed": "2026-08-18T23:20:13+00:00",
  "pending_keys": [],
- "runs": 5,
  "schema": {
   "current_weather": [
    "object"
@@ -76,7 +76,6 @@
    "integer"
   ]
  },
- "ts": "2026-08-18T23:43:32+00:00",
  "url": "https://api.open-meteo.com/v1/forecast?latitude=52.52&longitude=13.41&current_weather=true",
  "vendor": "Open-Meteo"
 }

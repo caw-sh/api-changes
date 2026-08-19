@@ -9,13 +9,16 @@ DATA = ROOT / "data"
 
 
 def load(name):
+    """Load a jsonl file, or every jsonl in a directory of daily partitions."""
     f = DATA / name
-    if not f.exists():
-        return []
-    return [json.loads(l) for l in f.read_text().splitlines() if l.strip()]
+    files = sorted(f.glob("*.jsonl")) if f.is_dir() else ([f] if f.exists() else [])
+    rows = []
+    for p in files:
+        rows += [json.loads(l) for l in p.read_text().splitlines() if l.strip()]
+    return rows
 
 
-changes, signals, obs = load("changes.jsonl"), load("signals.jsonl"), load("observations.jsonl")
+changes, signals, obs = load("changes.jsonl"), load("signals.jsonl"), load("observations")
 runs = len({o["ts"] for o in obs})
 tracked = len({o["id"] for o in obs})
 

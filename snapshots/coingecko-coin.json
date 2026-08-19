@@ -3,8 +3,15 @@
  "field_count": 572,
  "first_seen": "2026-08-18T23:20:13+00:00",
  "id": "coingecko-coin",
- "pending_keys": [],
- "runs": 5,
+ "last_changed": "2026-08-18T23:20:13+00:00",
+ "pending_keys": [
+  "TYPE_CHANGED:market_data.market_cap_change_24h_in_currency.eth",
+  "TYPE_CHANGED:market_data.market_cap_change_24h_in_currency.link",
+  "TYPE_CHANGED:market_data.market_cap_change_24h_in_currency.yfi",
+  "TYPE_CHANGED:market_data.price_change_24h_in_currency.dot",
+  "TYPE_CHANGED:market_data.price_change_24h_in_currency.rub",
+  "TYPE_CHANGED:market_data.price_change_24h_in_currency.sats"
+ ],
  "schema": {
   "additional_notices": [
    "array"
@@ -1723,7 +1730,6 @@
    "string"
   ]
  },
- "ts": "2026-08-18T23:43:32+00:00",
  "url": "https://api.coingecko.com/api/v3/coins/bitcoin?localization=false&tickers=false&community_data=false",
  "vendor": "CoinGecko"
 }

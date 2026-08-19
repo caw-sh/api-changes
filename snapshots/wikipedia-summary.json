@@ -3,8 +3,8 @@
  "field_count": 32,
  "first_seen": "2026-08-18T23:20:13+00:00",
  "id": "wikipedia-summary",
+ "last_changed": "2026-08-18T23:20:13+00:00",
  "pending_keys": [],
- "runs": 5,
  "schema": {
   "content_urls": [
    "object"
@@ -103,7 +103,6 @@
    "string"
   ]
  },
- "ts": "2026-08-18T23:43:32+00:00",
  "url": "https://en.wikipedia.org/api/rest_v1/page/summary/Application_programming_interface",
  "vendor": "Wikipedia"
 }

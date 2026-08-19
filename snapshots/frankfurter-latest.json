@@ -3,8 +3,8 @@
  "field_count": 5,
  "first_seen": "2026-08-18T23:20:13+00:00",
  "id": "frankfurter-latest",
+ "last_changed": "2026-08-18T23:20:13+00:00",
  "pending_keys": [],
- "runs": 5,
  "schema": {
   "amount": [
    "number"
@@ -22,7 +22,6 @@
    "number"
   ]
  },
- "ts": "2026-08-18T23:43:32+00:00",
  "url": "https://api.frankfurter.app/latest",
  "vendor": "Frankfurter"
 }

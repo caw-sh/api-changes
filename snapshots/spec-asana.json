@@ -3,8 +3,8 @@
  "field_count": 529,
  "first_seen": "2026-08-18T23:20:13+00:00",
  "id": "spec-asana",
+ "last_changed": "2026-08-18T23:20:13+00:00",
  "pending_keys": [],
- "runs": 5,
  "schema": {
   "DELETE /allocations/{allocation_gid}": [
    "params:0",
@@ -2228,7 +2228,6 @@
    "req:0"
   ]
  },
- "ts": "2026-08-18T23:43:32+00:00",
  "url": "https://raw.githubusercontent.com/Asana/openapi/master/defs/asana_oas.yaml",
  "vendor": "Asana"
 }

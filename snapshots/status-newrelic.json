@@ -3,8 +3,8 @@
  "field_count": 28,
  "first_seen": "2026-08-18T23:38:25+00:00",
  "id": "status-newrelic",
+ "last_changed": "2026-08-18T23:38:25+00:00",
  "pending_keys": [],
- "runs": 2,
  "schema": {
   "components": [
    "array"
@@ -93,7 +93,6 @@
    "string"
   ]
  },
- "ts": "2026-08-18T23:43:32+00:00",
  "url": "https://status.newrelic.com/api/v2/summary.json",
  "vendor": "New Relic"
 }
