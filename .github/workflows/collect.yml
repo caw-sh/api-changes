@@ -26,6 +26,9 @@ jobs:
 
       - run: pip install pyyaml
 
+      - name: Test the differ
+        run: python scripts/test_collect.py
+
       - name: Collect
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

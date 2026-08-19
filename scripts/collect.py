@@ -116,6 +116,54 @@ def schema_of(doc) -> dict:
     return {p: sorted(ts) for p, ts in sorted(raw.items()) if p}
 
 
+def _parent(path: str) -> str:
+    """The container that holds `path`.  a.b[] -> a.b   a.b -> a   a.{*} -> a"""
+    if path.endswith("[]"):
+        return path[:-2]
+    if "." in path:
+        return path.rsplit(".", 1)[0]
+    return ""
+
+
+def unobserved(schema: dict) -> set:
+    """Containers that were present this run but empty (`[]` or `{}`), so their
+    children could not be seen.
+
+    This is the difference between "the vendor removed these fields" and "there
+    was nothing in the list today".  A status page with no open incidents still
+    returns `incidents: []` — every field we previously inferred from an incident
+    object is unobserved, not deleted."""
+    parents = {_parent(p) for p in schema}
+    return {p for p, ts in schema.items()
+            if p not in parents and ({"array", "object"} & set(ts))}
+
+
+def shadowed(path: str, blind: set) -> bool:
+    """True when `path` sits under a container that was empty this run."""
+    while path:
+        path = _parent(path)
+        if path in blind:
+            return True
+    return False
+
+
+def merge_baseline(old: dict, new: dict, carried: dict, kind: str | None) -> dict:
+    """The baseline to carry forward: what we saw, plus what we could not see.
+
+    Without `carried`, an emptied list would drop its children from the baseline
+    and then re-report all of them as FIELD_ADDED the moment the list refills."""
+    merged = dict(new)
+    merged.update(carried)
+    if kind != "spec":
+        # Sampled responses expose a different slice each run. Remember every
+        # type a field has ever held so the baseline stops oscillating.
+        for p in set(old) & set(new):
+            union = sorted(set(old[p]) | set(new[p]))
+            if union != new[p]:
+                merged[p] = union
+    return merged
+
+
 HTTP_METHODS = ("get", "put", "post", "delete", "patch", "head", "options", "trace")
 
 
@@ -231,23 +279,38 @@ def watched_headers(headers: dict) -> dict:
 # diffing
 # --------------------------------------------------------------------------
 
-def classify(old: dict, new: dict) -> list:
-    changes = []
+def classify(old: dict, new: dict, sampled: bool = True) -> tuple:
+    """Returns (changes, carried). `carried` holds old paths we deliberately did
+    not report as removed because this run had no data to observe them in.
+
+    `sampled` is True for live payloads, where each run sees a different slice of
+    the data, and False for OpenAPI specs, where the document is the contract and
+    anything that disappears really is gone."""
+    blind = unobserved(new)
+    changes, carried = [], {}
     for path in sorted(set(new) - set(old)):
         changes.append({"kind": "FIELD_ADDED", "path": path, "to": new[path], "severity": "info"})
     for path in sorted(set(old) - set(new)):
+        if shadowed(path, blind):
+            carried[path] = old[path]
+            continue
         changes.append({"kind": "FIELD_REMOVED", "path": path, "from": old[path], "severity": "breaking"})
     for path in sorted(set(old) & set(new)):
         a, b = old[path], new[path]
         if a == b:
             continue
-        # null appearing/disappearing is a nullability change, not a type change
-        if set(a) - {"null"} == set(b) - {"null"}:
+        if sampled and set(b) < set(a):
+            # we simply did not draw that variant this run; baseline keeps both
+            continue
+        if set(a) < set(b):
+            # a variant we had not sampled before; the old contract still holds
+            kind, sev = "TYPE_WIDENED", "info"
+        elif set(a) - {"null"} == set(b) - {"null"}:
             kind, sev = "NULLABILITY", "warning"
         else:
             kind, sev = "TYPE_CHANGED", "breaking"
         changes.append({"kind": kind, "path": path, "from": a, "to": b, "severity": sev})
-    return changes
+    return changes, carried
 
 
 # --------------------------------------------------------------------------
@@ -323,7 +386,8 @@ def main() -> int:
         if snap_path.exists():
             prev = json.loads(snap_path.read_text())
             baseline = prev.get("schema", {})
-            diffs = classify(baseline, schema)
+            diffs, carried = classify(baseline, schema, ep.get("kind") != "spec")
+            confirmed = merge_baseline(baseline, schema, carried, ep.get("kind"))
             keys = sorted(f"{d['kind']}:{d['path']}" for d in diffs)
 
             # A difference is only real once we have seen the SAME difference on two
