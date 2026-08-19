@@ -4,7 +4,9 @@
  "first_seen": "2026-08-18T23:20:13+00:00",
  "id": "status-twilio-summary",
  "last_changed": "2026-08-19T11:03:21+00:00",
- "pending_keys": [],
+ "pending_keys": [
+  "TYPE_WIDENED:incidents[].components[].description"
+ ],
  "schema": {
   "components": [
    "array"

@@ -5,13 +5,7 @@
  "id": "usgs-quakes",
  "last_changed": "2026-08-18T23:20:13+00:00",
  "pending_keys": [
-  "TYPE_WIDENED:bbox[]",
-  "TYPE_WIDENED:features[].geometry.coordinates[]",
-  "TYPE_WIDENED:features[].properties.alert",
-  "TYPE_WIDENED:features[].properties.cdi",
-  "TYPE_WIDENED:features[].properties.dmin",
-  "TYPE_WIDENED:features[].properties.felt",
-  "TYPE_WIDENED:features[].properties.mmi"
+  "TYPE_WIDENED:features[].properties.dmin"
  ],
  "schema": {
   "bbox": [
