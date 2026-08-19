@@ -3,11 +3,8 @@
  "field_count": 74,
  "first_seen": "2026-08-18T23:20:13+00:00",
  "id": "status-supabase-summary",
- "last_changed": "2026-08-18T23:20:13+00:00",
- "pending_keys": [
-  "TYPE_WIDENED:incidents[].incident_updates[].affected_components",
-  "TYPE_WIDENED:incidents[].monitoring_at"
- ],
+ "last_changed": "2026-08-19T13:31:40+00:00",
+ "pending_keys": [],
  "schema": {
   "components": [
    "array"
@@ -130,7 +127,8 @@
    "object"
   ],
   "incidents[].incident_updates[].affected_components": [
-   "array"
+   "array",
+   "null"
   ],
   "incidents[].incident_updates[].affected_components[]": [
    "object"
@@ -178,7 +176,8 @@
    "string"
   ],
   "incidents[].monitoring_at": [
-   "null"
+   "null",
+   "string"
   ],
   "incidents[].name": [
    "string"

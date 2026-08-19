@@ -5,6 +5,7 @@
  "id": "coingecko-coin",
  "last_changed": "2026-08-18T23:20:13+00:00",
  "pending_keys": [
+  "TYPE_CHANGED:market_data.current_price.kwd",
   "TYPE_CHANGED:market_data.market_cap_change_24h_in_currency.bdt",
   "TYPE_CHANGED:market_data.market_cap_change_24h_in_currency.dot",
   "TYPE_CHANGED:market_data.market_cap_change_24h_in_currency.eos",
@@ -19,7 +20,6 @@
   "TYPE_CHANGED:market_data.price_change_24h_in_currency.dot",
   "TYPE_CHANGED:market_data.price_change_24h_in_currency.eos",
   "TYPE_CHANGED:market_data.price_change_24h_in_currency.krw",
-  "TYPE_CHANGED:market_data.price_change_24h_in_currency.sats",
   "TYPE_CHANGED:market_data.price_change_24h_in_currency.try",
   "TYPE_CHANGED:market_data.price_change_24h_in_currency.twd",
   "TYPE_CHANGED:market_data.price_change_24h_in_currency.uah",
