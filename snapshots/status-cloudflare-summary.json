@@ -3,11 +3,8 @@
  "field_count": 121,
  "first_seen": "2026-08-18T23:20:13+00:00",
  "id": "status-cloudflare-summary",
- "last_changed": "2026-08-19T17:04:26+00:00",
- "pending_keys": [
-  "TYPE_CHANGED:incidents[].components[].description",
-  "TYPE_CHANGED:incidents[].monitoring_at"
- ],
+ "last_changed": "2026-08-19T22:01:44+00:00",
+ "pending_keys": [],
  "schema": {
   "components": [
    "array"
@@ -79,6 +76,7 @@
    "string"
   ],
   "incidents[].components[].description": [
+   "null",
    "string"
   ],
   "incidents[].components[].group": [
@@ -178,6 +176,7 @@
    "string"
   ],
   "incidents[].monitoring_at": [
+   "null",
    "string"
   ],
   "incidents[].name": [
