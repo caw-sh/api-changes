@@ -4,7 +4,7 @@
  "first_seen": "2026-08-18T23:20:13+00:00",
  "id": "spec-asana",
  "pending_keys": [],
- "runs": 5,
+ "runs": 6,
  "schema": {
   "DELETE /allocations/{allocation_gid}": [
    "params:0",
@@ -2228,7 +2228,7 @@
    "req:0"
   ]
  },
- "ts": "2026-08-18T23:43:32+00:00",
+ "ts": "2026-08-19T01:56:07+00:00",
  "url": "https://raw.githubusercontent.com/Asana/openapi/master/defs/asana_oas.yaml",
  "vendor": "Asana"
 }

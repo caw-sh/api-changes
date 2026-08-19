@@ -1,18 +1,10 @@
 {
  "category": "dev-infra",
- "field_count": 130,
+ "field_count": 136,
  "first_seen": "2026-08-18T23:20:13+00:00",
  "id": "github-repo",
- "pending_keys": [
-  "FIELD_ADDED:permissions",
-  "FIELD_ADDED:permissions.admin",
-  "FIELD_ADDED:permissions.maintain",
-  "FIELD_ADDED:permissions.pull",
-  "FIELD_ADDED:permissions.push",
-  "FIELD_ADDED:permissions.triage",
-  "TYPE_CHANGED:temp_clone_token"
- ],
- "runs": 5,
+ "pending_keys": [],
+ "runs": 6,
  "schema": {
   "allow_forking": [
    "boolean"
@@ -326,6 +318,24 @@
   "owner.user_view_type": [
    "string"
   ],
+  "permissions": [
+   "object"
+  ],
+  "permissions.admin": [
+   "boolean"
+  ],
+  "permissions.maintain": [
+   "boolean"
+  ],
+  "permissions.pull": [
+   "boolean"
+  ],
+  "permissions.push": [
+   "boolean"
+  ],
+  "permissions.triage": [
+   "boolean"
+  ],
   "private": [
    "boolean"
   ],
@@ -375,7 +385,7 @@
    "string"
   ],
   "temp_clone_token": [
-   "null"
+   "string"
   ],
   "topics": [
    "array"
@@ -405,7 +415,7 @@
    "boolean"
   ]
  },
- "ts": "2026-08-18T23:43:32+00:00",
+ "ts": "2026-08-19T01:56:07+00:00",
  "url": "https://api.github.com/repos/facebook/react",
  "vendor": "GitHub"
 }

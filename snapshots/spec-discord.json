@@ -4,7 +4,7 @@
  "first_seen": "2026-08-18T23:38:25+00:00",
  "id": "spec-discord",
  "pending_keys": [],
- "runs": 2,
+ "runs": 3,
  "schema": {
   "DELETE /applications/{application_id}/commands/{command_id}": [
    "params:0",
@@ -3219,7 +3219,7 @@
    "req:0"
   ]
  },
- "ts": "2026-08-18T23:43:32+00:00",
+ "ts": "2026-08-19T01:56:07+00:00",
  "url": "https://raw.githubusercontent.com/discord/discord-api-spec/main/specs/openapi.json",
  "vendor": "Discord"
 }

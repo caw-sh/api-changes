@@ -4,7 +4,7 @@
  "first_seen": "2026-08-18T23:20:13+00:00",
  "id": "spec-digitalocean",
  "pending_keys": [],
- "runs": 5,
+ "runs": 6,
  "schema": {
   "DELETE /v2/account/keys/{ssh_key_identifier}": [
    "params:0",
@@ -2643,7 +2643,7 @@
    "responses:0"
   ]
  },
- "ts": "2026-08-18T23:43:32+00:00",
+ "ts": "2026-08-19T01:56:07+00:00",
  "url": "https://raw.githubusercontent.com/digitalocean/openapi/main/specification/DigitalOcean-public.v2.yaml",
  "vendor": "DigitalOcean"
 }

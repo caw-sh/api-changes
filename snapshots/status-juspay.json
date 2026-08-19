@@ -4,7 +4,7 @@
  "first_seen": "2026-08-18T23:38:25+00:00",
  "id": "status-juspay",
  "pending_keys": [],
- "runs": 2,
+ "runs": 3,
  "schema": {
   "page": [
    "object"
@@ -19,7 +19,7 @@
    "string"
   ]
  },
- "ts": "2026-08-18T23:43:32+00:00",
+ "ts": "2026-08-19T01:56:07+00:00",
  "url": "https://status.juspay.in/api/v2/summary.json",
  "vendor": "Juspay"
 }

@@ -4,7 +4,7 @@
  "first_seen": "2026-08-18T23:38:25+00:00",
  "id": "spec-square",
  "pending_keys": [],
- "runs": 2,
+ "runs": 3,
  "schema": {
   "DELETE /v2/bookings/custom-attribute-definitions/{key}": [
    "params:1",
@@ -7448,7 +7448,7 @@
    "req:2"
   ]
  },
- "ts": "2026-08-18T23:43:32+00:00",
+ "ts": "2026-08-19T01:56:07+00:00",
  "url": "https://raw.githubusercontent.com/square/connect-api-specification/master/api.json",
  "vendor": "Square"
 }

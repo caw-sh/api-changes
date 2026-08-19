@@ -4,7 +4,7 @@
  "first_seen": "2026-08-18T23:20:13+00:00",
  "id": "crates-tokio",
  "pending_keys": [],
- "runs": 5,
+ "runs": 6,
  "schema": {
   "categories": [
    "array"
@@ -397,7 +397,7 @@
    "boolean"
   ]
  },
- "ts": "2026-08-18T23:43:32+00:00",
+ "ts": "2026-08-19T01:56:07+00:00",
  "url": "https://crates.io/api/v1/crates/tokio",
  "vendor": "crates.io"
 }

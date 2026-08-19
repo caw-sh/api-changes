@@ -3,8 +3,10 @@
  "field_count": 121,
  "first_seen": "2026-08-18T23:20:13+00:00",
  "id": "status-twilio-summary",
- "pending_keys": [],
- "runs": 5,
+ "pending_keys": [
+  "NULLABILITY:scheduled_maintenances[].incident_updates[].affected_components"
+ ],
+ "runs": 6,
  "schema": {
   "components": [
    "array"
@@ -376,7 +378,7 @@
    "string"
   ]
  },
- "ts": "2026-08-18T23:43:32+00:00",
+ "ts": "2026-08-19T01:56:07+00:00",
  "url": "https://status.twilio.com/api/v2/summary.json",
  "vendor": "Twilio"
 }
