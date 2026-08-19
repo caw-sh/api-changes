@@ -1,11 +1,11 @@
 {
- "ts": "2026-08-19T18:00:13+00:00",
+ "ts": "2026-08-19T18:56:34+00:00",
  "endpoints": 114,
- "ok": 112,
- "failed": 2,
- "changed": 2,
+ "ok": 111,
+ "failed": 3,
+ "changed": 0,
  "new": 0,
  "headers": 0,
  "pending": 0,
- "written": 2
+ "written": 0
 }
