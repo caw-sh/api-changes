@@ -3,10 +3,8 @@
  "field_count": 318,
  "first_seen": "2026-08-18T23:38:25+00:00",
  "id": "spec-supabase",
- "last_changed": "2026-08-18T23:38:25+00:00",
- "pending_keys": [
-  "TYPE_CHANGED:GET /v1/projects/{ref}/analytics/endpoints/metrics"
- ],
+ "last_changed": "2026-08-20T09:17:54+00:00",
+ "pending_keys": [],
  "schema": {
   "DELETE /v1/branches/{branch_id_or_ref}": [
    "params:2",
@@ -175,7 +173,7 @@
   ],
   "GET /v1/projects/{ref}/analytics/endpoints/metrics": [
    "params:1",
-   "responses:5"
+   "responses:6"
   ],
   "GET /v1/projects/{ref}/analytics/endpoints/usage.api-counts": [
    "params:2",
