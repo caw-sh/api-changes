@@ -5,8 +5,8 @@
  "id": "usgs-quakes",
  "last_changed": "2026-08-19T18:00:13+00:00",
  "pending_keys": [
-  "TYPE_WIDENED:features[].properties.cdi",
-  "TYPE_WIDENED:features[].properties.felt"
+  "TYPE_WIDENED:bbox[]",
+  "TYPE_WIDENED:features[].geometry.coordinates[]"
  ],
  "schema": {
   "bbox": [
