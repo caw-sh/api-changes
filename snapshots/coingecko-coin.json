@@ -4,7 +4,11 @@
  "first_seen": "2026-08-18T23:20:13+00:00",
  "id": "coingecko-coin",
  "last_changed": "2026-08-20T07:59:49+00:00",
- "pending_keys": [],
+ "pending_keys": [
+  "TYPE_CHANGED:market_data.price_change_24h_in_currency.aed",
+  "TYPE_CHANGED:market_data.price_change_24h_in_currency.ils",
+  "TYPE_CHANGED:market_data.price_change_24h_in_currency.pln"
+ ],
  "schema": {
   "additional_notices": [
    "array"
