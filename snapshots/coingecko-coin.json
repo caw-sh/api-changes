@@ -69,6 +69,7 @@
   "FIELD_ADDED:market_data.market_cap_change_24h_in_currency.yfi",
   "FIELD_ADDED:market_data.market_cap_change_24h_in_currency.zar",
   "FIELD_REMOVED:market_data.market_cap_change_24h_in_currency.{*}",
+  "TYPE_CHANGED:market_data.price_change_24h_in_currency.myr",
   "TYPE_CHANGED:market_data.price_change_24h_in_currency.sar"
  ],
  "schema": {
