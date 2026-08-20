@@ -27,7 +27,9 @@ jobs:
       - run: pip install pyyaml
 
       - name: Test the differ
-        run: python scripts/test_collect.py
+        run: |
+          python scripts/test_collect.py
+          python scripts/selftest.py
 
       - name: Collect
         env:
@@ -46,5 +48,8 @@ jobs:
             echo "nothing changed"
           else
             git commit -m "collect: $(date -u +'%Y-%m-%d %H:%M UTC')"
+            # A human pushing between our checkout and our push would otherwise
+            # lose this run's observations entirely.
+            git pull --rebase --autostash || git rebase --abort
             git push
           fi
