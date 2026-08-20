@@ -62,6 +62,7 @@
    "string"
   ],
   "features[].properties.mag": [
+   "integer",
    "number"
   ],
   "features[].properties.magType": [

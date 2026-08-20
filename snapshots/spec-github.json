@@ -4,7 +4,11 @@
  "first_seen": "2026-08-18T23:20:13+00:00",
  "id": "spec-github",
  "last_changed": "2026-08-18T23:20:13+00:00",
- "pending_keys": [],
+ "pending_keys": [
+  "FIELD_ADDED:GET /repos/{owner}/{repo}/stargazers/count",
+  "TYPE_CHANGED:GET /orgs/{org}/secret-scanning/custom-patterns",
+  "TYPE_CHANGED:GET /repos/{owner}/{repo}/secret-scanning/custom-patterns"
+ ],
  "schema": {
   "DELETE /app/installations/{installation_id}": [
    "params:1",
