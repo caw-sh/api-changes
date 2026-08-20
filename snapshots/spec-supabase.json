@@ -4,7 +4,9 @@
  "first_seen": "2026-08-18T23:38:25+00:00",
  "id": "spec-supabase",
  "last_changed": "2026-08-18T23:38:25+00:00",
- "pending_keys": [],
+ "pending_keys": [
+  "TYPE_CHANGED:GET /v1/projects/{ref}/analytics/endpoints/metrics"
+ ],
  "schema": {
   "DELETE /v1/branches/{branch_id_or_ref}": [
    "params:2",

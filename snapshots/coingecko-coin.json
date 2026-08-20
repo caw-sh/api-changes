@@ -3,12 +3,8 @@
  "field_count": 510,
  "first_seen": "2026-08-18T23:20:13+00:00",
  "id": "coingecko-coin",
- "last_changed": "2026-08-20T07:59:49+00:00",
- "pending_keys": [
-  "TYPE_CHANGED:market_data.price_change_24h_in_currency.aed",
-  "TYPE_CHANGED:market_data.price_change_24h_in_currency.ils",
-  "TYPE_CHANGED:market_data.price_change_24h_in_currency.pln"
- ],
+ "last_changed": "2026-08-20T08:58:33+00:00",
+ "pending_keys": [],
  "schema": {
   "additional_notices": [
    "array"
@@ -1237,6 +1233,7 @@
    "object"
   ],
   "market_data.price_change_24h_in_currency.aed": [
+   "integer",
    "number"
   ],
   "market_data.price_change_24h_in_currency.ars": [
@@ -1322,6 +1319,7 @@
    "integer"
   ],
   "market_data.price_change_24h_in_currency.ils": [
+   "integer",
    "number"
   ],
   "market_data.price_change_24h_in_currency.inr": [
@@ -1373,6 +1371,7 @@
    "integer"
   ],
   "market_data.price_change_24h_in_currency.pln": [
+   "integer",
    "number"
   ],
   "market_data.price_change_24h_in_currency.rub": [
