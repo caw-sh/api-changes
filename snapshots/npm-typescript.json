@@ -4,7 +4,21 @@
  "first_seen": "2026-08-18T23:20:13+00:00",
  "id": "npm-typescript",
  "last_changed": "2026-08-18T23:20:13+00:00",
- "pending_keys": [],
+ "pending_keys": [
+  "FIELD_ADDED:exports..",
+  "FIELD_ADDED:exports../package.json",
+  "FIELD_ADDED:exports../unstable/ast",
+  "FIELD_ADDED:exports../unstable/ast/clone",
+  "FIELD_ADDED:exports../unstable/ast/factory",
+  "FIELD_ADDED:exports../unstable/ast/is",
+  "FIELD_ADDED:exports../unstable/ast/scanner",
+  "FIELD_ADDED:exports../unstable/ast/utils",
+  "FIELD_ADDED:exports../unstable/ast/visitor",
+  "FIELD_ADDED:exports../unstable/async",
+  "FIELD_ADDED:exports../unstable/fs",
+  "FIELD_ADDED:exports../unstable/proto",
+  "FIELD_ADDED:exports../unstable/sync"
+ ],
  "schema": {
   "_from": [
    "string"

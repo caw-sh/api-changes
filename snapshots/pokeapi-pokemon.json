@@ -4,7 +4,17 @@
  "first_seen": "2026-08-18T23:20:13+00:00",
  "id": "pokeapi-pokemon",
  "last_changed": "2026-08-18T23:20:13+00:00",
- "pending_keys": [],
+ "pending_keys": [
+  "FIELD_ADDED:sprites.versions.generation-ii.crystal.back_default",
+  "FIELD_ADDED:sprites.versions.generation-ii.crystal.back_shiny",
+  "FIELD_ADDED:sprites.versions.generation-ii.crystal.back_shiny_transparent",
+  "FIELD_ADDED:sprites.versions.generation-ii.crystal.back_transparent",
+  "FIELD_ADDED:sprites.versions.generation-ii.crystal.front_default",
+  "FIELD_ADDED:sprites.versions.generation-ii.crystal.front_shiny",
+  "FIELD_ADDED:sprites.versions.generation-ii.crystal.front_shiny_transparent",
+  "FIELD_ADDED:sprites.versions.generation-ii.crystal.front_transparent",
+  "FIELD_REMOVED:sprites.versions.generation-ii.crystal.{*}"
+ ],
  "schema": {
   "abilities": [
    "array"

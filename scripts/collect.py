@@ -80,14 +80,33 @@ def shape_sig(v, depth: int = 0) -> str:
     return type_of(v)
 
 
+SCALAR_MAP_MIN_KEYS = 20   # scalar-valued objects need far more keys to look dynamic
+
+
 def is_map(node: dict) -> bool:
     """True when an object is a dictionary of records keyed by id/name/date/symbol
     rather than a fixed struct. Keys like these change constantly (a new coin is
-    listed, a new date appears) and must not be reported as schema changes."""
+    listed, a new date appears) and must not be reported as schema changes.
+
+    The threshold depends on what the values are, and this matters more than it
+    looks. NASA's APOD response is a fixed struct of eight fields that all happen
+    to be strings -- identical value shapes, so the naive test called it a map and
+    collapsed every field into `{*}`. The next run it had seven fields, was not a
+    map, and every field appeared to have been deleted and re-added.
+
+    An object whose values are all *scalars* is usually a struct, so it needs many
+    more keys before we believe it is a map. An object whose values are all
+    identically-shaped *objects or arrays* is a much stronger signal.
+    """
     if len(node) < MAP_MIN_KEYS:
         return False
-    sigs = {shape_sig(v) for v in list(node.values())[:40]}
-    return len(sigs) == 1
+    vals = list(node.values())[:40]
+    sigs = {shape_sig(v) for v in vals}
+    if len(sigs) != 1:
+        return False
+    if all(not isinstance(v, (dict, list)) for v in vals):
+        return len(node) >= SCALAR_MAP_MIN_KEYS
+    return True
 
 
 def walk(node, path: str, out: dict, depth: int = 0) -> None:
@@ -279,38 +298,82 @@ def watched_headers(headers: dict) -> dict:
 # diffing
 # --------------------------------------------------------------------------
 
+NUMERIC = {"integer", "number"}
+
+
+def norm_types(ts, sampled: bool) -> set:
+    """Types as the *contract* sees them, not as one sample happened to serialise.
+
+    JSON has a single number type. A price of 5.20 serialises as `5.2` and a
+    price of 5.00 serialises as `5`, so Python reads one as float and the other
+    as int -- and a naive diff reports a breaking type change every time a value
+    lands on a round number. That is data variation, not drift.
+
+    Specs are exempt: there `integer` and `number` are genuinely different
+    declarations and a vendor changing one to the other is a real event.
+    """
+    ts = set(ts)
+    if sampled and ts & NUMERIC:
+        ts = (ts - NUMERIC) | {"number"}
+    return ts
+
+
 def classify(old: dict, new: dict, sampled: bool = True) -> tuple:
-    """Returns (changes, carried). `carried` holds old paths we deliberately did
-    not report as removed because this run had no data to observe them in.
+    """Returns (changes, carried, first_seen).
+
+    `carried` holds old paths we deliberately did not report as removed because
+    this run had no data to observe them in. `first_seen` holds paths observed
+    for the first time only because a container that was empty before now has
+    contents -- those are first observations, not additions.
 
     `sampled` is True for live payloads, where each run sees a different slice of
     the data, and False for OpenAPI specs, where the document is the contract and
     anything that disappears really is gone."""
-    blind = unobserved(new)
-    changes, carried = [], {}
+    blind_new = unobserved(new)
+    blind_old = unobserved(old)
+    changes, carried, first_obs = [], {}, []
+
     for path in sorted(set(new) - set(old)):
+        # A status page returns `incidents: []` until something breaks. When an
+        # incident finally appears, forty fields materialise at once. Nothing
+        # was added -- we simply had never seen inside that container. Reporting
+        # it as drift would mean every outage looks like an API change.
+        if sampled and shadowed(path, blind_old):
+            first_obs.append(path)
+            continue
         changes.append({"kind": "FIELD_ADDED", "path": path, "to": new[path], "severity": "info"})
+
     for path in sorted(set(old) - set(new)):
-        if shadowed(path, blind):
+        if shadowed(path, blind_new):
             carried[path] = old[path]
             continue
         changes.append({"kind": "FIELD_REMOVED", "path": path, "from": old[path], "severity": "breaking"})
+
     for path in sorted(set(old) & set(new)):
-        a, b = old[path], new[path]
-        if a == b:
+        a_raw, b_raw = old[path], new[path]
+        if a_raw == b_raw:
             continue
-        if sampled and set(b) < set(a):
+        a, b = norm_types(a_raw, sampled), norm_types(b_raw, sampled)
+        if a == b:
+            continue                      # int/float serialisation only
+        if sampled and b < a:
             # we simply did not draw that variant this run; baseline keeps both
             continue
-        if set(a) < set(b):
+        if a < b:
             # a variant we had not sampled before; the old contract still holds
             kind, sev = "TYPE_WIDENED", "info"
-        elif set(a) - {"null"} == set(b) - {"null"}:
+        elif a - {"null"} == b - {"null"}:
+            kind, sev = "NULLABILITY", "warning"
+        elif sampled and b == {"null"}:
+            # The field was always nullable; today is simply the first time we
+            # drew a null. Calling this breaking would flag every optional field
+            # in every API the first time it happens to be empty.
             kind, sev = "NULLABILITY", "warning"
         else:
             kind, sev = "TYPE_CHANGED", "breaking"
-        changes.append({"kind": kind, "path": path, "from": a, "to": b, "severity": sev})
-    return changes, carried
+        changes.append({"kind": kind, "path": path,
+                        "from": sorted(a_raw), "to": sorted(b_raw), "severity": sev})
+    return changes, carried, first_obs
 
 
 # --------------------------------------------------------------------------
@@ -386,7 +449,10 @@ def main() -> int:
         if snap_path.exists():
             prev = json.loads(snap_path.read_text())
             baseline = prev.get("schema", {})
-            diffs, carried = classify(baseline, schema, ep.get("kind") != "spec")
+            diffs, carried, first_obs = classify(baseline, schema, ep.get("kind") != "spec")
+            if first_obs:
+                print(f"  observed {eid}: {len(first_obs)} field(s) seen for the first time "
+                      f"(container was empty before) -- not reported as drift")
             confirmed = merge_baseline(baseline, schema, carried, ep.get("kind"))
             keys = sorted(f"{d['kind']}:{d['path']}" for d in diffs)
 
@@ -415,6 +481,7 @@ def main() -> int:
                         "total": len(diffs),
                         "breaking": breaking,
                         "additive": sum(1 for d in diffs if d["kind"] == "FIELD_ADDED"),
+                        "first_observations": len(first_obs),
                     },
                     "changes": diffs[:200],
                 })
