@@ -1,14 +1,10 @@
 {
  "category": "spec",
- "field_count": 2189,
+ "field_count": 2190,
  "first_seen": "2026-08-18T23:20:13+00:00",
  "id": "spec-github",
- "last_changed": "2026-08-18T23:20:13+00:00",
- "pending_keys": [
-  "FIELD_ADDED:GET /repos/{owner}/{repo}/stargazers/count",
-  "TYPE_CHANGED:GET /orgs/{org}/secret-scanning/custom-patterns",
-  "TYPE_CHANGED:GET /repos/{owner}/{repo}/secret-scanning/custom-patterns"
- ],
+ "last_changed": "2026-08-20T23:03:42+00:00",
+ "pending_keys": [],
  "schema": {
   "DELETE /app/installations/{installation_id}": [
    "params:1",
@@ -1768,7 +1764,7 @@
    "responses:3"
   ],
   "GET /orgs/{org}/secret-scanning/custom-patterns": [
-   "params:7",
+   "params:9",
    "responses:3"
   ],
   "GET /orgs/{org}/secret-scanning/pattern-configurations": [
@@ -2809,7 +2805,7 @@
    "responses:3"
   ],
   "GET /repos/{owner}/{repo}/secret-scanning/custom-patterns": [
-   "params:8",
+   "params:10",
    "responses:3"
   ],
   "GET /repos/{owner}/{repo}/secret-scanning/scan-history": [
@@ -2834,6 +2830,10 @@
   ],
   "GET /repos/{owner}/{repo}/stargazers": [
    "params:4",
+   "responses:2"
+  ],
+  "GET /repos/{owner}/{repo}/stargazers/count": [
+   "params:2",
    "responses:2"
   ],
   "GET /repos/{owner}/{repo}/stats/code_frequency": [
