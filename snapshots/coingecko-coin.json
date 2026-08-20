@@ -3,10 +3,8 @@
  "field_count": 510,
  "first_seen": "2026-08-18T23:20:13+00:00",
  "id": "coingecko-coin",
- "last_changed": "2026-08-20T08:58:33+00:00",
- "pending_keys": [
-  "TYPE_CHANGED:market_data.low_24h.kwd"
- ],
+ "last_changed": "2026-08-20T13:34:38+00:00",
+ "pending_keys": [],
  "schema": {
   "additional_notices": [
    "array"
@@ -1081,6 +1079,7 @@
    "integer"
   ],
   "market_data.low_24h.kwd": [
+   "integer",
    "number"
   ],
   "market_data.low_24h.link": [
