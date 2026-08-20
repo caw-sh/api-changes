@@ -1,20 +1,10 @@
 {
  "category": "fun",
- "field_count": 246,
+ "field_count": 253,
  "first_seen": "2026-08-18T23:20:13+00:00",
  "id": "pokeapi-pokemon",
- "last_changed": "2026-08-18T23:20:13+00:00",
- "pending_keys": [
-  "FIELD_ADDED:sprites.versions.generation-ii.crystal.back_default",
-  "FIELD_ADDED:sprites.versions.generation-ii.crystal.back_shiny",
-  "FIELD_ADDED:sprites.versions.generation-ii.crystal.back_shiny_transparent",
-  "FIELD_ADDED:sprites.versions.generation-ii.crystal.back_transparent",
-  "FIELD_ADDED:sprites.versions.generation-ii.crystal.front_default",
-  "FIELD_ADDED:sprites.versions.generation-ii.crystal.front_shiny",
-  "FIELD_ADDED:sprites.versions.generation-ii.crystal.front_shiny_transparent",
-  "FIELD_ADDED:sprites.versions.generation-ii.crystal.front_transparent",
-  "FIELD_REMOVED:sprites.versions.generation-ii.crystal.{*}"
- ],
+ "last_changed": "2026-08-20T19:42:46+00:00",
+ "pending_keys": [],
  "schema": {
   "abilities": [
    "array"
@@ -397,7 +387,28 @@
   "sprites.versions.generation-ii.crystal": [
    "object"
   ],
-  "sprites.versions.generation-ii.crystal.{*}": [
+  "sprites.versions.generation-ii.crystal.back_default": [
+   "string"
+  ],
+  "sprites.versions.generation-ii.crystal.back_shiny": [
+   "string"
+  ],
+  "sprites.versions.generation-ii.crystal.back_shiny_transparent": [
+   "string"
+  ],
+  "sprites.versions.generation-ii.crystal.back_transparent": [
+   "string"
+  ],
+  "sprites.versions.generation-ii.crystal.front_default": [
+   "string"
+  ],
+  "sprites.versions.generation-ii.crystal.front_shiny": [
+   "string"
+  ],
+  "sprites.versions.generation-ii.crystal.front_shiny_transparent": [
+   "string"
+  ],
+  "sprites.versions.generation-ii.crystal.front_transparent": [
    "string"
   ],
   "sprites.versions.generation-ii.gold": [

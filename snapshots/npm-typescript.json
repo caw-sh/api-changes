@@ -1,24 +1,10 @@
 {
  "category": "registry",
- "field_count": 64,
+ "field_count": 77,
  "first_seen": "2026-08-18T23:20:13+00:00",
  "id": "npm-typescript",
- "last_changed": "2026-08-18T23:20:13+00:00",
- "pending_keys": [
-  "FIELD_ADDED:exports..",
-  "FIELD_ADDED:exports../package.json",
-  "FIELD_ADDED:exports../unstable/ast",
-  "FIELD_ADDED:exports../unstable/ast/clone",
-  "FIELD_ADDED:exports../unstable/ast/factory",
-  "FIELD_ADDED:exports../unstable/ast/is",
-  "FIELD_ADDED:exports../unstable/ast/scanner",
-  "FIELD_ADDED:exports../unstable/ast/utils",
-  "FIELD_ADDED:exports../unstable/ast/visitor",
-  "FIELD_ADDED:exports../unstable/async",
-  "FIELD_ADDED:exports../unstable/fs",
-  "FIELD_ADDED:exports../unstable/proto",
-  "FIELD_ADDED:exports../unstable/sync"
- ],
+ "last_changed": "2026-08-20T19:42:46+00:00",
+ "pending_keys": [],
  "schema": {
   "_from": [
    "string"
@@ -124,6 +110,45 @@
   ],
   "exports": [
    "object"
+  ],
+  "exports..": [
+   "string"
+  ],
+  "exports../package.json": [
+   "string"
+  ],
+  "exports../unstable/ast": [
+   "string"
+  ],
+  "exports../unstable/ast/clone": [
+   "string"
+  ],
+  "exports../unstable/ast/factory": [
+   "string"
+  ],
+  "exports../unstable/ast/is": [
+   "string"
+  ],
+  "exports../unstable/ast/scanner": [
+   "string"
+  ],
+  "exports../unstable/ast/utils": [
+   "string"
+  ],
+  "exports../unstable/ast/visitor": [
+   "string"
+  ],
+  "exports../unstable/async": [
+   "string"
+  ],
+  "exports../unstable/fs": [
+   "string"
+  ],
+  "exports../unstable/proto": [
+   "string"
+  ],
+  "exports../unstable/sync": [
+   "string"
   ],
   "exports.{*}": [
    "string"

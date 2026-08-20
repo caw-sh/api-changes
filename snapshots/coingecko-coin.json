@@ -1291,7 +1291,8 @@
    "number"
   ],
   "market_data.price_change_24h_in_currency.dot": [
-   "integer"
+   "integer",
+   "number"
   ],
   "market_data.price_change_24h_in_currency.eos": [
    "integer",

@@ -1,49 +1,10 @@
 {
  "category": "registry",
- "field_count": 56,
+ "field_count": 90,
  "first_seen": "2026-08-18T23:20:13+00:00",
  "id": "packagist-monolog",
- "last_changed": "2026-08-18T23:20:13+00:00",
- "pending_keys": [
-  "FIELD_ADDED:packages.monolog/monolog[].require-dev.aws/aws-sdk-php",
-  "FIELD_ADDED:packages.monolog/monolog[].require-dev.doctrine/couchdb",
-  "FIELD_ADDED:packages.monolog/monolog[].require-dev.elasticsearch/elasticsearch",
-  "FIELD_ADDED:packages.monolog/monolog[].require-dev.ext-json",
-  "FIELD_ADDED:packages.monolog/monolog[].require-dev.graylog2/gelf-php",
-  "FIELD_ADDED:packages.monolog/monolog[].require-dev.guzzlehttp/guzzle",
-  "FIELD_ADDED:packages.monolog/monolog[].require-dev.guzzlehttp/psr7",
-  "FIELD_ADDED:packages.monolog/monolog[].require-dev.mongodb/mongodb",
-  "FIELD_ADDED:packages.monolog/monolog[].require-dev.php-amqplib/php-amqplib",
-  "FIELD_ADDED:packages.monolog/monolog[].require-dev.php-console/php-console",
-  "FIELD_ADDED:packages.monolog/monolog[].require-dev.phpspec/prophecy",
-  "FIELD_ADDED:packages.monolog/monolog[].require-dev.phpstan/phpstan",
-  "FIELD_ADDED:packages.monolog/monolog[].require-dev.phpstan/phpstan-deprecation-rules",
-  "FIELD_ADDED:packages.monolog/monolog[].require-dev.phpstan/phpstan-strict-rules",
-  "FIELD_ADDED:packages.monolog/monolog[].require-dev.phpunit/phpunit",
-  "FIELD_ADDED:packages.monolog/monolog[].require-dev.predis/predis",
-  "FIELD_ADDED:packages.monolog/monolog[].require-dev.rollbar/rollbar",
-  "FIELD_ADDED:packages.monolog/monolog[].require-dev.ruflin/elastica",
-  "FIELD_ADDED:packages.monolog/monolog[].require-dev.swiftmailer/swiftmailer",
-  "FIELD_ADDED:packages.monolog/monolog[].require-dev.symfony/mailer",
-  "FIELD_ADDED:packages.monolog/monolog[].require-dev.symfony/mime",
-  "FIELD_ADDED:packages.monolog/monolog[].suggest.aws/aws-sdk-php",
-  "FIELD_ADDED:packages.monolog/monolog[].suggest.doctrine/couchdb",
-  "FIELD_ADDED:packages.monolog/monolog[].suggest.elasticsearch/elasticsearch",
-  "FIELD_ADDED:packages.monolog/monolog[].suggest.ext-amqp",
-  "FIELD_ADDED:packages.monolog/monolog[].suggest.ext-curl",
-  "FIELD_ADDED:packages.monolog/monolog[].suggest.ext-mbstring",
-  "FIELD_ADDED:packages.monolog/monolog[].suggest.ext-mongodb",
-  "FIELD_ADDED:packages.monolog/monolog[].suggest.ext-openssl",
-  "FIELD_ADDED:packages.monolog/monolog[].suggest.ext-sockets",
-  "FIELD_ADDED:packages.monolog/monolog[].suggest.graylog2/gelf-php",
-  "FIELD_ADDED:packages.monolog/monolog[].suggest.mongodb/mongodb",
-  "FIELD_ADDED:packages.monolog/monolog[].suggest.php-amqplib/php-amqplib",
-  "FIELD_ADDED:packages.monolog/monolog[].suggest.php-console/php-console",
-  "FIELD_ADDED:packages.monolog/monolog[].suggest.rollbar/rollbar",
-  "FIELD_ADDED:packages.monolog/monolog[].suggest.ruflin/elastica",
-  "FIELD_REMOVED:packages.monolog/monolog[].require-dev.{*}",
-  "FIELD_REMOVED:packages.monolog/monolog[].suggest.{*}"
- ],
+ "last_changed": "2026-08-20T19:42:46+00:00",
+ "pending_keys": [],
  "schema": {
   "minified": [
    "string"
@@ -153,7 +114,67 @@
   "packages.monolog/monolog[].require-dev": [
    "object"
   ],
-  "packages.monolog/monolog[].require-dev.{*}": [
+  "packages.monolog/monolog[].require-dev.aws/aws-sdk-php": [
+   "string"
+  ],
+  "packages.monolog/monolog[].require-dev.doctrine/couchdb": [
+   "string"
+  ],
+  "packages.monolog/monolog[].require-dev.elasticsearch/elasticsearch": [
+   "string"
+  ],
+  "packages.monolog/monolog[].require-dev.ext-json": [
+   "string"
+  ],
+  "packages.monolog/monolog[].require-dev.graylog2/gelf-php": [
+   "string"
+  ],
+  "packages.monolog/monolog[].require-dev.guzzlehttp/guzzle": [
+   "string"
+  ],
+  "packages.monolog/monolog[].require-dev.guzzlehttp/psr7": [
+   "string"
+  ],
+  "packages.monolog/monolog[].require-dev.mongodb/mongodb": [
+   "string"
+  ],
+  "packages.monolog/monolog[].require-dev.php-amqplib/php-amqplib": [
+   "string"
+  ],
+  "packages.monolog/monolog[].require-dev.php-console/php-console": [
+   "string"
+  ],
+  "packages.monolog/monolog[].require-dev.phpspec/prophecy": [
+   "string"
+  ],
+  "packages.monolog/monolog[].require-dev.phpstan/phpstan": [
+   "string"
+  ],
+  "packages.monolog/monolog[].require-dev.phpstan/phpstan-deprecation-rules": [
+   "string"
+  ],
+  "packages.monolog/monolog[].require-dev.phpstan/phpstan-strict-rules": [
+   "string"
+  ],
+  "packages.monolog/monolog[].require-dev.phpunit/phpunit": [
+   "string"
+  ],
+  "packages.monolog/monolog[].require-dev.predis/predis": [
+   "string"
+  ],
+  "packages.monolog/monolog[].require-dev.rollbar/rollbar": [
+   "string"
+  ],
+  "packages.monolog/monolog[].require-dev.ruflin/elastica": [
+   "string"
+  ],
+  "packages.monolog/monolog[].require-dev.swiftmailer/swiftmailer": [
+   "string"
+  ],
+  "packages.monolog/monolog[].require-dev.symfony/mailer": [
+   "string"
+  ],
+  "packages.monolog/monolog[].require-dev.symfony/mime": [
    "string"
   ],
   "packages.monolog/monolog[].require.php": [
@@ -177,7 +198,49 @@
   "packages.monolog/monolog[].suggest": [
    "object"
   ],
-  "packages.monolog/monolog[].suggest.{*}": [
+  "packages.monolog/monolog[].suggest.aws/aws-sdk-php": [
+   "string"
+  ],
+  "packages.monolog/monolog[].suggest.doctrine/couchdb": [
+   "string"
+  ],
+  "packages.monolog/monolog[].suggest.elasticsearch/elasticsearch": [
+   "string"
+  ],
+  "packages.monolog/monolog[].suggest.ext-amqp": [
+   "string"
+  ],
+  "packages.monolog/monolog[].suggest.ext-curl": [
+   "string"
+  ],
+  "packages.monolog/monolog[].suggest.ext-mbstring": [
+   "string"
+  ],
+  "packages.monolog/monolog[].suggest.ext-mongodb": [
+   "string"
+  ],
+  "packages.monolog/monolog[].suggest.ext-openssl": [
+   "string"
+  ],
+  "packages.monolog/monolog[].suggest.ext-sockets": [
+   "string"
+  ],
+  "packages.monolog/monolog[].suggest.graylog2/gelf-php": [
+   "string"
+  ],
+  "packages.monolog/monolog[].suggest.mongodb/mongodb": [
+   "string"
+  ],
+  "packages.monolog/monolog[].suggest.php-amqplib/php-amqplib": [
+   "string"
+  ],
+  "packages.monolog/monolog[].suggest.php-console/php-console": [
+   "string"
+  ],
+  "packages.monolog/monolog[].suggest.rollbar/rollbar": [
+   "string"
+  ],
+  "packages.monolog/monolog[].suggest.ruflin/elastica": [
    "string"
   ],
   "packages.monolog/monolog[].support": [

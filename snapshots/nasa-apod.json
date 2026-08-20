@@ -1,22 +1,33 @@
 {
  "category": "science",
- "field_count": 1,
+ "field_count": 8,
  "first_seen": "2026-08-18T23:20:13+00:00",
  "id": "nasa-apod",
- "last_changed": "2026-08-20T04:56:54+00:00",
- "pending_keys": [
-  "FIELD_ADDED:copyright",
-  "FIELD_ADDED:date",
-  "FIELD_ADDED:explanation",
-  "FIELD_ADDED:hdurl",
-  "FIELD_ADDED:media_type",
-  "FIELD_ADDED:service_version",
-  "FIELD_ADDED:title",
-  "FIELD_ADDED:url",
-  "FIELD_REMOVED:{*}"
- ],
+ "last_changed": "2026-08-20T19:42:46+00:00",
+ "pending_keys": [],
  "schema": {
-  "{*}": [
+  "copyright": [
+   "string"
+  ],
+  "date": [
+   "string"
+  ],
+  "explanation": [
+   "string"
+  ],
+  "hdurl": [
+   "string"
+  ],
+  "media_type": [
+   "string"
+  ],
+  "service_version": [
+   "string"
+  ],
+  "title": [
+   "string"
+  ],
+  "url": [
    "string"
   ]
  },
