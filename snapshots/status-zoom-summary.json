@@ -9,7 +9,10 @@
  "first_seen": "2026-08-18T23:20:13+00:00",
  "id": "status-zoom-summary",
  "last_changed": "2026-08-18T23:20:13+00:00",
- "pending_keys": [],
+ "pending_keys": [
+  "NULLABILITY:incidents[].monitoring_at",
+  "TYPE_CHANGED:incidents[].components[].group_id"
+ ],
  "schema": {
   "components": [
    "array"
