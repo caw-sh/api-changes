@@ -1,23 +1,15 @@
 {
  "auth": "anon",
  "category": "finance",
- "field_count": 5672,
+ "field_count": 5679,
  "field_state": {
   "absent": {},
   "optional": []
  },
  "first_seen": "2026-08-18T23:20:13+00:00",
  "id": "kraken-assets",
- "last_changed": "2026-08-19T15:13:43+00:00",
- "pending_keys": [
-  "FIELD_ADDED:result.ANSEM",
-  "FIELD_ADDED:result.ANSEM.aclass",
-  "FIELD_ADDED:result.ANSEM.altname",
-  "FIELD_ADDED:result.ANSEM.decimals",
-  "FIELD_ADDED:result.ANSEM.display_decimals",
-  "FIELD_ADDED:result.ANSEM.margin_rate",
-  "FIELD_ADDED:result.ANSEM.status"
- ],
+ "last_changed": "2026-08-21T13:32:32+00:00",
+ "pending_keys": [],
  "schema": {
   "error": [
    "array"
@@ -995,6 +987,27 @@
    "string"
   ],
   "result.ANON.status": [
+   "string"
+  ],
+  "result.ANSEM": [
+   "object"
+  ],
+  "result.ANSEM.aclass": [
+   "string"
+  ],
+  "result.ANSEM.altname": [
+   "string"
+  ],
+  "result.ANSEM.decimals": [
+   "integer"
+  ],
+  "result.ANSEM.display_decimals": [
+   "integer"
+  ],
+  "result.ANSEM.margin_rate": [
+   "string"
+  ],
+  "result.ANSEM.status": [
    "string"
   ],
   "result.APE": [
