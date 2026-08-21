@@ -1,81 +1,12 @@
 {
  "auth": "anon",
  "category": "finance",
- "field_count": 515,
- "field_state": {
-  "absent": {},
-  "optional": [
-   "market_data.market_cap_change_24h_in_currency.{*}"
-  ]
- },
- "first_seen": "2026-08-18T23:20:13+00:00",
+ "field_count": 205,
+ "field_state": {},
+ "first_seen": "2026-08-21T19:30:23+00:00",
  "id": "coingecko-coin",
- "last_changed": "2026-08-21T10:12:56+00:00",
- "pending_keys": [
-  "FIELD_ADDED:market_data.market_cap_change_24h_in_currency.aed",
-  "FIELD_ADDED:market_data.market_cap_change_24h_in_currency.ars",
-  "FIELD_ADDED:market_data.market_cap_change_24h_in_currency.aud",
-  "FIELD_ADDED:market_data.market_cap_change_24h_in_currency.bch",
-  "FIELD_ADDED:market_data.market_cap_change_24h_in_currency.bdt",
-  "FIELD_ADDED:market_data.market_cap_change_24h_in_currency.bhd",
-  "FIELD_ADDED:market_data.market_cap_change_24h_in_currency.bits",
-  "FIELD_ADDED:market_data.market_cap_change_24h_in_currency.bmd",
-  "FIELD_ADDED:market_data.market_cap_change_24h_in_currency.bnb",
-  "FIELD_ADDED:market_data.market_cap_change_24h_in_currency.brl",
-  "FIELD_ADDED:market_data.market_cap_change_24h_in_currency.btc",
-  "FIELD_ADDED:market_data.market_cap_change_24h_in_currency.cad",
-  "FIELD_ADDED:market_data.market_cap_change_24h_in_currency.chf",
-  "FIELD_ADDED:market_data.market_cap_change_24h_in_currency.clp",
-  "FIELD_ADDED:market_data.market_cap_change_24h_in_currency.cny",
-  "FIELD_ADDED:market_data.market_cap_change_24h_in_currency.czk",
-  "FIELD_ADDED:market_data.market_cap_change_24h_in_currency.dkk",
-  "FIELD_ADDED:market_data.market_cap_change_24h_in_currency.dot",
-  "FIELD_ADDED:market_data.market_cap_change_24h_in_currency.eos",
-  "FIELD_ADDED:market_data.market_cap_change_24h_in_currency.eth",
-  "FIELD_ADDED:market_data.market_cap_change_24h_in_currency.eur",
-  "FIELD_ADDED:market_data.market_cap_change_24h_in_currency.gbp",
-  "FIELD_ADDED:market_data.market_cap_change_24h_in_currency.gel",
-  "FIELD_ADDED:market_data.market_cap_change_24h_in_currency.hkd",
-  "FIELD_ADDED:market_data.market_cap_change_24h_in_currency.huf",
-  "FIELD_ADDED:market_data.market_cap_change_24h_in_currency.idr",
-  "FIELD_ADDED:market_data.market_cap_change_24h_in_currency.ils",
-  "FIELD_ADDED:market_data.market_cap_change_24h_in_currency.inr",
-  "FIELD_ADDED:market_data.market_cap_change_24h_in_currency.jpy",
-  "FIELD_ADDED:market_data.market_cap_change_24h_in_currency.krw",
-  "FIELD_ADDED:market_data.market_cap_change_24h_in_currency.kwd",
-  "FIELD_ADDED:market_data.market_cap_change_24h_in_currency.link",
-  "FIELD_ADDED:market_data.market_cap_change_24h_in_currency.lkr",
-  "FIELD_ADDED:market_data.market_cap_change_24h_in_currency.ltc",
-  "FIELD_ADDED:market_data.market_cap_change_24h_in_currency.mmk",
-  "FIELD_ADDED:market_data.market_cap_change_24h_in_currency.mxn",
-  "FIELD_ADDED:market_data.market_cap_change_24h_in_currency.myr",
-  "FIELD_ADDED:market_data.market_cap_change_24h_in_currency.ngn",
-  "FIELD_ADDED:market_data.market_cap_change_24h_in_currency.nok",
-  "FIELD_ADDED:market_data.market_cap_change_24h_in_currency.nzd",
-  "FIELD_ADDED:market_data.market_cap_change_24h_in_currency.php",
-  "FIELD_ADDED:market_data.market_cap_change_24h_in_currency.pkr",
-  "FIELD_ADDED:market_data.market_cap_change_24h_in_currency.pln",
-  "FIELD_ADDED:market_data.market_cap_change_24h_in_currency.rub",
-  "FIELD_ADDED:market_data.market_cap_change_24h_in_currency.sar",
-  "FIELD_ADDED:market_data.market_cap_change_24h_in_currency.sats",
-  "FIELD_ADDED:market_data.market_cap_change_24h_in_currency.sek",
-  "FIELD_ADDED:market_data.market_cap_change_24h_in_currency.sgd",
-  "FIELD_ADDED:market_data.market_cap_change_24h_in_currency.sol",
-  "FIELD_ADDED:market_data.market_cap_change_24h_in_currency.thb",
-  "FIELD_ADDED:market_data.market_cap_change_24h_in_currency.try",
-  "FIELD_ADDED:market_data.market_cap_change_24h_in_currency.twd",
-  "FIELD_ADDED:market_data.market_cap_change_24h_in_currency.uah",
-  "FIELD_ADDED:market_data.market_cap_change_24h_in_currency.usd",
-  "FIELD_ADDED:market_data.market_cap_change_24h_in_currency.vef",
-  "FIELD_ADDED:market_data.market_cap_change_24h_in_currency.vnd",
-  "FIELD_ADDED:market_data.market_cap_change_24h_in_currency.xag",
-  "FIELD_ADDED:market_data.market_cap_change_24h_in_currency.xau",
-  "FIELD_ADDED:market_data.market_cap_change_24h_in_currency.xdr",
-  "FIELD_ADDED:market_data.market_cap_change_24h_in_currency.xlm",
-  "FIELD_ADDED:market_data.market_cap_change_24h_in_currency.xrp",
-  "FIELD_ADDED:market_data.market_cap_change_24h_in_currency.yfi",
-  "FIELD_ADDED:market_data.market_cap_change_24h_in_currency.zar"
- ],
+ "last_changed": "2026-08-21T19:30:23+00:00",
+ "pending_keys": [],
  "schema": {
   "additional_notices": [
    "array"
@@ -266,194 +197,9 @@
   "market_data.ath": [
    "object"
   ],
-  "market_data.ath.aed": [
-   "integer"
-  ],
-  "market_data.ath.ars": [
-   "integer"
-  ],
-  "market_data.ath.aud": [
-   "integer"
-  ],
-  "market_data.ath.bch": [
+  "market_data.ath.{*}": [
+   "integer",
    "number"
-  ],
-  "market_data.ath.bdt": [
-   "integer"
-  ],
-  "market_data.ath.bhd": [
-   "integer"
-  ],
-  "market_data.ath.bits": [
-   "integer"
-  ],
-  "market_data.ath.bmd": [
-   "integer"
-  ],
-  "market_data.ath.bnb": [
-   "integer"
-  ],
-  "market_data.ath.brl": [
-   "integer"
-  ],
-  "market_data.ath.btc": [
-   "number"
-  ],
-  "market_data.ath.cad": [
-   "integer"
-  ],
-  "market_data.ath.chf": [
-   "integer"
-  ],
-  "market_data.ath.clp": [
-   "integer"
-  ],
-  "market_data.ath.cny": [
-   "integer"
-  ],
-  "market_data.ath.czk": [
-   "integer"
-  ],
-  "market_data.ath.dkk": [
-   "integer"
-  ],
-  "market_data.ath.dot": [
-   "integer"
-  ],
-  "market_data.ath.eos": [
-   "integer"
-  ],
-  "market_data.ath.eth": [
-   "number"
-  ],
-  "market_data.ath.eur": [
-   "integer"
-  ],
-  "market_data.ath.gbp": [
-   "integer"
-  ],
-  "market_data.ath.gel": [
-   "integer"
-  ],
-  "market_data.ath.hkd": [
-   "integer"
-  ],
-  "market_data.ath.huf": [
-   "integer"
-  ],
-  "market_data.ath.idr": [
-   "integer"
-  ],
-  "market_data.ath.ils": [
-   "integer"
-  ],
-  "market_data.ath.inr": [
-   "integer"
-  ],
-  "market_data.ath.jpy": [
-   "integer"
-  ],
-  "market_data.ath.krw": [
-   "integer"
-  ],
-  "market_data.ath.kwd": [
-   "integer"
-  ],
-  "market_data.ath.link": [
-   "integer"
-  ],
-  "market_data.ath.lkr": [
-   "integer"
-  ],
-  "market_data.ath.ltc": [
-   "integer"
-  ],
-  "market_data.ath.mmk": [
-   "integer"
-  ],
-  "market_data.ath.mxn": [
-   "integer"
-  ],
-  "market_data.ath.myr": [
-   "integer"
-  ],
-  "market_data.ath.ngn": [
-   "integer"
-  ],
-  "market_data.ath.nok": [
-   "integer"
-  ],
-  "market_data.ath.nzd": [
-   "integer"
-  ],
-  "market_data.ath.php": [
-   "integer"
-  ],
-  "market_data.ath.pkr": [
-   "integer"
-  ],
-  "market_data.ath.pln": [
-   "integer"
-  ],
-  "market_data.ath.rub": [
-   "integer"
-  ],
-  "market_data.ath.sar": [
-   "integer"
-  ],
-  "market_data.ath.sats": [
-   "integer"
-  ],
-  "market_data.ath.sek": [
-   "integer"
-  ],
-  "market_data.ath.sgd": [
-   "integer"
-  ],
-  "market_data.ath.sol": [
-   "number"
-  ],
-  "market_data.ath.thb": [
-   "integer"
-  ],
-  "market_data.ath.try": [
-   "integer"
-  ],
-  "market_data.ath.twd": [
-   "integer"
-  ],
-  "market_data.ath.uah": [
-   "integer"
-  ],
-  "market_data.ath.usd": [
-   "integer"
-  ],
-  "market_data.ath.vef": [
-   "integer"
-  ],
-  "market_data.ath.vnd": [
-   "integer"
-  ],
-  "market_data.ath.xag": [
-   "number"
-  ],
-  "market_data.ath.xau": [
-   "number"
-  ],
-  "market_data.ath.xdr": [
-   "integer"
-  ],
-  "market_data.ath.xlm": [
-   "integer"
-  ],
-  "market_data.ath.xrp": [
-   "integer"
-  ],
-  "market_data.ath.yfi": [
-   "number"
-  ],
-  "market_data.ath.zar": [
-   "integer"
   ],
   "market_data.ath_change_percentage": [
    "object"
@@ -470,193 +216,8 @@
   "market_data.atl": [
    "object"
   ],
-  "market_data.atl.aed": [
-   "number"
-  ],
-  "market_data.atl.ars": [
-   "number"
-  ],
-  "market_data.atl.aud": [
-   "number"
-  ],
-  "market_data.atl.bch": [
-   "number"
-  ],
-  "market_data.atl.bdt": [
-   "number"
-  ],
-  "market_data.atl.bhd": [
-   "number"
-  ],
-  "market_data.atl.bits": [
-   "integer"
-  ],
-  "market_data.atl.bmd": [
-   "number"
-  ],
-  "market_data.atl.bnb": [
-   "number"
-  ],
-  "market_data.atl.brl": [
-   "number"
-  ],
-  "market_data.atl.btc": [
-   "number"
-  ],
-  "market_data.atl.cad": [
-   "number"
-  ],
-  "market_data.atl.chf": [
-   "number"
-  ],
-  "market_data.atl.clp": [
-   "integer"
-  ],
-  "market_data.atl.cny": [
-   "number"
-  ],
-  "market_data.atl.czk": [
-   "number"
-  ],
-  "market_data.atl.dkk": [
-   "number"
-  ],
-  "market_data.atl.dot": [
-   "number"
-  ],
-  "market_data.atl.eos": [
-   "number"
-  ],
-  "market_data.atl.eth": [
-   "number"
-  ],
-  "market_data.atl.eur": [
-   "number"
-  ],
-  "market_data.atl.gbp": [
-   "number"
-  ],
-  "market_data.atl.gel": [
-   "integer"
-  ],
-  "market_data.atl.hkd": [
-   "number"
-  ],
-  "market_data.atl.huf": [
-   "integer"
-  ],
-  "market_data.atl.idr": [
-   "integer"
-  ],
-  "market_data.atl.ils": [
-   "number"
-  ],
-  "market_data.atl.inr": [
-   "number"
-  ],
-  "market_data.atl.jpy": [
-   "number"
-  ],
-  "market_data.atl.krw": [
-   "integer"
-  ],
-  "market_data.atl.kwd": [
-   "number"
-  ],
-  "market_data.atl.link": [
-   "number"
-  ],
-  "market_data.atl.lkr": [
-   "integer"
-  ],
-  "market_data.atl.ltc": [
-   "number"
-  ],
-  "market_data.atl.mmk": [
-   "integer"
-  ],
-  "market_data.atl.mxn": [
-   "number"
-  ],
-  "market_data.atl.myr": [
-   "number"
-  ],
-  "market_data.atl.ngn": [
-   "number"
-  ],
-  "market_data.atl.nok": [
-   "number"
-  ],
-  "market_data.atl.nzd": [
-   "number"
-  ],
-  "market_data.atl.php": [
-   "number"
-  ],
-  "market_data.atl.pkr": [
-   "number"
-  ],
-  "market_data.atl.pln": [
-   "number"
-  ],
-  "market_data.atl.rub": [
-   "number"
-  ],
-  "market_data.atl.sar": [
-   "number"
-  ],
-  "market_data.atl.sats": [
-   "integer"
-  ],
-  "market_data.atl.sek": [
-   "number"
-  ],
-  "market_data.atl.sgd": [
-   "number"
-  ],
-  "market_data.atl.sol": [
-   "number"
-  ],
-  "market_data.atl.thb": [
-   "number"
-  ],
-  "market_data.atl.try": [
-   "number"
-  ],
-  "market_data.atl.twd": [
-   "number"
-  ],
-  "market_data.atl.uah": [
-   "number"
-  ],
-  "market_data.atl.usd": [
-   "number"
-  ],
-  "market_data.atl.vef": [
-   "number"
-  ],
-  "market_data.atl.vnd": [
-   "integer"
-  ],
-  "market_data.atl.xag": [
-   "number"
-  ],
-  "market_data.atl.xau": [
-   "number"
-  ],
-  "market_data.atl.xdr": [
-   "number"
-  ],
-  "market_data.atl.xlm": [
-   "integer"
-  ],
-  "market_data.atl.xrp": [
-   "integer"
-  ],
-  "market_data.atl.yfi": [
-   "number"
-  ],
-  "market_data.atl.zar": [
+  "market_data.atl.{*}": [
+   "integer",
    "number"
   ],
   "market_data.atl_change_percentage": [
@@ -677,195 +238,9 @@
   "market_data.current_price": [
    "object"
   ],
-  "market_data.current_price.aed": [
-   "integer"
-  ],
-  "market_data.current_price.ars": [
-   "integer"
-  ],
-  "market_data.current_price.aud": [
-   "integer"
-  ],
-  "market_data.current_price.bch": [
-   "number"
-  ],
-  "market_data.current_price.bdt": [
-   "integer"
-  ],
-  "market_data.current_price.bhd": [
-   "integer"
-  ],
-  "market_data.current_price.bits": [
-   "integer"
-  ],
-  "market_data.current_price.bmd": [
-   "integer"
-  ],
-  "market_data.current_price.bnb": [
-   "number"
-  ],
-  "market_data.current_price.brl": [
-   "integer"
-  ],
-  "market_data.current_price.btc": [
-   "number"
-  ],
-  "market_data.current_price.cad": [
-   "integer"
-  ],
-  "market_data.current_price.chf": [
-   "integer"
-  ],
-  "market_data.current_price.clp": [
-   "integer"
-  ],
-  "market_data.current_price.cny": [
-   "integer"
-  ],
-  "market_data.current_price.czk": [
-   "integer"
-  ],
-  "market_data.current_price.dkk": [
-   "integer"
-  ],
-  "market_data.current_price.dot": [
-   "integer"
-  ],
-  "market_data.current_price.eos": [
-   "integer"
-  ],
-  "market_data.current_price.eth": [
-   "number"
-  ],
-  "market_data.current_price.eur": [
-   "integer"
-  ],
-  "market_data.current_price.gbp": [
-   "integer"
-  ],
-  "market_data.current_price.gel": [
-   "integer"
-  ],
-  "market_data.current_price.hkd": [
-   "integer"
-  ],
-  "market_data.current_price.huf": [
-   "integer"
-  ],
-  "market_data.current_price.idr": [
-   "integer"
-  ],
-  "market_data.current_price.ils": [
-   "integer"
-  ],
-  "market_data.current_price.inr": [
-   "integer"
-  ],
-  "market_data.current_price.jpy": [
-   "integer"
-  ],
-  "market_data.current_price.krw": [
-   "integer"
-  ],
-  "market_data.current_price.kwd": [
+  "market_data.current_price.{*}": [
    "integer",
    "number"
-  ],
-  "market_data.current_price.link": [
-   "integer"
-  ],
-  "market_data.current_price.lkr": [
-   "integer"
-  ],
-  "market_data.current_price.ltc": [
-   "integer"
-  ],
-  "market_data.current_price.mmk": [
-   "integer"
-  ],
-  "market_data.current_price.mxn": [
-   "integer"
-  ],
-  "market_data.current_price.myr": [
-   "integer"
-  ],
-  "market_data.current_price.ngn": [
-   "integer"
-  ],
-  "market_data.current_price.nok": [
-   "integer"
-  ],
-  "market_data.current_price.nzd": [
-   "integer"
-  ],
-  "market_data.current_price.php": [
-   "integer"
-  ],
-  "market_data.current_price.pkr": [
-   "integer"
-  ],
-  "market_data.current_price.pln": [
-   "integer"
-  ],
-  "market_data.current_price.rub": [
-   "integer"
-  ],
-  "market_data.current_price.sar": [
-   "integer"
-  ],
-  "market_data.current_price.sats": [
-   "integer"
-  ],
-  "market_data.current_price.sek": [
-   "integer"
-  ],
-  "market_data.current_price.sgd": [
-   "integer"
-  ],
-  "market_data.current_price.sol": [
-   "number"
-  ],
-  "market_data.current_price.thb": [
-   "integer"
-  ],
-  "market_data.current_price.try": [
-   "integer"
-  ],
-  "market_data.current_price.twd": [
-   "integer"
-  ],
-  "market_data.current_price.uah": [
-   "integer"
-  ],
-  "market_data.current_price.usd": [
-   "integer"
-  ],
-  "market_data.current_price.vef": [
-   "number"
-  ],
-  "market_data.current_price.vnd": [
-   "integer"
-  ],
-  "market_data.current_price.xag": [
-   "number"
-  ],
-  "market_data.current_price.xau": [
-   "number"
-  ],
-  "market_data.current_price.xdr": [
-   "integer"
-  ],
-  "market_data.current_price.xlm": [
-   "integer"
-  ],
-  "market_data.current_price.xrp": [
-   "integer"
-  ],
-  "market_data.current_price.yfi": [
-   "number"
-  ],
-  "market_data.current_price.zar": [
-   "integer"
   ],
   "market_data.fdv_to_tvl_ratio": [
    "null"
@@ -879,194 +254,9 @@
   "market_data.high_24h": [
    "object"
   ],
-  "market_data.high_24h.aed": [
-   "integer"
-  ],
-  "market_data.high_24h.ars": [
-   "integer"
-  ],
-  "market_data.high_24h.aud": [
-   "integer"
-  ],
-  "market_data.high_24h.bch": [
+  "market_data.high_24h.{*}": [
+   "integer",
    "number"
-  ],
-  "market_data.high_24h.bdt": [
-   "integer"
-  ],
-  "market_data.high_24h.bhd": [
-   "integer"
-  ],
-  "market_data.high_24h.bits": [
-   "integer"
-  ],
-  "market_data.high_24h.bmd": [
-   "integer"
-  ],
-  "market_data.high_24h.bnb": [
-   "number"
-  ],
-  "market_data.high_24h.brl": [
-   "integer"
-  ],
-  "market_data.high_24h.btc": [
-   "number"
-  ],
-  "market_data.high_24h.cad": [
-   "integer"
-  ],
-  "market_data.high_24h.chf": [
-   "integer"
-  ],
-  "market_data.high_24h.clp": [
-   "integer"
-  ],
-  "market_data.high_24h.cny": [
-   "integer"
-  ],
-  "market_data.high_24h.czk": [
-   "integer"
-  ],
-  "market_data.high_24h.dkk": [
-   "integer"
-  ],
-  "market_data.high_24h.dot": [
-   "integer"
-  ],
-  "market_data.high_24h.eos": [
-   "integer"
-  ],
-  "market_data.high_24h.eth": [
-   "number"
-  ],
-  "market_data.high_24h.eur": [
-   "integer"
-  ],
-  "market_data.high_24h.gbp": [
-   "integer"
-  ],
-  "market_data.high_24h.gel": [
-   "integer"
-  ],
-  "market_data.high_24h.hkd": [
-   "integer"
-  ],
-  "market_data.high_24h.huf": [
-   "integer"
-  ],
-  "market_data.high_24h.idr": [
-   "integer"
-  ],
-  "market_data.high_24h.ils": [
-   "integer"
-  ],
-  "market_data.high_24h.inr": [
-   "integer"
-  ],
-  "market_data.high_24h.jpy": [
-   "integer"
-  ],
-  "market_data.high_24h.krw": [
-   "integer"
-  ],
-  "market_data.high_24h.kwd": [
-   "integer"
-  ],
-  "market_data.high_24h.link": [
-   "integer"
-  ],
-  "market_data.high_24h.lkr": [
-   "integer"
-  ],
-  "market_data.high_24h.ltc": [
-   "integer"
-  ],
-  "market_data.high_24h.mmk": [
-   "integer"
-  ],
-  "market_data.high_24h.mxn": [
-   "integer"
-  ],
-  "market_data.high_24h.myr": [
-   "integer"
-  ],
-  "market_data.high_24h.ngn": [
-   "integer"
-  ],
-  "market_data.high_24h.nok": [
-   "integer"
-  ],
-  "market_data.high_24h.nzd": [
-   "integer"
-  ],
-  "market_data.high_24h.php": [
-   "integer"
-  ],
-  "market_data.high_24h.pkr": [
-   "integer"
-  ],
-  "market_data.high_24h.pln": [
-   "integer"
-  ],
-  "market_data.high_24h.rub": [
-   "integer"
-  ],
-  "market_data.high_24h.sar": [
-   "integer"
-  ],
-  "market_data.high_24h.sats": [
-   "integer"
-  ],
-  "market_data.high_24h.sek": [
-   "integer"
-  ],
-  "market_data.high_24h.sgd": [
-   "integer"
-  ],
-  "market_data.high_24h.sol": [
-   "number"
-  ],
-  "market_data.high_24h.thb": [
-   "integer"
-  ],
-  "market_data.high_24h.try": [
-   "integer"
-  ],
-  "market_data.high_24h.twd": [
-   "integer"
-  ],
-  "market_data.high_24h.uah": [
-   "integer"
-  ],
-  "market_data.high_24h.usd": [
-   "integer"
-  ],
-  "market_data.high_24h.vef": [
-   "number"
-  ],
-  "market_data.high_24h.vnd": [
-   "integer"
-  ],
-  "market_data.high_24h.xag": [
-   "number"
-  ],
-  "market_data.high_24h.xau": [
-   "number"
-  ],
-  "market_data.high_24h.xdr": [
-   "integer"
-  ],
-  "market_data.high_24h.xlm": [
-   "integer"
-  ],
-  "market_data.high_24h.xrp": [
-   "integer"
-  ],
-  "market_data.high_24h.yfi": [
-   "number"
-  ],
-  "market_data.high_24h.zar": [
-   "integer"
   ],
   "market_data.last_updated": [
    "string"
@@ -1074,195 +264,9 @@
   "market_data.low_24h": [
    "object"
   ],
-  "market_data.low_24h.aed": [
-   "integer"
-  ],
-  "market_data.low_24h.ars": [
-   "integer"
-  ],
-  "market_data.low_24h.aud": [
-   "integer"
-  ],
-  "market_data.low_24h.bch": [
-   "number"
-  ],
-  "market_data.low_24h.bdt": [
-   "integer"
-  ],
-  "market_data.low_24h.bhd": [
-   "integer"
-  ],
-  "market_data.low_24h.bits": [
-   "integer"
-  ],
-  "market_data.low_24h.bmd": [
-   "integer"
-  ],
-  "market_data.low_24h.bnb": [
-   "number"
-  ],
-  "market_data.low_24h.brl": [
-   "integer"
-  ],
-  "market_data.low_24h.btc": [
-   "number"
-  ],
-  "market_data.low_24h.cad": [
-   "integer"
-  ],
-  "market_data.low_24h.chf": [
-   "integer"
-  ],
-  "market_data.low_24h.clp": [
-   "integer"
-  ],
-  "market_data.low_24h.cny": [
-   "integer"
-  ],
-  "market_data.low_24h.czk": [
-   "integer"
-  ],
-  "market_data.low_24h.dkk": [
-   "integer"
-  ],
-  "market_data.low_24h.dot": [
-   "integer"
-  ],
-  "market_data.low_24h.eos": [
-   "integer"
-  ],
-  "market_data.low_24h.eth": [
-   "number"
-  ],
-  "market_data.low_24h.eur": [
-   "integer"
-  ],
-  "market_data.low_24h.gbp": [
-   "integer"
-  ],
-  "market_data.low_24h.gel": [
-   "integer"
-  ],
-  "market_data.low_24h.hkd": [
-   "integer"
-  ],
-  "market_data.low_24h.huf": [
-   "integer"
-  ],
-  "market_data.low_24h.idr": [
-   "integer"
-  ],
-  "market_data.low_24h.ils": [
-   "integer"
-  ],
-  "market_data.low_24h.inr": [
-   "integer"
-  ],
-  "market_data.low_24h.jpy": [
-   "integer"
-  ],
-  "market_data.low_24h.krw": [
-   "integer"
-  ],
-  "market_data.low_24h.kwd": [
+  "market_data.low_24h.{*}": [
    "integer",
    "number"
-  ],
-  "market_data.low_24h.link": [
-   "integer"
-  ],
-  "market_data.low_24h.lkr": [
-   "integer"
-  ],
-  "market_data.low_24h.ltc": [
-   "integer"
-  ],
-  "market_data.low_24h.mmk": [
-   "integer"
-  ],
-  "market_data.low_24h.mxn": [
-   "integer"
-  ],
-  "market_data.low_24h.myr": [
-   "integer"
-  ],
-  "market_data.low_24h.ngn": [
-   "integer"
-  ],
-  "market_data.low_24h.nok": [
-   "integer"
-  ],
-  "market_data.low_24h.nzd": [
-   "integer"
-  ],
-  "market_data.low_24h.php": [
-   "integer"
-  ],
-  "market_data.low_24h.pkr": [
-   "integer"
-  ],
-  "market_data.low_24h.pln": [
-   "integer"
-  ],
-  "market_data.low_24h.rub": [
-   "integer"
-  ],
-  "market_data.low_24h.sar": [
-   "integer"
-  ],
-  "market_data.low_24h.sats": [
-   "integer"
-  ],
-  "market_data.low_24h.sek": [
-   "integer"
-  ],
-  "market_data.low_24h.sgd": [
-   "integer"
-  ],
-  "market_data.low_24h.sol": [
-   "number"
-  ],
-  "market_data.low_24h.thb": [
-   "integer"
-  ],
-  "market_data.low_24h.try": [
-   "integer"
-  ],
-  "market_data.low_24h.twd": [
-   "integer"
-  ],
-  "market_data.low_24h.uah": [
-   "integer"
-  ],
-  "market_data.low_24h.usd": [
-   "integer"
-  ],
-  "market_data.low_24h.vef": [
-   "number"
-  ],
-  "market_data.low_24h.vnd": [
-   "integer"
-  ],
-  "market_data.low_24h.xag": [
-   "number"
-  ],
-  "market_data.low_24h.xau": [
-   "number"
-  ],
-  "market_data.low_24h.xdr": [
-   "integer"
-  ],
-  "market_data.low_24h.xlm": [
-   "integer"
-  ],
-  "market_data.low_24h.xrp": [
-   "integer"
-  ],
-  "market_data.low_24h.yfi": [
-   "number"
-  ],
-  "market_data.low_24h.zar": [
-   "integer"
   ],
   "market_data.market_cap": [
    "object"
@@ -1277,7 +281,8 @@
    "object"
   ],
   "market_data.market_cap_change_24h_in_currency.{*}": [
-   "integer"
+   "integer",
+   "number"
   ],
   "market_data.market_cap_change_percentage_24h": [
    "number"
@@ -1313,14 +318,12 @@
    "null"
   ],
   "market_data.price_change_24h": [
-   "integer",
-   "number"
+   "integer"
   ],
   "market_data.price_change_24h_in_currency": [
    "object"
   ],
   "market_data.price_change_24h_in_currency.aed": [
-   "integer",
    "number"
   ],
   "market_data.price_change_24h_in_currency.ars": [
@@ -1333,8 +336,7 @@
    "number"
   ],
   "market_data.price_change_24h_in_currency.bdt": [
-   "integer",
-   "number"
+   "integer"
   ],
   "market_data.price_change_24h_in_currency.bhd": [
    "number"
@@ -1349,8 +351,7 @@
    "number"
   ],
   "market_data.price_change_24h_in_currency.brl": [
-   "integer",
-   "number"
+   "integer"
   ],
   "market_data.price_change_24h_in_currency.btc": [
    "number"
@@ -1365,23 +366,18 @@
    "integer"
   ],
   "market_data.price_change_24h_in_currency.cny": [
-   "integer",
-   "number"
+   "integer"
   ],
   "market_data.price_change_24h_in_currency.czk": [
-   "integer",
-   "number"
+   "integer"
   ],
   "market_data.price_change_24h_in_currency.dkk": [
-   "integer",
-   "number"
+   "integer"
   ],
   "market_data.price_change_24h_in_currency.dot": [
-   "integer",
    "number"
   ],
   "market_data.price_change_24h_in_currency.eos": [
-   "integer",
    "number"
   ],
   "market_data.price_change_24h_in_currency.eth": [
@@ -1397,8 +393,7 @@
    "number"
   ],
   "market_data.price_change_24h_in_currency.hkd": [
-   "integer",
-   "number"
+   "integer"
   ],
   "market_data.price_change_24h_in_currency.huf": [
    "integer"
@@ -1407,7 +402,6 @@
    "integer"
   ],
   "market_data.price_change_24h_in_currency.ils": [
-   "integer",
    "number"
   ],
   "market_data.price_change_24h_in_currency.inr": [
@@ -1435,19 +429,16 @@
    "integer"
   ],
   "market_data.price_change_24h_in_currency.mxn": [
-   "integer",
-   "number"
+   "integer"
   ],
   "market_data.price_change_24h_in_currency.myr": [
-   "integer",
    "number"
   ],
   "market_data.price_change_24h_in_currency.ngn": [
    "integer"
   ],
   "market_data.price_change_24h_in_currency.nok": [
-   "integer",
-   "number"
+   "integer"
   ],
   "market_data.price_change_24h_in_currency.nzd": [
    "number"
@@ -1459,23 +450,19 @@
    "integer"
   ],
   "market_data.price_change_24h_in_currency.pln": [
-   "integer",
    "number"
   ],
   "market_data.price_change_24h_in_currency.rub": [
    "integer"
   ],
   "market_data.price_change_24h_in_currency.sar": [
-   "integer",
    "number"
   ],
   "market_data.price_change_24h_in_currency.sats": [
-   "integer",
-   "number"
+   "integer"
   ],
   "market_data.price_change_24h_in_currency.sek": [
-   "integer",
-   "number"
+   "integer"
   ],
   "market_data.price_change_24h_in_currency.sgd": [
    "number"
@@ -1484,20 +471,16 @@
    "number"
   ],
   "market_data.price_change_24h_in_currency.thb": [
-   "integer",
-   "number"
+   "integer"
   ],
   "market_data.price_change_24h_in_currency.try": [
-   "integer",
-   "number"
+   "integer"
   ],
   "market_data.price_change_24h_in_currency.twd": [
-   "integer",
-   "number"
+   "integer"
   ],
   "market_data.price_change_24h_in_currency.uah": [
-   "integer",
-   "number"
+   "integer"
   ],
   "market_data.price_change_24h_in_currency.usd": [
    "number"
@@ -1518,19 +501,16 @@
    "number"
   ],
   "market_data.price_change_24h_in_currency.xlm": [
-   "integer",
    "number"
   ],
   "market_data.price_change_24h_in_currency.xrp": [
-   "integer",
    "number"
   ],
   "market_data.price_change_24h_in_currency.yfi": [
    "number"
   ],
   "market_data.price_change_24h_in_currency.zar": [
-   "integer",
-   "number"
+   "integer"
   ],
   "market_data.price_change_percentage_14d": [
    "number"

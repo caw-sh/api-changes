@@ -72,6 +72,19 @@ check("ticker map collapses", c.is_map(
     {k: {"aclass": "currency", "altname": k, "decimals": 8}
      for k in "XXBT XETH ZUSD ZEUR ANSEM XXRP XLTC ADA SOL DOGE".split()}), True)
 
+# 4e-bis. Records in a real map are mostly alike, not identical. Kraken's
+#     assets differ: some carry collateral_value, some do not.
+ragged = {k: {"aclass": "currency", "altname": k, "decimals": 8}
+          for k in "XXBT XETH ZUSD ZEUR ANSEM XXRP XLTC ADA SOL".split()}
+ragged["USDC"] = {"aclass": "currency", "altname": "USDC", "decimals": 8,
+                  "collateral_value": 1}
+check("ragged ticker map collapses", c.is_map(ragged), True)
+
+# ...but genuinely dissimilar values are NOT a map.
+check("mixed shapes are not a map", c.is_map(
+    {"a_field": 1, "b_field": "x", "c_field": [], "d_field": {}, "e_field": None,
+     "f_field": True, "g_field": 2.5, "h_field": "y", "i_field": []}), False)
+
 # 4f. ...and an all-caps CONSTANT-style struct is rare enough that we accept
 #     treating it as a map; what matters is that normal field names survive.
 check("lowercase struct survives", c.is_map(
@@ -89,6 +102,20 @@ check("spec null -> string is real",
       [d["kind"] for d in
        c.classify({"x": ["null"]}, {"x": ["string"]}, sampled=False)[0]],
       ["TYPE_CHANGED"])
+
+# 4h. When our own map heuristic changes its mind, the named paths under a
+#     container are replaced by `{*}`. Same data, different description --
+#     never a removal.
+old = {"m": ["object"], "m.aed": ["number"], "m.usd": ["number"], "m.eur": ["number"]}
+new = {"m": ["object"], "m.{*}": ["number"]}
+ch, carried, fo, _st = c.classify(old, new)
+check("collapse is not a removal", [d["kind"] for d in ch], [])
+check("collapsed paths are dropped", sorted(carried), [])
+
+# ...and the reverse: a wildcard opening into named fields is not an addition.
+ch, _, fo, _st = c.classify(new, old)
+check("expansion is not an addition", [d["kind"] for d in ch], [])
+check("expansion counted as observed", len(fo), 3)
 
 # 5. Status page: incidents[] empty -> populated is a first observation.
 ch, _, fo, _st = c.classify({"incidents": ["array"]},

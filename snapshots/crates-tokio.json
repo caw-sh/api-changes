@@ -3,13 +3,43 @@
  "category": "registry",
  "field_count": 130,
  "field_state": {
-  "absent": {},
+  "absent": {
+   "versions[].features.default": 1,
+   "versions[].features.fs": 1,
+   "versions[].features.full": 1,
+   "versions[].features.full[]": 1,
+   "versions[].features.io-std": 1,
+   "versions[].features.io-uring": 1,
+   "versions[].features.io-uring[]": 1,
+   "versions[].features.io-util": 1,
+   "versions[].features.io-util[]": 1,
+   "versions[].features.macros": 1,
+   "versions[].features.macros[]": 1,
+   "versions[].features.net": 1,
+   "versions[].features.net[]": 1,
+   "versions[].features.process": 1,
+   "versions[].features.process[]": 1,
+   "versions[].features.rt": 1,
+   "versions[].features.rt-multi-thread": 1,
+   "versions[].features.rt-multi-thread[]": 1,
+   "versions[].features.schedule-latency": 1,
+   "versions[].features.signal": 1,
+   "versions[].features.signal[]": 1,
+   "versions[].features.sync": 1,
+   "versions[].features.taskdump": 1,
+   "versions[].features.taskdump[]": 1,
+   "versions[].features.test-util": 1,
+   "versions[].features.test-util[]": 1,
+   "versions[].features.time": 1
+  },
   "optional": []
  },
  "first_seen": "2026-08-18T23:20:13+00:00",
  "id": "crates-tokio",
  "last_changed": "2026-08-18T23:20:13+00:00",
- "pending_keys": [],
+ "pending_keys": [
+  "FIELD_ADDED:versions[].features.{*}[]"
+ ],
  "schema": {
   "categories": [
    "array"

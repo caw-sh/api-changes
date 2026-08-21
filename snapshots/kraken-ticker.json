@@ -3,13 +3,33 @@
  "category": "finance",
  "field_count": 20,
  "field_state": {
-  "absent": {},
+  "absent": {
+   "result.XXBTZUSD.a": 1,
+   "result.XXBTZUSD.a[]": 1,
+   "result.XXBTZUSD.b": 1,
+   "result.XXBTZUSD.b[]": 1,
+   "result.XXBTZUSD.c": 1,
+   "result.XXBTZUSD.c[]": 1,
+   "result.XXBTZUSD.h": 1,
+   "result.XXBTZUSD.h[]": 1,
+   "result.XXBTZUSD.l": 1,
+   "result.XXBTZUSD.l[]": 1,
+   "result.XXBTZUSD.o": 1,
+   "result.XXBTZUSD.p": 1,
+   "result.XXBTZUSD.p[]": 1,
+   "result.XXBTZUSD.t": 1,
+   "result.XXBTZUSD.t[]": 1,
+   "result.XXBTZUSD.v": 1,
+   "result.XXBTZUSD.v[]": 1
+  },
   "optional": []
  },
  "first_seen": "2026-08-18T23:20:13+00:00",
  "id": "kraken-ticker",
  "last_changed": "2026-08-18T23:20:13+00:00",
- "pending_keys": [],
+ "pending_keys": [
+  "FIELD_ADDED:result.XXBTZUSD.{*}[]"
+ ],
  "schema": {
   "error": [
    "array"

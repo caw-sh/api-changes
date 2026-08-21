@@ -6,6 +6,7 @@ Stores response *shape* (field names + types) — never response values.
 """
 from __future__ import annotations
 
+import collections
 import json
 import os
 import re
@@ -112,6 +113,34 @@ def keys_look_like_fields(node: dict) -> bool:
     return wordy / len(keys) >= 0.6
 
 
+def values_are_uniform(vals: list) -> bool:
+    """Do these values look like records drawn from one schema?
+
+    Counting identical shape signatures is the wrong test, and Kraken proves
+    it: of 40 sampled assets, the most common shape covers only 24. Some carry
+    `collateral_value`, some omit `margin_rate`. No ratio of exact-shape
+    matches separates that from a genuine struct without picking a number and
+    hoping.
+
+    What records actually share is a CORE SET OF KEYS. Kraken's assets all
+    carry aclass/altname/decimals/display_decimals/status -- five keys common
+    to every one, out of about six each. That is a schema, whatever the
+    optional extras.
+    """
+    if all(isinstance(v, dict) for v in vals):
+        keysets = [set(v) for v in vals if v]
+        if not keysets:
+            return False
+        common = set.intersection(*keysets)
+        mean = sum(len(k) for k in keysets) / len(keysets)
+        return bool(mean) and len(common) / mean >= 0.6
+
+    # Scalars and arrays have no key set to compare, so fall back to type
+    # agreement: a map of prices is all numbers, a map of URLs all strings.
+    types = collections.Counter(type_of(v) for v in vals)
+    return types.most_common(1)[0][1] / len(vals) >= 0.7
+
+
 def is_map(node: dict) -> bool:
     """True when an object is a dictionary of records keyed by id/name/date/symbol
     rather than a fixed struct. Keys like these change constantly (a new coin is
@@ -124,7 +153,8 @@ def is_map(node: dict) -> bool:
     if len(node) < MAP_MIN_KEYS:
         return False
     vals = list(node.values())[:40]
-    if len({shape_sig(v) for v in vals}) != 1:
+
+    if not values_are_uniform(vals):
         return False
     return not keys_look_like_fields(node)
 
@@ -162,6 +192,16 @@ def _parent(path: str) -> str:
     if "." in path:
         return path.rsplit(".", 1)[0]
     return ""
+
+
+def shadowed_by(path: str, parents: set) -> bool:
+    """True when `path` sits under one of `parents`, at any depth."""
+    cur = path
+    while cur:
+        cur = _parent(cur)
+        if cur in parents:
+            return True
+    return False
 
 
 def unobserved(schema: dict) -> set:
@@ -369,6 +409,16 @@ def classify(old: dict, new: dict, sampled: bool = True, state: dict | None = No
     optional = set(state.get("optional", []))
     absent = dict(state.get("absent", {}))
 
+    # Parents whose children are now represented by a single `{*}` wildcard.
+    # When our own map heuristic changes its mind about a container, the named
+    # paths under it stop appearing. That is a change in how WE describe the
+    # payload, not a change the vendor made -- reporting it would have filed
+    # ~500 breaking removals against CoinGecko for currency keys that are
+    # still there.
+    collapsed = {_parent(p) for p in new if p.rsplit(".", 1)[-1] == "{*}"}
+    had_named = {_parent(p) for p in old if p.rsplit(".", 1)[-1] != "{*}"}
+    expanded = {_parent(p) for p in old if p.rsplit(".", 1)[-1] == "{*}"} - collapsed
+
     blind_new = unobserved(new)
     blind_old = unobserved(old)
     changes, carried, first_obs = [], {}, []
@@ -389,12 +439,20 @@ def classify(old: dict, new: dict, sampled: bool = True, state: dict | None = No
         if sampled and shadowed(path, blind_old):
             first_obs.append(path)
             continue
+        if shadowed_by(path, expanded):
+            first_obs.append(path)      # wildcard opened up; same data, new shape
+            continue
+        if path.rsplit(".", 1)[-1] == "{*}" and _parent(path) in had_named:
+            first_obs.append(path)      # named fields folded into this wildcard
+            continue
         changes.append({"kind": "FIELD_ADDED", "path": path, "to": new[path], "severity": "info"})
 
     for path in sorted(set(old) - set(new)):
         if shadowed(path, blind_new):
             carried[path] = old[path]
             continue
+        if shadowed_by(path, collapsed):
+            continue                    # folded into `{*}`; drop, do not report
         if sampled and path in optional:
             carried[path] = old[path]        # known to blink; never report
             continue

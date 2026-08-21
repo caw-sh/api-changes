@@ -2,7 +2,10 @@
  "auth": "anon",
  "category": "dev-infra",
  "field_count": 130,
- "field_state": {},
+ "field_state": {
+  "absent": {},
+  "optional": []
+ },
  "first_seen": "2026-08-21T07:21:43+00:00",
  "id": "github-repo",
  "last_changed": "2026-08-21T08:00:47+00:00",
