@@ -66,6 +66,30 @@ check("sprite struct is not a map", c.is_map(
                                     "front_default", "front_shiny", "front_transparent",
                                     "back_gray", "front_gray"]}), False)
 
+# 4e. Kraken keys its asset list by ticker symbol. Listing a new coin must not
+#     read as new schema fields.
+check("ticker map collapses", c.is_map(
+    {k: {"aclass": "currency", "altname": k, "decimals": 8}
+     for k in "XXBT XETH ZUSD ZEUR ANSEM XXRP XLTC ADA SOL DOGE".split()}), True)
+
+# 4f. ...and an all-caps CONSTANT-style struct is rare enough that we accept
+#     treating it as a map; what matters is that normal field names survive.
+check("lowercase struct survives", c.is_map(
+    {k: "x" for k in ["media_type", "service_version", "explanation",
+                      "copyright", "hdurl", "title", "date", "url"]}), False)
+
+# 4g. A baseline that only ever saw null, now seeing a real type, is us
+#     learning the field -- not the vendor changing it.
+check("null -> string is widening",
+      [(d["kind"], d["severity"]) for d in
+       c.classify({"x": ["null"]}, {"x": ["string"]})[0]],
+      [("TYPE_WIDENED", "info")])
+
+check("spec null -> string is real",
+      [d["kind"] for d in
+       c.classify({"x": ["null"]}, {"x": ["string"]}, sampled=False)[0]],
+      ["TYPE_CHANGED"])
+
 # 5. Status page: incidents[] empty -> populated is a first observation.
 ch, _, fo, _st = c.classify({"incidents": ["array"]},
                        {"incidents": ["array"], "incidents[]": ["object"],

@@ -26,7 +26,7 @@ SNAPDIR = ROOT / "snapshots"
 # versions ARRAY, not an object keyed by version. Arrays are unioned, not
 # collapsed. This list is for objects whose KEYS come from data.)
 MUST_COLLAPSE = ["npm-express", "npm-typescript", "packagist-monolog",
-                 "coingecko-coin"]
+                 "coingecko-coin", "kraken-assets"]
 
 # Endpoints that are fixed structs. A `{*}` here means real field names were
 # swallowed, which is how NASA's APOD lost every field for two days.

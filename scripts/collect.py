@@ -84,7 +84,8 @@ def shape_sig(v, depth: int = 0) -> str:
 # identifier drawn from data. `service_version` is a field. `aws/aws-sdk-php`,
 # `./unstable/ast`, `aed` and `9f2c1b` are values that happen to be in key
 # position.
-FIELD_NAME = re.compile(r"[A-Za-z_][A-Za-z0-9_]{3,}$")
+FIELD_NAME = re.compile(r"[a-z_][A-Za-z0-9_]{3,}$")
+ALL_CAPS = re.compile(r"[A-Z0-9_]+$")
 
 
 def keys_look_like_fields(node: dict) -> bool:
@@ -103,7 +104,11 @@ def keys_look_like_fields(node: dict) -> bool:
     keys = list(node)[:60]
     if not keys:
         return False
-    wordy = sum(1 for k in keys if FIELD_NAME.match(k))
+    # An ALL-CAPS key is a code, not a field name. Kraken keys its asset list by
+    # ticker -- ANSEM, XXBT, ZUSD -- and every one of those is long enough to
+    # look like an identifier. Without this, listing a new coin reads as seven
+    # new schema fields.
+    wordy = sum(1 for k in keys if FIELD_NAME.match(k) and not ALL_CAPS.match(k))
     return wordy / len(keys) >= 0.6
 
 
@@ -426,6 +431,12 @@ def classify(old: dict, new: dict, sampled: bool = True, state: dict | None = No
             # drew a null. Calling this breaking would flag every optional field
             # in every API the first time it happens to be empty.
             kind, sev = "NULLABILITY", "warning"
+        elif sampled and a == {"null"}:
+            # The mirror case, and the one I missed first time round. Every
+            # value we had ever drawn was null, so the baseline recorded only
+            # `null`. Seeing a real type now tells us what the field actually
+            # holds -- that is us learning, not the vendor changing.
+            kind, sev = "TYPE_WIDENED", "info"
         else:
             kind, sev = "TYPE_CHANGED", "breaking"
         changes.append({"kind": kind, "path": path,

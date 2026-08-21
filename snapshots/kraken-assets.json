@@ -2,13 +2,10 @@
  "auth": "anon",
  "category": "finance",
  "field_count": 5679,
- "field_state": {
-  "absent": {},
-  "optional": []
- },
- "first_seen": "2026-08-18T23:20:13+00:00",
+ "field_state": {},
+ "first_seen": "2026-08-21T19:20:36+00:00",
  "id": "kraken-assets",
- "last_changed": "2026-08-21T13:32:32+00:00",
+ "last_changed": "2026-08-21T19:20:36+00:00",
  "pending_keys": [],
  "schema": {
   "error": [
