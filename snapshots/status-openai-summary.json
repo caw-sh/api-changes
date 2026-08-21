@@ -24,6 +24,7 @@
   "FIELD_ADDED:incidents[].incident_updates[].incident_id",
   "FIELD_ADDED:incidents[].incident_updates[].status",
   "FIELD_ADDED:incidents[].incident_updates[].updated_at",
+  "FIELD_ADDED:incidents[].monitoring_at",
   "FIELD_ADDED:incidents[].name",
   "FIELD_ADDED:incidents[].page_id",
   "FIELD_ADDED:incidents[].status",
