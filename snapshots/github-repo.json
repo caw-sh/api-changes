@@ -1,18 +1,10 @@
 {
  "category": "dev-infra",
- "field_count": 130,
+ "field_count": 136,
  "first_seen": "2026-08-21T07:21:43+00:00",
  "id": "github-repo",
- "last_changed": "2026-08-21T07:21:43+00:00",
- "pending_keys": [
-  "FIELD_ADDED:permissions",
-  "FIELD_ADDED:permissions.admin",
-  "FIELD_ADDED:permissions.maintain",
-  "FIELD_ADDED:permissions.pull",
-  "FIELD_ADDED:permissions.push",
-  "FIELD_ADDED:permissions.triage",
-  "TYPE_CHANGED:temp_clone_token"
- ],
+ "last_changed": "2026-08-21T08:00:47+00:00",
+ "pending_keys": [],
  "schema": {
   "allow_forking": [
    "boolean"
@@ -326,6 +318,24 @@
   "owner.user_view_type": [
    "string"
   ],
+  "permissions": [
+   "object"
+  ],
+  "permissions.admin": [
+   "boolean"
+  ],
+  "permissions.maintain": [
+   "boolean"
+  ],
+  "permissions.pull": [
+   "boolean"
+  ],
+  "permissions.push": [
+   "boolean"
+  ],
+  "permissions.triage": [
+   "boolean"
+  ],
   "private": [
    "boolean"
   ],
@@ -375,7 +385,8 @@
    "string"
   ],
   "temp_clone_token": [
-   "null"
+   "null",
+   "string"
   ],
   "topics": [
    "array"
