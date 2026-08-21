@@ -327,6 +327,7 @@
    "object"
   ],
   "market_data.price_change_24h_in_currency.aed": [
+   "integer",
    "number"
   ],
   "market_data.price_change_24h_in_currency.ars": [
@@ -455,12 +456,14 @@
    "integer"
   ],
   "market_data.price_change_24h_in_currency.pln": [
+   "integer",
    "number"
   ],
   "market_data.price_change_24h_in_currency.rub": [
    "integer"
   ],
   "market_data.price_change_24h_in_currency.sar": [
+   "integer",
    "number"
   ],
   "market_data.price_change_24h_in_currency.sats": [
