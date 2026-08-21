@@ -44,6 +44,28 @@ check("currency map collapses", c.is_map(cur), True)
 recs = {f"id{i}": {"a": 1, "b": "x"} for i in range(8)}
 check("record map collapses", c.is_map(recs), True)
 
+# 4c. Real dynamic maps whose key count sits below any sane threshold.
+check("npm devDependencies is a map", c.is_map(
+    {k: "^1.0.0" for k in ("after connect-redis cookie-parser cookie-session ejs "
+                           "eslint express-session hbs marked morgan multiparty "
+                           "pbkdf2-password supertest vhost").split()}), True)
+
+check("composer require-dev is a map", c.is_map(
+    {k: "^1.0" for k in ("aws/aws-sdk-php doctrine/couchdb ext-json graylog2/gelf-php "
+                         "guzzlehttp/guzzle mongodb/mongodb php-amqplib/php-amqplib "
+                         "phpstan/phpstan predis/predis symfony/mailer").split()}), True)
+
+check("package exports is a map", c.is_map(
+    {k: "./x.js" for k in ["./", "./package.json", "./unstable/ast", "./unstable/ast/clone",
+                           "./unstable/ast/factory", "./unstable/ast/is", "./lib",
+                           "./lib/x", "./types"]}), True)
+
+# 4d. ...and a fixed struct of URL fields is NOT a map, at the same key count.
+check("sprite struct is not a map", c.is_map(
+    {k: "https://x/y.png" for k in ["back_default", "back_shiny", "back_transparent",
+                                    "front_default", "front_shiny", "front_transparent",
+                                    "back_gray", "front_gray"]}), False)
+
 # 5. Status page: incidents[] empty -> populated is a first observation.
 ch, _, fo = c.classify({"incidents": ["array"]},
                        {"incidents": ["array"], "incidents[]": ["object"],

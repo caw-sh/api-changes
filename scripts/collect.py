@@ -80,33 +80,48 @@ def shape_sig(v, depth: int = 0) -> str:
     return type_of(v)
 
 
-SCALAR_MAP_MIN_KEYS = 20   # scalar-valued objects need far more keys to look dynamic
+# A key that reads like a field name written by a human: a word, not an
+# identifier drawn from data. `service_version` is a field. `aws/aws-sdk-php`,
+# `./unstable/ast`, `aed` and `9f2c1b` are values that happen to be in key
+# position.
+FIELD_NAME = re.compile(r"[A-Za-z_][A-Za-z0-9_]{3,}$")
+
+
+def keys_look_like_fields(node: dict) -> bool:
+    """Do these keys look authored, or drawn from data?
+
+    Counting keys is the wrong signal, and the two failures that taught me so
+    sit either side of any threshold I picked:
+
+      NASA APOD    8 keys, all strings  -> a fixed struct
+      devDependencies  17 keys, all strings -> a dynamic map
+
+    Key *shape* separates them cleanly. Field names are words: `media_type`,
+    `service_version`. Data-derived keys carry punctuation (`aws/aws-sdk-php`,
+    `./unstable/ast`), or are short codes (`aed`, `btc`), or are ids.
+    """
+    keys = list(node)[:60]
+    if not keys:
+        return False
+    wordy = sum(1 for k in keys if FIELD_NAME.match(k))
+    return wordy / len(keys) >= 0.6
 
 
 def is_map(node: dict) -> bool:
     """True when an object is a dictionary of records keyed by id/name/date/symbol
     rather than a fixed struct. Keys like these change constantly (a new coin is
-    listed, a new date appears) and must not be reported as schema changes.
+    listed, a new dev dependency is added) and must not be reported as schema
+    changes.
 
-    The threshold depends on what the values are, and this matters more than it
-    looks. NASA's APOD response is a fixed struct of eight fields that all happen
-    to be strings -- identical value shapes, so the naive test called it a map and
-    collapsed every field into `{*}`. The next run it had seven fields, was not a
-    map, and every field appeared to have been deleted and re-added.
-
-    An object whose values are all *scalars* is usually a struct, so it needs many
-    more keys before we believe it is a map. An object whose values are all
-    identically-shaped *objects or arrays* is a much stronger signal.
+    Two conditions: the values must share a shape, and the keys must not look
+    like authored field names.
     """
     if len(node) < MAP_MIN_KEYS:
         return False
     vals = list(node.values())[:40]
-    sigs = {shape_sig(v) for v in vals}
-    if len(sigs) != 1:
+    if len({shape_sig(v) for v in vals}) != 1:
         return False
-    if all(not isinstance(v, (dict, list)) for v in vals):
-        return len(node) >= SCALAR_MAP_MIN_KEYS
-    return True
+    return not keys_look_like_fields(node)
 
 
 def walk(node, path: str, out: dict, depth: int = 0) -> None:
