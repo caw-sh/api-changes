@@ -30,6 +30,7 @@ jobs:
         run: |
           python scripts/test_collect.py
           python scripts/selftest.py
+          python scripts/corpus.py
 
       - name: Collect
         env:

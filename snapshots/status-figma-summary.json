@@ -1,6 +1,11 @@
 {
+ "auth": "anon",
  "category": "productivity",
  "field_count": 26,
+ "field_state": {
+  "absent": {},
+  "optional": []
+ },
  "first_seen": "2026-08-18T23:20:13+00:00",
  "id": "status-figma-summary",
  "last_changed": "2026-08-18T23:20:13+00:00",

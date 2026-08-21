@@ -1,6 +1,11 @@
 {
+ "auth": "anon",
  "category": "spec",
  "field_count": 1812,
+ "field_state": {
+  "absent": {},
+  "optional": []
+ },
  "first_seen": "2026-08-18T23:38:25+00:00",
  "id": "spec-square",
  "last_changed": "2026-08-18T23:38:25+00:00",

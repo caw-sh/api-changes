@@ -1,6 +1,11 @@
 {
+ "auth": "anon",
  "category": "comms",
  "field_count": 121,
+ "field_state": {
+  "absent": {},
+  "optional": []
+ },
  "first_seen": "2026-08-18T23:20:13+00:00",
  "id": "status-twilio-summary",
  "last_changed": "2026-08-19T21:05:03+00:00",

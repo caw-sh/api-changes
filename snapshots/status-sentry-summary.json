@@ -1,6 +1,11 @@
 {
+ "auth": "anon",
  "category": "dev-infra",
  "field_count": 75,
+ "field_state": {
+  "absent": {},
+  "optional": []
+ },
  "first_seen": "2026-08-18T23:20:13+00:00",
  "id": "status-sentry-summary",
  "last_changed": "2026-08-19T17:04:26+00:00",

@@ -251,6 +251,19 @@ def parse_body(body: bytes, url: str):
 # fetching
 # --------------------------------------------------------------------------
 
+def auth_mode_for(url: str) -> str:
+    """Which credentials this request will carry.
+
+    Recorded on every snapshot. An authenticated response is a different
+    document from an anonymous one -- diffing across the two measures our own
+    credentials, not the vendor's API.
+    """
+    tok = os.environ.get("GITHUB_TOKEN")
+    if tok and url.startswith("https://api.github.com"):
+        return "token"
+    return "anon"
+
+
 def fetch(url: str) -> dict:
     headers = {"User-Agent": UA, "Accept": "application/json, */*"}
     # CI runners share IPs; authenticating lifts GitHub's 60/hr anonymous limit
@@ -333,7 +346,10 @@ def norm_types(ts, sampled: bool) -> set:
     return ts
 
 
-def classify(old: dict, new: dict, sampled: bool = True) -> tuple:
+ABSENT_RUNS_TO_REMOVE = 3   # consecutive absences before we call a field gone
+
+
+def classify(old: dict, new: dict, sampled: bool = True, state: dict | None = None) -> tuple:
     """Returns (changes, carried, first_seen).
 
     `carried` holds old paths we deliberately did not report as removed because
@@ -344,9 +360,21 @@ def classify(old: dict, new: dict, sampled: bool = True) -> tuple:
     `sampled` is True for live payloads, where each run sees a different slice of
     the data, and False for OpenAPI specs, where the document is the contract and
     anything that disappears really is gone."""
+    state = state or {}
+    optional = set(state.get("optional", []))
+    absent = dict(state.get("absent", {}))
+
     blind_new = unobserved(new)
     blind_old = unobserved(old)
     changes, carried, first_obs = [], {}, []
+
+    # A field that came back is a field that was never gone. Record it as
+    # optional so its next disappearance is silent -- NASA's APOD omits
+    # `copyright` on public-domain images and `hdurl` on video days, and
+    # without this it files a removal every time the picture changes.
+    for path in set(new) & set(absent):
+        optional.add(path)
+        absent.pop(path, None)
 
     for path in sorted(set(new) - set(old)):
         # A status page returns `incidents: []` until something breaks. When an
@@ -362,7 +390,21 @@ def classify(old: dict, new: dict, sampled: bool = True) -> tuple:
         if shadowed(path, blind_new):
             carried[path] = old[path]
             continue
-        changes.append({"kind": "FIELD_REMOVED", "path": path, "from": old[path], "severity": "breaking"})
+        if sampled and path in optional:
+            carried[path] = old[path]        # known to blink; never report
+            continue
+        if sampled:
+            n = absent.get(path, 0) + 1
+            absent[path] = n
+            if n < ABSENT_RUNS_TO_REMOVE:
+                # Hold the field in the baseline. If it returns we learn it is
+                # optional; if it stays away we report it, with the streak on
+                # the record so the claim is auditable.
+                carried[path] = old[path]
+                continue
+        changes.append({"kind": "FIELD_REMOVED", "path": path, "from": old[path],
+                        "severity": "breaking",
+                        "absent_runs": absent.get(path, 1)})
 
     for path in sorted(set(old) & set(new)):
         a_raw, b_raw = old[path], new[path]
@@ -388,7 +430,7 @@ def classify(old: dict, new: dict, sampled: bool = True) -> tuple:
             kind, sev = "TYPE_CHANGED", "breaking"
         changes.append({"kind": kind, "path": path,
                         "from": sorted(a_raw), "to": sorted(b_raw), "severity": sev})
-    return changes, carried, first_obs
+    return changes, carried, first_obs, {"optional": sorted(optional), "absent": absent}
 
 
 # --------------------------------------------------------------------------
@@ -419,6 +461,7 @@ def main() -> int:
 
     for ep in endpoints:
         eid = ep["id"]
+        auth_mode = auth_mode_for(ep["url"])
         res = fetch(ep["url"])
         obs = {
             "ts": ts,
@@ -464,11 +507,25 @@ def main() -> int:
         if snap_path.exists():
             prev = json.loads(snap_path.read_text())
             baseline = prev.get("schema", {})
-            diffs, carried, first_obs = classify(baseline, schema, ep.get("kind") != "spec")
+            fstate = prev.get("field_state", {})
+            # Authenticated and anonymous requests return different documents.
+            # GitHub's repo API includes a `permissions` object only when a
+            # token is present, so a CI run and a laptop run disagree forever.
+            # Diffing across that boundary measures our own credentials.
+            if prev.get("auth") not in (None, auth_mode):
+                print(f"  re-base  {eid}: auth mode {prev.get('auth')} -> {auth_mode}, "
+                      f"baseline reset (not drift)")
+                diffs, carried, first_obs, fstate = [], {}, [], {}
+                confirmed = schema
+                baseline = schema
+            else:
+                diffs, carried, first_obs, fstate = classify(
+                    baseline, schema, ep.get("kind") != "spec", fstate)
             if first_obs:
                 print(f"  observed {eid}: {len(first_obs)} field(s) seen for the first time "
                       f"(container was empty before) -- not reported as drift")
-            confirmed = merge_baseline(baseline, schema, carried, ep.get("kind"))
+            if prev.get("auth") in (None, auth_mode):
+                confirmed = merge_baseline(baseline, schema, carried, ep.get("kind"))
             keys = sorted(f"{d['kind']}:{d['path']}" for d in diffs)
 
             # A difference is only real once we have seen the SAME difference on two
@@ -507,6 +564,7 @@ def main() -> int:
         else:
             stats["new"] += 1
             prev = {}
+            fstate = {}
             first_seen = last_changed = ts
             print(f"  new      {eid}: {len(schema)} fields")
 
@@ -519,6 +577,8 @@ def main() -> int:
             "last_changed": last_changed,
             "field_count": len(confirmed),
             "pending_keys": pending,
+            "auth": auth_mode,
+            "field_state": fstate,
             "schema": confirmed,
         }
         # Only touch the file when something genuinely differs. Rewriting an

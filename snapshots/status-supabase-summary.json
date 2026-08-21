@@ -1,6 +1,11 @@
 {
+ "auth": "anon",
  "category": "data",
  "field_count": 74,
+ "field_state": {
+  "absent": {},
+  "optional": []
+ },
  "first_seen": "2026-08-18T23:20:13+00:00",
  "id": "status-supabase-summary",
  "last_changed": "2026-08-19T13:31:40+00:00",

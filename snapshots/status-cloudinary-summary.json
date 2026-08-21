@@ -1,6 +1,11 @@
 {
+ "auth": "anon",
  "category": "dev-infra",
  "field_count": 28,
+ "field_state": {
+  "absent": {},
+  "optional": []
+ },
  "first_seen": "2026-08-18T23:20:13+00:00",
  "id": "status-cloudinary-summary",
  "last_changed": "2026-08-18T23:20:13+00:00",

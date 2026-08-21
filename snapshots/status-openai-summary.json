@@ -1,6 +1,11 @@
 {
+ "auth": "anon",
  "category": "ai",
  "field_count": 17,
+ "field_state": {
+  "absent": {},
+  "optional": []
+ },
  "first_seen": "2026-08-18T23:20:13+00:00",
  "id": "status-openai-summary",
  "last_changed": "2026-08-18T23:20:13+00:00",

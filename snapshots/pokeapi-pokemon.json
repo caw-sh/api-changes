@@ -1,6 +1,11 @@
 {
+ "auth": "anon",
  "category": "fun",
  "field_count": 253,
+ "field_state": {
+  "absent": {},
+  "optional": []
+ },
  "first_seen": "2026-08-18T23:20:13+00:00",
  "id": "pokeapi-pokemon",
  "last_changed": "2026-08-20T19:42:46+00:00",

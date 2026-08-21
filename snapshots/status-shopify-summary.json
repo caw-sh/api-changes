@@ -1,6 +1,11 @@
 {
+ "auth": "anon",
  "category": "commerce",
  "field_count": 72,
+ "field_state": {
+  "absent": {},
+  "optional": []
+ },
  "first_seen": "2026-08-18T23:20:13+00:00",
  "id": "status-shopify-summary",
  "last_changed": "2026-08-20T00:00:10+00:00",

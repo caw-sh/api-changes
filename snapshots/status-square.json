@@ -1,6 +1,11 @@
 {
+ "auth": "anon",
  "category": "saas",
  "field_count": 9,
+ "field_state": {
+  "absent": {},
+  "optional": []
+ },
  "first_seen": "2026-08-18T23:38:25+00:00",
  "id": "status-square",
  "last_changed": "2026-08-18T23:38:25+00:00",

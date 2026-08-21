@@ -32,7 +32,7 @@ NO_INCIDENT = schema_of({
 
 class EmptyContainersAreNotRemovals(unittest.TestCase):
     def test_emptied_list_reports_nothing(self):
-        changes, carried, _fo = classify(WITH_INCIDENT, NO_INCIDENT)
+        changes, carried, _fo, _st = classify(WITH_INCIDENT, NO_INCIDENT)
         self.assertEqual([], changes, f"emptied incidents[] produced {len(changes)} phantom change(s)")
         self.assertTrue(carried, "children of the emptied list must be carried forward")
         self.assertTrue(all(c.startswith("incidents") for c in carried))
@@ -42,35 +42,49 @@ class EmptyContainersAreNotRemovals(unittest.TestCase):
         self.assertNotIn("incidents", unobserved(WITH_INCIDENT))
 
     def test_refill_does_not_replay_as_additions(self):
-        _, carried, _fo = classify(WITH_INCIDENT, NO_INCIDENT)
+        _, carried, _fo, _st = classify(WITH_INCIDENT, NO_INCIDENT)
         baseline = merge_baseline(WITH_INCIDENT, NO_INCIDENT, carried, "json")
         self.assertEqual(WITH_INCIDENT, baseline, "baseline lost the unobserved paths")
-        again, _, _fo = classify(baseline, WITH_INCIDENT)
+        again, _, _fo, _st = classify(baseline, WITH_INCIDENT)
         self.assertEqual([], again, "incident coming back fired FIELD_ADDED")
 
 
 class RealChangesStillFire(unittest.TestCase):
+    def _sustained(self, old, new, runs=3):
+        """A field absent from a populated container is only reported once the
+        absence has persisted. Returns the changes from the final run."""
+        st, changes = {}, []
+        for _ in range(runs):
+            changes, carried, _fo, st = classify(old, new, True, st)
+            old = {**new, **carried}
+        return changes
+
     def test_removal_from_a_populated_object_is_breaking(self):
         old = {"page": ["object"], "page.id": ["string"], "page.name": ["string"]}
         new = {"page": ["object"], "page.id": ["string"]}
-        changes, carried, _fo = classify(old, new)
-        self.assertEqual({}, carried)
+        changes = self._sustained(old, new)
         self.assertEqual(["FIELD_REMOVED"], [c["kind"] for c in changes])
         self.assertEqual("breaking", changes[0]["severity"])
+
+    def test_a_single_absence_is_not_yet_a_removal(self):
+        old = {"page": ["object"], "page.id": ["string"], "page.name": ["string"]}
+        new = {"page": ["object"], "page.id": ["string"]}
+        changes, carried, _fo, _st = classify(old, new)
+        self.assertEqual([], changes)
+        self.assertIn("page.name", carried)
 
     def test_removal_inside_a_still_populated_list_is_breaking(self):
         old = {"i": ["array"], "i[]": ["object"], "i[].id": ["string"], "i[].name": ["string"]}
         new = {"i": ["array"], "i[]": ["object"], "i[].id": ["string"]}
-        changes, _, _fo = classify(old, new)
-        self.assertEqual(["FIELD_REMOVED"], [c["kind"] for c in changes])
+        self.assertEqual(["FIELD_REMOVED"], [c["kind"] for c in self._sustained(old, new)])
 
     def test_type_swap_is_breaking(self):
-        changes, _, _fo = classify({"a": ["string"]}, {"a": ["integer"]})
+        changes, _, _fo, _st = classify({"a": ["string"]}, {"a": ["integer"]})
         self.assertEqual("TYPE_CHANGED", changes[0]["kind"])
         self.assertEqual("breaking", changes[0]["severity"])
 
     def test_new_field_is_additive(self):
-        changes, _, _fo = classify({"a": ["string"]}, {"a": ["string"], "b": ["string"]})
+        changes, _, _fo, _st = classify({"a": ["string"]}, {"a": ["string"], "b": ["string"]})
         self.assertEqual("FIELD_ADDED", changes[0]["kind"])
 
 
@@ -78,7 +92,7 @@ class SamplingVarianceIsNotAContractChange(unittest.TestCase):
     def test_newly_sampled_null_is_info_not_breaking(self):
         old = {"a": ["array"]}
         new = {"a": ["array", "null"]}
-        changes, _, _fo = classify(old, new)
+        changes, _, _fo, _st = classify(old, new)
         self.assertEqual("TYPE_WIDENED", changes[0]["kind"])
         self.assertEqual("info", changes[0]["severity"])
 

@@ -67,7 +67,7 @@ check("sprite struct is not a map", c.is_map(
                                     "back_gray", "front_gray"]}), False)
 
 # 5. Status page: incidents[] empty -> populated is a first observation.
-ch, _, fo = c.classify({"incidents": ["array"]},
+ch, _, fo, _st = c.classify({"incidents": ["array"]},
                        {"incidents": ["array"], "incidents[]": ["object"],
                         "incidents[].id": ["string"]})
 check("empty container filled", (len(ch), len(fo)), (0, 2))
@@ -77,10 +77,31 @@ check("real type change",
       [(d["kind"], d["severity"]) for d in c.classify({"id": ["string"]}, {"id": ["integer"]})[0]],
       [("TYPE_CHANGED", "breaking")])
 
-check("real removal",
-      [(d["kind"], d["severity"]) for d in c.classify({"a": ["string"], "b": ["string"]},
-                                                      {"a": ["string"]})[0]],
-      [("FIELD_REMOVED", "breaking")])
+# A removal must be sustained. One absence is a blink; three is a decision.
+old, new, st = {"a": ["string"], "b": ["string"]}, {"a": ["string"]}, {}
+seen = []
+for _ in range(3):
+    ch, carried, _fo, st = c.classify(old, new, True, st)
+    seen.append([(d["kind"], d["severity"]) for d in ch])
+    old = {**new, **carried}
+check("removal held on run 1", seen[0], [])
+check("removal held on run 2", seen[1], [])
+check("removal fires on run 3", seen[2], [("FIELD_REMOVED", "breaking")])
+
+# ...and a field that comes back is optional forever after.
+old, new, st = {"a": ["string"], "b": ["string"]}, {"a": ["string"]}, {}
+ch, carried, _fo, st = c.classify(old, new, True, st)          # b absent once
+old = {**new, **carried}
+_, _, _, st = c.classify(old, {"a": ["string"], "b": ["string"]}, True, st)   # b returns
+check("returning field marked optional", st["optional"], ["b"])
+ch, _, _, st = c.classify({"a": ["string"], "b": ["string"]}, {"a": ["string"]}, True, st)
+check("optional field never reported", ch, [])
+
+# A spec is a contract: absence there is immediate and real.
+check("spec removal is immediate",
+      [d["kind"] for d in c.classify({"a": ["string"], "b": ["string"]},
+                                     {"a": ["string"]}, sampled=False)[0]],
+      ["FIELD_REMOVED"])
 
 check("real addition",
       [d["kind"] for d in c.classify({"a": ["string"]},
