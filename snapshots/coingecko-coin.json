@@ -1,7 +1,7 @@
 {
  "auth": "anon",
  "category": "finance",
- "field_count": 510,
+ "field_count": 515,
  "field_state": {
   "absent": {},
   "optional": [
@@ -10,14 +10,8 @@
  },
  "first_seen": "2026-08-18T23:20:13+00:00",
  "id": "coingecko-coin",
- "last_changed": "2026-08-20T13:34:38+00:00",
- "pending_keys": [
-  "FIELD_ADDED:listing_currency",
-  "FIELD_ADDED:listing_price",
-  "FIELD_ADDED:listing_source",
-  "FIELD_ADDED:listing_source_url",
-  "FIELD_ADDED:listing_timestamp"
- ],
+ "last_changed": "2026-08-21T10:12:56+00:00",
+ "pending_keys": [],
  "schema": {
   "additional_notices": [
    "array"
@@ -180,6 +174,21 @@
   ],
   "links.whitepaper": [
    "string"
+  ],
+  "listing_currency": [
+   "string"
+  ],
+  "listing_price": [
+   "null"
+  ],
+  "listing_source": [
+   "string"
+  ],
+  "listing_source_url": [
+   "string"
+  ],
+  "listing_timestamp": [
+   "null"
   ],
   "market_cap_rank": [
    "integer"

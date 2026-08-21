@@ -1,7 +1,7 @@
 {
  "auth": "anon",
  "category": "comms",
- "field_count": 73,
+ "field_count": 119,
  "field_state": {
   "absent": {},
   "optional": []
@@ -60,6 +60,144 @@
   ],
   "incidents": [
    "array"
+  ],
+  "incidents[]": [
+   "object"
+  ],
+  "incidents[].components": [
+   "array"
+  ],
+  "incidents[].components[]": [
+   "object"
+  ],
+  "incidents[].components[].created_at": [
+   "string"
+  ],
+  "incidents[].components[].description": [
+   "null"
+  ],
+  "incidents[].components[].group": [
+   "boolean"
+  ],
+  "incidents[].components[].group_id": [
+   "null"
+  ],
+  "incidents[].components[].id": [
+   "string"
+  ],
+  "incidents[].components[].name": [
+   "string"
+  ],
+  "incidents[].components[].only_show_if_degraded": [
+   "boolean"
+  ],
+  "incidents[].components[].page_id": [
+   "string"
+  ],
+  "incidents[].components[].position": [
+   "integer"
+  ],
+  "incidents[].components[].showcase": [
+   "boolean"
+  ],
+  "incidents[].components[].start_date": [
+   "string"
+  ],
+  "incidents[].components[].status": [
+   "string"
+  ],
+  "incidents[].components[].updated_at": [
+   "string"
+  ],
+  "incidents[].created_at": [
+   "string"
+  ],
+  "incidents[].id": [
+   "string"
+  ],
+  "incidents[].impact": [
+   "string"
+  ],
+  "incidents[].incident_updates": [
+   "array"
+  ],
+  "incidents[].incident_updates[]": [
+   "object"
+  ],
+  "incidents[].incident_updates[].affected_components": [
+   "array"
+  ],
+  "incidents[].incident_updates[].affected_components[]": [
+   "object"
+  ],
+  "incidents[].incident_updates[].affected_components[].code": [
+   "string"
+  ],
+  "incidents[].incident_updates[].affected_components[].name": [
+   "string"
+  ],
+  "incidents[].incident_updates[].affected_components[].new_status": [
+   "string"
+  ],
+  "incidents[].incident_updates[].affected_components[].old_status": [
+   "string"
+  ],
+  "incidents[].incident_updates[].body": [
+   "string"
+  ],
+  "incidents[].incident_updates[].created_at": [
+   "string"
+  ],
+  "incidents[].incident_updates[].custom_tweet": [
+   "null"
+  ],
+  "incidents[].incident_updates[].deliver_notifications": [
+   "boolean"
+  ],
+  "incidents[].incident_updates[].display_at": [
+   "string"
+  ],
+  "incidents[].incident_updates[].id": [
+   "string"
+  ],
+  "incidents[].incident_updates[].incident_id": [
+   "string"
+  ],
+  "incidents[].incident_updates[].status": [
+   "string"
+  ],
+  "incidents[].incident_updates[].tweet_id": [
+   "null"
+  ],
+  "incidents[].incident_updates[].updated_at": [
+   "string"
+  ],
+  "incidents[].monitoring_at": [
+   "string"
+  ],
+  "incidents[].name": [
+   "string"
+  ],
+  "incidents[].page_id": [
+   "string"
+  ],
+  "incidents[].reminder_intervals": [
+   "null"
+  ],
+  "incidents[].resolved_at": [
+   "null"
+  ],
+  "incidents[].shortlink": [
+   "string"
+  ],
+  "incidents[].started_at": [
+   "string"
+  ],
+  "incidents[].status": [
+   "string"
+  ],
+  "incidents[].updated_at": [
+   "string"
   ],
   "page": [
    "object"
