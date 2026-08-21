@@ -9,7 +9,26 @@
  "first_seen": "2026-08-18T23:20:13+00:00",
  "id": "status-openai-summary",
  "last_changed": "2026-08-18T23:20:13+00:00",
- "pending_keys": [],
+ "pending_keys": [
+  "FIELD_ADDED:incidents",
+  "FIELD_ADDED:incidents[]",
+  "FIELD_ADDED:incidents[].created_at",
+  "FIELD_ADDED:incidents[].id",
+  "FIELD_ADDED:incidents[].impact",
+  "FIELD_ADDED:incidents[].incident_updates",
+  "FIELD_ADDED:incidents[].incident_updates[]",
+  "FIELD_ADDED:incidents[].incident_updates[].body",
+  "FIELD_ADDED:incidents[].incident_updates[].created_at",
+  "FIELD_ADDED:incidents[].incident_updates[].display_at",
+  "FIELD_ADDED:incidents[].incident_updates[].id",
+  "FIELD_ADDED:incidents[].incident_updates[].incident_id",
+  "FIELD_ADDED:incidents[].incident_updates[].status",
+  "FIELD_ADDED:incidents[].incident_updates[].updated_at",
+  "FIELD_ADDED:incidents[].name",
+  "FIELD_ADDED:incidents[].page_id",
+  "FIELD_ADDED:incidents[].status",
+  "FIELD_ADDED:incidents[].updated_at"
+ ],
  "schema": {
   "components": [
    "array"
