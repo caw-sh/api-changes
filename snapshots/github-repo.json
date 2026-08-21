@@ -1,18 +1,8 @@
 {
- "auth": "anon",
+ "auth": "token",
  "category": "dev-infra",
  "field_count": 136,
- "field_state": {
-  "absent": {
-   "permissions": 1,
-   "permissions.admin": 1,
-   "permissions.maintain": 1,
-   "permissions.pull": 1,
-   "permissions.push": 1,
-   "permissions.triage": 1
-  },
-  "optional": []
- },
+ "field_state": {},
  "first_seen": "2026-08-21T07:21:43+00:00",
  "id": "github-repo",
  "last_changed": "2026-08-21T08:00:47+00:00",
@@ -397,7 +387,6 @@
    "string"
   ],
   "temp_clone_token": [
-   "null",
    "string"
   ],
   "topics": [
