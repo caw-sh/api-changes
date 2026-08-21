@@ -3,7 +3,27 @@
  "category": "ai",
  "field_count": 36,
  "field_state": {
-  "absent": {},
+  "absent": {
+   "incidents": 1,
+   "incidents[]": 1,
+   "incidents[].created_at": 1,
+   "incidents[].id": 1,
+   "incidents[].impact": 1,
+   "incidents[].incident_updates": 1,
+   "incidents[].incident_updates[]": 1,
+   "incidents[].incident_updates[].body": 1,
+   "incidents[].incident_updates[].created_at": 1,
+   "incidents[].incident_updates[].display_at": 1,
+   "incidents[].incident_updates[].id": 1,
+   "incidents[].incident_updates[].incident_id": 1,
+   "incidents[].incident_updates[].status": 1,
+   "incidents[].incident_updates[].updated_at": 1,
+   "incidents[].monitoring_at": 1,
+   "incidents[].name": 1,
+   "incidents[].page_id": 1,
+   "incidents[].status": 1,
+   "incidents[].updated_at": 1
+  },
   "optional": []
  },
  "first_seen": "2026-08-18T23:20:13+00:00",
