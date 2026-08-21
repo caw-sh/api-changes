@@ -2,7 +2,10 @@
  "auth": "anon",
  "category": "finance",
  "field_count": 12,
- "field_state": {},
+ "field_state": {
+  "absent": {},
+  "optional": []
+ },
  "first_seen": "2026-08-21T19:30:23+00:00",
  "id": "erapi-usd",
  "last_changed": "2026-08-21T19:30:23+00:00",

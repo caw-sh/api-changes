@@ -2,7 +2,10 @@
  "auth": "anon",
  "category": "finance",
  "field_count": 205,
- "field_state": {},
+ "field_state": {
+  "absent": {},
+  "optional": []
+ },
  "first_seen": "2026-08-21T19:30:23+00:00",
  "id": "coingecko-coin",
  "last_changed": "2026-08-21T19:30:23+00:00",
@@ -351,7 +354,8 @@
    "number"
   ],
   "market_data.price_change_24h_in_currency.brl": [
-   "integer"
+   "integer",
+   "number"
   ],
   "market_data.price_change_24h_in_currency.btc": [
    "number"
@@ -459,7 +463,8 @@
    "number"
   ],
   "market_data.price_change_24h_in_currency.sats": [
-   "integer"
+   "integer",
+   "number"
   ],
   "market_data.price_change_24h_in_currency.sek": [
    "integer"

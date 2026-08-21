@@ -1,7 +1,7 @@
 {
  "auth": "anon",
  "category": "registry",
- "field_count": 130,
+ "field_count": 105,
  "field_state": {
   "absent": {
    "versions[].features.default": 1,
@@ -36,10 +36,8 @@
  },
  "first_seen": "2026-08-18T23:20:13+00:00",
  "id": "crates-tokio",
- "last_changed": "2026-08-18T23:20:13+00:00",
- "pending_keys": [
-  "FIELD_ADDED:versions[].features.{*}[]"
- ],
+ "last_changed": "2026-08-21T19:41:10+00:00",
+ "pending_keys": [],
  "schema": {
   "categories": [
    "array"
@@ -254,86 +252,11 @@
   "versions[].features": [
    "object"
   ],
-  "versions[].features.default": [
+  "versions[].features.{*}": [
    "array"
   ],
-  "versions[].features.fs": [
-   "array"
-  ],
-  "versions[].features.full": [
-   "array"
-  ],
-  "versions[].features.full[]": [
+  "versions[].features.{*}[]": [
    "string"
-  ],
-  "versions[].features.io-std": [
-   "array"
-  ],
-  "versions[].features.io-uring": [
-   "array"
-  ],
-  "versions[].features.io-uring[]": [
-   "string"
-  ],
-  "versions[].features.io-util": [
-   "array"
-  ],
-  "versions[].features.io-util[]": [
-   "string"
-  ],
-  "versions[].features.macros": [
-   "array"
-  ],
-  "versions[].features.macros[]": [
-   "string"
-  ],
-  "versions[].features.net": [
-   "array"
-  ],
-  "versions[].features.net[]": [
-   "string"
-  ],
-  "versions[].features.process": [
-   "array"
-  ],
-  "versions[].features.process[]": [
-   "string"
-  ],
-  "versions[].features.rt": [
-   "array"
-  ],
-  "versions[].features.rt-multi-thread": [
-   "array"
-  ],
-  "versions[].features.rt-multi-thread[]": [
-   "string"
-  ],
-  "versions[].features.schedule-latency": [
-   "array"
-  ],
-  "versions[].features.signal": [
-   "array"
-  ],
-  "versions[].features.signal[]": [
-   "string"
-  ],
-  "versions[].features.sync": [
-   "array"
-  ],
-  "versions[].features.taskdump": [
-   "array"
-  ],
-  "versions[].features.taskdump[]": [
-   "string"
-  ],
-  "versions[].features.test-util": [
-   "array"
-  ],
-  "versions[].features.test-util[]": [
-   "string"
-  ],
-  "versions[].features.time": [
-   "array"
   ],
   "versions[].has_lib": [
    "boolean"

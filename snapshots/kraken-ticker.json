@@ -1,7 +1,7 @@
 {
  "auth": "anon",
  "category": "finance",
- "field_count": 20,
+ "field_count": 5,
  "field_state": {
   "absent": {
    "result.XXBTZUSD.a": 1,
@@ -26,10 +26,8 @@
  },
  "first_seen": "2026-08-18T23:20:13+00:00",
  "id": "kraken-ticker",
- "last_changed": "2026-08-18T23:20:13+00:00",
- "pending_keys": [
-  "FIELD_ADDED:result.XXBTZUSD.{*}[]"
- ],
+ "last_changed": "2026-08-21T19:41:10+00:00",
+ "pending_keys": [],
  "schema": {
   "error": [
    "array"
@@ -40,55 +38,12 @@
   "result.XXBTZUSD": [
    "object"
   ],
-  "result.XXBTZUSD.a": [
-   "array"
-  ],
-  "result.XXBTZUSD.a[]": [
+  "result.XXBTZUSD.{*}": [
+   "array",
    "string"
   ],
-  "result.XXBTZUSD.b": [
-   "array"
-  ],
-  "result.XXBTZUSD.b[]": [
-   "string"
-  ],
-  "result.XXBTZUSD.c": [
-   "array"
-  ],
-  "result.XXBTZUSD.c[]": [
-   "string"
-  ],
-  "result.XXBTZUSD.h": [
-   "array"
-  ],
-  "result.XXBTZUSD.h[]": [
-   "string"
-  ],
-  "result.XXBTZUSD.l": [
-   "array"
-  ],
-  "result.XXBTZUSD.l[]": [
-   "string"
-  ],
-  "result.XXBTZUSD.o": [
-   "string"
-  ],
-  "result.XXBTZUSD.p": [
-   "array"
-  ],
-  "result.XXBTZUSD.p[]": [
-   "string"
-  ],
-  "result.XXBTZUSD.t": [
-   "array"
-  ],
-  "result.XXBTZUSD.t[]": [
-   "integer"
-  ],
-  "result.XXBTZUSD.v": [
-   "array"
-  ],
-  "result.XXBTZUSD.v[]": [
+  "result.XXBTZUSD.{*}[]": [
+   "integer",
    "string"
   ]
  },
