@@ -4,9 +4,7 @@
  "first_seen": "2026-08-18T23:20:13+00:00",
  "id": "usgs-quakes",
  "last_changed": "2026-08-19T18:00:13+00:00",
- "pending_keys": [
-  "TYPE_WIDENED:features[].properties.mmi"
- ],
+ "pending_keys": [],
  "schema": {
   "bbox": [
    "array"
