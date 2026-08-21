@@ -436,6 +436,7 @@
    "integer"
   ],
   "market_data.price_change_24h_in_currency.myr": [
+   "integer",
    "number"
   ],
   "market_data.price_change_24h_in_currency.ngn": [
