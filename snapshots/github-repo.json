@@ -4,7 +4,15 @@
  "first_seen": "2026-08-21T07:21:43+00:00",
  "id": "github-repo",
  "last_changed": "2026-08-21T07:21:43+00:00",
- "pending_keys": [],
+ "pending_keys": [
+  "FIELD_ADDED:permissions",
+  "FIELD_ADDED:permissions.admin",
+  "FIELD_ADDED:permissions.maintain",
+  "FIELD_ADDED:permissions.pull",
+  "FIELD_ADDED:permissions.push",
+  "FIELD_ADDED:permissions.triage",
+  "TYPE_CHANGED:temp_clone_token"
+ ],
  "schema": {
   "allow_forking": [
    "boolean"
