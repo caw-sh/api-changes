@@ -58,7 +58,8 @@
    "null"
   ],
   "features[].properties.gap": [
-   "integer"
+   "integer",
+   "number"
   ],
   "features[].properties.ids": [
    "string"
