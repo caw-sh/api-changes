@@ -1,9 +1,9 @@
 {
  "category": "dev-infra",
- "field_count": 136,
- "first_seen": "2026-08-18T23:20:13+00:00",
+ "field_count": 130,
+ "first_seen": "2026-08-21T07:21:43+00:00",
  "id": "github-repo",
- "last_changed": "2026-08-18T23:20:13+00:00",
+ "last_changed": "2026-08-21T07:21:43+00:00",
  "pending_keys": [],
  "schema": {
   "allow_forking": [
@@ -318,24 +318,6 @@
   "owner.user_view_type": [
    "string"
   ],
-  "permissions": [
-   "object"
-  ],
-  "permissions.admin": [
-   "boolean"
-  ],
-  "permissions.maintain": [
-   "boolean"
-  ],
-  "permissions.pull": [
-   "boolean"
-  ],
-  "permissions.push": [
-   "boolean"
-  ],
-  "permissions.triage": [
-   "boolean"
-  ],
   "private": [
    "boolean"
   ],
@@ -385,7 +367,7 @@
    "string"
   ],
   "temp_clone_token": [
-   "string"
+   "null"
   ],
   "topics": [
    "array"

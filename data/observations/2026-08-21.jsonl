@@ -1252,3 +1252,117 @@
 {"fields": 17, "id": "status-clerk", "ms": 534, "status": 200, "ts": "2026-08-21T07:11:12+00:00", "vendor": "Clerk"}
 {"fields": 1812, "id": "spec-square", "ms": 297, "status": 200, "ts": "2026-08-21T07:11:12+00:00", "vendor": "Square"}
 {"fields": 411, "id": "spec-sentry", "ms": 411, "status": 200, "ts": "2026-08-21T07:11:12+00:00", "vendor": "Sentry"}
+{"fields": 26, "id": "status-github-summary", "ms": 516, "status": 200, "ts": "2026-08-21T07:21:43+00:00", "vendor": "GitHub"}
+{"fields": 21, "id": "status-github-components", "ms": 483, "status": 200, "ts": "2026-08-21T07:21:43+00:00", "vendor": "GitHub"}
+{"fields": 17, "id": "status-openai-summary", "ms": 432, "status": 200, "ts": "2026-08-21T07:21:43+00:00", "vendor": "OpenAI"}
+{"fields": 9, "id": "status-openai-components", "ms": 327, "status": 200, "ts": "2026-08-21T07:21:43+00:00", "vendor": "OpenAI"}
+{"fields": 26, "id": "status-anthropic-summary", "ms": 494, "status": 200, "ts": "2026-08-21T07:21:43+00:00", "vendor": "Anthropic"}
+{"fields": 21, "id": "status-anthropic-components", "ms": 560, "status": 200, "ts": "2026-08-21T07:21:43+00:00", "vendor": "Anthropic"}
+{"fields": 121, "id": "status-cloudflare-summary", "ms": 1043, "status": 200, "ts": "2026-08-21T07:21:43+00:00", "vendor": "Cloudflare"}
+{"fields": 23, "id": "status-cloudflare-components", "ms": 1904, "status": 200, "ts": "2026-08-21T07:21:43+00:00", "vendor": "Cloudflare"}
+{"fields": 121, "id": "status-twilio-summary", "ms": 550, "status": 200, "ts": "2026-08-21T07:21:43+00:00", "vendor": "Twilio"}
+{"fields": 23, "id": "status-twilio-components", "ms": 439, "status": 200, "ts": "2026-08-21T07:21:43+00:00", "vendor": "Twilio"}
+{"fields": 28, "id": "status-discord-summary", "ms": 516, "status": 200, "ts": "2026-08-21T07:21:43+00:00", "vendor": "Discord"}
+{"fields": 23, "id": "status-discord-components", "ms": 615, "status": 200, "ts": "2026-08-21T07:21:43+00:00", "vendor": "Discord"}
+{"fields": 28, "id": "status-vercel-summary", "ms": 812, "status": 200, "ts": "2026-08-21T07:21:43+00:00", "vendor": "Vercel"}
+{"fields": 23, "id": "status-vercel-components", "ms": 424, "status": 200, "ts": "2026-08-21T07:21:43+00:00", "vendor": "Vercel"}
+{"fields": 26, "id": "status-netlify-summary", "ms": 559, "status": 200, "ts": "2026-08-21T07:21:43+00:00", "vendor": "Netlify"}
+{"fields": 21, "id": "status-netlify-components", "ms": 531, "status": 200, "ts": "2026-08-21T07:21:43+00:00", "vendor": "Netlify"}
+{"fields": 26, "id": "status-shopify-summary", "ms": 745, "status": 200, "ts": "2026-08-21T07:21:43+00:00", "vendor": "Shopify"}
+{"fields": 26, "id": "status-digitalocean-summary", "ms": 3513, "status": 200, "ts": "2026-08-21T07:21:43+00:00", "vendor": "DigitalOcean"}
+{"fields": 12, "id": "status-atlassian-summary", "ms": 543, "status": 200, "ts": "2026-08-21T07:21:43+00:00", "vendor": "Atlassian"}
+{"fields": 26, "id": "status-dropbox-summary", "ms": 1231, "status": 200, "ts": "2026-08-21T07:21:43+00:00", "vendor": "Dropbox"}
+{"fields": 73, "id": "status-zoom-summary", "ms": 954, "status": 200, "ts": "2026-08-21T07:21:43+00:00", "vendor": "Zoom"}
+{"fields": 26, "id": "status-npm-summary", "ms": 670, "status": 200, "ts": "2026-08-21T07:21:43+00:00", "vendor": "npm"}
+{"fields": 72, "id": "status-mongodb-summary", "ms": 601, "status": 200, "ts": "2026-08-21T07:21:43+00:00", "vendor": "MongoDB Atlas"}
+{"fields": 74, "id": "status-supabase-summary", "ms": 520, "status": 200, "ts": "2026-08-21T07:21:43+00:00", "vendor": "Supabase"}
+{"fields": 26, "id": "status-figma-summary", "ms": 603, "status": 200, "ts": "2026-08-21T07:21:43+00:00", "vendor": "Figma"}
+{"fields": 63, "id": "npm-react", "ms": 389, "status": 200, "ts": "2026-08-21T07:21:43+00:00", "vendor": "npm"}
+{"fields": 61, "id": "npm-express", "ms": 373, "status": 200, "ts": "2026-08-21T07:21:43+00:00", "vendor": "npm"}
+{"fields": 64, "id": "npm-typescript", "ms": 363, "status": 200, "ts": "2026-08-21T07:21:43+00:00", "vendor": "npm"}
+{"fields": 4, "id": "npm-downloads", "ms": 233, "status": 200, "ts": "2026-08-21T07:21:43+00:00", "vendor": "npm"}
+{"fields": 3518, "id": "pypi-requests", "ms": 55, "status": 200, "ts": "2026-08-21T07:21:43+00:00", "vendor": "PyPI"}
+{"fields": 9576, "id": "pypi-django", "ms": 338, "status": 200, "ts": "2026-08-21T07:21:43+00:00", "vendor": "PyPI"}
+{"fields": 96, "id": "pypi-fastapi", "ms": 69, "status": 200, "ts": "2026-08-21T07:21:43+00:00", "vendor": "PyPI"}
+{"fields": 115, "id": "crates-serde", "ms": 2040, "status": 200, "ts": "2026-08-21T07:21:43+00:00", "vendor": "crates.io"}
+{"fields": 130, "id": "crates-tokio", "ms": 2357, "status": 200, "ts": "2026-08-21T07:21:43+00:00", "vendor": "crates.io"}
+{"fields": 36, "id": "rubygems-rails", "ms": 200, "status": 200, "ts": "2026-08-21T07:21:43+00:00", "vendor": "RubyGems"}
+{"fields": 56, "id": "packagist-monolog", "ms": 510, "status": 200, "ts": "2026-08-21T07:21:43+00:00", "vendor": "Packagist"}
+{"fields": 58, "id": "hex-phoenix", "ms": 631, "status": 200, "ts": "2026-08-21T07:21:43+00:00", "vendor": "Hex.pm"}
+{"fields": 37, "id": "dockerhub-nginx", "ms": 540, "status": 200, "ts": "2026-08-21T07:21:43+00:00", "vendor": "Docker Hub"}
+{"fields": 37, "id": "dockerhub-python", "ms": 484, "status": 200, "ts": "2026-08-21T07:21:43+00:00", "vendor": "Docker Hub"}
+{"fields": 165, "id": "homebrew-wget", "ms": 64, "status": 200, "ts": "2026-08-21T07:21:43+00:00", "vendor": "Homebrew"}
+{"fields": 48, "id": "pub-http", "ms": 302, "status": 200, "ts": "2026-08-21T07:21:43+00:00", "vendor": "pub.dev"}
+{"fields": 130, "id": "github-repo", "ms": 864, "status": 200, "ts": "2026-08-21T07:21:43+00:00", "vendor": "GitHub"}
+{"fields": 50, "id": "github-releases", "ms": 523, "status": 200, "ts": "2026-08-21T07:21:43+00:00", "vendor": "GitHub"}
+{"fields": 53, "id": "github-meta", "ms": 529, "status": 200, "ts": "2026-08-21T07:21:43+00:00", "vendor": "GitHub"}
+{"fields": 30, "id": "gitlab-projects", "ms": 548, "status": 200, "ts": "2026-08-21T07:21:43+00:00", "vendor": "GitLab"}
+{"fields": 1, "id": "codeberg-version", "ms": 521, "status": 200, "ts": "2026-08-21T07:21:43+00:00", "vendor": "Codeberg"}
+{"fields": 10, "id": "hackernews-item", "ms": 674, "status": 200, "ts": "2026-08-21T07:21:43+00:00", "vendor": "Hacker News"}
+{"fields": 1, "id": "hackernews-top", "ms": 622, "status": 200, "ts": "2026-08-21T07:21:43+00:00", "vendor": "Hacker News"}
+{"fields": 2, "id": "coingecko-price", "ms": 104, "status": 200, "ts": "2026-08-21T07:21:43+00:00", "vendor": "CoinGecko"}
+{"fields": 510, "id": "coingecko-coin", "ms": 341, "status": 200, "ts": "2026-08-21T07:21:43+00:00", "vendor": "CoinGecko"}
+{"fields": 4, "id": "coinbase-rates", "ms": 422, "status": 200, "ts": "2026-08-21T07:21:43+00:00", "vendor": "Coinbase"}
+{"fields": 3, "id": "coinbase-time", "ms": 3012, "status": 200, "ts": "2026-08-21T07:21:43+00:00", "vendor": "Coinbase"}
+{"fields": 2, "id": "binance-ticker", "ms": 418, "status": 200, "ts": "2026-08-21T07:21:43+00:00", "vendor": "Binance"}
+{"fields": 67, "id": "binance-exchangeinfo", "ms": 226, "status": 200, "ts": "2026-08-21T07:21:43+00:00", "vendor": "Binance"}
+{"fields": 20, "id": "kraken-ticker", "ms": 380, "status": 200, "ts": "2026-08-21T07:21:43+00:00", "vendor": "Kraken"}
+{"error": "URLError: <urlopen error [Errno 54] Connection reset by peer>", "id": "kraken-assets", "ms": 86, "status": 0, "ts": "2026-08-21T07:21:43+00:00", "vendor": "Kraken"}
+{"fields": 1, "id": "bitfinex-ticker", "ms": 1008, "status": 200, "ts": "2026-08-21T07:21:43+00:00", "vendor": "Bitfinex"}
+{"fields": 5, "id": "frankfurter-latest", "ms": 1702, "status": 200, "ts": "2026-08-21T07:21:43+00:00", "vendor": "Frankfurter"}
+{"fields": 177, "id": "erapi-usd", "ms": 571, "status": 200, "ts": "2026-08-21T07:21:43+00:00", "vendor": "open.er-api.com"}
+{"fields": 23, "id": "openmeteo-forecast", "ms": 632, "status": 200, "ts": "2026-08-21T07:21:43+00:00", "vendor": "Open-Meteo"}
+{"fields": 15, "id": "openmeteo-air", "ms": 637, "status": 200, "ts": "2026-08-21T07:21:43+00:00", "vendor": "Open-Meteo"}
+{"fields": 115, "id": "wttr-json", "ms": 679, "status": 200, "ts": "2026-08-21T07:21:43+00:00", "vendor": "wttr.in"}
+{"fields": 5, "id": "restcountries-india", "ms": 774, "status": 200, "ts": "2026-08-21T07:21:43+00:00", "vendor": "REST Countries"}
+{"fields": 20, "id": "worldbank-indicator", "ms": 264, "status": 200, "ts": "2026-08-21T07:21:43+00:00", "vendor": "World Bank"}
+{"fields": 32, "id": "wikipedia-summary", "ms": 252, "status": 200, "ts": "2026-08-21T07:21:43+00:00", "vendor": "Wikipedia"}
+{"fields": 75, "id": "openlibrary-book", "ms": 1178, "status": 200, "ts": "2026-08-21T07:21:43+00:00", "vendor": "Open Library"}
+{"fields": 24, "id": "openlibrary-search", "ms": 955, "status": 200, "ts": "2026-08-21T07:21:43+00:00", "vendor": "Open Library"}
+{"fields": 253, "id": "pokeapi-pokemon", "ms": 304, "status": 200, "ts": "2026-08-21T07:21:43+00:00", "vendor": "PokeAPI"}
+{"fields": 75, "id": "pokeapi-species", "ms": 282, "status": 200, "ts": "2026-08-21T07:21:43+00:00", "vendor": "PokeAPI"}
+{"fields": 2, "id": "dogceo-random", "ms": 488, "status": 200, "ts": "2026-08-21T07:21:43+00:00", "vendor": "Dog CEO"}
+{"fields": 4, "id": "jsonplaceholder-post", "ms": 292, "status": 200, "ts": "2026-08-21T07:21:43+00:00", "vendor": "JSONPlaceholder"}
+{"fields": 19, "id": "jsonplaceholder-users", "ms": 273, "status": 200, "ts": "2026-08-21T07:21:43+00:00", "vendor": "JSONPlaceholder"}
+{"fields": 1, "id": "ipify", "ms": 326, "status": 200, "ts": "2026-08-21T07:21:43+00:00", "vendor": "ipify"}
+{"fields": 6, "id": "nasa-apod", "ms": 1699, "status": 200, "ts": "2026-08-21T07:21:43+00:00", "vendor": "NASA"}
+{"fields": 6, "id": "nasa-neo", "ms": 1447, "status": 200, "ts": "2026-08-21T07:21:43+00:00", "vendor": "NASA"}
+{"fields": 46, "id": "usgs-quakes", "ms": 945, "status": 200, "ts": "2026-08-21T07:21:43+00:00", "vendor": "USGS"}
+{"fields": 1709, "id": "spec-openai", "ms": 768, "status": 200, "ts": "2026-08-21T07:21:43+00:00", "vendor": "OpenAI"}
+{"fields": 222, "id": "spec-slack", "ms": 307, "status": 200, "ts": "2026-08-21T07:21:43+00:00", "vendor": "Slack"}
+{"fields": 347, "id": "spec-twilio-core", "ms": 472, "status": 200, "ts": "2026-08-21T07:21:43+00:00", "vendor": "Twilio"}
+{"fields": 659, "id": "spec-digitalocean", "ms": 89, "status": 200, "ts": "2026-08-21T07:21:43+00:00", "vendor": "DigitalOcean"}
+{"fields": 529, "id": "spec-asana", "ms": 885, "status": 200, "ts": "2026-08-21T07:21:43+00:00", "vendor": "Asana"}
+{"fields": 601, "id": "spec-box", "ms": 436, "status": 200, "ts": "2026-08-21T07:21:43+00:00", "vendor": "Box"}
+{"fields": 2190, "id": "spec-github", "ms": 3326, "status": 200, "ts": "2026-08-21T07:21:43+00:00", "vendor": "GitHub"}
+{"fields": 2029, "id": "spec-stripe", "ms": 2062, "status": 200, "ts": "2026-08-21T07:21:43+00:00", "vendor": "Stripe"}
+{"fields": 9994, "id": "spec-cloudflare", "ms": 6160, "status": 200, "ts": "2026-08-21T07:21:43+00:00", "vendor": "Cloudflare"}
+{"fields": 16, "id": "nominatim-search", "ms": 223, "status": 200, "ts": "2026-08-21T07:21:43+00:00", "vendor": "OpenStreetMap"}
+{"fields": 35, "id": "status-hashicorp-summary", "ms": 330, "status": 200, "ts": "2026-08-21T07:21:43+00:00", "vendor": "HashiCorp"}
+{"fields": 28, "id": "status-reddit-summary", "ms": 466, "status": 200, "ts": "2026-08-21T07:21:43+00:00", "vendor": "Reddit"}
+{"fields": 41, "id": "gcp-incidents", "ms": 294, "status": 200, "ts": "2026-08-21T07:21:43+00:00", "vendor": "Google Cloud"}
+{"fields": 28, "id": "status-cloudinary-summary", "ms": 518, "status": 200, "ts": "2026-08-21T07:21:43+00:00", "vendor": "Cloudinary"}
+{"fields": 75, "id": "status-sentry-summary", "ms": 467, "status": 200, "ts": "2026-08-21T07:21:43+00:00", "vendor": "Sentry"}
+{"fields": 4, "id": "status-juspay", "ms": 144, "status": 200, "ts": "2026-08-21T07:21:43+00:00", "vendor": "Juspay"}
+{"fields": 26, "id": "status-browserstack", "ms": 641, "status": 200, "ts": "2026-08-21T07:21:43+00:00", "vendor": "BrowserStack"}
+{"fields": 28, "id": "status-postman", "ms": 540, "status": 200, "ts": "2026-08-21T07:21:43+00:00", "vendor": "Postman"}
+{"fields": 28, "id": "status-chargebee", "ms": 569, "status": 200, "ts": "2026-08-21T07:21:43+00:00", "vendor": "Chargebee"}
+{"fields": 26, "id": "status-datadog", "ms": 478, "status": 200, "ts": "2026-08-21T07:21:43+00:00", "vendor": "Datadog"}
+{"fields": 28, "id": "status-segment", "ms": 589, "status": 200, "ts": "2026-08-21T07:21:43+00:00", "vendor": "Segment"}
+{"fields": 26, "id": "status-airtable", "ms": 661, "status": 200, "ts": "2026-08-21T07:21:43+00:00", "vendor": "Airtable"}
+{"fields": 9, "id": "status-square", "ms": 401, "status": 200, "ts": "2026-08-21T07:21:43+00:00", "vendor": "Square"}
+{"fields": 18, "id": "status-plaid", "ms": 455, "status": 200, "ts": "2026-08-21T07:21:43+00:00", "vendor": "Plaid"}
+{"fields": 28, "id": "status-newrelic", "ms": 568, "status": 200, "ts": "2026-08-21T07:21:43+00:00", "vendor": "New Relic"}
+{"fields": 26, "id": "status-circleci", "ms": 597, "status": 200, "ts": "2026-08-21T07:21:43+00:00", "vendor": "CircleCI"}
+{"fields": 26, "id": "status-render", "ms": 544, "status": 200, "ts": "2026-08-21T07:21:43+00:00", "vendor": "Render"}
+{"fields": 18, "id": "status-planetscale", "ms": 422, "status": 200, "ts": "2026-08-21T07:21:43+00:00", "vendor": "PlanetScale"}
+{"fields": 28, "id": "status-upstash", "ms": 605, "status": 200, "ts": "2026-08-21T07:21:43+00:00", "vendor": "Upstash"}
+{"fields": 2757, "id": "spec-plaid", "ms": 797, "status": 200, "ts": "2026-08-21T07:21:43+00:00", "vendor": "Plaid"}
+{"fields": 781, "id": "spec-discord", "ms": 273, "status": 200, "ts": "2026-08-21T07:21:43+00:00", "vendor": "Discord"}
+{"fields": 283, "id": "spec-netlify", "ms": 1859, "status": 200, "ts": "2026-08-21T07:21:43+00:00", "vendor": "Netlify"}
+{"fields": 318, "id": "spec-supabase", "ms": 491, "status": 200, "ts": "2026-08-21T07:21:43+00:00", "vendor": "Supabase"}
+{"fields": 289, "id": "spec-adyen-checkout", "ms": 224, "status": 200, "ts": "2026-08-21T07:21:43+00:00", "vendor": "Adyen"}
+{"fields": 28, "id": "status-deepgram", "ms": 582, "status": 200, "ts": "2026-08-21T07:21:43+00:00", "vendor": "Deepgram"}
+{"error": "URLError: <urlopen error _ssl.c:983: The handshake operation timed out>", "id": "status-clerk", "ms": 20048, "status": 0, "ts": "2026-08-21T07:21:43+00:00", "vendor": "Clerk"}
+{"fields": 1812, "id": "spec-square", "ms": 830, "status": 200, "ts": "2026-08-21T07:21:43+00:00", "vendor": "Square"}
+{"fields": 411, "id": "spec-sentry", "ms": 1054, "status": 200, "ts": "2026-08-21T07:21:43+00:00", "vendor": "Sentry"}

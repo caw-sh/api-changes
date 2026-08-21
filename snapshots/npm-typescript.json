@@ -1,9 +1,9 @@
 {
  "category": "registry",
- "field_count": 77,
- "first_seen": "2026-08-18T23:20:13+00:00",
+ "field_count": 64,
+ "first_seen": "2026-08-21T07:21:43+00:00",
  "id": "npm-typescript",
- "last_changed": "2026-08-20T19:42:46+00:00",
+ "last_changed": "2026-08-21T07:21:43+00:00",
  "pending_keys": [],
  "schema": {
   "_from": [
@@ -110,45 +110,6 @@
   ],
   "exports": [
    "object"
-  ],
-  "exports..": [
-   "string"
-  ],
-  "exports../package.json": [
-   "string"
-  ],
-  "exports../unstable/ast": [
-   "string"
-  ],
-  "exports../unstable/ast/clone": [
-   "string"
-  ],
-  "exports../unstable/ast/factory": [
-   "string"
-  ],
-  "exports../unstable/ast/is": [
-   "string"
-  ],
-  "exports../unstable/ast/scanner": [
-   "string"
-  ],
-  "exports../unstable/ast/utils": [
-   "string"
-  ],
-  "exports../unstable/ast/visitor": [
-   "string"
-  ],
-  "exports../unstable/async": [
-   "string"
-  ],
-  "exports../unstable/fs": [
-   "string"
-  ],
-  "exports../unstable/proto": [
-   "string"
-  ],
-  "exports../unstable/sync": [
-   "string"
   ],
   "exports.{*}": [
    "string"

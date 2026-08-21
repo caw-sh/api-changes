@@ -1,9 +1,9 @@
 {
  "category": "registry",
- "field_count": 76,
- "first_seen": "2026-08-18T23:20:13+00:00",
+ "field_count": 61,
+ "first_seen": "2026-08-21T07:21:43+00:00",
  "id": "npm-express",
- "last_changed": "2026-08-20T19:42:46+00:00",
+ "last_changed": "2026-08-21T07:21:43+00:00",
  "pending_keys": [],
  "schema": {
   "_hasShrinkwrap": [
@@ -75,52 +75,7 @@
   "devDependencies": [
    "object"
   ],
-  "devDependencies.after": [
-   "string"
-  ],
-  "devDependencies.connect-redis": [
-   "string"
-  ],
-  "devDependencies.cookie-parser": [
-   "string"
-  ],
-  "devDependencies.cookie-session": [
-   "string"
-  ],
-  "devDependencies.ejs": [
-   "string"
-  ],
-  "devDependencies.eslint": [
-   "string"
-  ],
-  "devDependencies.express-session": [
-   "string"
-  ],
-  "devDependencies.hbs": [
-   "string"
-  ],
-  "devDependencies.marked": [
-   "string"
-  ],
-  "devDependencies.method-override": [
-   "string"
-  ],
-  "devDependencies.mocha": [
-   "string"
-  ],
-  "devDependencies.morgan": [
-   "string"
-  ],
-  "devDependencies.nyc": [
-   "string"
-  ],
-  "devDependencies.pbkdf2-password": [
-   "string"
-  ],
-  "devDependencies.supertest": [
-   "string"
-  ],
-  "devDependencies.vhost": [
+  "devDependencies.{*}": [
    "string"
   ],
   "directories": [
