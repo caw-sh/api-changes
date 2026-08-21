@@ -9,7 +9,11 @@
  "first_seen": "2026-08-18T23:20:13+00:00",
  "id": "spec-openai",
  "last_changed": "2026-08-21T19:58:45+00:00",
- "pending_keys": [],
+ "pending_keys": [
+  "FIELD_ADDED:schema:PublicProjectResidency",
+  "TYPE_CHANGED:schema:Project",
+  "TYPE_CHANGED:schema:ProjectUpdateRequest"
+ ],
  "schema": {
   "DELETE /assistants/{assistant_id}": [
    "DEPRECATED",
