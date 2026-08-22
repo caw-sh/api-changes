@@ -1,55 +1,35 @@
 {
  "auth": "anon",
  "category": "ai",
- "field_count": 36,
+ "field_count": 17,
  "field_state": {
   "absent": {
-   "incidents": 3,
-   "incidents[]": 3,
-   "incidents[].created_at": 3,
-   "incidents[].id": 3,
-   "incidents[].impact": 3,
-   "incidents[].incident_updates": 3,
-   "incidents[].incident_updates[]": 3,
-   "incidents[].incident_updates[].body": 3,
-   "incidents[].incident_updates[].created_at": 3,
-   "incidents[].incident_updates[].display_at": 3,
-   "incidents[].incident_updates[].id": 3,
-   "incidents[].incident_updates[].incident_id": 3,
-   "incidents[].incident_updates[].status": 3,
-   "incidents[].incident_updates[].updated_at": 3,
-   "incidents[].monitoring_at": 3,
-   "incidents[].name": 3,
-   "incidents[].page_id": 3,
-   "incidents[].status": 3,
-   "incidents[].updated_at": 3
+   "incidents": 4,
+   "incidents[]": 4,
+   "incidents[].created_at": 4,
+   "incidents[].id": 4,
+   "incidents[].impact": 4,
+   "incidents[].incident_updates": 4,
+   "incidents[].incident_updates[]": 4,
+   "incidents[].incident_updates[].body": 4,
+   "incidents[].incident_updates[].created_at": 4,
+   "incidents[].incident_updates[].display_at": 4,
+   "incidents[].incident_updates[].id": 4,
+   "incidents[].incident_updates[].incident_id": 4,
+   "incidents[].incident_updates[].status": 4,
+   "incidents[].incident_updates[].updated_at": 4,
+   "incidents[].monitoring_at": 4,
+   "incidents[].name": 4,
+   "incidents[].page_id": 4,
+   "incidents[].status": 4,
+   "incidents[].updated_at": 4
   },
   "optional": []
  },
  "first_seen": "2026-08-18T23:20:13+00:00",
  "id": "status-openai-summary",
- "last_changed": "2026-08-21T21:02:19+00:00",
- "pending_keys": [
-  "FIELD_REMOVED:incidents",
-  "FIELD_REMOVED:incidents[]",
-  "FIELD_REMOVED:incidents[].created_at",
-  "FIELD_REMOVED:incidents[].id",
-  "FIELD_REMOVED:incidents[].impact",
-  "FIELD_REMOVED:incidents[].incident_updates",
-  "FIELD_REMOVED:incidents[].incident_updates[]",
-  "FIELD_REMOVED:incidents[].incident_updates[].body",
-  "FIELD_REMOVED:incidents[].incident_updates[].created_at",
-  "FIELD_REMOVED:incidents[].incident_updates[].display_at",
-  "FIELD_REMOVED:incidents[].incident_updates[].id",
-  "FIELD_REMOVED:incidents[].incident_updates[].incident_id",
-  "FIELD_REMOVED:incidents[].incident_updates[].status",
-  "FIELD_REMOVED:incidents[].incident_updates[].updated_at",
-  "FIELD_REMOVED:incidents[].monitoring_at",
-  "FIELD_REMOVED:incidents[].name",
-  "FIELD_REMOVED:incidents[].page_id",
-  "FIELD_REMOVED:incidents[].status",
-  "FIELD_REMOVED:incidents[].updated_at"
- ],
+ "last_changed": "2026-08-22T02:05:16+00:00",
+ "pending_keys": [],
  "schema": {
   "components": [
    "array"
@@ -76,63 +56,6 @@
    "string"
   ],
   "components[].updated_at": [
-   "string"
-  ],
-  "incidents": [
-   "array"
-  ],
-  "incidents[]": [
-   "object"
-  ],
-  "incidents[].created_at": [
-   "string"
-  ],
-  "incidents[].id": [
-   "string"
-  ],
-  "incidents[].impact": [
-   "string"
-  ],
-  "incidents[].incident_updates": [
-   "array"
-  ],
-  "incidents[].incident_updates[]": [
-   "object"
-  ],
-  "incidents[].incident_updates[].body": [
-   "string"
-  ],
-  "incidents[].incident_updates[].created_at": [
-   "string"
-  ],
-  "incidents[].incident_updates[].display_at": [
-   "string"
-  ],
-  "incidents[].incident_updates[].id": [
-   "string"
-  ],
-  "incidents[].incident_updates[].incident_id": [
-   "string"
-  ],
-  "incidents[].incident_updates[].status": [
-   "string"
-  ],
-  "incidents[].incident_updates[].updated_at": [
-   "string"
-  ],
-  "incidents[].monitoring_at": [
-   "string"
-  ],
-  "incidents[].name": [
-   "string"
-  ],
-  "incidents[].page_id": [
-   "string"
-  ],
-  "incidents[].status": [
-   "string"
-  ],
-  "incidents[].updated_at": [
    "string"
   ],
   "page": [
